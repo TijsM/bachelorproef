@@ -1,0 +1,30 @@
+% Encoding: UTF-8
+
+@Article{Sayali2018,
+  author   = {Sayali Tandel, Abhishek Jamadar},
+  title    = {Impact of Progressive Web Apps on Web App Development},
+  journal  = {Interanational journal of innovative research in Science, Engineering and Technology},
+  year     = {2018},
+  date     = {2018-09-09},
+  volume   = {7},
+  number   = {9},
+  pages    = {9439--9444},
+  issn     = {2319-8753},
+  doi      = {10.15680/IJIRSET.2018.0709021},
+  url      = {https://www.researchgate.net/publication/330834334_Impact_of_Progressive_Web_Apps_on_Web_App_Development?_esc=publicationCoverPdf&el=1_x_3&enrichId=rgreq-e80773901ef199bf3e074fd68e4ef13f-XXX&enrichSource=Y292ZXJQYWdlOzMzMDgzNDMzNDtBUzo3MjE5NjU3NjE0NDE3OTVAMTU0OTE0MTQ1OTI1OQ%3D%3D},
+  urldate  = {2019-12-06},
+  abstract = {Innovation in technology always makes an impact on how products and services are designed. The invention of Smartphone especially and after the launch of Android OS which is free there is a huge increase in the use of smartphones. Most of the users use native mobile applications for browsing the contents of the particular industry. The other way is to browse the contents is through a web browser. But both the ways have limitations. The first way which is the native app, user is required to download the app firstly and then they must use it as per their requirements. This has two major disadvantages, one is it takes space on local storage of smartphone device and the network connection must be strong enough to operate it smoothly. The areas where 2G or lesser bandwidth or 3G network is available, it becomes a slow process to access this native app. The second way which is through the web browser has disadvantages since the user experience is not as great as native app. In order to overcome the  above limitations, Google has provided a solution of Progressive Web  App (PWA) which combines the best of web and mobile apps  giving us a rich experience just like the native apps. It is a website built using web technologies that acts like an app. PWA is a website built using web technologies that acts like an app and is not required to be installed like a native app. 
+ },
+  file     = {:C\:/drive/KEA + HoGent 2019-2020/bachelorProef/voorstel/literatuurstudie/Impact of Progressive Web Apps on Web App Development.pdf:PDF},
+}
+
+@Online{CodingTech2018,
+  author   = {CodingTech},
+  title    = {PWAs vs Native (aka There's A Progressive Web App For That)},
+  year     = {2018},
+  date     = {2018-04-22},
+  url      = {https://www.youtube.com/watch?v=vhg01Ml-8pI},
+  abstract = {PWAs aren't just a worthwhile endeavor because it's something new. These web-based apps hold a ton of potential. Some of these advantages hold key-value over native apps and remedy some of the issues that these traditional app experiences face. Watch this video to learn about the benefits of PWAs compared to native apps.},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}
