@@ -3,9 +3,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Introductie}{1}{section.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}State-of-the-art}{1}{section.2}%
+\contentsline {section}{\numberline {2}State-of-the-art}{2}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Wat is een PWA}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.1}Wat is een PWA}{2}{subsection.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{2}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
@@ -17,7 +17,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Methodologie}{2}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Technologieën}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}Technologieën}{3}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Verwachte resultaten}{3}{section.4}%
 \defcounter {refsection}{0}\relax 

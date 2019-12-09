@@ -2494,15 +2494,15 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">Sayali2018</bcf:citekey>
-    <bcf:citekey order="2">CodingTech2018</bcf:citekey>
+    <bcf:citekey order="2">Harris2017</bcf:citekey>
     <bcf:citekey order="3">Malavolta2016</bcf:citekey>
     <bcf:citekey order="4">Destrebecq2018</bcf:citekey>
-    <bcf:citekey order="5">Google2019</bcf:citekey>
-    <bcf:citekey order="6">Google2017</bcf:citekey>
+    <bcf:citekey order="5">Google2017</bcf:citekey>
+    <bcf:citekey order="6">Google2019</bcf:citekey>
     <bcf:citekey order="7">GooglePwa2019</bcf:citekey>
     <bcf:citekey order="8">Durumeric2013</bcf:citekey>
     <bcf:citekey order="9">Lee2018</bcf:citekey>
-    <bcf:citekey order="10">GoogleChromeDevelopers2019</bcf:citekey>
+    <bcf:citekey order="10">Richard2019</bcf:citekey>
     <bcf:citekey order="11">Malavolta2016</bcf:citekey>
     <bcf:citekey order="12">Hansen2017</bcf:citekey>
   </bcf:section>

@@ -3,18 +3,22 @@
 \section{Introductie} % The \section*{} command stops section numbering
 \label{sec:introductie}
 
-Op een desktop is het gebruikelijk om taken uit te voeren in de browser, voorbeelden hiervan zijn gmail en google drive. Dit is echter nog niet het geval op mobiele toestellen. Elke mobiele service heeft momenteel een native applicatie nodig om een goede omzetting ratio te hebben, met een native applicatie is het ook makkelijker om gebruikers op een platform te houden.
-Dit is echter geen goedkope of snelle oplossing. Er moet gelijkaardige code geschreven worden voor meerdere platformen. Digitale agentschappen en andere software ontwikkeling bedrijven willen vaak een zo snel mogelijke service bieden aan hun klanten, dit is momenteel moeilijk.
+Op een desktop is het gebruikelijk om taken uit te voeren in de browser. Voorbeelden hiervan zijn Gmail en Google drive. Dit is echter nog niet het geval op mobiele toestellen. Elke mobiele service heeft momenteel een native applicatie nodig om een goede omzetting ratio te hebben. Met een native applicatie is het ook makkelijker om gebruikers op een platform te houden.
+Dit geen goedkope of snelle oplossing. Er moet gelijkaardige code geschreven worden voor meerdere platformen. Digitale agentschappen en andere software ontwikkeling bedrijven willen vaak een zo snel mogelijke service bieden aan hun klanten, dit is momenteel moeilijk.
 
-Progressive web apps kan voor deze problemen een oplossing bieden.
-Bij het ontwikkelen van een mobiele applicatie zijn vaak functies aangeboden door het besturingssysteem nodig. Voorbeelden hiervan zijn zijn: locatievoorzieningen, offline gebruik, camera, …
+Progressive web apps kunnen voor deze problemen een oplossing bieden.
+Bij het ontwikkelen van een mobiele applicatie zijn vaak functies, aangeboden door het besturingssysteem, nodig. Voorbeelden hiervan zijn zijn: locatievoorzieningen, offline gebruik, camera, …
 
-In deze thesis zal onderzocht worden welke functionaliteiten een PWA kan implementeren.
-Er zal ook gezocht worden naar oplossing voor de functionaliteiten die niet beschikbaar zijn voor progressive web apps.
-Een mogelijke oplossing is een native omhulsel maken waar een PWA gebruik kan van maken.
-In een laatste fase zal er gekeken worden naar hoe de verschillende besturingssystemen (Android, IOS en eventueel windows) omgaan met progressive web apps.
-Dit zal gebeuren aan de hand van een vergelijkende studie ten opzichte van native apps.
+In deze thesis zullen volgende onderzoeksvragen onderzocht worden
+\begin{itemize}
+    \item Hoe groot is de barrière om van een web applicatie  een progressive web app te maken?
+    \item Wat zijn de beperkingen van een progressive web app?
+    \item Hoe kan een PWA alle functionaliteiten gebruiken die beschikbaar zijn voor native applicaties?
+    \item Hoe staan de verschillende besturingssystemen ten opzichte van progressive web apps?
+    \item Welke andere technologieën kunnen er gebruikt worden om applicaties te ontwikkelen voor meerdere platformen waarbij er maar 1 codebase is?
+\end{itemize}
 
+ 
 
 
 
@@ -24,7 +28,7 @@ Dit zal gebeuren aan de hand van een vergelijkende studie ten opzichte van nativ
 \label{sec:state-of-the-art}
 \subsection{Wat is een PWA}
 
-Een PWA is een website gebouwd met web technologieën die het gedrag heeft van een native app maar waarbij er niet door het installeerproces moet gegaan worden zoals bij native applicaties.
+Een PWA is een website gebouwd met web technologieën die zich gedraagt als een native app maar waarbij er niet door het installatie proces moet gegaan worden zoals bij native applicaties.
 \autocite{Sayali2018}
 
 Een PWA is een 'enhanced website', dit is een website met een paar extra bestanden die er voor zorgen dat de site extra functionaliteiten heeft. Volgende bestanden zijn nodig om een van een website een PWA te maken
@@ -32,7 +36,7 @@ Een PWA is een 'enhanced website', dit is een website met een paar extra bestand
     \item Manifest.json – Dit is een bestand waar je enkele eigenschappen van de applicatie instelt zoals: app icoon, startpagina, kleurschema, …
     \item Service worker – Dit is een bestand waarbij je zelf caching kan doen. Hierdoor kan, eens een website geladen is geweest, de site offline gebruikt worden.
 \end{itemize}
-\autocite{CodingTech2018}
+\autocite{Harris2017}
 
 \subsection{Welke functies van een besturingssysteem kan een PWA gebruiken}
 Niet alle besturingssystemen geven evenveel functies die gebruikt kunnen worden vanuit een PWA: IOS and Android stellen volgende functies ter beschikking
@@ -54,7 +58,7 @@ Andere functies waar native apps wel toegang tot hebben zijn niet beschikbaar vo
     \item Toegang tot telefonie data
     \item Berichten
     \item Bel functie
-    \item Toegang tot low lever hardware sensoren
+    \item Toegang tot low level hardware sensoren
     \item Camera (video’s)
     \item Maximum storage van 50Mb op IOS
     \item Geen widgets
@@ -64,24 +68,25 @@ Andere functies waar native apps wel toegang tot hebben zijn niet beschikbaar vo
 \autocite{Destrebecq2018}
 
 \subsection{Waarom progressive web applications}
-Gebruikers kunnen gefrustreerd raken door het verschil tussen een website en een mobiele app. Dit verschil komt er omdat dit totaal verschillende code-bases zijn. Met progressive web applicaties wordt er 1 codebase geschreven die op alle platformen gebruikt wordt. Hierdoor zal het systeem op elk platform heel gelijkaardig werken.
-\autocite{Google2019}
 
-De verwachtingen van een website van gebruikers zijn hoger dan ooit. Als je website niet binnen 3 seconden geladen is zal je al 53%
-van de gebruikers verliezen. Dit kan voorkomen worden door progressive web apps. Als de website 1 maal geladen is geweest kan de site opgeslagen worden in het cache geheugen. 
+De verwachtingen die een gebruiker heeft van een website of mobiele service zijn hoger dan ooit. Als je website niet binnen 3 seconden geladen is zal je al 53%
+van de gebruikers verliezen. Dit kan voorkomen worden door progressive web apps. Als de website 1 maal geladen is geweest kan de site opgeslagen worden in het cache geheugen. Dit zorgt voor een snellere ervaring.
 \autocite{Google2017}
 
-Volgens google zijn er 3 grote redenen om over te schakelen naar PWA’s
+Gebruikers raken gerustreerd als het gedrag van een service anders is op de verschillende platformen. Dit verschil komt er omdat dit totaal verschillende code-bases zijn, die vaak door verschillende teams ontwikkeld en onderhouden worden. Met progressive web applicaties wordt er 1 codebase geschreven die op alle platformen gebruikt wordt. Hierdoor zal het systeem op elk platform heel gelijkaardig werken.
+\autocite{Google2019}
+
+Volgens Google zijn er 3 grote redenen om over te schakelen naar PWA’s
 
 \begin{itemize}
-    \item Betrouwbaarheid – Door het cache geheugen zal een gebruiker nooit een pagina terechtkomen die hem verteld dat hij geen internet connectie heeft.
-    \item Snelheid – Een PWA kan sneller zijn dan een gewone website door het gebruik van cache storage, een PWA kan sneller zijn dan een native app doordat het een veel kleiner bestand is.
+    \item Betrouwbaarheid – Door het cache geheugen zal een gebruiker nooit een pagina terechtkomen met een melding dat er geen internet connectie is.
+    \item Snelheid – Een PWA kan sneller zijn dan een gewone website door het gebruik van cache storage. Een PWA kan sneller zijn dan een native app doordat het een veel kleiner bestand is.
     \item Aantrekkelijkheid – een PWA kan aanvoelen als een native applicatie.
 \end{itemize}
 \autocite{GooglePwa2019}
 
 \subsection{Beveiliging}
-Een Progressive web application moet altijd een een HTTPS verbinding hebben. Dit wil zeggen dat de data die tussen de client en de server verstuurd wordt versleuteld is.
+Een Progressive web application moet altijd een HTTPS verbinding hebben. Dit wil zeggen dat de data die tussen de client en de server verstuurd wordt versleuteld is.
 \autocite{Durumeric2013}
 Dit is een stap in de juiste richting maar het zorgt er dus niet voor dat elke PWA een veilige applicatie is. PWA’s worden vandaag gebruikt om gebruikers op te lichten. Een vaak gebruikte techniek is dat een bestaande native applicatie wordt nagemaakt. Op deze manier proberen ze wachtwoorden en betalingsdetails te verkrijgen.
 \autocite{Lee2018}
@@ -89,8 +94,8 @@ Dit is een stap in de juiste richting maar het zorgt er dus niet voor dat elke P
 \subsection{Native containers}
 Niet alle problemen kunnen opgelost worden via het web de dag van vandaag. Voor sommige taken zijn nog steeds native applicaties nodig. Als er een PWA moet gemaakt worden met de functies van een native applicatie, kan deze PWA ontsloten worden door een native wrapper.
 Een nadeel hiervan is dat de grootte van een PWA drastisch verhoogt.
-Een ander nadeel is dat er twee of meer codebases onderhouden moeten worden. Die van de site en die van de wrappers.
-\autocite{GoogleChromeDevelopers2019}
+Een ander nadeel is dat er twee of meer codebases onderhouden moeten worden, één van de site en minstens één van de wrappers.
+\autocite{Richard2019}
 
 
 
@@ -105,13 +110,18 @@ Een ander nadeel is dat er twee of meer codebases onderhouden moeten worden. Die
 %---------- Methodologie ------------------------------------------------------
 \section{Methodologie}
 \label{sec:methodologie}
-Het onderzoek zal uit 3 delen bestaan. Een eerste deel waar ik een PWA maak die gebruik maakt van de functionaliteiten van een besturingssysteem die aanspreekbaar zijn vanuit een progressive web app. 
+Het onderzoek zal uit 3 delen bestaan. 
 
-In het tweede luik van het onderzoek zal er gezocht worden naar hoe functies toch gebruikt kunnen worden van een besturingssysteem die normaal enkel bruikbaar zijn door native apps. Voorbeelden hiervan zijn bluetooth, NFC, … 
-Er zal een PWA ontwikkeld worden waar deze functionaliteiten gebruikt worden  door deze progressive web app te ontsluiten in een Native shell.
+Een eerste deel waar ik een PWA maak die gebruik maakt van de functionaliteiten van een besturingssysteem die aanspreekbaar zijn vanuit een progressive web app. 
 
-Na het ontwikkelen van deze demoprojecten zal er geconcludeerd worden hoe ver progressive web apps staan. Er zal een vergelijkende studie uitgevoerd worden waarbij ik de interactie met het besturingssysteem vergelijk tussen native apps en PWA.
-Het onderzoek zal toetsen hoe de besturingssystemen staan ten opzicht van progressive web apps. Er zal onderzoek gevoerd worden naar de user experience eens de applicatie ontwikkeld is en online staat. Maar er zal ook getoetst worden welk besturingssysteem de beste ervaring geeft voor de ontwikkelaar.
+In het tweede luik van het onderzoek zal er gezocht worden naar hoe de functies die normaal enkel toegangkelijk zijn vanuit een native app toch gebruikt kunnen worden binenen een PWA. Voorbeelden hiervan zijn bluetooth, NFC, … 
+Er zal een PWA ontwikkeld worden waar deze functionaliteiten gebruikt worden door deze progressive web app te ontsluiten in een Native shell.
+
+Na het voeren van deze twee praktische onderzoeken zullen er ook theoretische onderzoeken gevoerd worden. 
+Er zal bekeken worden welke besturingssystemen de meeste functionaliteiten bieden waar progressive web apps gebruik kunnen van maken. 
+Er zal ook in kaart gebracht worden wat de zwaktes en limiterende factoren zijn van een PWA ten opzichten van een native applicatie.
+In een laatste deel van het onderzoek zal er gezocht worden naar andere technologieën waarbij applicaties kunnen ontwikkeld worden voor meerdere platformen met één codebase. De ervaring die deze technologieën bieden voor de eindgebruiker en de ontwikkelaar zullen bekeken worden.
+
 
 
 \subsection{Technologieën}
@@ -120,7 +130,7 @@ Progressive web apps kunnen gemaakt worden met de tools die gebruikt worden om g
 Voor de onderzoeken zal voor de eerste fase HTML, CSS en JavaScript gebruikt worden. Eventueel kan er ook gebruik gemaakt worden van een javascript library zoals React.
 Er zijn verschillende tools beschikbaar voor het creëren van PWA’s éen van deze tools is Ionic.
 Voor het maken van een native shell zal er waarschijnlijk gebruik gemaakt worden van react native. Dit is een framework waarbij éen codebase gebruikt wordt om apps te ontwikkelen voor IOS en Android. Hier moet er nog steeds vaak gelijkaardige code geschreven worden om de code te laten werken op de verschillende platformen.
-Een andere oplossing voor het maken van native wrappers is Apache Cordova.
+
 
 
 
@@ -129,13 +139,13 @@ Een andere oplossing voor het maken van native wrappers is Apache Cordova.
 \label{sec:verwachte_resultaten}
 
 
-De verwachting is dat het maken van en website die voldoet aan de kenmerken van een PWA niet zo moeilijk zal zijn. Effectief gebruik maken van de extra functionaliteiten die een progressive web app biedt zal minder eenvoudig zijn. Ik verwacht dat het proces waarbij je manueel data uit API-verzoeken cachet moeilijk en complex zal zijn.
+De verwachting is dat het maken van een website die voldoet aan de kenmerken van een PWA niet zo moeilijk zal zijn. Effectief gebruik maken van de extra functionaliteiten die een progressive web app biedt zal minder eenvoudig zijn. De verwachting is dat het proces waarbij er manueel data uit API-verzoeken gecached wordt moeilijk en complex zal zijn.
 Het ontwikkelen van een PWA die wel gebruik kan maken van alle features die beschikbaar zijn voor native apps zal ingewikkelder zijn en zal meer tijd vragen. 
-Bij het maken van een ‘web based hybrid mobile app’  wordt de PWA in een bestaande native container geplaatst. Deze applicatie kan dan in de app-stores geüpload worden.
+Bij het maken van zo een ‘web based hybrid mobile app’  wordt de PWA in een bestaande native container geplaatst. Deze applicatie kan dan in de app-stores geüpload worden.
 \autocite{Malavolta2016}
-Er wordt verwacht dat bij de besturingssystemen een duidelijk verschil zal zijn. 
-Google, de ontwikkelaar van Android, heeft de revolutie die progressive web applications wel is gestart. Ze proberen zoveel mogelijk ontwikkelaars te overtuigen om PWA’s te maken. Hierdoor wordt er verwacht dat Android meer functies van het besturingssysteem open zal stellen voor PWA’s.
-Apple daarentegen is bekend om toegang tot het besturingssysteem te zoveel mogelijk te beperken. Ik verwacht een duidelijk verschil tussen deze twee besturingssystemen. 
+Er wordt verwacht dat er bij de besturingssystemen een duidelijk verschil zal zijn. 
+Google, de ontwikkelaar van Android, heeft de revolutie die progressive web applications wel zijn gestart. Ze proberen zoveel mogelijk ontwikkelaars te overtuigen om PWA’s te maken. Hierdoor wordt er verwacht dat Android meer functies van het besturingssysteem open zal stellen voor PWA’s.
+Het is daarentegen bekend dat Apple toegang tot het besturingssysteem zoveel mogelijk wil beperken. Ik verwacht een duidelijk verschil tussen deze twee besturingssystemen. 
 \autocite{Hansen2017}
 
 
@@ -147,6 +157,6 @@ Apple daarentegen is bekend om toegang tot het besturingssysteem te zoveel mogel
 
 Native applicaties zullen waarschijnlijk niet snel vervangen worden. Ze bieden nog steeds de meeste flexibiliteit. Maar native applicaties bouwen is tijdrovend en duur. 
 Voor projecten met een kleiner budget of een scherpe deadline zullen PWA’s de markt domineren.
-Progressive web apps bieden vandaag al de snelste ervaring maar ontbreken nog functionaliteiten. Ik verwacht dat dit de komende jaren zal verbeteren.
+Progressive web apps bieden vandaag al de snelste ervaring maar er ontbreken nog functionaliteiten. Ik verwacht dat dit de komende jaren zal verbeteren.
 
 

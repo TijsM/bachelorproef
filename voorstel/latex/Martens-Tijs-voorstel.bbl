@@ -73,38 +73,6 @@
       \verb https://www.scitepress.org/Papers/2017/63537/63537.pdf
       \endverb
     \endentry
-    \entry{CodingTech2018}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=68bc81915dd77a112fa7c1cab8508240}{%
-           family={CodingTech},
-           familyi={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{68bc81915dd77a112fa7c1cab8508240}
-      \strng{fullhash}{68bc81915dd77a112fa7c1cab8508240}
-      \strng{bibnamehash}{68bc81915dd77a112fa7c1cab8508240}
-      \strng{authorbibnamehash}{68bc81915dd77a112fa7c1cab8508240}
-      \strng{authornamehash}{68bc81915dd77a112fa7c1cab8508240}
-      \strng{authorfullhash}{68bc81915dd77a112fa7c1cab8508240}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{PWAs aren't just a worthwhile endeavor because it's something new. These web-based apps hold a ton of potential. Some of these advantages hold key-value over native apps and remedy some of the issues that these traditional app experiences face. Watch this video to learn about the benefits of PWAs compared to native apps.}
-      \field{day}{22}
-      \field{month}{4}
-      \field{title}{PWAs vs Native (aka There's A Progressive Web App For That)}
-      \field{year}{2018}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=vhg01Ml-8pI
-      \endverb
-      \verb{url}
-      \verb https://www.youtube.com/watch?v=vhg01Ml-8pI
-      \endverb
-    \endentry
     \entry{Destrebecq2018}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=36cec0047fe3520dba3392fa05485410}{%
@@ -189,6 +157,9 @@
       \field{labeltitlesource}{title}
       \field{title}{speed matters}
       \field{year}{2017}
+      \verb{file}
+      \verb :C\:/drive/KEA + HoGent 2019-2020/bachelorProef/voorstel/literatuur_studie/brainfood-mobile-performance-vol3.pdf:PDF
+      \endverb
       \verb{urlraw}
       \verb https://www.awwwards.com/brainfood-mobile-performance-vol3.pdf
       \endverb
@@ -222,6 +193,9 @@
       \field{labeltitlesource}{title}
       \field{title}{Progressive Web Apps: The future of the mobile web.}
       \field{year}{2019}
+      \verb{file}
+      \verb :C\:/drive/KEA + HoGent 2019-2020/bachelorProef/voorstel/literatuur_studie/pwas-the-future-of-the-mobile-web (4).pdf:PDF
+      \endverb
       \verb{urlraw}
       \verb https://www.awwwards.com/PWA-ebook/en
       \endverb
@@ -229,35 +203,39 @@
       \verb https://www.awwwards.com/PWA-ebook/en
       \endverb
     \endentry
-    \entry{GoogleChromeDevelopers2019}{online}{}
+    \entry{Harris2017}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=40e56a6527d73c120abc609305d59486}{%
-           family={GoogleChromeDevelopers},
-           familyi={G\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=2cb294bf553662179662557d40b0d346}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{40e56a6527d73c120abc609305d59486}
-      \strng{fullhash}{40e56a6527d73c120abc609305d59486}
-      \strng{bibnamehash}{40e56a6527d73c120abc609305d59486}
-      \strng{authorbibnamehash}{40e56a6527d73c120abc609305d59486}
-      \strng{authornamehash}{40e56a6527d73c120abc609305d59486}
-      \strng{authorfullhash}{40e56a6527d73c120abc609305d59486}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \strng{namehash}{2cb294bf553662179662557d40b0d346}
+      \strng{fullhash}{2cb294bf553662179662557d40b0d346}
+      \strng{bibnamehash}{2cb294bf553662179662557d40b0d346}
+      \strng{authorbibnamehash}{2cb294bf553662179662557d40b0d346}
+      \strng{authornamehash}{2cb294bf553662179662557d40b0d346}
+      \strng{authorfullhash}{2cb294bf553662179662557d40b0d346}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{16}
-      \field{month}{11}
-      \field{title}{PWAs and capability highlights (Chrome Dev Summit 2019)}
-      \field{year}{2019}
+      \field{abstract}{PWAs aren't just a worthwhile endeavor because it's something new. These web-based apps hold a ton of potential. Some of these advantages hold key-value over native apps and remedy some of the issues that these traditional app experiences face. Watch this video to learn about the benefits of PWAs compared to native apps.}
+      \field{day}{10}
+      \field{month}{10}
+      \field{title}{PWAs vs Native (aka There's A Progressive Web App For That)}
+      \field{year}{2017}
       \field{dateera}{ce}
       \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=go27Hs5Qsds&feature=emb_logo
+      \verb https://www.youtube.com/watch?v=vhg01Ml-8pI
       \endverb
       \verb{url}
-      \verb https://www.youtube.com/watch?v=go27Hs5Qsds&feature=emb_logo
+      \verb https://www.youtube.com/watch?v=vhg01Ml-8pI
       \endverb
     \endentry
     \entry{Malavolta2016}{article}{}
@@ -350,6 +328,40 @@
       \endverb
       \verb{url}
       \verb https://cps.kaist.ac.kr/papers/18CCS-PPP.pdf
+      \endverb
+    \endentry
+    \entry{Richard2019}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=994337730b042af938214b69a8c6117b}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{994337730b042af938214b69a8c6117b}
+      \strng{fullhash}{994337730b042af938214b69a8c6117b}
+      \strng{bibnamehash}{994337730b042af938214b69a8c6117b}
+      \strng{authorbibnamehash}{994337730b042af938214b69a8c6117b}
+      \strng{authornamehash}{994337730b042af938214b69a8c6117b}
+      \strng{authorfullhash}{994337730b042af938214b69a8c6117b}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{month}{11}
+      \field{title}{Bridging the native app gap (Chrome Dev Summit 2019)}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=JKVZMqpiY7w&feature=youtu.be
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=JKVZMqpiY7w&feature=youtu.be
       \endverb
     \endentry
     \entry{Sayali2018}{article}{}
