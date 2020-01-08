@@ -1,0 +1,138 @@
+% Encoding: UTF-8
+
+@Article{Sayali2018,
+  author   = {Tandel, Sayali and Jamader, Abhishek},
+  title    = {Impact of Progressive Web Apps on Web App Development},
+  journal  = {Interanational journal of innovative research in Science, Engineering and Technology},
+  year     = {2018},
+  date     = {2018-09-09},
+  volume   = {7},
+  number   = {9},
+  pages    = {9439--9444},
+  issn     = {2319-8753},
+  doi      = {10.15680/IJIRSET.2018.0709021},
+  url      = {https://www.researchgate.net/publication/330834334_Impact_of_Progressive_Web_Apps_on_Web_App_Development?_esc=publicationCoverPdf&el=1_x_3&enrichId=rgreq-e80773901ef199bf3e074fd68e4ef13f-XXX&enrichSource=Y292ZXJQYWdlOzMzMDgzNDMzNDtBUzo3MjE5NjU3NjE0NDE3OTVAMTU0OTE0MTQ1OTI1OQ%3D%3D},
+  urldate  = {2019-12-06},
+  abstract = {Innovation in technology always makes an impact on how products and services are designed. The invention of Smartphone especially and after the launch of Android OS which is free there is a huge increase in the use of smartphones. Most of the users use native mobile applications for browsing the contents of the particular industry. The other way is to browse the contents is through a web browser. But both the ways have limitations. The first way which is the native app, user is required to download the app firstly and then they must use it as per their requirements. This has two major disadvantages, one is it takes space on local storage of smartphone device and the network connection must be strong enough to operate it smoothly. The areas where 2G or lesser bandwidth or 3G network is available, it becomes a slow process to access this native app. The second way which is through the web browser has disadvantages since the user experience is not as great as native app. In order to overcome the  above limitations, Google has provided a solution of Progressive Web  App (PWA) which combines the best of web and mobile apps  giving us a rich experience just like the native apps. It is a website built using web technologies that acts like an app. PWA is a website built using web technologies that acts like an app and is not required to be installed like a native app. 
+ },
+  file     = {:C\:/drive/KEA + HoGent 2019-2020/bachelorProef/voorstel/literatuurstudie/Impact of Progressive Web Apps on Web App Development.pdf:PDF},
+}
+
+@Online{Harris2017,
+  author   = {Harris, Mike},
+  title    = {PWAs vs Native (aka There's A Progressive Web App For That)},
+  year     = {2017},
+  date     = {2017-10-10},
+  url      = {https://www.youtube.com/watch?v=vhg01Ml-8pI},
+  abstract = {PWAs aren't just a worthwhile endeavor because it's something new. These web-based apps hold a ton of potential. Some of these advantages hold key-value over native apps and remedy some of the issues that these traditional app experiences face. Watch this video to learn about the benefits of PWAs compared to native apps.},
+}
+
+@Article{Malavolta2016,
+  author       = {Ivano, Malavolta},
+  title        = {Beyond Native Apps: Web Technologies To The Rescue},
+  journal      = {ResearchGate},
+  year         = {2016},
+  date         = {2016-10-01},
+  url          = {https://research.vu.nl/en/publications/beyond-native-apps-web-technologies-to-the-rescue-keynote},
+  abstract     = {As of today, mobile software development teams can follow a number of different development and distribution strategies, ranging from native apps, to mobile web apps, hybrid apps, and the recently emerging progressive web apps. This talk provides a state-of-the-art overview of the developmentstrategiesandtechnologiesfordevelopingmobile apps, each of them with its own advantages and drawbacks. In this context, the use of web technologies is discussed as a promising investment for moving forward one of the most intriguing challenges in the world of mobile apps: its fragmentation with respect to mobile platforms. A discussion of research challenges, and thus opportunities, closes the talk. },
+  file         = {:C\:/drive/KEA + HoGent 2019-2020/bachelorProef/voorstel/literatuurstudie/Beyond Native Apps - Web Technologies to the Rescue! .pdf:PDF},
+  organization = {Vrije universiteit Amsterdam},
+}
+
+@Online{Destrebecq2018,
+  author = {Destrebecq, Oliver},
+  title  = {For your MVP: PWA or mobile application?},
+  year   = {2019},
+  date   = {2019-02-12},
+  url    = {https://medium.com/swlh/pwa-or-mobile-application-d26e904e814e},
+}
+
+@Book{Google2019,
+  author = {Google and Microsoft and Awwwards},
+  title  = {Progressive Web Apps: The future of the mobile web.},
+  year   = {2019},
+  url    = {https://www.awwwards.com/PWA-ebook/en},
+  file   = {:C\:/drive/KEA + HoGent 2019-2020/bachelorProef/voorstel/literatuur_studie/pwas-the-future-of-the-mobile-web (4).pdf:PDF},
+}
+
+@Book{Google2017,
+  author = {Google and awwwards},
+  title  = {speed matters},
+  year   = {2017},
+  url    = {https://www.awwwards.com/brainfood-mobile-performance-vol3.pdf},
+  file   = {:C\:/drive/KEA + HoGent 2019-2020/bachelorProef/voorstel/literatuur_studie/brainfood-mobile-performance-vol3.pdf:PDF},
+}
+
+@Online{GooglePwa2019,
+  author = {Google},
+  title  = {Progressive Web Apps},
+  year   = {2019},
+  url    = {https://developers.google.com/web/progressive-web-apps},
+}
+
+@Online{Richard2019,
+  author = {Richard, Sam},
+  title  = {Bridging the native app gap (Chrome Dev Summit 2019)},
+  year   = {2019},
+  date   = {2019-11-16},
+  url    = {https://www.youtube.com/watch?v=JKVZMqpiY7w&feature=youtu.be},
+}
+
+@Article{Lee2018,
+  author  = {Lee, Jiyeon and Kim, Hayeon and Park, Junghwan},
+  title   = {Pride and Prejudice in Progressive Web Apps : Abusing Native App-like Features in Web Applications},
+  journal = {Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security},
+  year    = {2018},
+  date    = {2018-10-15},
+  url     = {https://cps.kaist.ac.kr/papers/18CCS-PPP.pdf},
+  file    = {:C\:/drive/KEA + HoGent 2019-2020/bachelorProef/voorstel/literatuurstudie/PrideandPrejudiceinProgressiveWebApps  - busingNativeApp-likeFeaturesinWebApplications.pdf:PDF},
+}
+
+@Article{Hansen2017,
+  author  = {Biorn-Hansen, Andreas and Majchrzak, Tim A. and Gronli, Tor-Morten},
+  title   = {Progressive Web Apps: The Possible Web-native Uniﬁer for Mobile Development},
+  journal = {SCITEPRESS},
+  year    = {2017},
+  doi     = {10.5220/0006353703440351},
+  url     = {https://www.scitepress.org/Papers/2017/63537/63537.pdf},
+  urldate = {2019-12-06},
+  file    = {:C\:/drive/KEA + HoGent 2019-2020/bachelorProef/voorstel/literatuurstudie/progressive web apps - the possible webnative unifier for mobile devlopment.pdf:PDF},
+}
+
+@Article{Durumeric2013,
+  author  = {Zakir, Durumeric and Kasten, James and Halderman, Alex j.},
+  title   = {Analysis of the HTTPS Certiﬁcate Ecosystem},
+  journal = {IMC '13 Proceedings of the 2013 conference on Internet measurement conference},
+  year    = {2013},
+  date    = {2013-10-23},
+  doi     = {10.1145/2504730.2504755},
+  url     = {https://dl.acm.org/citation.cfm?id=2504755},
+  file    = {:C\:/drive/KEA + HoGent 2019-2020/bachelorProef/voorstel/literatuurstudie/Analysis of the HTTPS Certificate Ecosystem.pdf:PDF},
+}
+
+@Article{Hiltunen2018,
+  author  = {Hiltunen, Mira},
+  title   = {Creating multiplatform experiences with progressive web apps},
+  journal = {Metropolia},
+  year    = {2018},
+  date    = {2018-12-13},
+  url     = {https://www.theseus.fi/bitstream/handle/10024/157245/Hiltunen_Mira.pdf?sequence=1},
+  file    = {:C\:/drive/KEA + HoGent 2019-2020/HoGent/bachelorProef/voorstel/literatuur_studie/Creating multiplatform experiences with.pdf:PDF},
+}
+
+@Online{Gaunt2019,
+  author = {Gaunt, Matt},
+  title  = {Service wokers: an introduction},
+  year   = {2019},
+  url    = {https://developers.google.com/web/fundamentals/primers/service-workers},
+}
+
+@Online{Osmani2016,
+  author = {Osmani, Addy},
+  title  = {Progressive Web Apps with React.js: Part 3 — Offline support and network resilience},
+  year   = {2016},
+  date   = {2016-10-05},
+  url    = {https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-3-offline-support-and-network-resilience-c84db889162c},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}
