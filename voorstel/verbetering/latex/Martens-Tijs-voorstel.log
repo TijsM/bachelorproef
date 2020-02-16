@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.5)  8 JAN 2020 12:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.5)  13 FEB 2020 14:19
 entering extended mode
 **./Martens-Tijs-voorstel.tex
 (Martens-Tijs-voorstel.tex
@@ -992,22 +992,22 @@ File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
 (Martens-Tijs-voorstel.aux)
 \openout1 = `Martens-Tijs-voorstel.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 8
-0.
+3.
  (D:\programs\miktex\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -1038,7 +1038,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 460.
 )
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring ON on input line 80.
+Package hyperref Info: Link coloring ON on input line 83.
 
 (D:\programs\miktex\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1051,254 +1051,27 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count437
 )
-LaTeX Info: Redefining \ref on input line 80.
-LaTeX Info: Redefining \pageref on input line 80.
-LaTeX Info: Redefining \nameref on input line 80.
+LaTeX Info: Redefining \ref on input line 83.
+LaTeX Info: Redefining \pageref on input line 83.
+LaTeX Info: Redefining \nameref on input line 83.
 
-(Martens-Tijs-voorstel.out) (Martens-Tijs-voorstel.out)
-\@outlinefile=\write4
-\openout4 = `Martens-Tijs-voorstel.out'.
-
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(64.01869pt, 717.00946pt, 64.01869pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=717.00946pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-44.2513pt
-* \headheight=11.0pt
-* \headsep=25.0pt
-* \topskip=10.0pt
-* \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
-* \columnsep=15.6491pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
-Package lastpage Info: Please have a look at the pageslts package at
-(lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 80.
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `Martens-Tijs-voorstel.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Martens-Tijs-voorstel.bbl' found.
-(Martens-Tijs-voorstel.bbl)
-Package biblatex Info: Reference section=0 on input line 80.
-Package biblatex Info: Reference segment=0 on input line 80.
-LaTeX Info: Redefining \microtypecontext on input line 80.
-Package microtype Info: Generating PDF output.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 80.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
- (D:\programs\miktex\tex/latex/microtype\mt-ptm.cfg
-File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
-)
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 8
-4.
-(D:\programs\miktex\tex/latex/psnfss\ot1phv.fd
-File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `phv' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 84.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 84.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <13> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 84.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 84.
-
-(D:\programs\miktex\tex/latex/psnfss\ot1ztmcm.fd
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `ztmcm' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 84.
-
-(D:\programs\miktex\tex/latex/psnfss\omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 84.
-
-(D:\programs\miktex\tex/latex/psnfss\omsztmcm.fd
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 84.
-
-(D:\programs\miktex\tex/latex/psnfss\omxztmcm.fd
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
-
-(D:\programs\miktex\tex/latex/microtype\mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-(D:\programs\miktex\tex/latex/microtype\mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+(Martens-Tijs-voorstel.out) (Martens-Tijs-voorstel.out
+! I can't write on file `Martens-Tijs-voorstel.pdf'.
+Please type another file name for output
+! Emergency stop.
+\Hy@OutlineName ...utline goto name{#2}count#3{#4}
                                                   
-l.84 \tableofcontents
-                      % Print the contents section
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.1 \BOOKMARK [1][-]{section.1}{Introductie}{}
+                                              % 1
+*** (job aborted, file error in nonstop mode)
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 84.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 84.
-(Martens-Tijs-voorstel.toc
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 4.
-)
-\tf@toc=\write5
-\openout5 = `Martens-Tijs-voorstel.toc'.
-
- (voorstel-inhoud.tex
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 1
-7.
-
-(D:\programs\miktex\tex/latex/psnfss\omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
- [1{C:/Users/tijsm/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-]
-Overfull \hbox (4.99367pt too wide) in paragraph at lines 44--44
-|[]\OT1/phv/b/n/10 Welke func-ties van een be-stu-rings-sys-teem kan
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (11.0pt): 
-Make it at least 20.86551pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-<HOGENT_Logo_Pos_rgb.png, id=108, 3503.0875pt x 1975.38pt>
-File: HOGENT_Logo_Pos_rgb.png Graphic file (type png)
-<use HOGENT_Logo_Pos_rgb.png>
-Package pdftex.def Info: HOGENT_Logo_Pos_rgb.png  used on input line 121.
-(pdftex.def)             Requested size: 55.48393pt x 31.2982pt.
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
-Make it at least 34.89824pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[2 <./HOGENT_Logo_Pos_rgb.png>])
-File: HOGENT_Logo_Pos_rgb.png Graphic file (type png)
-<use HOGENT_Logo_Pos_rgb.png>
-Package pdftex.def Info: HOGENT_Logo_Pos_rgb.png  used on input line 104.
-(pdftex.def)             Requested size: 55.48393pt x 31.2982pt.
- [3]
-Overfull \hbox (17.0906pt too wide) in paragraph at lines 104--104
-\OT1/ptm/m/n/10 (-20) oine -[] support -[] and -[] network -[] resilience -[] 
-c84db889162c$[][] 
- []
-
-
-AED: lastpage setting LastPage
-File: HOGENT_Logo_Pos_rgb.png Graphic file (type png)
-<use HOGENT_Logo_Pos_rgb.png>
-Package pdftex.def Info: HOGENT_Logo_Pos_rgb.png  used on input line 106.
-(pdftex.def)             Requested size: 55.48393pt x 31.2982pt.
-[4
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
- (Martens-Tijs-voorstel.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
-Package rerunfilecheck Info: File `Martens-Tijs-voorstel.out' has not changed.
-(rerunfilecheck)             Checksum: 624CD978657255339803AA9273D83CDC;833.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
-Package logreq Info: Writing requests to 'Martens-Tijs-voorstel.run.xml'.
-\openout1 = `Martens-Tijs-voorstel.run.xml'.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 30369 strings out of 492484
- 540526 string characters out of 3135129
- 1228953 words of memory out of 3000000
- 34144 multiletter control sequences out of 15000+200000
- 590638 words of font info for 241 fonts, out of 3000000 for 9000
+ 29414 strings out of 492484
+ 524466 string characters out of 3135129
+ 997808 words of memory out of 3000000
+ 33489 multiletter control sequences out of 15000+200000
+ 532845 words of font info for 25 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 52i,15n,67p,1498b,4660s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/programs/miktex/fonts/enc/dvips/base/8r.enc}<D:/programs/miktex/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb><D:/programs/miktex/fonts/type1/urw/helvetic/u
-hvb8a.pfb><D:/programs/miktex/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/programs/
-miktex/fonts/type1/urw/times/utmr8a.pfb><D:/programs/miktex/fonts/type1/urw/tim
-es/utmri8a.pfb>
-Output written on Martens-Tijs-voorstel.pdf (4 pages, 198086 bytes).
-PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 50286 words of extra memory for PDF output out of 51595 (max. 10000000)
-
+ 52i,1n,67p,850b,4660s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
