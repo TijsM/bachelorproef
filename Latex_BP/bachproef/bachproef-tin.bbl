@@ -1,0 +1,951 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{Hansen2017}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=4656531ba33fc1377a2cf2e47b8fb955}{%
+           family={Biorn-Hansen},
+           familyi={B\bibinithyphendelim H\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3925028a8aaf685ded3c7145910ea018}{%
+           family={Majchrzak},
+           familyi={M\bibinitperiod},
+           given={Tim\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5f980c3b2a08ac792f2e04a9659c139b}{%
+           family={Gronli},
+           familyi={G\bibinitperiod},
+           given={Tor-Morten},
+           giveni={T\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8f1b71950a02c8211030faecfb375016}
+      \strng{fullhash}{0458217ffe703c3c19f5e625ee973bb7}
+      \strng{bibnamehash}{0458217ffe703c3c19f5e625ee973bb7}
+      \strng{authorbibnamehash}{0458217ffe703c3c19f5e625ee973bb7}
+      \strng{authornamehash}{8f1b71950a02c8211030faecfb375016}
+      \strng{authorfullhash}{0458217ffe703c3c19f5e625ee973bb7}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SCITEPRESS}
+      \field{title}{Progressive Web Apps: The Possible Web-native Uniﬁer for Mobile Development}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
+      \field{urlyear}{2019}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.5220/0006353703440351
+      \endverb
+      \verb{file}
+      \verb :C\:/drive/KEA + HoGent 2019-2020/bachelorProef/voorstel/literatuurstudie/progressive web apps - the possible webnative unifier for mobile devlopment.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scitepress.org/Papers/2017/63537/63537.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.scitepress.org/Papers/2017/63537/63537.pdf
+      \endverb
+    \endentry
+    \entry{Destrebecq2018}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=36cec0047fe3520dba3392fa05485410}{%
+           family={Destrebecq},
+           familyi={D\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{36cec0047fe3520dba3392fa05485410}
+      \strng{fullhash}{36cec0047fe3520dba3392fa05485410}
+      \strng{bibnamehash}{36cec0047fe3520dba3392fa05485410}
+      \strng{authorbibnamehash}{36cec0047fe3520dba3392fa05485410}
+      \strng{authornamehash}{36cec0047fe3520dba3392fa05485410}
+      \strng{authorfullhash}{36cec0047fe3520dba3392fa05485410}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{month}{2}
+      \field{title}{For your MVP: PWA or mobile application?}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/swlh/pwa-or-mobile-application-d26e904e814e
+      \endverb
+      \verb{url}
+      \verb https://medium.com/swlh/pwa-or-mobile-application-d26e904e814e
+      \endverb
+    \endentry
+    \entry{GoogleDevelopers2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5dd6d3ed84559be35bfb198331ae071b}{%
+           family={developers},
+           familyi={d\bibinitperiod},
+           given={Google},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5dd6d3ed84559be35bfb198331ae071b}
+      \strng{fullhash}{5dd6d3ed84559be35bfb198331ae071b}
+      \strng{bibnamehash}{5dd6d3ed84559be35bfb198331ae071b}
+      \strng{authorbibnamehash}{5dd6d3ed84559be35bfb198331ae071b}
+      \strng{authornamehash}{5dd6d3ed84559be35bfb198331ae071b}
+      \strng{authorfullhash}{5dd6d3ed84559be35bfb198331ae071b}
+      \field{sortinit}{d}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Introduction to Push Notifications}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/ilt/pwa/introduction-to-push-notifications
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/ilt/pwa/introduction-to-push-notifications
+      \endverb
+    \endentry
+    \entry{Gaunt2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=76a3590dd04dae71a9be2c3d1c84b29f}{%
+           family={Gaunt},
+           familyi={G\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{fullhash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{bibnamehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{authorbibnamehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{authornamehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{authorfullhash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{month}{8}
+      \field{title}{Service Workers: an Introduction}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/fundamentals/primers/service-workers
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/fundamentals/primers/service-workers
+      \endverb
+    \endentry
+    \entry{Gaunt2020}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=76a3590dd04dae71a9be2c3d1c84b29f}{%
+           family={Gaunt},
+           familyi={G\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{fullhash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{bibnamehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{authorbibnamehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{authornamehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{authorfullhash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{month}{3}
+      \field{title}{Web Push Book}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://web-push-book.gauntface.com/downloads/web-push-book.pdf
+      \endverb
+      \verb{url}
+      \verb https://web-push-book.gauntface.com/downloads/web-push-book.pdf
+      \endverb
+    \endentry
+    \entry{GooglePwa2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Progressive Web Apps}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/progressive-web-apps
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/progressive-web-apps
+      \endverb
+    \endentry
+    \entry{Google2017}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+        {{uniquename=0,uniquepart=base,hash=d65fee4afcb158ef1144dc0e98e02883}{%
+           family={awwwards},
+           familyi={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{c37b2419225766d3cedf1fecaa75c176}
+      \strng{fullhash}{c37b2419225766d3cedf1fecaa75c176}
+      \strng{bibnamehash}{c37b2419225766d3cedf1fecaa75c176}
+      \strng{authorbibnamehash}{c37b2419225766d3cedf1fecaa75c176}
+      \strng{authornamehash}{c37b2419225766d3cedf1fecaa75c176}
+      \strng{authorfullhash}{c37b2419225766d3cedf1fecaa75c176}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{speed matters}
+      \field{year}{2017}
+      \verb{file}
+      \verb :C\:/drive/KEA + HoGent 2019-2020/bachelorProef/voorstel/literatuur_studie/brainfood-mobile-performance-vol3.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.awwwards.com/brainfood-mobile-performance-vol3.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.awwwards.com/brainfood-mobile-performance-vol3.pdf
+      \endverb
+    \endentry
+    \entry{Google2019}{book}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+        {{uniquename=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+        {{uniquename=0,uniquepart=base,hash=827456a9a7da54fa6a2ba7fd9cc0c5fd}{%
+           family={Awwwards},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b2c8bfd1bc974966209b7be1cb51a72}
+      \strng{fullhash}{fbc2b44db406971b17c9a486c8df9f1b}
+      \strng{bibnamehash}{fbc2b44db406971b17c9a486c8df9f1b}
+      \strng{authorbibnamehash}{fbc2b44db406971b17c9a486c8df9f1b}
+      \strng{authornamehash}{5b2c8bfd1bc974966209b7be1cb51a72}
+      \strng{authorfullhash}{fbc2b44db406971b17c9a486c8df9f1b}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Progressive Web Apps: The future of the mobile web.}
+      \field{year}{2019}
+      \verb{file}
+      \verb :C\:/drive/KEA + HoGent 2019-2020/bachelorProef/voorstel/literatuur_studie/pwas-the-future-of-the-mobile-web (4).pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.awwwards.com/PWA-ebook/en
+      \endverb
+      \verb{url}
+      \verb https://www.awwwards.com/PWA-ebook/en
+      \endverb
+    \endentry
+    \entry{Google2020}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+        {{uniquename=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+        {{uniquename=0,uniquepart=base,hash=827456a9a7da54fa6a2ba7fd9cc0c5fd}{%
+           family={Awwwards},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b2c8bfd1bc974966209b7be1cb51a72}
+      \strng{fullhash}{fbc2b44db406971b17c9a486c8df9f1b}
+      \strng{bibnamehash}{fbc2b44db406971b17c9a486c8df9f1b}
+      \strng{authorbibnamehash}{fbc2b44db406971b17c9a486c8df9f1b}
+      \strng{authornamehash}{5b2c8bfd1bc974966209b7be1cb51a72}
+      \strng{authorfullhash}{fbc2b44db406971b17c9a486c8df9f1b}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{20}
+      \field{journaltitle}{Awwwards}
+      \field{month}{3}
+      \field{title}{Progressive Web AppsThe Future of theMobile Web.}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.awwwards.com/PWA-ebook/
+      \endverb
+      \verb{url}
+      \verb https://www.awwwards.com/PWA-ebook/
+      \endverb
+    \endentry
+    \entry{Harris2017}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2cb294bf553662179662557d40b0d346}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2cb294bf553662179662557d40b0d346}
+      \strng{fullhash}{2cb294bf553662179662557d40b0d346}
+      \strng{bibnamehash}{2cb294bf553662179662557d40b0d346}
+      \strng{authorbibnamehash}{2cb294bf553662179662557d40b0d346}
+      \strng{authornamehash}{2cb294bf553662179662557d40b0d346}
+      \strng{authorfullhash}{2cb294bf553662179662557d40b0d346}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{PWAs aren't just a worthwhile endeavor because it's something new. These web-based apps hold a ton of potential. Some of these advantages hold key-value over native apps and remedy some of the issues that these traditional app experiences face. Watch this video to learn about the benefits of PWAs compared to native apps.}
+      \field{day}{10}
+      \field{month}{10}
+      \field{title}{PWAs vs Native (aka There's A Progressive Web App For That)}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=vhg01Ml-8pI
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=vhg01Ml-8pI
+      \endverb
+    \endentry
+    \entry{Hiltunen2018}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0882d92ce57d66e0e037ad0c8a303571}{%
+           family={Hiltunen},
+           familyi={H\bibinitperiod},
+           given={Mira},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0882d92ce57d66e0e037ad0c8a303571}
+      \strng{fullhash}{0882d92ce57d66e0e037ad0c8a303571}
+      \strng{bibnamehash}{0882d92ce57d66e0e037ad0c8a303571}
+      \strng{authorbibnamehash}{0882d92ce57d66e0e037ad0c8a303571}
+      \strng{authornamehash}{0882d92ce57d66e0e037ad0c8a303571}
+      \strng{authorfullhash}{0882d92ce57d66e0e037ad0c8a303571}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{journaltitle}{Metropolia}
+      \field{month}{12}
+      \field{title}{Creating multiplatform experiences with progressive web apps}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb :C\:/drive/KEA + HoGent 2019-2020/HoGent/bachelorProef/voorstel/literatuur_studie/Creating multiplatform experiences with.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.theseus.fi/bitstream/handle/10024/157245/Hiltunen_Mira.pdf?sequence=1
+      \endverb
+      \verb{url}
+      \verb https://www.theseus.fi/bitstream/handle/10024/157245/Hiltunen_Mira.pdf?sequence=1
+      \endverb
+    \endentry
+    \entry{Malavolta2016}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d65fb4713e912b421b3763bf9e1783f3}{%
+           family={Ivano},
+           familyi={I\bibinitperiod},
+           given={Malavolta},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Vrije universiteit Amsterdam}%
+      }
+      \strng{namehash}{d65fb4713e912b421b3763bf9e1783f3}
+      \strng{fullhash}{d65fb4713e912b421b3763bf9e1783f3}
+      \strng{bibnamehash}{d65fb4713e912b421b3763bf9e1783f3}
+      \strng{authorbibnamehash}{d65fb4713e912b421b3763bf9e1783f3}
+      \strng{authornamehash}{d65fb4713e912b421b3763bf9e1783f3}
+      \strng{authorfullhash}{d65fb4713e912b421b3763bf9e1783f3}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As of today, mobile software development teams can follow a number of different development and distribution strategies, ranging from native apps, to mobile web apps, hybrid apps, and the recently emerging progressive web apps. This talk provides a state-of-the-art overview of the developmentstrategiesandtechnologiesfordevelopingmobile apps, each of them with its own advantages and drawbacks. In this context, the use of web technologies is discussed as a promising investment for moving forward one of the most intriguing challenges in the world of mobile apps: its fragmentation with respect to mobile platforms. A discussion of research challenges, and thus opportunities, closes the talk.}
+      \field{day}{1}
+      \field{journaltitle}{ResearchGate}
+      \field{month}{10}
+      \field{title}{Beyond Native Apps: Web Technologies To The Rescue}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb :C\:/drive/KEA + HoGent 2019-2020/bachelorProef/voorstel/literatuurstudie/Beyond Native Apps - Web Technologies to the Rescue! .pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://research.vu.nl/en/publications/beyond-native-apps-web-technologies-to-the-rescue-keynote
+      \endverb
+      \verb{url}
+      \verb https://research.vu.nl/en/publications/beyond-native-apps-web-technologies-to-the-rescue-keynote
+      \endverb
+    \endentry
+    \entry{Lee2018}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=eb229eca3665cfc2c9489aa7807a8262}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jiyeon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bb7bf2dca26ed81ab1aab8e9b409e70d}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Hayeon},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f0b20ab9a59a60e3deffeda962117346}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Junghwan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ec02e1fc7ba5d79631ef235254499453}
+      \strng{fullhash}{3e55789aaac9d0332fd75d8cde387043}
+      \strng{bibnamehash}{3e55789aaac9d0332fd75d8cde387043}
+      \strng{authorbibnamehash}{3e55789aaac9d0332fd75d8cde387043}
+      \strng{authornamehash}{ec02e1fc7ba5d79631ef235254499453}
+      \strng{authorfullhash}{3e55789aaac9d0332fd75d8cde387043}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{journaltitle}{Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security}
+      \field{month}{10}
+      \field{title}{Pride and Prejudice in Progressive Web Apps : Abusing Native App-like Features in Web Applications}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb :C\:/drive/KEA + HoGent 2019-2020/bachelorProef/voorstel/literatuurstudie/PrideandPrejudiceinProgressiveWebApps - busingNativeApp-likeFeaturesinWebApplications.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://cps.kaist.ac.kr/papers/18CCS-PPP.pdf
+      \endverb
+      \verb{url}
+      \verb https://cps.kaist.ac.kr/papers/18CCS-PPP.pdf
+      \endverb
+    \endentry
+    \entry{Mozilla2019b}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=502f1bd97b0e7d80b88e1f45ae1bfdb8}{%
+           family={Mozilla},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{fullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{bibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorbibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authornamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorfullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{journaltitle}{Push API}
+      \field{month}{12}
+      \field{title}{https://developer.mozilla.org/en-US/docs/Web/API/Push_API}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Mozilla2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=502f1bd97b0e7d80b88e1f45ae1bfdb8}{%
+           family={Mozilla},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{fullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{bibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorbibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authornamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorfullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{11}
+      \field{title}{IndexedDB API}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
+      \endverb
+    \endentry
+    \entry{Mozilla2019a}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=502f1bd97b0e7d80b88e1f45ae1bfdb8}{%
+           family={Mozilla},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{fullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{bibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorbibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authornamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorfullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{month}{12}
+      \field{title}{Notifications API}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API
+      \endverb
+    \endentry
+    \entry{Mozilla2020a}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=502f1bd97b0e7d80b88e1f45ae1bfdb8}{%
+           family={Mozilla},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{fullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{bibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorbibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authornamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorfullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \field{extraname}{4}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{2}
+      \field{title}{Using Service Workers}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers
+      \endverb
+    \endentry
+    \entry{Mozilla2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=1,uniquepart=given,hash=ca5f97efaf65f558f75b15de8c2f4115}{%
+           family={Mozilla},
+           familyi={M\bibinitperiod},
+           given={Developer},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{ca5f97efaf65f558f75b15de8c2f4115}
+      \strng{fullhash}{ca5f97efaf65f558f75b15de8c2f4115}
+      \strng{bibnamehash}{ca5f97efaf65f558f75b15de8c2f4115}
+      \strng{authorbibnamehash}{ca5f97efaf65f558f75b15de8c2f4115}
+      \strng{authornamehash}{ca5f97efaf65f558f75b15de8c2f4115}
+      \strng{authorfullhash}{ca5f97efaf65f558f75b15de8c2f4115}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{3}
+      \field{title}{Making PWAs work offline with Service workers}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Offline_Service_workers
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Offline_Service_workers
+      \endverb
+    \endentry
+    \entry{Osmani2016}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d44fced3055604fd09c4e99476a58f00}{%
+           family={Osmani},
+           familyi={O\bibinitperiod},
+           given={Addy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{fullhash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{bibnamehash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{authorbibnamehash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{authornamehash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{authorfullhash}{d44fced3055604fd09c4e99476a58f00}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{month}{10}
+      \field{title}{Progressive Web Apps with React.js: Part 3 — Offline support and network resilience}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-3-offline-support-and-network-resilience-c84db889162c
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-3-offline-support-and-network-resilience-c84db889162c
+      \endverb
+    \endentry
+    \entry{Osmani2019}{online}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=d44fced3055604fd09c4e99476a58f00}{%
+           family={Osmani},
+           familyi={O\bibinitperiod},
+           given={Addy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d57bcd645378f44206acd920e048781d}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99cfa22f19932e79e903acdaff4e214f}
+      \strng{fullhash}{99cfa22f19932e79e903acdaff4e214f}
+      \strng{bibnamehash}{99cfa22f19932e79e903acdaff4e214f}
+      \strng{authorbibnamehash}{99cfa22f19932e79e903acdaff4e214f}
+      \strng{authornamehash}{99cfa22f19932e79e903acdaff4e214f}
+      \strng{authorfullhash}{99cfa22f19932e79e903acdaff4e214f}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{month}{2}
+      \field{title}{Offline Storage for Progressive Web Apps}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/offline-for-pwa
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/offline-for-pwa
+      \endverb
+    \endentry
+    \entry{Richard2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=994337730b042af938214b69a8c6117b}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{994337730b042af938214b69a8c6117b}
+      \strng{fullhash}{994337730b042af938214b69a8c6117b}
+      \strng{bibnamehash}{994337730b042af938214b69a8c6117b}
+      \strng{authorbibnamehash}{994337730b042af938214b69a8c6117b}
+      \strng{authornamehash}{994337730b042af938214b69a8c6117b}
+      \strng{authorfullhash}{994337730b042af938214b69a8c6117b}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{month}{11}
+      \field{title}{Bridging the native app gap (Chrome Dev Summit 2019)}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=JKVZMqpiY7w&feature=youtu.be
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=JKVZMqpiY7w&feature=youtu.be
+      \endverb
+    \endentry
+    \entry{Richard2020}{online}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=994337730b042af938214b69a8c6117b}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=496bca72317153bb4dd6936afe2c40cb}{%
+           family={LePage},
+           familyi={L\bibinitperiod},
+           given={Pete},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a7c6e9c156a710f44094590d8e8be701}
+      \strng{fullhash}{a7c6e9c156a710f44094590d8e8be701}
+      \strng{bibnamehash}{a7c6e9c156a710f44094590d8e8be701}
+      \strng{authorbibnamehash}{a7c6e9c156a710f44094590d8e8be701}
+      \strng{authornamehash}{a7c6e9c156a710f44094590d8e8be701}
+      \strng{authorfullhash}{a7c6e9c156a710f44094590d8e8be701}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{3}
+      \field{title}{What are Progressive Web Apps?}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://web.dev/what-are-pwas/
+      \endverb
+      \verb{url}
+      \verb https://web.dev/what-are-pwas/
+      \endverb
+    \endentry
+    \entry{Scales2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2fae911410cd63fff38c4d06ca5d2155}{%
+           family={Scales},
+           familyi={S\bibinitperiod},
+           given={Mat},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2fae911410cd63fff38c4d06ca5d2155}
+      \strng{fullhash}{2fae911410cd63fff38c4d06ca5d2155}
+      \strng{bibnamehash}{2fae911410cd63fff38c4d06ca5d2155}
+      \strng{authorbibnamehash}{2fae911410cd63fff38c4d06ca5d2155}
+      \strng{authornamehash}{2fae911410cd63fff38c4d06ca5d2155}
+      \strng{authorfullhash}{2fae911410cd63fff38c4d06ca5d2155}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{month}{2}
+      \field{title}{Using the Cache API}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/cache-api
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/cache-api
+      \endverb
+    \endentry
+    \entry{Verdu2015}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=09ea0ad489f2569d7d935918766ab02f}{%
+           family={Verdú},
+           familyi={V\bibinitperiod},
+           given={Javies},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7e42680d294ed24f02c77c470accf11b}{%
+           family={Pajuelo},
+           familyi={P\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3bcbbb52acb6ad398e6ba82cea313138}
+      \strng{fullhash}{3bcbbb52acb6ad398e6ba82cea313138}
+      \strng{bibnamehash}{3bcbbb52acb6ad398e6ba82cea313138}
+      \strng{authorbibnamehash}{3bcbbb52acb6ad398e6ba82cea313138}
+      \strng{authornamehash}{3bcbbb52acb6ad398e6ba82cea313138}
+      \strng{authorfullhash}{3bcbbb52acb6ad398e6ba82cea313138}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{issn}{1556-6064}
+      \field{journaltitle}{IEEE}
+      \field{month}{10}
+      \field{title}{Performance Scalability Analysis of JavaScript Applications with Web Workers}
+      \field{volume}{15}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{105\bibrangedash 108}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/LCA.2015.2494585
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/7307120
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/7307120
+      \endverb
+    \endentry
+    \entry{Durumeric2013}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=b8a173e8d9c3333d5b975eac80c270dc}{%
+           family={Zakir},
+           familyi={Z\bibinitperiod},
+           given={Durumeric},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bf19bf115b050d4190a2ea71b3e2c6ae}{%
+           family={Kasten},
+           familyi={K\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=def353153b7cb2dc7939809d9aa5188e}{%
+           family={Halderman},
+           familyi={H\bibinitperiod},
+           given={Alex\bibnamedelima j.},
+           giveni={A\bibinitperiod\bibinitdelim j\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a59a6aa45f1b692bf5efdb64ccd70d78}
+      \strng{fullhash}{0a83a344a427dd0fd9f1127ce77abe74}
+      \strng{bibnamehash}{0a83a344a427dd0fd9f1127ce77abe74}
+      \strng{authorbibnamehash}{0a83a344a427dd0fd9f1127ce77abe74}
+      \strng{authornamehash}{a59a6aa45f1b692bf5efdb64ccd70d78}
+      \strng{authorfullhash}{0a83a344a427dd0fd9f1127ce77abe74}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{23}
+      \field{journaltitle}{IMC '13 Proceedings of the 2013 conference on Internet measurement conference}
+      \field{month}{10}
+      \field{title}{Analysis of the HTTPS Certiﬁcate Ecosystem}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1145/2504730.2504755
+      \endverb
+      \verb{file}
+      \verb :C\:/drive/KEA + HoGent 2019-2020/bachelorProef/voorstel/literatuurstudie/Analysis of the HTTPS Certificate Ecosystem.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/citation.cfm?id=2504755
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/citation.cfm?id=2504755
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{Pollefliet2011}
+  \missing{Sayali2018}
+\endrefsection
+\endinput
+

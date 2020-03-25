@@ -1,0 +1,130 @@
+% Encoding: UTF-8
+
+@Online{Richard2020,
+  author = {Richard, Sam and LePage, Pete},
+  date   = {2020-03-06},
+  title  = {What are Progressive Web Apps?},
+  url    = {https://web.dev/what-are-pwas/},
+}
+
+@Article{Google2020,
+  author       = {Google and Microsoft and Awwwards},
+  date         = {2020-03-20},
+  journaltitle = {Awwwards},
+  title        = {Progressive Web AppsThe Future of theMobile Web.},
+  url          = {https://www.awwwards.com/PWA-ebook/},
+}
+
+@Online{Mozilla2020,
+  author = {Mozilla, Developer},
+  date   = {2020-03-06},
+  title  = {Making PWAs work offline with Service workers},
+  url    = {https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Offline_Service_workers},
+}
+
+@Article{Verdu2015,
+  author       = {Verdú, Javies and Pajuelo, Alex},
+  date         = {2015-10-26},
+  journaltitle = {IEEE},
+  title        = {Performance Scalability Analysis of JavaScript Applications with Web Workers},
+  doi          = {10.1109/LCA.2015.2494585},
+  issn         = {1556-6064},
+  pages        = {105-108},
+  url          = {https://ieeexplore.ieee.org/abstract/document/7307120},
+  volume       = {15},
+}
+
+@Article{Hiltunen2018,
+	author  = {Hiltunen, Mira},
+	title   = {Creating multiplatform experiences with progressive web apps},
+	journal = {Metropolia},
+	year    = {2018},
+	date    = {2018-12-13},
+	url     = {https://www.theseus.fi/bitstream/handle/10024/157245/Hiltunen_Mira.pdf?sequence=1},
+	file    = {:C\:/drive/KEA + HoGent 2019-2020/HoGent/bachelorProef/voorstel/literatuur_studie/Creating multiplatform experiences with.pdf:PDF},
+}
+
+@Article{Malavolta2016,
+	author       = {Ivano, Malavolta},
+	date         = {2016-10-01},
+	title        = {Beyond Native Apps: Web Technologies To The Rescue},
+	url          = {https://research.vu.nl/en/publications/beyond-native-apps-web-technologies-to-the-rescue-keynote},
+	abstract     = {As of today, mobile software development teams can follow a number of different development and distribution strategies, ranging from native apps, to mobile web apps, hybrid apps, and the recently emerging progressive web apps. This talk provides a state-of-the-art overview of the developmentstrategiesandtechnologiesfordevelopingmobile apps, each of them with its own advantages and drawbacks. In this context, the use of web technologies is discussed as a promising investment for moving forward one of the most intriguing challenges in the world of mobile apps: its fragmentation with respect to mobile platforms. A discussion of research challenges, and thus opportunities, closes the talk.},
+	file         = {:C\:/drive/KEA + HoGent 2019-2020/bachelorProef/voorstel/literatuurstudie/Beyond Native Apps - Web Technologies to the Rescue! .pdf:PDF},
+	journal      = {ResearchGate},
+	organization = {Vrije universiteit Amsterdam},
+	year         = {2016},
+}
+
+@Book{Google2017,
+	author = {Google and awwwards},
+	title  = {speed matters},
+	year   = {2017},
+	url    = {https://www.awwwards.com/brainfood-mobile-performance-vol3.pdf},
+	file   = {:C\:/drive/KEA + HoGent 2019-2020/bachelorProef/voorstel/literatuur_studie/brainfood-mobile-performance-vol3.pdf:PDF},
+}
+
+@Online{Osmani2019,
+  author = {Osmani, Addy and Cohen, Marc},
+  date   = {2019-02-12},
+  title  = {Offline Storage for Progressive Web Apps},
+  url    = {https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/offline-for-pwa},
+}
+
+@Online{Mozilla2020a,
+  author = {Mozilla},
+  date   = {2020-02-06},
+  title  = {Using Service Workers},
+  url    = {https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers},
+}
+
+@Online{Scales2019,
+  author = {Scales, Mat},
+  date   = {2019-02-12},
+  title  = {Using the Cache API},
+  url    = {https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/cache-api},
+}
+
+@Online{Mozilla2019,
+  author = {Mozilla},
+  date   = {2019-11-18},
+  title  = {IndexedDB API},
+  url    = {https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API},
+}
+
+@Online{GoogleDevelopers2019,
+  author = {Google developers},
+  date   = {2019-05-01},
+  title  = {Introduction to Push Notifications},
+  url    = {https://developers.google.com/web/ilt/pwa/introduction-to-push-notifications},
+}
+
+@Online{Mozilla2019a,
+  author = {Mozilla},
+  date   = {2019-12-11},
+  title  = {Notifications API},
+  url    = {https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API},
+}
+
+@Article{Mozilla2019b,
+  author       = {Mozilla},
+  date         = {2019-12-13},
+  journaltitle = {Push API},
+  title        = {https://developer.mozilla.org/en-US/docs/Web/API/Push_API},
+}
+
+@Book{Gaunt2020,
+  author = {Gaunt, Matt},
+  date   = {2020-03-25},
+  title  = {Web Push Book},
+  url    = {https://web-push-book.gauntface.com/downloads/web-push-book.pdf},
+}
+
+@Online{Gaunt2019,
+  author = {Gaunt, Matt},
+  date   = {2019-08-09},
+  title  = {Service Workers: an Introduction},
+  url    = {https://developers.google.com/web/fundamentals/primers/service-workers},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}
