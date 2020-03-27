@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  27 MAR 2020 16:07
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  27 MAR 2020 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2099,13 +2099,38 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 690.
 
-)) (./methodologie.tex
-Missing character: There is no ’ in font pagk8t!
- [41] [42
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
 
-]
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 705.
+
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 723.
+
+Missing character: There is no – in font ptmr8t!
+Missing character: There is no ’ in font pagk8t!
+[41]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 742.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 756.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 769.
+
+)) (./methodologie.tex [42]
 Hoofdstuk 3.
-) (./conclusie.tex [43] [44
+) (./conclusie.tex [43
+
+] [44
 
 ]
 Hoofdstuk 4.
@@ -2159,10 +2184,10 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42595 strings out of 492916
- 785195 string characters out of 6133345
- 1420227 words of memory out of 5000000
- 46029 multiletter control sequences out of 15000+600000
+ 42612 strings out of 492916
+ 785719 string characters out of 6133345
+ 1420700 words of memory out of 5000000
+ 46046 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,65p,817b,6757s stack positions out of 5000i,500n,10000p,200000b,80000s

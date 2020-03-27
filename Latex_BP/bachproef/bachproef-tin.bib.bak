@@ -515,4 +515,39 @@
   url    = {https://www.w3.org/TR/task-scheduler/},
 }
 
+@Online{Kacmarcik2020,
+  author = {Kacmarcik, Gary and Lyukshin, Grisha, Grisha},
+  date   = {2020-03-20},
+  title  = {Clipboard API and events},
+  url    = {https://www.w3.org/TR/clipboard-apis/},
+}
+
+@Online{Giuca2020,
+  author = {Giuca, Matt},
+  date   = {2020-03-16},
+  title  = {Web Share API},
+  url    = {https://www.w3.org/TR/web-share/},
+}
+
+@Online{Williger2020,
+  author = {Williger, Eric and Giuca, Matt},
+  date   = {2020-03-16},
+  title  = {Web Share Target API},
+  url    = {https://wicg.github.io/web-share-target/},
+}
+
+@Online{Denicola2020,
+  author = {Denicola, Domenic and Cáceres, Marcos and Koch, Zach and Jacobs, Ian and Solomakhin, Rouslan},
+  date   = {2020-03-19},
+  title  = {Payment request API},
+  url    = {https://www.w3.org/TR/payment-request/},
+}
+
+@Online{West2020,
+  author = {West, Mike},
+  date   = {2020-03-18},
+  title  = {Credential Management Level 1},
+  url    = {https://www.w3.org/TR/credential-management-1/},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

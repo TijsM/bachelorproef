@@ -1,25 +1,25 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'bachproef-tin.blg'
-[33] biber-darwin:315> INFO - === Fri Mar 27, 2020, 16:07:54
-[54] Biber.pm:371> INFO - Reading 'bachproef-tin.bcf'
-[146] Biber.pm:889> INFO - Found 83 citekeys in bib section 0
-[158] Biber.pm:4093> INFO - Processing section 0
-[170] Biber.pm:4254> INFO - Looking for bibtex format file 'bachproef-tin.bib' for section 0
-[172] bibtex.pm:1523> INFO - LaTeX decoding ...
-[220] bibtex.pm:1340> INFO - Found BibTeX data source 'bachproef-tin.bib'
-[488] Biber.pm:4254> INFO - Looking for bibtex format file '../voorstel/voorstel.bib' for section 0
-[489] bibtex.pm:1523> INFO - LaTeX decoding ...
-[503] bibtex.pm:1340> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
-[504] Utils.pm:193> WARN - Duplicate entry key: 'Malavolta2016' in file '../voorstel/voorstel.bib', skipping ...
-[504] Utils.pm:193> WARN - Duplicate entry key: 'Google2017' in file '../voorstel/voorstel.bib', skipping ...
-[505] Utils.pm:193> WARN - Duplicate entry key: 'Hiltunen2018' in file '../voorstel/voorstel.bib', skipping ...
-[505] Utils.pm:193> WARN - Duplicate entry key: 'Gaunt2019' in file '../voorstel/voorstel.bib', skipping ...
-[538] Utils.pm:193> WARN - I didn't find a database entry for 'Pollefliet2011' (section 0)
-[538] Utils.pm:193> WARN - I didn't find a database entry for 'Sayali2018' (section 0)
-[643] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[643] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[643] Biber.pm:3921> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[643] Biber.pm:3927> INFO - No sort tailoring available for locale 'nl-NL'
-[708] bbl.pm:636> INFO - Writing 'bachproef-tin.bbl' with encoding 'UTF-8'
-[749] bbl.pm:739> INFO - Output to bachproef-tin.bbl
-[750] Biber.pm:110> INFO - WARNINGS: 6
+[41] biber-darwin:315> INFO - === Fri Mar 27, 2020, 16:24:03
+[68] Biber.pm:371> INFO - Reading 'bachproef-tin.bcf'
+[171] Biber.pm:889> INFO - Found 87 citekeys in bib section 0
+[185] Biber.pm:4093> INFO - Processing section 0
+[205] Biber.pm:4254> INFO - Looking for bibtex format file 'bachproef-tin.bib' for section 0
+[208] bibtex.pm:1523> INFO - LaTeX decoding ...
+[289] bibtex.pm:1340> INFO - Found BibTeX data source 'bachproef-tin.bib'
+[698] Biber.pm:4254> INFO - Looking for bibtex format file '../voorstel/voorstel.bib' for section 0
+[701] bibtex.pm:1523> INFO - LaTeX decoding ...
+[714] bibtex.pm:1340> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
+[715] Utils.pm:193> WARN - Duplicate entry key: 'Malavolta2016' in file '../voorstel/voorstel.bib', skipping ...
+[715] Utils.pm:193> WARN - Duplicate entry key: 'Google2017' in file '../voorstel/voorstel.bib', skipping ...
+[716] Utils.pm:193> WARN - Duplicate entry key: 'Hiltunen2018' in file '../voorstel/voorstel.bib', skipping ...
+[716] Utils.pm:193> WARN - Duplicate entry key: 'Gaunt2019' in file '../voorstel/voorstel.bib', skipping ...
+[751] Utils.pm:193> WARN - I didn't find a database entry for 'Pollefliet2011' (section 0)
+[752] Utils.pm:193> WARN - I didn't find a database entry for 'Sayali2018' (section 0)
+[867] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[867] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[867] Biber.pm:3921> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[867] Biber.pm:3927> INFO - No sort tailoring available for locale 'nl-NL'
+[939] bbl.pm:636> INFO - Writing 'bachproef-tin.bbl' with encoding 'UTF-8'
+[986] bbl.pm:739> INFO - Output to bachproef-tin.bbl
+[986] Biber.pm:110> INFO - WARNINGS: 6

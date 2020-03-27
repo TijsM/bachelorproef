@@ -143,17 +143,27 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{User experience}{41}{section*.60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Locatie en positionering}{41}{section*.61}% 
+\contentsline {paragraph}{Offline gebruik}{41}{section*.61}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Scherm en output}{41}{section*.62}% 
+\contentsline {paragraph}{Achtergrondsynchronisatie }{41}{section*.62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Conclusie }{41}{subsection.2.2.2}% 
+\contentsline {paragraph}{Inter-app communicatie}{41}{section*.63}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Browsers}{41}{section*.63}% 
+\contentsline {paragraph}{Betalingen}{42}{section*.64}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Mobiele besturingssystemen }{41}{section*.64}% 
+\contentsline {paragraph}{Credentials}{42}{section*.65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Desktop besturingssystemen}{41}{section*.65}% 
+\contentsline {subsubsection}{Locatie en positionering}{42}{section*.66}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Scherm en output}{42}{section*.67}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Conclusie }{42}{subsection.2.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Browsers}{42}{section*.68}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Mobiele besturingssystemen }{42}{section*.69}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Desktop besturingssystemen}{42}{section*.70}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Methodologie}{43}{chapter.3}% 
 \defcounter {refsection}{0}\relax 

@@ -691,9 +691,84 @@ Er worden ook methodes voorzien voor het reageren op de actie waarbij een gebrui
 \end{table}	
 
 
-
-
 \subsubsection{User experience}
+
+\paragraph{Offline gebruik}
+Door het gebruik van serviceworkers kan een website offline gebruikt worden. Deze website moet eerst bezocht worden als de gebruiker online is. De geladen pagina’s en andere items zoals foto’s kunnen opgeslagen worden voor offline gebruik.
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Ja   & Ja      &  Ja     & Ja     & ja               & Ja          
+	\end{tabular}	
+	\caption{ondersteuning offline gebruik}
+	\label{ondersteuning offline gebruik}
+\end{table}	
+
+
+
+\paragraph{Achtergrondsynchronisatie }
+
+Een actie kan van start gaan als de gebruiker een trage verbinding heeft of als hij offline is. Achtergrondsynchronisatie zal ervoor zorgen dat deze actie uitgevoerd wordt vanaf dat er een stabiele internetconnectie is, zelfs al is de applicatie reeds gesloten.
+
+Meer info over achtergrondsynchronisatie kan gevonden worden in het hoofdstuk “Functionaliteiten die een serivce worker mogelijk maakt”.
+
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Ja   & Ja      &  Ja     & Ja     & ja               & Ja          
+	\end{tabular}	
+	\caption{ondersteuning achtergrondsynchronisatie}
+	\label{ondersteuning achtergrondsynchronisatie}
+\end{table}
+
+
+\paragraph{Inter-app communicatie}
+– Native applicaties kunnen gebruik maken van deep-linking, dit is een concept waarbij er in een app een link kan staan naar een specifieke pagina op een andere app.
+
+De Web Share API \autocite{Giuca2020} en de Web Share Target API \autocite{Williger2020} zorgen ervoor dat links van websites kunnen geopend worden in native applicaties. 
+
+De web Share API moet gebruikt worden in de applicatie die een link heeft naar een andere applicatie.
+
+De web Share Target API moet gebruikt worden in de applicatie waarnaar gerefereerd wordt. Deze zal ervoor zorgen dat de gebruiker uiteindelijk op de juiste pagina terecht komt.
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Nee   & Nee      &  Nee     & Nee     & ja               & Ja          
+	\end{tabular}	
+	\caption{ondersteuning Web Share API en Web Share Target API}
+	\label{ondersteuning Web Share API en Web Share Target API}
+\end{table}
+
+
+
+\paragraph{Betalingen}
+Aan de hand van de Payment Request API \autocite{Denicola2020} kan heel snel, zonder de website te verlaten, een betaling uitgevoerd worden. Bij Apple-toestellen zal dit gebeuren via Apple-pay. 
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Ja   & Nee      &  Ja     & Ja     & ja               & Ja          
+	\end{tabular}	
+	\caption{ondersteuning Payment Request API}
+	\label{ondersteuning Payment Request API}
+\end{table}
+
+
+\paragraph{Credentials}
+De Credential Management API \autocite{West2020} levert methodes voor het ophalen en opslaan van de credentials van een gebruiker. Op deze manier kan de gebruiker eenvoudiger en veiliger aanmelden op een platform.
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Ja   & Nee      &  Ja     & Nee     & ja               & Nee          
+	\end{tabular}	
+	\caption{ondersteuning Credential Management API}
+	\label{ondersteuning Credential Management API}
+\end{table}
+
 \subsubsection{Locatie en positionering}
 \subsubsection{Scherm en output}
 
