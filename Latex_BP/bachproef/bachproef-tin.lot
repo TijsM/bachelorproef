@@ -5,7 +5,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.1}{\ignorespaces tabel: beschrijving notifications API}}{19}{table.2.1}% 
+\contentsline {table}{\numberline {2.1}{\ignorespaces beschrijving notifications API}}{19}{table.2.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.2}{\ignorespaces ondersteuning van de Media Capture API}}{29}{table.2.2}% 
 \defcounter {refsection}{0}\relax 
@@ -20,6 +20,12 @@
 \contentsline {table}{\numberline {2.7}{\ignorespaces ondersteuning van Chrome Sender API}}{31}{table.2.7}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.8}{\ignorespaces ondersteuning van Media Session API}}{32}{table.2.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.9}{\ignorespaces ondersteuning van Web Bluetooth API}}{32}{table.2.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.10}{\ignorespaces ondersteuning van Web USB API}}{33}{table.2.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.11}{\ignorespaces ondersteuning van Web NFC API }}{33}{table.2.11}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

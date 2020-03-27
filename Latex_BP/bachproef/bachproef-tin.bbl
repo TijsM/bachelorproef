@@ -83,6 +83,41 @@
       \verb https://support.apple.com/nl-be/HT210393#13
       \endverb
     \endentry
+    \entry{Beaufort2019b}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=2,uniquepart=given,hash=6694c330563667dd1eccb76a53c46b14}{%
+           family={Beaufort},
+           familyi={B\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{6694c330563667dd1eccb76a53c46b14}
+      \strng{fullhash}{6694c330563667dd1eccb76a53c46b14}
+      \strng{bibnamehash}{6694c330563667dd1eccb76a53c46b14}
+      \strng{authorbibnamehash}{6694c330563667dd1eccb76a53c46b14}
+      \strng{authornamehash}{6694c330563667dd1eccb76a53c46b14}
+      \strng{authorfullhash}{6694c330563667dd1eccb76a53c46b14}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{month}{4}
+      \field{title}{Access USB Devices on the Web}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/updates/2016/03/access-usb-devices-on-the-web
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/updates/2016/03/access-usb-devices-on-the-web
+      \endverb
+    \endentry
     \entry{Beaufort2019}{online}{}
       \name{author}{1}{}{%
         {{uniquename=2,uniquepart=given,hash=6694c330563667dd1eccb76a53c46b14}{%
@@ -98,11 +133,12 @@
       \strng{authorbibnamehash}{6694c330563667dd1eccb76a53c46b14}
       \strng{authornamehash}{6694c330563667dd1eccb76a53c46b14}
       \strng{authorfullhash}{6694c330563667dd1eccb76a53c46b14}
+      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{14}
@@ -115,6 +151,41 @@
       \endverb
       \verb{url}
       \verb https://developers.google.com/web/updates/2017/02/media-session
+      \endverb
+    \endentry
+    \entry{Beaufort2019a}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=2,uniquepart=given,hash=6694c330563667dd1eccb76a53c46b14}{%
+           family={Beaufort},
+           familyi={B\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{6694c330563667dd1eccb76a53c46b14}
+      \strng{fullhash}{6694c330563667dd1eccb76a53c46b14}
+      \strng{bibnamehash}{6694c330563667dd1eccb76a53c46b14}
+      \strng{authorbibnamehash}{6694c330563667dd1eccb76a53c46b14}
+      \strng{authornamehash}{6694c330563667dd1eccb76a53c46b14}
+      \strng{authorfullhash}{6694c330563667dd1eccb76a53c46b14}
+      \field{extraname}{3}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{2}
+      \field{title}{Interact with Bluetooth devices on the Web}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/updates/2015/07/interact-with-ble-devices-on-the-web
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/updates/2015/07/interact-with-ble-devices-on-the-web
       \endverb
     \endentry
     \entry{Bhaumik2019}{online}{}
@@ -759,6 +830,46 @@
       \endverb
       \verb{url}
       \verb https://www.awwwards.com/PWA-ebook/
+      \endverb
+    \endentry
+    \entry{Grant2020}{online}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=a55b1c7774cfcffe5add2d7324a63e30}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Reilly},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8a2a9d7c7cd05c5db6dacf202bd65f89}{%
+           family={Ruiz-Henrìquez},
+           familyi={R\bibinithyphendelim H\bibinitperiod},
+           given={Ovido},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{57eeb7411f2db770723ad9ca0fad3650}
+      \strng{fullhash}{57eeb7411f2db770723ad9ca0fad3650}
+      \strng{bibnamehash}{57eeb7411f2db770723ad9ca0fad3650}
+      \strng{authorbibnamehash}{57eeb7411f2db770723ad9ca0fad3650}
+      \strng{authornamehash}{57eeb7411f2db770723ad9ca0fad3650}
+      \strng{authorfullhash}{57eeb7411f2db770723ad9ca0fad3650}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{month}{3}
+      \field{title}{Web Bluetooth}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://webbluetoothcg.github.io/web-bluetooth/
+      \endverb
+      \verb{url}
+      \verb https://webbluetoothcg.github.io/web-bluetooth/
       \endverb
     \endentry
     \entry{Harris2017}{online}{}
@@ -1651,6 +1762,38 @@
       \verb https://medium.com/google-developers/instant-loading-web-apps-with-an-application-shell-architecture-7c0c2f10c73
       \endverb
     \endentry
+    \entry{Paus2007}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1270fd3068c480aa53a394560f6adee6}{%
+           family={Paus},
+           familyi={P\bibinitperiod},
+           given={Annika},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Ruhr-Universit¨at Bochum}%
+      }
+      \strng{namehash}{1270fd3068c480aa53a394560f6adee6}
+      \strng{fullhash}{1270fd3068c480aa53a394560f6adee6}
+      \strng{bibnamehash}{1270fd3068c480aa53a394560f6adee6}
+      \strng{authorbibnamehash}{1270fd3068c480aa53a394560f6adee6}
+      \strng{authornamehash}{1270fd3068c480aa53a394560f6adee6}
+      \strng{authorfullhash}{1270fd3068c480aa53a394560f6adee6}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{24}
+      \field{month}{7}
+      \field{title}{Near Field Communication in CellPhones}
+      \field{type}{techreport}
+      \field{year}{2007}
+      \field{dateera}{ce}
+    \endentry
     \entry{PWAbuilder2020}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=9850a5a2f06c27b24c5bc21da1a6051a}{%
@@ -1752,6 +1895,98 @@
       \endverb
       \verb{url}
       \verb https://web.dev/what-are-pwas/
+      \endverb
+    \endentry
+    \entry{Rockot2020}{online}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=88c0229cb6dc09e3057c1161d6cb5f7e}{%
+           family={Rockot},
+           familyi={R\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a55b1c7774cfcffe5add2d7324a63e30}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={Reilly},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c0ddfe89356073166136cef545376948}{%
+           family={Ruiz-Henríquez},
+           familyi={R\bibinithyphendelim H\bibinitperiod},
+           given={Ovidio},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{14ec2d8d48f56530dcd504aa8b9b92ad}
+      \strng{fullhash}{1b61908ff3b971a32f8187230a6749ba}
+      \strng{bibnamehash}{1b61908ff3b971a32f8187230a6749ba}
+      \strng{authorbibnamehash}{1b61908ff3b971a32f8187230a6749ba}
+      \strng{authornamehash}{14ec2d8d48f56530dcd504aa8b9b92ad}
+      \strng{authorfullhash}{1b61908ff3b971a32f8187230a6749ba}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{month}{3}
+      \field{title}{WebUSB API}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://wicg.github.io/webusb/
+      \endverb
+      \verb{url}
+      \verb https://wicg.github.io/webusb/
+      \endverb
+    \endentry
+    \entry{RohdeChristiansen2020}{online}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=0ab7cf8fea88a986a3c8e1ad346b9c6b}{%
+           family={Rohde-Christiansen},
+           familyi={R\bibinithyphendelim C\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2f656dd23baad0f93234dcb58856765c}{%
+           family={Kis},
+           familyi={K\bibinitperiod},
+           given={Zoltan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6694c330563667dd1eccb76a53c46b14}{%
+           family={Beaufort},
+           familyi={B\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e7c21e284672a66a168528f6687e5aef}
+      \strng{fullhash}{ed00d7f8663af9147627cab3a1bc8c3c}
+      \strng{bibnamehash}{ed00d7f8663af9147627cab3a1bc8c3c}
+      \strng{authorbibnamehash}{ed00d7f8663af9147627cab3a1bc8c3c}
+      \strng{authornamehash}{e7c21e284672a66a168528f6687e5aef}
+      \strng{authorfullhash}{ed00d7f8663af9147627cab3a1bc8c3c}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{month}{3}
+      \field{title}{Web NFC}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://w3c.github.io/web-nfc/
+      \endverb
+      \verb{url}
+      \verb https://w3c.github.io/web-nfc/
       \endverb
     \endentry
     \entry{Russel2015}{inproceedings}{}

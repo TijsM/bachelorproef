@@ -345,4 +345,39 @@
   url    = {https://developers.google.com/cast},
 }
 
+@Online{Beaufort2019,
+  author = {Beaufort, François},
+  date   = {2019-01-14},
+  title  = {Customize Media Notifications and Handle Playlists},
+  url    = {https://developers.google.com/web/updates/2017/02/media-session},
+}
+
+@Online{Grant2020,
+  author = {Grant, Reilly and Ruiz-Henrìquez, Ovido},
+  date   = {2020-03-17},
+  title  = {Web Bluetooth},
+  url    = {https://webbluetoothcg.github.io/web-bluetooth/},
+}
+
+@Online{Beaufort2019a,
+  author = {Beaufort, François},
+  date   = {2019-02-27},
+  title  = {Interact with Bluetooth devices on the Web},
+  url    = {https://developers.google.com/web/updates/2015/07/interact-with-ble-devices-on-the-web},
+}
+
+@Online{Rockot2020,
+  author = {Rockot, Ken and Grant, Reilly and Ruiz-Henríquez, Ovidio},
+  date   = {2020-03-25},
+  title  = {WebUSB API},
+  url    = {https://wicg.github.io/webusb/},
+}
+
+@Online{Beaufort2019b,
+  author = {Beaufort, François},
+  date   = {2019-04-16},
+  title  = {Access USB Devices on the Web},
+  url    = {https://developers.google.com/web/updates/2016/03/access-usb-devices-on-the-web},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

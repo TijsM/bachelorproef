@@ -57,6 +57,7 @@ De website whatwebcando.today geeft een overzicht van de functionaliteiten aan d
 \subsubsection{Media}
 
 \paragraph{Video met audio }
+
 Sommige van de meest populaire mobiele applicaties zijn sterk afhankelijk van camera-functionaliteit. Voorbeelden hiervan zijn Snapchat, Instagram, Messenger, WhatsApp, … 
 
 Bij deze applicaties is het belangrijk dat de camera aan volgende vereisten voldoet:
@@ -95,6 +96,7 @@ Al de belangrijkste functionaliteiten die een gebruiker verwacht, zijn allemaal 
 
 
 \paragraph{Foto's }
+
 Het vastleggen van foto’s is ook voor veel populaire applicaties belangrijk. Ook dit is een belangrijke functionaliteit voor sociale media applicaties.
 
 Foto’s die gedeeld worden op sociale media moeten vaak van een zo hoog mogelijke kwaliteit zijn. Op native applicaties wordt deze kwaliteit bereikt door volgende eigenschappen: 
@@ -127,6 +129,7 @@ Deze API heeft standaard geen ondersteuning voor HDR, maar dit kan zelf geïmple
 
 
 \paragraph{Geluidopname }
+
 De mediarecorder API, \autocite{CasasSanchez2020} door meerdere browsers aangeboden, is een manier om eenvoudig geluidsfragmenten op te nemen en te importeren in een webapplicatie.
 
 Helaas is er voor Apple-toestellen geen ondersteuning. In de toekomst zal deze functie waarschijnlijk ook beschikbaar worden voor deze toestellen. Dit wordt in de volgende versie van Safari (Safari 14) voor desktop verwacht. Voor Safari voor IOS bestaat deze functie al maar is het nog een experimentele functie die de gebruiker zelf moet activeren.
@@ -174,7 +177,9 @@ Bij de meeste populaire communicatieapplicaties zoals WhatsApp, Messenger, Skype
 \end{table}
 
 
+
 \paragraph{Casting}
+
 Applicaties die media tonen aan de gebruiker kunnen deze casten naar tv-toestel. Dit gebeurt bij Apple toestellen aan de hand van Airplay en bij Android toestellen aan de hand van google cast.
 
 YouTube is een applicatie die hier gebruik van maakt. Als er een video bekeken wordt, zal de gebruiker een optie krijgen om deze te tonen om een tv.
@@ -202,7 +207,10 @@ Bij de meeste populaire communicatieapplicaties zoals WhatsApp, Messenger, Skype
 \end{table}
 
 
+
+
 \paragraph{Media-controle in de notificatie }
+
 
 Als een native applicatie media afspeelt op een mobiel toestel, kan deze applicatie bestuurd worden vanuit de notificatie. De afgespeelde media zal ook niet stoppen als een gebruiker de applicatie verlaat
 
@@ -230,7 +238,71 @@ Het voorbeeld van Spotify kan dus volledig geïmplementeerd worden als PWA.
 \end{table}
 
 
+
 \subsubsection{Connectie met andere apparaten}
+
+
+
+\paragraph{Bluetooth }
+
+Native applicaties kunnen een verbinding maken met bluetooth-toestellen. Eens er een verbinding is, kan er informatie uitgewisseld worden tussen de toestellen. Een voorbeeld van een applicatie die hier gebruik van maakt is de ‘Sony Headphones’ app. Aan de hand van deze app kan er verbinding gemaakt worden met een koptelefoon en kunnen de instellingen van de koptelefoon aangepast worden.
+
+Met de Web Bluetooth API \autocite{Grant2020} kan er vanuit de browser verbinding gemaakt worden met bluetooth-toestellen. De web API heeft zowel schrijf- als leesrechten bij externe toestellen. 
+
+Er kan dus geconcludeerd worden dat de Web Bluetooth API kan gebruikt worden voor applicaties die gebruik moeten maken van bluetooth-toestellen.
+
+\autocite{Beaufort2019a}
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Ja   & Nee      & Ja     & Nee     & Ja               & Nee          
+	\end{tabular}	
+	\caption{ondersteuning van Web Bluetooth API}
+	\label{ondersteuning_WebBluetooth}
+\end{table}
+
+
+
+\paragraph{USB}
+
+Verkopers van toestellen met USB kunnen nu gebruik maken van de Web USB API, \autocite{Rockot2020}. Bij het verbinden van een USB-toestel kan er automatisch een website geopend worden waarmee het toestel kan interageren.
+ 
+Dit kan interessant zijn voor toestellen die een eenmalige set-up nodig hebben. Met deze technologie kan vermeden worden dat er overbodige software moet geïnstalleerd worden op het toestel van de gebruiker. 
+
+Dit is echter enkel mogelijk met een beperkt aantal browsers en er moet een HTTPS-verbinding zijn.
+
+\autocite{Beaufort2019b}
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Ja   & Nee      & Ja     & Nee     & Ja               & Nee          
+	\end{tabular}	
+	\caption{ondersteuning van Web USB API}
+	\label{ondersteuning_WebUSB}
+\end{table}
+
+
+\paragraph{NFC}
+
+Near field communication of NFC is een technologie om een kleine hoeveelheid informatie uit te wisselen over een kleine afstand (Maximum 20cm). NFC wordt gebruikt om draadloze betalingen uit te voeren met een betaalkaart of met een smartphone. 
+\autocite{Paus2007}
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Nee   & Nee      &  Nee     & Nee     & Nee               & Nee          
+	\end{tabular}	
+	\caption{ondersteuning van Web NFC API }
+	\label{ondersteuning_WebNFC}
+\end{table}
+
+Dit is een functie met veel mogelijkheden die helaas niet beschikbaar is voor webapplicaties.
+Er bestaat echter wel een API om gebruik te kunnen maken van NFC \autocite{RohdeChristiansen2020}, maar de Web NFC API is een experimentele API. Dit betekent dat de eindgebruiker dit nog niet kan gebruiken.
+
+
+
 \subsubsection{Toestelkenmerken}
 \subsubsection{Native gedrag}
 \subsubsection{Besturingssysteem}
