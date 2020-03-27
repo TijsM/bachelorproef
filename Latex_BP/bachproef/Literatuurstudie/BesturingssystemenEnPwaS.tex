@@ -473,7 +473,7 @@ Aan de hand van deze applicatie kan het gedrag van de applicatie aangepast worde
 
 \paragraph{Toestemmingen}
 
-Om gebruik te maken van hardware functies van een toestel is vaak, om privacy redenen, de toestemming van de gebruiker nodig. Hiervoor is de permissions API \autocite{Caceres2020} ontwikkeld. Er kan toestemming gevraagd worden op een gelijkaardige manier voor verschillende functies.
+Om gebruik te maken van hardware functies van een toestel is vaak, om privacy redenen, de toestemming van de gebruiker nodig. Hiervoor is de Permissions API \autocite{Caceres2020} ontwikkeld. Er kan toestemming gevraagd worden op een gelijkaardige manier voor verschillende functies.
 
 Functies waarvoor toestemming gevraagd kan worden:
  \begin{itemize}
@@ -492,9 +492,166 @@ Functies waarvoor toestemming gevraagd kan worden:
 	\item	Betalingen
 \end{itemize}
 
-
+	\begin{table}[]
+		\begin{tabular}{llllll}
+			Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+			Ja   & Ja      &  Ja     & nee     & Ja               & nee          
+		\end{tabular}	
+		\caption{ondersteuning Permissions API }
+		\label{ondersteuning Permission API}
+	\end{table}
+	
 
 \subsubsection{Besturingssysteem}
+\paragraph{offline opslage}
+Native applicaties kunnen nog steeds gebruikt worden als er geen internetverbinding is. Toepassingen die geen netwerkverzoeken doen zijn dus nog volledig operationeel zonder internetverbinding. 
+
+Er zijn verschillende technologieën om data offline op te slaan. 
+
+ \begin{itemize}
+	\item	Web storage
+	\item	IndexedDB
+	\item	Cache API
+	\item	Storage API
+\end{itemize}
+
+	\subparagraph{Web storage}
+	De meest eenvoudige manier om data op te slaan. Er kunnen key-value paren opgeslagen worden in het localStorage of in het sessionStorage. 
+	\autocite{Hickson2020}
+	
+	\begin{table}[]
+		\begin{tabular}{llllll}
+			Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+			Ja   & Ja      &  Ja     & Ja     & Ja               & Ja          
+		\end{tabular}	
+		\caption{ondersteuning web storrage }
+		\label{ondersteuning web storrage}
+	\end{table}
+	
+	
+	
+	\subparagraph{IndexedDB}
+	Een API voor het opslaan van grote hoeveelheden gestructureerde data op het toestel van de eindgebruiker. De data kan snel gelezen worden omdat er indexen gebruikt worden. 
+	\autocite{Alabbas2020}
+	
+	\begin{table}[]
+			\begin{tabular}{llllll}
+				Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+				Ja   & Ja      &  Ja     & Ja     & Ja               & Ja          
+			\end{tabular}	
+			\caption{ondersteuning IndexedDB}
+			\label{ondersteuning IndexedDB}
+	\end{table}
+	
+	
+	\subparagraph{Cache API}
+	Deze API is gespecialiseerd in het opslaan van netwerkverzoeken. Dit is heel handig in samenwerking met een serviceworker. API-calls kunnen opgeslagen worden voor offline gebruik.
+	\autocite{vanKesteren2020}
+	
+	\begin{table}[]
+			\begin{tabular}{llllll}
+				Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+				Ja   & Ja      &  Ja     & Ja     & Ja               & Nee          
+			\end{tabular}	
+			\caption{ondersteuning Cache API}
+			\label{ondersteuning Cache API}
+	\end{table}
+	
+	
+	\subparagraph{Storage API}
+	Data die is opgeslagen in een van vorige technologieën kan eenvoudig verwijderd worden door de browser. Met de storage API kan data opgeslagen worden op het systeem voor een langere periode .
+	\autocite{Mozilla2020b}
+	
+	\begin{table}[]
+		\begin{tabular}{llllll}
+			Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+			Ja   & Ja      &  Ja     & Ja     & Ja               & Nee          
+		\end{tabular}	
+		\caption{ondersteuning Storage API}
+		\label{ondersteuning Storage API}
+	\end{table}
+	
+	
+	
+Door gebruik te maken van deze verschillende API’s kan er ook een offline ervaring aangeboden worden aan de gebruiker. 
+	
+\paragraph{Bestandentoegang}
+
+Native applicaties hebben toegang tot het volledige bestandssysteem van het toestel. Er kunnen bestaande bestanden gelezen en aangepast worden. Er kunnen ook nieuwe bestanden aangemaakt en opgeslagen worden.
+
+Door gebruik te maken van de File API \autocite{Kruisselbrink2020} heeft een webapplicatie ook toegang tot het bestandssysteem. Bestanden kunnen gelezen worden en metadata over deze bestanden kan verkregen worden.
+
+Een webapplicatie heeft echter enkel leesrechten op deze bestanden. Er kunnen dus geen bestanden geschreven of aangepast worden.
+
+Dit betekent dus dat bepaalde toepassingen die hier gebruik van maken nog steeds een native applicatie nodig hebben.
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Ja   & Ja      &  Ja     & Nee     & Ja               & Nee          
+	\end{tabular}	
+	\caption{ondersteuning File API}
+	\label{ondersteuning File API}
+\end{table}	
+
+
+\paragraph{Contacten}
+Bepaalde native applicaties hebben toegang nodig tot de contacten van de gebruiker. Een voorbeeld hiervan is WhatsApp. Deze importeert de contacten van het toestel in de applicatie.
+
+De contacten die opgeslagen staan op het systeem van de gebruiker kunnen geïmporteerd worden in een webapplicatie met de Contacts API \autocite{Tibbett2020}.
+
+In theorie zouden PWA’s hier dus gebruik kunnen van maken maar de ondersteuning is heel beperkt. Het is dus niet aangeraden om een webapplicatie te ontwikkelen die afhankelijk is van de contacten van een gebruiker.
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Nee   & Nee      &  Nee     & Nee     & Beperkt               & Nee          
+	\end{tabular}	
+	\caption{ondersteuning Contacts API - * Op het moment van schrijven is dit een nieuwe en experimentele functie die enkel werkt op 
+	Android 10. Verdere ondersteuning is nog onbekend.
+	}
+	\label{ondersteuning Contacts API}
+\end{table}	
+
+
+\paragraph{Sms}
+Native Applicaties kunnen binnenkomende sms-berichten lezen. Dit wordt vaak gebruikt om de authenticatie van een gebruiker sneller te laten verlopen. Een voorbeeld van deze use-case kan bij de applicatie van het betalingsplatform PayPal gevonden worden. Als een gebruiker zich registreert, zal zijn telefoonnummer gecontroleerd worden door er een sms naar dit nummer te sturen met een code. PayPal zal zien dat er een sms binnenkomt en zal automatisch de code uit dit bericht halen. Op deze manier hoeft de gebruiker de app niet te verlaten.
+
+Native applicaties kunnen niet enkel sms’en lezen, ze kunnen er ook schrijven. Dit betekent dus dat elke ontwikkelaar een sms-client applicatie kan maken.
+
+Met de SMS-receiver API \autocite{Fullea2020} kan er gekeken worden naar inkomende sms’en. Het voorbeeld van de PayPal applicatie kan dus ook geïmplementeerd worden als PWA. PWA’s hebben echter enkel toegang tot binnenkomende sms’en. 
+
+Het voorbeeld van PayPal kan ook geïmplementeerd worden aan de hand van een PWA. Applicaties die ook sms-berichten moeten versturen kunnen niet ontwikkeld worden als PWA.
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Nee   & Nee      &  Nee     & Nee     & Beperkt               & Nee          
+	\end{tabular}	
+	\caption{ondersteuning Messaging API - * Op het moment van schrijven is dit een nieuwe en experimentele functie die enkel werkt op 
+	Android 10. Verdere ondersteuning is nog onbekend.
+	}
+	\label{ondersteuning Messaging API}
+\end{table}	
+
+
+
+\paragraph{Taakplanning}
+De Task Sheduler API \autocite{Kulkarni2020} kan ervoor zorgen dat taken zoals alarmen, herinneringen en gelijkaardige taken kunnen ingepland worden in het systeem. Deze API is slechts een voorstel en heeft dus nog geen ondersteuning.
+
+Een applicatie schrijven die het alarm van een smartphone in de ochtend laat afgaan, of een activiteit in jouw agenda plaatst, is dus niet mogelijk met een PWA. Dit zijn toepassingen die wel mogelijk zijn met native applicaties.
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Nee   & Nee      &  Nee     & Nee     & Nee               & Nee          
+	\end{tabular}	
+	\caption{ondersteuning Task Sheduler API }
+	\label{ondersteuning Task Sheduler API}
+\end{table}	
+
+
+
 \subsubsection{Input}
 \subsubsection{User experience}
 \subsubsection{Locatie en positionering}

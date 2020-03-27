@@ -445,4 +445,64 @@
   url    = {https://web.dev/badging-api/},
 }
 
+@Online{Grigorik2020,
+  author = {Grigorik, Ilya and Jain, Arvind and Mann, Jatinder},
+  date   = {2020-03-10},
+  title  = {Page Visibility level 2},
+  url    = {https://www.w3.org/TR/page-visibility-2/#introduction},
+}
+
+@Online{Caceres2020,
+  author = {Cáceres, Marcos and Lamouri, Mounir and Yasskin, Jeffrey},
+  date   = {2020-03-18},
+  title  = {Permissions},
+  url    = {https://www.w3.org/TR/permissions/},
+}
+
+@Online{Hickson2020,
+  author = {Hickson, Ian},
+  date   = {2020-03-17},
+  title  = {Web Storage (second edition)},
+  url    = {https://www.w3.org/TR/webstorage/},
+}
+
+@Online{Alabbas2020,
+  author = {Alabbas, Ali and Bell, Joshua},
+  date   = {2020-03-20},
+  title  = {Indexed Database API 2.0},
+  url    = {https://www.w3.org/TR/IndexedDB-2/},
+}
+
+@Online{vanKesteren2020,
+  author = {van Kesteren, Anne and Hickson, Ian},
+  date   = {2020-03-18},
+  title  = {Offline web applications},
+  url    = {https://www.w3.org/TR/offline-webapps/},
+}
+
+@Online{Mozilla2020b,
+  author = {Mozilla},
+  date   = {2020-03-12},
+  title  = {Web Storage API},
+  url    = {https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API},
+}
+
+@Online{Kruisselbrink2020,
+  author = {Kruisselbrink, Marijn},
+  date   = {2020-03-15},
+  title  = {File API},
+  url    = {https://www.w3.org/TR/FileAPI/},
+}
+
+@Online{Tibbett2020,
+  author = {Tibbett, Richard and Berjon, Robin and Song, Junkee},
+  date   = {2020-03-18},
+  title  = {Pick Contacts Intent},
+  url    = {https://www.w3.org/TR/contacts-api/},
+}
+
+@Article{,
+  author = {Fullea, Eduardo and Cantera, Jose M. and Kis, Zoltan},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

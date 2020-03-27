@@ -47,6 +47,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.21}{\ignorespaces ondersteuning voorgrond detectie }}{37}{table.2.21}% 
 \defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.22}{\ignorespaces ondersteuning Permissions API }}{37}{table.2.22}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.23}{\ignorespaces ondersteuning web storrage }}{38}{table.2.23}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.24}{\ignorespaces ondersteuning IndexedDB}}{38}{table.2.24}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.25}{\ignorespaces ondersteuning Cache API}}{38}{table.2.25}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.26}{\ignorespaces ondersteuning Storage API}}{39}{table.2.26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.27}{\ignorespaces ondersteuning File API}}{39}{table.2.27}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.28}{\ignorespaces ondersteuning Contacts API - * Op het moment van schrijven is dit een nieuwe en experimentele functie die enkel werkt op Android 10. Verdere ondersteuning is nog onbekend. }}{39}{table.2.28}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.29}{\ignorespaces ondersteuning Messaging API - * Op het moment van schrijven is dit een nieuwe en experimentele functie die enkel werkt op Android 10. Verdere ondersteuning is nog onbekend. }}{40}{table.2.29}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.30}{\ignorespaces ondersteuning Task Sheduler API }}{40}{table.2.30}% 
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
