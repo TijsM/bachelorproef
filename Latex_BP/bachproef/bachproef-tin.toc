@@ -137,47 +137,51 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Input}{40}{section*.57}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{User experience}{40}{section*.58}% 
+\contentsline {paragraph}{Touch gebaren}{40}{section*.58}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Locatie en positionering}{40}{section*.59}% 
+\contentsline {paragraph}{Klembord toegang}{41}{section*.59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Scherm en output}{40}{section*.60}% 
+\contentsline {subsubsection}{User experience}{41}{section*.60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Conclusie }{40}{subsection.2.2.2}% 
+\contentsline {subsubsection}{Locatie en positionering}{41}{section*.61}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Browsers}{40}{section*.61}% 
+\contentsline {subsubsection}{Scherm en output}{41}{section*.62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Mobiele besturingssystemen }{40}{section*.62}% 
+\contentsline {subsection}{\numberline {2.2.2}Conclusie }{41}{subsection.2.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Desktop besturingssystemen}{40}{section*.63}% 
+\contentsline {subsubsection}{Browsers}{41}{section*.63}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodologie}{41}{chapter.3}% 
+\contentsline {subsubsection}{Mobiele besturingssystemen }{41}{section*.64}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{43}{chapter.4}% 
+\contentsline {subsubsection}{Desktop besturingssystemen}{41}{section*.65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{45}{appendix.A}% 
+\contentsline {chapter}{\numberline {3}Methodologie}{43}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{45}{section.A.1}% 
+\contentsline {chapter}{\numberline {4}Conclusie}{45}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{46}{section.A.2}% 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{47}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{46}{subsection.A.2.1}% 
+\contentsline {section}{\numberline {A.1}Introductie}{47}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{46}{subsection.A.2.2}% 
+\contentsline {section}{\numberline {A.2}State-of-the-art}{48}{section.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{47}{subsection.A.2.3}% 
+\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{48}{subsection.A.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{47}{subsection.A.2.4}% 
+\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{48}{subsection.A.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.5}Native containers}{48}{subsection.A.2.5}% 
+\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{49}{subsection.A.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{48}{subsection.A.2.6}% 
+\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{49}{subsection.A.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{48}{section.A.3}% 
+\contentsline {subsection}{\numberline {A.2.5}Native containers}{50}{subsection.A.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.1}Technologieën}{48}{subsection.A.3.1}% 
+\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{50}{subsection.A.2.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{49}{section.A.4}% 
+\contentsline {section}{\numberline {A.3}Methodologie}{50}{section.A.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{49}{section.A.5}% 
+\contentsline {subsection}{\numberline {A.3.1}Technologieën}{50}{subsection.A.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{51}{section.A.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{51}{section.A.5}% 
 \contentsfinish 

@@ -501,8 +501,18 @@
   url    = {https://www.w3.org/TR/contacts-api/},
 }
 
-@Article{,
+@Online{Fullea2020,
   author = {Fullea, Eduardo and Cantera, Jose M. and Kis, Zoltan},
+  date   = {2020-03-18},
+  title  = {Messaging API},
+  url    = {https://www.w3.org/TR/messaging/},
+}
+
+@Online{Kulkarni2020,
+  author = {Kulkarni, Mahesh},
+  date   = {2020-03-17},
+  title  = {Task Scheduler API Specification},
+  url    = {https://www.w3.org/TR/task-scheduler/},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

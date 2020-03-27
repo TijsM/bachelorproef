@@ -653,6 +653,46 @@ Een applicatie schrijven die het alarm van een smartphone in de ochtend laat afg
 
 
 \subsubsection{Input}
+
+\paragraph{Touch gebaren}
+
+Native applicaties hebben een verwachtingspatroon ontwikkeld bij de gebruiker. Voorbeelden hiervan zijn:
+
+ \begin{itemize}
+	\item	Swipe van links opent het menu
+	\item	Knijpen om in te zoomen
+\end{itemize}
+
+HTML5 voegt aan de reeds bestaande input methodes nu ook touch-controls toe. Dit is belangrijk om een applicatie intuïtief te laten werken. Het is logisch dat Safari op desktop dit niet ondersteunt aangezien Safari enkel kan gedownload worden op Mac-toestellen en geen enkel Mac-toestel een touchscreen heeft.
+
+Deze gebaren kunnen nu ook gebruikt worden in een PWA. Dit zorgt ervoor dat een geïnstalleerde PWA meer zal aanvoelen als een native applicatie.
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Ja   & Ja      &  Ja     & Ja     & ja               & Ja          
+	\end{tabular}	
+	\caption{ondersteuning touch gebaren}
+	\label{ondersteuning touch gebaren}
+\end{table}	
+
+\paragraph{Klembord toegang}
+De Clipboard API \autocite{Kacmarcik2020} geeft een ontwikkelaar de mogelijkheid om te interageren met het klembord. Er kunnen zowel items van het klembord gelezen worden als dat er items kunnen geschreven worden naar het klembord.
+
+Er worden ook methodes voorzien voor het reageren op de actie waarbij een gebruiker zelf iets kopieert of plakt. 
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Ja   & Ja      &  Ja     & Ja     & ja               & Ja          
+	\end{tabular}	
+	\caption{ondersteuning Clipboard API}
+	\label{ondersteuning Clipboard API}
+\end{table}	
+
+
+
+
 \subsubsection{User experience}
 \subsubsection{Locatie en positionering}
 \subsubsection{Scherm en output}

@@ -1307,6 +1307,49 @@
       \field{year}{2007}
       \field{dateera}{ce}
     \endentry
+    \entry{Kacmarcik2020}{online}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8e404f5b352b0193b0eeacfe80fa1b7b}{%
+           family={Kacmarcik},
+           familyi={K\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3f26c7e9af387ecc7b7b13616ef437ac}{%
+           family={Lyukshin},
+           familyi={L\bibinitperiod},
+           given={Grisha},
+           giveni={G\bibinitperiod},
+           givenun=0,
+           suffix={Grisha},
+           suffixi={G\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{6dc94d550ce8f21d7933cb26cf322e6d}
+      \strng{fullhash}{6dc94d550ce8f21d7933cb26cf322e6d}
+      \strng{bibnamehash}{6dc94d550ce8f21d7933cb26cf322e6d}
+      \strng{authorbibnamehash}{6dc94d550ce8f21d7933cb26cf322e6d}
+      \strng{authornamehash}{6dc94d550ce8f21d7933cb26cf322e6d}
+      \strng{authorfullhash}{6dc94d550ce8f21d7933cb26cf322e6d}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{20}
+      \field{month}{3}
+      \field{title}{Clipboard API and events}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/clipboard-apis/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/clipboard-apis/
+      \endverb
+    \endentry
     \entry{Kawatka2020}{booklet}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=88a38b821214a0ad0517373b9cadd777}{%
@@ -1481,6 +1524,40 @@
       \endverb
       \verb{url}
       \verb https://www.w3.org/TR/FileAPI/
+      \endverb
+    \endentry
+    \entry{Kulkarni2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b68f5aab9c5d97b44b835655c4e1afad}{%
+           family={Kulkarni},
+           familyi={K\bibinitperiod},
+           given={Mahesh},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b68f5aab9c5d97b44b835655c4e1afad}
+      \strng{fullhash}{b68f5aab9c5d97b44b835655c4e1afad}
+      \strng{bibnamehash}{b68f5aab9c5d97b44b835655c4e1afad}
+      \strng{authorbibnamehash}{b68f5aab9c5d97b44b835655c4e1afad}
+      \strng{authornamehash}{b68f5aab9c5d97b44b835655c4e1afad}
+      \strng{authorfullhash}{b68f5aab9c5d97b44b835655c4e1afad}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{month}{3}
+      \field{title}{Task Scheduler API Specification}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/task-scheduler/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/task-scheduler/
       \endverb
     \endentry
     \entry{Lamouri2020}{online}{}
