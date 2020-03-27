@@ -2183,22 +2183,36 @@
     <bcf:citekey order="35">Kawatka2020</bcf:citekey>
     <bcf:citekey order="36">Croll2017</bcf:citekey>
     <bcf:citekey order="37">Osmani2019b</bcf:citekey>
-    <bcf:citekey order="38">Hiltunen2018</bcf:citekey>
-    <bcf:citekey order="39">Sayali2018</bcf:citekey>
-    <bcf:citekey order="40">Harris2017</bcf:citekey>
-    <bcf:citekey order="41">Malavolta2016</bcf:citekey>
-    <bcf:citekey order="42">Destrebecq2018</bcf:citekey>
-    <bcf:citekey order="43">Google2017</bcf:citekey>
-    <bcf:citekey order="44">Google2019</bcf:citekey>
-    <bcf:citekey order="45">GooglePwa2019</bcf:citekey>
-    <bcf:citekey order="46">Durumeric2013</bcf:citekey>
-    <bcf:citekey order="47">Lee2018</bcf:citekey>
-    <bcf:citekey order="48">Richard2019</bcf:citekey>
-    <bcf:citekey order="49">Malavolta2016</bcf:citekey>
-    <bcf:citekey order="50">Hiltunen2018</bcf:citekey>
-    <bcf:citekey order="51">Gaunt2019</bcf:citekey>
-    <bcf:citekey order="52">Osmani2016</bcf:citekey>
-    <bcf:citekey order="53">Hansen2017</bcf:citekey>
+    <bcf:citekey order="38">Mozilla2019c</bcf:citekey>
+    <bcf:citekey order="39">DzungDTran</bcf:citekey>
+    <bcf:citekey order="40">Fransson2017</bcf:citekey>
+    <bcf:citekey order="41">Scales2020a</bcf:citekey>
+    <bcf:citekey order="42">Oberhofer2017</bcf:citekey>
+    <bcf:citekey order="43">Ogundipe2018</bcf:citekey>
+    <bcf:citekey order="44">Mandyam2020</bcf:citekey>
+    <bcf:citekey order="45">Bhaumik2019</bcf:citekey>
+    <bcf:citekey order="46">CasasSanchez2020</bcf:citekey>
+    <bcf:citekey order="47">Kinlan2019</bcf:citekey>
+    <bcf:citekey order="48">Jennings2020</bcf:citekey>
+    <bcf:citekey order="49">Apple2020a</bcf:citekey>
+    <bcf:citekey order="50">Developers2020b</bcf:citekey>
+    <bcf:citekey order="51">Beaufort2019</bcf:citekey>
+    <bcf:citekey order="52">Hiltunen2018</bcf:citekey>
+    <bcf:citekey order="53">Sayali2018</bcf:citekey>
+    <bcf:citekey order="54">Harris2017</bcf:citekey>
+    <bcf:citekey order="55">Malavolta2016</bcf:citekey>
+    <bcf:citekey order="56">Destrebecq2018</bcf:citekey>
+    <bcf:citekey order="57">Google2017</bcf:citekey>
+    <bcf:citekey order="58">Google2019</bcf:citekey>
+    <bcf:citekey order="59">GooglePwa2019</bcf:citekey>
+    <bcf:citekey order="60">Durumeric2013</bcf:citekey>
+    <bcf:citekey order="61">Lee2018</bcf:citekey>
+    <bcf:citekey order="62">Richard2019</bcf:citekey>
+    <bcf:citekey order="63">Malavolta2016</bcf:citekey>
+    <bcf:citekey order="64">Hiltunen2018</bcf:citekey>
+    <bcf:citekey order="65">Gaunt2019</bcf:citekey>
+    <bcf:citekey order="66">Osmani2016</bcf:citekey>
+    <bcf:citekey order="67">Hansen2017</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
@@ -2238,13 +2252,4 @@
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
-  <bcf:datalist section="0"
-                name="apa/global//global/global"
-                type="entry"
-                sortingtemplatename="apa"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
 </bcf:controlfile>

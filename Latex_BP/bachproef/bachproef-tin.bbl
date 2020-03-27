@@ -19,6 +19,38 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{Apple2020a}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=9f6290f4436e5a2351f12e03b6433c3c}{%
+           family={Apple},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{fullhash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{bibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authorbibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authornamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authorfullhash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{23}
+      \field{month}{3}
+      \field{title}{Adding an AirPlay Button to Your Safari Media Controls}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.apple.com/documentation/webkitjs/adding_an_airplay_button_to_your_safari_media_controls
+      \endverb
+      \verb{url}
+      \verb https://developer.apple.com/documentation/webkitjs/adding_an_airplay_button_to_your_safari_media_controls
+      \endverb
+    \endentry
     \entry{Apple2020}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=9f6290f4436e5a2351f12e03b6433c3c}{%
@@ -31,11 +63,12 @@
       \strng{authorbibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
       \strng{authornamehash}{9f6290f4436e5a2351f12e03b6433c3c}
       \strng{authorfullhash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \field{extraname}{2}
       \field{sortinit}{A}
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{22}
@@ -48,6 +81,74 @@
       \endverb
       \verb{url}
       \verb https://support.apple.com/nl-be/HT210393#13
+      \endverb
+    \endentry
+    \entry{Beaufort2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=2,uniquepart=given,hash=6694c330563667dd1eccb76a53c46b14}{%
+           family={Beaufort},
+           familyi={B\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{6694c330563667dd1eccb76a53c46b14}
+      \strng{fullhash}{6694c330563667dd1eccb76a53c46b14}
+      \strng{bibnamehash}{6694c330563667dd1eccb76a53c46b14}
+      \strng{authorbibnamehash}{6694c330563667dd1eccb76a53c46b14}
+      \strng{authornamehash}{6694c330563667dd1eccb76a53c46b14}
+      \strng{authorfullhash}{6694c330563667dd1eccb76a53c46b14}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{month}{1}
+      \field{title}{Customize Media Notifications and Handle Playlists}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/updates/2017/02/media-session
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/updates/2017/02/media-session
+      \endverb
+    \endentry
+    \entry{Bhaumik2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=792587ee798dd4c4bc6c6be99244153b}{%
+           family={Bhaumik},
+           familyi={B\bibinitperiod},
+           given={Rijubrata},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{792587ee798dd4c4bc6c6be99244153b}
+      \strng{fullhash}{792587ee798dd4c4bc6c6be99244153b}
+      \strng{bibnamehash}{792587ee798dd4c4bc6c6be99244153b}
+      \strng{authorbibnamehash}{792587ee798dd4c4bc6c6be99244153b}
+      \strng{authornamehash}{792587ee798dd4c4bc6c6be99244153b}
+      \strng{authorfullhash}{792587ee798dd4c4bc6c6be99244153b}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{24}
+      \field{month}{1}
+      \field{title}{Bringing High-quality Imaging to the Web Platform}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/@rijubratabhaumik/bringing-high-quality-imaging-to-the-web-platform-8b2e2eb67b56
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@rijubratabhaumik/bringing-high-quality-imaging-to-the-web-platform-8b2e2eb67b56
       \endverb
     \endentry
     \entry{Hansen2017}{article}{}
@@ -102,6 +203,40 @@
       \endverb
       \verb{url}
       \verb https://www.scitepress.org/Papers/2017/63537/63537.pdf
+      \endverb
+    \endentry
+    \entry{CasasSanchez2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2b7dc06a8954c2a42490cee658bdc467}{%
+           family={Casas-Sanchez},
+           familyi={C\bibinithyphendelim S\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2b7dc06a8954c2a42490cee658bdc467}
+      \strng{fullhash}{2b7dc06a8954c2a42490cee658bdc467}
+      \strng{bibnamehash}{2b7dc06a8954c2a42490cee658bdc467}
+      \strng{authorbibnamehash}{2b7dc06a8954c2a42490cee658bdc467}
+      \strng{authornamehash}{2b7dc06a8954c2a42490cee658bdc467}
+      \strng{authorfullhash}{2b7dc06a8954c2a42490cee658bdc467}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{month}{3}
+      \field{title}{MediaStream Recording}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/mediastream-recording/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/mediastream-recording/
       \endverb
     \endentry
     \entry{Croll2017}{online}{}
@@ -241,7 +376,7 @@
       \verb https://developers.google.com/web/showcase/2016/aliexpress#results
       \endverb
     \endentry
-    \entry{Developers2020a}{online}{}
+    \entry{Developers2020b}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=ee46292309d59259e69ff82edd151b48}{%
            family={Developers},
@@ -264,6 +399,41 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{3}
+      \field{title}{Google cast SDK}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/cast
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/cast
+      \endverb
+    \endentry
+    \entry{Developers2020a}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=ee46292309d59259e69ff82edd151b48}{%
+           family={Developers},
+           familyi={D\bibinitperiod},
+           given={Google},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee46292309d59259e69ff82edd151b48}
+      \strng{fullhash}{ee46292309d59259e69ff82edd151b48}
+      \strng{bibnamehash}{ee46292309d59259e69ff82edd151b48}
+      \strng{authorbibnamehash}{ee46292309d59259e69ff82edd151b48}
+      \strng{authornamehash}{ee46292309d59259e69ff82edd151b48}
+      \strng{authorfullhash}{ee46292309d59259e69ff82edd151b48}
+      \field{extraname}{4}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{day}{7}
       \field{month}{3}
       \field{title}{Twitter Lite PWA Significantly Increases Engagement and Reduces Data Usage}
@@ -274,6 +444,52 @@
       \endverb
       \verb{url}
       \verb https://developers.google.com/web/showcase/2017/twitter#lowering_data_consumption
+      \endverb
+    \endentry
+    \entry{DzungDTran}{online}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=e130e7359b94e27d105b2bcc54a2e2db}{%
+           family={Dzung\bibnamedelimb D\bibnamedelima Tran},
+           familyi={D\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Intel},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=521eee9e8da5a9209260c8e2b60a87b2}{%
+           family={Ilkka\bibnamedelima Oksanen},
+           familyi={I\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Nokia},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=379d7a73f100551a3116ca79c5d0220b}{%
+           family={Ingmar\bibnamedelima Kliche},
+           familyi={I\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Deutsche\bibnamedelima Telekom},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{959ad666ec3af5f7a8793424afccebfc}
+      \strng{fullhash}{a210d5df91812081ee18371e5f536248}
+      \strng{bibnamehash}{a210d5df91812081ee18371e5f536248}
+      \strng{authorbibnamehash}{a210d5df91812081ee18371e5f536248}
+      \strng{authornamehash}{959ad666ec3af5f7a8793424afccebfc}
+      \strng{authorfullhash}{a210d5df91812081ee18371e5f536248}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{month}{3}
+      \field{title}{The Media Capture API}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/media-capture-api/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/media-capture-api/
       \endverb
     \endentry
     \entry{Formidable2020}{online}{}
@@ -306,6 +522,41 @@
       \verb{url}
       \verb https://formidable.com/work/starbucks-progressive-web-app/
       \endverb
+    \endentry
+    \entry{Fransson2017}{thesis}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=31003c70d86f05151a72c35a1e19a0b3}{%
+           family={Fransson},
+           familyi={F\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a2ca18e1fc0d9b17836b87f8023501cc}{%
+           family={Driaguine},
+           familyi={D\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Linnaeus University}%
+      }
+      \strng{namehash}{2d34b7f29cdbb12bab9e0fed80b5bfce}
+      \strng{fullhash}{2d34b7f29cdbb12bab9e0fed80b5bfce}
+      \strng{bibnamehash}{2d34b7f29cdbb12bab9e0fed80b5bfce}
+      \strng{authorbibnamehash}{2d34b7f29cdbb12bab9e0fed80b5bfce}
+      \strng{authornamehash}{2d34b7f29cdbb12bab9e0fed80b5bfce}
+      \strng{authorfullhash}{2d34b7f29cdbb12bab9e0fed80b5bfce}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Comparing Progressive WebApplications with Native Android Applications - an evaluation of performance when it comes toresponse time}
+      \field{year}{2017}
+      \field{dateera}{ce}
     \endentry
     \entry{Gaunt2019}{online}{}
       \name{author}{1}{}{%
@@ -625,6 +876,52 @@
       \verb https://research.vu.nl/en/publications/beyond-native-apps-web-technologies-to-the-rescue-keynote
       \endverb
     \endentry
+    \entry{Jennings2020}{online}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=6ec10d8f26f4d082a049a9e605d73b99}{%
+           family={Jennings},
+           familyi={J\bibinitperiod},
+           given={Cullen},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ed41600a335287efe65d95f34f218b77}{%
+           family={Boströ},
+           familyi={B\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=012cd5c67959dcabefa99df5b4f83a72}{%
+           family={Bruaroey},
+           familyi={B\bibinitperiod},
+           given={Jan-Ivar},
+           giveni={J\bibinithyphendelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7e3297015242ecb1844c04163171195d}
+      \strng{fullhash}{70cc702cf9c1f191d5c2aa4efa1c90a0}
+      \strng{bibnamehash}{70cc702cf9c1f191d5c2aa4efa1c90a0}
+      \strng{authorbibnamehash}{70cc702cf9c1f191d5c2aa4efa1c90a0}
+      \strng{authornamehash}{7e3297015242ecb1844c04163171195d}
+      \strng{authorfullhash}{70cc702cf9c1f191d5c2aa4efa1c90a0}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{3}
+      \field{title}{WebRTC 1.0: Real-time Communication Between Browsers}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/webrtc/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/webrtc/
+      \endverb
+    \endentry
     \entry{Jobs2007}{inproceedings}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=801e93fe2a0575dec9c6a2ed38eb6a9e}{%
@@ -687,6 +984,40 @@
       \field{year}{2020}
       \field{dateera}{ce}
     \endentry
+    \entry{Kinlan2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d8ab4423a6acef6926d0f389f02b7c6f}{%
+           family={Kinlan},
+           familyi={K\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d8ab4423a6acef6926d0f389f02b7c6f}
+      \strng{fullhash}{d8ab4423a6acef6926d0f389f02b7c6f}
+      \strng{bibnamehash}{d8ab4423a6acef6926d0f389f02b7c6f}
+      \strng{authorbibnamehash}{d8ab4423a6acef6926d0f389f02b7c6f}
+      \strng{authornamehash}{d8ab4423a6acef6926d0f389f02b7c6f}
+      \strng{authorfullhash}{d8ab4423a6acef6926d0f389f02b7c6f}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{9}
+      \field{title}{Recording Audio from the User}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/fundamentals/media/recording-audio
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/fundamentals/media/recording-audio
+      \endverb
+    \endentry
     \entry{Lee2018}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=eb229eca3665cfc2c9489aa7807a8262}{%
@@ -745,12 +1076,12 @@
            given={Pete},
            giveni={P\bibinitperiod},
            givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=485ccaacb839ba0e8022b9d3771c4737}{%
+        {{uniquename=2,uniquepart=given,hash=485ccaacb839ba0e8022b9d3771c4737}{%
            family={Beaufort},
            familyi={B\bibinitperiod},
            given={Francois},
            giveni={F\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
       }
       \strng{namehash}{7f8cfc9c8682e74556593641ee374970}
       \strng{fullhash}{7f8cfc9c8682e74556593641ee374970}
@@ -810,6 +1141,46 @@
       \endverb
       \verb{url}
       \verb https://books.google.be/books?id=b2dmDwAAQBAJ&printsec=frontcover&hl=nl&source=gbs_ge_summary_r&cad=0#v=onepage&q=doi&f=false
+      \endverb
+    \endentry
+    \entry{Mandyam2020}{online}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=7d954e582d950d05d1e1e1ba17bb53e0}{%
+           family={Mandyam},
+           familyi={M\bibinitperiod},
+           given={Giridhar},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2b7dc06a8954c2a42490cee658bdc467}{%
+           family={Casas-Sanchez},
+           familyi={C\bibinithyphendelim S\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{feca3c8b5560444ff6323e6d3ea21dfe}
+      \strng{fullhash}{feca3c8b5560444ff6323e6d3ea21dfe}
+      \strng{bibnamehash}{feca3c8b5560444ff6323e6d3ea21dfe}
+      \strng{authorbibnamehash}{feca3c8b5560444ff6323e6d3ea21dfe}
+      \strng{authornamehash}{feca3c8b5560444ff6323e6d3ea21dfe}
+      \strng{authorfullhash}{feca3c8b5560444ff6323e6d3ea21dfe}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{month}{3}
+      \field{title}{MediaStream Image Capture}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/image-capture/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/image-capture/
       \endverb
     \endentry
     \entry{Microsoft2020}{online}{}
@@ -902,7 +1273,7 @@
       \verb https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
       \endverb
     \endentry
-    \entry{Mozilla2019a}{online}{}
+    \entry{Mozilla2019c}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=502f1bd97b0e7d80b88e1f45ae1bfdb8}{%
            family={Mozilla},
@@ -918,6 +1289,38 @@
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{31}
+      \field{month}{12}
+      \field{title}{Introduction to web APIs}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction
+      \endverb
+    \endentry
+    \entry{Mozilla2019a}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=502f1bd97b0e7d80b88e1f45ae1bfdb8}{%
+           family={Mozilla},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{fullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{bibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorbibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authornamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorfullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \field{extraname}{4}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradate}{4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -946,7 +1349,7 @@
       \strng{authorbibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
       \strng{authornamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
       \strng{authorfullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{extradatescope}{labelyear}
@@ -996,6 +1399,74 @@
       \endverb
       \verb{url}
       \verb https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Offline_Service_workers
+      \endverb
+    \endentry
+    \entry{Oberhofer2017}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=188897fd5793f261b2cb8953f749c079}{%
+           family={Oberhofer},
+           familyi={O\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{188897fd5793f261b2cb8953f749c079}
+      \strng{fullhash}{188897fd5793f261b2cb8953f749c079}
+      \strng{bibnamehash}{188897fd5793f261b2cb8953f749c079}
+      \strng{authorbibnamehash}{188897fd5793f261b2cb8953f749c079}
+      \strng{authornamehash}{188897fd5793f261b2cb8953f749c079}
+      \strng{authorfullhash}{188897fd5793f261b2cb8953f749c079}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{6}
+      \field{title}{Let's light a torch and explore MediaStreamTrack's capabilities}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.oberhofer.co/mediastreamtrack-and-its-capabilities/
+      \endverb
+      \verb{url}
+      \verb https://www.oberhofer.co/mediastreamtrack-and-its-capabilities/
+      \endverb
+    \endentry
+    \entry{Ogundipe2018}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1a4692df0d38b37f5e4367f9fc4da4a5}{%
+           family={Ogundipe},
+           familyi={O\bibinitperiod},
+           given={Oreoluwa},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1a4692df0d38b37f5e4367f9fc4da4a5}
+      \strng{fullhash}{1a4692df0d38b37f5e4367f9fc4da4a5}
+      \strng{bibnamehash}{1a4692df0d38b37f5e4367f9fc4da4a5}
+      \strng{authorbibnamehash}{1a4692df0d38b37f5e4367f9fc4da4a5}
+      \strng{authornamehash}{1a4692df0d38b37f5e4367f9fc4da4a5}
+      \strng{authorfullhash}{1a4692df0d38b37f5e4367f9fc4da4a5}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{9}
+      \field{title}{Building an Offline PWA Camera App with React and Cloudinary}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://dev.to/ore/building-an-offline-pwa-camera-app-with-react-and-cloudinary-5b9k
+      \endverb
+      \verb{url}
+      \verb https://dev.to/ore/building-an-offline-pwa-camera-app-with-react-and-cloudinary-5b9k
       \endverb
     \endentry
     \entry{Osmani2016}{online}{}
@@ -1332,11 +1803,11 @@
       \strng{authorbibnamehash}{2fae911410cd63fff38c4d06ca5d2155}
       \strng{authornamehash}{2fae911410cd63fff38c4d06ca5d2155}
       \strng{authorfullhash}{2fae911410cd63fff38c4d06ca5d2155}
+      \field{extraname}{1}
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{12}
@@ -1349,6 +1820,40 @@
       \endverb
       \verb{url}
       \verb https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/cache-api
+      \endverb
+    \endentry
+    \entry{Scales2020a}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2fae911410cd63fff38c4d06ca5d2155}{%
+           family={Scales},
+           familyi={S\bibinitperiod},
+           given={Mat},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2fae911410cd63fff38c4d06ca5d2155}
+      \strng{fullhash}{2fae911410cd63fff38c4d06ca5d2155}
+      \strng{bibnamehash}{2fae911410cd63fff38c4d06ca5d2155}
+      \strng{authorbibnamehash}{2fae911410cd63fff38c4d06ca5d2155}
+      \strng{authornamehash}{2fae911410cd63fff38c4d06ca5d2155}
+      \strng{authorfullhash}{2fae911410cd63fff38c4d06ca5d2155}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{month}{3}
+      \field{title}{Recording Video from the User}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/fundamentals/media/recording-video
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/fundamentals/media/recording-video
       \endverb
     \endentry
     \entry{Silver2018}{online}{}

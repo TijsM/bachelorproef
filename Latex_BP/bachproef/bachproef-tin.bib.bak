@@ -234,4 +234,115 @@
   url    = {https://formidable.com/work/starbucks-progressive-web-app/},
 }
 
+@Booklet{Kawatka2020,
+  author = {Kawatka, Piotr and Wala, Artur},
+  date   = {2020-03-07},
+  title  = {Top 30 progressive web apps},
+}
+
+@Online{Croll2017,
+  author = {Croll, Angus},
+  date   = {2017-06-27},
+  title  = {Building m.uber: Engineering a High-Performance Web App for the Global Market},
+  url    = {https://eng.uber.com/m-uber/},
+}
+
+@Online{Osmani2019b,
+  author = {Osmani, Addy},
+  date   = {2019-11-29},
+  title  = {A Pinterest Progressive Web App Performance Case Study},
+  url    = {https://medium.com/dev-channel/a-pinterest-progressive-web-app-performance-case-study-3bd6ed2e6154},
+}
+
+@Online{Mozilla2019c,
+  author = {Mozilla},
+  date   = {2019-12-31},
+  title  = {Introduction to web APIs},
+  url    = {https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction},
+}
+
+@Online{DzungDTran,
+  author = {Dzung D Tran, Intel and Ilkka Oksanen, Nokia and Ingmar Kliche, Deutsche Telekom},
+  date   = {2020-03-16},
+  title  = {The Media Capture API},
+  url    = {https://www.w3.org/TR/media-capture-api/},
+}
+
+@Thesis{Fransson2017,
+  author      = {Fransson, Rebecca and Driaguine, Alexandre},
+  date        = {2017},
+  institution = {Linnaeus University},
+  title       = {Comparing Progressive WebApplications with Native Android Applications - an evaluation of performance when it comes toresponse time},
+}
+
+@Online{Scales2020a,
+  author = {Scales, Mat},
+  date   = {2020-03-10},
+  title  = {Recording Video from the User},
+  url    = {https://developers.google.com/web/fundamentals/media/recording-video},
+}
+
+@Online{Oberhofer2017,
+  author = {Oberhofer, Christoph},
+  date   = {2017-06-06},
+  title  = {Let's light a torch and explore MediaStreamTrack's capabilities},
+  url    = {https://www.oberhofer.co/mediastreamtrack-and-its-capabilities/},
+}
+
+@Online{Ogundipe2018,
+  author = {Ogundipe, Oreoluwa},
+  date   = {2018-09-18},
+  title  = {Building an Offline PWA Camera App with React and Cloudinary},
+  url    = {https://dev.to/ore/building-an-offline-pwa-camera-app-with-react-and-cloudinary-5b9k},
+}
+
+@Online{Mandyam2020,
+  author = {Mandyam, Giridhar and Casas-Sanchez, Miguel},
+  date   = {2020-03-05},
+  title  = {MediaStream Image Capture},
+  url    = {https://www.w3.org/TR/image-capture/},
+}
+
+@Online{Bhaumik2019,
+  author = {Bhaumik, Rijubrata},
+  date   = {2019-01-24},
+  title  = {Bringing High-quality Imaging to the Web Platform},
+  url    = {https://medium.com/@rijubratabhaumik/bringing-high-quality-imaging-to-the-web-platform-8b2e2eb67b56},
+}
+
+@Online{CasasSanchez2020,
+  author = {Casas-Sanchez, Miguel},
+  date   = {2020-03-13},
+  title  = {MediaStream Recording},
+  url    = {https://www.w3.org/TR/mediastream-recording/},
+}
+
+@Online{Kinlan2019,
+  author = {Kinlan, Paul},
+  date   = {2019-09-27},
+  title  = {Recording Audio from the User},
+  url    = {https://developers.google.com/web/fundamentals/media/recording-audio},
+}
+
+@Online{Jennings2020,
+  author = {Jennings, Cullen and Boströ, Henrik and Bruaroey, Jan-Ivar},
+  date   = {2020-03-18},
+  title  = {WebRTC 1.0: Real-time Communication Between Browsers},
+  url    = {https://www.w3.org/TR/webrtc/},
+}
+
+@Online{Apple2020a,
+  author = {Apple},
+  date   = {2020-03-23},
+  title  = {Adding an AirPlay Button to Your Safari Media Controls},
+  url    = {https://developer.apple.com/documentation/webkitjs/adding_an_airplay_button_to_your_safari_media_controls},
+}
+
+@Online{Developers2020b,
+  author = {Developers, Google},
+  date   = {2020-03-27},
+  title  = {Google cast SDK},
+  url    = {https://developers.google.com/cast},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
