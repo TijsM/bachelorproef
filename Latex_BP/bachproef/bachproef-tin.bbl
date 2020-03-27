@@ -1399,6 +1399,46 @@
       \field{year}{2007}
       \field{dateera}{ce}
     \endentry
+    \entry{Jones2020}{online}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=3eb8a512a324ad27522d8b12d6ef323d}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Brandon},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4f22d7e15d4e5acec78fd27908bc026e}{%
+           family={Waliczek},
+           familyi={W\bibinitperiod},
+           given={Nell},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da2b9a5b97110c994931479b332e7c43}
+      \strng{fullhash}{da2b9a5b97110c994931479b332e7c43}
+      \strng{bibnamehash}{da2b9a5b97110c994931479b332e7c43}
+      \strng{authorbibnamehash}{da2b9a5b97110c994931479b332e7c43}
+      \strng{authornamehash}{da2b9a5b97110c994931479b332e7c43}
+      \strng{authorfullhash}{da2b9a5b97110c994931479b332e7c43}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{month}{3}
+      \field{title}{WebXR Device API}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/webxr/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/webxr/
+      \endverb
+    \endentry
     \entry{Kacmarcik2020}{online}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=8e404f5b352b0193b0eeacfe80fa1b7b}{%
@@ -1510,6 +1550,45 @@
       \verb https://developers.google.com/web/fundamentals/media/recording-audio
       \endverb
     \endentry
+    \entry{Kostiainen2020a}{online}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8d34b8de2262123e61846f8eba868e63}{%
+           family={Kostiainen},
+           familyi={K\bibinitperiod},
+           given={Anssi},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=792587ee798dd4c4bc6c6be99244153b}{%
+           family={Bhaumik},
+           familyi={B\bibinitperiod},
+           given={Rijubrata},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dbd9f5f181f34f41658efa19e552e4de}
+      \strng{fullhash}{dbd9f5f181f34f41658efa19e552e4de}
+      \strng{bibnamehash}{dbd9f5f181f34f41658efa19e552e4de}
+      \strng{authorbibnamehash}{dbd9f5f181f34f41658efa19e552e4de}
+      \strng{authornamehash}{dbd9f5f181f34f41658efa19e552e4de}
+      \strng{authorfullhash}{dbd9f5f181f34f41658efa19e552e4de}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{month}{3}
+      \field{title}{Proximity Sensor}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/proximity/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/proximity/
+      \endverb
+    \endentry
     \entry{Kostiainen2020}{online}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=8d34b8de2262123e61846f8eba868e63}{%
@@ -1535,7 +1614,6 @@
       \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{25}
@@ -1599,11 +1677,12 @@
       \strng{authorbibnamehash}{1060568a0b2ef44dcca099b07e5be8f2}
       \strng{authornamehash}{1060568a0b2ef44dcca099b07e5be8f2}
       \strng{authorfullhash}{1060568a0b2ef44dcca099b07e5be8f2}
+      \field{extraname}{1}
       \field{sortinit}{K}
       \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{15}
@@ -1616,6 +1695,41 @@
       \endverb
       \verb{url}
       \verb https://www.w3.org/TR/FileAPI/
+      \endverb
+    \endentry
+    \entry{Kruisselbrink2020a}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1060568a0b2ef44dcca099b07e5be8f2}{%
+           family={Kruisselbrink},
+           familyi={K\bibinitperiod},
+           given={Marijn},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1060568a0b2ef44dcca099b07e5be8f2}
+      \strng{fullhash}{1060568a0b2ef44dcca099b07e5be8f2}
+      \strng{bibnamehash}{1060568a0b2ef44dcca099b07e5be8f2}
+      \strng{authorbibnamehash}{1060568a0b2ef44dcca099b07e5be8f2}
+      \strng{authornamehash}{1060568a0b2ef44dcca099b07e5be8f2}
+      \strng{authorfullhash}{1060568a0b2ef44dcca099b07e5be8f2}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{month}{3}
+      \field{title}{Geofencing API}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/geofencing/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/geofencing/
       \endverb
     \endentry
     \entry{Kulkarni2020}{online}{}
@@ -2451,6 +2565,40 @@
       \field{year}{2007}
       \field{dateera}{ce}
     \endentry
+    \entry{Popescu2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4916c585d4c7d99f27aa6bb8ca2f890a}{%
+           family={Popescu},
+           familyi={P\bibinitperiod},
+           given={Andrei},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4916c585d4c7d99f27aa6bb8ca2f890a}
+      \strng{fullhash}{4916c585d4c7d99f27aa6bb8ca2f890a}
+      \strng{bibnamehash}{4916c585d4c7d99f27aa6bb8ca2f890a}
+      \strng{authorbibnamehash}{4916c585d4c7d99f27aa6bb8ca2f890a}
+      \strng{authornamehash}{4916c585d4c7d99f27aa6bb8ca2f890a}
+      \strng{authorfullhash}{4916c585d4c7d99f27aa6bb8ca2f890a}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{24}
+      \field{month}{3}
+      \field{title}{Geolocation API Specification 2nd Edition}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/geolocation-API/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/geolocation-API/
+      \endverb
+    \endentry
     \entry{PWAbuilder2020}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=9850a5a2f06c27b24c5bc21da1a6051a}{%
@@ -2864,14 +3012,47 @@
       \verb https://www.w3.org/TR/push-api/
       \endverb
     \endentry
+    \entry{Tibbett2020a}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=2,uniquepart=given,hash=ae709c0c58686212b7a77618992bca49}{%
+           family={Tibbett},
+           familyi={T\bibinitperiod},
+           given={Rich},
+           giveni={R\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{ae709c0c58686212b7a77618992bca49}
+      \strng{fullhash}{ae709c0c58686212b7a77618992bca49}
+      \strng{bibnamehash}{ae709c0c58686212b7a77618992bca49}
+      \strng{authorbibnamehash}{ae709c0c58686212b7a77618992bca49}
+      \strng{authornamehash}{ae709c0c58686212b7a77618992bca49}
+      \strng{authorfullhash}{ae709c0c58686212b7a77618992bca49}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{month}{3}
+      \field{title}{DeviceOrientation Event Specification}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/orientation-event/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/orientation-event/
+      \endverb
+    \endentry
     \entry{Tibbett2020}{online}{}
       \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=016bb40413e2eaac913a4f81158ef8f2}{%
+        {{uniquename=2,uniquepart=given,hash=016bb40413e2eaac913a4f81158ef8f2}{%
            family={Tibbett},
            familyi={T\bibinitperiod},
            given={Richard},
            giveni={R\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{uniquename=0,uniquepart=base,hash=74f6800b107217b84f12a7e011c23c0a}{%
            family={Berjon},
            familyi={B\bibinitperiod},
@@ -2895,7 +3076,6 @@
       \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{18}
@@ -3040,6 +3220,40 @@
       \endverb
       \verb{url}
       \verb https://ieeexplore.ieee.org/abstract/document/7307120
+      \endverb
+    \endentry
+    \entry{Waldroon2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c122bee200f378aca7e427f31441017c}{%
+           family={Waldroon},
+           familyi={W\bibinitperiod},
+           given={Rick},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c122bee200f378aca7e427f31441017c}
+      \strng{fullhash}{c122bee200f378aca7e427f31441017c}
+      \strng{bibnamehash}{c122bee200f378aca7e427f31441017c}
+      \strng{authorbibnamehash}{c122bee200f378aca7e427f31441017c}
+      \strng{authornamehash}{c122bee200f378aca7e427f31441017c}
+      \strng{authorfullhash}{c122bee200f378aca7e427f31441017c}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{3}
+      \field{title}{Generic Sensor API}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/generic-sensor/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/generic-sensor/
       \endverb
     \endentry
     \entry{West2020}{online}{}

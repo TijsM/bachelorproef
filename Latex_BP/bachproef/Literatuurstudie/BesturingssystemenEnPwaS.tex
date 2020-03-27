@@ -770,10 +770,191 @@ De Credential Management API \autocite{West2020} levert methodes voor het ophale
 \end{table}
 
 \subsubsection{Locatie en positionering}
+
+\paragraph{Geolocatie}
+De Geolocation API \autocite{Popescu2020} zorgt ervoor dat een applicatie toegang heeft tot de locatie van een toestel. Dat wordt gedaan op basis van de gps-sensor of op basis van het netwerk. 
+De API voorziet niet enkel de locatie maar ook methodes die de applicatie informeren als de locatie verandert.
+Navigatie-applicaties zoals Google Maps of Waze kunnen dus ook geïmplementeerd worden als PWA.
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Ja   & Ja      &  Ja     & Ja     & ja               & Ja          
+	\end{tabular}	
+	\caption{ondersteuning Geolocation API}
+	\label{ondersteuning Geolocation API}
+\end{table}
+
+
+\paragraph{Geofencing}
+Geofencing is een technologie waarbij er een geografische zone wordt ingesteld. Als de gebruiker in deze zone komt, wordt er automatisch een actie uitgevoerd. 
+
+Er was een voorstel om deze API \autocite{Kruisselbrink2020a} uit te werken voor het web, maar op het moment van schrijven heeft geen enkele browser dit geïmplementeerd. Dit is eenfunctie die enkel beschikbaar is voor native IOS en Android-applicaties.
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Nee   & Nee      &  Nee     & Nee     & Nee               & Nee          
+	\end{tabular}	
+	\caption{ondersteuning Geofencing API}
+	\label{ondersteuning Geofencing API}
+\end{table}
+
+\paragraph{Toesteloriëntatie }
+
+Native applicaties en meer specifiek, mobiele games maken vaak gebruik van de toesteloriëntatie als input methode. Dit wordt bijvoorbeeld gebruikt bij racegames om een stuur te simuleren.
+
+De Device Orientation API \autocite{Tibbett2020a} levert methodes voor het detecteren van de oriëntatie van het toestel. Er zijn drie eigenschappen die de oriëntatie bepalen:
+
+
+ \begin{itemize}
+	\item	Alpha:  Dit is de richting naar waar het toestel gericht is.
+	\item	Beta:  Dit is het aantal graden dat het toestel voorwaarts of achterwaarts gekanteld is.
+	\item   Gamma: Dit is het aantal graden dat het toestel naar links of naar rechts gekanteld is.
+\end{itemize}
+
+
+De toesteloriëntatie kan, net zoals bij native applicaties, gebruikt worden als een input-methode voor applicaties. Dit wordt vaak gebruikt bij games.
+
+Deze API levert ook methodes die website in een bepaalde oriëntatie forceren.
+
+Niet elk toestel heeft deze sensoren. Als ze aanwezig zijn, worden ze ondersteund in volgende browsers. Deze API is vooral gericht naar mobiele toestellen. 
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Ja   & Ja      &  Ja   & Nee     & Ja               & Ja          
+	\end{tabular}	
+	\caption{ondersteuning Device Orientation API }
+	\label{ondersteuning Device Orientation API }
+\end{table}
+
+\paragraph{Toestelbeweging}
+De Generic Sensor API \autocite{Waldroon2020} is een verzameling van API’s voor het gebruiken van verschillende sensoren van het toestel.
+
+	\subparagraph{DeviceMotionEvent }
+	Levert informatie over de snelheid waarmee een toestel zijn oriëntatie en positie verandert.
+	
+	\begin{table}[]
+		\begin{tabular}{llllll}
+			Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+			Ja   & Ja      &  Ja   & Nee     & Ja               & Ja          
+		\end{tabular}	
+		\caption{ondersteuning	DeviceMotionEvent  }
+		\label{ondersteuning DeviceMotionEvent  }
+	\end{table} 
+	
+	
+	\subparagraph{Accelerometer  }
+		Levert informatie over de snelheid waarbij het toestel zich beweegt in een ruimte. De API levert zowel X-, Y- als Z-coördinaten
+		
+		\begin{table}[]
+			\begin{tabular}{llllll}
+				Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+				Ja   & Nee      &  Ja   & Nee     & Ja               & Nee          
+			\end{tabular}	
+			\caption{ondersteuning	Accelerometer   }
+			\label{ondersteuning Accelerometer  }
+		\end{table}
+		
+		
+		
+	\subparagraph{Gyroscope  }
+		Levert informatie over de snelheid waarmee een toestel aan het roteren is. 
+			
+		\begin{table}[]
+			\begin{tabular}{llllll}
+				Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+				Ja   & Nee      &  Ja   & Nee     & Ja               & Nee          
+			\end{tabular}	
+			\caption{ondersteuning Gyroscope  }
+			\label{ondersteuning Gyroscope   }
+		\end{table}
+			
+	\subparagraph{Magnetometer }
+			Meet het magnetische veld rond het toestel. 
+			
+		\begin{table}[]
+			\begin{tabular}{llllll}
+				Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+				Nee   & Nee      &  Ja   & Nee     & Nee               & Nee          
+			\end{tabular}	
+			\caption{ondersteuning Magnetometer  }
+			\label{ondersteuning Magnetometer   }
+		\end{table}
+			
+			
+	\subparagraph{LinearAccelerationSensor    }
+		Levert informatie over de snelheid waarmee een toestel beweegt, maar dit zonder de impact van de zwaartekracht.
+			
+		\begin{table}[]
+			\begin{tabular}{llllll}
+				Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+				Ja   & Nee      &  Ja   & Nee     & Ja               & Nee          
+			\end{tabular}	
+			\caption{ondersteuning 	LinearAccelerationSensor   }
+			\label{ondersteuning LinearAccelerationSensor    }
+		\end{table}
+		
+			
+\paragraph{Nabijheid-sensoren }
+De Proximity API \autocite{Kostiainen2020a} geeft informatie over de afstand tussen het toestel en een object. Deze sensor wordt gebruikt om het scherm uit te zetten als een persoon aan het bellen is.
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Nee   & Ja      &  Nee   & Nee     & Nee               & Nee          
+	\end{tabular}	
+	\caption{ondersteuning  Proximity API  }
+	\label{ondersteuning  Proximity API }
+\end{table}
+
+
+
 \subsubsection{Scherm en output}
+\paragraph{Virtual en augmented reality }
+De webXR Device API \autocite{Jones2020} zorgt voor een interface voor het verbinden van een virtual reality toestel met de browser. De sensoren van het toestel kunnen gebruikt worden om het canvas-element te laden in het VR-toestel.
 
-\subsection{Conclusie }
+De oudere webVR API levert gelijkaardige methodes maar is beter ondersteund.
 
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Ja (webXR)  & 	Ja (webVR)  &  	Ja (webVR + webXR  & Nee  & Ja (webVR + webXR) & Nee Nee          
+	\end{tabular}	
+	\caption{ondersteuning  WebVR en WebXR  }
+	\label{ondersteuning  WebVR en WebXR }
+\end{table}\
+
+\paragraph{Fullscreen }
+De Fullscreen API \autocite{Kesteren2020} geeft een aantal methodes die ervoor zorgen dat de browser-elementen verwijderd worden. Dit laat een website meer aanvoelen als een native applicatie.
+
+Er worden twee methodes voorzien: een voor in fullscreen mode te gaan en een om deze te verlaten.
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Ja   & Ja      &  Ja   & Ja     & Ja               & Nee          
+	\end{tabular}	
+	\caption{ondersteuning  Fullscreen API  }
+	\label{ondersteuning  Fullscreen API }
+\end{table}
+
+
+\paragraph{Wake lock }
+eel toestellen gaan het scherm dimmen na een bepaalde tijd van inactiviteit. Dit kan onhandig zijn voor bepaalde applicaties zoals een gps. Met de Wake Lock API \autocite{Bogdanovich2020} kan het automatisch dimmen van het scherm tegengegaan worden.
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Ja   & Nee      &  Ja   & Onbekend     & Ja               & Nee          
+	\end{tabular}	
+	\caption{ondersteuning  Wake Lock API  }
+	\label{ondersteuning  Wake Lock API }
+\end{table}
+
+
+\subsection{Conclusie}
 \subsubsection{Browsers}
 
 \subsubsection{Mobiele besturingssystemen }
