@@ -1,3 +1,17 @@
-# Zullen progressive web apps native applicaties vervangen binnen 5 jaar?
+# De interactie van een progressive web application met het besturingssysteem: een vergelijkende studie en proof-of-concept
 
-Er zal onderzoek gedaan worden naar de huidige staat van PWA’s (progressive web applications) en hoe progressive web apps gebruik kunnen maken van functies van een besturingssysteem. In een eerste deel zal gekeken worden naar welke functies besturingssystemen beschikbaar stellen voor progressive web applications en welke functies een native app wel kan gebruiken maar een PWA niet. Vervolgens zal ik naar oplossingen zoeken voor de functies van een besturingssysteem waar een PWA geen toegang tot heeft. Voor het derde deel zal een vergelijkende studie gevoerd worden naar de state-of-the-art van PWA’s op de verschillende besturingssystemen ten opzichte van native apps. Dit onderzoek is relevant omdat het ontwikkelen van PWA’s een stuk sneller en goedkoper is dan het ontwikkelen van native applicaties. Door het in kaart brengen van wat mogelijk is en wat niet kan er beter beslist wanneer er wel een PWA kan gebruikt worden in plaats van een native app. Op deze manier kan er voor sommige bedrijven tijd en budget gespaard worden zonder kwaliteit in te leveren. De verwachting is dat voor veel use-cases een PWA volstaat en er geen ontwikkeling van native apps voor verschillende platformen nodig is.
+Op een desktop is het gebruikelijk om taken uit te voeren in de browser. Voorbeelden hiervan zijn Gmail en Google drive. Dit is echter nog niet het geval op mobiele toestellen.
+Elke digitale toepassing, waarbij mobiele gebruikers het doelpubliek zijn, heeft een native application nodig. Vaak volstaat een traditionele responsive website niet omdat er essentiële functies zoals push notifications ontbreken. Dit heeft als gevolg dat gebruikers minder snel terugkeren naar jouw website.
+\autocite{Hiltunen2018}
+
+De ontwikkeling van native applications is echter geen goedkope of snelle oplossing. Er moet gelijkaardige code herschreven worden voor meerdere platformen. Digitale agentschappen, startups en andere software-ontwikkelaars willen vaak een zo snel mogelijke service bieden aan hun klanten. Dit is momenteel moeilijk.
+
+PWA's kunnen voor deze problemen een oplossing bieden.
+Bij het ontwikkelen van een mobiele applicatie zijn vaak functies, die aangeboden worden door het besturingssysteem, nodig. Voorbeelden hiervan zijn: locatievoorzieningen, offline gebruik, camera, push notifications, …
+
+- Welke stappen zijn nodig om een traditionele website om te vormen tot een PWA?
+- Wat zijn de beperkingen van een PWA?
+- item Kan een PWA alle functionaliteiten gebruiken die beschikbaar zijn voor native applications?
+- item Hoe staan de verschillende besturingssystemen ten opzichte van PWA's?
+- item Welke andere technologieën kunnen er gebruikt worden om applicaties te ontwikkelen voor meerdere platformen waarbij er maar één codebase is?
+
