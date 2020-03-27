@@ -304,6 +304,84 @@ Er bestaat echter wel een API om gebruik te kunnen maken van NFC \autocite{Rohde
 
 
 \subsubsection{Toestelkenmerken}
+
+
+\paragraph{Netwerkinformatie}
+
+De Network information API \autocite{Lamouri2020} voorziet informatie over het type netwerkverbinding die de gebruiker momenteel bezit. Deze informatie bevat het connectietype (2g, 3g, 4g) en wat de maximale downloadsnelheid is van deze verbinding.
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Nee   & Nee      &  Ja     & Nee     & Ja               & Nee          
+	\end{tabular}	
+	\caption{ondersteuning van Network information API }
+	\label{ondersteuning_NetworkInformation}
+\end{table}
+
+\paragraph{Online status}
+
+dit is een eenvoudige eigenschap die kan opgeroepen worden op het navigator object. Deze eigenschap bevat een booleaanse waarde die “waar” zal zijn als de gebruiker een connectie heeft met het internet. Deze informatie kan interessant zijn bij het ontwikkelen van een PWA met offline functionaliteiten.
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Ja   & Ja      &  Ja     & Ja     & Ja               & Ja          
+	\end{tabular}	
+	\caption{ondersteuning online status }
+	\label{ondersteuning_online status}
+\end{table}
+
+\paragraph{Vibratiemotor }
+
+De Vibration API \autocite{Kostionen2020} zorgt ervoor dat de vibratiemotor kan aangesproken worden vanuit de webapplicatie.
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Ja   & Ja      &  Ja     & Nee     & Ja               & Nee          
+	\end{tabular}	
+	\caption{ondersteuning vibratiemotor  }
+	\label{ondersteuning_vibratiemotor }
+\end{table}
+
+
+\paragraph{Batterijstatus}
+
+Aan de hand van de Battery Status API \autocite{Kostiainen2020} kan er informatie over de batterij van het toestel verkregen worden.
+
+Volgende informatie kan verkregen worden:
+ \begin{itemize}
+	\item	Aan het opladen
+	\item	Batterijpercentage
+	\item	Bij opladen, tijd tot volladen
+	\item	Bij niet opladen, tijd tot batterij leeg
+\end{itemize}
+
+Aan de hand van deze API kunnen er ook acties uitgevoerd worden op basis van het veranderen van de toestand van de batterij. Er kan bijvoorbeeld een functie uitgevoerd worden als de gebruiker zijn toestel met een energiebron verbindt.
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Ja   & Nee      &  Ja     & Nee     & Ja               & Nee          
+	\end{tabular}	
+	\caption{ondersteuning batterijstatus  }
+	\label{ondersteuning_batterijstatus}
+\end{table}
+
+\paragraph{Toestelgeheugen}
+de Device Memory API \autocite{Panicker2020} geeft informatie over het RAM-geheugen van het toestel van de gebruiker. Dit kan interessant zijn voor het laden van een eventuele lichtere versie van een website voor minder capabele toestellen.
+
+\begin{table}[]
+	\begin{tabular}{llllll}
+		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
+		Ja   & Nee      &  Ja     & Nee     & Ja               & Nee          
+	\end{tabular}	
+	\caption{ondersteuning toestelgeheugen }
+	\label{ondersteuning_toestelgeheugen}
+\end{table}
+
+
+
 \subsubsection{Native gedrag}
 \subsubsection{Besturingssysteem}
 \subsubsection{Input}

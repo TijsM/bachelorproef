@@ -1129,6 +1129,114 @@
       \verb https://developers.google.com/web/fundamentals/media/recording-audio
       \endverb
     \endentry
+    \entry{Kostiainen2020}{online}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8d34b8de2262123e61846f8eba868e63}{%
+           family={Kostiainen},
+           familyi={K\bibinitperiod},
+           given={Anssi},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=98beb7c160739a875adadcbdea753120}{%
+           family={Lamouri},
+           familyi={L\bibinitperiod},
+           given={Mounir},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4a2b9b905513c5cf79b36b9ec3a7cb05}
+      \strng{fullhash}{4a2b9b905513c5cf79b36b9ec3a7cb05}
+      \strng{bibnamehash}{4a2b9b905513c5cf79b36b9ec3a7cb05}
+      \strng{authorbibnamehash}{4a2b9b905513c5cf79b36b9ec3a7cb05}
+      \strng{authornamehash}{4a2b9b905513c5cf79b36b9ec3a7cb05}
+      \strng{authorfullhash}{4a2b9b905513c5cf79b36b9ec3a7cb05}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{month}{3}
+      \field{title}{Battery Status API}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb w3.org/TR/battery-status/
+      \endverb
+      \verb{url}
+      \verb w3.org/TR/battery-status/
+      \endverb
+    \endentry
+    \entry{Kostionen2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=bd5bc772374ea1fd47e86a7571420391}{%
+           family={Kostionen},
+           familyi={K\bibinitperiod},
+           given={Anssi},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bd5bc772374ea1fd47e86a7571420391}
+      \strng{fullhash}{bd5bc772374ea1fd47e86a7571420391}
+      \strng{bibnamehash}{bd5bc772374ea1fd47e86a7571420391}
+      \strng{authorbibnamehash}{bd5bc772374ea1fd47e86a7571420391}
+      \strng{authornamehash}{bd5bc772374ea1fd47e86a7571420391}
+      \strng{authorfullhash}{bd5bc772374ea1fd47e86a7571420391}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{month}{3}
+      \field{title}{Vibration API(second edition)}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/vibration/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/vibration/
+      \endverb
+    \endentry
+    \entry{Lamouri2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=98beb7c160739a875adadcbdea753120}{%
+           family={Lamouri},
+           familyi={L\bibinitperiod},
+           given={Mounir},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{98beb7c160739a875adadcbdea753120}
+      \strng{fullhash}{98beb7c160739a875adadcbdea753120}
+      \strng{bibnamehash}{98beb7c160739a875adadcbdea753120}
+      \strng{authorbibnamehash}{98beb7c160739a875adadcbdea753120}
+      \strng{authornamehash}{98beb7c160739a875adadcbdea753120}
+      \strng{authorfullhash}{98beb7c160739a875adadcbdea753120}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{20}
+      \field{month}{3}
+      \field{title}{The Network Information API}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/netinfo-api/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/netinfo-api/
+      \endverb
+    \endentry
     \entry{Lee2018}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=eb229eca3665cfc2c9489aa7807a8262}{%
@@ -1760,6 +1868,41 @@
       \endverb
       \verb{url}
       \verb https://medium.com/google-developers/instant-loading-web-apps-with-an-application-shell-architecture-7c0c2f10c73
+      \endverb
+    \endentry
+    \entry{Panicker2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=93cb1a351b05ba32cfff965e3c253179}{%
+           family={Panicker},
+           familyi={P\bibinitperiod},
+           given={Shubbie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{93cb1a351b05ba32cfff965e3c253179}
+      \strng{fullhash}{93cb1a351b05ba32cfff965e3c253179}
+      \strng{bibnamehash}{93cb1a351b05ba32cfff965e3c253179}
+      \strng{authorbibnamehash}{93cb1a351b05ba32cfff965e3c253179}
+      \strng{authornamehash}{93cb1a351b05ba32cfff965e3c253179}
+      \strng{authorfullhash}{93cb1a351b05ba32cfff965e3c253179}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{journaltitle}{Device Memory}
+      \field{month}{3}
+      \field{title}{Device Memory}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/device-memory/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/device-memory/
       \endverb
     \endentry
     \entry{Paus2007}{thesis}{}

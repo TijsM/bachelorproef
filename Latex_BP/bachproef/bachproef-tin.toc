@@ -89,55 +89,65 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{NFC}{33}{section*.33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Toestelkenmerken}{34}{section*.34}% 
+\contentsline {subsubsection}{Toestelkenmerken}{33}{section*.34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Native gedrag}{34}{section*.35}% 
+\contentsline {paragraph}{Netwerkinformatie}{33}{section*.35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Besturingssysteem}{34}{section*.36}% 
+\contentsline {paragraph}{Online status}{33}{section*.36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Input}{34}{section*.37}% 
+\contentsline {paragraph}{Vibratiemotor }{34}{section*.37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{User experience}{34}{section*.38}% 
+\contentsline {paragraph}{Batterijstatus}{34}{section*.38}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Locatie en positionering}{34}{section*.39}% 
+\contentsline {paragraph}{Toestelgeheugen}{34}{section*.39}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Scherm en output}{34}{section*.40}% 
+\contentsline {subsubsection}{Native gedrag}{35}{section*.40}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Conclusie }{34}{subsection.2.2.2}% 
+\contentsline {subsubsection}{Besturingssysteem}{35}{section*.41}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Browsers}{34}{section*.41}% 
+\contentsline {subsubsection}{Input}{35}{section*.42}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Mobiele besturingssystemen }{34}{section*.42}% 
+\contentsline {subsubsection}{User experience}{35}{section*.43}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Desktop besturingssystemen}{34}{section*.43}% 
+\contentsline {subsubsection}{Locatie en positionering}{35}{section*.44}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodologie}{35}{chapter.3}% 
+\contentsline {subsubsection}{Scherm en output}{35}{section*.45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{37}{chapter.4}% 
+\contentsline {subsection}{\numberline {2.2.2}Conclusie }{35}{subsection.2.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{39}{appendix.A}% 
+\contentsline {subsubsection}{Browsers}{35}{section*.46}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{39}{section.A.1}% 
+\contentsline {subsubsection}{Mobiele besturingssystemen }{35}{section*.47}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{40}{section.A.2}% 
+\contentsline {subsubsection}{Desktop besturingssystemen}{35}{section*.48}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{40}{subsection.A.2.1}% 
+\contentsline {chapter}{\numberline {3}Methodologie}{37}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{40}{subsection.A.2.2}% 
+\contentsline {chapter}{\numberline {4}Conclusie}{39}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{41}{subsection.A.2.3}% 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{41}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{41}{subsection.A.2.4}% 
+\contentsline {section}{\numberline {A.1}Introductie}{41}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.5}Native containers}{42}{subsection.A.2.5}% 
+\contentsline {section}{\numberline {A.2}State-of-the-art}{42}{section.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{42}{subsection.A.2.6}% 
+\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{42}{subsection.A.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{42}{section.A.3}% 
+\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{42}{subsection.A.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.1}Technologieën}{42}{subsection.A.3.1}% 
+\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{43}{subsection.A.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{43}{section.A.4}% 
+\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{43}{subsection.A.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{43}{section.A.5}% 
+\contentsline {subsection}{\numberline {A.2.5}Native containers}{44}{subsection.A.2.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{44}{subsection.A.2.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Methodologie}{44}{section.A.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.3.1}Technologieën}{44}{subsection.A.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{45}{section.A.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{45}{section.A.5}% 
 \contentsfinish 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  27 MAR 2020 10:56
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  27 MAR 2020 13:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1975,30 +1975,55 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 298.
 
-)) (./methodologie.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 319.
+
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 331.
 
 Missing character: There is no ’ in font pagk8t!
- [33]
-[34]
-Hoofdstuk 3.
-) (./conclusie.tex [35
+[33]
 
-] [36
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 344.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 368.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 380.
+
+)) (./methodologie.tex
+Underfull \vbox (badness 8000) has occurred while \output is active []
+
+ [34]
+Missing character: There is no ’ in font pagk8t!
+
+[35] [36
+
+]
+Hoofdstuk 3.
+) (./conclusie.tex [37] [38
 
 ]
 Hoofdstuk 4.
-) [37] [38
+) [39] [40
 
 ]
 B"ylage A.
 (../voorstel/voorstel-inhoud.tex
 Missing character: There is no … in font ptmr8t!
- [39]
+ [41]
 Missing character: There is no – in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
- [40]
+ [42]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
@@ -2010,16 +2035,16 @@ Missing character: There is no ’ in font ptmr8t!
 
 Underfull \vbox (badness 1655) has occurred while \output is active []
 
- [41]
+ [43]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 
-[42]
+[44]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-) [43]
+) [45]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
  (./bachproef-tin.aux)
@@ -2038,12 +2063,12 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42513 strings out of 492916
- 782883 string characters out of 6133345
- 1417036 words of memory out of 5000000
- 45947 multiletter control sequences out of 15000+600000
+ 42530 strings out of 492916
+ 783375 string characters out of 6133345
+ 1418488 words of memory out of 5000000
+ 45964 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,65p,817b,6757s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bachproef-tin.pdf (45 pages).
+Output written on bachproef-tin.pdf (47 pages).
