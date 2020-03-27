@@ -424,4 +424,39 @@
   journaltitle = {Device Memory},
 }
 
+@Online{Gregg2020,
+  author = {Gregg, John},
+  date   = {2020-03-18},
+  title  = {Web Notifications},
+  url    = {https://www.w3.org/TR/notifications/},
+}
+
+@Online{Sullivan2020,
+  author = {Sullivan, Byran and Fullea, Aduardo and van Ouwerkerken, Michaël},
+  date   = {2020-03-25},
+  title  = {Push API},
+  url    = {https://www.w3.org/TR/push-api/},
+}
+
+@Online{LePage2020a,
+  author = {LePage, Pete},
+  date   = {2020-03-13},
+  title  = {Badging for app icons},
+  url    = {https://web.dev/badging-api/},
+}
+
+@Online{Grigorik2020,
+  author = {Grigorik, Ilya and Jain, Arvind and Mann, Jatinder},
+  date   = {2020-03-10},
+  title  = {Page Visibility level 2},
+  url    = {https://www.w3.org/TR/page-visibility-2/#introduction},
+}
+
+@Online{Caceres2020,
+  author = {Cáceres, Marcos and Lamouri, Mounir and Yasskin, Jeffrey},
+  date   = {2020-03-18},
+  title  = {Permissions},
+  url    = {https://www.w3.org/TR/permissions/},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

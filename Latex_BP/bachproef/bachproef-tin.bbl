@@ -872,6 +872,40 @@
       \verb https://webbluetoothcg.github.io/web-bluetooth/
       \endverb
     \endentry
+    \entry{Gregg2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=bf99544231063faf89318968512d605d}{%
+           family={Gregg},
+           familyi={G\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bf99544231063faf89318968512d605d}
+      \strng{fullhash}{bf99544231063faf89318968512d605d}
+      \strng{bibnamehash}{bf99544231063faf89318968512d605d}
+      \strng{authorbibnamehash}{bf99544231063faf89318968512d605d}
+      \strng{authornamehash}{bf99544231063faf89318968512d605d}
+      \strng{authorfullhash}{bf99544231063faf89318968512d605d}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{3}
+      \field{title}{Web Notifications}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/notifications/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/notifications/
+      \endverb
+    \endentry
     \entry{Harris2017}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=2cb294bf553662179662557d40b0d346}{%
@@ -1287,6 +1321,39 @@
       \verb https://cps.kaist.ac.kr/papers/18CCS-PPP.pdf
       \endverb
     \endentry
+    \entry{LePage2020a}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=496bca72317153bb4dd6936afe2c40cb}{%
+           family={LePage},
+           familyi={L\bibinitperiod},
+           given={Pete},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{496bca72317153bb4dd6936afe2c40cb}
+      \strng{fullhash}{496bca72317153bb4dd6936afe2c40cb}
+      \strng{bibnamehash}{496bca72317153bb4dd6936afe2c40cb}
+      \strng{authorbibnamehash}{496bca72317153bb4dd6936afe2c40cb}
+      \strng{authornamehash}{496bca72317153bb4dd6936afe2c40cb}
+      \strng{authorfullhash}{496bca72317153bb4dd6936afe2c40cb}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{month}{3}
+      \field{title}{Badging for app icons}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://web.dev/badging-api/
+      \endverb
+      \verb{url}
+      \verb https://web.dev/badging-api/
+      \endverb
+    \endentry
     \entry{LePage2020}{online}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=496bca72317153bb4dd6936afe2c40cb}{%
@@ -1312,7 +1379,6 @@
       \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{25}
@@ -2302,6 +2368,54 @@
       \verb https://www.youtube.com/watch?v=ZeIqNDkyVEo&list=WL&index=46&t=0s
       \endverb
     \endentry
+    \entry{Sullivan2020}{online}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=be10532ff73c402f22a7b3292a696d7b}{%
+           family={Sullivan},
+           familyi={S\bibinitperiod},
+           given={Byran},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a8add945606683533886809744395158}{%
+           family={Fullea},
+           familyi={F\bibinitperiod},
+           given={Aduardo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9dd15f9df3855b945859cd0813810336}{%
+           family={Ouwerkerken},
+           familyi={O\bibinitperiod},
+           given={Michaël},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{42c42296fae13e6b1d932d7989dd0436}
+      \strng{fullhash}{69b44dffa85e610670659a3713b710ae}
+      \strng{bibnamehash}{69b44dffa85e610670659a3713b710ae}
+      \strng{authorbibnamehash}{69b44dffa85e610670659a3713b710ae}
+      \strng{authornamehash}{42c42296fae13e6b1d932d7989dd0436}
+      \strng{authorfullhash}{69b44dffa85e610670659a3713b710ae}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{month}{3}
+      \field{title}{Push API}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/push-api/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/push-api/
+      \endverb
+    \endentry
     \entry{Vanhala2017}{thesis}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=b4b471cccddd11a420e3fafd17cb7338}{%
@@ -2446,6 +2560,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{Grigorik2020}
   \missing{Pollefliet2011}
   \missing{Sayali2018}
 \endrefsection
