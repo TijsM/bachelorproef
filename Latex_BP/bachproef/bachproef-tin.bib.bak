@@ -187,9 +187,11 @@
 }
 
 @Conference{Russel2015,
-  author = {Russel, Alex and Bovens, Andreas},
-  date   = {2015-10-18},
-  title  = {Progressive Web Apps (Chrome Dev Summit 2015)},
+  author  = {Russel, Alex and Bovens, Andreas},
+  date    = {2015-10-18},
+  title   = {Progressive Web Apps (Chrome Dev Summit 2015)},
+  url     = {https://www.youtube.com/watch?time_continue=862&v=MyQ8mtR9WxI&feature=emb_logo},
+  urldate = {2020-03-28},
 }
 
 @Online{Apple2020,
@@ -236,9 +238,11 @@
 }
 
 @Booklet{Kawatka2020,
-  author = {Kawatka, Piotr and Wala, Artur},
-  date   = {2020-03-07},
-  title  = {Top 30 progressive web apps},
+  author  = {Kawatka, Piotr and Wala, Artur},
+  date    = {2020-03-07},
+  title   = {Top 30 progressive web apps},
+  url     = {https://divante.com/books/PDFy/TOP-30-PWA.pdf},
+  urldate = {2020-03-28},
 }
 
 @Online{Croll2017,
@@ -844,7 +848,9 @@
   author      = {Břoušek, Pavel},
   date        = {2017-04},
   institution = {Masaryk University},
-  title       = {Evaluation and usage of GoogleProgressive Web Appstechnology},
+  title       = {Evaluation and usage of Google Progressive Web Appstechnology},
+  url         = {https://is.muni.cz/th/433364/fi_b/bachelor-thesis-pavel-brousek-pwa.pdf},
+  urldate     = {2020-03-28},
 }
 
 @Online{Lighthouse2020,
@@ -873,6 +879,153 @@
   date   = {2020-03-28},
   title  = {Workbox},
   url    = {https://developers.google.com/web/tools/workbox},
+}
+
+@Online{Developers2019b,
+  author = {Developers, Google},
+  date   = {2019-05-01},
+  title  = {Tools for PWA Developers},
+  url    = {https://developers.google.com/web/ilt/pwa/tools-for-pwa-developers},
+}
+
+@Article{Huynh2017,
+  author       = {Huynh, Minh and Ghimire, Prashant and Truong, Donny},
+  date         = {2017},
+  journaltitle = {Information Science Institute},
+  title        = {HYBRID APP APPROACH: COULD IT MARK THE END OFNATIVE APP DOMINATION?},
+  pages        = {49-65},
+  url          = {http://iisit.org/Vol14/IISITv14p049-065Huynh3472.pdf},
+  urldate      = {2020-03-28},
+}
+
+@MastersThesis{Asp2017,
+  author      = {Asp, Filip},
+  date        = {2017},
+  institution = {Linköping University},
+  title       = {A comparison of Ionic 2 versus React Native and Android in terms of performance, by comparing the performance of applications},
+  type        = {mathesis},
+  url         = {https://liu.diva-portal.org/smash/get/diva2:1201487/FULLTEXT01.pdf},
+  urldate     = {2020-03-28},
+}
+
+@Online{Ionic2020,
+  author = {Ionic},
+  date   = {2020-03-28},
+  title  = {SMS},
+  url    = {https://ionicframework.com/docs/native/sms},
+}
+
+@Online{Lucas2020,
+  author = {Lucas, Ely},
+  date   = {2020-02-08},
+  title  = {Native or PWA? How to Choose the Right Approach for Mobile App Development},
+  url    = {https://ionicframework.com/blog/native-or-pwa-how-to-choose-the-right-approach-for-mobile-app-development/},
+}
+
+@Online{Ionic2020a,
+  author = {Ionic},
+  date   = {2020-03-28},
+  title  = {PWA toolkit},
+  url    = {https://ionicframework.com/pwa/toolkit},
+}
+
+@Article{Ghinea2018,
+  author       = {Ghinea, Gheoghita and Biørn-Hansen, Andreas},
+  date         = {2018},
+  journaltitle = {Hawaii International Conference on System Sciences |},
+  title        = {Bridging the Gap: Investigating Device-FeatureExposure in Cross-Platform Development},
+}
+
+@Online{DeConinck2019,
+  author = {De Coninck, Bram},
+  date   = {2019-12-29},
+  title  = {Flutter Versus Other Mobile Development Frameworks: A UI And Performance Experiment. Part 1},
+  url    = {https://blog.codemagic.io/flutter-vs-ios-android-reactnative-xamarin/},
+}
+
+@Online{VisualStudio2020,
+  author = {Visual Studio},
+  date   = {2020-03-28},
+  title  = {Visual Studio Tools for Xamarin},
+  url    = {https://visualstudio.microsoft.com/xamarin/},
+}
+
+@Online{Altexsoft2019,
+  author = {Altexsoft},
+  date   = {2019-04-26},
+  title  = {The Good and The Bad of Xamarin Mobile Development},
+  url    = {https://www.altexsoft.com/blog/mobile/pros-and-cons-of-xamarin-vs-native/},
+}
+
+@Online{Warcholinski2020,
+  author = {Warcholinski, Matt},
+  date   = {2020-03-28},
+  title  = {React Native vs Xamarin: Which Is Better? What Are Differences?},
+  url    = {https://brainhub.eu/blog/react-native-vs-xamarin/},
+}
+
+@Online{Microsoft2019,
+  author = {Microsoft},
+  date   = {2019-09-18},
+  title  = {What is Xamarin.Forms?},
+  url    = {https://docs.microsoft.com/en-us/xamarin/get-started/what-is-xamarin-forms},
+}
+
+@Online{StackOverflow2020,
+  author = {StackOverflow},
+  date   = {2020-03-28},
+  title  = {Developer Survey Results},
+  url    = {https://insights.stackoverflow.com/survey/2019#technology},
+}
+
+@Online{Reactnative2020,
+  author = {Reactnative},
+  date   = {2020-03-28},
+  title  = {React Native},
+  url    = {https://reactnative.dev/},
+}
+
+@Online{Bartosz2019,
+  author = {Bartosz},
+  date   = {2019-07-16},
+  title  = {How to Build Cross-platform Apps with React Native Bridges},
+  url    = {https://desmart.com/blog/how-to-build-cross-platform-apps-with-react-native-bridges},
+}
+
+@Online{Expo2020,
+  author = {Expo},
+  date   = {2020-03-28},
+  title  = {The fastest way to build an app},
+  url    = {https://expo.io/},
+}
+
+@Online{Flutter2020,
+  author = {Flutter},
+  date   = {2020-03-28},
+  title  = {Flutter},
+  url    = {https://flutter.dev/},
+}
+
+@Online{Leler2017,
+  author = {Leler, Wm},
+  date   = {2017-08-20},
+  title  = {What’s Revolutionary about Flutter},
+  url    = {https://hackernoon.com/whats-revolutionary-about-flutter-946915b09514},
+}
+
+@Thesis{Wenhao2018,
+  author      = {Wenhao, Wu},
+  date        = {2018-03-01},
+  institution = {Metropolia University of Applied Sciences},
+  title       = {React Native vs Flutter, cross-platform mobileapplication frameworks},
+  url         = {https://www.theseus.fi/bitstream/handle/10024/146232/thesis.pdf?sequence=1},
+  urldate     = {2020-03-28},
+}
+
+@Thesis{,
+  author      = {Fagietto, Jakub},
+  date        = {2019},
+  institution = {Umeà University},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

@@ -245,33 +245,63 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.4}Chrome developer tools}{67}{subsection.2.5.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodologie}{69}{chapter.3}% 
+\contentsline {section}{\numberline {2.6}PWA-alternatieven}{67}{section.2.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{71}{chapter.4}% 
+\contentsline {subsection}{\numberline {2.6.1}Cross platform hybrid development}{68}{subsection.2.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{73}{appendix.A}% 
+\contentsline {subsubsection}{Voordelen}{68}{section*.87}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{73}{section.A.1}% 
+\contentsline {subsubsection}{Nadelen}{68}{section*.88}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{74}{section.A.2}% 
+\contentsline {subsubsection}{Apache cordova}{69}{section*.89}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{74}{subsection.A.2.1}% 
+\contentsline {subsubsection}{Ionic}{69}{section*.90}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{74}{subsection.A.2.2}% 
+\contentsline {subsubsection}{Electron}{70}{section*.91}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{75}{subsection.A.2.3}% 
+\contentsline {subsection}{\numberline {2.6.2}Cross platform native development}{70}{subsection.2.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{75}{subsection.A.2.4}% 
+\contentsline {subsubsection}{Voordelen}{70}{section*.92}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.5}Native containers}{76}{subsection.A.2.5}% 
+\contentsline {subsubsection}{Nadelen}{71}{section*.93}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{76}{subsection.A.2.6}% 
+\contentsline {subsubsection}{Xamarin}{71}{section*.94}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{76}{section.A.3}% 
+\contentsline {subsubsection}{React native}{71}{section*.95}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.1}Technologieën}{76}{subsection.A.3.1}% 
+\contentsline {paragraph}{Expo}{72}{section*.96}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{77}{section.A.4}% 
+\contentsline {subsubsection}{Flutter}{73}{section*.97}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{77}{section.A.5}% 
+\contentsline {subsection}{\numberline {2.6.3}Conclusie}{73}{subsection.2.6.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Methodologie}{75}{chapter.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclusie}{77}{chapter.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{79}{appendix.A}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Introductie}{79}{section.A.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}State-of-the-art}{80}{section.A.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{80}{subsection.A.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{80}{subsection.A.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{81}{subsection.A.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{81}{subsection.A.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.5}Native containers}{82}{subsection.A.2.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{82}{subsection.A.2.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Methodologie}{82}{section.A.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.3.1}Technologieën}{82}{subsection.A.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{83}{section.A.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{83}{section.A.5}% 
 \contentsfinish 

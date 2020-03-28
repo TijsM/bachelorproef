@@ -59,6 +59,37 @@
       \verb https://www.w3.org/TR/IndexedDB-2/
       \endverb
     \endentry
+    \entry{Altexsoft2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f2c314a3746ee77b7ff0391093af0ff0}{%
+           family={Altexsoft},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2c314a3746ee77b7ff0391093af0ff0}
+      \strng{fullhash}{f2c314a3746ee77b7ff0391093af0ff0}
+      \strng{bibnamehash}{f2c314a3746ee77b7ff0391093af0ff0}
+      \strng{authorbibnamehash}{f2c314a3746ee77b7ff0391093af0ff0}
+      \strng{authornamehash}{f2c314a3746ee77b7ff0391093af0ff0}
+      \strng{authorfullhash}{f2c314a3746ee77b7ff0391093af0ff0}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{4}
+      \field{title}{The Good and The Bad of Xamarin Mobile Development}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.altexsoft.com/blog/mobile/pros-and-cons-of-xamarin-vs-native/
+      \endverb
+      \verb{url}
+      \verb https://www.altexsoft.com/blog/mobile/pros-and-cons-of-xamarin-vs-native/
+      \endverb
+    \endentry
     \entry{Anastasia2017}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=92b5b9c41073b751cefe0bc941ce1953}{%
@@ -314,6 +345,77 @@
       \endverb
       \verb{url}
       \verb https://support.apple.com/nl-be/HT210393#13
+      \endverb
+    \endentry
+    \entry{Asp2017}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1b719bfe880b1c8bdc9dddf61caa96bd}{%
+           family={Asp},
+           familyi={A\bibinitperiod},
+           given={Filip},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Linköping University}%
+      }
+      \strng{namehash}{1b719bfe880b1c8bdc9dddf61caa96bd}
+      \strng{fullhash}{1b719bfe880b1c8bdc9dddf61caa96bd}
+      \strng{bibnamehash}{1b719bfe880b1c8bdc9dddf61caa96bd}
+      \strng{authorbibnamehash}{1b719bfe880b1c8bdc9dddf61caa96bd}
+      \strng{authornamehash}{1b719bfe880b1c8bdc9dddf61caa96bd}
+      \strng{authorfullhash}{1b719bfe880b1c8bdc9dddf61caa96bd}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A comparison of Ionic 2 versus React Native and Android in terms of performance, by comparing the performance of applications}
+      \field{type}{mathesis}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://liu.diva-portal.org/smash/get/diva2:1201487/FULLTEXT01.pdf
+      \endverb
+      \verb{url}
+      \verb https://liu.diva-portal.org/smash/get/diva2:1201487/FULLTEXT01.pdf
+      \endverb
+    \endentry
+    \entry{Bartosz2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c9006f26a2b48d3dd09eba5569244f6f}{%
+           family={Bartosz},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9006f26a2b48d3dd09eba5569244f6f}
+      \strng{fullhash}{c9006f26a2b48d3dd09eba5569244f6f}
+      \strng{bibnamehash}{c9006f26a2b48d3dd09eba5569244f6f}
+      \strng{authorbibnamehash}{c9006f26a2b48d3dd09eba5569244f6f}
+      \strng{authornamehash}{c9006f26a2b48d3dd09eba5569244f6f}
+      \strng{authorfullhash}{c9006f26a2b48d3dd09eba5569244f6f}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{month}{7}
+      \field{title}{How to Build Cross-platform Apps with React Native Bridges}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://desmart.com/blog/how-to-build-cross-platform-apps-with-react-native-bridges
+      \endverb
+      \verb{url}
+      \verb https://desmart.com/blog/how-to-build-cross-platform-apps-with-react-native-bridges
       \endverb
     \endentry
     \entry{Beaufort2019b}{online}{}
@@ -581,9 +683,19 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{4}
-      \field{title}{Evaluation and usage of GoogleProgressive Web Appstechnology}
+      \field{title}{Evaluation and usage of Google Progressive Web Appstechnology}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2017}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://is.muni.cz/th/433364/fi_b/bachelor-thesis-pavel-brousek-pwa.pdf
+      \endverb
+      \verb{url}
+      \verb https://is.muni.cz/th/433364/fi_b/bachelor-thesis-pavel-brousek-pwa.pdf
+      \endverb
     \endentry
     \entry{Caceres2020}{online}{}
       \name{author}{3}{}{%
@@ -697,6 +809,40 @@
       \endverb
       \verb{url}
       \verb https://eng.uber.com/m-uber/
+      \endverb
+    \endentry
+    \entry{DeConinck2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5bf9afd1be5c361a760bed4498cad292}{%
+           family={De\bibnamedelima Coninck},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Bram},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5bf9afd1be5c361a760bed4498cad292}
+      \strng{fullhash}{5bf9afd1be5c361a760bed4498cad292}
+      \strng{bibnamehash}{5bf9afd1be5c361a760bed4498cad292}
+      \strng{authorbibnamehash}{5bf9afd1be5c361a760bed4498cad292}
+      \strng{authornamehash}{5bf9afd1be5c361a760bed4498cad292}
+      \strng{authorfullhash}{5bf9afd1be5c361a760bed4498cad292}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{29}
+      \field{month}{12}
+      \field{title}{Flutter Versus Other Mobile Development Frameworks: A UI And Performance Experiment. Part 1}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.codemagic.io/flutter-vs-ios-android-reactnative-xamarin/
+      \endverb
+      \verb{url}
+      \verb https://blog.codemagic.io/flutter-vs-ios-android-reactnative-xamarin/
       \endverb
     \endentry
     \entry{Denicola2020}{online}{}
@@ -1115,6 +1261,76 @@
       \verb https://www.w3.org/TR/media-capture-api/
       \endverb
     \endentry
+    \entry{Expo2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c29f23f279126757ba18ec74d0d27cfa}{%
+           family={Expo},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{fullhash}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{bibnamehash}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{authorbibnamehash}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{authornamehash}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{authorfullhash}{c29f23f279126757ba18ec74d0d27cfa}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{3}
+      \field{title}{The fastest way to build an app}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://expo.io/
+      \endverb
+      \verb{url}
+      \verb https://expo.io/
+      \endverb
+    \endentry
+    \entry{Fagietto2019}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6701558616fae5ab4b087c4356d11ac2}{%
+           family={Fagietto},
+           familyi={F\bibinitperiod},
+           given={Jakub},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Umeà University}%
+      }
+      \strng{namehash}{6701558616fae5ab4b087c4356d11ac2}
+      \strng{fullhash}{6701558616fae5ab4b087c4356d11ac2}
+      \strng{bibnamehash}{6701558616fae5ab4b087c4356d11ac2}
+      \strng{authorbibnamehash}{6701558616fae5ab4b087c4356d11ac2}
+      \strng{authornamehash}{6701558616fae5ab4b087c4356d11ac2}
+      \strng{authorfullhash}{6701558616fae5ab4b087c4356d11ac2}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PERFORMANCE COMPARISONBETWEEN REACT NATIVE ANDFLUTTER}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.diva-portal.org/smash/get/diva2:1349917/FULLTEXT01.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.diva-portal.org/smash/get/diva2:1349917/FULLTEXT01.pdf
+      \endverb
+    \endentry
     \entry{Firebase2020}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=035489ff8d092741943e4a83241f5af9}{%
@@ -1144,6 +1360,37 @@
       \endverb
       \verb{url}
       \verb https://firebase.google.com/
+      \endverb
+    \endentry
+    \entry{Flutter2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c047b10eee763afb6164e077cf1cc268}{%
+           family={Flutter},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{fullhash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{bibnamehash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{authorbibnamehash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{authornamehash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{authorfullhash}{c047b10eee763afb6164e077cf1cc268}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{3}
+      \field{title}{Flutter}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://flutter.dev/
+      \endverb
+      \verb{url}
+      \verb https://flutter.dev/
       \endverb
     \endentry
     \entry{Formidable2020}{online}{}
@@ -1325,6 +1572,39 @@
       \verb{url}
       \verb https://web-push-book.gauntface.com/downloads/web-push-book.pdf
       \endverb
+    \endentry
+    \entry{Ghinea2018}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=616be12ea6050b35c88abc70ccfe2f97}{%
+           family={Ghinea},
+           familyi={G\bibinitperiod},
+           given={Gheoghita},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5c8e112d05da505cd7165215cfa04054}{%
+           family={Biørn-Hansen},
+           familyi={B\bibinithyphendelim H\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3d0ea7d8047c26eff7afeec3f4464972}
+      \strng{fullhash}{3d0ea7d8047c26eff7afeec3f4464972}
+      \strng{bibnamehash}{3d0ea7d8047c26eff7afeec3f4464972}
+      \strng{authorbibnamehash}{3d0ea7d8047c26eff7afeec3f4464972}
+      \strng{authornamehash}{3d0ea7d8047c26eff7afeec3f4464972}
+      \strng{authorfullhash}{3d0ea7d8047c26eff7afeec3f4464972}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Hawaii International Conference on System Sciences |}
+      \field{title}{Bridging the Gap: Investigating Device-FeatureExposure in Cross-Platform Development}
+      \field{year}{2018}
+      \field{dateera}{ce}
     \endentry
     \entry{Giuca2020}{online}{}
       \name{author}{1}{}{%
@@ -1902,6 +2182,121 @@
       \verb https://deanhume.com/displaying-a-new-version-available-progressive-web-app/
       \endverb
     \endentry
+    \entry{Huynh2017}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=e29c3608b78a327a58a1c6cce15eeec6}{%
+           family={Huynh},
+           familyi={H\bibinitperiod},
+           given={Minh},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=25a66beb29b50813518eef3cae740cf4}{%
+           family={Ghimire},
+           familyi={G\bibinitperiod},
+           given={Prashant},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a23ffcaebd346f3c390f1a9287551009}{%
+           family={Truong},
+           familyi={T\bibinitperiod},
+           given={Donny},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d1753536955bce85cd0e31dcf4d7de64}
+      \strng{fullhash}{2a485eb933e3a2cb4c6dab012a96bffd}
+      \strng{bibnamehash}{2a485eb933e3a2cb4c6dab012a96bffd}
+      \strng{authorbibnamehash}{2a485eb933e3a2cb4c6dab012a96bffd}
+      \strng{authornamehash}{d1753536955bce85cd0e31dcf4d7de64}
+      \strng{authorfullhash}{2a485eb933e3a2cb4c6dab012a96bffd}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information Science Institute}
+      \field{title}{HYBRID APP APPROACH: COULD IT MARK THE END OFNATIVE APP DOMINATION?}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{49\bibrangedash 65}
+      \range{pages}{17}
+      \verb{urlraw}
+      \verb http://iisit.org/Vol14/IISITv14p049-065Huynh3472.pdf
+      \endverb
+      \verb{url}
+      \verb http://iisit.org/Vol14/IISITv14p049-065Huynh3472.pdf
+      \endverb
+    \endentry
+    \entry{Ionic2020a}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=70d481439f9146177564bff364eab487}{%
+           family={Ionic},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{70d481439f9146177564bff364eab487}
+      \strng{fullhash}{70d481439f9146177564bff364eab487}
+      \strng{bibnamehash}{70d481439f9146177564bff364eab487}
+      \strng{authorbibnamehash}{70d481439f9146177564bff364eab487}
+      \strng{authornamehash}{70d481439f9146177564bff364eab487}
+      \strng{authorfullhash}{70d481439f9146177564bff364eab487}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{3}
+      \field{title}{PWA toolkit}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://ionicframework.com/pwa/toolkit
+      \endverb
+      \verb{url}
+      \verb https://ionicframework.com/pwa/toolkit
+      \endverb
+    \endentry
+    \entry{Ionic2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=70d481439f9146177564bff364eab487}{%
+           family={Ionic},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{70d481439f9146177564bff364eab487}
+      \strng{fullhash}{70d481439f9146177564bff364eab487}
+      \strng{bibnamehash}{70d481439f9146177564bff364eab487}
+      \strng{authorbibnamehash}{70d481439f9146177564bff364eab487}
+      \strng{authornamehash}{70d481439f9146177564bff364eab487}
+      \strng{authorfullhash}{70d481439f9146177564bff364eab487}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{3}
+      \field{title}{SMS}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://ionicframework.com/docs/native/sms
+      \endverb
+      \verb{url}
+      \verb https://ionicframework.com/docs/native/sms
+      \endverb
+    \endentry
     \entry{Malavolta2016}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=d65fb4713e912b421b3763bf9e1783f3}{%
@@ -2132,8 +2527,18 @@
       \field{day}{7}
       \field{month}{3}
       \field{title}{Top 30 progressive web apps}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2020}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://divante.com/books/PDFy/TOP-30-PWA.pdf
+      \endverb
+      \verb{url}
+      \verb https://divante.com/books/PDFy/TOP-30-PWA.pdf
+      \endverb
     \endentry
     \entry{Kinlan2019}{online}{}
       \name{author}{1}{}{%
@@ -2503,6 +2908,40 @@
       \verb https://cps.kaist.ac.kr/papers/18CCS-PPP.pdf
       \endverb
     \endentry
+    \entry{Leler2017}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=137f2508e612b5d4fce86d6ffa38bbeb}{%
+           family={Leler},
+           familyi={L\bibinitperiod},
+           given={Wm},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{137f2508e612b5d4fce86d6ffa38bbeb}
+      \strng{fullhash}{137f2508e612b5d4fce86d6ffa38bbeb}
+      \strng{bibnamehash}{137f2508e612b5d4fce86d6ffa38bbeb}
+      \strng{authorbibnamehash}{137f2508e612b5d4fce86d6ffa38bbeb}
+      \strng{authornamehash}{137f2508e612b5d4fce86d6ffa38bbeb}
+      \strng{authorfullhash}{137f2508e612b5d4fce86d6ffa38bbeb}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{20}
+      \field{month}{8}
+      \field{title}{What’s Revolutionary about Flutter}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://hackernoon.com/whats-revolutionary-about-flutter-946915b09514
+      \endverb
+      \verb{url}
+      \verb https://hackernoon.com/whats-revolutionary-about-flutter-946915b09514
+      \endverb
+    \endentry
     \entry{LePage2020a}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=496bca72317153bb4dd6936afe2c40cb}{%
@@ -2641,6 +3080,40 @@
       \verb https://books.google.be/books?id=b2dmDwAAQBAJ&printsec=frontcover&hl=nl&source=gbs_ge_summary_r&cad=0#v=onepage&q=doi&f=false
       \endverb
     \endentry
+    \entry{Lucas2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=aa99d079bc86311de5225012f42c5313}{%
+           family={Lucas},
+           familyi={L\bibinitperiod},
+           given={Ely},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{aa99d079bc86311de5225012f42c5313}
+      \strng{fullhash}{aa99d079bc86311de5225012f42c5313}
+      \strng{bibnamehash}{aa99d079bc86311de5225012f42c5313}
+      \strng{authorbibnamehash}{aa99d079bc86311de5225012f42c5313}
+      \strng{authornamehash}{aa99d079bc86311de5225012f42c5313}
+      \strng{authorfullhash}{aa99d079bc86311de5225012f42c5313}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{8}
+      \field{month}{2}
+      \field{title}{Native or PWA? How to Choose the Right Approach for Mobile App Development}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://ionicframework.com/blog/native-or-pwa-how-to-choose-the-right-approach-for-mobile-app-development/
+      \endverb
+      \verb{url}
+      \verb https://ionicframework.com/blog/native-or-pwa-how-to-choose-the-right-approach-for-mobile-app-development/
+      \endverb
+    \endentry
     \entry{Mandyam2020}{online}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=7d954e582d950d05d1e1e1ba17bb53e0}{%
@@ -2681,7 +3154,7 @@
       \verb https://www.w3.org/TR/image-capture/
       \endverb
     \endentry
-    \entry{Microsoft2020b}{online}{}
+    \entry{Microsoft2019}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
            family={Microsoft},
@@ -2694,6 +3167,37 @@
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
       \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{9}
+      \field{title}{What is Xamarin.Forms?}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.microsoft.com/en-us/xamarin/get-started/what-is-xamarin-forms
+      \endverb
+      \verb{url}
+      \verb https://docs.microsoft.com/en-us/xamarin/get-started/what-is-xamarin-forms
+      \endverb
+    \endentry
+    \entry{Microsoft2020b}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{extradate}{1}
@@ -2725,7 +3229,7 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{extradate}{2}
@@ -2757,7 +3261,7 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{extradate}{3}
@@ -3546,6 +4050,37 @@
       \verb https://www.pwabuilder.com/feature/Install%20your%20PWA
       \endverb
     \endentry
+    \entry{Reactnative2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1818f553908199ccac40f85c9e2e5d21}{%
+           family={Reactnative},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{1818f553908199ccac40f85c9e2e5d21}
+      \strng{fullhash}{1818f553908199ccac40f85c9e2e5d21}
+      \strng{bibnamehash}{1818f553908199ccac40f85c9e2e5d21}
+      \strng{authorbibnamehash}{1818f553908199ccac40f85c9e2e5d21}
+      \strng{authornamehash}{1818f553908199ccac40f85c9e2e5d21}
+      \strng{authorfullhash}{1818f553908199ccac40f85c9e2e5d21}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{3}
+      \field{title}{React Native}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://reactnative.dev/
+      \endverb
+      \verb{url}
+      \verb https://reactnative.dev/
+      \endverb
+    \endentry
     \entry{Richard2019}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=994337730b042af938214b69a8c6117b}{%
@@ -3741,8 +4276,18 @@
       \field{day}{18}
       \field{month}{10}
       \field{title}{Progressive Web Apps (Chrome Dev Summit 2015)}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2015}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?time_continue=862&v=MyQ8mtR9WxI&feature=emb_logo
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?time_continue=862&v=MyQ8mtR9WxI&feature=emb_logo
+      \endverb
     \endentry
     \entry{Sanderson2020}{online}{}
       \name{author}{1}{}{%
@@ -3979,6 +4524,37 @@
       \verb https://open.spotify.com/
       \endverb
     \endentry
+    \entry{StackOverflow2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=84d7dc19766c446f5e4084e8fce87f82}{%
+           family={StackOverflow},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{fullhash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{bibnamehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authorbibnamehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authornamehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authorfullhash}{84d7dc19766c446f5e4084e8fce87f82}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{3}
+      \field{title}{Developer Survey Results}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://insights.stackoverflow.com/survey/2019#technology
+      \endverb
+      \verb{url}
+      \verb https://insights.stackoverflow.com/survey/2019#technology
+      \endverb
+    \endentry
     \entry{Strieb2016}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=7d7f9ce0d687537851951473331be391}{%
@@ -4011,6 +4587,40 @@
       \endverb
       \verb{url}
       \verb https://www.youtube.com/watch?v=ZeIqNDkyVEo&list=WL&index=46&t=0s
+      \endverb
+    \endentry
+    \entry{VisualStudio2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=219cc19082a3703220234d8f4b2b60ac}{%
+           family={Studio},
+           familyi={S\bibinitperiod},
+           given={Visual},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{219cc19082a3703220234d8f4b2b60ac}
+      \strng{fullhash}{219cc19082a3703220234d8f4b2b60ac}
+      \strng{bibnamehash}{219cc19082a3703220234d8f4b2b60ac}
+      \strng{authorbibnamehash}{219cc19082a3703220234d8f4b2b60ac}
+      \strng{authornamehash}{219cc19082a3703220234d8f4b2b60ac}
+      \strng{authorfullhash}{219cc19082a3703220234d8f4b2b60ac}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{3}
+      \field{title}{Visual Studio Tools for Xamarin}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://visualstudio.microsoft.com/xamarin/
+      \endverb
+      \verb{url}
+      \verb https://visualstudio.microsoft.com/xamarin/
       \endverb
     \endentry
     \entry{Sullivan2020}{online}{}
@@ -4489,6 +5099,40 @@
       \verb https://www.w3.org/TR/generic-sensor/
       \endverb
     \endentry
+    \entry{Warcholinski2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3017e99a79b4deef5458b44c080a2255}{%
+           family={Warcholinski},
+           familyi={W\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3017e99a79b4deef5458b44c080a2255}
+      \strng{fullhash}{3017e99a79b4deef5458b44c080a2255}
+      \strng{bibnamehash}{3017e99a79b4deef5458b44c080a2255}
+      \strng{authorbibnamehash}{3017e99a79b4deef5458b44c080a2255}
+      \strng{authornamehash}{3017e99a79b4deef5458b44c080a2255}
+      \strng{authorfullhash}{3017e99a79b4deef5458b44c080a2255}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{3}
+      \field{title}{React Native vs Xamarin: Which Is Better? What Are Differences?}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://brainhub.eu/blog/react-native-vs-xamarin/
+      \endverb
+      \verb{url}
+      \verb https://brainhub.eu/blog/react-native-vs-xamarin/
+      \endverb
+    \endentry
     \entry{web.dev2020}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=f7aa6066f95255096672e3a5fc537081}{%
@@ -4551,6 +5195,47 @@
       \endverb
       \verb{url}
       \verb https://web.dev/installable-manifest/?utm_source=lighthouse&utm_medium=devtools
+      \endverb
+    \endentry
+    \entry{Wenhao2018}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=56aec070e0a7430ef2d60e124cd9b90f}{%
+           family={Wenhao},
+           familyi={W\bibinitperiod},
+           given={Wu},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Metropolia University of Applied Sciences}%
+      }
+      \strng{namehash}{56aec070e0a7430ef2d60e124cd9b90f}
+      \strng{fullhash}{56aec070e0a7430ef2d60e124cd9b90f}
+      \strng{bibnamehash}{56aec070e0a7430ef2d60e124cd9b90f}
+      \strng{authorbibnamehash}{56aec070e0a7430ef2d60e124cd9b90f}
+      \strng{authornamehash}{56aec070e0a7430ef2d60e124cd9b90f}
+      \strng{authorfullhash}{56aec070e0a7430ef2d60e124cd9b90f}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{React Native vs Flutter, cross-platform mobileapplication frameworks}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.theseus.fi/bitstream/handle/10024/146232/thesis.pdf?sequence=1
+      \endverb
+      \verb{url}
+      \verb https://www.theseus.fi/bitstream/handle/10024/146232/thesis.pdf?sequence=1
       \endverb
     \endentry
     \entry{West2020}{online}{}
