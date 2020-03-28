@@ -278,6 +278,8 @@
   date        = {2017},
   institution = {Linnaeus University},
   title       = {Comparing Progressive WebApplications with Native Android Applications - an evaluation of performance when it comes toresponse time},
+  url         = {http://lnu.diva-portal.org/smash/record.jsf?pid=diva2:1105475&dswid=-6098},
+  urldate     = {2020-03-28},
 }
 
 @Online{Scales2020a,
@@ -388,9 +390,11 @@
 @Thesis{Paus2007,
   author      = {Paus, Annika},
   date        = {2007-07-24},
-  institution = {Ruhr-Universit¨at Bochum},
-  title       = {Near Field Communication in CellPhones},
+  institution = {Ruhr-Universit at Bochum},
+  title       = {Near Field Communication in Cell Phones},
   type        = {techreport},
+  url         = {https://www.emsec.ruhr-uni-bochum.de/media/crypto/attachments/files/2011/04/near_field_communication_in_cell_phones.pdf},
+  urldate     = {2020-03-28},
 }
 
 @Online{RohdeChristiansen2020,
@@ -1022,7 +1026,7 @@
   urldate     = {2020-03-28},
 }
 
-@Thesis{Fagietto2019a,
+@Thesis{Fagietto2019,
   author      = {Fagietto, Jakub},
   date        = {2019},
   institution = {Umeà University},

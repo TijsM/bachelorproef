@@ -275,6 +275,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.6.3}Conclusie}{73}{subsection.2.6.3}% 
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.7}ntsluiten van een PWA}{74}{section.2.7}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Methodologie}{75}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Conclusie}{77}{chapter.4}% 
@@ -304,4 +306,6 @@
 \contentsline {section}{\numberline {A.4}Verwachte resultaten}{83}{section.A.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.5}Verwachte conclusies}{83}{section.A.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{85}{appendix*.98}% 
 \contentsfinish 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  28 MAR 2020 16:59
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  28 MAR 2020 17:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1710,14 +1710,14 @@ Missing character: There is no ’ in font pagd8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8])
+ [8]
+Underfull \vbox (badness 7540) has occurred while \output is active []
+
+ [9])
 \tf@toc=\write6
 \openout6 = `bachproef-tin.toc'.
 
 
-Underfull \vbox (badness 7540) has occurred while \output is active []
-
- [9]
 [10] (./bachproef-tin.lof
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
@@ -2213,8 +2213,15 @@ Missing character: There is no ’ in font ptmr8t!
 
 Underfull \vbox (badness 1210) has occurred while \output is active []
 
- [73]))
-(./methodologie.tex [74]
+ [73])
+(./Literatuurstudie/OntsluitenPWA.tex
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no “ in font ptmri8t!
+Missing character: There is no “ in font ptmri8t!
+Missing character: There is no ” in font ptmri8t!
+Missing character: There is no ’ in font ptmri8t!
+Missing character: There is no ” in font ptmri8t!
+)) (./methodologie.tex [74]
 Hoofdstuk 3.
 ) (./conclusie.tex [75
 
@@ -2253,7 +2260,68 @@ Missing character: There is no ’ in font ptmr8t!
 [82]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-) [83]
+) [83] [84
+
+] [85]
+Missing character: There is no ﬁ in font ptmr8t!
+Missing character: There is no ř in font ptmr8t!
+Missing character: There is no š in font ptmr8t!
+
+Overfull \hbox (9.12292pt too wide) in paragraph at lines 184--184
+[][]\T1/ptm/m/n/12 Developers, G. (2019c, mei 1). Tools for PWA De-vel-o-pers. 
+Ver-kre-gen van []$https : / / developers .
+ []
+
+[86]
+Overfull \hbox (33.2552pt too wide) in paragraph at lines 184--184
+[][]\T1/ptm/m/n/12 Ghinea, G. & Biørn-Hansen, A. (2018). Brid-ging the Gap: In-
+ves-ti-ga-ting Device-FeatureExposure
+ []
+
+[87]
+Overfull \hbox (0.45145pt too wide) in paragraph at lines 184--184
+\T1/ptm/m/n/12 Eco-sy-s-tem. Ver-kre-gen van []$https : / / www . slideshare . 
+net / AaronGustafson / progressive -[]
+ []
+
+[88]
+Missing character: There is no ’ in font ptmr8t!
+ [89]
+Overfull \hbox (1.22452pt too wide) in paragraph at lines 184--184
+[][]\T1/ptm/m/n/12 Mozilla. (2019b, de-cem-ber 31). In-tro-duc-tion to web APIs
+. Ver-kre-gen van []$https : / / developer .
+ []
+
+
+Overfull \hbox (15.04414pt too wide) in paragraph at lines 184--184
+\T1/ptm/m/n/12 %7B % 22share % 22 :-[] 1 % 7D ,[] %22id % 22 : %22platformsDesk
+top % 22 ,[] %22dateInterval %
+ []
+
+Missing character: There is no — in font ptmr8t!
+[90] [91]
+Overfull \hbox (0.46956pt too wide) in paragraph at lines 184--184
+[][]\T1/ptm/m/n/12 Verdú, J. & Pa-juelo, A. (2015, ok-to-ber 26). Per-for-mance
+ Sca-la-bi-lity Ana-ly-sis of Ja-vaScript
+ []
+
+[92]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+
+Overfull \hbox (44.33562pt too wide) in paragraph at lines 184--184
+\T1/ptm/m/n/12 com / widgets / media . html ? type = text % 2Fhtml & key = a19f
+cc184b9711e1b4764040d3dc5c07 &
+ []
+
+
+Overfull \hbox (38.1784pt too wide) in paragraph at lines 184--184
+\T1/ptm/m/n/12 schema = twitter & url = https % 3A / /twitter . com / johnwilan
+der / status / 1139278479436865536 &
+ []
+
+Missing character: There is no ﬁ in font ptmr8t!
+[93]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
  (./bachproef-tin.aux)
@@ -2272,12 +2340,12 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42736 strings out of 492916
- 789731 string characters out of 6133345
- 1424655 words of memory out of 5000000
- 46141 multiletter control sequences out of 15000+600000
+ 43223 strings out of 492916
+ 801429 string characters out of 6133345
+ 1427827 words of memory out of 5000000
+ 46625 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,12n,80p,817b,7225s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,12n,80p,817b,7226s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bachproef-tin.pdf (85 pages).
+Output written on bachproef-tin.pdf (95 pages).
