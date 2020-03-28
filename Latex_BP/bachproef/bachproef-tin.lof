@@ -5,6 +5,24 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces voorstelling van wat is een PWA \autocite {Richard2020}}}{18}{figure.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces demonstratie van achtergrond synchrondisatie bij Google Chrome op Android - pagina offline}}{22}{figure.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces demonstratie van achtergrond synchrondisatie bij Google Chrome op Android - melding als gebruiker terug online is}}{22}{figure.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces schema levenscyclus van een service worker \autocite {Gaunt2019}}}{23}{figure.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces gedrag van Google Chrome op Windows 10 op het beforeinstallprompt}}{24}{figure.2.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces gedrag van Google Chrome op Android op het beforeinstallprompt}}{24}{figure.2.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces voorbeeld van een application shell architectuur \autocite {Osmani2015}}}{25}{figure.2.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Outlook op Mac}}{28}{figure.2.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Outlook op Mac als PWA}}{28}{figure.2.9}% 
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

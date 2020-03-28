@@ -21,8 +21,11 @@ Een Progressive web application (PWA) is een webapplicatie die gebruik maakt van
 
 %TODO: alt text bij foto's
 
-\includegraphics{./img/WatIsEenPwa.png}{voorstelling van wat is een PWA \autocite{Richard2020}}
 
+\begin{figure}
+	\includegraphics{./img/WatIsEenPwa.png}
+	\caption{voorstelling van wat is een PWA \autocite{Richard2020}}
+\end{figure}
 
 
 \subsection{Service workers}
@@ -156,9 +159,16 @@ Een voorbeeld hiervan is het verzenden van een bericht via een sociaal media pla
 Google Chrome op Android maakt hier gebruik van. Als er een website bezocht wordt als er geen internetverbinding is, krijgt de gebruiker de melding: “Chrome laat je weten wanneer de pagina klaar is”. Vanaf het toestel de pagina heeft kunnen downloaden, krijgt de gebruiker een melding dat de pagina nu bekeken kan worden.
 
 
+\begin{figure}
+	\includegraphics{./img/backSync1.png}{}
+	\caption{demonstratie van achtergrond synchrondisatie bij Google Chrome op Android - pagina offline}
+\end{figure}
 
-\includegraphics{./img/backSync1.png}{}
-\includegraphics{./img/backSync2.png}{Demonstratie van achtergrond synchronisatie bij Google Chrome op Android}
+\begin{figure}
+	\includegraphics{./img/backSync2.png}
+	\caption{demonstratie van achtergrond synchrondisatie bij Google Chrome op Android - melding als gebruiker terug online is}
+\end{figure}
+ 
 
 
 \subsubsection{Service worker lifecycle }
@@ -188,9 +198,10 @@ Als er een netwerkverzoek wordt verstuurd, zal de service worker deze verzoeken 
 \autocite{Gaunt2019}
 
 
-\includegraphics{./img/ServiceWorkerLifeCycle.png}{Schema levenscyclus van een service worker \autocite{Gaunt2019}}
-
-
+\begin{figure}
+	\includegraphics{./img/ServiceWorkerLifeCycle.png}
+	\caption{schema levenscyclus van een service worker \autocite{Gaunt2019}}
+\end{figure}
 
 
 \subsection{A2HS}
@@ -208,10 +219,15 @@ Een website moet voldoen aan volgende criteria:
 
 Als een website aan alle criteria voldoet zal er een beforeinstallprompt event gestart worden. Elke browser gaat hier anders mee om. 
 
+\begin{figure}
+	\includegraphics{./img/beforeinstallprompt_windows.png}	
+	\caption{gedrag van Google Chrome op Windows 10 op het beforeinstallprompt}
+\end{figure}
 
-\includegraphics{./img/beforeinstallprompt_windows.png}
-\includegraphics{./img/beforeinstallprompt_android.png}{Gedrag van Google Chrome op desktop en Android.}
-
+\begin{figure}
+	\includegraphics{./img/beforeinstallprompt_android.png}
+	\caption{gedrag van Google Chrome op Android op het beforeinstallprompt}
+\end{figure}
 
 Op Apple toestellen (IPhone, Mac) heeft het beforeinstallprompt geen effect. De gebruiker moet zelf op zoek gaan in het menu om de applicatie te installeren, maar dit is wel mogelijk.
 Het beforeinstallprompt kan wel in de code opgevangen worden. De  gebruiker kan dan geïnformeerd wordendat deze webapplicatie geïnstalleerd kan worden. Er kan ook getoond worden hoe dit moet gebeuren.
@@ -235,8 +251,10 @@ Het toepassen van deze architectuur biedt een aantal voordelen:
 
 \autocite{Osmani2019a}
 
-\includegraphics{./img/ApplicationShell.png}{Voorbeeld van een application shell architectuur \autocite{Osmani2015}}
-
+\begin{figure}
+	\includegraphics{./img/ApplicationShell.png}
+	\caption{voorbeeld van een application shell architectuur \autocite{Osmani2015}}
+\end{figure}
 
 
 \subsection{Progressive enhancement}
@@ -333,11 +351,15 @@ Google is niet de enige grote speler die PWA’s wil promoten en implementeren.
 
 Microsoft geeft het goede voorbeeld door de veelgebruikte email client Outlook ook beschikbaar te maken als een PWA.
 De PWA-versie van de applicatie is slechts 800KB groot terwijl de traditionele versie op een desktop 1,8GB groot is.
+\begin{figure}
+	\includegraphics{./img/Outlook_native.png}
+	\caption{Outlook op Mac}
+\end{figure}
 
-\includegraphics{./img/Outlook_native.png}{outllok op Mac}
-
-\includegraphics{./img/Outlook_pwa.png}{Outlook op Mac als PWA}
-
+\begin{figure}
+	\includegraphics{./img/Outlook_pwa.png}
+	\caption{Outlook op Mac als PWA}
+\end{figure}
 \subsubsection{AliExpress}
 
 AliExpress, één van de grootste e-commerce platformen, implementeerde hun website als een PWA. De resultaten waren heel positief, bij nieuwe gebruikers werd er 104\% meer verkocht. De gemiddelde gebruiker bleef ook 74\% langer op de website.

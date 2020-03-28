@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  27 MAR 2020 20:56
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  28 MAR 2020 08:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1450,9 +1450,6 @@ Package csquotes Info: Redefining alias 'default' -> 'dutch'.
 LaTeX Warning: Label `ondersteuning van de Image Capture API' multiply defined.
 
 
-
-LaTeX Warning: Label `ondersteuning Proximity API ' multiply defined.
-
 )
 \openout1 = `bachproef-tin.aux'.
 
@@ -1734,12 +1731,9 @@ Missing character: There is no ’ in font ptmr8t!
 File: ./img/WatIsEenPwa.png Graphic file (type bmp)
 <./img/WatIsEenPwa.png>
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 34.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 34.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 37.
  [18]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
@@ -1750,11 +1744,11 @@ Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-
-[19]
+ [19]
 Missing character: There is no ’ in font ptmr8t!
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 96.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 99.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1762,16 +1756,16 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 97.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 100.
 Missing character: There is no “ in font ec-lmtt10!
 Missing character: There is no ” in font ec-lmtt10!
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 124.
+               Default added (so using `tbp') on input line 127.
 
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 12
-5.
+8.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -1780,19 +1774,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 12
-5.
+8.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 12
-5.
+8.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 12
-5.
+8.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
@@ -1803,22 +1797,22 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 125.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 128.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 125.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 125.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 125.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 
-Overfull \hbox (730.84018pt too wide) in paragraph at lines 125--132
+Overfull \hbox (730.84018pt too wide) in paragraph at lines 128--135
 [][] 
  []
 
@@ -1829,22 +1823,18 @@ File: ./img/backSync1.png Graphic file (type bmp)
 <./img/backSync1.png>
 File: ./img/backSync2.png Graphic file (type bmp)
 <./img/backSync2.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
 Missing character: There is no ’ in font ptmr8t!
+ [21] [22]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-
-[22]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 File: ./img/ServiceWorkerLifeCycle.png Graphic file (type bmp)
 <./img/ServiceWorkerLifeCycle.png>
+ [23]
 File: ./img/beforeinstallprompt_windows.png Graphic file (type bmp)
 <./img/beforeinstallprompt_windows.png>
 File: ./img/beforeinstallprompt_android.png Graphic file (type bmp)
@@ -1852,14 +1842,13 @@ File: ./img/beforeinstallprompt_android.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
+ [24]
 File: ./img/ApplicationShell.png Graphic file (type bmp)
 <./img/ApplicationShell.png>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4168) has occurred while \output is active []
 
- [24]
-[25]
+ [25]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
@@ -1868,20 +1857,18 @@ Missing character: There is no ’ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
+
+[26]
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
 
-Overfull \hbox (0.54924pt too wide) in paragraph at lines 314--315
+Overfull \hbox (0.54924pt too wide) in paragraph at lines 332--333
 \T1/ptm/m/n/12 Chrome dev sum-mit is een con-fe-ren-tie voor we-bont-wik-ke-laa
 rs ge-or-ga-ni-seerd door Google. 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
@@ -1889,50 +1876,54 @@ File: ./img/Outlook_native.png Graphic file (type bmp)
 <./img/Outlook_native.png>
 File: ./img/Outlook_pwa.png Graphic file (type bmp)
 <./img/Outlook_pwa.png>
-
 [27]
 Missing character: There is no ’ in font ptmr8t!
+ [28]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
- [28]) (./Literatuurstudie/BesturingssystemenEnPwaS.tex
+) (./Literatuurstudie/BesturingssystemenEnPwaS.tex
 Missing character: There is no ’ in font pagd8t!
 Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
+
+Underfull \vbox (badness 1057) has occurred while \output is active []
+
 Missing character: There is no ’ in font pagk8t!
  [29]
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
+
 Overfull \hbox (10.4255pt too wide) in paragraph at lines 26--27
 []\T1/ptm/m/n/12 Safari (desktop) ver-sie 13.0.5 op een Mac-book Pro met ma-cOS
  Mo-jave (10.14.6) 
  []
 
 Missing character: There is no … in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30]
+Missing character: There is no ’ in font ptmr8t!
+
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 87.
 
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no ’ in font pagk8t!
+[31]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 
+
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 120.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Missing character: There is no ’ in font pagk8t!
- [31]
 Overfull \hbox (21.69513pt too wide) in paragraph at lines 139--140
 []\T1/ptm/m/n/12 ******************** chec-ken voor nieuwe up-date IOS 14 *****
 ********************* 
@@ -1942,11 +1933,12 @@ Overfull \hbox (21.69513pt too wide) in paragraph at lines 139--140
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 141.
 
+[32]
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-[32]
+
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 170.
@@ -1959,21 +1951,25 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 206.
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Missing character: There is no ’ in font pagk8t!
+ [33]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-Missing character: There is no ’ in font pagk8t!
-[33]
+
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 237.
 
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
+[34]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 262.
 
-[34]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 283.
@@ -1982,6 +1978,8 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 298.
 
+Missing character: There is no ’ in font pagk8t!
+[35]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 319.
@@ -1992,12 +1990,11 @@ Missing character: There is no ” in font ptmr8t!
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 331.
 
-Missing character: There is no ’ in font pagk8t!
-[35]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 344.
 
+[36]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 368.
@@ -2006,28 +2003,21 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 380.
 
-
-Underfull \vbox (badness 8000) has occurred while \output is active []
-
- [36]
 Missing character: There is no ‘ in font ptmr8t!
-
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 402.
 
+Missing character: There is no ’ in font pagk8t!
+[37]
 Missing character: There is no ‘ in font ptmr8t!
+
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 421.
 
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Missing character: There is no ’ in font pagk8t!
- [37]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 439.
@@ -2038,23 +2028,26 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 453.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 470.
 
-[38]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 501.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 528.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Missing character: There is no ’ in font pagk8t!
  [39]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 528.
+
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 543.
@@ -2068,23 +2061,23 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 571.
 
 Missing character: There is no ’ in font ptmr8t!
+[40]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 594.
 
-[40]
 Missing character: There is no ’ in font ptmr8t!
-
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 611.
 
-Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font pagk8t!
 [41]
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
+
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 632.
@@ -2094,13 +2087,13 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 650.
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 676.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [42]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 676.
+
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 690.
@@ -2111,15 +2104,19 @@ Missing character: There is no ’ in font ptmr8t!
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 705.
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Missing character: There is no ’ in font pagk8t!
+ [43]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
+
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 723.
 
 Missing character: There is no – in font ptmr8t!
-Missing character: There is no ’ in font pagk8t!
-[43]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 742.
@@ -2129,6 +2126,10 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 756.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44]
+
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 769.
 
@@ -2137,23 +2138,19 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 785.
 
 
-Underfull \vbox (badness 1881) has occurred while \output is active []
-
- [44]
-
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 800.
 
+
+Underfull \vbox (badness 2334) has occurred while \output is active []
+
+Missing character: There is no ’ in font pagk8t!
+ [45]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 829.
 
 Missing character: There is no ’ in font ptmr8t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Missing character: There is no ’ in font pagk8t!
- [45]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 844.
@@ -2170,6 +2167,7 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 883.
 
+[46]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 896.
@@ -2178,7 +2176,6 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 909.
 
-[46]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 926.
@@ -2205,16 +2202,13 @@ Overfull \hbox (13.40047pt too wide) in paragraph at lines 951--952
 ke Lock API ([])
  []
 
+Missing character: There is no ’ in font pagk8t!
+[47]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 953.
 
-)) (./methodologie.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Missing character: There is no ’ in font pagk8t!
- [47]
-[48]
+)) (./methodologie.tex [48]
 Missing character: There is no ’ in font pagk8t!
  [49] [50
 
@@ -2278,12 +2272,12 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42644 strings out of 492916
- 786639 string characters out of 6133345
- 1420556 words of memory out of 5000000
- 46078 multiletter control sequences out of 15000+600000
+ 42641 strings out of 492916
+ 786619 string characters out of 6133345
+ 1421683 words of memory out of 5000000
+ 46075 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,12n,65p,817b,7000s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,12n,80p,817b,7226s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on bachproef-tin.pdf (61 pages).
