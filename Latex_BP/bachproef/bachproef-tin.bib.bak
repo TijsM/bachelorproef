@@ -659,6 +659,7 @@
 @Online{Wilander2019,
   author = {Wilander, John},
   date   = {2019-06-13},
+  title  = {Tweet by John Wilander},
   url    = {https://cdn.embedly.com/widgets/media.html?type=text%2Fhtml&key=a19fcc184b9711e1b4764040d3dc5c07&schema=twitter&url=https%3A//twitter.com/johnwilander/status/1139278479436865536&image=https%3A//i.embed.ly/1/image%3Furl%3Dhttps%253A%252F%252Fpbs.twimg.com%252Fprofile_images%252F341321376%252Fjohn_sjunger_715_beskuren_400x400.jpg%26key%3Da19fcc184b9711e1b4764040d3dc5c07},
 }
 
@@ -837,6 +838,41 @@
   date   = {2020-03-11},
   title  = {Support in-app updates},
   url    = {https://developer.android.com/guide/playcore/in-app-updates},
+}
+
+@Thesis{Brousek2017,
+  author      = {Břoušek, Pavel},
+  date        = {2017-04},
+  institution = {Masaryk University},
+  title       = {Evaluation and usage of GoogleProgressive Web Appstechnology},
+}
+
+@Online{Lighthouse2020,
+  author = {Lighthouse},
+  date   = {2020-03-28},
+  title  = {Measure},
+  url    = {https://web.dev/measure/},
+}
+
+@Online{web.dev2020,
+  author = {web.dev},
+  date   = {2020-03-28},
+  title  = {Page load is not fast enough on mobile networks},
+  url    = {https://web.dev/load-fast-enough-for-pwa/?utm_source=lighthouse&utm_medium=devtools},
+}
+
+@Online{web.dev2020a,
+  author = {web.dev},
+  date   = {2020-03-28},
+  title  = {Web app manifest does not meet the installability requirements},
+  url    = {https://web.dev/installable-manifest/?utm_source=lighthouse&utm_medium=devtools},
+}
+
+@Online{Workbox2020,
+  author = {Workbox},
+  date   = {2020-03-28},
+  title  = {Workbox},
+  url    = {https://developers.google.com/web/tools/workbox},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

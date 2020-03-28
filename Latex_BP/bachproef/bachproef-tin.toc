@@ -229,33 +229,49 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.6}Conclusie}{64}{subsection.2.4.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodologie}{65}{chapter.3}% 
+\contentsline {section}{\numberline {2.5}Tools voor het ontwikkelen van en een PWA}{64}{section.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{67}{chapter.4}% 
+\contentsline {subsection}{\numberline {2.5.1}Lighthouse}{64}{subsection.2.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{69}{appendix.A}% 
+\contentsline {subsubsection}{Fast and reliable}{64}{section*.84}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{69}{section.A.1}% 
+\contentsline {subsubsection}{Installable}{65}{section*.85}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{70}{section.A.2}% 
+\contentsline {subsubsection}{PWA optimized}{65}{section*.86}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{70}{subsection.A.2.1}% 
+\contentsline {subsection}{\numberline {2.5.2}Workbox}{66}{subsection.2.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{70}{subsection.A.2.2}% 
+\contentsline {subsection}{\numberline {2.5.3}PWAbuilder}{67}{subsection.2.5.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{71}{subsection.A.2.3}% 
+\contentsline {subsection}{\numberline {2.5.4}Chrome developer tools}{67}{subsection.2.5.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{71}{subsection.A.2.4}% 
+\contentsline {chapter}{\numberline {3}Methodologie}{69}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.5}Native containers}{72}{subsection.A.2.5}% 
+\contentsline {chapter}{\numberline {4}Conclusie}{71}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{72}{subsection.A.2.6}% 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{73}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{72}{section.A.3}% 
+\contentsline {section}{\numberline {A.1}Introductie}{73}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.1}Technologieën}{72}{subsection.A.3.1}% 
+\contentsline {section}{\numberline {A.2}State-of-the-art}{74}{section.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{73}{section.A.4}% 
+\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{74}{subsection.A.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{73}{section.A.5}% 
+\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{74}{subsection.A.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{75}{subsection.A.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{75}{subsection.A.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.5}Native containers}{76}{subsection.A.2.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{76}{subsection.A.2.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Methodologie}{76}{section.A.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.3.1}Technologieën}{76}{subsection.A.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{77}{section.A.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{77}{section.A.5}% 
 \contentsfinish 

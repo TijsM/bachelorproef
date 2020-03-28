@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  28 MAR 2020 14:11
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  28 MAR 2020 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1726,16 +1726,16 @@ Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font pagk8t!
 Missing character: There is no ” in font pagk8t!
-)
-\tf@lof=\write7
-\openout7 = `bachproef-tin.lof'.
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11
 
-]
+])
+\tf@lof=\write7
+\openout7 = `bachproef-tin.lof'.
+
+
 [12] (./bachproef-tin.lot
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2130,33 +2130,53 @@ Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
-
-
-LaTeX Warning: Citation 'Brousek2017' on page 63 undefined on input line 34.
-
-)
+Missing character: There is no ř in font ptmr8t!
+Missing character: There is no š in font ptmr8t!
+) (./Literatuurstudie/ToolsPWA.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63])
-(./methodologie.tex [64]
-Hoofdstuk 3.
-) (./conclusie.tex [65
+ [63]
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+Missing character: There is no – in font ptmr8t!
+Missing character: There is no – in font ptmr8t!
 
-] [66
+[64]
+File: ./img/lighthouse.png Graphic file (type bmp)
+<./img/lighthouse.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66]
+Missing character: There is no ’ in font ptmr8t!
+))
+(./methodologie.tex [67] [68
+
+]
+Hoofdstuk 3.
+) (./conclusie.tex [69] [70
 
 ]
 Hoofdstuk 4.
-) [67] [68
+) [71] [72
 
 ]
 B"ylage A.
 (../voorstel/voorstel-inhoud.tex
 Missing character: There is no … in font ptmr8t!
- [69]
+ [73]
 Missing character: There is no – in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
- [70]
+ [74]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
@@ -2168,16 +2188,16 @@ Missing character: There is no ’ in font ptmr8t!
 
 Underfull \vbox (badness 1655) has occurred while \output is active []
 
- [71]
+ [75]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 
-[72]
+[76]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-) [73]
+) [77]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
  (./bachproef-tin.aux)
@@ -2185,27 +2205,23 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 186.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 186.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                bachproef-tin
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42957 strings out of 492916
- 792670 string characters out of 6133345
- 1426724 words of memory out of 5000000
- 46369 multiletter control sequences out of 15000+600000
+ 42986 strings out of 492916
+ 793339 string characters out of 6133345
+ 1425949 words of memory out of 5000000
+ 46394 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,80p,817b,7226s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bachproef-tin.pdf (75 pages).
+Output written on bachproef-tin.pdf (79 pages).

@@ -555,6 +555,36 @@
       \verb https://www.w3.org/TR/wake-lock/
       \endverb
     \endentry
+    \entry{Brousek2017}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e907a578af4a5798d6785f4ec8e5c57f}{%
+           family={Břoušek},
+           familyi={B\bibinitperiod},
+           given={Pavel},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Masaryk University}%
+      }
+      \strng{namehash}{e907a578af4a5798d6785f4ec8e5c57f}
+      \strng{fullhash}{e907a578af4a5798d6785f4ec8e5c57f}
+      \strng{bibnamehash}{e907a578af4a5798d6785f4ec8e5c57f}
+      \strng{authorbibnamehash}{e907a578af4a5798d6785f4ec8e5c57f}
+      \strng{authornamehash}{e907a578af4a5798d6785f4ec8e5c57f}
+      \strng{authorfullhash}{e907a578af4a5798d6785f4ec8e5c57f}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{Evaluation and usage of GoogleProgressive Web Appstechnology}
+      \field{year}{2017}
+      \field{dateera}{ce}
+    \endentry
     \entry{Caceres2020}{online}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=ec510a8ac53f68891a3e6e9248f6631b}{%
@@ -865,7 +895,7 @@
       \verb https://developers.google.com/web/ilt/pwa/introduction-to-service-worker
       \endverb
     \endentry
-    \entry{Developers2020}{online}{}
+    \entry{Developers2019b}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=ee46292309d59259e69ff82edd151b48}{%
            family={Developers},
@@ -881,6 +911,41 @@
       \strng{authornamehash}{ee46292309d59259e69ff82edd151b48}
       \strng{authorfullhash}{ee46292309d59259e69ff82edd151b48}
       \field{extraname}{4}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Tools for PWA Developers}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/ilt/pwa/tools-for-pwa-developers
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/ilt/pwa/tools-for-pwa-developers
+      \endverb
+    \endentry
+    \entry{Developers2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=ee46292309d59259e69ff82edd151b48}{%
+           family={Developers},
+           familyi={D\bibinitperiod},
+           given={Google},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee46292309d59259e69ff82edd151b48}
+      \strng{fullhash}{ee46292309d59259e69ff82edd151b48}
+      \strng{bibnamehash}{ee46292309d59259e69ff82edd151b48}
+      \strng{authorbibnamehash}{ee46292309d59259e69ff82edd151b48}
+      \strng{authornamehash}{ee46292309d59259e69ff82edd151b48}
+      \strng{authorfullhash}{ee46292309d59259e69ff82edd151b48}
+      \field{extraname}{5}
       \field{sortinit}{D}
       \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
       \field{extradate}{1}
@@ -915,7 +980,7 @@
       \strng{authorbibnamehash}{ee46292309d59259e69ff82edd151b48}
       \strng{authornamehash}{ee46292309d59259e69ff82edd151b48}
       \strng{authorfullhash}{ee46292309d59259e69ff82edd151b48}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{D}
       \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
       \field{extradate}{2}
@@ -950,7 +1015,7 @@
       \strng{authorbibnamehash}{ee46292309d59259e69ff82edd151b48}
       \strng{authornamehash}{ee46292309d59259e69ff82edd151b48}
       \strng{authorfullhash}{ee46292309d59259e69ff82edd151b48}
-      \field{extraname}{6}
+      \field{extraname}{7}
       \field{sortinit}{D}
       \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
       \field{extradate}{3}
@@ -2508,6 +2573,37 @@
       \endverb
       \verb{url}
       \verb https://web.dev/add-manifest/
+      \endverb
+    \endentry
+    \entry{Lighthouse2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=bcb3798d312ed46335afe6b1c0ebd398}{%
+           family={Lighthouse},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{bcb3798d312ed46335afe6b1c0ebd398}
+      \strng{fullhash}{bcb3798d312ed46335afe6b1c0ebd398}
+      \strng{bibnamehash}{bcb3798d312ed46335afe6b1c0ebd398}
+      \strng{authorbibnamehash}{bcb3798d312ed46335afe6b1c0ebd398}
+      \strng{authornamehash}{bcb3798d312ed46335afe6b1c0ebd398}
+      \strng{authorfullhash}{bcb3798d312ed46335afe6b1c0ebd398}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{3}
+      \field{title}{Measure}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://web.dev/measure/
+      \endverb
+      \verb{url}
+      \verb https://web.dev/measure/
       \endverb
     \endentry
     \entry{Love2018}{book}{}
@@ -4393,6 +4489,70 @@
       \verb https://www.w3.org/TR/generic-sensor/
       \endverb
     \endentry
+    \entry{web.dev2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f7aa6066f95255096672e3a5fc537081}{%
+           family={web.dev},
+           familyi={w\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7aa6066f95255096672e3a5fc537081}
+      \strng{fullhash}{f7aa6066f95255096672e3a5fc537081}
+      \strng{bibnamehash}{f7aa6066f95255096672e3a5fc537081}
+      \strng{authorbibnamehash}{f7aa6066f95255096672e3a5fc537081}
+      \strng{authornamehash}{f7aa6066f95255096672e3a5fc537081}
+      \strng{authorfullhash}{f7aa6066f95255096672e3a5fc537081}
+      \field{extraname}{1}
+      \field{sortinit}{w}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{3}
+      \field{title}{Page load is not fast enough on mobile networks}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://web.dev/load-fast-enough-for-pwa/?utm_source=lighthouse&utm_medium=devtools
+      \endverb
+      \verb{url}
+      \verb https://web.dev/load-fast-enough-for-pwa/?utm_source=lighthouse&utm_medium=devtools
+      \endverb
+    \endentry
+    \entry{web.dev2020a}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f7aa6066f95255096672e3a5fc537081}{%
+           family={web.dev},
+           familyi={w\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7aa6066f95255096672e3a5fc537081}
+      \strng{fullhash}{f7aa6066f95255096672e3a5fc537081}
+      \strng{bibnamehash}{f7aa6066f95255096672e3a5fc537081}
+      \strng{authorbibnamehash}{f7aa6066f95255096672e3a5fc537081}
+      \strng{authornamehash}{f7aa6066f95255096672e3a5fc537081}
+      \strng{authorfullhash}{f7aa6066f95255096672e3a5fc537081}
+      \field{extraname}{2}
+      \field{sortinit}{w}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{3}
+      \field{title}{Web app manifest does not meet the installability requirements}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://web.dev/installable-manifest/?utm_source=lighthouse&utm_medium=devtools
+      \endverb
+      \verb{url}
+      \verb https://web.dev/installable-manifest/?utm_source=lighthouse&utm_medium=devtools
+      \endverb
+    \endentry
     \entry{West2020}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=e63f732a7215ae555cfe12e23cfd2886}{%
@@ -4482,8 +4642,10 @@
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{day}{13}
       \field{month}{6}
+      \field{title}{Tweet by John Wilander}
       \field{year}{2019}
       \field{dateera}{ce}
       \verb{urlraw}
@@ -4531,6 +4693,37 @@
       \endverb
       \verb{url}
       \verb https://wicg.github.io/web-share-target/
+      \endverb
+    \endentry
+    \entry{Workbox2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0348397d16df78b1daabfbca567a7d6a}{%
+           family={Workbox},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{0348397d16df78b1daabfbca567a7d6a}
+      \strng{fullhash}{0348397d16df78b1daabfbca567a7d6a}
+      \strng{bibnamehash}{0348397d16df78b1daabfbca567a7d6a}
+      \strng{authorbibnamehash}{0348397d16df78b1daabfbca567a7d6a}
+      \strng{authornamehash}{0348397d16df78b1daabfbca567a7d6a}
+      \strng{authorfullhash}{0348397d16df78b1daabfbca567a7d6a}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{3}
+      \field{title}{Workbox}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/tools/workbox
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/tools/workbox
       \endverb
     \endentry
     \entry{Durumeric2013}{article}{}

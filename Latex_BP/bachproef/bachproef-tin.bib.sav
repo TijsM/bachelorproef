@@ -847,4 +847,39 @@
   title       = {Evaluation and usage of GoogleProgressive Web Appstechnology},
 }
 
+@Online{Lighthouse2020,
+  author = {Lighthouse},
+  date   = {2020-03-28},
+  title  = {Measure},
+  url    = {https://web.dev/measure/},
+}
+
+@Online{web.dev2020,
+  author = {web.dev},
+  date   = {2020-03-28},
+  title  = {Page load is not fast enough on mobile networks},
+  url    = {https://web.dev/load-fast-enough-for-pwa/?utm_source=lighthouse&utm_medium=devtools},
+}
+
+@Online{web.dev2020a,
+  author = {web.dev},
+  date   = {2020-03-28},
+  title  = {Web app manifest does not meet the installability requirements},
+  url    = {https://web.dev/installable-manifest/?utm_source=lighthouse&utm_medium=devtools},
+}
+
+@Online{Workbox2020,
+  author = {Workbox},
+  date   = {2020-03-28},
+  title  = {Workbox},
+  url    = {https://developers.google.com/web/tools/workbox},
+}
+
+@Online{Developers2019b,
+  author = {Developers, Google},
+  date   = {2019-05-01},
+  title  = {Tools for PWA Developers},
+  url    = {https://developers.google.com/web/ilt/pwa/tools-for-pwa-developers},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
