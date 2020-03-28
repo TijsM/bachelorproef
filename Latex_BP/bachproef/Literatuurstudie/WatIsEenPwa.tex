@@ -131,20 +131,21 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 			}
 			\end{lstlisting}
 		
+
 		
 			Om een notificatie weer te geven, wordt er een object verwacht waar de inhoud van de melding wordt vastgelegd. Volgende keys kunnen meegegeven worden:
 			
-			
-			\begin{table}[]
-			\begin{tabular}{ll}
-			Body    & De boodschap die in de melding staat.\\
-			Icon    & Het icoontje dat in de notificatie wordt getoond.\\
-			Vibrate & Het vibratiepatroon dat de melding zal maken in milliseconden.\\
-			Data    & Data is een object dat gebruikt kan worden als de gebruiker op de notificatie klikt. Dit object zal dan ontvangen worden in de applicatie. Hier zal vaak het id van de gebruiker teruggevonden worden.\\
-			Actions & Er kunnen ook acties toegevoegd worden aan de melding. Elk object in deze array zal een knop worden op de melding met een andere functie. Het gedrag van de knoppen wordt bepaald in de applicatie aan de hand van de ‘action’.
-			\end{tabular}
-			\caption{beschrijving notifications API}
-			\label{tab:notificatie code}
+				
+			\begin{table}[H]
+				\centering
+				\begin{tabular}{cp{12cm}}
+			       body & De boodschap die in de melding staat  \\
+			       icon & Het icoontje dat in de notificatie wordt getoond. \\
+			       vibrate & Het vibratiepatroon dat de melding zal maken in milliseconden. \\
+			       data & Data is een object dat gebruikt kan worden als de gebruiker op de notificatie  klikt. Dit object zal dan ontvangen worden in de applicatie. Hier zal vaak het id van de gebruiker teruggevonden worden. \\
+			       actions & Er kunnen ook acties toegevoegd worden aan de melding. Elk object in deze array zal een knop worden op de melding met een andere functie. Het gedrag van de knoppen wordt bepaald in de applicatie aan de hand van de ‘action’. \\
+				\end{tabular}	
+				\caption{beschrijving Notifications API}
 			\end{table}
 			
 			\autocite{Developers2019}
@@ -318,17 +319,37 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 	
 	%TODO: tabel fixen!!
 	
-	\begin{table}[H]
-		\centering
-		\begin{tabular}{ll}
-		       test & test \\
-		       test & test
-		\end{tabular}	
-		\caption{ondersteuning Permissions API }
-		\label{ondersteuning Permission API}
-	\end{table}
+		
 	
-	****************** TABEL FIXEN  ******************
+	
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{cp{12cm}}
+	     		short\_name & Naam van de applicatie die op het startscherm gebruikt zal worden. Deze mag maximaal 12 karakters lang zijn. \\
+	     		name & Naam die op alle andere plekken gebruikt zal worden: vb bij de vraag als de app geïnstalleerd mag worden. Deze mag maximaal 45 karakters lang zijn. \\
+	     		icons & Een lijst vna objecten die het icoon bepaalt dat de applicatie zal gebruiken.Verschillende platformen vragen verschillende type's iconen Dit object heeft volgende eigenschappen:
+		     		\begin{itemize}
+			    		  \item src - bron van het icoont
+			    		  \item type - het bestandstype van het icoon
+			    		  \item size - de afmeting van het icoon
+	     			\end{itemize} \\
+	     		start\_url & De url naar waar de PWA moet gaan als de applicatie gestart wordt vanaf het startscherm van een toestel.\\
+	     		background\_color & Hier wordt een kleur gedefinieerd. Dit kleur zal gebruikt worden voor het opstartscherm. \\
+	     		display & Dit bepaalt in wat voor webview de PWA getoond zal worden. Mogelijkheden zijn:
+		     		\begin{itemize}
+			     		  \item fullscreen – opent de browser zonder UI-elementen (adresbalk, terug knop, ….)
+			     		  \item standalone – opent de applicatie als een native applicatie los van de browser. Er worden geen UI-elementen van de browser getoond.
+			     		  \item nimal-ui – opent de applicatie in de browser maar toont slechts beperkte UI elementen van de browser. De adresbalk is weg maar de ‘vorige’ knop is er nog.
+			     		  \item browser – opent de PWA in een normaal browser tabblad.
+		     		\end{itemize} \\
+	     		scope & De scope bepaalt alle links die binnen de PWA vallen. \\
+	     		theme\_color & De kleur die de adresbalk zal innemen.
+			\end{tabular}	
+			\caption{beschrijving minimum application manifest}
+		\end{table}
+				
+			
+	
 	
 	\autocite{LePage2020}
 
