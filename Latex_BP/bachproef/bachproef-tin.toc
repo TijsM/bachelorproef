@@ -215,33 +215,47 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.10}Conclusie}{62}{subsection.2.3.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodologie}{63}{chapter.3}% 
+\contentsline {section}{\numberline {2.4}Beperkingen van een PWA}{62}{section.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{65}{chapter.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Cameragebruik}{62}{subsection.2.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{67}{appendix.A}% 
+\contentsline {subsection}{\numberline {2.4.2}Controle over platformen}{62}{subsection.2.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{67}{section.A.1}% 
+\contentsline {subsection}{\numberline {2.4.3}Functies van een besturingssysteem}{63}{subsection.2.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{68}{section.A.2}% 
+\contentsline {subsection}{\numberline {2.4.4}Browserondersteuning}{63}{subsection.2.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{68}{subsection.A.2.1}% 
+\contentsline {subsection}{\numberline {2.4.5}Aanwezigheid in app-stores}{63}{subsection.2.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{68}{subsection.A.2.2}% 
+\contentsline {subsection}{\numberline {2.4.6}Conclusie}{64}{subsection.2.4.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{69}{subsection.A.2.3}% 
+\contentsline {chapter}{\numberline {3}Methodologie}{65}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{69}{subsection.A.2.4}% 
+\contentsline {chapter}{\numberline {4}Conclusie}{67}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.5}Native containers}{70}{subsection.A.2.5}% 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{69}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{70}{subsection.A.2.6}% 
+\contentsline {section}{\numberline {A.1}Introductie}{69}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{70}{section.A.3}% 
+\contentsline {section}{\numberline {A.2}State-of-the-art}{70}{section.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.1}Technologieën}{70}{subsection.A.3.1}% 
+\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{70}{subsection.A.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{71}{section.A.4}% 
+\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{70}{subsection.A.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{71}{section.A.5}% 
+\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{71}{subsection.A.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{71}{subsection.A.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.5}Native containers}{72}{subsection.A.2.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{72}{subsection.A.2.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Methodologie}{72}{section.A.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.3.1}Technologieën}{72}{subsection.A.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{73}{section.A.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{73}{section.A.5}% 
 \contentsfinish 

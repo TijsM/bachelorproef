@@ -834,7 +834,7 @@
 
 @Online{AndroidDevelopers2020,
   author = {AndroidDevelopers},
-  date   = {2020-03-28},
+  date   = {2020-03-11},
   title  = {Support in-app updates},
   url    = {https://developer.android.com/guide/playcore/in-app-updates},
 }
