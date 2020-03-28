@@ -45,17 +45,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.5}Application manifest}{28}{subsection.2.1.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.6}Geschiedenis van PWA's}{28}{subsection.2.1.6}% 
+\contentsline {subsection}{\numberline {2.1.6}Geschiedenis van PWA's}{29}{subsection.2.1.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{"One last thing"}{28}{section*.16}% 
+\contentsline {subsubsection}{"One last thing"}{29}{section*.16}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Crome dev summit 2015}{29}{section*.17}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{IOS 13}{29}{section*.18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.7}Voorbeelden van PWA's}{29}{subsection.2.1.7}% 
+\contentsline {subsection}{\numberline {2.1.7}Voorbeelden van PWA's}{30}{subsection.2.1.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Outlook}{29}{section*.19}% 
+\contentsline {subsubsection}{Outlook}{30}{section*.19}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{AliExpress}{30}{section*.20}% 
 \defcounter {refsection}{0}\relax 
@@ -67,7 +67,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Pinterest}{31}{section*.24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Besturingssystemen en PWA’s}{31}{section.2.2}% 
+\contentsline {section}{\numberline {2.2}Besturingssystemen en PWA’s}{32}{section.2.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Onderzoek}{33}{subsection.2.2.1}% 
 \defcounter {refsection}{0}\relax 
@@ -75,7 +75,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Video met audio }{33}{section*.26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Foto's }{33}{section*.27}% 
+\contentsline {paragraph}{Foto's }{34}{section*.27}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Geluidopname }{34}{section*.28}% 
 \defcounter {refsection}{0}\relax 
@@ -85,9 +85,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Media-controle in de notificatie }{36}{section*.31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Connectie met andere apparaten}{36}{section*.32}% 
+\contentsline {subsubsection}{Connectie met andere apparaten}{37}{section*.32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Bluetooth }{36}{section*.33}% 
+\contentsline {paragraph}{Bluetooth }{37}{section*.33}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{USB}{37}{section*.34}% 
 \defcounter {refsection}{0}\relax 
@@ -101,7 +101,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Vibratiemotor }{38}{section*.39}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Batterijstatus}{38}{section*.40}% 
+\contentsline {paragraph}{Batterijstatus}{39}{section*.40}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Toestelgeheugen}{39}{section*.41}% 
 \defcounter {refsection}{0}\relax 
@@ -109,19 +109,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Lokale notificaties}{39}{section*.43}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Push notificaties}{39}{section*.44}% 
+\contentsline {paragraph}{Push notificaties}{40}{section*.44}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{A2HS}{40}{section*.45}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Badges}{40}{section*.46}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Voorgrond-detectie }{40}{section*.47}% 
+\contentsline {paragraph}{Voorgrond-detectie }{41}{section*.47}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Toestemmingen}{41}{section*.48}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Besturingssysteem}{41}{section*.49}% 
+\contentsline {subsubsection}{Besturingssysteem}{42}{section*.49}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{offline opslage}{41}{section*.50}% 
+\contentsline {paragraph}{offline opslage}{42}{section*.50}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{Web storage}{42}{section*.51}% 
 \defcounter {refsection}{0}\relax 
@@ -129,19 +129,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{Cache API}{42}{section*.53}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Storage API}{42}{section*.54}% 
+\contentsline {subparagraph}{Storage API}{43}{section*.54}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Bestandentoegang}{43}{section*.55}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Contacten}{43}{section*.56}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Sms}{43}{section*.57}% 
+\contentsline {paragraph}{Sms}{44}{section*.57}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Taakplanning}{44}{section*.58}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Input}{44}{section*.59}% 
+\contentsline {subsubsection}{Input}{45}{section*.59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Touch gebaren}{44}{section*.60}% 
+\contentsline {paragraph}{Touch gebaren}{45}{section*.60}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Klembord toegang}{45}{section*.61}% 
 \defcounter {refsection}{0}\relax 
@@ -149,13 +149,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Offline gebruik}{45}{section*.63}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Achtergrondsynchronisatie }{45}{section*.64}% 
+\contentsline {paragraph}{Achtergrondsynchronisatie }{46}{section*.64}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Inter-app communicatie}{46}{section*.65}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Betalingen}{46}{section*.66}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Credentials}{46}{section*.67}% 
+\contentsline {paragraph}{Credentials}{47}{section*.67}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Locatie en positionering}{47}{section*.68}% 
 \defcounter {refsection}{0}\relax 
@@ -163,7 +163,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Geofencing}{47}{section*.70}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Toesteloriëntatie }{47}{section*.71}% 
+\contentsline {paragraph}{Toesteloriëntatie }{48}{section*.71}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Toestelbeweging}{48}{section*.72}% 
 \defcounter {refsection}{0}\relax 
@@ -171,7 +171,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{Accelerometer }{48}{section*.74}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Gyroscope }{48}{section*.75}% 
+\contentsline {subparagraph}{Gyroscope }{49}{section*.75}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{Magnetometer }{49}{section*.76}% 
 \defcounter {refsection}{0}\relax 
@@ -195,7 +195,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Mobiele besturingssystemen }{51}{section*.84}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Desktop besturingssystemen}{53}{section*.85}% 
+\contentsline {subsubsection}{Desktop besturingssystemen}{52}{section*.85}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Waarom een PWA}{55}{section.2.3}% 
 \defcounter {refsection}{0}\relax 
