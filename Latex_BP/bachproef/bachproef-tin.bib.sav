@@ -130,7 +130,7 @@
 @Online{PWAbuilder2020,
   author = {PWAbuilder},
   date   = {2020-03-16},
-  title  = {GithubShareInstall your PWA from the browser},
+  title  = {Install your PWA from the browser},
   url    = {https://www.pwabuilder.com/feature/Install your PWA},
 }
 
@@ -604,6 +604,61 @@
   date   = {2020-03-18},
   title  = {Wake Lock API},
   url    = {https://www.w3.org/TR/wake-lock/},
+}
+
+@Article{Anastasia2017,
+  author = {Anastasia, Z.},
+  date   = {2017},
+  title  = {Why are Push Notifications So Important?},
+  url    = {https://fivepints.com/PDF/5pp_Why_Are_Push_Notifications_So_Important.pdf},
+}
+
+@Online{Lathiya2020,
+  author = {Lathiya, Piyush},
+  date   = {2020-01-01},
+  title  = {IOS Getting Into The PWA Space Faster Than Ever},
+  url    = {https://aureatelabs.com/pwa/ios-getting-into-pwa-space-faster-than-ever/},
+}
+
+@Online{netMarketShare2020,
+  author = {netMarketShare},
+  date   = {2020-03-19},
+  title  = {Operating System Market Share},
+  url    = {https://netmarketshare.com/operating-system-market-share.aspx?options={"filter":{"$and":[{"deviceType":{"$in":["Desktop/laptop"]}}]},"dateLabel":"Trend","attributes":"share","group":"platform","sort":{"share":-1},"id":"platformsDesktop","dateInterval":"Monthly","dateStart":"2019-03","dateEnd":"2020-02","segments":"-1000","plotKeys":[{"platform":"Linux"},{"platform":"Mac OS"}]}},
+}
+
+@Online{Microsoft2020a,
+  author = {Microsoft},
+  date   = {2020-03-27},
+  title  = {Porgressive Web apps},
+  url    = {https://developer.microsoft.com/en-us/windows/pwa/},
+}
+
+@Conference{Gustafson2017,
+  author = {Gustafson, Aaron and Burtoft, Jeff},
+  date   = {2017-05-12},
+  title  = {Progressive Web Apps and the Windows Ecosystem},
+  url    = {https://www.aaron-gustafson.com/notebook/progressive-web-apps-and-the-windows-ecosystem/},
+}
+
+@Online{Gustafson2017a,
+  author = {Gustafson, Aaron and Burtoft, Jeff},
+  date   = {2017-03-24},
+  title  = {Progressive Web Apps and the Windows Ecosystem},
+  url    = {https://www.slideshare.net/AaronGustafson/progressive-web-apps-and-the-windows-ecosystem-build-2017?ref=https://www.aaron-gustafson.com/notebook/progressive-web-apps-and-the-windows-ecosystem/},
+}
+
+@Online{Microsoft2020b,
+  author = {Microsoft},
+  date   = {2020-03-27},
+  title  = {Microsoft Docs},
+  url    = {https://docs.microsoft.com/en-us/microsoft-edge/progressive-web-apps-edgehtml/get-started},
+}
+
+@Online{Wilander2019,
+  author = {Wilander, John},
+  date   = {2019-06-13},
+  url    = {https://cdn.embedly.com/widgets/media.html?type=text%2Fhtml&key=a19fcc184b9711e1b4764040d3dc5c07&schema=twitter&url=https%3A//twitter.com/johnwilander/status/1139278479436865536&image=https%3A//i.embed.ly/1/image%3Furl%3Dhttps%253A%252F%252Fpbs.twimg.com%252Fprofile_images%252F341321376%252Fjohn_sjunger_715_beskuren_400x400.jpg%26key%3Da19fcc184b9711e1b4764040d3dc5c07},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

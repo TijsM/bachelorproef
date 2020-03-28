@@ -59,6 +59,38 @@
       \verb https://www.w3.org/TR/IndexedDB-2/
       \endverb
     \endentry
+    \entry{Anastasia2017}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=92b5b9c41073b751cefe0bc941ce1953}{%
+           family={Anastasia},
+           familyi={A\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{92b5b9c41073b751cefe0bc941ce1953}
+      \strng{fullhash}{92b5b9c41073b751cefe0bc941ce1953}
+      \strng{bibnamehash}{92b5b9c41073b751cefe0bc941ce1953}
+      \strng{authorbibnamehash}{92b5b9c41073b751cefe0bc941ce1953}
+      \strng{authornamehash}{92b5b9c41073b751cefe0bc941ce1953}
+      \strng{authorfullhash}{92b5b9c41073b751cefe0bc941ce1953}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Why are Push Notifications So Important?}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://fivepints.com/PDF/5pp_Why_Are_Push_Notifications_So_Important.pdf
+      \endverb
+      \verb{url}
+      \verb https://fivepints.com/PDF/5pp_Why_Are_Push_Notifications_So_Important.pdf
+      \endverb
+    \endentry
     \entry{Apple2020a}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=9f6290f4436e5a2351f12e03b6433c3c}{%
@@ -314,6 +346,52 @@
       \endverb
       \verb{url}
       \verb https://www.scitepress.org/Papers/2017/63537/63537.pdf
+      \endverb
+    \endentry
+    \entry{Bogdanovich2020}{online}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=fdb0dc15a089eba421e0e6c7a6825d53}{%
+           family={Bogdanovich},
+           familyi={B\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=63a290606e8a37fa9d53509de2563489}{%
+           family={Logvinov},
+           familyi={L\bibinitperiod},
+           given={Andrey},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4b2b605daedbca23bb736a9aa27c4e2e}{%
+           family={Caseres},
+           familyi={C\bibinitperiod},
+           given={Marcos},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{355e331e933aad489a45c61e81da71dc}
+      \strng{fullhash}{b4571e7970bd915b86d485ee73af48b5}
+      \strng{bibnamehash}{b4571e7970bd915b86d485ee73af48b5}
+      \strng{authorbibnamehash}{b4571e7970bd915b86d485ee73af48b5}
+      \strng{authornamehash}{355e331e933aad489a45c61e81da71dc}
+      \strng{authorfullhash}{b4571e7970bd915b86d485ee73af48b5}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{3}
+      \field{title}{Wake Lock API}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/wake-lock/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/wake-lock/
       \endverb
     \endentry
     \entry{Caceres2020}{online}{}
@@ -1176,6 +1254,88 @@
       \verb https://www.w3.org/TR/page-visibility-2/#introduction
       \endverb
     \endentry
+    \entry{Gustafson2017}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=d6d9c292fff0e66fc6d872bae15cbbcb}{%
+           family={Gustafson},
+           familyi={G\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d19a6430fb96f5e5f53e26b3ea537c3f}{%
+           family={Burtoft},
+           familyi={B\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{89dd002543183c1f8bb4c562b9e1ab63}
+      \strng{fullhash}{89dd002543183c1f8bb4c562b9e1ab63}
+      \strng{bibnamehash}{89dd002543183c1f8bb4c562b9e1ab63}
+      \strng{authorbibnamehash}{89dd002543183c1f8bb4c562b9e1ab63}
+      \strng{authornamehash}{89dd002543183c1f8bb4c562b9e1ab63}
+      \strng{authorfullhash}{89dd002543183c1f8bb4c562b9e1ab63}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{month}{5}
+      \field{title}{Progressive Web Apps and the Windows Ecosystem}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.aaron-gustafson.com/notebook/progressive-web-apps-and-the-windows-ecosystem/
+      \endverb
+      \verb{url}
+      \verb https://www.aaron-gustafson.com/notebook/progressive-web-apps-and-the-windows-ecosystem/
+      \endverb
+    \endentry
+    \entry{Gustafson2017a}{online}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=d6d9c292fff0e66fc6d872bae15cbbcb}{%
+           family={Gustafson},
+           familyi={G\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d19a6430fb96f5e5f53e26b3ea537c3f}{%
+           family={Burtoft},
+           familyi={B\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{89dd002543183c1f8bb4c562b9e1ab63}
+      \strng{fullhash}{89dd002543183c1f8bb4c562b9e1ab63}
+      \strng{bibnamehash}{89dd002543183c1f8bb4c562b9e1ab63}
+      \strng{authorbibnamehash}{89dd002543183c1f8bb4c562b9e1ab63}
+      \strng{authornamehash}{89dd002543183c1f8bb4c562b9e1ab63}
+      \strng{authorfullhash}{89dd002543183c1f8bb4c562b9e1ab63}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{24}
+      \field{month}{3}
+      \field{title}{Progressive Web Apps and the Windows Ecosystem}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.slideshare.net/AaronGustafson/progressive-web-apps-and-the-windows-ecosystem-build-2017?ref=https://www.aaron-gustafson.com/notebook/progressive-web-apps-and-the-windows-ecosystem/
+      \endverb
+      \verb{url}
+      \verb https://www.slideshare.net/AaronGustafson/progressive-web-apps-and-the-windows-ecosystem-build-2017?ref=https://www.aaron-gustafson.com/notebook/progressive-web-apps-and-the-windows-ecosystem/
+      \endverb
+    \endentry
     \entry{Harris2017}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=2cb294bf553662179662557d40b0d346}{%
@@ -1800,6 +1960,40 @@
       \verb https://www.w3.org/TR/netinfo-api/
       \endverb
     \endentry
+    \entry{Lathiya2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7bcda04d8d14b25a290aa4be15d84a4f}{%
+           family={Lathiya},
+           familyi={L\bibinitperiod},
+           given={Piyush},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7bcda04d8d14b25a290aa4be15d84a4f}
+      \strng{fullhash}{7bcda04d8d14b25a290aa4be15d84a4f}
+      \strng{bibnamehash}{7bcda04d8d14b25a290aa4be15d84a4f}
+      \strng{authorbibnamehash}{7bcda04d8d14b25a290aa4be15d84a4f}
+      \strng{authornamehash}{7bcda04d8d14b25a290aa4be15d84a4f}
+      \strng{authorfullhash}{7bcda04d8d14b25a290aa4be15d84a4f}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{1}
+      \field{title}{IOS Getting Into The PWA Space Faster Than Ever}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://aureatelabs.com/pwa/ios-getting-into-pwa-space-faster-than-ever/
+      \endverb
+      \verb{url}
+      \verb https://aureatelabs.com/pwa/ios-getting-into-pwa-space-faster-than-ever/
+      \endverb
+    \endentry
     \entry{Lee2018}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=eb229eca3665cfc2c9489aa7807a8262}{%
@@ -1997,6 +2191,70 @@
       \verb https://www.w3.org/TR/image-capture/
       \endverb
     \endentry
+    \entry{Microsoft2020b}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{3}
+      \field{title}{Microsoft Docs}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.microsoft.com/en-us/microsoft-edge/progressive-web-apps-edgehtml/get-started
+      \endverb
+      \verb{url}
+      \verb https://docs.microsoft.com/en-us/microsoft-edge/progressive-web-apps-edgehtml/get-started
+      \endverb
+    \endentry
+    \entry{Microsoft2020a}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{3}
+      \field{title}{Porgressive Web apps}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.microsoft.com/en-us/windows/pwa/
+      \endverb
+      \verb{url}
+      \verb https://developer.microsoft.com/en-us/windows/pwa/
+      \endverb
+    \endentry
     \entry{Microsoft2020}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
@@ -2009,11 +2267,12 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{3}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradate}{3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{16}
@@ -2246,6 +2505,37 @@
       \endverb
       \verb{url}
       \verb https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Offline_Service_workers
+      \endverb
+    \endentry
+    \entry{netMarketShare2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=9e73b1cab43361fde3a7430728077177}{%
+           family={netMarketShare},
+           familyi={n\bibinitperiod}}}%
+      }
+      \strng{namehash}{9e73b1cab43361fde3a7430728077177}
+      \strng{fullhash}{9e73b1cab43361fde3a7430728077177}
+      \strng{bibnamehash}{9e73b1cab43361fde3a7430728077177}
+      \strng{authorbibnamehash}{9e73b1cab43361fde3a7430728077177}
+      \strng{authornamehash}{9e73b1cab43361fde3a7430728077177}
+      \strng{authorfullhash}{9e73b1cab43361fde3a7430728077177}
+      \field{sortinit}{n}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{month}{3}
+      \field{title}{Operating System Market Share}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://netmarketshare.com/operating-system-market-share.aspx?options={"filter":{"$and":[{"deviceType":{"$in":["Desktop/laptop"]}}]},"dateLabel":"Trend","attributes":"share","group":"platform","sort":{"share":-1},"id":"platformsDesktop","dateInterval":"Monthly","dateStart":"2019-03","dateEnd":"2020-02","segments":"-1000","plotKeys":[{"platform":"Linux"},{"platform":"Mac OS"}]}
+      \endverb
+      \verb{url}
+      \verb https://netmarketshare.com/operating-system-market-share.aspx?options=%7B%22filter%22:%7B%22$and%22:[%7B%22deviceType%22:%7B%22$in%22:[%22Desktop/laptop%22]%7D%7D]%7D,%22dateLabel%22:%22Trend%22,%22attributes%22:%22share%22,%22group%22:%22platform%22,%22sort%22:%7B%22share%22:-1%7D,%22id%22:%22platformsDesktop%22,%22dateInterval%22:%22Monthly%22,%22dateStart%22:%222019-03%22,%22dateEnd%22:%222020-02%22,%22segments%22:%22-1000%22,%22plotKeys%22:[%7B%22platform%22:%22Linux%22%7D,%7B%22platform%22:%22Mac%20OS%22%7D]%7D
       \endverb
     \endentry
     \entry{Oberhofer2017}{online}{}
@@ -2620,7 +2910,7 @@
       \field{labeltitlesource}{title}
       \field{day}{16}
       \field{month}{3}
-      \field{title}{GithubShareInstall your PWA from the browser}
+      \field{title}{Install your PWA from the browser}
       \field{year}{2020}
       \field{dateera}{ce}
       \verb{urlraw}
@@ -3090,6 +3380,47 @@
       \verb https://www.w3.org/TR/contacts-api/
       \endverb
     \endentry
+    \entry{Kesteren2020}{online}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=3434aa4dbf8d01e7bec85d6a2c419a9a}{%
+           family={Kesteren},
+           familyi={K\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{uniquename=0,uniquepart=base,hash=df3d7b6c18e0902b70e214a939e8e3be}{%
+           family={Çelik},
+           familyi={Ç\bibinitperiod},
+           given={Tantek},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ac07344340f297deb1c6aa14ca3b43c}
+      \strng{fullhash}{3ac07344340f297deb1c6aa14ca3b43c}
+      \strng{bibnamehash}{3ac07344340f297deb1c6aa14ca3b43c}
+      \strng{authorbibnamehash}{3ac07344340f297deb1c6aa14ca3b43c}
+      \strng{authornamehash}{3ac07344340f297deb1c6aa14ca3b43c}
+      \strng{authorfullhash}{3ac07344340f297deb1c6aa14ca3b43c}
+      \field{sortinit}{v}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{24}
+      \field{month}{3}
+      \field{title}{Fullscreen}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/fullscreen/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/fullscreen/
+      \endverb
+    \endentry
     \entry{vanKesteren2020}{online}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=3434aa4dbf8d01e7bec85d6a2c419a9a}{%
@@ -3117,7 +3448,6 @@
       \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{18}
@@ -3288,6 +3618,38 @@
       \endverb
       \verb{url}
       \verb https://www.w3.org/TR/credential-management-1/
+      \endverb
+    \endentry
+    \entry{Wilander2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=bc3182d40e2157b5444eb9773b11d14a}{%
+           family={Wilander},
+           familyi={W\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bc3182d40e2157b5444eb9773b11d14a}
+      \strng{fullhash}{bc3182d40e2157b5444eb9773b11d14a}
+      \strng{bibnamehash}{bc3182d40e2157b5444eb9773b11d14a}
+      \strng{authorbibnamehash}{bc3182d40e2157b5444eb9773b11d14a}
+      \strng{authornamehash}{bc3182d40e2157b5444eb9773b11d14a}
+      \strng{authorfullhash}{bc3182d40e2157b5444eb9773b11d14a}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{day}{13}
+      \field{month}{6}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://cdn.embedly.com/widgets/media.html?type=text%2Fhtml&key=a19fcc184b9711e1b4764040d3dc5c07&schema=twitter&url=https%3A//twitter.com/johnwilander/status/1139278479436865536&image=https%3A//i.embed.ly/1/image%3Furl%3Dhttps%253A%252F%252Fpbs.twimg.com%252Fprofile_images%252F341321376%252Fjohn_sjunger_715_beskuren_400x400.jpg%26key%3Da19fcc184b9711e1b4764040d3dc5c07
+      \endverb
+      \verb{url}
+      \verb https://cdn.embedly.com/widgets/media.html?type=text%2Fhtml&key=a19fcc184b9711e1b4764040d3dc5c07&schema=twitter&url=https%3A//twitter.com/johnwilander/status/1139278479436865536&image=https%3A//i.embed.ly/1/image%3Furl%3Dhttps%253A%252F%252Fpbs.twimg.com%252Fprofile_images%252F341321376%252Fjohn_sjunger_715_beskuren_400x400.jpg%26key%3Da19fcc184b9711e1b4764040d3dc5c07
       \endverb
     \endentry
     \entry{Williger2020}{online}{}

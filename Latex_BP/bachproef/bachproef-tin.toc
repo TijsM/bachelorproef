@@ -183,41 +183,43 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Wake lock }{48}{section*.80}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Conclusie}{48}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.2}concluderende tabel}{48}{subsection.2.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Conclusie}{48}{subsection.2.2.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Browsers}{48}{section*.81}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Mobiele besturingssystemen }{48}{section*.82}% 
+\contentsline {subsubsection}{Mobiele besturingssystemen }{49}{section*.82}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Desktop besturingssystemen}{48}{section*.83}% 
+\contentsline {subsubsection}{Desktop besturingssystemen}{51}{section*.83}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodologie}{51}{chapter.3}% 
+\contentsline {chapter}{\numberline {3}Methodologie}{55}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{53}{chapter.4}% 
+\contentsline {chapter}{\numberline {4}Conclusie}{57}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{55}{appendix.A}% 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{59}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{55}{section.A.1}% 
+\contentsline {section}{\numberline {A.1}Introductie}{59}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{56}{section.A.2}% 
+\contentsline {section}{\numberline {A.2}State-of-the-art}{60}{section.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{56}{subsection.A.2.1}% 
+\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{60}{subsection.A.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{56}{subsection.A.2.2}% 
+\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{60}{subsection.A.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{57}{subsection.A.2.3}% 
+\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{61}{subsection.A.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{57}{subsection.A.2.4}% 
+\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{61}{subsection.A.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.5}Native containers}{58}{subsection.A.2.5}% 
+\contentsline {subsection}{\numberline {A.2.5}Native containers}{62}{subsection.A.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{58}{subsection.A.2.6}% 
+\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{62}{subsection.A.2.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{58}{section.A.3}% 
+\contentsline {section}{\numberline {A.3}Methodologie}{62}{section.A.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.1}Technologieën}{58}{subsection.A.3.1}% 
+\contentsline {subsection}{\numberline {A.3.1}Technologieën}{62}{subsection.A.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{59}{section.A.4}% 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{63}{section.A.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{59}{section.A.5}% 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{63}{section.A.5}% 
 \contentsfinish 

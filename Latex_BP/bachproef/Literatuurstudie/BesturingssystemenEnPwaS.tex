@@ -85,6 +85,7 @@ Ook meer geavanceerde functionaliteiten zijn beschikbaar. Het gedrag van de zoom
 Al de belangrijkste functionaliteiten die een gebruiker verwacht, zijn allemaal aanwezig. Applicaties die afhankelijk zijn van video-opnames kunnen dus geïmplementeerd worden als PWA.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      & Ja     & Ja     & Ja               & Ja          
@@ -118,6 +119,7 @@ Deze API heeft standaard geen ondersteuning voor HDR, maar dit kan zelf geïmple
 \autocite{Bhaumik2019}
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Nee      & Ja     & Nee     & Ja               & Nee          
@@ -130,6 +132,8 @@ Deze API heeft standaard geen ondersteuning voor HDR, maar dit kan zelf geïmple
 
 \paragraph{Geluidopname }
 
+
+
 De mediarecorder API, \autocite{CasasSanchez2020} door meerdere browsers aangeboden, is een manier om eenvoudig geluidsfragmenten op te nemen en te importeren in een webapplicatie.
 
 Helaas is er voor Apple-toestellen geen ondersteuning. In de toekomst zal deze functie waarschijnlijk ook beschikbaar worden voor deze toestellen. Dit wordt in de volgende versie van Safari (Safari 14) voor desktop verwacht. Voor Safari voor IOS bestaat deze functie al maar is het nog een experimentele functie die de gebruiker zelf moet activeren.
@@ -139,6 +143,7 @@ Helaas is er voor Apple-toestellen geen ondersteuning. In de toekomst zal deze f
 ******************** checken voor nieuwe update IOS 14 **************************
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      & Ja     & Nee     & Ja               & Nee          
@@ -163,11 +168,14 @@ Dit is een goed voorbeeld van progressive enhancement.
 
 \paragraph{Real-time communicatie }
 
+
+
 Bij de meeste populaire communicatieapplicaties zoals WhatsApp, Messenger, Skype, … is videobellen mogelijk. Om dit mogelijk te maken moet er live video en audio gestreamd kunnen worden tussen twee of meer personen.
 
 ‘Real-time communication in the web’ of WebRTC \autocite{Jennings2020} is een verzameling van API’s die het verzenden en ontvangen van real-time video en audio mogelijk maakt, zonder afhankelijk te zijn van een gecentraliseerde server. Deze server is echter wel nodig om een connectie tot stand te brengen. Eens deze connectie er is, is er een peer-to-peer verbinding.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      & Ja     & Ja     & Ja               & ja          
@@ -190,6 +198,7 @@ Bij de meeste populaire communicatieapplicaties zoals WhatsApp, Messenger, Skype
 De Chrome Sender API \autocite{Developers2020b} zorgt ervoor dat alle modern toestellen media kunnen delen op een tv of ander scherm die dit ondersteund.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Nee      & Nee     & Ja     & Nee               & Ja          
@@ -198,6 +207,7 @@ Bij de meeste populaire communicatieapplicaties zoals WhatsApp, Messenger, Skype
 	\label{ondersteuning Apple AirPlay}
 \end{table}
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      & Ja     & Ja     & Ja               & ja          
@@ -229,6 +239,7 @@ Deze API zorgt er ook voor dat er een notificatie komt waar de gebruiker control
 Het voorbeeld van Spotify kan dus volledig geïmplementeerd worden als PWA.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      & Ja     & Ja     & Ja               & ja          
@@ -254,6 +265,7 @@ Er kan dus geconcludeerd worden dat de Web Bluetooth API kan gebruikt worden voo
 \autocite{Beaufort2019a}
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Nee      & Ja     & Nee     & Ja               & Nee          
@@ -275,6 +287,7 @@ Dit is echter enkel mogelijk met een beperkt aantal browsers en er moet een HTTP
 \autocite{Beaufort2019b}
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Nee      & Ja     & Nee     & Ja               & Nee          
@@ -290,6 +303,7 @@ Near field communication of NFC is een technologie om een kleine hoeveelheid inf
 \autocite{Paus2007}
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Nee      &  Nee     & Nee     & Nee               & Nee          
@@ -311,6 +325,7 @@ Er bestaat echter wel een API om gebruik te kunnen maken van NFC \autocite{Rohde
 De Network information API \autocite{Lamouri2020} voorziet informatie over het type netwerkverbinding die de gebruiker momenteel bezit. Deze informatie bevat het connectietype (2g, 3g, 4g) en wat de maximale downloadsnelheid is van deze verbinding.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Nee      &  Ja     & Nee     & Ja               & Nee          
@@ -323,6 +338,7 @@ De Network information API \autocite{Lamouri2020} voorziet informatie over het t
 
 dit is een eenvoudige eigenschap die kan opgeroepen worden op het navigator object. Deze eigenschap bevat een booleaanse waarde die “waar” zal zijn als de gebruiker een connectie heeft met het internet. Deze informatie kan interessant zijn bij het ontwikkelen van een PWA met offline functionaliteiten.
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Ja     & Ja               & Ja          
@@ -360,6 +376,7 @@ Volgende informatie kan verkregen worden:
 Aan de hand van deze API kunnen er ook acties uitgevoerd worden op basis van het veranderen van de toestand van de batterij. Er kan bijvoorbeeld een functie uitgevoerd worden als de gebruiker zijn toestel met een energiebron verbindt.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Nee      &  Ja     & Nee     & Ja               & Nee          
@@ -372,6 +389,7 @@ Aan de hand van deze API kunnen er ook acties uitgevoerd worden op basis van het
 de Device Memory API \autocite{Panicker2020} geeft informatie over het RAM-geheugen van het toestel van de gebruiker. Dit kan interessant zijn voor het laden van een eventuele lichtere versie van een website voor minder capabele toestellen.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Nee      &  Ja     & Nee     & Ja               & Nee          
@@ -394,6 +412,7 @@ Meer informatie over notificaties kan gevonden worden in het hoofdstuk ‘functi
 Dankzij persistent local notifications en zijn service worker kan het voorbeeld van de fitness-tracking applicatie ook geïmplementeerd worden als PWA.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Nee      &  Ja     & Nee     & Ja               & Nee          
@@ -413,6 +432,7 @@ Meer informatie over notificaties kan gevonden worden in het hoofdstuk ‘functi
 Door deze functionaliteiten kan het voorbeeld van een sportapplicatie ook geïmplementeerd worden als PWA.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Nee     & Ja               & Nee          
@@ -431,6 +451,7 @@ Meer informatie over notificaties kan gevonden worden in het hoofdstuk ‘Wat is
 
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Nee     & Ja               & Nee          
@@ -445,6 +466,7 @@ Meer informatie over notificaties kan gevonden worden in het hoofdstuk ‘Wat is
 Als een native applicatie een melding heeft ontvangen zal er een indicatie staan naast het icoontje op het startscherm. Dit kan nu ook geïmplementeerd worden voor geïnstalleerde PWA’s aan de hand van de Badging API \autocite{LePage2020a}
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Onbekend      &  Ja     & Nee     & Ja               & Nee          
@@ -462,6 +484,7 @@ Met de Page Visibility Detection API \autocite{Grigorik2020} kan gedetecteerd wo
 Aan de hand van deze applicatie kan het gedrag van de applicatie aangepast worden als de gebruiker de applicatie niet meer in de voorgrond gebruikt.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Ja     & Ja               & Ja          
@@ -493,6 +516,7 @@ Functies waarvoor toestemming gevraagd kan worden:
 \end{itemize}
 
 	\begin{table}[]
+		\centering
 		\begin{tabular}{llllll}
 			Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 			Ja   & Ja      &  Ja     & nee     & Ja               & nee          
@@ -520,6 +544,7 @@ Er zijn verschillende technologieën om data offline op te slaan.
 	\autocite{Hickson2020}
 	
 	\begin{table}[]
+		\centering
 		\begin{tabular}{llllll}
 			Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 			Ja   & Ja      &  Ja     & Ja     & Ja               & Ja          
@@ -535,6 +560,7 @@ Er zijn verschillende technologieën om data offline op te slaan.
 	\autocite{Alabbas2020}
 	
 	\begin{table}[]
+		\centering
 			\begin{tabular}{llllll}
 				Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 				Ja   & Ja      &  Ja     & Ja     & Ja               & Ja          
@@ -549,6 +575,7 @@ Er zijn verschillende technologieën om data offline op te slaan.
 	\autocite{vanKesteren2020}
 	
 	\begin{table}[]
+		\centering
 			\begin{tabular}{llllll}
 				Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 				Ja   & Ja      &  Ja     & Ja     & Ja               & Nee          
@@ -563,6 +590,7 @@ Er zijn verschillende technologieën om data offline op te slaan.
 	\autocite{Mozilla2020b}
 	
 	\begin{table}[]
+		\centering
 		\begin{tabular}{llllll}
 			Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 			Ja   & Ja      &  Ja     & Ja     & Ja               & Nee          
@@ -586,6 +614,7 @@ Een webapplicatie heeft echter enkel leesrechten op deze bestanden. Er kunnen du
 Dit betekent dus dat bepaalde toepassingen die hier gebruik van maken nog steeds een native applicatie nodig hebben.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Nee     & Ja               & Nee          
@@ -603,6 +632,7 @@ De contacten die opgeslagen staan op het systeem van de gebruiker kunnen geïmpo
 In theorie zouden PWA’s hier dus gebruik kunnen van maken maar de ondersteuning is heel beperkt. Het is dus niet aangeraden om een webapplicatie te ontwikkelen die afhankelijk is van de contacten van een gebruiker.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Nee      &  Nee     & Nee     & Beperkt               & Nee          
@@ -624,6 +654,7 @@ Met de SMS-receiver API \autocite{Fullea2020} kan er gekeken worden naar inkomen
 Het voorbeeld van PayPal kan ook geïmplementeerd worden aan de hand van een PWA. Applicaties die ook sms-berichten moeten versturen kunnen niet ontwikkeld worden als PWA.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Nee      &  Nee     & Nee     & Beperkt               & Nee          
@@ -642,6 +673,7 @@ De Task Sheduler API \autocite{Kulkarni2020} kan ervoor zorgen dat taken zoals a
 Een applicatie schrijven die het alarm van een smartphone in de ochtend laat afgaan, of een activiteit in jouw agenda plaatst, is dus niet mogelijk met een PWA. Dit zijn toepassingen die wel mogelijk zijn met native applicaties.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Nee      &  Nee     & Nee     & Nee               & Nee          
@@ -668,6 +700,7 @@ HTML5 voegt aan de reeds bestaande input methodes nu ook touch-controls toe. Dit
 Deze gebaren kunnen nu ook gebruikt worden in een PWA. Dit zorgt ervoor dat een geïnstalleerde PWA meer zal aanvoelen als een native applicatie.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Ja     & ja               & Ja          
@@ -682,6 +715,7 @@ De Clipboard API \autocite{Kacmarcik2020} geeft een ontwikkelaar de mogelijkheid
 Er worden ook methodes voorzien voor het reageren op de actie waarbij een gebruiker zelf iets kopieert of plakt. 
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Ja     & ja               & Ja          
@@ -715,6 +749,7 @@ Meer info over achtergrondsynchronisatie kan gevonden worden in het hoofdstuk �
 
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Ja     & ja               & Ja          
@@ -734,6 +769,7 @@ De web Share API moet gebruikt worden in de applicatie die een link heeft naar e
 De web Share Target API moet gebruikt worden in de applicatie waarnaar gerefereerd wordt. Deze zal ervoor zorgen dat de gebruiker uiteindelijk op de juiste pagina terecht komt.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Nee      &  Nee     & Nee     & ja               & Ja          
@@ -748,6 +784,7 @@ De web Share Target API moet gebruikt worden in de applicatie waarnaar gereferee
 Aan de hand van de Payment Request API \autocite{Denicola2020} kan heel snel, zonder de website te verlaten, een betaling uitgevoerd worden. Bij Apple-toestellen zal dit gebeuren via Apple-pay. 
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Nee      &  Ja     & Ja     & ja               & Ja          
@@ -777,6 +814,7 @@ De API voorziet niet enkel de locatie maar ook methodes die de applicatie inform
 Navigatie-applicaties zoals Google Maps of Waze kunnen dus ook geïmplementeerd worden als PWA.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Ja     & ja               & Ja          
@@ -792,6 +830,7 @@ Geofencing is een technologie waarbij er een geografische zone wordt ingesteld. 
 Er was een voorstel om deze API \autocite{Kruisselbrink2020a} uit te werken voor het web, maar op het moment van schrijven heeft geen enkele browser dit geïmplementeerd. Dit is eenfunctie die enkel beschikbaar is voor native IOS en Android-applicaties.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Nee      &  Nee     & Nee     & Nee               & Nee          
@@ -821,6 +860,7 @@ Deze API levert ook methodes die website in een bepaalde oriëntatie forceren.
 Niet elk toestel heeft deze sensoren. Als ze aanwezig zijn, worden ze ondersteund in volgende browsers. Deze API is vooral gericht naar mobiele toestellen. 
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja   & Nee     & Ja               & Ja          
@@ -836,6 +876,7 @@ De Generic Sensor API \autocite{Waldroon2020} is een verzameling van API’s voo
 	Levert informatie over de snelheid waarmee een toestel zijn oriëntatie en positie verandert.
 	
 	\begin{table}[]
+		\centering
 		\begin{tabular}{llllll}
 			Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 			Ja   & Ja      &  Ja   & Nee     & Ja               & Ja          
@@ -849,6 +890,7 @@ De Generic Sensor API \autocite{Waldroon2020} is een verzameling van API’s voo
 		Levert informatie over de snelheid waarbij het toestel zich beweegt in een ruimte. De API levert zowel X-, Y- als Z-coördinaten
 		
 		\begin{table}[]
+			\centering
 			\begin{tabular}{llllll}
 				Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 				Ja   & Nee      &  Ja   & Nee     & Ja               & Nee          
@@ -863,6 +905,7 @@ De Generic Sensor API \autocite{Waldroon2020} is een verzameling van API’s voo
 		Levert informatie over de snelheid waarmee een toestel aan het roteren is. 
 			
 		\begin{table}[]
+			\centering
 			\begin{tabular}{llllll}
 				Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 				Ja   & Nee      &  Ja   & Nee     & Ja               & Nee          
@@ -875,6 +918,7 @@ De Generic Sensor API \autocite{Waldroon2020} is een verzameling van API’s voo
 			Meet het magnetische veld rond het toestel. 
 			
 		\begin{table}[]
+			\centering
 			\begin{tabular}{llllll}
 				Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 				Nee   & Nee      &  Ja   & Nee     & Nee               & Nee          
@@ -888,6 +932,7 @@ De Generic Sensor API \autocite{Waldroon2020} is een verzameling van API’s voo
 		Levert informatie over de snelheid waarmee een toestel beweegt, maar dit zonder de impact van de zwaartekracht.
 			
 		\begin{table}[]
+			\centering
 			\begin{tabular}{llllll}
 				Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 				Ja   & Nee      &  Ja   & Nee     & Ja               & Nee          
@@ -901,6 +946,7 @@ De Generic Sensor API \autocite{Waldroon2020} is een verzameling van API’s voo
 De Proximity API \autocite{Kostiainen2020a} geeft informatie over de afstand tussen het toestel en een object. Deze sensor wordt gebruikt om het scherm uit te zetten als een persoon aan het bellen is.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Ja      &  Nee   & Nee     & Nee               & Nee          
@@ -918,6 +964,7 @@ De webXR Device API \autocite{Jones2020} zorgt voor een interface voor het verbi
 De oudere webVR API levert gelijkaardige methodes maar is beter ondersteund.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja (webXR)  & 	Ja (webVR)  &  	Ja (webVR + webXR  & Nee  & Ja (webVR + webXR) & Nee Nee          
@@ -945,6 +992,7 @@ Er worden twee methodes voorzien: een voor in fullscreen mode te gaan en een om 
 eel toestellen gaan het scherm dimmen na een bepaalde tijd van inactiviteit. Dit kan onhandig zijn voor bepaalde applicaties zoals een gps. Met de Wake Lock API \autocite{Bogdanovich2020} kan het automatisch dimmen van het scherm tegengegaan worden.
 
 \begin{table}[]
+	\centering
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Nee      &  Ja   & Onbekend     & Ja               & Nee          
@@ -953,10 +1001,104 @@ eel toestellen gaan het scherm dimmen na een bepaalde tijd van inactiviteit. Dit
 	\label{ondersteuning  Wake Lock API }
 \end{table}
 
+\subsection{concluderende tabel}
+
+
+%TODO: Tabel invoegen
+
+
+************************* tabel invoegen *****************************
 
 \subsection{Conclusie}
+
+Hett is opvallend hoeveel functies beschikbaar zijn voor het web. Slechts een beperkt aantal native applicaties zouden niet met web-technologieën gemaakt kunnen worden.
+
+Het probleem is echter consistentie. Het voordeel van het web is dat je één codebase hebt en dat deze applicatie op verschillende soorten toestellen werkt. Dit is voor een basisapplicatie het geval, maar als er specifieke functies gebruikt moeten worden, wordt het moeilijker. Verschillende browsers verwachten verschillende web-API’s. Veel van de API’s bestaan en kunnen gebruikt worden, maar zullen niet op alle browsers werken.
+
+Deze technologieën kunnen dus gebruikt worden om de functionaliteit van een applicatie te ondersteunen. Maar een applicatie zou niet mogen afhangen van de functionaliteiten aangezien niet alle gebruikers de toepassing kunnen gebruiken.
+
+
+
 \subsubsection{Browsers}
+
+We kunnen concluderen dat de browsers die Google maakt (Google Chrome, Google Chrome for Android) een betere ondersteuning geeft dan de browsers die Apple maakt (Safari, Safari IOS). Deze trend is zowel te zien bij de mobiele browsers als de browsers voor desktop.
+
+De nieuwste versie van Microsoft Edge ondersteunt veel functies. Dit komt omdat deze laatste versie (v80.0) gebaseerd is op de open source browser Chromium die ontwikkeld is door Google. Ook Google Chrome is op Chromium gebaseerd.
+
+Het is opvallend dat bij de desktops van Apple de browser de limiterende factor is en niet het besturingssysteem. Als Google Chrome gedownload wordt op een Apple-toestel zijn deze functionaliteiten wel beschikbaar voor dit toestel.
+
 
 \subsubsection{Mobiele besturingssystemen }
 
+Net zoals bij browsers, is de ondersteuning voor PWA’s op toestellen en systemen die ontwikkeld zijn door Google, beter dan de toestellen die Apple ontwikkelde.
+
+Toestellen die Android gebruiken als besturingssysteem kunnen meer genieten van de functionaliteiten die het web te bieden heeft.
+De grootste limitatie die IOS heeft in vergelijking met Android is het niet ondersteunen van push-notificaties. Dit is een functie die belangrijk is om gebruikers betrokken te houden op een platform. Push notificaties zijn voor e-commerce platformen vaak een heel belangrijke tool binnen hun marketingplan.
+\autocite{Anastasia2017}
+
+Achtergrondsynchronisatie is een functie die de gebruikerservaring kan verbeteren. Deze functie die mogelijk gemaakt wordt door service workers is ook niet beschikbaar op een IOS-toestel.
+
+Apple laat PWA’s toe om slechts 50MB aan data offline op te slaan. Als deze applicatie voor een bepaalde tijd niet gebruikt wordt, zal al deze data verwijderd worden om ruimte op het toestel te besparen. Bij Android is dit 6\% van de beschikbare opslagruimte en zullen de opgeslagen gegevens niet automatisch verwijderd worden.
+
+Ook A2HS-ervaring is op een Android toestel beter. Als een web-applicatie voldoet aan de normen om geïnstalleerd te worden zal Google Chrome op Android de gebruiker voorstellen om deze applicatie toe te voegen aan het startscherm. Deze functionaliteit is ook beschikbaar voor Safari op een IPhone maar hier moet de gebruiker zelf actie ondernemen en naar de instellingen van de website gaan om de knop zet op beginscherm’ te vinden.
+
+\begin{figure}
+	\centering
+	\includegraphics{./img/installation_ios.png}
+	\caption{Screenshot van het installatieproces op een IPhone met IOS 13}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics{./img/installation_android.png}
+	\caption{Screenshot van het installatieproces op Android 10}
+\end{figure}
+
+
+De integratie van de ingebouwde slimme assistent is op IOS beperkter dan op Android. Als een applicatie geïnstalleerd is op een Android toestel, kan Google assistant deze openen aan de hand van een stemcommando. Siri heeft deze functionaliteit niet.
+\autocite{Lathiya2020}
+
 \subsubsection{Desktop besturingssystemen}
+Bij deze vergelijking zullen enkel Windows en Mac OS in beschouwing genomen worden. Andere besturingssysteem hebben relatief gezien niet veel gebruikers. 88,14\% van de computers werkt op Windows en 9,42\% werkt op Mac OS. Slechts 2,44\% van de computers maakt gebruik van andere besturingssystemen.
+\autocite{netMarketShare2020}
+
+Microsoft wil PWA’s zo goed mogelijk ondersteunen. Ze zijn zelf ook PWA’s aan het ontwikkelen. Een voorbeeld hiervan is Outlook, de populaire online email-client kan nu ook geïnstalleerd worden als PWA.
+\autocite{Microsoft2020a}
+
+PWA’s kunnen ook zonder aanpassingen in de Windows store geplaatst worden. Deze applicatie kan dan door alle Windows-toestellen gedownload worden. Er zijn verschillende toestellen die gebruik maken van deze store:
+\begin{itemize}
+	\item	Windows 10 toestellen
+	\item	Windows S toestellen
+	\item	XBox
+	\item	Microsoft Hololens 
+\end{itemize}
+
+Windows gaat nog een stap verder dan dit. Het gaat zelf op zoek naar PWA’s op het internet en zal deze automatisch toevoegen aan de Windows store. Dit kan wel tegengegaan worden als de uitgever van de PWA dit niet wil.
+\autocite{Gustafson2017} \autocite{Gustafson2017a}
+
+Als een PWA geïnstalleerd wordt op Windows zal deze zich gedragen als een volwaardig programma. De PWA zal opgestart worden in zijn eigen venster. De applicatie kan ook gevonden worden met een zoekopdracht vanuit het startmenu. De applicatie kan ook toegevoegd worden aan de taakbalk en aan het bureaublad.
+
+\begin{figure}
+	\centering
+	\includegraphics{./img/Outlook_search_windows.png}
+	\caption{Screenshot van de zoekresultaten van “Outlook” op Windows 10}
+\end{figure}
+
+
+De tool PWABuilder die gebruikt kan worden om een PWA in de populaire mobiele app-stores te krijgen, is ook ontwikkeld door Microsoft.
+\autocite{PWAbuilder2020}
+
+Microsoft heeft ook een uitgebreide documentatie die ontwikkelaars helpen bij het ontwikkelen van PWA’s.
+\autocite{Microsoft2020b}
+
+
+Apple biedt weinig ondersteuning voor PWA’s in zijn mobiele besturingssystemen. Deze trend zet zich door op de besturingssystemen voor desktops. In de standaardbrowser, Safari, van de toestellen kan een PWA niet geïnstalleerd worden. Als de gebruiker Google Chrome gebruikt, kan een PWA wel geïnstalleerd worden. Als deze geïnstalleerd is, kan de applicatie ook gevonden worden in een “spotlight search”. De applicatie kan ook vastgemaakt worden aan het dock.
+
+\begin{figure}
+	\centering
+	\includegraphics{./img/Outlook_search_mac.png}
+	\caption{Screenshot van de zoekresultaten van “Outlook” op Mac Os}
+\end{figure}
+
+Deze algemene trend waarbij Apple PWA’s bewust niet ondersteunt, lijkt niet snel te veranderen. John Wilander, een ontwikkelaar binnen Apple, bekritiseerde openlijk PWA’s als een technologie die van Google is en dat dit niet in de planning zit van Apple. 
+\autocite{Wilander2019}
