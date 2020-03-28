@@ -106,11 +106,12 @@
   url    = {https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API},
 }
 
-@Article{Mozilla2019b,
+@Online{Mozilla2019b,
   author       = {Mozilla},
   date         = {2019-12-13},
+  title        = {Push API},
+  url          = {https://developer.mozilla.org/en-US/docs/Web/API/Push_API},
   journaltitle = {Push API},
-  title        = {https://developer.mozilla.org/en-US/docs/Web/API/Push_API},
 }
 
 @Book{Gaunt2020,
@@ -659,6 +660,183 @@
   author = {Wilander, John},
   date   = {2019-06-13},
   url    = {https://cdn.embedly.com/widgets/media.html?type=text%2Fhtml&key=a19fcc184b9711e1b4764040d3dc5c07&schema=twitter&url=https%3A//twitter.com/johnwilander/status/1139278479436865536&image=https%3A//i.embed.ly/1/image%3Furl%3Dhttps%253A%252F%252Fpbs.twimg.com%252Fprofile_images%252F341321376%252Fjohn_sjunger_715_beskuren_400x400.jpg%26key%3Da19fcc184b9711e1b4764040d3dc5c07},
+}
+
+@Article{TandelSunil2018,
+  author       = {Tandel Sunil, Sayali and Jamadar, Abhishek},
+  date         = {2018-09-11},
+  journaltitle = {ResearchGate},
+  title        = {Impact of Progressive Web Apps on Web App Development},
+  url          = {https://www.researchgate.net/publication/330834334_Impact_of_Progressive_Web_Apps_on_Web_App_Development},
+  urldate      = {2020-03-28},
+}
+
+@Online{Nath2017,
+  author = {Nath, S. Deepu},
+  date   = {2017-03-24},
+  title  = {4 important points to know about Progressive Web Apps (PWA)},
+  url    = {https://medium.com/@deepusnath/4-points-to-keep-in-mind-before-introducing-progressive-web-apps-pwa-to-your-team-8dc66bcf6011},
+}
+
+@Online{GoogleChromeDevelopers2017,
+  author = {Google Chrome developers},
+  date   = {2017-04-26},
+  title  = {Why Build Progressive Web Apps?},
+  url    = {https://www.youtube.com/watch?time_continue=15&v=1QILz1lAzWY},
+}
+
+@Online{GoogleSupport2020,
+  author = {Google Support},
+  date   = {2020-03-28},
+  title  = {Conversion rate: Definition},
+  url    = {https://support.google.com/google-ads/answer/2684489?hl=en},
+}
+
+@Online{Developers2018,
+  author = {Developers, Google},
+  date   = {2018-11-20},
+  title  = {Nikkei achieves a new level of quality and performance with their multi-page PWA},
+  url    = {https://developers.google.com/web/showcase/2018/nikkei},
+}
+
+@Online{Anastasia2019,
+  author = {Anastasia, Z.},
+  date   = {2019-09-19},
+  title  = {Should You Choose a PWA or Native App for Your Ecommerce Business?},
+  url    = {https://rubygarage.org/blog/pwa-vs-native-app},
+}
+
+@Online{Scott2019,
+  author = {Scott, Denny},
+  date   = {2019-06-05},
+  title  = {Reducing JavaScript Bundle Size},
+  url    = {https://medium.com/better-programming/reducing-js-bundle-size-58dc39c10f9c},
+}
+
+@Online{Osmani2017,
+  author = {Osmani, Addy},
+  date   = {2017-12-24},
+  title  = {A Tinder Progressive Web App Performance Case Study},
+  url    = {https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0},
+}
+
+@Online{netAdmin2017,
+  author = {netAdmin},
+  date   = {2017-10-05},
+  title  = {Top 5 cost-conscious mobile phones for the African consumer},
+  url    = {https://www.itnewsafrica.com/2017/10/top-5-cost-conscious-mobile-phones-for-the-african-consumer/},
+}
+
+@Online{Developers2019a,
+  author = {Developers, Google},
+  date   = {2019-06-10},
+  title  = {Introduction to service worker},
+  url    = {https://developers.google.com/web/ilt/pwa/introduction-to-service-worker},
+}
+
+@Online{Vu2019,
+  author = {Vu, Luke},
+  date   = {2019-08-28},
+  title  = {Spotify PWA: The Movement is Now},
+  url    = {https://www.simicart.com/blog/spotify-pwa/},
+}
+
+@Online{Spotify2020,
+  author = {Spotify},
+  date   = {2020-03-28},
+  title  = {Spotify web player},
+  url    = {https://open.spotify.com/},
+}
+
+@Online{Apple2020b,
+  author = {Apple},
+  date   = {2020-03-28},
+  title  = {Choosing a Membership},
+  url    = {https://developer.apple.com/support/compare-memberships/},
+}
+
+@Online{GooglePlay2020,
+  author = {GooglePlay},
+  date   = {2020-03-28},
+  title  = {Google Play Console},
+  url    = {https://play.google.com/apps/publish/signup/},
+}
+
+@Online{Versio2020,
+  author = {Versio},
+  date   = {2020-03-28},
+  title  = {Versio},
+  url    = {https://www.versio.nl/},
+}
+
+@Online{Firebase2020,
+  author = {Firebase},
+  date   = {2020-03-28},
+  title  = {Firebase},
+  url    = {https://firebase.google.com/},
+}
+
+@Online{Netflify2020,
+  author = {Netflify},
+  date   = {2020-03-28},
+  title  = {Netlify},
+  url    = {https://www.netlify.com/},
+}
+
+@Online{Apple2020c,
+  author = {Apple},
+  date   = {2020-03-28},
+  title  = {App Store Review Guidelines},
+  url    = {https://developer.apple.com/app-store/review/guidelines/},
+}
+
+@Online{GooglePlay2020a,
+  author = {GooglePlay},
+  date   = {2020-03-28},
+  title  = {Developer Policy Center},
+  url    = {https://play.google.com/about/developer-content-policy/},
+}
+
+@Online{Siddiqui2019,
+  author = {Siddiqui, Aamir},
+  date   = {2019-08-20},
+  title  = {Google Play Store approval for new apps will now take more time},
+  url    = {https://www.xda-developers.com/google-play-store-approval-new-apps-time/},
+}
+
+@Online{Hume2018,
+  author = {Hume, Dean},
+  date   = {2018-05-16},
+  title  = {How to display a "new version available" for a Progressive Web App},
+  url    = {https://deanhume.com/displaying-a-new-version-available-progressive-web-app/},
+}
+
+@Online{Sanderson2020,
+  author = {Sanderson, Steve},
+  date   = {2020-03-23},
+  title  = {Build Progressive Web Applications with ASP.NET Core Blazor WebAssembly},
+  url    = {https://docs.microsoft.com/en-us/aspnet/core/blazor/progressive-web-app?view=aspnetcore-3.1&tabs=visual-studio},
+}
+
+@Online{Wicki2017,
+  author = {Wicki, Simon},
+  date   = {2017-06-13},
+  title  = {PWA: Create a “New Update Available” Notification using Service Workers},
+  url    = {https://medium.com/progressive-web-apps/pwa-create-a-new-update-available-notification-using-service-workers-18be9168d717},
+}
+
+@Online{Apple2020d,
+  author = {Apple},
+  date   = {2020-03-28},
+  title  = {Automatische updates in- of uitschakelen},
+  url    = {https://support.apple.com/nl-be/HT202180#automatic},
+}
+
+@Online{AndroidDevelopers2020,
+  author = {AndroidDevelopers},
+  date   = {2020-03-28},
+  title  = {Support in-app updates},
+  url    = {https://developer.android.com/guide/playcore/in-app-updates},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

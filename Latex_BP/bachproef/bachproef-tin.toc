@@ -1,225 +1,247 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {dutch}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Inleiding}{15}{chapter.1}% 
+\contentsline {chapter}{\numberline {1}Inleiding}{17}{chapter.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Probleemstelling}{15}{section.1.1}% 
+\contentsline {section}{\numberline {1.1}Probleemstelling}{17}{section.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Onderzoeksvraag}{16}{section.1.2}% 
+\contentsline {section}{\numberline {1.2}Onderzoeksvraag}{18}{section.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Onderzoeksdoelstelling}{16}{section.1.3}% 
+\contentsline {section}{\numberline {1.3}Onderzoeksdoelstelling}{18}{section.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{16}{section.1.4}% 
+\contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{18}{section.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Literatuurstudie}{17}{chapter.2}% 
+\contentsline {chapter}{\numberline {2}Literatuurstudie}{19}{chapter.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Wat is een PWA}{17}{section.2.1}% 
+\contentsline {section}{\numberline {2.1}Wat is een PWA}{19}{section.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Service workers}{18}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Service workers}{20}{subsection.2.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Wat is een service worker}{18}{section*.6}% 
+\contentsline {subsubsection}{Wat is een service worker}{20}{section*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Functionaliteiten die een serivce worker mogelijk maakt}{19}{section*.7}% 
+\contentsline {subsubsection}{Functionaliteiten die een serivce worker mogelijk maakt}{21}{section*.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Offline gebruik}{19}{section*.8}% 
+\contentsline {paragraph}{Offline gebruik}{21}{section*.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Notificaties}{20}{section*.9}% 
+\contentsline {paragraph}{Notificaties}{22}{section*.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Notifications API}{20}{section*.10}% 
+\contentsline {subparagraph}{Notifications API}{22}{section*.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Push API}{21}{section*.11}% 
+\contentsline {subparagraph}{Push API}{23}{section*.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Achtergrondsynchronisatie }{21}{section*.12}% 
+\contentsline {paragraph}{Achtergrondsynchronisatie }{23}{section*.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Service worker lifecycle }{21}{section*.13}% 
+\contentsline {subsubsection}{Service worker lifecycle }{23}{section*.13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}A2HS}{23}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.2}A2HS}{25}{subsection.2.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Application shell}{24}{subsection.2.1.3}% 
+\contentsline {subsection}{\numberline {2.1.3}Application shell}{26}{subsection.2.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.4}Progressive enhancement}{25}{subsection.2.1.4}% 
+\contentsline {subsection}{\numberline {2.1.4}Progressive enhancement}{27}{subsection.2.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.5}Application manifest}{25}{subsection.2.1.5}% 
+\contentsline {subsection}{\numberline {2.1.5}Application manifest}{27}{subsection.2.1.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.6}Geschiedenis van PWA's}{26}{subsection.2.1.6}% 
+\contentsline {subsection}{\numberline {2.1.6}Geschiedenis van PWA's}{28}{subsection.2.1.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{"One last thing"}{26}{section*.14}% 
+\contentsline {subsubsection}{"One last thing"}{28}{section*.14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Crome dev summit 2015}{27}{section*.15}% 
+\contentsline {subsubsection}{Crome dev summit 2015}{29}{section*.15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{IOS 13}{27}{section*.16}% 
+\contentsline {subsubsection}{IOS 13}{29}{section*.16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.7}Voorbeelden van PWA's}{27}{subsection.2.1.7}% 
+\contentsline {subsection}{\numberline {2.1.7}Voorbeelden van PWA's}{29}{subsection.2.1.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Outlook}{27}{section*.17}% 
+\contentsline {subsubsection}{Outlook}{29}{section*.17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{AliExpress}{29}{section*.18}% 
+\contentsline {subsubsection}{AliExpress}{31}{section*.18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Twitter}{29}{section*.19}% 
+\contentsline {subsubsection}{Twitter}{31}{section*.19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Starbucks}{29}{section*.20}% 
+\contentsline {subsubsection}{Starbucks}{31}{section*.20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Uber}{29}{section*.21}% 
+\contentsline {subsubsection}{Uber}{31}{section*.21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Pinterest}{30}{section*.22}% 
+\contentsline {subsubsection}{Pinterest}{32}{section*.22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Besturingssystemen en PWA’s}{30}{section.2.2}% 
+\contentsline {section}{\numberline {2.2}Besturingssystemen en PWA’s}{32}{section.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Onderzoek}{31}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.1}Onderzoek}{33}{subsection.2.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Media}{31}{section*.23}% 
+\contentsline {subsubsection}{Media}{33}{section*.23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Video met audio }{31}{section*.24}% 
+\contentsline {paragraph}{Video met audio }{33}{section*.24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Foto's }{32}{section*.25}% 
+\contentsline {paragraph}{Foto's }{34}{section*.25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Geluidopname }{33}{section*.26}% 
+\contentsline {paragraph}{Geluidopname }{35}{section*.26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Real-time communicatie }{33}{section*.27}% 
+\contentsline {paragraph}{Real-time communicatie }{35}{section*.27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Casting}{34}{section*.28}% 
+\contentsline {paragraph}{Casting}{36}{section*.28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Media-controle in de notificatie }{34}{section*.29}% 
+\contentsline {paragraph}{Media-controle in de notificatie }{36}{section*.29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Connectie met andere apparaten}{35}{section*.30}% 
+\contentsline {subsubsection}{Connectie met andere apparaten}{37}{section*.30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Bluetooth }{35}{section*.31}% 
+\contentsline {paragraph}{Bluetooth }{37}{section*.31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{USB}{35}{section*.32}% 
+\contentsline {paragraph}{USB}{37}{section*.32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{NFC}{36}{section*.33}% 
+\contentsline {paragraph}{NFC}{38}{section*.33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Toestelkenmerken}{36}{section*.34}% 
+\contentsline {subsubsection}{Toestelkenmerken}{38}{section*.34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Netwerkinformatie}{36}{section*.35}% 
+\contentsline {paragraph}{Netwerkinformatie}{38}{section*.35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Online status}{37}{section*.36}% 
+\contentsline {paragraph}{Online status}{39}{section*.36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Vibratiemotor }{37}{section*.37}% 
+\contentsline {paragraph}{Vibratiemotor }{39}{section*.37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Batterijstatus}{37}{section*.38}% 
+\contentsline {paragraph}{Batterijstatus}{39}{section*.38}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Toestelgeheugen}{37}{section*.39}% 
+\contentsline {paragraph}{Toestelgeheugen}{39}{section*.39}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Native gedrag}{38}{section*.40}% 
+\contentsline {subsubsection}{Native gedrag}{40}{section*.40}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Lokale notificaties}{38}{section*.41}% 
+\contentsline {paragraph}{Lokale notificaties}{40}{section*.41}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Push notificaties}{38}{section*.42}% 
+\contentsline {paragraph}{Push notificaties}{40}{section*.42}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{A2HS}{39}{section*.43}% 
+\contentsline {paragraph}{A2HS}{41}{section*.43}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Badges}{39}{section*.44}% 
+\contentsline {paragraph}{Badges}{41}{section*.44}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Voorgrond-detectie }{39}{section*.45}% 
+\contentsline {paragraph}{Voorgrond-detectie }{41}{section*.45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Toestemmingen}{40}{section*.46}% 
+\contentsline {paragraph}{Toestemmingen}{42}{section*.46}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Besturingssysteem}{40}{section*.47}% 
+\contentsline {subsubsection}{Besturingssysteem}{42}{section*.47}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{offline opslage}{40}{section*.48}% 
+\contentsline {paragraph}{offline opslage}{42}{section*.48}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Web storage}{40}{section*.49}% 
+\contentsline {subparagraph}{Web storage}{42}{section*.49}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{IndexedDB}{41}{section*.50}% 
+\contentsline {subparagraph}{IndexedDB}{43}{section*.50}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Cache API}{41}{section*.51}% 
+\contentsline {subparagraph}{Cache API}{43}{section*.51}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Storage API}{41}{section*.52}% 
+\contentsline {subparagraph}{Storage API}{43}{section*.52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Bestandentoegang}{41}{section*.53}% 
+\contentsline {paragraph}{Bestandentoegang}{43}{section*.53}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Contacten}{42}{section*.54}% 
+\contentsline {paragraph}{Contacten}{44}{section*.54}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Sms}{42}{section*.55}% 
+\contentsline {paragraph}{Sms}{44}{section*.55}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Taakplanning}{43}{section*.56}% 
+\contentsline {paragraph}{Taakplanning}{45}{section*.56}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Input}{43}{section*.57}% 
+\contentsline {subsubsection}{Input}{45}{section*.57}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Touch gebaren}{43}{section*.58}% 
+\contentsline {paragraph}{Touch gebaren}{45}{section*.58}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Klembord toegang}{44}{section*.59}% 
+\contentsline {paragraph}{Klembord toegang}{46}{section*.59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{User experience}{44}{section*.60}% 
+\contentsline {subsubsection}{User experience}{46}{section*.60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Offline gebruik}{44}{section*.61}% 
+\contentsline {paragraph}{Offline gebruik}{46}{section*.61}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Achtergrondsynchronisatie }{44}{section*.62}% 
+\contentsline {paragraph}{Achtergrondsynchronisatie }{46}{section*.62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Inter-app communicatie}{44}{section*.63}% 
+\contentsline {paragraph}{Inter-app communicatie}{46}{section*.63}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Betalingen}{45}{section*.64}% 
+\contentsline {paragraph}{Betalingen}{47}{section*.64}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Credentials}{45}{section*.65}% 
+\contentsline {paragraph}{Credentials}{47}{section*.65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Locatie en positionering}{45}{section*.66}% 
+\contentsline {subsubsection}{Locatie en positionering}{47}{section*.66}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Geolocatie}{45}{section*.67}% 
+\contentsline {paragraph}{Geolocatie}{47}{section*.67}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Geofencing}{46}{section*.68}% 
+\contentsline {paragraph}{Geofencing}{48}{section*.68}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Toesteloriëntatie }{46}{section*.69}% 
+\contentsline {paragraph}{Toesteloriëntatie }{48}{section*.69}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Toestelbeweging}{47}{section*.70}% 
+\contentsline {paragraph}{Toestelbeweging}{49}{section*.70}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{DeviceMotionEvent }{47}{section*.71}% 
+\contentsline {subparagraph}{DeviceMotionEvent }{49}{section*.71}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Accelerometer }{47}{section*.72}% 
+\contentsline {subparagraph}{Accelerometer }{49}{section*.72}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Gyroscope }{47}{section*.73}% 
+\contentsline {subparagraph}{Gyroscope }{49}{section*.73}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Magnetometer }{47}{section*.74}% 
+\contentsline {subparagraph}{Magnetometer }{49}{section*.74}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{LinearAccelerationSensor }{47}{section*.75}% 
+\contentsline {subparagraph}{LinearAccelerationSensor }{49}{section*.75}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Nabijheid-sensoren }{48}{section*.76}% 
+\contentsline {paragraph}{Nabijheid-sensoren }{50}{section*.76}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Scherm en output}{48}{section*.77}% 
+\contentsline {subsubsection}{Scherm en output}{50}{section*.77}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Virtual en augmented reality }{48}{section*.78}% 
+\contentsline {paragraph}{Virtual en augmented reality }{50}{section*.78}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Fullscreen }{48}{section*.79}% 
+\contentsline {paragraph}{Fullscreen }{50}{section*.79}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Wake lock }{48}{section*.80}% 
+\contentsline {paragraph}{Wake lock }{50}{section*.80}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}concluderende tabel}{49}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.2}concluderende tabel}{51}{subsection.2.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Conclusie}{49}{subsection.2.2.3}% 
+\contentsline {subsection}{\numberline {2.2.3}Conclusie}{51}{subsection.2.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Browsers}{49}{section*.81}% 
+\contentsline {subsubsection}{Browsers}{51}{section*.81}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Mobiele besturingssystemen }{50}{section*.82}% 
+\contentsline {subsubsection}{Mobiele besturingssystemen }{52}{section*.82}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Desktop besturingssystemen}{51}{section*.83}% 
+\contentsline {subsubsection}{Desktop besturingssystemen}{53}{section*.83}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodologie}{55}{chapter.3}% 
+\contentsline {section}{\numberline {2.3}Waarom een PWA}{55}{section.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{57}{chapter.4}% 
+\contentsline {subsection}{\numberline {2.3.1}Bereik}{55}{subsection.2.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{59}{appendix.A}% 
+\contentsline {subsection}{\numberline {2.3.2}Platformonafhankelijkheid }{56}{subsection.2.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{59}{section.A.1}% 
+\contentsline {subsection}{\numberline {2.3.3}Omzet}{56}{subsection.2.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{60}{section.A.2}% 
+\contentsline {subsection}{\numberline {2.3.4}Bundle size}{57}{subsection.2.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{60}{subsection.A.2.1}% 
+\contentsline {subsection}{\numberline {2.3.5}Offline gebruik}{58}{subsection.2.3.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{60}{subsection.A.2.2}% 
+\contentsline {subsection}{\numberline {2.3.6}Betrokkenheid}{59}{subsection.2.3.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{61}{subsection.A.2.3}% 
+\contentsline {subsection}{\numberline {2.3.7}Kost}{60}{subsection.2.3.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{61}{subsection.A.2.4}% 
+\contentsline {subsection}{\numberline {2.3.8}Deployment}{60}{subsection.2.3.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.5}Native containers}{62}{subsection.A.2.5}% 
+\contentsline {subsection}{\numberline {2.3.9}Updates}{61}{subsection.2.3.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{62}{subsection.A.2.6}% 
+\contentsline {subsection}{\numberline {2.3.10}Conclusie}{62}{subsection.2.3.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{62}{section.A.3}% 
+\contentsline {chapter}{\numberline {3}Methodologie}{63}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.1}Technologieën}{62}{subsection.A.3.1}% 
+\contentsline {chapter}{\numberline {4}Conclusie}{65}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{63}{section.A.4}% 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{67}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{63}{section.A.5}% 
+\contentsline {section}{\numberline {A.1}Introductie}{67}{section.A.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}State-of-the-art}{68}{section.A.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{68}{subsection.A.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{68}{subsection.A.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{69}{subsection.A.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{69}{subsection.A.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.5}Native containers}{70}{subsection.A.2.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{70}{subsection.A.2.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Methodologie}{70}{section.A.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.3.1}Technologieën}{70}{subsection.A.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{71}{section.A.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{71}{section.A.5}% 
 \contentsfinish 
