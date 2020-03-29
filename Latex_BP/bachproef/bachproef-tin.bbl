@@ -1456,8 +1456,18 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Comparing Progressive WebApplications with Native Android Applications - an evaluation of performance when it comes toresponse time}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2017}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://lnu.diva-portal.org/smash/record.jsf?pid=diva2:1105475&dswid=-6098
+      \endverb
+      \verb{url}
+      \verb http://lnu.diva-portal.org/smash/record.jsf?pid=diva2:1105475&dswid=-6098
+      \endverb
     \endentry
     \entry{Fullea2020}{online}{}
       \name{author}{3}{}{%
@@ -3963,7 +3973,7 @@
            givenun=0}}%
       }
       \list{institution}{1}{%
-        {Ruhr-Universit¨at Bochum}%
+        {Ruhr-Universit at Bochum}%
       }
       \strng{namehash}{1270fd3068c480aa53a394560f6adee6}
       \strng{fullhash}{1270fd3068c480aa53a394560f6adee6}
@@ -3980,10 +3990,20 @@
       \field{labeltitlesource}{title}
       \field{day}{24}
       \field{month}{7}
-      \field{title}{Near Field Communication in CellPhones}
+      \field{title}{Near Field Communication in Cell Phones}
       \field{type}{techreport}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2007}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.emsec.ruhr-uni-bochum.de/media/crypto/attachments/files/2011/04/near_field_communication_in_cell_phones.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.emsec.ruhr-uni-bochum.de/media/crypto/attachments/files/2011/04/near_field_communication_in_cell_phones.pdf
+      \endverb
     \endentry
     \entry{Popescu2020}{online}{}
       \name{author}{1}{}{%

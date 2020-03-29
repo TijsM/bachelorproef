@@ -171,15 +171,15 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 		Google Chrome op Android maakt hier gebruik van. Als er een website bezocht wordt als er geen internetverbinding is, krijgt de gebruiker de melding: “Chrome laat je weten wanneer de pagina klaar is”. Vanaf het toestel terug een internetverbinding heeft, en het de pagina heeft kunnen downloaden,  zal de gebruiker een melding krijgen die met de boodschap dat de pagina bekeken kan worden.
 	
 	
-		\begin{figure}[!htb]
+		\begin{figure}[H]
 			\centering
-			\includegraphics{./img/backSync1.png}{}
+			\includegraphics[width=35mm]{./img/backSync1.png}{}
 			\caption{demonstratie van achtergrond synchrondisatie bij Google Chrome op Android - pagina offline}
 		\end{figure}
 		
-		\begin{figure}[!htb]
+		\begin{figure}[H]
 			\centering
-			\includegraphics{./img/backSync2.png}
+			\includegraphics[width=35mm]{./img/backSync2.png}
 			\caption{demonstratie van achtergrond synchrondisatie bij Google Chrome op Android - melding als gebruiker terug online is}
 		\end{figure}
 		 
@@ -212,7 +212,7 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 		\autocite{Gaunt2019}
 		
 		
-		\begin{figure}[!htb]
+		\begin{figure}[H]
 			\centering
 			\includegraphics{./img/ServiceWorkerLifeCycle.png}
 			\caption{schema levenscyclus van een service worker \autocite{Gaunt2019}}
@@ -234,13 +234,13 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 	
 	Als een website aan alle criteria voldoet zal er een beforeinstallprompt event gestart worden. Elke browser gaat hier anders mee om. 
 	
-	\begin{figure}[!htb]
+	\begin{figure}[H]
 		\centering
 		\includegraphics{./img/beforeinstallprompt_windows.png}	
 		\caption{gedrag van Google Chrome op Windows 10 op het beforeinstallprompt}
 	\end{figure}
 	
-	\begin{figure}[!htb]
+	\begin{figure}[H]
 		\centering
 		\includegraphics{./img/beforeinstallprompt_android.png}
 		\caption{gedrag van Google Chrome op Android op het beforeinstallprompt}
@@ -320,7 +320,8 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 			\begin{tabular}{cp{12cm}}
 	     		short\_name & Naam van de applicatie die op het startscherm gebruikt zal worden. Deze mag maximaal 12 karakters lang zijn. \\
 	     		name & Naam die op alle andere plekken gebruikt zal worden: vb bij de vraag als de app geïnstalleerd mag worden. Deze mag maximaal 45 karakters lang zijn. \\
-	     		icons & Een lijst vna objecten die het icoon bepaalt dat de applicatie zal gebruiken.Verschillende platformen vragen verschillende type's iconen Dit object heeft volgende eigenschappen:
+	     		icons & Een lijst vna objecten die het icoon bepaalt dat de applicatie zal gebruiken.
+Verschillende platformen vragen verschillende type's iconen Dit object heeft volgende eigenschappen:
 		     		\begin{itemize}
 			    		  \item src - bron van het icoont
 			    		  \item type - het bestandstype van het icoon
@@ -393,13 +394,13 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 		
 		Microsoft geeft het goede voorbeeld door de veelgebruikte email client Outlook ook beschikbaar te maken als een PWA.
 		De PWA-versie van de applicatie is slechts 800KB groot terwijl de traditionele versie op een desktop 1,8GB groot is.
-		\begin{figure}[h]
+		\begin{figure}[H]
 			\centering
 			\includegraphics{./img/Outlook_native.png}
 			\caption{Outlook op Mac}
 		\end{figure}
 		
-		\begin{figure}[h]
+		\begin{figure}[H]
 			\centering
 			\includegraphics{./img/Outlook_pwa.png}
 			\caption{Outlook op Mac als PWA}
