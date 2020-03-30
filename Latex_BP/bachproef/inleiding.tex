@@ -7,7 +7,7 @@
 
 In deze thesis zal er onderzoek gedaan woorden naar Progressive Web applications (PWA).
 
-Een PWA zijn webapplicaties die gebruik maken van moderne webtechnologieën om op deze manier een ervaring aan te bieden die dicht die van een native applicatie ligt.
+Een PWA is een webapplicatie die gebruik maken van moderne webtechnologieën om op deze manier een ervaring aan te bieden die dicht die van een native applicatie ligt.
 
 \section{Probleemstelling}
 
@@ -24,66 +24,86 @@ Een PWA zijn webapplicaties die gebruik maken van moderne webtechnologieën om o
 
 \section{Onderzoeksvraag}
 
-	Deze thesis zal een antwoord bieden op de vraag: "welke functies van een besturingssysteem zijn beschikbaar voor progressive web applications". 
+	% TODO : Herschrijven onderzoekvragen
+
+	Deze thesis zal een antwoord bieden op de vraag: "Zijn progressive web applications een waardige vervanger voor native applications".
+	
+	Om tot on antwoord  te kunnen formulieren op deze onderzoeksvraag zal er eerst antwoord moeten geboden worden op volgende onderzoeksvragen
+	
+	\begin{itemize}
+		  \item Welke stappen zijn nodig om een traditionele website om te vormen tot een PWA?
+		  \item Wat zijn de beperkingen van een PWA?
+		  \item Kan een PWA alle functionaliteiten gebruiken die beschikbaar zijn voor native applications?
+		  \item Hoe staan de verschillende besturingssystemen ten opzichte van PWA's?
+		  \item Welke andere technologieën kunnen er gebruikt worden om applicaties te ontwikkelen voor meerdere platformen waarbij er maar één codebase is?
+	  \end{itemize}
+
+\section{Onderzoeksdoelstelling}
+	
+	Om deze onderzoeksvraag goed te kunnen beantwoorden zullen er verschillende onderdelen in deze bachelorproef uitgewerkt worden.
+	
+	Er zal een literatuurstudie uitgevoerd worden, deze zal een beeld schetsen van wet er functioneel wel en niet mogelijk is met PWA's. 
+	Deze literatuurstudie moet een antwoord bieden op de vraag 'Wanneer kan er een PWA gebruikt worden'.
+	
+	Vervolgens zal er een proof-of-concept opgesteld worden, deze zal een aantal functionaliteiten die beschikbaar zijn voor PWA's testen. Er zal een nadruk liggen op de gebruikerservaring die aangeboden kannen worden met PWA's
+	
+\section{Opzet van deze bachelorproef}
+
+	In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand van zaken binnen het onderzoeksdomein, op basis van een literatuurstudie.
+	
+	In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
 	
 	
+	% TODO: link naar hoofdstuk toevoegen
+	
+	In het Hoofdstuk 4 zal er beschreven worden hoe de proof-of-concept ontwikkeld werd en wat de beperkingen waren bij de
+	
+	In Hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.
 	
 
- 	Welke stappen zijn nodig om een traditionele website om te vormen tot een PWA?
- 
-     Wat zijn de beperkingen van een PWA?
-     
-     Kan een PWA alle functionaliteiten gebruiken die beschikbaar zijn voor native applications?
-     
-     Hoe staan de verschillende besturingssystemen ten opzichte van PWA's?
-     
-     Welke andere technologieën kunnen er gebruikt worden om applicaties te ontwikkelen voor meerdere platformen waarbij er maar één codebase is?
-
----------------------------------------
 
 
 
+%De inleiding moet de lezer net genoeg informatie verschaffen om het onderwerp te begrijpen en in te zien waarom de onderzoeksvraag de moeite waard is om te onderzoeken. In de inleiding ga je literatuurverwijzingen beperken, zodat de tekst vlot leesbaar blijft. Je kan de inleiding verder onderverdelen in secties als dit de tekst verduidelijkt. Zaken die aan bod kunnen komen in de inleiding~\autocite{Pollefliet2011}:
 
-De inleiding moet de lezer net genoeg informatie verschaffen om het onderwerp te begrijpen en in te zien waarom de onderzoeksvraag de moeite waard is om te onderzoeken. In de inleiding ga je literatuurverwijzingen beperken, zodat de tekst vlot leesbaar blijft. Je kan de inleiding verder onderverdelen in secties als dit de tekst verduidelijkt. Zaken die aan bod kunnen komen in de inleiding~\autocite{Pollefliet2011}:
+%\begin{itemize}
+ % \item context, achtergrond
+  %\item afbakenen van het onderwerp
+ % \item verantwoording van het onderwerp, methodologie
+%  \item probleemstelling
+%  \item onderzoeksdoelstelling
+%  \item onderzoeksvraag
+%  \item \ldots
+%\end{itemize}
 
-\begin{itemize}
-  \item context, achtergrond
-  \item afbakenen van het onderwerp
-  \item verantwoording van het onderwerp, methodologie
-  \item probleemstelling
-  \item onderzoeksdoelstelling
-  \item onderzoeksvraag
-  \item \ldots
-\end{itemize}
+%\section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}
+%\label{sec:probleemstelling}
 
-\section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}
-\label{sec:probleemstelling}
+%Uit je probleemstelling moet duidelijk zijn dat je onderzoek een meerwaarde heeft voor een concrete doelgroep. De doelgroep moet goed gedefinieerd en afgelijnd zijn. Doelgroepen als ``bedrijven,'' ``KMO's,'' systeembeheerders, enz.~zijn nog te vaag. Als je een lijstje kan maken van de personen/organisaties die een meerwaarde zullen vinden in deze bachelorproef (dit is eigenlijk je steekproefkader), dan is dat een indicatie dat de doelgroep goed gedefinieerd is. Dit kan een enkel bedrijf zijn of zelfs één persoon (je co-promotor/opdrachtgever).
 
-Uit je probleemstelling moet duidelijk zijn dat je onderzoek een meerwaarde heeft voor een concrete doelgroep. De doelgroep moet goed gedefinieerd en afgelijnd zijn. Doelgroepen als ``bedrijven,'' ``KMO's,'' systeembeheerders, enz.~zijn nog te vaag. Als je een lijstje kan maken van de personen/organisaties die een meerwaarde zullen vinden in deze bachelorproef (dit is eigenlijk je steekproefkader), dan is dat een indicatie dat de doelgroep goed gedefinieerd is. Dit kan een enkel bedrijf zijn of zelfs één persoon (je co-promotor/opdrachtgever).
+%\section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}
+%\label{sec:onderzoeksvraag}
 
-\section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}
-\label{sec:onderzoeksvraag}
+%Wees zo concreet mogelijk bij het formuleren van je onderzoeksvraag. Een onderzoeksvraag is trouwens iets waar nog niemand op dit moment een antwoord heeft (voor zover je kan nagaan). Het opzoeken van bestaande informatie (bv. ``welke tools bestaan er voor deze toepassing?'') is dus geen onderzoeksvraag. Je kan de onderzoeksvraag verder specifiëren in deelvragen. Bv.~als je onderzoek gaat over performantiemetingen, dan 
 
-Wees zo concreet mogelijk bij het formuleren van je onderzoeksvraag. Een onderzoeksvraag is trouwens iets waar nog niemand op dit moment een antwoord heeft (voor zover je kan nagaan). Het opzoeken van bestaande informatie (bv. ``welke tools bestaan er voor deze toepassing?'') is dus geen onderzoeksvraag. Je kan de onderzoeksvraag verder specifiëren in deelvragen. Bv.~als je onderzoek gaat over performantiemetingen, dan 
+%\section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}
+%\label{sec:onderzoeksdoelstelling}
 
-\section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}
-\label{sec:onderzoeksdoelstelling}
+%Wat is het beoogde resultaat van je bachelorproef? Wat zijn de criteria voor succes? Beschrijf die zo concreet mogelijk. Gaat het bv. om een proof-of-concept, een prototype, een verslag met aanbevelingen, een vergelijkende studie, enz.
 
-Wat is het beoogde resultaat van je bachelorproef? Wat zijn de criteria voor succes? Beschrijf die zo concreet mogelijk. Gaat het bv. om een proof-of-concept, een prototype, een verslag met aanbevelingen, een vergelijkende studie, enz.
-
-\section{\IfLanguageName{dutch}{Opzet van deze bachelorproef}{Structure of this bachelor thesis}}
-\label{sec:opzet-bachelorproef}
+%\section{\IfLanguageName{dutch}{Opzet van deze bachelorproef}{Structure of this bachelor thesis}}
+%\label{sec:opzet-bachelorproef}
 
 % Het is gebruikelijk aan het einde van de inleiding een overzicht te
 % geven van de opbouw van de rest van de tekst. Deze sectie bevat al een aanzet
 % die je kan aanvullen/aanpassen in functie van je eigen tekst.
 
-De rest van deze bachelorproef is als volgt opgebouwd:
+%De rest van deze bachelorproef is als volgt opgebouwd:
 
-In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand van zaken binnen het onderzoeksdomein, op basis van een literatuurstudie.
+%In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand van zaken binnen het onderzoeksdomein, op basis van een literatuurstudie.
 
-In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
+%In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
 
 % TODO: Vul hier aan voor je eigen hoofstukken, één of twee zinnen per hoofdstuk
 
-In Hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.
+%In Hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.
