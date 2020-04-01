@@ -140,8 +140,6 @@ De mediarecorder API, \autocite{CasasSanchez2020} door meerdere browsers aangebo
 Helaas is er voor Apple-toestellen geen ondersteuning. In de toekomst zal deze functie waarschijnlijk ook beschikbaar worden voor deze toestellen. Dit wordt in de volgende versie van Safari (Safari 14) voor desktop en IOS verwacht. Voor Safari voor IOS bestaat deze functie al maar is het nog een experimentele functie die de gebruiker zelf moet activeren.
 
 
-%TODO: checken voor nieuwe update IOS 14
-******************** checken voor nieuwe update IOS 14 **************************
 
 \begin{table}[H]
 	\centering
@@ -333,7 +331,9 @@ De Network information API \autocite{Lamouri2020} voorziet informatie over het t
 
 \paragraph{Online status}
 
-dit is een eenvoudige eigenschap die kan opgeroepen worden op het navigator object. Deze eigenschap bevat een booleaanse waarde die “waar” zal zijn als de gebruiker een connectie heeft met het internet. Deze informatie kan interessant zijn bij het ontwikkelen van een PWA met offline functionaliteiten.
+Dit is een eenvoudige eigenschap die kan opgeroepen worden op het navigator object. Deze eigenschap bevat een booleaanse waarde die “waar” zal zijn als de gebruiker een connectie heeft met het internet. 
+
+Dit is een belangrijke eigenschap bij applicaties die real-time data gebruiken. Als de internetconnectie van de gebuiker wegvalt kan er een melding  getoond worden. Op deze manier weet de gebruiker dat de data mogelijks niet up-to-date is.
 \begin{table}[H]
 	\centering
 	\begin{tabular}{llllll}
@@ -780,7 +780,12 @@ De Credential Management API \autocite{West2020} levert methodes voor het ophale
 
 \paragraph{Geolocatie}
 De Geolocation API \autocite{Popescu2020} zorgt ervoor dat een applicatie toegang heeft tot de locatie van een toestel. Dat wordt gedaan op basis van de gps-sensor of op basis van het netwerk. 
-De API voorziet niet enkel de locatie maar ook methodes die de applicatie informeren als de locatie verandert.
+
+Zowel de lengtegraad als de breedtegraat kunnen opgevraagd worden, deze twee coördinaten vormen de locatie van de gebruiker.
+
+% todo: check spelling verandert
+De Geolocation API voorziet een methode "watchPosition". Elke keer dat de locatie van een gebruiker verandert, zal deze methode een functie aanroepen. Op deze manier kan de locatie van een gebruiker gevolgd worden.
+
 Navigatie-applicaties zoals Google Maps of Waze kunnen dus ook geïmplementeerd worden als PWA.
 
 \begin{table}[H]
