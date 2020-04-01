@@ -1,8 +1,8 @@
 
 
-\section{Besturingssystemen en PWA’s}
+\section{Besturingssystemen en PWA's}
 
-Om te weten te komen voor welke toepassingen een PWA gemaakt kan worden en voor welke toepassingen nog steeds een native applicatie nodig is, is het belangrijk om te weten wat de technische mogelijkheden zijn van een PWA. In deze sectie van de literatuurstudie wordt er bekeken welke functies, die beschikbaar zijn voor native applicaties, al dan niet gebruikt kunnen worden door PWA’s.
+Om te weten te komen voor welke toepassingen een PWA gemaakt kan worden en voor welke toepassingen nog steeds een native applicatie nodig is, is het belangrijk om te weten wat de technische mogelijkheden zijn van een PWA. In deze sectie van de literatuurstudie wordt er bekeken welke functies, die beschikbaar zijn voor native applicaties, al dan niet gebruikt kunnen worden door PWA's.
 
 Dit onderzoek werd gevoerd met behulp van de website \href{https://whatwebcando.today/}{whatwebcando.today} en
 \href{https://caniuse.com/}{caniuse.com}.
@@ -12,12 +12,12 @@ Dit onderzoek werd gevoerd met behulp van de website \href{https://whatwebcando.
 
 \href{https://caniuse.com/}{ caniuse.com} is een website die voor verschillende web-technologieën een overzicht biedt op welke browsers deze technologie gebruikt kan worden en op welke niet. Deze website werd gebruikt om de ondervindingen van de testen die werden uitgevoerd te valideren. 
 
-Een web-API is een API die wordt aangeboden door de browser. Het verschil met web-API’s en traditionele API’s is dat web-API’s lokaal worden aangeboden door de browser en er dus geen internetverbinding nodig is om van deze functionaliteiten te genieten.
+Een web-API is een API die wordt aangeboden door de browser. Het verschil met web-API's en traditionele API's is dat web-API's lokaal worden aangeboden door de browser en er dus geen internetverbinding nodig is om van deze functionaliteiten te genieten.
 
 \autocite{Mozilla2019c}
 
 
-Als er meer informatie nodig was over de web API’s werd deze gevonden op \href{https://developers.google.com/}{developers.google.com } of op \href{https://developer.mozilla.org/nl/}{MDN web docs}
+Als er meer informatie nodig was over de web API's werd deze gevonden op \href{https://developers.google.com/}{developers.google.com } of op \href{https://developer.mozilla.org/nl/}{MDN web docs}
 
 Er werd gekeken op welke platformen bepaalde functies wel en niet werkten. De volgende platformen werden onderzocht:
 \begin{itemize}
@@ -100,9 +100,9 @@ Al de belangrijkste functionaliteiten die een gebruiker verwacht, zijn allemaal 
 
 \paragraph{Foto's }
 
-Het vastleggen van foto’s is ook voor veel populaire applicaties belangrijk. Ook dit is een belangrijke functionaliteit voor sociale media applicaties.
+Het vastleggen van foto's is ook voor veel populaire applicaties belangrijk. Ook dit is een belangrijke functionaliteit voor sociale media applicaties.
 
-Foto’s die gedeeld worden op sociale media moeten vaak van een zo hoog mogelijke kwaliteit zijn. Op native applicaties wordt deze kwaliteit bereikt door volgende eigenschappen: 
+Foto's die gedeeld worden op sociale media moeten vaak van een zo hoog mogelijke kwaliteit zijn. Op native applicaties wordt deze kwaliteit bereikt door volgende eigenschappen: 
 
  \begin{itemize}
      \item Manuele en automatische focus
@@ -112,7 +112,7 @@ Foto’s die gedeeld worden op sociale media moeten vaak van een zo hoog mogelij
      \item Gebruik maken van HDR 
    \end{itemize}
 
-Foto’s kunnen ook, net zoals een video, genomen worden aan de hand van de Media capture API. Deze API is echter niet in staat om deze instellingen van de camera aan te passen.
+Foto's kunnen ook, net zoals een video, genomen worden aan de hand van de Media capture API. Deze API is echter niet in staat om deze instellingen van de camera aan te passen.
 
 De Image Capture API \autocite{Mandyam2020} is ontwikkeld om meer controle te hebben over de camera. Deze API zorgt ervoor dat instellingen zoals witbalans, temperatuur, exposure, ISO, helderheid, contrast, saturatie, zoom, … programmatisch aangepast kunnen worden.
 
@@ -453,8 +453,9 @@ Meer informatie over notificaties kan gevonden worden in het hoofdstuk ‘Wat is
 
 \paragraph{Badges}
 
-Als een native applicatie een melding heeft ontvangen zal er een indicatie staan naast het icoontje op het startscherm. Dit kan nu ook geïmplementeerd worden voor geïnstalleerde PWA’s aan de hand van de Badging API \autocite{LePage2020a}
+Als een native applicatie een melding heeft ontvangen zal er een indicatie staan naast het icoontje op het startscherm. Dit kan nu ook geïmplementeerd worden voor geïnstalleerde PWA's aan de hand van de Badging API. \autocite{LePage2020a}
 
+Op sommige applicatie zal hier een indicatie staan van het aantal meldingen.
 \begin{table}[H]
 	\centering
 	\begin{tabular}{llllll}
@@ -611,7 +612,7 @@ Bepaalde native applicaties hebben toegang nodig tot de contacten van de gebruik
 
 De contacten die opgeslagen staan op het systeem van de gebruiker kunnen geïmporteerd worden in een webapplicatie met de Contacts API \autocite{Tibbett2020}.
 
-In theorie zouden PWA’s hier dus gebruik kunnen van maken maar de ondersteuning is heel beperkt. Het is dus niet aangeraden om een webapplicatie te ontwikkelen die afhankelijk is van de contacten van een gebruiker.
+In theorie zouden PWA's hier dus gebruik kunnen van maken maar de ondersteuning is heel beperkt. Het is dus niet aangeraden om een webapplicatie te ontwikkelen die afhankelijk is van de contacten van een gebruiker.
 
 \begin{table}[H]
 	\centering
@@ -629,7 +630,7 @@ Native Applicaties kunnen binnenkomende sms-berichten lezen. Dit wordt vaak gebr
 
 Native applicaties kunnen niet enkel sms’en lezen, ze kunnen er ook schrijven. Dit betekent dus dat elke ontwikkelaar een sms-client applicatie kan maken.
 
-Met de SMS-receiver API \autocite{Fullea2020} kan er gekeken worden naar inkomende sms’en. Het voorbeeld van de PayPal applicatie kan dus ook geïmplementeerd worden als PWA. PWA’s hebben echter enkel toegang tot binnenkomende sms’en. 
+Met de SMS-receiver API \autocite{Fullea2020} kan er gekeken worden naar inkomende sms’en. Het voorbeeld van de PayPal applicatie kan dus ook geïmplementeerd worden als PWA. PWA's hebben echter enkel toegang tot binnenkomende sms’en. 
 
 Het voorbeeld van PayPal kan ook geïmplementeerd worden aan de hand van een PWA. Applicaties die ook sms-berichten moeten versturen kunnen niet ontwikkeld worden als PWA.
 
@@ -968,7 +969,7 @@ eel toestellen gaan het scherm dimmen na een bepaalde tijd van inactiviteit. Dit
 
 	\begin{table}[]
 		\centering
-		\begin{tabular}{p{6cm}p{13mm}p{13mm}p{13mm}p{13mm}p{13mm}p{13mm}}
+		\begin{tabular}{p{6cm}p{13mm}p{15mm}p{13mm}p{13mm}p{13mm}p{13mm}}
 			& Edge & Firefox & Chrome & Safari& Android & IOS \\ 
 			
 			Video met audio & \cellcolor{green!40} Ja  & \cellcolor{green!40} Ja & \cellcolor{green!40} Ja  & \cellcolor{green!40} Ja & \cellcolor{green!40} Ja & \cellcolor{green!40} ja \\
@@ -1009,7 +1010,7 @@ eel toestellen gaan het scherm dimmen na een bepaalde tijd van inactiviteit. Dit
 			   
 			   Lokale notificaties & \cellcolor{green!40} Ja  & \cellcolor{green!40} Ja & \cellcolor{green!40} Ja  & \cellcolor{green!40} Ja & \cellcolor{green!40} Ja &  \cellcolor{red!50} Nee \\
 			   
-			   Push notificaties  Geluidopname & \cellcolor{green!40} Ja  & \cellcolor{green!40} Ja & \cellcolor{green!40} Ja & \cellcolor{red!50} Nee  & \cellcolor{green!40} Ja & \cellcolor{red!50} Nee \\
+			   Push notificaties  & \cellcolor{green!40} Ja  & \cellcolor{green!40} Ja & \cellcolor{green!40} Ja & \cellcolor{red!50} Nee  & \cellcolor{green!40} Ja & \cellcolor{red!50} Nee \\
 			   
 			   A2HS & \cellcolor{green!40} Ja  & \cellcolor{green!40} Ja & \cellcolor{green!40} Ja & \cellcolor{red!50} Nee  & \cellcolor{green!40} Ja & \cellcolor{green!40} Ja \\
 			   
@@ -1095,94 +1096,113 @@ eel toestellen gaan het scherm dimmen na een bepaalde tijd van inactiviteit. Dit
 \clearpage
 \subsection{Conclusie}
 
-Hett is opvallend hoeveel functies beschikbaar zijn voor het web. Slechts een beperkt aantal native applicaties zouden niet met web-technologieën gemaakt kunnen worden.
-
-Het probleem is echter consistentie. Het voordeel van het web is dat je één codebase hebt en dat deze applicatie op verschillende soorten toestellen werkt. Dit is voor een basisapplicatie het geval, maar als er specifieke functies gebruikt moeten worden, wordt het moeilijker. Verschillende browsers verwachten verschillende web-API’s. Veel van de API’s bestaan en kunnen gebruikt worden, maar zullen niet op alle browsers werken.
-
-Deze technologieën kunnen dus gebruikt worden om de functionaliteit van een applicatie te ondersteunen. Maar een applicatie zou niet mogen afhangen van de functionaliteiten aangezien niet alle gebruikers de toepassing kunnen gebruiken.
-
+	Het is opvallend hoeveel functies beschikbaar zijn voor het web. Slechts een beperkt aantal native applicaties zouden niet met web-technologieën gemaakt kunnen worden.
+	
+	Het probleem is echter consistentie. Het voordeel van het web is dat je één codebase hebt en dat deze applicatie op verschillende soorten toestellen werkt. Dit is voor een basisapplicatie het geval, maar als er specifieke functies gebruikt moeten worden, wordt het moeilijker. Verschillende browsers verwachten verschillende web-API’s. Veel van de API's bestaan en kunnen gebruikt worden, maar zullen niet op alle browsers werken.
+	
+	Deze technologieën kunnen dus gebruikt worden om de functionaliteit van een applicatie te ondersteunen. Maar een applicatie zou niet mogen afhangen van de functionaliteiten aangezien niet alle gebruikers de toepassing kunnen gebruiken.
+	
 
 
 \subsubsection{Browsers}
 
-We kunnen concluderen dat de browsers die Google maakt (Google Chrome, Google Chrome for Android) een betere ondersteuning geeft dan de browsers die Apple maakt (Safari, Safari IOS). Deze trend is zowel te zien bij de mobiele browsers als de browsers voor desktop.
-
-De nieuwste versie van Microsoft Edge ondersteunt veel functies. Dit komt omdat deze laatste versie (v80.0) gebaseerd is op de open source browser Chromium die ontwikkeld is door Google. Ook Google Chrome is op Chromium gebaseerd.
-
-Het is opvallend dat bij de desktops van Apple de browser de limiterende factor is en niet het besturingssysteem. Als Google Chrome gedownload wordt op een Apple-toestel zijn deze functionaliteiten wel beschikbaar voor dit toestel.
-
+	We kunnen concluderen dat de browsers die Google maakt (Google Chrome, Google Chrome for Android) een betere ondersteuning geeft dan de browsers die Apple maakt (Safari, Safari IOS). Deze trend is zowel te zien bij de mobiele browsers als de browsers voor desktop.
+	
+	De nieuwste versie van Microsoft Edge ondersteunt veel functies. Dit komt omdat deze laatste versie (v80.0) gebaseerd is op de open source browser Chromium die ontwikkeld is door Google. Ook Google Chrome is op Chromium gebaseerd.
+	
+	Het is opvallend dat bij de desktops van Apple de browser de limiterende factor is en niet het besturingssysteem. Als Google Chrome gedownload wordt op een Apple-toestel zijn deze functionaliteiten wel beschikbaar voor dit toestel.
+	
+	
 
 \subsubsection{Mobiele besturingssystemen }
 
-Net zoals bij browsers, is de ondersteuning voor PWA’s op toestellen en systemen die ontwikkeld zijn door Google, beter dan de toestellen die Apple ontwikkelde.
+	Net zoals bij browsers, is de ondersteuning voor PWA's op toestellen en systemen die ontwikkeld zijn door Google, beter dan de toestellen die Apple ontwikkelde.
+	
+	Toestellen die Android gebruiken als besturingssysteem kunnen meer genieten van de functionaliteiten die het web te bieden heeft.
+	De grootste limitatie die IOS heeft in vergelijking met Android is het niet ondersteunen van push-notificaties. Dit is een functie die belangrijk is om gebruikers betrokken te houden op een platform. Push notificaties zijn voor e-commerce platformen vaak een heel belangrijke tool binnen hun marketingplan.
+	\autocite{Anastasia2017}
+	
+	Achtergrondsynchronisatie is een functie die de gebruikerservaring kan verbeteren. Deze functie die mogelijk gemaakt wordt door service workers is ook niet beschikbaar op een IOS-toestel.
+	
+	Apple laat PWA's toe om slechts 50MB aan data offline op te slaan. Als deze applicatie voor een bepaalde tijd niet gebruikt wordt, zal al deze data verwijderd worden om ruimte op het toestel te besparen. Bij Android is dit 6\% van de beschikbare opslagruimte en zullen de opgeslagen gegevens niet automatisch verwijderd worden.
+	
+	Ook A2HS-ervaring is op een Android toestel beter. Als een web-applicatie voldoet aan de normen om geïnstalleerd te worden zal Google Chrome op Android de gebruiker voorstellen om deze applicatie toe te voegen aan het startscherm. Deze functionaliteit is ook beschikbaar voor Safari op een IPhone maar hier moet de gebruiker zelf actie ondernemen en naar de instellingen van de website gaan om de knop zet op beginscherm’ te vinden.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=35mm]{./img/installation_ios.png}
+		\caption{Screenshot van het installatieproces op een IPhone met IOS 13}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=35mm]{./img/installation_android.png}
+		\caption{screenshot van het installatieproces op Android 10}
+	\end{figure}
 
-Toestellen die Android gebruiken als besturingssysteem kunnen meer genieten van de functionaliteiten die het web te bieden heeft.
-De grootste limitatie die IOS heeft in vergelijking met Android is het niet ondersteunen van push-notificaties. Dit is een functie die belangrijk is om gebruikers betrokken te houden op een platform. Push notificaties zijn voor e-commerce platformen vaak een heel belangrijke tool binnen hun marketingplan.
-\autocite{Anastasia2017}
 
-Achtergrondsynchronisatie is een functie die de gebruikerservaring kan verbeteren. Deze functie die mogelijk gemaakt wordt door service workers is ook niet beschikbaar op een IOS-toestel.
+	De integratie van de ingebouwde slimme assistent is op IOS beperkter dan op Android. Als een applicatie geïnstalleerd is op een Android toestel, kan Google assistant deze openen aan de hand van een stemcommando. Siri heeft deze functionaliteit niet.
+	\autocite{Lathiya2020}
+	
+	\subparagraph{conclusie}
+	
+		Er kan geconcludeerd worden dat Android meer open staat voor intergraties met PWA's dan IOS. In deze trend lijkt er niet direct verandering te komen. Google, de ontwikkelaar van Android, is vaak de eerste om nieuwe web API's te ondersteunen.
+		
+		Langs de andere kant is IOS vaak het laatste besturingssyteem die ondersteuning zal aanbieden voor een web API.
 
-Apple laat PWA’s toe om slechts 50MB aan data offline op te slaan. Als deze applicatie voor een bepaalde tijd niet gebruikt wordt, zal al deze data verwijderd worden om ruimte op het toestel te besparen. Bij Android is dit 6\% van de beschikbare opslagruimte en zullen de opgeslagen gegevens niet automatisch verwijderd worden.
-
-Ook A2HS-ervaring is op een Android toestel beter. Als een web-applicatie voldoet aan de normen om geïnstalleerd te worden zal Google Chrome op Android de gebruiker voorstellen om deze applicatie toe te voegen aan het startscherm. Deze functionaliteit is ook beschikbaar voor Safari op een IPhone maar hier moet de gebruiker zelf actie ondernemen en naar de instellingen van de website gaan om de knop zet op beginscherm’ te vinden.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=35mm]{./img/installation_ios.png}
-	\caption{Screenshot van het installatieproces op een IPhone met IOS 13}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=35mm]{./img/installation_android.png}
-	\caption{Screenshot van het installatieproces op Android 10}
-\end{figure}
-
-
-De integratie van de ingebouwde slimme assistent is op IOS beperkter dan op Android. Als een applicatie geïnstalleerd is op een Android toestel, kan Google assistant deze openen aan de hand van een stemcommando. Siri heeft deze functionaliteit niet.
-\autocite{Lathiya2020}
 
 \subsubsection{Desktop besturingssystemen}
-Bij deze vergelijking zullen enkel Windows en Mac OS in beschouwing genomen worden. Andere besturingssysteem hebben relatief gezien niet veel gebruikers. 88,14\% van de computers werkt op Windows en 9,42\% werkt op Mac OS. Slechts 2,44\% van de computers maakt gebruik van andere besturingssystemen.
-\autocite{netMarketShare2020}
-
-Microsoft wil PWA’s zo goed mogelijk ondersteunen. Ze zijn zelf ook PWA’s aan het ontwikkelen. Een voorbeeld hiervan is Outlook, de populaire online email-client kan nu ook geïnstalleerd worden als PWA.
-\autocite{Microsoft2020a}
-
-PWA’s kunnen ook zonder aanpassingen in de Windows store geplaatst worden. Deze applicatie kan dan door alle Windows-toestellen gedownload worden. Er zijn verschillende toestellen die gebruik maken van deze store:
-\begin{itemize}
-	\item	Windows 10 toestellen
-	\item	Windows S toestellen
-	\item	XBox
-	\item	Microsoft Hololens 
-\end{itemize}
-
-Windows gaat nog een stap verder dan dit. Het gaat zelf op zoek naar PWA’s op het internet en zal deze automatisch toevoegen aan de Windows store. Dit kan wel tegengegaan worden als de uitgever van de PWA dit niet wil.
-\autocite{Gustafson2017} \autocite{Gustafson2017a}
-
-Als een PWA geïnstalleerd wordt op Windows zal deze zich gedragen als een volwaardig programma. De PWA zal opgestart worden in zijn eigen venster. De applicatie kan ook gevonden worden met een zoekopdracht vanuit het startmenu. De applicatie kan ook toegevoegd worden aan de taakbalk en aan het bureaublad.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=75mm]{./img/Outlook_search_windows.png}
-	\caption{Screenshot van de zoekresultaten van “Outlook” op Windows 10}
-\end{figure}
-
-
-De tool PWABuilder die gebruikt kan worden om een PWA in de populaire mobiele app-stores te krijgen, is ook ontwikkeld door Microsoft.
-\autocite{PWAbuilder2020}
-
-Microsoft heeft ook een uitgebreide documentatie die ontwikkelaars helpen bij het ontwikkelen van PWA’s.
-\autocite{Microsoft2020b}
-
-
-Apple biedt weinig ondersteuning voor PWA’s in zijn mobiele besturingssystemen. Deze trend zet zich door op de besturingssystemen voor desktops. In de standaardbrowser, Safari, van de toestellen kan een PWA niet geïnstalleerd worden. Als de gebruiker Google Chrome gebruikt, kan een PWA wel geïnstalleerd worden. Als deze geïnstalleerd is, kan de applicatie ook gevonden worden in een “spotlight search”. De applicatie kan ook vastgemaakt worden aan het dock.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=75mm]{./img/Outlook_search_mac.png}
-	\caption{Screenshot van de zoekresultaten van “Outlook” op Mac Os}
-\end{figure}
-
-Deze algemene trend waarbij Apple PWA’s bewust niet ondersteunt, lijkt niet snel te veranderen. John Wilander, een ontwikkelaar binnen Apple, bekritiseerde openlijk PWA’s als een technologie die van Google is en dat dit niet in de planning zit van Apple. 
-\autocite{Wilander2019}
+	Bij deze vergelijking zullen enkel Windows en Mac OS in beschouwing genomen worden. Andere besturingssysteem hebben relatief gezien niet veel gebruikers. 88,14\% van de computers werkt op Windows en 9,42\% werkt op Mac OS. Slechts 2,44\% van de computers maakt gebruik van andere besturingssystemen.
+	\autocite{netMarketShare2020}
+	
+	Microsoft wil PWA's zo goed mogelijk ondersteunen. Ze zijn zelf ook PWA's aan het ontwikkelen. Een voorbeeld hiervan is Outlook, de populaire online email-client kan nu ook geïnstalleerd worden als PWA.
+	\autocite{Microsoft2020a}
+	
+	PWA's kunnen ook zonder aanpassingen in de Windows store geplaatst worden. Deze applicatie kan dan door alle Windows-toestellen gedownload worden. Er zijn verschillende toestellen die gebruik maken van deze store:
+	\begin{itemize}
+		\item	Windows 10 toestellen
+		\item	Windows S toestellen
+		\item	XBox
+		\item	Microsoft Hololens 
+	\end{itemize}
+	
+	Windows gaat nog een stap verder dan dit. Het gaat zelf op zoek naar PWA's op het internet en zal deze automatisch toevoegen aan de Windows store. Dit kan wel tegengegaan worden als de uitgever van de PWA dit niet wil.
+	\autocite{Gustafson2017} \autocite{Gustafson2017a}
+	
+	Als een PWA geïnstalleerd wordt op Windows zal deze zich gedragen als een volwaardig programma. De PWA zal opgestart worden in zijn eigen venster. De applicatie kan ook gevonden worden met een zoekopdracht vanuit het startmenu. De applicatie kan ook toegevoegd worden aan de taakbalk en aan het bureaublad.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=75mm]{./img/Outlook_search_windows.png}
+		\caption{screenshot van de zoekresultaten van “Outlook” op Windows 10}
+	\end{figure}
+	
+	
+	De tool PWABuilder die gebruikt kan worden om een PWA in de populaire mobiele app-stores te krijgen, is ook ontwikkeld door Microsoft.
+	\autocite{PWAbuilder2020}
+	
+	Microsoft heeft ook een uitgebreide documentatie die ontwikkelaars helpen bij het ontwikkelen van PWA's.
+	\autocite{Microsoft2020b}
+	
+	
+	Apple biedt weinig ondersteuning voor PWA's in zijn mobiele besturingssystemen. Deze trend zet zich door op de besturingssystemen voor desktops. In de standaardbrowser, Safari, van de toestellen kan een PWA niet geïnstalleerd worden. Als de gebruiker Google Chrome gebruikt, kan een PWA wel geïnstalleerd worden. Als deze geïnstalleerd is, kan de applicatie ook gevonden worden in een “spotlight search”. De applicatie kan ook vastgemaakt worden aan het dock.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=75mm]{./img/Outlook_search_mac.png}
+		\caption{screenshot van de zoekresultaten van “Outlook” op Mac Os}
+	\end{figure}
+	
+	Deze algemene trend waarbij Apple PWA's bewust niet ondersteunt, lijkt niet snel te veranderen. John Wilander, een ontwikkelaar binnen Apple, bekritiseerde openlijk PWA's als een technologie die van Google is en dat dit niet in de planning zit van Apple. 
+	\autocite{Wilander2019}
+	
+	
+	\subparagraph{Conclusie}
+	Er kan geconcludeerd worden dat Windows en Mac OS een volledig andere filosofie hebben als het aankomt op PWA's. 
+	
+	Windows probeert een zo goed mogelijke ondersteuning te geven aan PWA's. PWA's worden binnen windows behandeld als een volwaardig programma. Als een PWA geïnstalleerd is, is het moeilijk te onderscheiden van een ander native programma.
+	PWA's zijn binnen windows ook eenvoudig om te installeren.
+	Micorosoft probeert ontwikkelaars ook te ondersteunen in het ontwikkelen van PWA's, dit doen ze door een uitgebreide documentatie en tools aan te bieden.
+	
+	Apple daarintegen is meer gesloten ten opzichte van PWA's. Vanuit de standaard browser kunnen er helemaal geen PWA's geïnstalleerd worden. Via google Chrome is dit wel mogelijk.
+	

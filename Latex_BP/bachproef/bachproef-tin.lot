@@ -5,111 +5,111 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.1}{\ignorespaces beschrijving Notifications API}}{23}{table.2.1}% 
+\contentsline {table}{\numberline {2.1}{\ignorespaces beschrijving Notifications API}}{25}{table.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.2}{\ignorespaces beschrijving minimum application manifest}}{29}{table.2.2}% 
+\contentsline {table}{\numberline {2.2}{\ignorespaces beschrijving minimum application manifest}}{31}{table.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.3}{\ignorespaces ondersteuning van de Media Capture API}}{35}{table.2.3}% 
+\contentsline {table}{\numberline {2.3}{\ignorespaces ondersteuning van de Media Capture API}}{37}{table.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.4}{\ignorespaces ondersteuning van de Image Capture API}}{36}{table.2.4}% 
+\contentsline {table}{\numberline {2.4}{\ignorespaces ondersteuning van de Image Capture API}}{38}{table.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.5}{\ignorespaces ondersteuning van de Image Capture API}}{36}{table.2.5}% 
+\contentsline {table}{\numberline {2.5}{\ignorespaces ondersteuning van de Image Capture API}}{38}{table.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.6}{\ignorespaces ondersteuning van WebRTC}}{37}{table.2.6}% 
+\contentsline {table}{\numberline {2.6}{\ignorespaces ondersteuning van WebRTC}}{39}{table.2.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.7}{\ignorespaces ondersteuning Apple AirPlay}}{37}{table.2.7}% 
+\contentsline {table}{\numberline {2.7}{\ignorespaces ondersteuning Apple AirPlay}}{39}{table.2.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.8}{\ignorespaces ondersteuning van Chrome Sender API}}{37}{table.2.8}% 
+\contentsline {table}{\numberline {2.8}{\ignorespaces ondersteuning van Chrome Sender API}}{39}{table.2.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.9}{\ignorespaces ondersteuning van Media Session API}}{38}{table.2.9}% 
+\contentsline {table}{\numberline {2.9}{\ignorespaces ondersteuning van Media Session API}}{40}{table.2.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.10}{\ignorespaces ondersteuning van Web Bluetooth API}}{38}{table.2.10}% 
+\contentsline {table}{\numberline {2.10}{\ignorespaces ondersteuning van Web Bluetooth API}}{40}{table.2.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.11}{\ignorespaces ondersteuning van Web USB API}}{39}{table.2.11}% 
+\contentsline {table}{\numberline {2.11}{\ignorespaces ondersteuning van Web USB API}}{41}{table.2.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.12}{\ignorespaces ondersteuning van Web NFC API }}{39}{table.2.12}% 
+\contentsline {table}{\numberline {2.12}{\ignorespaces ondersteuning van Web NFC API }}{41}{table.2.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.13}{\ignorespaces ondersteuning van Network information API }}{39}{table.2.13}% 
+\contentsline {table}{\numberline {2.13}{\ignorespaces ondersteuning van Network information API }}{41}{table.2.13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.14}{\ignorespaces ondersteuning online status }}{40}{table.2.14}% 
+\contentsline {table}{\numberline {2.14}{\ignorespaces ondersteuning online status }}{42}{table.2.14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.15}{\ignorespaces ondersteuning vibratiemotor }}{40}{table.2.15}% 
+\contentsline {table}{\numberline {2.15}{\ignorespaces ondersteuning vibratiemotor }}{42}{table.2.15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.16}{\ignorespaces ondersteuning batterijstatus }}{40}{table.2.16}% 
+\contentsline {table}{\numberline {2.16}{\ignorespaces ondersteuning batterijstatus }}{42}{table.2.16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.17}{\ignorespaces ondersteuning toestelgeheugen }}{41}{table.2.17}% 
+\contentsline {table}{\numberline {2.17}{\ignorespaces ondersteuning toestelgeheugen }}{43}{table.2.17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.18}{\ignorespaces ondersteuning lokale notificaties }}{41}{table.2.18}% 
+\contentsline {table}{\numberline {2.18}{\ignorespaces ondersteuning lokale notificaties }}{43}{table.2.18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.19}{\ignorespaces ondersteuning push notificaties }}{42}{table.2.19}% 
+\contentsline {table}{\numberline {2.19}{\ignorespaces ondersteuning push notificaties }}{44}{table.2.19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.20}{\ignorespaces ondersteuning A2HS }}{42}{table.2.20}% 
+\contentsline {table}{\numberline {2.20}{\ignorespaces ondersteuning A2HS }}{44}{table.2.20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.21}{\ignorespaces ondersteuning Badging API }}{42}{table.2.21}% 
+\contentsline {table}{\numberline {2.21}{\ignorespaces ondersteuning Badging API }}{44}{table.2.21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.22}{\ignorespaces ondersteuning voorgrond detectie }}{42}{table.2.22}% 
+\contentsline {table}{\numberline {2.22}{\ignorespaces ondersteuning voorgrond detectie }}{44}{table.2.22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.23}{\ignorespaces ondersteuning Permissions API }}{43}{table.2.23}% 
+\contentsline {table}{\numberline {2.23}{\ignorespaces ondersteuning Permissions API }}{45}{table.2.23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.24}{\ignorespaces ondersteuning web storrage }}{44}{table.2.24}% 
+\contentsline {table}{\numberline {2.24}{\ignorespaces ondersteuning web storrage }}{46}{table.2.24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.25}{\ignorespaces ondersteuning IndexedDB}}{44}{table.2.25}% 
+\contentsline {table}{\numberline {2.25}{\ignorespaces ondersteuning IndexedDB}}{46}{table.2.25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.26}{\ignorespaces ondersteuning Cache API}}{44}{table.2.26}% 
+\contentsline {table}{\numberline {2.26}{\ignorespaces ondersteuning Cache API}}{46}{table.2.26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.27}{\ignorespaces ondersteuning Storage API}}{44}{table.2.27}% 
+\contentsline {table}{\numberline {2.27}{\ignorespaces ondersteuning Storage API}}{46}{table.2.27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.28}{\ignorespaces ondersteuning File API}}{45}{table.2.28}% 
+\contentsline {table}{\numberline {2.28}{\ignorespaces ondersteuning File API}}{47}{table.2.28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.29}{\ignorespaces ondersteuning Contacts API}}{45}{table.2.29}% 
+\contentsline {table}{\numberline {2.29}{\ignorespaces ondersteuning Contacts API}}{47}{table.2.29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.30}{\ignorespaces ondersteuning Messaging API}}{46}{table.2.30}% 
+\contentsline {table}{\numberline {2.30}{\ignorespaces ondersteuning Messaging API}}{48}{table.2.30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.31}{\ignorespaces ondersteuning Task Sheduler API }}{46}{table.2.31}% 
+\contentsline {table}{\numberline {2.31}{\ignorespaces ondersteuning Task Sheduler API }}{48}{table.2.31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.32}{\ignorespaces ondersteuning touch gebaren}}{46}{table.2.32}% 
+\contentsline {table}{\numberline {2.32}{\ignorespaces ondersteuning touch gebaren}}{48}{table.2.32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.33}{\ignorespaces ondersteuning Clipboard API}}{47}{table.2.33}% 
+\contentsline {table}{\numberline {2.33}{\ignorespaces ondersteuning Clipboard API}}{49}{table.2.33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.34}{\ignorespaces ondersteuning offline gebruik}}{47}{table.2.34}% 
+\contentsline {table}{\numberline {2.34}{\ignorespaces ondersteuning offline gebruik}}{49}{table.2.34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.35}{\ignorespaces ondersteuning achtergrondsynchronisatie}}{47}{table.2.35}% 
+\contentsline {table}{\numberline {2.35}{\ignorespaces ondersteuning achtergrondsynchronisatie}}{49}{table.2.35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.36}{\ignorespaces ondersteuning Web Share API en Web Share Target API}}{48}{table.2.36}% 
+\contentsline {table}{\numberline {2.36}{\ignorespaces ondersteuning Web Share API en Web Share Target API}}{50}{table.2.36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.37}{\ignorespaces ondersteuning Payment Request API}}{48}{table.2.37}% 
+\contentsline {table}{\numberline {2.37}{\ignorespaces ondersteuning Payment Request API}}{50}{table.2.37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.38}{\ignorespaces ondersteuning Credential Management API}}{48}{table.2.38}% 
+\contentsline {table}{\numberline {2.38}{\ignorespaces ondersteuning Credential Management API}}{50}{table.2.38}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.39}{\ignorespaces ondersteuning Geolocation API}}{49}{table.2.39}% 
+\contentsline {table}{\numberline {2.39}{\ignorespaces ondersteuning Geolocation API}}{51}{table.2.39}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.40}{\ignorespaces ondersteuning Geofencing API}}{49}{table.2.40}% 
+\contentsline {table}{\numberline {2.40}{\ignorespaces ondersteuning Geofencing API}}{51}{table.2.40}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.41}{\ignorespaces ondersteuning Device Orientation API }}{50}{table.2.41}% 
+\contentsline {table}{\numberline {2.41}{\ignorespaces ondersteuning Device Orientation API }}{52}{table.2.41}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.42}{\ignorespaces ondersteuning DeviceMotionEvent }}{50}{table.2.42}% 
+\contentsline {table}{\numberline {2.42}{\ignorespaces ondersteuning DeviceMotionEvent }}{52}{table.2.42}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.43}{\ignorespaces ondersteuning Accelerometer }}{50}{table.2.43}% 
+\contentsline {table}{\numberline {2.43}{\ignorespaces ondersteuning Accelerometer }}{52}{table.2.43}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.44}{\ignorespaces ondersteuning Gyroscope }}{50}{table.2.44}% 
+\contentsline {table}{\numberline {2.44}{\ignorespaces ondersteuning Gyroscope }}{52}{table.2.44}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.45}{\ignorespaces ondersteuning Magnetometer }}{50}{table.2.45}% 
+\contentsline {table}{\numberline {2.45}{\ignorespaces ondersteuning Magnetometer }}{52}{table.2.45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.46}{\ignorespaces ondersteuning LinearAccelerationSensor }}{51}{table.2.46}% 
+\contentsline {table}{\numberline {2.46}{\ignorespaces ondersteuning LinearAccelerationSensor }}{53}{table.2.46}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.47}{\ignorespaces ondersteuning Proximity API }}{51}{table.2.47}% 
+\contentsline {table}{\numberline {2.47}{\ignorespaces ondersteuning Proximity API }}{53}{table.2.47}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.48}{\ignorespaces ondersteuning WebVR en WebXR }}{51}{table.2.48}% 
+\contentsline {table}{\numberline {2.48}{\ignorespaces ondersteuning WebVR en WebXR }}{53}{table.2.48}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.49}{\ignorespaces ondersteuning Fullscreen API }}{51}{table.2.49}% 
+\contentsline {table}{\numberline {2.49}{\ignorespaces ondersteuning Fullscreen API }}{53}{table.2.49}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.50}{\ignorespaces ondersteuning Wake Lock API }}{52}{table.2.50}% 
+\contentsline {table}{\numberline {2.50}{\ignorespaces ondersteuning Wake Lock API }}{54}{table.2.50}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.51}{\ignorespaces conluderende tabel ‘functionaliteiten van een besturingssysteem’}}{54}{table.2.51}% 
+\contentsline {table}{\numberline {2.51}{\ignorespaces conluderende tabel ‘functionaliteiten van een besturingssysteem’}}{56}{table.2.51}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.52}{\ignorespaces concluderende tabel 'waarom een PWA'}}{65}{table.2.52}% 
+\contentsline {table}{\numberline {2.52}{\ignorespaces concluderende tabel 'waarom een PWA'}}{68}{table.2.52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.53}{\ignorespaces concluderende tabel 'beperkingen van een PWA'}}{67}{table.2.53}% 
+\contentsline {table}{\numberline {2.53}{\ignorespaces concluderende tabel 'beperkingen van een PWA'}}{70}{table.2.53}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
