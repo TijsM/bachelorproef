@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
-    \entry{Alabbas2020}{online}{}
+    \entry{Alabbas2018}{online}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=ca5efe2dc784e40b5280e77d510b9af4}{%
            family={Alabbas},
@@ -47,11 +47,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{20}
-      \field{month}{3}
+      \field{day}{30}
+      \field{month}{1}
       \field{title}{Indexed Database API 2.0}
-      \field{year}{2020}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2018}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/IndexedDB-2/
       \endverb
@@ -338,8 +342,12 @@
       \field{day}{22}
       \field{month}{3}
       \field{title}{Over updates voor iOS 13}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2020}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://support.apple.com/nl-be/HT210393#13
       \endverb
@@ -479,8 +487,12 @@
       \field{day}{14}
       \field{month}{1}
       \field{title}{Customize Media Notifications and Handle Playlists}
+      \field{urlday}{25}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://developers.google.com/web/updates/2017/02/media-session
       \endverb
@@ -611,7 +623,7 @@
       \verb https://www.scitepress.org/Papers/2017/63537/63537.pdf
       \endverb
     \endentry
-    \entry{Bogdanovich2020}{online}{}
+    \entry{Bogdanovich2017}{online}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=fdb0dc15a089eba421e0e6c7a6825d53}{%
            family={Bogdanovich},
@@ -645,11 +657,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{18}
-      \field{month}{3}
+      \field{day}{14}
+      \field{month}{12}
       \field{title}{Wake Lock API}
-      \field{year}{2020}
+      \field{urlday}{27}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2017}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/wake-lock/
       \endverb
@@ -697,7 +713,7 @@
       \verb https://is.muni.cz/th/433364/fi_b/bachelor-thesis-pavel-brousek-pwa.pdf
       \endverb
     \endentry
-    \entry{Caceres2020}{online}{}
+    \entry{Caceres2017}{online}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=ec510a8ac53f68891a3e6e9248f6631b}{%
            family={Cáceres},
@@ -731,11 +747,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{18}
-      \field{month}{3}
+      \field{day}{25}
+      \field{month}{9}
       \field{title}{Permissions}
-      \field{year}{2020}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2017}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/permissions/
       \endverb
@@ -743,7 +763,7 @@
       \verb https://www.w3.org/TR/permissions/
       \endverb
     \endentry
-    \entry{CasasSanchez2020}{online}{}
+    \entry{CasasSanchez2017}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=2b7dc06a8954c2a42490cee658bdc467}{%
            family={Casas-Sanchez},
@@ -765,11 +785,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{13}
-      \field{month}{3}
+      \field{day}{21}
+      \field{month}{6}
       \field{title}{MediaStream Recording}
-      \field{year}{2020}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2017}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/mediastream-recording/
       \endverb
@@ -845,7 +869,7 @@
       \verb https://blog.codemagic.io/flutter-vs-ios-android-reactnative-xamarin/
       \endverb
     \endentry
-    \entry{Denicola2020}{online}{}
+    \entry{Denicola2019}{online}{}
       \name{author}{5}{}{%
         {{uniquename=0,uniquepart=base,hash=29a4d916b527725d8985086ccc01fde0}{%
            family={Denicola},
@@ -891,11 +915,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{19}
-      \field{month}{3}
+      \field{day}{12}
+      \field{month}{12}
       \field{title}{Payment request API}
-      \field{year}{2020}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/payment-request/
       \endverb
@@ -997,8 +1025,12 @@
       \field{day}{1}
       \field{month}{5}
       \field{title}{Introduction to Push Notifications}
+      \field{urlday}{16}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://developers.google.com/web/ilt/pwa/introduction-to-push-notifications
       \endverb
@@ -1215,7 +1247,7 @@
       \verb https://www.youtube.com/watch?time_continue=15&v=1QILz1lAzWY
       \endverb
     \endentry
-    \entry{DzungDTran}{online}{}
+    \entry{DzungDTran2012}{online}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=e130e7359b94e27d105b2bcc54a2e2db}{%
            family={Dzung\bibnamedelimb D\bibnamedelima Tran},
@@ -1249,11 +1281,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{16}
+      \field{day}{22}
       \field{month}{3}
       \field{title}{The Media Capture API}
-      \field{year}{2020}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2012}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/media-capture-api/
       \endverb
@@ -1469,7 +1505,7 @@
       \verb http://lnu.diva-portal.org/smash/record.jsf?pid=diva2:1105475&dswid=-6098
       \endverb
     \endentry
-    \entry{Fullea2020}{online}{}
+    \entry{Fullea2015}{online}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=5fc974b09eb67ce3776b96b85aa691f9}{%
            family={Fullea},
@@ -1503,11 +1539,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{18}
-      \field{month}{3}
+      \field{day}{5}
+      \field{month}{6}
       \field{title}{Messaging API}
-      \field{year}{2020}
+      \field{urlday}{24}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2015}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/messaging/
       \endverb
@@ -1540,8 +1580,12 @@
       \field{day}{9}
       \field{month}{8}
       \field{title}{Service Workers: an Introduction}
+      \field{urlday}{20}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://developers.google.com/web/fundamentals/primers/service-workers
       \endverb
@@ -1616,7 +1660,7 @@
       \field{year}{2018}
       \field{dateera}{ce}
     \endentry
-    \entry{Giuca2020}{online}{}
+    \entry{Giuca2019}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=9d9635ed61a115b828f3ba31dbfe1706}{%
            family={Giuca},
@@ -1638,11 +1682,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{16}
-      \field{month}{3}
+      \field{day}{17}
+      \field{month}{12}
       \field{title}{Web Share API}
-      \field{year}{2020}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/web-share/
       \endverb
@@ -1877,11 +1925,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{17}
+      \field{day}{20}
       \field{month}{3}
       \field{title}{Web Bluetooth}
+      \field{urlday}{23}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
       \field{year}{2020}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://webbluetoothcg.github.io/web-bluetooth/
       \endverb
@@ -1889,7 +1941,7 @@
       \verb https://webbluetoothcg.github.io/web-bluetooth/
       \endverb
     \endentry
-    \entry{Gregg2020}{online}{}
+    \entry{Gregg2015}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=bf99544231063faf89318968512d605d}{%
            family={Gregg},
@@ -1911,11 +1963,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{18}
-      \field{month}{3}
+      \field{day}{22}
+      \field{month}{10}
       \field{title}{Web Notifications}
-      \field{year}{2020}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2015}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/notifications/
       \endverb
@@ -1923,7 +1979,7 @@
       \verb https://www.w3.org/TR/notifications/
       \endverb
     \endentry
-    \entry{Grigorik2020}{online}{}
+    \entry{Grigorik2017}{online}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=a31c46a084bc509f462678dc9d690d98}{%
            family={Grigorik},
@@ -1957,16 +2013,55 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{10}
-      \field{month}{3}
+      \field{day}{17}
+      \field{month}{10}
       \field{title}{Page Visibility level 2}
-      \field{year}{2020}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2017}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/page-visibility-2/#introduction
       \endverb
       \verb{url}
       \verb https://www.w3.org/TR/page-visibility-2/#introduction
+      \endverb
+    \endentry
+    \entry{gsmArena2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=192738fb5373958dbbfca58bdc589c5a}{%
+           family={gsmArena},
+           familyi={g\bibinitperiod}}}%
+      }
+      \strng{namehash}{192738fb5373958dbbfca58bdc589c5a}
+      \strng{fullhash}{192738fb5373958dbbfca58bdc589c5a}
+      \strng{bibnamehash}{192738fb5373958dbbfca58bdc589c5a}
+      \strng{authorbibnamehash}{192738fb5373958dbbfca58bdc589c5a}
+      \strng{authornamehash}{192738fb5373958dbbfca58bdc589c5a}
+      \strng{authorfullhash}{192738fb5373958dbbfca58bdc589c5a}
+      \field{sortinit}{g}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{3}
+      \field{title}{Network coverage}
+      \field{urlday}{2}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gsmarena.com/network-bands.php3
+      \endverb
+      \verb{url}
+      \verb https://www.gsmarena.com/network-bands.php3
       \endverb
     \endentry
     \entry{Gustafson2017}{inproceedings}{}
@@ -2086,7 +2181,7 @@
       \verb https://www.youtube.com/watch?v=vhg01Ml-8pI
       \endverb
     \endentry
-    \entry{Hickson2020}{online}{}
+    \entry{Hickson2016}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=db5f40593e9b2351c0da21f4e71fdd28}{%
            family={Hickson},
@@ -2108,11 +2203,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{17}
-      \field{month}{3}
+      \field{day}{16}
+      \field{month}{4}
       \field{title}{Web Storage (second edition)}
-      \field{year}{2020}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2016}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/webstorage/
       \endverb
@@ -2349,7 +2448,7 @@
       \verb https://research.vu.nl/en/publications/beyond-native-apps-web-technologies-to-the-rescue-keynote
       \endverb
     \endentry
-    \entry{Jennings2020}{online}{}
+    \entry{Jennings2019}{online}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=6ec10d8f26f4d082a049a9e605d73b99}{%
            family={Jennings},
@@ -2383,11 +2482,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{18}
-      \field{month}{3}
+      \field{day}{13}
+      \field{month}{12}
       \field{title}{WebRTC 1.0: Real-time Communication Between Browsers}
-      \field{year}{2020}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/webrtc/
       \endverb
@@ -2423,7 +2526,7 @@
       \field{year}{2007}
       \field{dateera}{ce}
     \endentry
-    \entry{Jones2020}{online}{}
+    \entry{Jones2019}{online}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=3eb8a512a324ad27522d8b12d6ef323d}{%
            family={Jones},
@@ -2451,59 +2554,20 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{19}
-      \field{month}{3}
+      \field{day}{10}
+      \field{month}{10}
       \field{title}{WebXR Device API}
-      \field{year}{2020}
+      \field{urlday}{27}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/webxr/
       \endverb
       \verb{url}
       \verb https://www.w3.org/TR/webxr/
-      \endverb
-    \endentry
-    \entry{Kacmarcik2020}{online}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=8e404f5b352b0193b0eeacfe80fa1b7b}{%
-           family={Kacmarcik},
-           familyi={K\bibinitperiod},
-           given={Gary},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=3f26c7e9af387ecc7b7b13616ef437ac}{%
-           family={Lyukshin},
-           familyi={L\bibinitperiod},
-           given={Grisha},
-           giveni={G\bibinitperiod},
-           givenun=0,
-           suffix={Grisha},
-           suffixi={G\bibinitperiod},
-           suffixun=0}}%
-      }
-      \strng{namehash}{6dc94d550ce8f21d7933cb26cf322e6d}
-      \strng{fullhash}{6dc94d550ce8f21d7933cb26cf322e6d}
-      \strng{bibnamehash}{6dc94d550ce8f21d7933cb26cf322e6d}
-      \strng{authorbibnamehash}{6dc94d550ce8f21d7933cb26cf322e6d}
-      \strng{authornamehash}{6dc94d550ce8f21d7933cb26cf322e6d}
-      \strng{authorfullhash}{6dc94d550ce8f21d7933cb26cf322e6d}
-      \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{20}
-      \field{month}{3}
-      \field{title}{Clipboard API and events}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://www.w3.org/TR/clipboard-apis/
-      \endverb
-      \verb{url}
-      \verb https://www.w3.org/TR/clipboard-apis/
       \endverb
     \endentry
     \entry{Kawatka2020}{booklet}{}
@@ -2584,7 +2648,7 @@
       \verb https://developers.google.com/web/fundamentals/media/recording-audio
       \endverb
     \endentry
-    \entry{Kostiainen2020a}{online}{}
+    \entry{Kostiainen2019}{online}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=8d34b8de2262123e61846f8eba868e63}{%
            family={Kostiainen},
@@ -2611,11 +2675,15 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{17}
-      \field{month}{3}
+      \field{day}{5}
+      \field{month}{5}
       \field{title}{Proximity Sensor}
-      \field{year}{2020}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/proximity/
       \endverb
@@ -2623,7 +2691,7 @@
       \verb https://www.w3.org/TR/proximity/
       \endverb
     \endentry
-    \entry{Kostiainen2020}{online}{}
+    \entry{Kostiainen2016}{online}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=8d34b8de2262123e61846f8eba868e63}{%
            family={Kostiainen},
@@ -2650,11 +2718,15 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{25}
-      \field{month}{3}
+      \field{day}{7}
+      \field{month}{7}
       \field{title}{Battery Status API}
-      \field{year}{2020}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2016}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb w3.org/TR/battery-status/
       \endverb
@@ -2662,7 +2734,7 @@
       \verb w3.org/TR/battery-status/
       \endverb
     \endentry
-    \entry{Kostionen2020}{online}{}
+    \entry{Kostionen2018}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=bd5bc772374ea1fd47e86a7571420391}{%
            family={Kostionen},
@@ -2684,10 +2756,10 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{19}
-      \field{month}{3}
+      \field{day}{18}
+      \field{month}{10}
       \field{title}{Vibration API(second edition)}
-      \field{year}{2020}
+      \field{year}{2016}
       \field{dateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/vibration/
@@ -2696,7 +2768,7 @@
       \verb https://www.w3.org/TR/vibration/
       \endverb
     \endentry
-    \entry{Kruisselbrink2020}{online}{}
+    \entry{Kruisselbrink2019}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=1060568a0b2ef44dcca099b07e5be8f2}{%
            family={Kruisselbrink},
@@ -2711,19 +2783,22 @@
       \strng{authorbibnamehash}{1060568a0b2ef44dcca099b07e5be8f2}
       \strng{authornamehash}{1060568a0b2ef44dcca099b07e5be8f2}
       \strng{authorfullhash}{1060568a0b2ef44dcca099b07e5be8f2}
-      \field{extraname}{1}
       \field{sortinit}{K}
       \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{15}
-      \field{month}{3}
+      \field{day}{11}
+      \field{month}{9}
       \field{title}{File API}
-      \field{year}{2020}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/FileAPI/
       \endverb
@@ -2731,42 +2806,7 @@
       \verb https://www.w3.org/TR/FileAPI/
       \endverb
     \endentry
-    \entry{Kruisselbrink2020a}{online}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=1060568a0b2ef44dcca099b07e5be8f2}{%
-           family={Kruisselbrink},
-           familyi={K\bibinitperiod},
-           given={Marijn},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{1060568a0b2ef44dcca099b07e5be8f2}
-      \strng{fullhash}{1060568a0b2ef44dcca099b07e5be8f2}
-      \strng{bibnamehash}{1060568a0b2ef44dcca099b07e5be8f2}
-      \strng{authorbibnamehash}{1060568a0b2ef44dcca099b07e5be8f2}
-      \strng{authornamehash}{1060568a0b2ef44dcca099b07e5be8f2}
-      \strng{authorfullhash}{1060568a0b2ef44dcca099b07e5be8f2}
-      \field{extraname}{2}
-      \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{17}
-      \field{month}{3}
-      \field{title}{Geofencing API}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://www.w3.org/TR/geofencing/
-      \endverb
-      \verb{url}
-      \verb https://www.w3.org/TR/geofencing/
-      \endverb
-    \endentry
-    \entry{Kulkarni2020}{online}{}
+    \entry{Kulkarni2015}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=b68f5aab9c5d97b44b835655c4e1afad}{%
            family={Kulkarni},
@@ -2788,11 +2828,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{17}
-      \field{month}{3}
+      \field{day}{23}
+      \field{month}{7}
       \field{title}{Task Scheduler API Specification}
-      \field{year}{2020}
+      \field{urlday}{12}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2015}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/task-scheduler/
       \endverb
@@ -2800,7 +2844,7 @@
       \verb https://www.w3.org/TR/task-scheduler/
       \endverb
     \endentry
-    \entry{Lamouri2020}{online}{}
+    \entry{Lamouri2014}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=98beb7c160739a875adadcbdea753120}{%
            family={Lamouri},
@@ -2822,11 +2866,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{20}
-      \field{month}{3}
+      \field{day}{10}
+      \field{month}{4}
       \field{title}{The Network Information API}
-      \field{year}{2020}
+      \field{urlday}{20}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2015}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/netinfo-api/
       \endverb
@@ -2976,8 +3024,12 @@
       \field{day}{13}
       \field{month}{3}
       \field{title}{Badging for app icons}
+      \field{urlday}{23}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
       \field{year}{2020}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://web.dev/badging-api/
       \endverb
@@ -3015,8 +3067,12 @@
       \field{day}{25}
       \field{month}{2}
       \field{title}{Add a web app manifest}
+      \field{urlday}{18}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
       \field{year}{2020}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://web.dev/add-manifest/
       \endverb
@@ -3124,7 +3180,7 @@
       \verb https://ionicframework.com/blog/native-or-pwa-how-to-choose-the-right-approach-for-mobile-app-development/
       \endverb
     \endentry
-    \entry{Mandyam2020}{online}{}
+    \entry{Mandyam2017}{online}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=7d954e582d950d05d1e1e1ba17bb53e0}{%
            family={Mandyam},
@@ -3152,11 +3208,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{5}
-      \field{month}{3}
+      \field{day}{21}
+      \field{month}{6}
       \field{title}{MediaStream Image Capture}
-      \field{year}{2020}
+      \field{urlday}{5}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2017}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/image-capture/
       \endverb
@@ -3314,8 +3374,12 @@
       \field{day}{18}
       \field{month}{11}
       \field{title}{IndexedDB API}
+      \field{urlday}{16}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
       \endverb
@@ -3378,8 +3442,12 @@
       \field{day}{11}
       \field{month}{12}
       \field{title}{Notifications API}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API
       \endverb
@@ -3411,8 +3479,12 @@
       \field{journaltitle}{Push API}
       \field{month}{12}
       \field{title}{Push API}
+      \field{urlday}{25}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://developer.mozilla.org/en-US/docs/Web/API/Push_API
       \endverb
@@ -3443,8 +3515,12 @@
       \field{day}{6}
       \field{month}{2}
       \field{title}{Using Service Workers}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2020}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers
       \endverb
@@ -3508,8 +3584,12 @@
       \field{day}{6}
       \field{month}{3}
       \field{title}{Making PWAs work offline with Service workers}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2020}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Offline_Service_workers
       \endverb
@@ -3841,8 +3921,12 @@
       \field{day}{14}
       \field{month}{5}
       \field{title}{The App Shell Mode}
+      \field{urlday}{20}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://developers.google.com/web/fundamentals/architecture/app-shell
       \endverb
@@ -3880,8 +3964,12 @@
       \field{day}{12}
       \field{month}{2}
       \field{title}{Offline Storage for Progressive Web Apps}
+      \field{urlday}{21}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/offline-for-pwa
       \endverb
@@ -3919,8 +4007,12 @@
       \field{day}{17}
       \field{month}{11}
       \field{title}{Instant Loading Web Apps With An Application Shell Architecture}
+      \field{urlday}{7}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
       \field{year}{2015}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://medium.com/google-developers/instant-loading-web-apps-with-an-application-shell-architecture-7c0c2f10c73
       \endverb
@@ -3928,7 +4020,7 @@
       \verb https://medium.com/google-developers/instant-loading-web-apps-with-an-application-shell-architecture-7c0c2f10c73
       \endverb
     \endentry
-    \entry{Panicker2020}{online}{}
+    \entry{Panicker2018}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=93cb1a351b05ba32cfff965e3c253179}{%
            family={Panicker},
@@ -3950,12 +4042,16 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{11}
+      \field{day}{15}
       \field{journaltitle}{Device Memory}
-      \field{month}{3}
+      \field{month}{9}
       \field{title}{Device Memory}
-      \field{year}{2020}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2018}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/device-memory/
       \endverb
@@ -4005,7 +4101,7 @@
       \verb https://www.emsec.ruhr-uni-bochum.de/media/crypto/attachments/files/2011/04/near_field_communication_in_cell_phones.pdf
       \endverb
     \endentry
-    \entry{Popescu2020}{online}{}
+    \entry{Popescu2018}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=4916c585d4c7d99f27aa6bb8ca2f890a}{%
            family={Popescu},
@@ -4027,11 +4123,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{24}
-      \field{month}{3}
+      \field{day}{31}
+      \field{month}{1}
       \field{title}{Geolocation API Specification 2nd Edition}
-      \field{year}{2020}
+      \field{urlday}{20}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2018}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/geolocation-API/
       \endverb
@@ -4061,8 +4161,12 @@
       \field{day}{16}
       \field{month}{3}
       \field{title}{Install your PWA from the browser}
+      \field{urlday}{8}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2020}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.pwabuilder.com/feature/Install your PWA
       \endverb
@@ -4164,8 +4268,12 @@
       \field{day}{6}
       \field{month}{3}
       \field{title}{What are Progressive Web Apps?}
+      \field{urlday}{6}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
       \field{year}{2020}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://web.dev/what-are-pwas/
       \endverb
@@ -4207,11 +4315,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{25}
-      \field{month}{3}
+      \field{day}{1}
+      \field{month}{5}
       \field{title}{WebUSB API}
+      \field{urlday}{1}
+      \field{urlmonth}{4}
+      \field{urlyear}{2020}
       \field{year}{2020}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://wicg.github.io/webusb/
       \endverb
@@ -4368,8 +4480,12 @@
       \field{day}{12}
       \field{month}{2}
       \field{title}{Using the Cache API}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/cache-api
       \endverb
@@ -4504,8 +4620,12 @@
       \field{day}{5}
       \field{month}{7}
       \field{title}{Apple details history of App Store on its 10th anniversary}
+      \field{urlday}{26}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2018}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://appleinsider.com/articles/18/07/05/apple-details-history-of-app-store-on-its-10th-anniversary
       \endverb
@@ -4600,8 +4720,12 @@
       \field{day}{16}
       \field{month}{11}
       \field{title}{The end of apps}
+      \field{urlday}{10}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2016}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.youtube.com/watch?v=ZeIqNDkyVEo&list=WL&index=46&t=0s
       \endverb
@@ -4679,11 +4803,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{25}
-      \field{month}{3}
+      \field{day}{4}
+      \field{month}{2}
       \field{title}{Push API}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{year}{2020}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/push-api/
       \endverb
@@ -4770,7 +4898,7 @@
       \verb https://www.researchgate.net/publication/330834334_Impact_of_Progressive_Web_Apps_on_Web_App_Development
       \endverb
     \endentry
-    \entry{Tibbett2020a}{online}{}
+    \entry{Tibbett2019}{online}{}
       \name{author}{1}{}{%
         {{uniquename=2,uniquepart=given,hash=ae709c0c58686212b7a77618992bca49}{%
            family={Tibbett},
@@ -4791,11 +4919,15 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{10}
-      \field{month}{3}
+      \field{day}{16}
+      \field{month}{4}
       \field{title}{DeviceOrientation Event Specification}
-      \field{year}{2020}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/orientation-event/
       \endverb
@@ -4803,7 +4935,7 @@
       \verb https://www.w3.org/TR/orientation-event/
       \endverb
     \endentry
-    \entry{Tibbett2020}{online}{}
+    \entry{Tibbett2014}{online}{}
       \name{author}{3}{}{%
         {{uniquename=2,uniquepart=given,hash=016bb40413e2eaac913a4f81158ef8f2}{%
            family={Tibbett},
@@ -4836,11 +4968,15 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{18}
-      \field{month}{3}
+      \field{day}{14}
+      \field{month}{1}
       \field{title}{Pick Contacts Intent}
-      \field{year}{2020}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2014}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/contacts-api/
       \endverb
@@ -4848,7 +4984,7 @@
       \verb https://www.w3.org/TR/contacts-api/
       \endverb
     \endentry
-    \entry{Kesteren2020}{online}{}
+    \entry{Kesteren2014}{online}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=3434aa4dbf8d01e7bec85d6a2c419a9a}{%
            family={Kesteren},
@@ -4877,11 +5013,15 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{24}
-      \field{month}{3}
+      \field{day}{18}
+      \field{month}{11}
       \field{title}{Fullscreen}
-      \field{year}{2020}
+      \field{urlday}{26}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2014}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/fullscreen/
       \endverb
@@ -4889,7 +5029,7 @@
       \verb https://www.w3.org/TR/fullscreen/
       \endverb
     \endentry
-    \entry{vanKesteren2020}{online}{}
+    \entry{vanKesteren2008}{online}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=3434aa4dbf8d01e7bec85d6a2c419a9a}{%
            family={Kesteren},
@@ -4918,11 +5058,15 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{18}
-      \field{month}{3}
+      \field{day}{8}
+      \field{month}{5}
       \field{title}{Offline web applications}
-      \field{year}{2020}
+      \field{urlday}{26}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2008}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/offline-webapps/
       \endverb
@@ -5085,7 +5229,7 @@
       \verb https://www.simicart.com/blog/spotify-pwa/
       \endverb
     \endentry
-    \entry{Waldroon2020}{online}{}
+    \entry{Waldroon2019}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=c122bee200f378aca7e427f31441017c}{%
            family={Waldroon},
@@ -5107,11 +5251,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{18}
-      \field{month}{3}
+      \field{day}{12}
+      \field{month}{12}
       \field{title}{Generic Sensor API}
-      \field{year}{2020}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/generic-sensor/
       \endverb
@@ -5258,7 +5406,7 @@
       \verb https://www.theseus.fi/bitstream/handle/10024/146232/thesis.pdf?sequence=1
       \endverb
     \endentry
-    \entry{West2020}{online}{}
+    \entry{West2019}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=e63f732a7215ae555cfe12e23cfd2886}{%
            family={West},
@@ -5280,11 +5428,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{18}
-      \field{month}{3}
+      \field{day}{17}
+      \field{month}{1}
       \field{title}{Credential Management Level 1}
-      \field{year}{2020}
+      \field{urlday}{16}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.w3.org/TR/credential-management-1/
       \endverb
@@ -5360,7 +5512,7 @@
       \verb https://cdn.embedly.com/widgets/media.html?type=text%2Fhtml&key=a19fcc184b9711e1b4764040d3dc5c07&schema=twitter&url=https%3A//twitter.com/johnwilander/status/1139278479436865536&image=https%3A//i.embed.ly/1/image%3Furl%3Dhttps%253A%252F%252Fpbs.twimg.com%252Fprofile_images%252F341321376%252Fjohn_sjunger_715_beskuren_400x400.jpg%26key%3Da19fcc184b9711e1b4764040d3dc5c07
       \endverb
     \endentry
-    \entry{Williger2020}{online}{}
+    \entry{Williger2019}{online}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=7856e2644de697b9d38a2819a0532d6b}{%
            family={Williger},
@@ -5388,11 +5540,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{16}
-      \field{month}{3}
+      \field{day}{27}
+      \field{month}{12}
       \field{title}{Web Share Target API}
-      \field{year}{2020}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2019}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://wicg.github.io/web-share-target/
       \endverb
@@ -5485,7 +5641,8 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Pollefliet2011}
+  \missing{Kacmarcik2010}
+  \missing{Kruisselbrink2017}
   \missing{Sayali2018}
 \endrefsection
 \endinput

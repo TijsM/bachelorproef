@@ -1,10 +1,11 @@
 % Encoding: UTF-8
 
 @Online{Richard2020,
-  author = {Richard, Sam and LePage, Pete},
-  date   = {2020-03-06},
-  title  = {What are Progressive Web Apps?},
-  url    = {https://web.dev/what-are-pwas/},
+  author  = {Richard, Sam and LePage, Pete},
+  date    = {2020-03-06},
+  title   = {What are Progressive Web Apps?},
+  url     = {https://web.dev/what-are-pwas/},
+  urldate = {2020-04-06},
 }
 
 @Article{Google2020,
@@ -16,10 +17,11 @@
 }
 
 @Online{Mozilla2020,
-  author = {Mozilla, Developer},
-  date   = {2020-03-06},
-  title  = {Making PWAs work offline with Service workers},
-  url    = {https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Offline_Service_workers},
+  author  = {Mozilla, Developer},
+  date    = {2020-03-06},
+  title   = {Making PWAs work offline with Service workers},
+  url     = {https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Offline_Service_workers},
+  urldate = {2020-03-17},
 }
 
 @Article{Verdu2015,
@@ -65,45 +67,51 @@
 }
 
 @Online{Osmani2019,
-  author = {Osmani, Addy and Cohen, Marc},
-  date   = {2019-02-12},
-  title  = {Offline Storage for Progressive Web Apps},
-  url    = {https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/offline-for-pwa},
+  author  = {Osmani, Addy and Cohen, Marc},
+  date    = {2019-02-12},
+  title   = {Offline Storage for Progressive Web Apps},
+  url     = {https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/offline-for-pwa},
+  urldate = {2020-03-21},
 }
 
 @Online{Mozilla2020a,
-  author = {Mozilla},
-  date   = {2020-02-06},
-  title  = {Using Service Workers},
-  url    = {https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers},
+  author  = {Mozilla},
+  date    = {2020-02-06},
+  title   = {Using Service Workers},
+  url     = {https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers},
+  urldate = {2020-03-18},
 }
 
 @Online{Scales2019,
-  author = {Scales, Mat},
-  date   = {2019-02-12},
-  title  = {Using the Cache API},
-  url    = {https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/cache-api},
+  author  = {Scales, Mat},
+  date    = {2019-02-12},
+  title   = {Using the Cache API},
+  url     = {https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/cache-api},
+  urldate = {2020-03-17},
 }
 
 @Online{Mozilla2019,
-  author = {Mozilla},
-  date   = {2019-11-18},
-  title  = {IndexedDB API},
-  url    = {https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API},
+  author  = {Mozilla},
+  date    = {2019-11-18},
+  title   = {IndexedDB API},
+  url     = {https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API},
+  urldate = {2020-03-16},
 }
 
 @Online{Developers2019,
-  author = {Developers, Google},
-  date   = {2019-05-01},
-  title  = {Introduction to Push Notifications},
-  url    = {https://developers.google.com/web/ilt/pwa/introduction-to-push-notifications},
+  author  = {Developers, Google},
+  date    = {2019-05-01},
+  title   = {Introduction to Push Notifications},
+  url     = {https://developers.google.com/web/ilt/pwa/introduction-to-push-notifications},
+  urldate = {2020-03-16},
 }
 
 @Online{Mozilla2019a,
-  author = {Mozilla},
-  date   = {2019-12-11},
-  title  = {Notifications API},
-  url    = {https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API},
+  author  = {Mozilla},
+  date    = {2019-12-11},
+  title   = {Notifications API},
+  url     = {https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API},
+  urldate = {2020-03-19},
 }
 
 @Online{Mozilla2019b,
@@ -111,6 +119,7 @@
   date         = {2019-12-13},
   title        = {Push API},
   url          = {https://developer.mozilla.org/en-US/docs/Web/API/Push_API},
+  urldate      = {2020-03-25},
   journaltitle = {Push API},
 }
 
@@ -122,31 +131,35 @@
 }
 
 @Online{Gaunt2019,
-  author = {Gaunt, Matt},
-  date   = {2019-08-09},
-  title  = {Service Workers: an Introduction},
-  url    = {https://developers.google.com/web/fundamentals/primers/service-workers},
+  author  = {Gaunt, Matt},
+  date    = {2019-08-09},
+  title   = {Service Workers: an Introduction},
+  url     = {https://developers.google.com/web/fundamentals/primers/service-workers},
+  urldate = {2020-03-20},
 }
 
 @Online{PWAbuilder2020,
-  author = {PWAbuilder},
-  date   = {2020-03-16},
-  title  = {Install your PWA from the browser},
-  url    = {https://www.pwabuilder.com/feature/Install your PWA},
+  author  = {PWAbuilder},
+  date    = {2020-03-16},
+  title   = {Install your PWA from the browser},
+  url     = {https://www.pwabuilder.com/feature/Install your PWA},
+  urldate = {2020-03-08},
 }
 
 @Online{Osmani2019a,
-  author = {Osmani, Addy},
-  date   = {2019-05-14},
-  title  = {The App Shell Mode},
-  url    = {https://developers.google.com/web/fundamentals/architecture/app-shell},
+  author  = {Osmani, Addy},
+  date    = {2019-05-14},
+  title   = {The App Shell Mode},
+  url     = {https://developers.google.com/web/fundamentals/architecture/app-shell},
+  urldate = {2020-03-20},
 }
 
 @Online{Osmani2015,
-  author = {Osmani, Addy and Gaunt, Matt},
-  date   = {2015-11-17},
-  title  = {Instant Loading Web Apps With An Application Shell Architecture},
-  url    = {https://medium.com/google-developers/instant-loading-web-apps-with-an-application-shell-architecture-7c0c2f10c73},
+  author  = {Osmani, Addy and Gaunt, Matt},
+  date    = {2015-11-17},
+  title   = {Instant Loading Web Apps With An Application Shell Architecture},
+  url     = {https://medium.com/google-developers/instant-loading-web-apps-with-an-application-shell-architecture-7c0c2f10c73},
+  urldate = {2020-04-07},
 }
 
 @Thesis{Vanhala2017,
@@ -160,10 +173,11 @@
 }
 
 @Online{LePage2020,
-  author = {LePage, Pete and Beaufort, Francois},
-  date   = {2020-02-25},
-  title  = {Add a web app manifest},
-  url    = {https://web.dev/add-manifest/},
+  author  = {LePage, Pete and Beaufort, Francois},
+  date    = {2020-02-25},
+  title   = {Add a web app manifest},
+  url     = {https://web.dev/add-manifest/},
+  urldate = {2020-02-18},
 }
 
 @Conference{Jobs2007,
@@ -173,17 +187,19 @@
 }
 
 @Online{Strieb2016,
-  author = {Strieb, James},
-  date   = {2016-11-16},
-  title  = {The end of apps},
-  url    = {https://www.youtube.com/watch?v=ZeIqNDkyVEo&list=WL&index=46&t=0s},
+  author  = {Strieb, James},
+  date    = {2016-11-16},
+  title   = {The end of apps},
+  url     = {https://www.youtube.com/watch?v=ZeIqNDkyVEo&list=WL&index=46&t=0s},
+  urldate = {2020-03-10},
 }
 
 @Online{Silver2018,
-  author = {Silver, Stephen},
-  date   = {2018-07-05},
-  title  = {Apple details history of App Store on its 10th anniversary},
-  url    = {https://appleinsider.com/articles/18/07/05/apple-details-history-of-app-store-on-its-10th-anniversary},
+  author  = {Silver, Stephen},
+  date    = {2018-07-05},
+  title   = {Apple details history of App Store on its 10th anniversary},
+  url     = {https://appleinsider.com/articles/18/07/05/apple-details-history-of-app-store-on-its-10th-anniversary},
+  urldate = {2020-03-26},
 }
 
 @Conference{Russel2015,
@@ -195,10 +211,11 @@
 }
 
 @Online{Apple2020,
-  author = {Apple},
-  date   = {2020-03-22},
-  title  = {Over updates voor iOS 13},
-  url    = {https://support.apple.com/nl-be/HT210393#13},
+  author  = {Apple},
+  date    = {2020-03-22},
+  title   = {Over updates voor iOS 13},
+  url     = {https://support.apple.com/nl-be/HT210393#13},
+  urldate = {2020-03-18},
 }
 
 @Online{Microsoft2020,

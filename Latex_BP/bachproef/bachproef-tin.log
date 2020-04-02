@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  1 APR 2020 21:21
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  2 APR 2020 08:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1490,25 +1490,25 @@ Package csquotes Info: Redefining alias 'default' -> 'dutch'.
 (./bachproef-tin.aux)
 \openout1 = `bachproef-tin.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 105.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1549,7 +1549,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 
 \c@lstlisting=\count475
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \microtypecontext on input line 104.
+LaTeX Info: Redefining \microtypecontext on input line 105.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1560,7 +1560,7 @@ Package microtype Info: No adjustment of kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 \AtBeginShipoutBox=\box78
-Package hyperref Info: Link coloring OFF on input line 104.
+Package hyperref Info: Link coloring OFF on input line 105.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1570,9 +1570,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count476
 )
-LaTeX Info: Redefining \ref on input line 104.
-LaTeX Info: Redefining \pageref on input line 104.
-LaTeX Info: Redefining \nameref on input line 104.
+LaTeX Info: Redefining \ref on input line 105.
+LaTeX Info: Redefining \pageref on input line 105.
+LaTeX Info: Redefining \nameref on input line 105.
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -1586,7 +1586,14 @@ Package biblatex Info: ... file 'bachproef-tin.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Pollefliet2011
+(biblatex)                Kacmarcik2010
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Kruisselbrink2017
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -1598,8 +1605,8 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 104.
-Package biblatex Info: Reference segment=0 on input line 104.
+Package biblatex Info: Reference section=0 on input line 105.
+Package biblatex Info: Reference segment=0 on input line 105.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -1755,9 +1762,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [13
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14]
+[14]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ‘ in font pagk8t!
@@ -1766,69 +1771,11 @@ Missing character: There is no ’ in font pagk8t!
 \tf@lot=\write8
 \openout8 = `bachproef-tin.lot'.
 
-
-(./inleiding.tex [15] [16
-
-]
-Hoofdstuk 1.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 34.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
- [18])
-(./standvanzaken.tex [19] [20
+ [15] [16
 
 ]
-Hoofdstuk 2.
-(./Literatuurstudie/WatIsEenPwa.tex [21]
-Missing character: There is no ’ in font ptmr8t!
-File: ./img/WatIsEenPwa.png Graphic file (type bmp)
-<./img/WatIsEenPwa.png>
-LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 41.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 41.
- [22]
-Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ‘ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ‘ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 81.
-Missing character: There is no ‘ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ‘ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23]
-Missing character: There is no ’ in font ptmr8t!
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 110.
-
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 111.
-Missing character: There is no “ in font ec-lmtt10!
-Missing character: There is no ” in font ec-lmtt10!
- [24]
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 14
-1.
+7.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -1838,19 +1785,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 14
-1.
+7.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 14
-1.
+7.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 14
-1.
+7.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
@@ -1861,23 +1808,92 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 141.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 147.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+Overfull \vbox (58.42528pt too high) has occurred while \output is active []
+
+
+[18] (./inleiding.tex
+Hoofdstuk 1.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19
+
+]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 34.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
+ [20])
+(./standvanzaken.tex [21] [22
+
+]
+Hoofdstuk 2.
+(./Literatuurstudie/WatIsEenPwa.tex [23]
+Missing character: There is no ’ in font ptmr8t!
+File: ./img/WatIsEenPwa.png Graphic file (type bmp)
+<./img/WatIsEenPwa.png>
+LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 42.
+ [24]
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no ‘ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no ‘ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 85.
+Missing character: There is no ‘ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no ‘ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+Missing character: There is no ’ in font ptmr8t!
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 114.
+
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 115.
+Missing character: There is no “ in font ec-lmtt10!
+Missing character: There is no ” in font ec-lmtt10!
+ [26]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
- [25]
+ [27]
 File: ./img/backSync1.png Graphic file (type bmp)
 <./img/backSync1.png>
 File: ./img/backSync2.png Graphic file (type bmp)
@@ -1885,7 +1901,7 @@ File: ./img/backSync2.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
+ [28]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -1899,7 +1915,7 @@ File: ./img/ServiceWorkerLifeCycle.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27]
+ [29]
 File: ./img/beforeinstallprompt_windows.png Graphic file (type bmp)
 <./img/beforeinstallprompt_windows.png>
 File: ./img/beforeinstallprompt_android.png Graphic file (type bmp)
@@ -1907,14 +1923,14 @@ File: ./img/beforeinstallprompt_android.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
+ [30]
 File: ./img/ApplicationShell.png Graphic file (type bmp)
 <./img/ApplicationShell.png>
 
 Underfull \vbox (badness 3942) has occurred while \output is active []
 
- [29]
-[30]
+ [31]
+[32]
 Missing character: There is no – in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
@@ -1923,7 +1939,7 @@ Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
 
-Overfull \hbox (25.95328pt too wide) in paragraph at lines 320--342
+Overfull \hbox (25.95328pt too wide) in paragraph at lines 324--346
  [][] 
  []
 
@@ -1932,7 +1948,7 @@ Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 2343) has occurred while \output is active []
 
- [31]
+ [33]
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ’ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
@@ -1943,7 +1959,7 @@ Missing character: There is no ” in font ptmri8t!
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
 
-Overfull \hbox (0.54924pt too wide) in paragraph at lines 375--376
+Overfull \hbox (0.54924pt too wide) in paragraph at lines 379--380
 \T1/ptm/m/n/12 Chrome dev sum-mit is een con-fe-ren-tie voor we-bont-wik-ke-laa
 rs ge-or-ga-ni-seerd door Google. 
  []
@@ -1953,7 +1969,7 @@ Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
+ [34]
 File: ./img/Outlook_native.png Graphic file (type bmp)
 <./img/Outlook_native.png>
 File: ./img/Outlook_pwa.png Graphic file (type bmp)
@@ -1962,12 +1978,12 @@ Missing character: There is no ’ in font ptmr8t!
 
 Underfull \vbox (badness 2302) has occurred while \output is active []
 
- [33]
+ [35]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 
-[34]) (./Literatuurstudie/BesturingssystemenEnPwaS.tex [35]
-Overfull \hbox (10.4255pt too wide) in paragraph at lines 29--30
+[36]) (./Literatuurstudie/BesturingssystemenEnPwaS.tex [37]
+Overfull \hbox (10.4255pt too wide) in paragraph at lines 30--31
 []\T1/ptm/m/n/12 Safari (desktop) ver-sie 13.0.5 op een Mac-book Pro met ma-cOS
  Mo-jave (10.14.6) 
  []
@@ -1977,74 +1993,67 @@ Missing character: There is no ’ in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
+ [38]
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 
 Underfull \vbox (badness 1117) has occurred while \output is active []
 
- [37]
+ [39]
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 
-[38]
+[40]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
- [39]
+ [41]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
- [40]
+ [42]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
- [41] [42]
-Missing character: There is no ‘ in font ptmr8t!
-Missing character: There is no ‘ in font ptmr8t!
+ [43] [44] [45] [46] [47]
+Missing character: There is no ’ in font ptmr8t!
+ [48]
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
+ [49]
+Underfull \vbox (badness 2005) has occurred while \output is active []
 
-Underfull \vbox (badness 4872) has occurred while \output is active []
-
- [43]
-Missing character: There is no ‘ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
-
-[44] [45]
-Missing character: There is no ’ in font ptmr8t!
- [46]
-Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
- [47] [48]
+ [50]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-Missing character: There is no – in font ptmr8t!
- [49] [50] [51]
+
+[51] [52] [53]
 Missing character: There is no ’ in font ptmr8t!
- [52]
-Overfull \hbox (58.05267pt too wide) in paragraph at lines 935--939
+ [54]
+Overfull \hbox (58.05267pt too wide) in paragraph at lines 936--940
  [][] 
  []
 
-[53]
+[55]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 970.
+               Default added (so using `tbp') on input line 971.
 
 
-Overfull \hbox (1.6751pt too wide) in paragraph at lines 973--973
+Overfull \hbox (1.6751pt too wide) in paragraph at lines 974--974
 []|\T1/ptm/m/n/12 Chrome| 
  []
 
 
-Overfull \hbox (3.00722pt too wide) in paragraph at lines 973--973
+Overfull \hbox (3.00722pt too wide) in paragraph at lines 974--974
 []|\T1/ptm/m/n/12 Android| 
  []
 
 
-Overfull \hbox (6.5207pt too wide) in paragraph at lines 1017--1017
+Overfull \hbox (6.5207pt too wide) in paragraph at lines 1018--1018
 []|\T1/ptm/m/n/12 Onbekend| 
  []
 
@@ -2053,31 +2062,31 @@ Missing character: There is no – in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
 
-Overfull \hbox (1.00302pt too wide) in paragraph at lines 1035--1035
+Overfull \hbox (1.00302pt too wide) in paragraph at lines 1036--1036
 []|\T1/ptm/m/n/12 Beperkt| 
  []
 
 
-Overfull \hbox (1.00302pt too wide) in paragraph at lines 1037--1037
+Overfull \hbox (1.00302pt too wide) in paragraph at lines 1038--1038
 []|\T1/ptm/m/n/12 Beperkt| 
  []
 
 
-Overfull \hbox (55.54715pt too wide) in paragraph at lines 972--1048
+Overfull \hbox (55.54715pt too wide) in paragraph at lines 973--1049
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1050.
+               Default added (so using `tbp') on input line 1051.
 
 
-Overfull \hbox (1.6751pt too wide) in paragraph at lines 1054--1054
+Overfull \hbox (1.6751pt too wide) in paragraph at lines 1055--1055
 []|\T1/ptm/m/n/12 Chrome| 
  []
 
 
-Overfull \hbox (3.00722pt too wide) in paragraph at lines 1054--1054
+Overfull \hbox (3.00722pt too wide) in paragraph at lines 1055--1055
 []|\T1/ptm/m/n/12 Android| 
  []
 
@@ -2086,15 +2095,15 @@ Missing character: There is no – in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
 
-Overfull \hbox (49.8566pt too wide) in paragraph at lines 1052--1093
+Overfull \hbox (49.8566pt too wide) in paragraph at lines 1053--1094
  [][] 
  []
 
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-[54] [55] [56]
+[56] [57] [58]
 Missing character: There is no ’ in font ptmr8t!
- [57
+ [59
 
 ]
 Missing character: There is no ’ in font ptmr8t!
@@ -2102,7 +2111,7 @@ File: ./img/installation_ios.png Graphic file (type bmp)
 <./img/installation_ios.png>
 File: ./img/installation_android.png Graphic file (type bmp)
 <./img/installation_android.png>
- [58]
+ [60]
 File: ./img/Outlook_search_windows.png Graphic file (type bmp)
 <./img/Outlook_search_windows.png>
 Missing character: There is no “ in font ptmr8t!
@@ -2110,7 +2119,7 @@ Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59]
+ [61]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 File: ./img/Outlook_search_mac.png Graphic file (type bmp)
@@ -2118,74 +2127,57 @@ File: ./img/Outlook_search_mac.png Graphic file (type bmp)
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 
-[60]) (./Literatuurstudie/WaaromEenPWA.tex
+[62]) (./Literatuurstudie/WaaromEenPWA.tex
 Underfull \vbox (badness 5832) has occurred while \output is active []
 
- [61]
+ [63]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62]
+ [64]
 Missing character: There is no ’ in font ptmr8t!
-
-Overfull \hbox (9.96625pt too wide) in paragraph at lines 66--67
-[]\T1/ptm/m/n/12 ************ BRON TOE-VOE-GEN - ZIE WORD DO-CU-MENT - SER-VER 
-WAS DOWN
- []
-
 File: ./img/tinder_native.png Graphic file (type bmp)
 <./img/tinder_native.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [63]
 File: ./img/tinder_pwa.png Graphic file (type bmp)
 <./img/tinder_pwa.png>
+
+[65]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 
-[64]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65]
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
+ [67]
 Missing character: There is no … in font ptmr8t!
 
-[66]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67])
+ [68])
 (./Literatuurstudie/BeperkingenVanEenPWA.tex
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
+ [69]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
- [68]
-Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ‘ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
+ [70]
 Missing character: There is no ř in font ptmr8t!
 Missing character: There is no š in font ptmr8t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [69])
-(./Literatuurstudie/ToolsPWA.tex
+)
+(./Literatuurstudie/ToolsPWA.tex [71]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -2194,22 +2186,21 @@ Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
- [70]
 File: ./img/lighthouse.png Graphic file (type bmp)
 <./img/lighthouse.png>
 
+Underfull \vbox (badness 1221) has occurred while \output is active []
+
+ [72]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [72])
-(./Literatuurstudie/PWAAlternatieven.tex [73]
+ [73])
+(./Literatuurstudie/PWAAlternatieven.tex [74]
 Missing character: There is no ’ in font ptmr8t!
 
 Underfull \vbox (badness 2126) has occurred while \output is active []
 
- [74]
+ [75]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
@@ -2220,7 +2211,7 @@ Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 1721) has occurred while \output is active []
 
- [75]
+ [76]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
@@ -2229,10 +2220,10 @@ Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 
-[76]
+[77]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
- [77]
+ [78]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
@@ -2247,7 +2238,7 @@ Missing character: There is no ’ in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [78]
+ [79]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
@@ -2255,46 +2246,49 @@ Missing character: There is no ” in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 
-[79]
+Underfull \vbox (badness 1210) has occurred while \output is active []
+
+ [80]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 189.
+               Default added (so using `tbp') on input line 190.
 
 File: ./img/flowchart.png Graphic file (type bmp)
 <./img/flowchart.png>
 
-Overfull \hbox (60.05124pt too wide) in paragraph at lines 191--192
+Overfull \hbox (60.05124pt too wide) in paragraph at lines 192--193
  [][] 
  []
 
-[80] [81]) (./Literatuurstudie/OntsluitenPWA.tex
+[81] [82]) (./Literatuurstudie/OntsluitenPWA.tex
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
 Missing character: There is no ’ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
-)) (./methodologie.tex [82
+)) (./methodologie.tex [83
+
+]
+[84
 
 ]
 Hoofdstuk 3.
-) (./conclusie.tex [83
-
-] [84
+) (./conclusie.tex [85] [86
 
 ]
 Hoofdstuk 4.
-) [85] [86
+) [87] [88
 
 ]
 B"ylage A.
 (../voorstel/voorstel-inhoud.tex
 Missing character: There is no … in font ptmr8t!
- [87]
+ [89]
 Missing character: There is no – in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
- [88]
+ [90]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
@@ -2304,78 +2298,78 @@ Missing character: There is no ’ in font ptmr8t!
 
 Underfull \vbox (badness 1655) has occurred while \output is active []
 
- [89]
+ [91]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
 
-[90]) [91] [92
+[92]) [93] [94
 
-] [93]
+] [95]
 Missing character: There is no ﬁ in font ptmr8t!
 Missing character: There is no ř in font ptmr8t!
 Missing character: There is no š in font ptmr8t!
-
-Overfull \hbox (9.12292pt too wide) in paragraph at lines 191--191
+ [96]
+Overfull \hbox (9.12292pt too wide) in paragraph at lines 209--209
 [][]\T1/ptm/m/n/12 Developers, G. (2019c, mei 1). Tools for PWA De-vel-o-pers. 
 Ver-kre-gen van []$https : / / developers .
  []
 
-[94]
-Overfull \hbox (33.2552pt too wide) in paragraph at lines 191--191
+
+Overfull \hbox (33.2552pt too wide) in paragraph at lines 209--209
 [][]\T1/ptm/m/n/12 Ghinea, G. & Biørn-Hansen, A. (2018). Brid-ging the Gap: In-
 ves-ti-ga-ting Device-FeatureExposure
  []
 
-[95]
-Overfull \hbox (0.45145pt too wide) in paragraph at lines 191--191
+[97]
+Overfull \hbox (0.45145pt too wide) in paragraph at lines 209--209
 \T1/ptm/m/n/12 Eco-sy-s-tem. Ver-kre-gen van []$https : / / www . slideshare . 
 net / AaronGustafson / progressive -[]
  []
 
-[96]
+[98]
 Missing character: There is no ’ in font ptmr8t!
- [97]
-Overfull \hbox (1.22452pt too wide) in paragraph at lines 191--191
+ [99]
+Overfull \hbox (1.22452pt too wide) in paragraph at lines 209--209
 [][]\T1/ptm/m/n/12 Mozilla. (2019b, de-cem-ber 31). In-tro-duc-tion to web APIs
 . Ver-kre-gen van []$https : / / developer .
  []
 
 
-Overfull \hbox (15.04414pt too wide) in paragraph at lines 191--191
+Overfull \hbox (15.04414pt too wide) in paragraph at lines 209--209
 \T1/ptm/m/n/12 %7B % 22share % 22 :-[] 1 % 7D ,[] %22id % 22 : %22platformsDesk
 top % 22 ,[] %22dateInterval %
  []
 
 Missing character: There is no — in font ptmr8t!
-[98] [99]
-Overfull \hbox (0.46956pt too wide) in paragraph at lines 191--191
+[100] [101]
+Overfull \hbox (0.46956pt too wide) in paragraph at lines 209--209
 [][]\T1/ptm/m/n/12 Verdú, J. & Pa-juelo, A. (2015, ok-to-ber 26). Per-for-mance
  Sca-la-bi-lity Ana-ly-sis of Ja-vaScript
  []
 
-[100]
+[102]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 
-Overfull \hbox (44.33562pt too wide) in paragraph at lines 191--191
+Overfull \hbox (44.33562pt too wide) in paragraph at lines 209--209
 \T1/ptm/m/n/12 com / widgets / media . html ? type = text % 2Fhtml & key = a19f
 cc184b9711e1b4764040d3dc5c07 &
  []
 
 
-Overfull \hbox (38.1784pt too wide) in paragraph at lines 191--191
+Overfull \hbox (38.1784pt too wide) in paragraph at lines 209--209
 \T1/ptm/m/n/12 schema = twitter & url = https % 3A / /twitter . com / johnwilan
 der / status / 1139278479436865536 &
  []
 
 Missing character: There is no ﬁ in font ptmr8t!
-[101]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
+[103]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
  (./bachproef-tin.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 193.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 193.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 211.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 211.
 
 
 Package biblatex Warning: Please rerun LaTeX.
@@ -2386,12 +2380,12 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43405 strings out of 492916
- 802633 string characters out of 6133345
- 1431097 words of memory out of 5000000
- 46804 multiletter control sequences out of 15000+600000
+ 43407 strings out of 492916
+ 802701 string characters out of 6133345
+ 1431443 words of memory out of 5000000
+ 46806 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,80p,817b,7226s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bachproef-tin.pdf (103 pages).
+Output written on bachproef-tin.pdf (105 pages).

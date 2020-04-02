@@ -153,7 +153,7 @@
 %-------------------------------------------------------------------------------
 
 % Tekststijl hoofdstuktitel
-\titlecontents{lchapter}[0em]
+\titlecontents{lchapterz}[0em]
 {\addvspace{15pt}\large\sffamily\bfseries}
 {\color{maincolor}\contentslabel[\Large\thecontentslabel]{1.25cm}\color{maincolor}}
 {}

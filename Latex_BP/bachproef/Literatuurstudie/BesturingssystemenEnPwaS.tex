@@ -1,6 +1,7 @@
 
 
 \section{Besturingssystemen en PWA's}
+\label{ch: Besturingssystemen en PWA's}
 
 Om te weten te komen voor welke toepassingen een PWA gemaakt kan worden en voor welke toepassingen nog steeds een native applicatie nodig is, is het belangrijk om te weten wat de technische mogelijkheden zijn van een PWA. In deze sectie van de literatuurstudie wordt er bekeken welke functies, die beschikbaar zijn voor native applicaties, al dan niet gebruikt kunnen worden door PWA's.
 
@@ -72,7 +73,7 @@ Bij deze applicaties is het belangrijk dat de camera aan volgende vereisten vold
      \item	De flashlight moet gebruikt kunnen worden
    \end{itemize}
 
-De media capture API \autocite{DzungDTran}  maakt het mogelijk om een video die opgenomen wordt met de camera van het toestel te tonen op de webpagina. Deze video kan dan opgeslagen worden in de code en verzonden worden naar een server. 
+De media capture API \autocite{DzungDTran2012}  maakt het mogelijk om een video die opgenomen wordt met de camera van het toestel te tonen op de webpagina. Deze video kan dan opgeslagen worden in de code en verzonden worden naar een server. 
 
 \autocite{Fransson2017}
 
@@ -80,7 +81,7 @@ De media capture API is ook in staat om aan het toestel te vragen welke camera�
 
 \autocite{Scales2020a}
 
-Ook meer geavanceerde functionaliteiten zijn beschikbaar. Het gedrag van de zoom en de flashlight kan ook programmatisch bepaald worden.
+Ook meer geavanceerde functionaliteiten  zijn beschikbaar. Het gedrag van de zoom en de flashlight kan ook programmatisch bepaald worden.
 
 \autocite{Oberhofer2017} \autocite{Ogundipe2018}
 
@@ -93,7 +94,7 @@ Al de belangrijkste functionaliteiten die een gebruiker verwacht, zijn allemaal 
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      & Ja     & Ja     & Ja               & Ja          
 	\end{tabular}	
-	\caption{ondersteuning van de Media Capture API}
+	\caption{ondersteuning van de Media Capture API op 7 maart 2020}
 \end{table}
 
 
@@ -114,7 +115,7 @@ Foto's die gedeeld worden op sociale media moeten vaak van een zo hoog mogelijke
 
 Foto's kunnen ook, net zoals een video, genomen worden aan de hand van de Media capture API. Deze API is echter niet in staat om deze instellingen van de camera aan te passen.
 
-De Image Capture API \autocite{Mandyam2020} is ontwikkeld om meer controle te hebben over de camera. Deze API zorgt ervoor dat instellingen zoals witbalans, temperatuur, exposure, ISO, helderheid, contrast, saturatie, zoom, … programmatisch aangepast kunnen worden.
+De Image Capture API \autocite{Mandyam2017} is ontwikkeld om meer controle te hebben over de camera. Deze API zorgt ervoor dat instellingen zoals witbalans, temperatuur, exposure, ISO, helderheid, contrast, saturatie, zoom, … programmatisch aangepast kunnen worden.
 
 Deze API heeft standaard geen ondersteuning voor HDR, maar dit kan zelf geïmplementeerd worden aan de hand van ‘third-party-packages’.
 
@@ -126,7 +127,7 @@ Deze API heeft standaard geen ondersteuning voor HDR, maar dit kan zelf geïmple
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Nee      & Ja     & Nee     & Ja               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning van de Image Capture API}
+	\caption{ondersteuning van de Image Capture API op 7 maart 2020}
 \end{table}
 
 
@@ -135,7 +136,7 @@ Deze API heeft standaard geen ondersteuning voor HDR, maar dit kan zelf geïmple
 
 
 
-De mediarecorder API, \autocite{CasasSanchez2020} door meerdere browsers aangeboden, is een manier om eenvoudig geluidsfragmenten op te nemen en te importeren in een webapplicatie.
+De mediarecorder API, \autocite{CasasSanchez2017} door meerdere browsers aangeboden, is een manier om eenvoudig geluidsfragmenten op te nemen en te importeren in een webapplicatie.
 
 Helaas is er voor Apple-toestellen geen ondersteuning. In de toekomst zal deze functie waarschijnlijk ook beschikbaar worden voor deze toestellen. Dit wordt in de volgende versie van Safari (Safari 14) voor desktop en IOS verwacht. Voor Safari voor IOS bestaat deze functie al maar is het nog een experimentele functie die de gebruiker zelf moet activeren.
 
@@ -147,7 +148,7 @@ Helaas is er voor Apple-toestellen geen ondersteuning. In de toekomst zal deze f
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      & Ja     & Nee     & Ja               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning van de Image Capture API}
+	\caption{ondersteuning van de Image Capture API op 7 maart 2020}
 \end{table}
 
 Gelukkig is er een alternatief voorzien met HTML5-tags. Dit is een methode die voor alle platformen zal werken maar niet op dezelfde manier.
@@ -170,7 +171,7 @@ Dit is een goed voorbeeld van progressive enhancement.
 
 Bij de meeste populaire communicatieapplicaties zoals WhatsApp, Messenger, Skype, … is videobellen mogelijk. Om dit mogelijk te maken moet er live video en audio gestreamd kunnen worden tussen twee of meer personen.
 
-‘Real-time communication in the web’ of WebRTC \autocite{Jennings2020} is een verzameling van API’s die het verzenden en ontvangen van real-time video en audio mogelijk maakt, zonder afhankelijk te zijn van een gecentraliseerde server. Deze server is echter wel nodig om een connectie tot stand te brengen. Eens deze connectie er is, is er een peer-to-peer verbinding.
+‘Real-time communication in the web’ of WebRTC \autocite{Jennings2019} is een verzameling van API’s die het verzenden en ontvangen van real-time video en audio mogelijk maakt, zonder afhankelijk te zijn van een gecentraliseerde server. Deze server is echter wel nodig om een connectie tot stand te brengen. Eens deze connectie er is, is er een peer-to-peer verbinding.
 
 \begin{table}[H]
 	\centering
@@ -178,7 +179,7 @@ Bij de meeste populaire communicatieapplicaties zoals WhatsApp, Messenger, Skype
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      & Ja     & Ja     & Ja               & ja          
 	\end{tabular}	
-	\caption{ondersteuning van WebRTC}
+	\caption{ondersteuning van WebRTC op 7 maart 2020}
 \end{table}
 
 
@@ -205,7 +206,7 @@ De Chrome Sender API \autocite{Developers2020b} zorgt ervoor dat alle modern toe
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Nee      & Nee     & Ja     & Nee               & Ja          
 	\end{tabular}	
-	\caption{ondersteuning Apple AirPlay}
+	\caption{ondersteuning Apple AirPlay op 7 maart 2020}
 \end{table}
 \begin{table}[H]
 	\centering
@@ -213,7 +214,7 @@ De Chrome Sender API \autocite{Developers2020b} zorgt ervoor dat alle modern toe
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      & Ja     & Ja     & Ja               & ja          
 	\end{tabular}	
-	\caption{ondersteuning van Chrome Sender API}
+	\caption{ondersteuning van Chrome Sender API op 7 maart 2020}
 \end{table}
 
 
@@ -244,7 +245,7 @@ Het voorbeeld van Spotify kan dus volledig geïmplementeerd worden als PWA.
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      & Ja     & Ja     & Ja               & ja          
 	\end{tabular}	
-	\caption{ondersteuning van Media Session API}
+	\caption{ondersteuning van Media Session API op 7 maart 2020}
 \end{table}
 
 
@@ -269,7 +270,7 @@ Er kan dus geconcludeerd worden dat de Web Bluetooth API kan gebruikt worden voo
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Nee      & Ja     & Nee     & Ja               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning van Web Bluetooth API}
+	\caption{ondersteuning van Web Bluetooth API op 7 maart 2020}
 \end{table}
 
 
@@ -290,7 +291,7 @@ Dit is echter enkel mogelijk met een beperkt aantal browsers en er moet een HTTP
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Nee      & Ja     & Nee     & Ja               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning van Web USB API}
+	\caption{ondersteuning van Web USB API op 7 maart 2020}
 \end{table}
 
 
@@ -305,7 +306,7 @@ Near field communication of NFC is een technologie om een kleine hoeveelheid inf
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Nee      &  Nee     & Nee     & Nee               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning van Web NFC API }
+	\caption{ondersteuning van Web NFC API op 7 maart 2020}
 \end{table}
 
 Dit is een functie met veel mogelijkheden die helaas niet beschikbaar is voor webapplicaties.
@@ -318,7 +319,7 @@ Er bestaat echter wel een API om gebruik te kunnen maken van NFC \autocite{Rohde
 
 \paragraph{Netwerkinformatie}
 
-De Network information API \autocite{Lamouri2020} voorziet informatie over het type netwerkverbinding die de gebruiker momenteel bezit. Deze informatie bevat het connectietype (2g, 3g, 4g) en wat de maximale downloadsnelheid is van deze verbinding.
+De Network information API \autocite{Lamouri2014} voorziet informatie over het type netwerkverbinding die de gebruiker momenteel bezit. Deze informatie bevat het connectietype (2g, 3g, 4g) en wat de maximale downloadsnelheid is van deze verbinding.
 
 \begin{table}[H]
 	\centering
@@ -326,7 +327,7 @@ De Network information API \autocite{Lamouri2020} voorziet informatie over het t
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Nee      &  Ja     & Nee     & Ja               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning van Network information API }
+	\caption{ondersteuning van Network information API op 7 maart 2020}
 \end{table}
 
 \paragraph{Online status}
@@ -340,25 +341,25 @@ Dit is een belangrijke eigenschap bij applicaties die real-time data gebruiken. 
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Ja     & Ja               & Ja          
 	\end{tabular}	
-	\caption{ondersteuning online status }
+	\caption{ondersteuning online status op 7 maart 2020}
 \end{table}
 
 \paragraph{Vibratiemotor }
 
-De Vibration API \autocite{Kostionen2020} zorgt ervoor dat de vibratiemotor kan aangesproken worden vanuit de webapplicatie.
+De Vibration API \autocite{Kostionen2018} zorgt ervoor dat de vibratiemotor kan aangesproken worden vanuit de webapplicatie.
 
 \begin{table}[H]
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Nee     & Ja               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning vibratiemotor  }
+	\caption{ondersteuning vibratiemotor  op 7 maart 2020}
 \end{table}
 
 
 \paragraph{Batterijstatus}
 
-Aan de hand van de Battery Status API \autocite{Kostiainen2020} kan er informatie over de batterij van het toestel verkregen worden.
+Aan de hand van de Battery Status API \autocite{Kostiainen2016} kan er informatie over de batterij van het toestel verkregen worden.
 
 Volgende informatie kan verkregen worden:
  \begin{itemize}
@@ -376,11 +377,11 @@ Aan de hand van deze API kunnen er ook acties uitgevoerd worden op basis van het
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Nee      &  Ja     & Nee     & Ja               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning batterijstatus  }
+	\caption{ondersteuning batterijstatus op 7 maart 2020 }
 \end{table}
 
 \paragraph{Toestelgeheugen}
-de Device Memory API \autocite{Panicker2020} geeft informatie over het RAM-geheugen van het toestel van de gebruiker. Dit kan interessant zijn voor het laden van een eventuele lichtere versie van een website voor minder capabele toestellen.
+de Device Memory API \autocite{Panicker2018} geeft informatie over het RAM-geheugen van het toestel van de gebruiker. Dit kan interessant zijn voor het laden van een eventuele lichtere versie van een website voor minder capabele toestellen.
 
 \begin{table}[H]
 	\centering
@@ -388,7 +389,7 @@ de Device Memory API \autocite{Panicker2020} geeft informatie over het RAM-geheu
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Nee      &  Ja     & Nee     & Ja               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning toestelgeheugen }
+	\caption{ondersteuning toestelgeheugen op 7 maart 2020}
 \end{table}
 
 
@@ -398,9 +399,9 @@ de Device Memory API \autocite{Panicker2020} geeft informatie over het RAM-geheu
 \paragraph{Lokale notificaties}
 Bij native applicaties kan een bepaalde actie binnen de app resulteren in een notificatie. Veel gezondheids-tracking applicaties maken hier gebruik van. Een gebruiker zal bijvoorbeeld een melding krijgen als een vooropgesteld aantal stappen op een dag is bereikt.
 
-Lokale notificaties zijn beschikbaar via de Notifications API \autocite{Gregg2020}. Lokale notificaties zijn notificaties die geen internet of server nodig hebben. Deze kunnen gepland worden bij het laden van de website. Ze worden dus lokaal geactiveerd.
+Lokale notificaties zijn beschikbaar via de Notifications API \autocite{Gregg2015}. Lokale notificaties zijn notificaties die geen internet of server nodig hebben. Deze kunnen gepland worden bij het laden van de website. Ze worden dus lokaal geactiveerd.
 
-Meer informatie over notificaties kan gevonden worden in het hoofdstuk ‘functionaliteiten die een servcie worker mogelijk maakt.
+Meer informatie over notificaties kan gevonden worden in het hoofdstuk \ref{ch: Functionaliteiten die een serivce worker mogelijk maakt}.
 
 Dankzij persistent local notifications en zijn service worker kan het voorbeeld van de fitness-tracking applicatie ook geïmplementeerd worden als PWA.
 
@@ -410,7 +411,7 @@ Dankzij persistent local notifications en zijn service worker kan het voorbeeld 
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Nee      &  Ja     & Nee     & Ja               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning lokale notificaties }
+	\caption{ondersteuning lokale notificaties op 7 maart 2020}
 \end{table}
 
 \paragraph{Push notificaties}
@@ -419,7 +420,7 @@ Native applicaties kunnen genieten van notificaties die niet geactiveerd worden 
 
 Push notificaties zijn notificaties die verstuurd worden vanop een server. Door gebruik te maken van de Push API \autocite{Sullivan2020} om notificaties te ontvangen en de Notification API om notificaties op het scherm te tonen, kan een PWA push notificaties implementeren. 
 
-Meer informatie over notificaties kan gevonden worden in het hoofdstuk ‘functionaliteiten die een servcie worker mogelijk maakt.
+Meer informatie over notificaties kan gevonden worden in het hoofdstuk \ref{ch: Functionaliteiten die een serivce worker mogelijk maakt}.
 
 Door deze functionaliteiten kan het voorbeeld van een sportapplicatie ook geïmplementeerd worden als PWA.
 
@@ -429,7 +430,7 @@ Door deze functionaliteiten kan het voorbeeld van een sportapplicatie ook geïmp
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Nee     & Ja               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning push notificaties }
+	\caption{ondersteuning push notificaties op 7 maart 2020}
 \end{table}
 
 
@@ -438,7 +439,7 @@ Door deze functionaliteiten kan het voorbeeld van een sportapplicatie ook geïmp
 
 
  Door het toevoegen van een web app manifest kan je de browser duidelijk maken hoe een applicatie er moet uitzien als het toegevoegd wordt aan het startscherm. De PWA zal er dan op het startscherm gelijk uitzien als een native applicatie.
-Meer informatie over notificaties kan gevonden worden in het hoofdstuk ‘Wat is een PWA’.
+	Meer informatie over notificaties kan gevonden worden in het hoofdstuk \ref{ch: Functionaliteiten die een serivce worker mogelijk maakt}..
 
 
 \begin{table}[H]
@@ -447,7 +448,7 @@ Meer informatie over notificaties kan gevonden worden in het hoofdstuk ‘Wat is
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Nee     & Ja               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning A2HS }
+	\caption{ondersteuning A2HS op 7 maart 2020 }
 \end{table}
 
 
@@ -462,14 +463,14 @@ Op sommige applicatie zal hier een indicatie staan van het aantal meldingen.
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Onbekend      &  Ja     & Nee     & Ja               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning Badging API }
+	\caption{ondersteuning Badging API op 7 maart 2020}
 \end{table}
 
 \paragraph{Voorgrond-detectie }
 
 Native applicaties kunnen detecteren als een applicatie op de voorgrond wordt gebruikt. YouTube maakt hier gebruik van om zeker te zijn dat de gebruiker de applicatie actief gebruikt op het moment dat een advertentie getoond wordt.
 
-Met de Page Visibility Detection API \autocite{Grigorik2020} kan gedetecteerd worden of een applicatie in de voorgrond gebruikt wordt of niet. 
+Met de Page Visibility Detection API \autocite{Grigorik2017} kan gedetecteerd worden of een applicatie in de voorgrond gebruikt wordt of niet. 
 
 Aan de hand van deze applicatie kan het gedrag van de applicatie aangepast worden als de gebruiker de applicatie niet meer in de voorgrond gebruikt.
 
@@ -479,13 +480,13 @@ Aan de hand van deze applicatie kan het gedrag van de applicatie aangepast worde
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Ja     & Ja               & Ja          
 	\end{tabular}	
-	\caption{ondersteuning voorgrond detectie }
+	\caption{ondersteuning voorgrond detectie op 7 maart 2020}
 \end{table}
 
 
 \paragraph{Toestemmingen}
 
-Om gebruik te maken van hardware functies van een toestel is vaak, om privacy redenen, de toestemming van de gebruiker nodig. Hiervoor is de Permissions API \autocite{Caceres2020} ontwikkeld. Er kan toestemming gevraagd worden op een gelijkaardige manier voor verschillende functies.
+Om gebruik te maken van hardware functies van een toestel is vaak, om privacy redenen, de toestemming van de gebruiker nodig. Hiervoor is de Permissions API \autocite{Caceres2017} ontwikkeld. Er kan toestemming gevraagd worden op een gelijkaardige manier voor verschillende functies.
 
 Functies waarvoor toestemming gevraagd kan worden:
  \begin{itemize}
@@ -510,7 +511,7 @@ Functies waarvoor toestemming gevraagd kan worden:
 			Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 			Ja   & Ja      &  Ja     & nee     & Ja               & nee          
 		\end{tabular}	
-		\caption{ondersteuning Permissions API }
+		\caption{ondersteuning Permissions API op 7 maart 2020}
 	\end{table}
 	
 
@@ -529,7 +530,7 @@ Er zijn verschillende technologieën om data offline op te slaan.
 
 	\subparagraph{Web storage}
 	De meest eenvoudige manier om data op te slaan. Er kunnen key-value paren opgeslagen worden in het localStorage of in het sessionStorage. 
-	\autocite{Hickson2020}
+	\autocite{Hickson2016}
 	
 	\begin{table}[H]
 		\centering
@@ -537,14 +538,14 @@ Er zijn verschillende technologieën om data offline op te slaan.
 			Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 			Ja   & Ja      &  Ja     & Ja     & Ja               & Ja          
 		\end{tabular}	
-		\caption{ondersteuning web storrage }
+		\caption{ondersteuning web storrage op 7 maart 2020}
 	\end{table}
 	
 	
 	
 	\subparagraph{IndexedDB}
 	Een API voor het opslaan van grote hoeveelheden gestructureerde data op het toestel van de eindgebruiker. De data kan snel gelezen worden omdat er indexen gebruikt worden. 
-	\autocite{Alabbas2020}
+	\autocite{Alabbas2018}
 	
 	\begin{table}[H]
 		\centering
@@ -552,13 +553,13 @@ Er zijn verschillende technologieën om data offline op te slaan.
 				Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 				Ja   & Ja      &  Ja     & Ja     & Ja               & Ja          
 			\end{tabular}	
-			\caption{ondersteuning IndexedDB}
+			\caption{ondersteuning IndexedDB op 7 maart 2020}
 	\end{table}
 	
 	
 	\subparagraph{Cache API}
 	Deze API is gespecialiseerd in het opslaan van netwerkverzoeken. Dit is heel handig in samenwerking met een serviceworker. API-calls kunnen opgeslagen worden voor offline gebruik.
-	\autocite{vanKesteren2020}
+	\autocite{vanKesteren2008}
 	
 	\begin{table}[H]
 		\centering
@@ -566,7 +567,7 @@ Er zijn verschillende technologieën om data offline op te slaan.
 				Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 				Ja   & Ja      &  Ja     & Ja     & Ja               & Nee          
 			\end{tabular}	
-			\caption{ondersteuning Cache API}
+			\caption{ondersteuning Cache API op 7 maart 2020}
 	\end{table}
 	
 	
@@ -580,7 +581,7 @@ Er zijn verschillende technologieën om data offline op te slaan.
 			Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 			Ja   & Ja      &  Ja     & Ja     & Ja               & Nee          
 		\end{tabular}	
-		\caption{ondersteuning Storage API}
+		\caption{ondersteuning Storage API op 7 maart 2020}
 	\end{table}
 	
 	
@@ -591,7 +592,7 @@ Door gebruik te maken van deze verschillende API’s kan er ook een offline erva
 
 Native applicaties hebben toegang tot het volledige bestandssysteem van het toestel. Er kunnen bestaande bestanden gelezen en aangepast worden. Er kunnen ook nieuwe bestanden aangemaakt en opgeslagen worden.
 
-Door gebruik te maken van de File API \autocite{Kruisselbrink2020} heeft een webapplicatie ook toegang tot het bestandssysteem. Bestanden kunnen gelezen worden en metadata over deze bestanden kan verkregen worden.
+Door gebruik te maken van de File API \autocite{Kruisselbrink2019} heeft een webapplicatie ook toegang tot het bestandssysteem. Bestanden kunnen gelezen worden en metadata over deze bestanden kan verkregen worden.
 
 Een webapplicatie heeft echter enkel leesrechten op deze bestanden. Er kunnen dus geen bestanden geschreven of aangepast worden.
 
@@ -603,14 +604,14 @@ Dit betekent dus dat bepaalde toepassingen die hier gebruik van maken nog steeds
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Nee     & Ja               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning File API}
+	\caption{ondersteuning File API op 7 maart 2020}
 \end{table}	
 
 
 \paragraph{Contacten}
 Bepaalde native applicaties hebben toegang nodig tot de contacten van de gebruiker. Een voorbeeld hiervan is WhatsApp. Deze importeert de contacten van het toestel in de applicatie.
 
-De contacten die opgeslagen staan op het systeem van de gebruiker kunnen geïmporteerd worden in een webapplicatie met de Contacts API \autocite{Tibbett2020}.
+De contacten die opgeslagen staan op het systeem van de gebruiker kunnen geïmporteerd worden in een webapplicatie met de Contacts API \autocite{Tibbett2014}.
 
 In theorie zouden PWA's hier dus gebruik kunnen van maken maar de ondersteuning is heel beperkt. Het is dus niet aangeraden om een webapplicatie te ontwikkelen die afhankelijk is van de contacten van een gebruiker.
 
@@ -620,7 +621,7 @@ In theorie zouden PWA's hier dus gebruik kunnen van maken maar de ondersteuning 
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Nee      &  Nee     & Nee     & Beperkt *               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning Contacts API}{ * Op het moment van schrijven is dit een nieuwe en experimentele functie die enkel werkt op 
+	\caption{ondersteuning Contacts API op 7 maart 2020}{ * Op het moment van schrijven is dit een nieuwe en experimentele functie die enkel werkt op 
 	Android 10. Verdere ondersteuning is nog onbekend.}
 \end{table}	
 
@@ -630,7 +631,7 @@ Native Applicaties kunnen binnenkomende sms-berichten lezen. Dit wordt vaak gebr
 
 Native applicaties kunnen niet enkel sms’en lezen, ze kunnen er ook schrijven. Dit betekent dus dat elke ontwikkelaar een sms-client applicatie kan maken.
 
-Met de SMS-receiver API \autocite{Fullea2020} kan er gekeken worden naar inkomende sms’en. Het voorbeeld van de PayPal applicatie kan dus ook geïmplementeerd worden als PWA. PWA's hebben echter enkel toegang tot binnenkomende sms’en. 
+Met de SMS-receiver API \autocite{Fullea2015} kan er gekeken worden naar inkomende sms’en. Het voorbeeld van de PayPal applicatie kan dus ook geïmplementeerd worden als PWA. PWA's hebben echter enkel toegang tot binnenkomende sms’en. 
 
 Het voorbeeld van PayPal kan ook geïmplementeerd worden aan de hand van een PWA. Applicaties die ook sms-berichten moeten versturen kunnen niet ontwikkeld worden als PWA.
 
@@ -640,14 +641,14 @@ Het voorbeeld van PayPal kan ook geïmplementeerd worden aan de hand van een PWA
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Nee      &  Nee     & Nee     & Beperkt *             & Nee          
 	\end{tabular}	
-	\caption{ondersteuning Messaging API}{* Op het moment van schrijven is dit een nieuwe en experimentele functie die enkel werkt op 
+	\caption{ondersteuning Messaging API op 7 maart 2020}{* Op het moment van schrijven is dit een nieuwe en experimentele functie die enkel werkt op 
 		Android 10. Verdere ondersteuning is nog onbekend.}
 \end{table}	
 
 
 
 \paragraph{Taakplanning}
-De Task Sheduler API \autocite{Kulkarni2020} kan ervoor zorgen dat taken zoals alarmen, herinneringen en gelijkaardige taken kunnen ingepland worden in het systeem. Deze API is slechts een voorstel en heeft dus nog geen ondersteuning.
+De Task Sheduler API \autocite{Kulkarni2015} kan ervoor zorgen dat taken zoals alarmen, herinneringen en gelijkaardige taken kunnen ingepland worden in het systeem. Deze API is slechts een voorstel en heeft dus nog geen ondersteuning.
 
 Een applicatie schrijven die het alarm van een smartphone in de ochtend laat afgaan, of een activiteit in jouw agenda plaatst, is dus niet mogelijk met een PWA. Dit zijn toepassingen die wel mogelijk zijn met native applicaties.
 
@@ -657,7 +658,7 @@ Een applicatie schrijven die het alarm van een smartphone in de ochtend laat afg
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Nee      &  Nee     & Nee     & Nee               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning Task Sheduler API }
+	\caption{ondersteuning Task Sheduler API op 7 maart 2020}
 \end{table}	
 
 
@@ -683,11 +684,11 @@ Deze gebaren kunnen nu ook gebruikt worden in een PWA. Dit zorgt ervoor dat een 
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Ja     & ja               & Ja          
 	\end{tabular}	
-	\caption{ondersteuning touch gebaren}
+	\caption{ondersteuning touch gebaren op 7 maart 2020}
 \end{table}	
 
 \paragraph{Klembord toegang}
-De Clipboard API \autocite{Kacmarcik2020} geeft een ontwikkelaar de mogelijkheid om te interageren met het klembord. Er kunnen zowel items van het klembord gelezen worden als dat er items kunnen geschreven worden naar het klembord.
+De Clipboard API \autocite{Kacmarcik2010} geeft een ontwikkelaar de mogelijkheid om te interageren met het klembord. Er kunnen zowel items van het klembord gelezen worden als dat er items kunnen geschreven worden naar het klembord.
 
 Er worden ook methodes voorzien voor het reageren op de actie waarbij een gebruiker zelf iets kopieert of plakt. 
 
@@ -697,7 +698,7 @@ Er worden ook methodes voorzien voor het reageren op de actie waarbij een gebrui
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Ja     & ja               & Ja          
 	\end{tabular}	
-	\caption{ondersteuning Clipboard API}
+	\caption{ondersteuning Clipboard API op 7 maart 2020}
 \end{table}	
 
 
@@ -711,7 +712,7 @@ Door het gebruik van serviceworkers kan een website offline gebruikt worden. Dez
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Ja     & ja               & Ja          
 	\end{tabular}	
-	\caption{ondersteuning offline gebruik}
+	\caption{ondersteuning offline gebruik op 7 maart 2020}
 \end{table}	
 
 
@@ -729,14 +730,14 @@ Meer info over achtergrondsynchronisatie kan gevonden worden in het hoofdstuk �
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Ja     & ja               & Ja          
 	\end{tabular}	
-	\caption{ondersteuning achtergrondsynchronisatie}
+	\caption{ondersteuning achtergrondsynchronisatie op 7 maart 2020}
 \end{table}
 
 
 \paragraph{Inter-app communicatie}
-– Native applicaties kunnen gebruik maken van deep-linking, dit is een concept waarbij er in een app een link kan staan naar een specifieke pagina op een andere app.
+Native applicaties kunnen gebruik maken van deep-linking, dit is een concept waarbij er in een app een link kan staan naar een specifieke pagina op een andere app.
 
-De Web Share API \autocite{Giuca2020} en de Web Share Target API \autocite{Williger2020} zorgen ervoor dat links van websites kunnen geopend worden in native applicaties. 
+De Web Share API \autocite{Giuca2019} en de Web Share Target API \autocite{Williger2019} zorgen ervoor dat links van websites kunnen geopend worden in native applicaties. 
 
 De web Share API moet gebruikt worden in de applicatie die een link heeft naar een andere applicatie.
 
@@ -748,13 +749,13 @@ De web Share Target API moet gebruikt worden in de applicatie waarnaar gereferee
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Nee      &  Nee     & Nee     & ja               & Ja          
 	\end{tabular}	
-	\caption{ondersteuning Web Share API en Web Share Target API}
+	\caption{ondersteuning Web Share API en Web Share Target API op 7 maart 2020}
 \end{table}
 
 
 
 \paragraph{Betalingen}
-Aan de hand van de Payment Request API \autocite{Denicola2020} kan heel snel, zonder de website te verlaten, een betaling uitgevoerd worden. Bij Apple-toestellen zal dit gebeuren via Apple-pay. 
+Aan de hand van de Payment Request API \autocite{Denicola2019} kan heel snel, zonder de website te verlaten, een betaling uitgevoerd worden. Bij Apple-toestellen zal dit gebeuren via Apple-pay. 
 
 \begin{table}[H]
 	\centering
@@ -762,29 +763,29 @@ Aan de hand van de Payment Request API \autocite{Denicola2020} kan heel snel, zo
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Nee      &  Ja     & Ja     & ja               & Ja          
 	\end{tabular}	
-	\caption{ondersteuning Payment Request API}
+	\caption{ondersteuning Payment Request API op 7 maart 2020}
 \end{table}
 
 
 \paragraph{Credentials}
-De Credential Management API \autocite{West2020} levert methodes voor het ophalen en opslaan van de credentials van een gebruiker. Op deze manier kan de gebruiker eenvoudiger en veiliger aanmelden op een platform.
+De Credential Management API \autocite{West2019} levert methodes voor het ophalen en opslaan van de credentials van een gebruiker. Op deze manier kan de gebruiker eenvoudiger en veiliger aanmelden op een platform.
 
 \begin{table}[H]
 	\begin{tabular}{llllll}
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Nee      &  Ja     & Nee     & ja               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning Credential Management API}
+	\caption{ondersteuning Credential Management API op 7 maart 2020}
 \end{table}
 
 \subsubsection{Locatie en positionering}
 
 \paragraph{Geolocatie}
-De Geolocation API \autocite{Popescu2020} zorgt ervoor dat een applicatie toegang heeft tot de locatie van een toestel. Dat wordt gedaan op basis van de gps-sensor of op basis van het netwerk. 
+De Geolocation API \autocite{Popescu2018} zorgt ervoor dat een applicatie toegang heeft tot de locatie van een toestel. Dat wordt gedaan op basis van de gps-sensor of op basis van het netwerk. 
 
 Zowel de lengtegraad als de breedtegraat kunnen opgevraagd worden, deze twee coördinaten vormen de locatie van de gebruiker.
 
-% todo: check spelling verandert
+
 De Geolocation API voorziet een methode "watchPosition". Elke keer dat de locatie van een gebruiker verandert, zal deze methode een functie aanroepen. Op deze manier kan de locatie van een gebruiker gevolgd worden.
 
 Navigatie-applicaties zoals Google Maps of Waze kunnen dus ook geïmplementeerd worden als PWA.
@@ -795,14 +796,14 @@ Navigatie-applicaties zoals Google Maps of Waze kunnen dus ook geïmplementeerd 
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja     & Ja     & ja               & Ja          
 	\end{tabular}	
-	\caption{ondersteuning Geolocation API}
+	\caption{ondersteuning Geolocation API op 7 maart 2020}
 \end{table}
 
 
 \paragraph{Geofencing}
 Geofencing is een technologie waarbij er een geografische zone wordt ingesteld. Als de gebruiker in deze zone komt, wordt er automatisch een actie uitgevoerd. 
 
-Er was een voorstel om deze API \autocite{Kruisselbrink2020a} uit te werken voor het web, maar op het moment van schrijven heeft geen enkele browser dit geïmplementeerd. Dit is eenfunctie die enkel beschikbaar is voor native IOS en Android-applicaties.
+Er was een voorstel om deze API \autocite{Kruisselbrink2017} uit te werken voor het web, maar op het moment van schrijven heeft geen enkele browser dit geïmplementeerd. Dit is eenfunctie die enkel beschikbaar is voor native IOS en Android-applicaties.
 
 \begin{table}[H]
 	\centering
@@ -810,14 +811,14 @@ Er was een voorstel om deze API \autocite{Kruisselbrink2020a} uit te werken voor
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Nee      &  Nee     & Nee     & Nee               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning Geofencing API}
+	\caption{ondersteuning Geofencing API op 7 maart 2020}
 \end{table}
 
 \paragraph{Toesteloriëntatie }
 
 Native applicaties en meer specifiek, mobiele games maken vaak gebruik van de toesteloriëntatie als input methode. Dit wordt bijvoorbeeld gebruikt bij racegames om een stuur te simuleren.
 
-De Device Orientation API \autocite{Tibbett2020a} levert methodes voor het detecteren van de oriëntatie van het toestel. Er zijn drie eigenschappen die de oriëntatie bepalen:
+De Device Orientation API \autocite{Tibbett2019} levert methodes voor het detecteren van de oriëntatie van het toestel. Er zijn drie eigenschappen die de oriëntatie bepalen:
 
 
  \begin{itemize}
@@ -839,11 +840,11 @@ Niet elk toestel heeft deze sensoren. Als ze aanwezig zijn, worden ze ondersteun
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja   & Nee     & Ja               & Ja          
 	\end{tabular}	
-	\caption{ondersteuning Device Orientation API }
+	\caption{ondersteuning Device Orientation API op 7 maart 2020}
 \end{table}
 
 \paragraph{Toestelbeweging}
-De Generic Sensor API \autocite{Waldroon2020} is een verzameling van API’s voor het gebruiken van verschillende sensoren van het toestel.
+De Generic Sensor API \autocite{Waldroon2019} is een verzameling van API’s voor het gebruiken van verschillende sensoren van het toestel.
 
 	\subparagraph{DeviceMotionEvent }
 	Levert informatie over de snelheid waarmee een toestel zijn oriëntatie en positie verandert.
@@ -881,7 +882,7 @@ De Generic Sensor API \autocite{Waldroon2020} is een verzameling van API’s voo
 				Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 				Ja   & Nee      &  Ja   & Nee     & Ja               & Nee          
 			\end{tabular}	
-			\caption{ondersteuning Gyroscope  }
+			\caption{ondersteuning Gyroscope op 7 maart 2020 }
 		\end{table}
 			
 	\subparagraph{Magnetometer }
@@ -893,7 +894,7 @@ De Generic Sensor API \autocite{Waldroon2020} is een verzameling van API’s voo
 				Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 				Nee   & Nee      &  Ja   & Nee     & Nee               & Nee          
 			\end{tabular}	
-			\caption{ondersteuning Magnetometer  }
+			\caption{ondersteuning Magnetometer op 7 maart 2020 }
 		\end{table}
 			
 			
@@ -906,12 +907,12 @@ De Generic Sensor API \autocite{Waldroon2020} is een verzameling van API’s voo
 				Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 				Ja   & Nee      &  Ja   & Nee     & Ja               & Nee          
 			\end{tabular}	
-			\caption{ondersteuning 	LinearAccelerationSensor   }
+			\caption{ondersteuning 	LinearAccelerationSensor  op 7 maart 2020 }
 		\end{table}
 		
 			
 \paragraph{Nabijheid-sensoren }
-De Proximity API \autocite{Kostiainen2020a} geeft informatie over de afstand tussen het toestel en een object. Deze sensor wordt gebruikt om het scherm uit te zetten als een persoon aan het bellen is.
+De Proximity API \autocite{Kostiainen2019} geeft informatie over de afstand tussen het toestel en een object. Deze sensor wordt gebruikt om het scherm uit te zetten als een persoon aan het bellen is.
 
 \begin{table}[H]
 	\centering
@@ -919,14 +920,14 @@ De Proximity API \autocite{Kostiainen2020a} geeft informatie over de afstand tus
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Nee   & Ja      &  Nee   & Nee     & Nee               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning  Proximity API  }
+	\caption{ondersteuning  Proximity API op 7 maart 2020 }
 \end{table}
 
 
 
 \subsubsection{Scherm en output}
 \paragraph{Virtual en augmented reality }
-De webXR Device API \autocite{Jones2020} zorgt voor een interface voor het verbinden van een virtual reality toestel met de browser. De sensoren van het toestel kunnen gebruikt worden om het canvas-element te laden in het VR-toestel.
+De webXR Device API \autocite{Jones2019} zorgt voor een interface voor het verbinden van een virtual reality toestel met de browser. De sensoren van het toestel kunnen gebruikt worden om het canvas-element te laden in het VR-toestel.
 
 De oudere webVR API levert gelijkaardige methodes maar is beter ondersteund.
 
@@ -936,11 +937,11 @@ De oudere webVR API levert gelijkaardige methodes maar is beter ondersteund.
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja (webXR)  & 	Ja (webVR)  &  	Ja (webVR + webXR  & Nee  & Ja (webVR + webXR) & Nee Nee          
 	\end{tabular}	
-	\caption{ondersteuning  WebVR en WebXR  }
+	\caption{ondersteuning  WebVR en WebXR op 7 maart 2020 }
 \end{table}\
 
 \paragraph{Fullscreen }
-De Fullscreen API \autocite{Kesteren2020} geeft een aantal methodes die ervoor zorgen dat de browser-elementen verwijderd worden. Dit laat een website meer aanvoelen als een native applicatie.
+De Fullscreen API \autocite{Kesteren2014} geeft een aantal methodes die ervoor zorgen dat de browser-elementen verwijderd worden. Dit laat een website meer aanvoelen als een native applicatie.
 
 Er worden twee methodes voorzien: een voor in fullscreen mode te gaan en een om deze te verlaten.
 
@@ -949,12 +950,12 @@ Er worden twee methodes voorzien: een voor in fullscreen mode te gaan en een om 
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      &  Ja   & Ja     & Ja               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning  Fullscreen API  }
+	\caption{ondersteuning  Fullscreen API op 7 maart 2020 }
 \end{table}
 
 
 \paragraph{Wake lock }
-eel toestellen gaan het scherm dimmen na een bepaalde tijd van inactiviteit. Dit kan onhandig zijn voor bepaalde applicaties zoals een gps. Met de Wake Lock API \autocite{Bogdanovich2020} kan het automatisch dimmen van het scherm tegengegaan worden.
+eel toestellen gaan het scherm dimmen na een bepaalde tijd van inactiviteit. Dit kan onhandig zijn voor bepaalde applicaties zoals een gps. Met de Wake Lock API \autocite{Bogdanovich2017} kan het automatisch dimmen van het scherm tegengegaan worden.
 
 \begin{table}[H]
 	\centering
@@ -962,7 +963,7 @@ eel toestellen gaan het scherm dimmen na een bepaalde tijd van inactiviteit. Dit
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Nee      &  Ja   & Onbekend     & Ja               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning  Wake Lock API  }
+	\caption{ondersteuning  Wake Lock API op 7 maart 2020 }
 \end{table}
 
 \subsection{concluderende tabel}
