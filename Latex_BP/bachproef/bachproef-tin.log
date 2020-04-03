@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  2 APR 2020 08:43
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  3 APR 2020 08:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1844,6 +1844,9 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [20])
 (./standvanzaken.tex [21] [22
 
@@ -2057,10 +2060,6 @@ Overfull \hbox (6.5207pt too wide) in paragraph at lines 1018--1018
 []|\T1/ptm/m/n/12 Onbekend| 
  []
 
-Missing character: There is no – in font ptmr8t!
-Missing character: There is no – in font ptmr8t!
-Missing character: There is no – in font ptmr8t!
-Missing character: There is no – in font ptmr8t!
 
 Overfull \hbox (1.00302pt too wide) in paragraph at lines 1036--1036
 []|\T1/ptm/m/n/12 Beperkt| 
@@ -2090,10 +2089,6 @@ Overfull \hbox (3.00722pt too wide) in paragraph at lines 1055--1055
 []|\T1/ptm/m/n/12 Android| 
  []
 
-Missing character: There is no – in font ptmr8t!
-Missing character: There is no – in font ptmr8t!
-Missing character: There is no – in font ptmr8t!
-Missing character: There is no – in font ptmr8t!
 
 Overfull \hbox (49.8566pt too wide) in paragraph at lines 1053--1094
  [][] 
@@ -2274,21 +2269,29 @@ Missing character: There is no ” in font ptmri8t!
 
 ]
 Hoofdstuk 3.
-) (./conclusie.tex [85] [86
+) (./TransformerenNaarEenPWA.tex [85] [86
 
 ]
 Hoofdstuk 4.
-) [87] [88
+) (./proof-of-concept.tex [87] [88
+
+]
+Hoofdstuk 5.
+) (./conclusie.tex [89] [90
+
+]
+Hoofdstuk 6.
+) [91] [92
 
 ]
 B"ylage A.
 (../voorstel/voorstel-inhoud.tex
 Missing character: There is no … in font ptmr8t!
- [89]
+ [93]
 Missing character: There is no – in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
- [90]
+ [94]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
@@ -2298,94 +2301,89 @@ Missing character: There is no ’ in font ptmr8t!
 
 Underfull \vbox (badness 1655) has occurred while \output is active []
 
- [91]
+ [95]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
 
-[92]) [93] [94
+[96]) [97] [98
 
-] [95]
+] [99]
 Missing character: There is no ﬁ in font ptmr8t!
 Missing character: There is no ř in font ptmr8t!
 Missing character: There is no š in font ptmr8t!
- [96]
-Overfull \hbox (9.12292pt too wide) in paragraph at lines 209--209
+ [100]
+Overfull \hbox (9.12292pt too wide) in paragraph at lines 211--211
 [][]\T1/ptm/m/n/12 Developers, G. (2019c, mei 1). Tools for PWA De-vel-o-pers. 
 Ver-kre-gen van []$https : / / developers .
  []
 
 
-Overfull \hbox (33.2552pt too wide) in paragraph at lines 209--209
+Overfull \hbox (33.2552pt too wide) in paragraph at lines 211--211
 [][]\T1/ptm/m/n/12 Ghinea, G. & Biørn-Hansen, A. (2018). Brid-ging the Gap: In-
 ves-ti-ga-ting Device-FeatureExposure
  []
 
-[97]
-Overfull \hbox (0.45145pt too wide) in paragraph at lines 209--209
+[101]
+Overfull \hbox (0.45145pt too wide) in paragraph at lines 211--211
 \T1/ptm/m/n/12 Eco-sy-s-tem. Ver-kre-gen van []$https : / / www . slideshare . 
 net / AaronGustafson / progressive -[]
  []
 
-[98]
+[102]
 Missing character: There is no ’ in font ptmr8t!
- [99]
-Overfull \hbox (1.22452pt too wide) in paragraph at lines 209--209
+ [103]
+Overfull \hbox (1.22452pt too wide) in paragraph at lines 211--211
 [][]\T1/ptm/m/n/12 Mozilla. (2019b, de-cem-ber 31). In-tro-duc-tion to web APIs
 . Ver-kre-gen van []$https : / / developer .
  []
 
 
-Overfull \hbox (15.04414pt too wide) in paragraph at lines 209--209
+Overfull \hbox (15.04414pt too wide) in paragraph at lines 211--211
 \T1/ptm/m/n/12 %7B % 22share % 22 :-[] 1 % 7D ,[] %22id % 22 : %22platformsDesk
 top % 22 ,[] %22dateInterval %
  []
 
 Missing character: There is no — in font ptmr8t!
-[100] [101]
-Overfull \hbox (0.46956pt too wide) in paragraph at lines 209--209
+[104] [105]
+Overfull \hbox (0.46956pt too wide) in paragraph at lines 211--211
 [][]\T1/ptm/m/n/12 Verdú, J. & Pa-juelo, A. (2015, ok-to-ber 26). Per-for-mance
  Sca-la-bi-lity Ana-ly-sis of Ja-vaScript
  []
 
-[102]
+[106]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 
-Overfull \hbox (44.33562pt too wide) in paragraph at lines 209--209
+Overfull \hbox (44.33562pt too wide) in paragraph at lines 211--211
 \T1/ptm/m/n/12 com / widgets / media . html ? type = text % 2Fhtml & key = a19f
 cc184b9711e1b4764040d3dc5c07 &
  []
 
 
-Overfull \hbox (38.1784pt too wide) in paragraph at lines 209--209
+Overfull \hbox (38.1784pt too wide) in paragraph at lines 211--211
 \T1/ptm/m/n/12 schema = twitter & url = https % 3A / /twitter . com / johnwilan
 der / status / 1139278479436865536 &
  []
 
 Missing character: There is no ﬁ in font ptmr8t!
-[103]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
+[107]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
  (./bachproef-tin.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 211.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 211.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 213.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 213.
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43407 strings out of 492916
- 802701 string characters out of 6133345
- 1431443 words of memory out of 5000000
- 46806 multiletter control sequences out of 15000+600000
+ 43425 strings out of 492916
+ 803071 string characters out of 6133345
+ 1431775 words of memory out of 5000000
+ 46818 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,80p,817b,7226s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bachproef-tin.pdf (105 pages).
+Output written on bachproef-tin.pdf (109 pages).
