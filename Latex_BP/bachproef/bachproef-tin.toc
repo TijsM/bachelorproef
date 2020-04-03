@@ -291,37 +291,55 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Methodologie}{85}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Transformeren naar een PWA}{87}{chapter.4}% 
+\contentsline {chapter}{\numberline {4}Welke stappen zijn er nodig om een traditionele website om te vormen tot een PWA}{87}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Proof-of-concept}{89}{chapter.5}% 
+\contentsline {section}{\numberline {4.1}De applicatie}{87}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Conclusie}{91}{chapter.6}% 
+\contentsline {section}{\numberline {4.2}Analyse}{87}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{93}{appendix.A}% 
+\contentsline {section}{\numberline {4.3}Implementatie}{88}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{93}{section.A.1}% 
+\contentsline {section}{\numberline {4.4}A2HS}{89}{section.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{94}{section.A.2}% 
+\contentsline {subsection}{\numberline {4.4.1}HTTPS}{90}{subsection.4.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{94}{subsection.A.2.1}% 
+\contentsline {subsection}{\numberline {4.4.2}App manifest}{90}{subsection.4.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{94}{subsection.A.2.2}% 
+\contentsline {subsection}{\numberline {4.4.3}Service worker}{91}{subsection.4.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{95}{subsection.A.2.3}% 
+\contentsline {section}{\numberline {4.5}Controle}{91}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{95}{subsection.A.2.4}% 
+\contentsline {section}{\numberline {4.6}Conclusie}{92}{section.4.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.5}Native containers}{96}{subsection.A.2.5}% 
+\contentsline {chapter}{\numberline {5}Proof-of-concept}{95}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{96}{subsection.A.2.6}% 
+\contentsline {chapter}{\numberline {6}Conclusie}{97}{chapter.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{96}{section.A.3}% 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{99}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.1}Technologieën}{96}{subsection.A.3.1}% 
+\contentsline {section}{\numberline {A.1}Introductie}{99}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{97}{section.A.4}% 
+\contentsline {section}{\numberline {A.2}State-of-the-art}{100}{section.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{97}{section.A.5}% 
+\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{100}{subsection.A.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{99}{appendix*.104}% 
+\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{100}{subsection.A.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{101}{subsection.A.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{101}{subsection.A.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.5}Native containers}{102}{subsection.A.2.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{102}{subsection.A.2.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Methodologie}{102}{section.A.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.3.1}Technologieën}{102}{subsection.A.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{103}{section.A.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{103}{section.A.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{105}{appendix*.104}% 
 \contentsfinish 
