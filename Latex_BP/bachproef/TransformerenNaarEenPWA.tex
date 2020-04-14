@@ -19,7 +19,11 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag “Welke stappen zijn nodig
 		 \item 	Als een speler wil ik de score van een dartspel op mijn smartphone kunnen bijhouden zodat ik altijd en overal kan spelen.
 		 \item 	Als een speler wil ik de score van een dartspel bijhouden zonder een internetverbinding te hebben zodat ik niet afhankelijk ben van een eventuele wifi of een netwerkverbinding.
 		 \item 	Als een groep vrienden willen we een dartspel kunnen starten en de score kunnen bijhouden voor een variabel aantal personen zodat we snel kunnen spelen.
+		 \item Als een ontwikkelaar wil ik aan alle voorwaarden van de ligthouse audit op vlak van PWA's voldoen zodat de applicatie volledig geoptimaliseerd is.
 	\end{itemize}	
+	
+	
+	%TODO: wat zijn de niet functionele requirements? de audit misschien hier al vermelden
 
 
 \section{Implementatie}
@@ -37,13 +41,13 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag “Welke stappen zijn nodig
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=35mm]{./img/dart2.png}{}
-		\caption{Vragen naar de namen van de spelers}
+		\caption{vragen naar de namen van de spelers}
 	\end{figure}
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=35mm]{./img/dart3.png}{}
-		\caption{Het scherm waar de score geteld zal worden}
+		\caption{het scherm waar de score geteld zal worden}
 	\end{figure}
 	
 
@@ -58,60 +62,59 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag “Welke stappen zijn nodig
 
 
 	\subsection{App manifest}
-		\begin{lstlisting}
-			{
-			  "short_name": "Dart 501",
-			  "name": "Dart 501",
-			  "icons": [
-			    {
-			      "src": "/icons/android-icon-36x36.png",
-			      "sizes": "36x36",
-			      "type": "image/png",
-			      "density": "0.75"
-			    },
-			    {
-			      "src": "/icons/android-icon-48x48.png",
-			      "sizes": "48x48",
-			      "type": "image/png",
-			      "density": "1.0"
-			    },
-			    {
-			      "src": "/icons/android-icon-72x72.png",
-			      "sizes": "72x72",
-			      "type": "image/png",
-			      "density": "1.5"
-			    },
-			    {
-			      "src": "/icons/android-icon-96x96.png",
-			      "sizes": "96x96",
-			      "type": "image/png",
-			      "density": "2.0"
-			    },
-			    {
-			      "src": "/icons/android-icon-144x144.png",
-			      "sizes": "144x144",
-			      "type": "image/png",
-			      "density": "3.0"
-			    },
-			    {
-			      "src": "/icons/android-icon-192x192.png",
-			      "sizes": "192x192",
-			      "type": "image/png",
-			      "density": "4.0"
-			    },
-			    {
-			      "src": "logo512.png",
-			      "type": "image/png",
-			      "sizes": "512x512"
-			    }
-			  ],
-			  "start_url": ".",
-			  "display": "standalone",
-			  "theme_color": "#95df71",
-			  "background_color": "#363636"
-			}
-			
-		\end{lstlisting}
+\begin{lstlisting}
+{
+  "short_name": "Dart 501",
+  "name": "Dart 501",
+  "icons": [
+   {
+     "src": "/icons/android-icon-36x36.png",
+     "sizes": "36x36",
+     "type": "image/png",
+     "density": "0.75"
+   },
+   {
+     "src": "/icons/android-icon-48x48.png",
+     "sizes": "48x48",
+     "type": "image/png",
+     "density": "1.0"
+   },
+   {
+     "src": "/icons/android-icon-72x72.png",
+     "sizes": "72x72",
+     "type": "image/png",
+     "density": "1.5"
+   },
+   {
+     "src": "/icons/android-icon-96x96.png",
+     "sizes": "96x96",
+     "type": "image/png",
+     "density": "2.0"
+   },
+   {
+     "src": "/icons/android-icon-144x144.png",
+     "sizes": "144x144",
+     "type": "image/png",
+     "density": "3.0"
+   },
+   {
+     "src": "/icons/android-icon-192x192.png",
+     "sizes": "192x192",
+     "type": "image/png",
+     "density": "4.0"
+   },
+   {
+     "src": "logo512.png",
+     "type": "image/png",
+     "sizes": "512x512"
+   }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#95df71",
+  "background_color": "#363636"
+}	
+\end{lstlisting}
 		
 		De naam en de verkorte naam (naam die op startscherm getoond zal worden) worden als eerste vastgelegd. Deze zijn gelijk omdat de volledige naam al kort genoeg is. Het maximumaantal karakters voor 'short\_name' is 12. 
 		
@@ -123,18 +126,18 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag “Welke stappen zijn nodig
 		
 		Er moet een link gemaakt worden van de html-bestanden naar dit manifest bestand. Dit gebeurt binnen de head tags van de index.html file
 		
-		\begin{lstlisting}
-			<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-		\end{lstlisting}
+\begin{lstlisting}
+	<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+\end{lstlisting}
 		
 		
 	\subsection{Service worker}
 		
-		Als een react applicatie gecreëerd wordt met het 'create-react-app') commando wordt er standaard een basis service worker aangemaakt. Standaard wordt deze niet gebruikt, om dit te veranderen moet de regsiter methode van de service worker aangeroepen worden in het index.js bestand.
+		Als een react applicatie gecreëert wordt met het 'create-react-app') commando wordt er standaard een basis service worker aangemaakt. Standaard wordt deze niet gebruikt, om dit te veranderen moet de regsiter methode van de service worker aangeroepen worden in het index.js bestand.
 		
-		\begin{lstlisting}
-				serviceWorker.register();
-		\end{lstlisting}
+\begin{lstlisting}
+		serviceWorker.register();
+\end{lstlisting}
 		
 		Deze service worker zorgt ervoor dat alle statische bestanden offline beschikbaar gemaakt worden en dat de gebruiker op een Android toestel de vraag krijgt om deze applicatie aan het startscherm toe te voegen.
 		
