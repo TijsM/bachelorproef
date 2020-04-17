@@ -111,29 +111,29 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 		
 	
 		
-			\begin{lstlisting}
-			function displayNotification() {
-			  if (Notification.permission == 'granted') {
-			    navigator.serviceWorker.getRegistration().then(function(reg) {
-			      var options = {
-			        body: 'Here is a notification body!',
-			        icon: 'images/example.png',
-			        vibrate: [100, 50, 100],
-			        data: {
-			          userId: “383209489398274”
-			        },
-			        actions: [
-			          {action: 'explore', title: 'Explore this new world',
-			            icon: 'images/checkmark.png'},
-			          {action: 'close', title: 'Close notification',
-			            icon: 'images/xmark.png'},
-			        ]
-			      };
-			      reg.showNotification('Hello world!', options);
-			    });
-			  }
-			}
-			\end{lstlisting}
+\begin{lstlisting}
+function displayNotification() {
+  if (Notification.permission == 'granted') {
+   navigator.serviceWorker.getRegistration().then(function(reg) {
+     var options = {
+       body: 'Here is a notification body!',
+       icon: 'images/example.png',
+       vibrate: [100, 50, 100],
+       data: {
+         userId: “383209489398274”
+       },
+       actions: [
+         {action: 'explore', title: 'Explore this new world',
+           icon: 'images/checkmark.png'},
+         {action: 'close', title: 'Close notification',
+           icon: 'images/xmark.png'},
+       ]
+     };
+     reg.showNotification('Hello world!', options);
+   });
+  }
+}
+\end{lstlisting}
 		
 
 		
@@ -194,13 +194,12 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 		
 		Om een service worker te installeren moet deze geregistreerd worden in de javascript van de webapplicatie. Dit gebeurt normaal bij het eerst bezoek aan de website van de gebruiker.
 		
-		\begin{lstlisting}
-		function displayNotification() {
-		if ('serviceWorker' in navigator) {
-		  navigator.serviceWorker.register('/service-worker.js');
-		}
-		
-		\end{lstlisting}
+\begin{lstlisting}
+function displayNotification() {
+if ('serviceWorker' in navigator) {
+	navigator.serviceWorker.register('/service-worker.js');
+}
+\end{lstlisting}
 	
 		Als een service worker wordt geïnstalleerd, worden de opgegeven statische bestanden (foto’s, css-bestanden, javascript-bestanden) gedownload. Als dit slaagt, wordt er naar de activatiefase gegaan, als dit niet slaagt zal dit proces zich herhalen tot het slaagt. 
 		
@@ -294,29 +293,29 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 	
 	Voorbeeld van een minimum app manifest voor de Google Maps PWA.
 	
-	\begin{lstlisting}
-	{
-	  "short_name": "Maps",
-	  "name": "Google Maps",
-	  "icons": [
-	    {
-	      "src": "/images/icons-192.png",
-	      "type": "image/png",
-	      "sizes": "192x192"
-	    },
-	    {
-	      "src": "/images/icons-512.png",
-	      "type": "image/png",
-	      "sizes": "512x512"
-	    }
-	  ],
-	  "start_url": "/maps/?source=pwa",
-	  "background_color": "#3367D6",
-	  "display": "standalone",
-	  "scope": "/maps/",
-	  "theme_color": "#3367D6"
-	}
-	\end{lstlisting}
+\begin{lstlisting}
+{
+"short_name": "Maps",
+"name": "Google Maps",
+"icons": [
+ {
+   "src": "/images/icons-192.png",
+   "type": "image/png",
+   "sizes": "192x192"
+ },
+ {
+   "src": "/images/icons-512.png",
+   "type": "image/png",
+   "sizes": "512x512"
+ }
+],
+"start_url": "/maps/?source=pwa",
+"background_color": "#3367D6",
+"display": "standalone",
+"scope": "/maps/",
+"theme_color": "#3367D6"
+}
+\end{lstlisting}
 	
 	
 		\begin{table}[H]
