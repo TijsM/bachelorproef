@@ -1,6 +1,6 @@
 \section{PWA-alternatieven}
 
-In deze sectie zal er onderzoek gedaan worden naar technologieën waarbij er een applicatie ontwikkeld kan worden die op meerdere platformen kan werken waarbij er ook maar 1 codebase is. Er zal gekeken worden wat de voor- en nadelen zijn van de methodes. 
+In deze sectie zal er onderzoek gedaan worden naar technologieën waarbij er een applicatie ontwikkeld kan worden die op meerdere platformen kan werken waarbij er ook maar 1 codebase is. Er zal gekeken worden wat de voor- en nadelen zijn van deze technologieën. 
 
 Het doel van cross platform ontwikkeling is dat het gemakkelijker en sneller moet zijn om een applicatie te creëren en te onderhouden voor meerdere platformen.
 
@@ -16,12 +16,11 @@ Een ander voordeel van deze technologie is dat het gemakkelijker is om consisten
 	Dit type applicatie kan gebouwd worden met de technologieën die beschikbaar zijn voor het web.
 	
 	Bij het creëren van een hybride applicatie wordt er een minimale browser aangemaakt in het package van de applicatie. De applicatie wordt vervolgens in deze minimale browser gebouwd. Deze combinatie van bestanden kan vervolgens geüpload worden naar platformen zoals de Google Play store of de App Store van Apple.
-	
 	\autocite{Huynh2017}
 	
 	
 	\subsubsection{Voordelen}
-		Het grote voordeel van hybride applicaties is dat de overstap van web-development naar het ontwikkelen van hybride applicaties heel klein is. De technologieën die gebruikt worden bij web-ontwikkeling kunnen overgenomen worden om mobiele applicaties te ontwikkelen. Er moeten dus geen nieuwe frameworks of technologieën geleerd worden.
+		Het grote voordeel van hybride applicaties is dat de overstap van web development naar het ontwikkelen van hybride applicaties heel klein is. De technologieën die gebruikt worden bij web-ontwikkeling kunnen overgenomen worden om mobiele applicaties te ontwikkelen. Er moeten dus geen nieuwe frameworks of technologieën geleerd worden.
 		
 		Dit betekent ook dat de vele libraries en packages die beschikbaar zijn voor het web ook gebruikt kunnen worden voor app-ontwikkeling.
 		
@@ -32,7 +31,6 @@ Een ander voordeel van deze technologie is dat het gemakkelijker is om consisten
 		De userinterface die gemaakt wordt aan de hand van een hybride applicatie is op elk toestel dezelfde. Dit zorgt ervoor dat de app niet intuïtief aanvoelt. Een native Androidapplicatie heeft bijvoorbeeld een ander navigatiesysteem dan een IOS-applicatie. Bij het maken van een hybride oplossing zal deze navigatie op beide platformen dezelfde zijn.
 		
 		De prestaties van een website die in een webview werkt zijn minder goed dan bij een native applicatie.
-	
 		\autocite{Asp2017}	
 
 		
@@ -48,11 +46,9 @@ Een ander voordeel van deze technologie is dat het gemakkelijker is om consisten
 		Ionic framework heeft ook een ruime bibliotheek aan plug-ins die ervoor zorgen dat een applicatie gebruik kan maken van de functies die een besturingssysteem heeft.
 		
 		Een applicatie die ontwikkeld is in Ionic, kan gepubliceerd worden in de Apple app-store, de Google Play-store en ook als PWA. Verschillende plugins die gebruikt kunnen worden voor de native applicaties kunnen ook gebruikt worden voor PWA’s. Ionic is dus heel geschikt voor cross platform development. 
-		
 		\autocite{Ionic2020a}
 		
 		De ontwikkelervaring van een Ionic applicatie is ook aangenaam omdat Ionic ‘live reloading’ ondersteunt. Dit wil zeggen dat de applicatie niet opnieuw “gebuild” moet worden om de aanpassingen te zien. 
-		
 		\autocite{Lucas2020}
 		
 		Het Ionic framework zal er ook voor zorgen dat de applicatie meer native aanvoelt door de UI-elementen die het aanbiedt. Als een applicatie “gebuild” wordt zal Ionic ervoor zorgen dat de juiste UI-componenten voor elk toestel gebruikt worden. Zo zal een Androidapplicatie het material design volgen en een IOS-applicatie het human design. 
@@ -60,7 +56,6 @@ Een ander voordeel van deze technologie is dat het gemakkelijker is om consisten
 		Een Ionic applicatie zal meer middelen vragen van een toestel. Als prestaties een belangrijke factor zijn bij de applicatie die gebouwd moet worden, is deze hybride benadering dus niet ideaal.
 		
 		Een Ionic applicatie is zowel intensief voor de CPU als voor de batterij. Wat wel opvallend is, is dat de grootte van een applicatie kleiner is dan bij cross platform native development. 
-		
 		\autocite{Asp2017}	
 
 
@@ -74,7 +69,7 @@ Een ander voordeel van deze technologie is dat het gemakkelijker is om consisten
 		Een groot voordeel van ontwikkelen met Electron is dat Chromium gebruikt wordt als webview. Dit zorgt ervoor dat een applicatie zich op elk besturingssysteem gelijk zal gedragen. Dit zorgt er ook voor dat de ontwikkelaar toegang heeft tot de ‘Developer Tools’ die normaal gebruikt worden bij het ontwikkelen van een webapplicatie. 
 		
 		Een van de grote nadelen van Electron is dat het startproject al heel groot is. De Chromium webview heeft alleen al meer dan 20 miljoen lijnen code. Dit zorgt ervoor dat Electron enkel interessant wordt voor heel grote projecten waarbij dit gerechtvaardigd kan worden.
-		De code is ook niet geëncrypteerd. Dit wil zeggen dat een gebruiker die een programma downloadt aan de broncode kan van dit programma kan. Als de code van een applicatie niet beschikbaar mag zijn, kan Electron niet gebruikt worden.
+		De code is ook niet geëncrypteerd. Dit wil zeggen dat een gebruiker die een programma downloadt aan de broncode kan van dit programma. Als de code van een applicatie niet beschikbaar mag zijn, kan Electron niet gebruikt worden.
 		
 		Voorbeelden van software die ontwikkeld zijn met Electron zijn:
 		\begin{itemize}
@@ -88,26 +83,22 @@ Een ander voordeel van deze technologie is dat het gemakkelijker is om consisten
 
 \subsection{Cross platform native development}
 Het grote verschil met hybrid applications is dat bij cross platform native development de code gecompileerd wordt naar native componenten. Er wordt dus geen webview gebruikt.
-
-
 \autocite{Ghinea2018}
 \autocite{DeConinck2019}
+
 	\subsubsection{Voordelen}
 		De meeste cross platform development frameworks hebben een functie ‘hot reload’. Dit wil zeggen dat de app tijdens het ontwikkelen op een emulator kan uitgevoerd worden. Elke keer een verandering aangebracht wordt, zal deze app direct updaten. Dit vereenvoudigt het ontwikkelproces. 
 		
 		Bij cross platform development wordt de code omgevormd tot native componenten. Dit zorgt ervoor dat een applicatie een meer ‘native feeling’ zal hebben dan bij hybrid applications. Een knop die gecompileerd wordt naar Android zal er anders uitzien dan een knop die gecompileerd wordt naar IOS.
-	
 		\autocite{Asp2017}
 	
 	\subsubsection{Nadelen}
 		De prestaties zijn dan wel beter dan bij een hybrid applicatie, maar voor applicaties die veeleisend zijn op vlak van CPU en geheugen zijn cross platform development frameworks niet de beste oplossing. Hier wordt beter een native oplossing gebruikt waarbij er toch nog twee of meer codebases zijn.
-		
 		\autocite{Asp2017}
 		
 		
 	\subsubsection{Xamarin}
 		Xamarin is een platform die gebruikt kan worden om applicaties voor Android, IOS, Windows en Mac OS te maken.  Xamarin is ontwikkeld en wordt onderhouden door Microsoft. De taal en technologie die bij dit platform gebruikt wordt is C\#. Naar schatting kan 90\% van de code in C\# geschreven worden. De resterende 10\% van de code moet nog steeds geschreven worden in de taal van het platform zoals Java voor Android, Swift voor IOS. De code die niet met C\# geschreven is, is de code die de userinterface maakt.
-		
 		\autocite{Altexsoft2019} \autocite{Warcholinski2020}
 		
 		De IDE Visual studio voorziet veel tools die het ontwikkelen van Xamarin applicaties makkelijker maakt.
@@ -120,7 +111,6 @@ Het grote verschil met hybrid applications is dat bij cross platform native deve
 		Xamarin is het framework die de cross-platform trend heeft gestart. Het platform werd begin 2013 uitgebracht. Doordat het al enkele jaren bestaat, zijn er al veel vragen gepost op fora, waardoor de kans groot is dat, als een ontwikkelaar een probleem heeft, dit gedocumenteerd staat op een forum.
 		
 		Dit is ook terug te zien in het aantal zoekopdrachten op Stackoverflow. Bij de categorie ‘frameworks’ staat Xamarin op de 10e plaats. Enkel React native en Cordova staan hoger op deze lijst.
-		
 		\autocite{StackOverflow2020}
 		
 	\subsubsection{React native}
@@ -146,7 +136,6 @@ Het grote verschil met hybrid applications is dat bij cross platform native deve
 			Een React native project dat gebruik maakt van Expo heeft nu ook webondersteuning. Dit houdt in dat een applicatie geschreven wordt in JavaScript en kan geëxporteerd worden naar een IOS app, Android app en een PWA.
 			
 			Deze functionaliteit is nog in de Beta fase en er wordt aangeraden dit nog niet te gebruiken in productie.
-			
 			\autocite{Expo2020}
 
 
