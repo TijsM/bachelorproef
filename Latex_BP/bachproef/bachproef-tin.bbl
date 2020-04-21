@@ -3492,7 +3492,7 @@
       \verb https://developer.mozilla.org/en-US/docs/Web/API/Push_API
       \endverb
     \endentry
-    \entry{Mozilla2020a}{online}{}
+    \entry{Mozilla2020c}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=502f1bd97b0e7d80b88e1f45ae1bfdb8}{%
            family={Mozilla},
@@ -3508,6 +3508,38 @@
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{month}{2}
+      \field{title}{Add to Home screen}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen
+      \endverb
+    \endentry
+    \entry{Mozilla2020a}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=502f1bd97b0e7d80b88e1f45ae1bfdb8}{%
+           family={Mozilla},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{fullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{bibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorbibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authornamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorfullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \field{extraname}{6}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -3540,10 +3572,10 @@
       \strng{authorbibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
       \strng{authornamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
       \strng{authorfullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
-      \field{extraname}{6}
+      \field{extraname}{7}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{extradate}{2}
+      \field{extradate}{3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
