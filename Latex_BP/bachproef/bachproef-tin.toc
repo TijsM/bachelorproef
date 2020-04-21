@@ -23,7 +23,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Offline gebruik}{25}{section*.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Cache API}{26}{section*.10}% 
+\contentsline {subparagraph}{Cache API}{25}{section*.10}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{IndexedDB}{26}{section*.11}% 
 \defcounter {refsection}{0}\relax 
@@ -37,11 +37,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Service worker lifecycle }{28}{section*.16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}A2HS}{30}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.2}A2HS}{29}{subsection.2.1.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.3}Application shell}{31}{subsection.2.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.4}Progressive enhancement}{32}{subsection.2.1.4}% 
+\contentsline {subsection}{\numberline {2.1.4}Progressive enhancement}{31}{subsection.2.1.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.5}Application manifest}{32}{subsection.2.1.5}% 
 \defcounter {refsection}{0}\relax 
@@ -87,9 +87,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Media-controle in de notificatie }{41}{section*.33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Connectie met andere apparaten}{42}{section*.34}% 
+\contentsline {subsubsection}{Connectie met andere apparaten}{41}{section*.34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Bluetooth }{42}{section*.35}% 
+\contentsline {paragraph}{Bluetooth }{41}{section*.35}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{USB}{42}{section*.36}% 
 \defcounter {refsection}{0}\relax 
@@ -103,7 +103,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Vibratiemotor }{43}{section*.41}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Batterijstatus}{44}{section*.42}% 
+\contentsline {paragraph}{Batterijstatus}{43}{section*.42}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Toestelgeheugen}{44}{section*.43}% 
 \defcounter {refsection}{0}\relax 
@@ -131,7 +131,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{Cache API}{47}{section*.55}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Storage API}{48}{section*.56}% 
+\contentsline {subparagraph}{Storage API}{47}{section*.56}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Bestandentoegang}{48}{section*.57}% 
 \defcounter {refsection}{0}\relax 
@@ -207,11 +207,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Bereik}{62}{subsection.2.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Platformonafhankelijkheid }{63}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.2}Platformonafhankelijkheid }{62}{subsection.2.3.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.3}Omzet}{63}{subsection.2.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Bundle size}{64}{subsection.2.3.4}% 
+\contentsline {subsection}{\numberline {2.3.4}Bundle size}{63}{subsection.2.3.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.5}Offline gebruik}{65}{subsection.2.3.5}% 
 \defcounter {refsection}{0}\relax 
@@ -219,15 +219,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.7}Kost}{66}{subsection.2.3.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.8}Deployment}{67}{subsection.2.3.8}% 
+\contentsline {subsection}{\numberline {2.3.8}Deployment}{66}{subsection.2.3.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.9}Updates}{68}{subsection.2.3.9}% 
+\contentsline {subsection}{\numberline {2.3.9}Updates}{67}{subsection.2.3.9}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.10}Conclusie}{68}{subsection.2.3.10}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Beperkingen van een PWA}{68}{section.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Cameragebruik}{69}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.1}Cameragebruik}{68}{subsection.2.4.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}Controle over platformen}{69}{subsection.2.4.2}% 
 \defcounter {refsection}{0}\relax 
@@ -251,7 +251,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.2}Workbox}{72}{subsection.2.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.3}PWAbuilder}{73}{subsection.2.5.3}% 
+\contentsline {subsection}{\numberline {2.5.3}PWAbuilder}{72}{subsection.2.5.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.4}Chrome developer tools}{73}{subsection.2.5.4}% 
 \defcounter {refsection}{0}\relax 
@@ -263,17 +263,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Nadelen}{74}{section*.94}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Apache cordova}{75}{section*.95}% 
+\contentsline {subsubsection}{Apache cordova}{74}{section*.95}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Ionic}{75}{section*.96}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Electron}{76}{section*.97}% 
+\contentsline {subsubsection}{Electron}{75}{section*.97}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.6.2}Cross platform native development}{76}{subsection.2.6.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Voordelen}{76}{section*.98}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Nadelen}{77}{section*.99}% 
+\contentsline {subsubsection}{Nadelen}{76}{section*.99}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Xamarin}{77}{section*.100}% 
 \defcounter {refsection}{0}\relax 
@@ -281,13 +281,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Expo}{78}{section*.102}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Flutter}{79}{section*.103}% 
+\contentsline {subsubsection}{Flutter}{78}{section*.103}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.6.3}Conclusie}{79}{subsection.2.6.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.4}Concluderende flowchart}{80}{subsection.2.6.4}% 
+\contentsline {subsection}{\numberline {2.6.4}Concluderende flowchart}{79}{subsection.2.6.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Ontsluiten van een PWA}{82}{section.2.7}% 
+\contentsline {section}{\numberline {2.7}Ontsluiten van een PWA}{81}{section.2.7}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Methodologie}{83}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
