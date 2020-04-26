@@ -48,5 +48,224 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een  an
 			\item Als een gebruiker wil ik een video-gesprek kunnen hebben met een zo laag mogelijke vertraging zodat ik geen problemen heb met communiceren.
 			\item Als een gebruiker wil ik video-gesprekken voeren op een veilige manier zodat niemand informatie kan achterhalen die ik niet publiek wou maken.
 		\end{itemize} 
+		
+		
+\section{Design} 
 
- 
+\section{Implementatie}
+	
+	Voor het ontwikkelen van de proof-of-concept werd er opnieuw gebruik van react.js voor de frontend. De backend werd ontwikkeld in node.js en als database werd firebase gebruikt.
+	
+	\subsection{Registreren service worker}
+		https://medium.com/@chinmaya.cp/custom-service-worker-in-cra-create-react-app-3b401d24b875
+		
+		https://levelup.gitconnected.com/a-guide-to-service-workers-in-react-js-82aec1d6a22d
+		
+		https://github.com/goldhand/sw-precache-webpack-plugin
+		
+		In Hoofdstuk~\ref{ch:TransformerenNaarEenPWA} werd vermeld dat een standaard react applicatie al een service worker heeft die voor caching van statische bestanden zorgt. Deze service worker wordt gegenereerd tijdens het build proces door de library sw-precache-webpack-plugin. 
+		
+		Door een service worker te genereren zorgt react ervoor dat een website heel eenvoudig is om statische bestanden te cachen en een website offline beschikbaar te maken.
+		
+		Deze strategie heeft echter een groot nadeel, de service worker die react genereerd kan kan niet worden aangepast door de ontwikkelaar. Als de applicatie een meer geavanceerde service worker nodig heeft, zal deze automatisch gegenereerde service worker moeten overschreven worden.
+		
+		Het artikel van Chinmaya Pati dat gepubliceerd werd op Medium beschrijft dit proces.
+		
+	\subsection{Caching}
+	
+	https://gist.github.com/addyosmani/0e1cfeeccad94edc2f0985a15adefe54
+	
+	TODOOOOOOO
+	
+	
+	
+	
+	\subsection{Authentication}
+	
+		https://www.smashingmagazine.com/2018/08/best-practices-for-mobile-form-design/
+		
+		Het invullen van van een form om een mobiel toestel is voor veel gebruikers een relatief grote inspanning.
+		
+		In het artikel van Nick Babich wordt de term "Interaction cost" gebruikt. De interaction cost is de som van alle cognitieve en fysieke inspanningen die een gebruiker moet doen om tot zijn doel te komen. Hoe lager de interaction cost hoe beter.
+		
+		Het invullen van formulieren met data heeft een hoge interaction cost. Er moet veel getypt worden (fysieke inspanning) en alles wat getypt moet worden moet correct zijn (cognitieve inspanning). het is dus belangrijk om de gebruiker hiervan te besparen.
+		
+		Dit kan gedaan worden door de gebruiker te laten registreren via een ander platform, hierbij moet er vaak helemaal niet, of veel minder getypt worden.
+		
+		Op deze applicatie kan de gebruiker zich aanmelden met Google en Facebook.
+		
+		Dit werd bereikt door gebruikt te maken van "Firebase authentication". Dit is een service die aangeboden wordt door Google.
+		
+		
+		
+\begin{lstlisting}
+export const auth = firebase.auth();
+const provider = new firebase.auth.GoogleAuthProvider();
+
+export const authWithGoogle = () => {
+return auth.signInWithPopup(provider)
+};
+\end{lstlisting}
+	
+		Deze code geeft alle relevante informatie terug die google over de gebruiker heeft. Dit bevat volgende eigenschappen:
+		\begin{itemize}
+			\item Voornaam
+			\item Familienaam
+			\item Volledige naam
+			\item Email
+			\item Profielfoto
+			\item Voorkeurstaal
+			\item ...
+		\end{itemize} 
+		
+		Gelijkaardige code kan geschreven worden voor het aanmelden met andere platformen zoals:
+		\begin{itemize}
+			\item Twitter
+			\item Github
+			\item Apple
+			\item Microsoft
+			\item ...
+		\end{itemize} 
+		
+	\subsection{Clipboard API}
+	
+		De clipboard API kan gebruikt worden om items in het klembord van de gebruikter te plaatsen of om het klembord uit te lezen.
+		
+		Deze web-API werd gebruikt om eenvoudig de link 'room' te kunnen delen met een persoon die gecontacteerd zal worden.
+		
+		Volgende code zal de link genereren die de uitgenodigde persoon kan gebruiken en zal deze in het klembord van de gebruiker plaatsen.
+		
+		De eerste keer dat dit proces uitgevoerd wordt zal de gebruiker expliciet toestemming moeten geven.
+
+\begin{lstlisting}
+navigator.clipboard
+  .writeText(`http://localhost:3000/visitroom/${roomownername}/${roomname}`)
+  .then(() => {
+    console.log("Text copied to clipboard");
+    alert("coppied!! share the coppied link with somebody");
+  });
+};
+\end{lstlisting}
+
+
+	\subsection{Push notificaties}
+	
+	https://web-push-book.gauntface.com/chapter-04/01-sending-messages-with-web-push-libraries/
+	
+	https://developers.google.com/web/fundamentals/push-notifications/subscribing-a-user
+	
+		Een van de grote voordelen van een PWA ten opzichte van een traditionele website is dat het push notificaties kan sturen naar de gebruiker.
+		
+		Er wordt aangeraden om de "web-push" library te gebruiken om push notificaties te implementeren
+		
+		https://developers.google.com/web/fundamentals/push-notifications/how-push-works
+		
+		\paragraph{Abbonneren op push notificaties}
+			 De gebruiker moet expliciet toegang geven aan de webapplicatie om push notificaties te mogen gebruiken.
+			 
+\begin{lstlisting}
+    const sw = await navigator.serviceWorker.ready;
+    let pushSub = await sw.pushManager.subscribe({
+          userVisibleOnly: true,
+          applicationServerKey: 'public VAPID key
+        })
+\end{lstlisting}
+
+			Dit stukje code zal een "subscription" teruggeven dat opgeslagen moet worden in de databank bij de gebruiker. deze "subscription" is uniek voor de gebruiker, de browser en het toestel.
+			
+			voorbeeld van een subscription:
+	
+\begin{lstlisting}
+{
+   "endpoint":"https://fcm.googleapis.com/fcm/send/fOkirMCCHhM:APA91bHh9hG2XiqzvG3w4fhcRUDOlUSAIRwdhyhUEmoiO9CXRjV5LaCrLKvpoyhU8j7KdTqHN6jHLe_I-tanIQLI6ba_NzlLyczWrLk9Fr0e8ZtLuApq6rA31EQ5NXiz6ow3miXD45FY",
+   "expirationTime":null,
+   "keys":{
+      "p256dh":"BBwYLrPvd2IIAo4cWsJhXRD2g9aFyL1Q3K9cuWh_W4IHHWWgr9F184s1CEDm7CgcB6Zg3E-vZSvHeZe_gW0Lgb0",
+      "auth":"0orvSHRZrMb3zP0yIpUAcg"
+   }
+}
+\end{lstlisting}
+
+
+		\paragraph{Backend}
+			De backend moet in een eerste fase gebruikt worden om de VAPID keys te genereren.
+			
+			Vapid keys of application server keys zijn uniek voor de server
+			
+			Deze vapid keys zorgen ervoor dat de push services van de verschillende browsers weet van welke applicatie de notificaties afkomstig zijn. Hierdoor kan het ook de applicatie beveiligen en enkel deze server toestaan notificaties te sturen naar de applicatie.
+			
+			Elke browser heeft zijn eigen push service waar een applicatie server aan kan vragen om een notificiatie te sturen naar een bepaald toestel.
+			
+		
+			Deze vapid keys kunnen in de applicatie server gegenereerd worden aan de hand van volgende code:
+			
+\begin{lstlisting}
+console.log(push.generateVAPIDKeys)
+\end{lstlisting}
+
+			Dit zal een publieke en een private sleutel weergeven in de console. Deze moeten dan op een veilige plaats opgeslagen worden.
+			
+			Eens de server de Vapid keys heeft kan deze een notificatie verzenden.
+			
+\begin{lstlisting}
+push.setVapidDetails(
+    "mailto:mai",
+    secrets.vapIdKeys.publicKey,
+    secrets.vapIdKeys.privateKey
+  );
+  
+ push.sendNotification( sub,  JSON.stringify({payload})
+\end{lstlisting}
+
+			Er moet ook een geldig email adres opgegeven worden. Dit email adres zal gebruikt worden door de push service als er problemen zijn met jouw applicatie.
+			
+			De push notificatie kan dan verzonden worden met eventueel extra informatie in de payload.
+			
+		\paragraph{Service worker}
+		
+			Op basis van de subscription die in de backend werd verzonden zal de service worker van de juiste gebruiker geactiveerd worden
+			
+			De service worker met een listener toevoegen waar eventuele push notificaties kunnen binnenkomen.
+			
+\begin{lstlisting}
+self.addEventListener("push", function (e) {
+	//handle notification
+}
+\end{lstlisting}
+			
+			Als de backend extra informatie heeft meegegeven kan deze uitgelezen worden.
+\begin{lstlisting}
+  const payload = JSON.parse(e.data.text())
+\end{lstlisting}
+			
+			Vervolgens kan er een notificatie gevormd worden zoals eerder toegelicht
+			
+\begin{lstlisting}
+options = {
+      body: "Open the app and say hi!",
+      icon: "images/example.png",
+      vibrate: [300, 50, 100],
+      data: {
+        dateOfArrival: Date.now(),
+        primaryKey: "2",
+      },
+    };
+
+    e.waitUntil( self.registration.showNotification(`notification title`, options)
+\end{lstlisting}
+			
+	\subsection{Local storage}
+	
+		https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+		
+		Om een ervaring aan te bieden zoals op native applicaties is het belangrijk om de gebruiker aangemeld te houden tussen sessies.
+		
+		Dit gebeurt aan de hand van local storage. Zolang de gebruiker het local storage niet manueel verwijdert zal dit blijven bestaan. 
+		
+		Als een gebruiker zich aanmeldt, wordt deze opgeslagen in het local storage.
+		
+
+
+	\subsection{Web RTC}
+	
+	\subsection{Socket.io}
