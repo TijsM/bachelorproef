@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  26 APR 2020 17:55
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  27 APR 2020 08:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2322,30 +2322,29 @@ Underfull \vbox (badness 5563) has occurred while \output is active []
 
  [96]
 [97] [98]
-Overfull \hbox (36.69173pt too wide) in paragraph at lines 153--154
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [99]
+Overfull \hbox (36.69173pt too wide) in paragraph at lines 211--212
 \T1/ptm/m/n/12 https://web-push-book.gauntface.com/chapter-04/01-sending-messag
 es-with-web-push-libraries/ 
  []
 
-
-Overfull \hbox (116.11397pt too wide) in paragraph at lines 180--181
+[100]
+Overfull \hbox (116.11397pt too wide) in paragraph at lines 238--239
 [][][][] 
  []
 
 
-Overfull \hbox (72.01352pt too wide) in paragraph at lines 183--184
+Overfull \hbox (72.01352pt too wide) in paragraph at lines 241--242
 [][][][] 
  []
 
-
-Underfull \vbox (badness 1895) has occurred while \output is active []
-
- [99]
-[100]) (./conclusie.tex [101] [102
-
-]
+[101]) (./conclusie.tex [102]
 Hoofdstuk 6.
-) [103] [104
+) [103
+
+] [104
 
 ]
 B"ylage A.
@@ -2442,10 +2441,10 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43521 strings out of 492916
- 804341 string characters out of 6133345
+ 43541 strings out of 492916
+ 804609 string characters out of 6133345
  1468937 words of memory out of 5000000
- 46910 multiletter control sequences out of 15000+600000
+ 46930 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,80p,827b,7226s stack positions out of 5000i,500n,10000p,200000b,80000s

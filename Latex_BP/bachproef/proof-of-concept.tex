@@ -72,13 +72,69 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een  an
 		Het artikel van Chinmaya Pati dat gepubliceerd werd op Medium beschrijft dit proces.
 		
 	\subsection{Caching}
-	
 	https://gist.github.com/addyosmani/0e1cfeeccad94edc2f0985a15adefe54
 	
-	TODOOOOOOO
+	https://developers.google.com/web/tools/workbox/modules/workbox-precaching
 	
+	https://developers.google.com/web/tools/workbox/modules/workbox-strategies
 	
-	
+		\paragraph{Statish cachen}
+			Statisch cachen is het cachen van bestanden die afkomstig zijn van de website. Voorbeelden hiervan zijn foto's, style sheets, javascript bestande, html bestanden.
+			
+			Door deze te cachen wordt de applicatie offline beschikbaar.
+			
+			In deze applicatie werd dit bereikt door workbox te gebruiken.
+			
+			In een eerste fase wordt het index.html bestand gecached.
+\begin{lstlisting}
+workbox.precaching.precacheAndRoute([
+  {url: '/index.html', revision: '1'},
+]);
+\end{lstlisting}
+		
+			Workbox zal de functie 'precacheAndRoute' uitvoeren als de service worker geïnstalleerd wordt. De bestanden die worden meegeveven in de array zullen vanaf dat moment offline beschikbaar zijn.
+			
+			Bestanden die hier toegoevoegd worden zullen geleverd worden aan de hand van de 'cache first' strategie. Dit wil zeggen dat dit bestand enkel aan de server gevraagd zal worden als het niet beschikbaar is in het cache geheugen.
+			
+			Een andere manier waarop statische caching kan gedaan worden is aan de van de 'registerRoute' die Workbow aanbiedt. 
+			
+\begin{lstlisting}
+workbox.routing.registerRoute(
+  /\.(?:js|css)$/,
+  workbox.strategies.staleWhileRevalidate({
+    cacheName: "static-resources",
+    plugins: [
+      new workbox.expiration.Plugin({
+        maxEntries: 60,
+        maxAgeSeconds: 20 * 24 * 60 * 60, // 20 Days
+      }),
+    ],
+  })
+);
+\end{lstlisting}
+			
+			Aan de hand van een regular expression kunnen er bestanden gechached worden. In dit voorbeeld worden alle javascript en css bestanden offline beschikbaar gemaakt.
+			
+			In de voorbeeld wordt een andere strategie toegepast. de staleWhileRevalidate strategie houdt in dat eerst het gecachete bestand gebruikt wordt, vervolgens wordt het er een netwerkverzoek verstuurd om dit bestand op te halen van de server. Als dit bestand niet volledig gelijk is, zal het gecachte bestand overschreven worden.
+			
+					
+		\paragraph{dynamisch cachen}
+			Dynamisch cachen houdt in dat data die de gebruiker vraagt ook offline opgeslagen wordt. Dit zullen vaak requests van REST-API's zijn.
+			
+			In deze applicatie werd dynamisch cachen toegepast om de laatste versie van de rooms nog steeds te tonen aan de gebruiker, ookal als deze offline.
+			
+\begin{lstlisting}
+workbox.routing.registerRoute(
+  /.*(?:googleapis|)\.com.*$/,
+  workbox.strategies.staleWhileRevalidate({
+    cacheName: "firebase",
+  })
+);
+\end{lstlisting}
+		
+			Opniew wordt er gebruik gemaakt van een regular expression om workbox duidelijk te maken welke request er offline beschikbaar moet zijn.
+
+
 	
 	\subsection{Authentication}
 	
