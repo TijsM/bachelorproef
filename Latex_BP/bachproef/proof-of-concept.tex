@@ -1,21 +1,20 @@
 \chapter{Proof-of-concept}
 \label{ch:Proof-of-concept}
 
-
 In deze proof-of-concept zal er onderzocht worden als een PWA kan voldoen aan het verwachtingspatroon van een gebruiker op een native applicatie.
 
 Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een  andere persoon zal kunnen uitnodigen om een video gesprek te hebben. 
 
  \section{Requirements}
 
- \subsection{Rollen}
- 
- \subsubsection{Gebruiker}
-	Een persoon die de toepassing gebruikt, deze persoon hoeft niet aangemeld te zijn.
- 
- \subsubsection{Aangemelde gebruiker}
- 	Dit is een gebruiker die reeds een account heeft op de toepassen en die aangemeld is.
- 
+	 \subsection{Rollen}
+	 
+	 \subsubsection{Gebruiker}
+		Een persoon die de toepassing gebruikt, deze persoon hoeft niet aangemeld te zijn.
+	 
+	 \subsubsection{Aangemelde gebruiker}
+	 	Dit is een gebruiker die reeds een account heeft op de toepassen en die aangemeld is.
+	 
  \subsection{Functionele requirements}
  	\subsubsection{Authenticatie}
 	 	\begin{itemize}
@@ -52,6 +51,12 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een  an
 		
 \section{Design} 
 
+	Er werd voor het ontwikkelen van de applicatie een design gemaakt in figma. Er werd gekozen voor een e
+	
+	
+\section{De applicatie}
+
+
 \section{Implementatie}
 	
 	Voor het ontwikkelen van de proof-of-concept werd er opnieuw gebruik van react.js voor de frontend. De backend werd ontwikkeld in node.js en als database werd firebase gebruikt.
@@ -79,7 +84,9 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een  an
 	https://developers.google.com/web/tools/workbox/modules/workbox-strategies
 	
 		\paragraph{Statish cachen}
-			Statisch cachen is het cachen van bestanden die afkomstig zijn van de website. Voorbeelden hiervan zijn foto's, style sheets, javascript bestande, html bestanden.
+			Statisch cachen is het cachen van bestanden die nodig zijn voor het opbouwen van de webapplicatie. Voorbeelden hiervan zijn foto's, style sheets, javascript bestanden, html bestanden, ...
+			
+			Op deze manier zal dus ook de application shell offline beschikbaar zijn.
 			
 			Door deze te cachen wordt de applicatie offline beschikbaar.
 			
@@ -115,7 +122,7 @@ workbox.routing.registerRoute(
 			
 			Aan de hand van een regular expression kunnen er bestanden gechached worden. In dit voorbeeld worden alle javascript en css bestanden offline beschikbaar gemaakt.
 			
-			In de voorbeeld wordt een andere strategie toegepast. de staleWhileRevalidate strategie houdt in dat eerst het gecachete bestand gebruikt wordt, vervolgens wordt het er een netwerkverzoek verstuurd om dit bestand op te halen van de server. Als dit bestand niet volledig gelijk is, zal het gecachte bestand overschreven worden.
+			In de voorbeeld wordt een andere strategie toegepast. de staleWhileRevalidate strategie houdt in dat eerst het gecachete bestand gebruikt wordt, vervolgens wordt het er een netwerkverzoek verstuurd om dit bestand op te halen van de server. Als deze bestanden niet volledig gelijk zijn, zal het gecachte bestand overschreven worden.
 			
 					
 		\paragraph{dynamisch cachen}
@@ -134,8 +141,6 @@ workbox.routing.registerRoute(
 		
 			Opniew wordt er gebruik gemaakt van een regular expression om workbox duidelijk te maken welke request er offline beschikbaar moet zijn.
 
-
-	
 	\subsection{Authentication}
 	
 		https://www.smashingmagazine.com/2018/08/best-practices-for-mobile-form-design/
@@ -151,7 +156,6 @@ workbox.routing.registerRoute(
 		Op deze applicatie kan de gebruiker zich aanmelden met Google en Facebook.
 		
 		Dit werd bereikt door gebruikt te maken van "Firebase authentication". Dit is een service die aangeboden wordt door Google.
-		
 		
 		
 \begin{lstlisting}
@@ -183,15 +187,42 @@ return auth.signInWithPopup(provider)
 			\item ...
 		\end{itemize} 
 		
-	\subsection{Clipboard API}
+	\subsection{Share API en Clipboard API}
 	
-		De clipboard API kan gebruikt worden om items in het klembord van de gebruikter te plaatsen of om het klembord uit te lezen.
+		In de applicatie is het belangrijk om op een intuïtieve manier een link te kunnen delen naar een room. 
+		Dit werd bekomen door de Share API te gebruiken.
+		Op mobiele toestellen zal deze een native menu openen waar de gebruiker de link kan delen op via verschillende platformen.
 		
-		Deze web-API werd gebruikt om eenvoudig de link 'room' te kunnen delen met een persoon die gecontacteerd zal worden.
+		Echter bieden enkel chrome voor android en safari dit aan. Er kan er dus niet vanuit gegaan worden dat de gebruiker dit kan implementeren.
+
+\begin{lstlisting}
+ const shareData = {
+      title: 'Join my room!',
+      text: 'Click on the link and we can have a video chat ;-)',
+      url: `https://videocall-pwa.netlify.app/visitroom/${owner}/${room}`,
+    }
+    navigator.share(shareData)
+\end{lstlisting}
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=35mm]{./img/share-ios}{}
+			\caption{native share-menu op IOS}
+		\end{figure}	\begin{figure}[H]
+			\centering
+			\includegraphics[width=35mm]{./img/share-android.jpg}{}
+			\caption{native share menu op Android}
+		\end{figure}
+
+		Als de gebruiker een browser gebruikt die deze functie niet ondersteund, zal de clipboard API gebruikt worden.
+	
+		De clipboard API kan gebruikt worden om items in het klembord van de gebruiker te plaatsen of om het klembord uit te lezen.
+		
+		Deze web-API werd gebruikt om eenvoudig de link van de room te kunnen delen met een persoon die gecontacteerd zal worden.
 		
 		Volgende code zal de link genereren die de uitgenodigde persoon kan gebruiken en zal deze in het klembord van de gebruiker plaatsen.
 		
-		De eerste keer dat dit proces uitgevoerd wordt zal de gebruiker expliciet toestemming moeten geven.
+		De eerste keer dat dit proces uitgevoerd wordt zal de gebruiker expliciet toestemming moeten geven om het klembord te mogen gebruiken.
 
 \begin{lstlisting}
 navigator.clipboard
@@ -201,6 +232,25 @@ navigator.clipboard
     alert("coppied!! share the coppied link with somebody");
   });
 };
+\end{lstlisting}
+
+		Bij deze feature werd er progressive enhancement toegepast. 
+		In het beste geval wordt het native deel menu getoond, als dit niet beschikbaar is zal de link gekopiëerd worden in het klembord.
+		Als ook dit niet beschikbaar is, of de gebruiker heeft geen toestemming gegeven zal er een boodschap getoond worden waar de gebruiker de link zelf kan kopiëren en delen.
+		
+\begin{lstlisting}
+if('share' in navigator){
+	// ... code voor het delen via een native menu ...
+}
+else{
+	//... code voor het kopiëren van de link ...
+	.catch(() => {
+		//tonen van een boodscahp met de link die gedeeld moet worden
+		swal(`you can share this link:
+			https://videocall-pwa.netlify.app/visitroom/${owner}/${room}
+		`);
+	});
+}
 \end{lstlisting}
 
 
@@ -233,10 +283,10 @@ navigator.clipboard
 	
 \begin{lstlisting}
 {
-   "endpoint":"https://fcm.googleapis.com/fcm/send/fOkirMCCHhM:APA91bHh9hG2XiqzvG3w4fhcRUDOlUSAIRwdhyhUEmoiO9CXRjV5LaCrLKvpoyhU8j7KdTqHN6jHLe_I-tanIQLI6ba_NzlLyczWrLk9Fr0e8ZtLuApq6rA31EQ5NXiz6ow3miXD45FY",
+   "endpoint":"https://fcm.googleapis.com/fcm/send/fOkirMCCHhM:..."
    "expirationTime":null,
    "keys":{
-      "p256dh":"BBwYLrPvd2IIAo4cWsJhXRD2g9aFyL1Q3K9cuWh_W4IHHWWgr9F184s1CEDm7CgcB6Zg3E-vZSvHeZe_gW0Lgb0",
+      "p256dh":"BBwYLrPvd2IIAo4cWsJhXRD2g9aFyL1Q3K9cuWh_...",
       "auth":"0orvSHRZrMb3zP0yIpUAcg"
    }
 }
@@ -321,7 +371,78 @@ options = {
 		Als een gebruiker zich aanmeldt, wordt deze opgeslagen in het local storage.
 		
 
-
 	\subsection{Web RTC}
-	
+		https://webrtc.org/
+		
+		Web RTC is een verzameling van Web API's die real time commicatie op het web mogelijk maken. 
+		
+		In deze applicatie werd Web RTC gebruikt om:
+		\begin{itemize}
+			\item de camera van het toestel te gebruiken en een video-stream op het scherm te tonen.
+			\item een peer-to-peer connectie op te zetten tussen twee gebruikers
+			\item video tussen beide gebuikers te streamen
+		\end{itemize} 
+		
+		Web RTC maakt gebruik van een peer-to-peer connectie tussen de twee gebruikers, tijdens het bellen is er dus geen server nodig. Echter, er is wel een server nodig om de connectie tussen beide tot stand te brengen.
+		
+		\paragraph{video-stream}
+			De video-stream zal verkregen worden via het navigator object. Bij het opvragen van een video-stream zal de browser automatisch toestemming vragen aan de gebruiker als de camera en de microfoon gebruikt mag worden.
+			
+			Als de applicatie toestemming gekregen heeft wordt er een video-stream verkregen.
+			Deze stream zal opgeslagen worden in de state van de applicatie en zal in een html-5 video element geplaatst worden.
+		
+\begin{lstlisting}
+navigator.mediaDevices.getUserMedia({ 
+		video: true,
+		audio: true 
+	}).then((stream) => {
+		setYourVideoStream(stream);
+		if (yourVideo.current) {
+			yourVideo.current.srcObject = stream;
+		}
+	});
+\end{lstlisting}
+
+
+		\paragraph{peer-to-peer verbinding met streaming}
+			Bij deze applicatie werd simple-peer gebruikt, dit is een abstractie van webRTC die het opzetten van peer-to-peer verbindingen eenvoudiger maakt.
+			
+			Voor beide gebruiker zal er een Peer object aangemaakt worden
+
+\begin{lstlisting}
+const peer = new Peer({
+	initiator: true,
+	trickle: false,
+	stream: yourVideoStream,
+});
+\end{lstlisting}
+			
+			vervolgens zullen er listeners toegevoegd worden aan deze objecten die geactiveerd zullen worden op basis van het andere peer object
+			
+\begin{lstlisting}
+peer.on("signal", (data) => {
+	// code wordt uitgevoerd als er een andere peer aangemaakt wordt
+});
+
+peer.on("stream", (stream) => {
+	// code wordt uitgevoerd als de andere peer start met het streamen van een video
+});
+\end{lstlisting}
+
 	\subsection{Socket.io}
+	
+	%	https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
+	
+		Zoals eerder vermeld is er een server nodig om een peer-to-peer connectie tot stand te brengen.
+		
+		Deze backend werd geschreven in node.js en werd gehost op \href{https://glitch.com/}{glitch}.
+		
+		De library \href{https://socket.io/}{socket.io} werd gebruikt websocktets te implementeren. Websockets zorgen ervoor dat een server met de frontend kan cummuniceren zonder dat deze er expliciet om vragen. 
+		
+		In traditionele applicaties krijgt de frontend enkel data als hij hier een request voor stuurt naar de backend, bij websockets kan de backend de frontend met data voorzien in real time.
+		
+		Deze real-time communicatie is nodig voor het opzetten van een peer-to-peer connectie.
+		
+		De backend zal de frontend informeren als er een gebruiker in een room komt, vervolgens kan er een peer-to-peer connectie opgezet worden.
+		
+		Zowel de frontend als de backend kunnen een event sturen en naar events luisteren. Op deze manier wordt er gecomuniceerd. 		

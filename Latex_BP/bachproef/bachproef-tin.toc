@@ -307,7 +307,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.3}Service worker}{91}{subsection.4.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Controle}{91}{section.4.5}% 
+\contentsline {section}{\numberline {4.5}Controle}{92}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.6}Conclusie}{92}{section.4.6}% 
 \defcounter {refsection}{0}\relax 
@@ -345,51 +345,55 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{dynamisch cachen}{98}{section*.111}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Authentication}{98}{subsection.5.3.3}% 
+\contentsline {subsection}{\numberline {5.3.3}Authentication}{99}{subsection.5.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.4}Clipboard API}{100}{subsection.5.3.4}% 
+\contentsline {subsection}{\numberline {5.3.4}Share API en Clipboard API}{100}{subsection.5.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.5}Push notificaties}{100}{subsection.5.3.5}% 
+\contentsline {subsection}{\numberline {5.3.5}Push notificaties}{102}{subsection.5.3.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Abbonneren op push notificaties}{100}{section*.112}% 
+\contentsline {paragraph}{Abbonneren op push notificaties}{102}{section*.112}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Backend}{101}{section*.113}% 
+\contentsline {paragraph}{Backend}{103}{section*.113}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Service worker}{102}{section*.114}% 
+\contentsline {paragraph}{Service worker}{103}{section*.114}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.6}Local storage}{102}{subsection.5.3.6}% 
+\contentsline {subsection}{\numberline {5.3.6}Local storage}{104}{subsection.5.3.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.7}Web RTC}{102}{subsection.5.3.7}% 
+\contentsline {subsection}{\numberline {5.3.7}Web RTC}{104}{subsection.5.3.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.8}Socket.io}{102}{subsection.5.3.8}% 
+\contentsline {paragraph}{video-stream}{105}{section*.115}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Conclusie}{103}{chapter.6}% 
+\contentsline {paragraph}{peer-to-peer verbinding met streaming}{105}{section*.116}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{105}{appendix.A}% 
+\contentsline {subsection}{\numberline {5.3.8}Socket.io}{105}{subsection.5.3.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{105}{section.A.1}% 
+\contentsline {chapter}{\numberline {6}Conclusie}{107}{chapter.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{106}{section.A.2}% 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{109}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{106}{subsection.A.2.1}% 
+\contentsline {section}{\numberline {A.1}Introductie}{109}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{106}{subsection.A.2.2}% 
+\contentsline {section}{\numberline {A.2}State-of-the-art}{110}{section.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{107}{subsection.A.2.3}% 
+\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{110}{subsection.A.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{107}{subsection.A.2.4}% 
+\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{110}{subsection.A.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.5}Native containers}{108}{subsection.A.2.5}% 
+\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{111}{subsection.A.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{108}{subsection.A.2.6}% 
+\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{111}{subsection.A.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{108}{section.A.3}% 
+\contentsline {subsection}{\numberline {A.2.5}Native containers}{112}{subsection.A.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.1}Technologieën}{108}{subsection.A.3.1}% 
+\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{112}{subsection.A.2.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{109}{section.A.4}% 
+\contentsline {section}{\numberline {A.3}Methodologie}{112}{section.A.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{109}{section.A.5}% 
+\contentsline {subsection}{\numberline {A.3.1}Technologieën}{112}{subsection.A.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{111}{appendix*.115}% 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{113}{section.A.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{113}{section.A.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{115}{appendix*.117}% 
 \contentsfinish 
