@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  2 MAY 2020 19:31
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  3 MAY 2020 14:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1732,14 +1732,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10])
+[10])
 \tf@toc=\write6
 \openout6 = `bachproef-tin.toc'.
 
-
-[11] [12
+ [11] [12
 
 ] (./bachproef-tin.lof
 Missing character: There is no “ in font ptmr8t!
@@ -2316,20 +2313,22 @@ Missing character: There is no ’ in font ptmr8t!
 ]
 Hoofdstuk 5.
 [95]
-Overfull \hbox (47.65977pt too wide) in paragraph at lines 60--61
+Overfull \hbox (4.20883pt too wide) in paragraph at lines 54--55
+\T1/ptm/m/n/12 https://medium.com/@BuildMySite1/the-what-why-and-how-of-mockups
+-4799eb115140 
+ []
+
+[96]
+Overfull \hbox (47.65977pt too wide) in paragraph at lines 73--74
 \T1/ptm/m/n/12 https://medium.com/@chinmaya.cp/custom-service-worker-in-cra-cre
 ate-react-app-3b401d24b875 
  []
 
+[97] [98]
+Underfull \vbox (badness 2310) has occurred while \output is active []
 
-Underfull \vbox (badness 5563) has occurred while \output is active []
-
- [96]
-[97]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [98]
-[99]
+ [99]
+[100]
 File: ./img/share-ios.png Graphic file (type bmp)
 <./img/share-ios.png>
 File: ./img/share-android.jpg Graphic file (type bmp)
@@ -2337,32 +2336,32 @@ File: ./img/share-android.jpg Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [100]
-[101]
-Overfull \hbox (36.69173pt too wide) in paragraph at lines 252--253
+ [101]
+[102]
+Overfull \hbox (36.69173pt too wide) in paragraph at lines 297--298
 \T1/ptm/m/n/12 https://web-push-book.gauntface.com/chapter-04/01-sending-messag
 es-with-web-push-libraries/ 
  []
 
-[102] [103]
+[103] [104]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [104]
-[105]) (./conclusie.tex [106]
+ [105]
+[106] [107]) (./conclusie.tex [108]
 Hoofdstuk 6.
-) [107
+) [109
 
-] [108
+] [110
 
 ]
 B"ylage A.
 (../voorstel/voorstel-inhoud.tex
 Missing character: There is no … in font ptmr8t!
- [109]
+ [111]
 Missing character: There is no – in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
- [110]
+ [112]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
@@ -2372,18 +2371,18 @@ Missing character: There is no ’ in font ptmr8t!
 
 Underfull \vbox (badness 1655) has occurred while \output is active []
 
- [111]
+ [113]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
 
-[112]) [113] [114
+[114]) [115] [116
 
-] [115]
+] [117]
 Missing character: There is no ﬁ in font ptmr8t!
 Missing character: There is no ř in font ptmr8t!
 Missing character: There is no š in font ptmr8t!
- [116]
+ [118]
 Overfull \hbox (9.12292pt too wide) in paragraph at lines 210--210
 [][]\T1/ptm/m/n/12 Developers, G. (2019c, mei 1). Tools for PWA De-vel-o-pers. 
 Ver-kre-gen van []$https : / / developers .
@@ -2395,15 +2394,15 @@ Overfull \hbox (33.2552pt too wide) in paragraph at lines 210--210
 ves-ti-ga-ting Device-FeatureExposure
  []
 
-[117]
+[119]
 Overfull \hbox (0.45145pt too wide) in paragraph at lines 210--210
 \T1/ptm/m/n/12 Eco-sy-s-tem. Ver-kre-gen van []$https : / / www . slideshare . 
 net / AaronGustafson / progressive -[]
  []
 
-[118]
+[120]
 Missing character: There is no ’ in font ptmr8t!
- [119]
+ [121]
 Overfull \hbox (1.22452pt too wide) in paragraph at lines 210--210
 [][]\T1/ptm/m/n/12 Mozilla. (2019b, de-cem-ber 31). In-tro-duc-tion to web APIs
 . Ver-kre-gen van []$https : / / developer .
@@ -2416,13 +2415,13 @@ top % 22 ,[] %22dateInterval %
  []
 
 Missing character: There is no — in font ptmr8t!
-[120] [121]
+[122] [123]
 Overfull \hbox (0.46956pt too wide) in paragraph at lines 210--210
 [][]\T1/ptm/m/n/12 Verdú, J. & Pa-juelo, A. (2015, ok-to-ber 26). Per-for-mance
  Sca-la-bi-lity Ana-ly-sis of Ja-vaScript
  []
 
-[122]
+[124]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 
@@ -2438,7 +2437,7 @@ der / status / 1139278479436865536 &
  []
 
 Missing character: There is no ﬁ in font ptmr8t!
-[123]
+[125]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
  (./bachproef-tin.aux)
@@ -2449,12 +2448,12 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43573 strings out of 492916
- 805054 string characters out of 6133345
+ 43590 strings out of 492916
+ 805199 string characters out of 6133345
  1466937 words of memory out of 5000000
- 46956 multiletter control sequences out of 15000+600000
+ 46973 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,80p,827b,7226s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bachproef-tin.pdf (125 pages).
+Output written on bachproef-tin.pdf (127 pages).

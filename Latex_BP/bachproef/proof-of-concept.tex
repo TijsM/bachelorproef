@@ -5,60 +5,68 @@ In deze proof-of-concept zal er onderzocht worden als een PWA kan voldoen aan he
 
 Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een  andere persoon zal kunnen uitnodigen om een video gesprek te hebben. 
 
- \section{Requirements}
+ \section{Analyse}
 
 	 \subsection{Rollen}
 	 
-	 \subsubsection{Gebruiker}
-		Een persoon die de toepassing gebruikt, deze persoon hoeft niet aangemeld te zijn.
+		 \subsubsection{Gebruiker}
+			Een persoon die de toepassing gebruikt, deze persoon hoeft niet aangemeld te zijn.
+		 
+		 \subsubsection{Aangemelde gebruiker}
+		 	Dit is een gebruiker die reeds een account heeft op de toepassen en die aangemeld is.
 	 
-	 \subsubsection{Aangemelde gebruiker}
-	 	Dit is een gebruiker die reeds een account heeft op de toepassen en die aangemeld is.
-	 
- \subsection{Functionele requirements}
- 	\subsubsection{Authenticatie}
-	 	\begin{itemize}
-		 	\item Als een gebruiker wil ik me kunnen registreren met externe platformen (facebook, google, ...) zodat ik minder wachtwoorden hoef te onthouden.
-		 	\item Als een aangemelde gebruiker wil ik aangemeld blijven als ik de applicatie sluit zodat ik tijd bespaar door niet niet bij elk gebruik te moeten aanmelden.
-	 	\end{itemize}
+	 \subsection{Functionele requirements}
+	 	\subsubsection{Authenticatie}
+		 	\begin{itemize}
+			 	\item Als een gebruiker wil ik me kunnen registreren met externe platformen (facebook, google, ...) zodat ik minder wachtwoorden hoef te onthouden.
+			 	\item Als een aangemelde gebruiker wil ik aangemeld blijven als ik de applicatie sluit zodat ik tijd bespaar door niet niet bij elk gebruik te moeten aanmelden.
+		 	\end{itemize}
+		 	
+		 \subsubsection{Bellen}
+			  \begin{itemize}
+			   	\item Als een aangemelde gebruiker wil ik een 'room' aanmaken waar ik een video-gesprek kan starten zodat ik in contact kan blijven met iemand waar ik niet fysiek bij kan zijn.
+			   	\item Als een aangemelde gebruiker wil ik eenvoudig een link kunnen kopiëren naar mijn room zodat ik deze kan delen met iemand.
+			   	\item Als een aangemelde gebruiker wil ik mijn 'rooms' kunnen beheren.
+			   	\item Als een aangemelde gebruiker wil ik een notificatie ontvangen als iemand in mijn 'room' komt.
+			  \end{itemize}
 	 	
-	 \subsubsection{Bellen}
-		  \begin{itemize}
-		   	\item Als een aangemelde gebruiker wil ik een 'room' aanmaken waar ik een video-gesprek kan starten zodat ik in contact kan blijven met iemand waar ik niet fysiek bij kan zijn.
-		   	\item Als een aangemelde gebruiker wil ik eenvoudig een link kunnen kopiëren naar mijn room zodat ik deze kan delen met iemand.
-		   	\item Als een aangemelde gebruiker wil ik mijn 'rooms' kunnen beheren.
-		   	\item Als een aangemelde gebruiker wil ik een notificatie ontvangen als iemand in mijn 'room' komt.
-		  \end{itemize}
- 	
- 	\subsubsection{Gebeld worden}
- 	 \begin{itemize}
-			\item Als een gebruiker wil ik, als ik een link van een room ontvang, eenvoudig deelnemen aan een videogesprek.
- 	 \end{itemize}
-
-	\subsubsection{Algemeen}
- 		\begin{itemize}
- 			\item Als een gebruiker wil een de toepassing toevoegen aan het startscherm van mijn toestel zodat ik deze snel kan openen.
- 			\item Als een aangemelde gebruiker wil ik de applicatie kunnen openen zonder internetverbinding zodat ik mijn overal en altijd mijn rooms kan bekijken.
-		  
-		\end{itemize}
- 
+	 	\subsubsection{Gebeld worden}
+	 	 \begin{itemize}
+				\item Als een gebruiker wil ik, als ik een link van een room ontvang, eenvoudig deelnemen aan een videogesprek.
+	 	 \end{itemize}
+	
+		\subsubsection{Algemeen}
+	 		\begin{itemize}
+	 			\item Als een gebruiker wil een de toepassing toevoegen aan het startscherm van mijn toestel zodat ik deze snel kan openen.
+	 			\item Als een aangemelde gebruiker wil ik de applicatie kunnen openen zonder internetverbinding zodat ik mijn overal en altijd mijn rooms kan bekijken.
+			\end{itemize}
+	 
 	\subsection{niet-functionele requirements}
 		\begin{itemize}
 			\item Als een gebruiker wil ik een video-gesprek kunnen hebben met een zo laag mogelijke vertraging zodat ik geen problemen heb met communiceren.
 			\item Als een gebruiker wil ik video-gesprekken voeren op een veilige manier zodat niemand informatie kan achterhalen die ik niet publiek wou maken.
 		\end{itemize} 
 		
+
+
+\section{Design}
+		\subsection{Mockup}
+			https://medium.com/@BuildMySite1/the-what-why-and-how-of-mockups-4799eb115140
+			
+			Voor er een design gemaakt werd, werden er Mockups opgesteld.
+			Aan de hand van deze mockups met weinig detail, kon er snel gestart worden met het ontwikkelen van de functionaliteiten. 
 		
-\section{Design} 
-
-	Er werd voor het ontwikkelen van de applicatie een design gemaakt in figma. Er werd gekozen voor een e
+			%todo: screenshot van de mockups in figma
+		
+		
+		\subsection{Prototype}
+		
+			Vervolgens werd er een klikbaar prototype gemaakt. In de dit prototype werd de stijl van de applicatie bepaald.
+			
+			Er werd gekozen om een eenvoudig design te implementeren met illustraties die van \href{https://undraw.co/}{unDraw}.
+			
 	
-	
-\section{De applicatie}
-
-
 \section{Implementatie}
-	
 	Voor het ontwikkelen van de proof-of-concept werd er opnieuw gebruik van react.js voor de frontend. De backend werd ontwikkeld in node.js en als database werd firebase gebruikt.
 	
 	\subsection{Registreren service worker}
@@ -75,6 +83,36 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een  an
 		Deze strategie heeft echter een groot nadeel, de service worker die react genereerd kan kan niet worden aangepast door de ontwikkelaar. Als de applicatie een meer geavanceerde service worker nodig heeft, zal deze automatisch gegenereerde service worker moeten overschreven worden.
 		
 		Het artikel van Chinmaya Pati dat gepubliceerd werd op Medium beschrijft dit proces.
+		
+	\subsection{A2HS}
+	
+	https://web.dev/promote-install/
+	
+	https://web.dev/customize-install/
+	
+		De applicatie voldoet aan alle criteria om geïnstalleerd te kunnen worden op toestellen. Echter zal de gebruiker geen standaard melding te zien krijgen om de applicatie te installeren.		
+		
+		Als de applicatie de gebruiker vraagt om de de applicatie toe te voegen aan het startscherm en de gebruiker staat dit niet toe, zal het beforeInstallPrompt nooit meer opnieuw opgeroepen worden. Deze melding kan dus maar 1 maal getoond worden.
+		
+		Om de kans te verhogen dat de gebruiker de applicatie toevoegt aan het startscherm zal deze melding enkel getoond worden als de gebruiker daar expliciet naar vraagt.
+		
+		Als de applicatie opstart zal het beforeInstallPrompt opgevangen worden en opgeslagen worden in de state. Door het standaard gedrag te overschrijven zal de melding nog niet getoond worden aan de gebruiker.
+		
+\begin{lstlisting}
+window.addEventListener("beforeinstallprompt", (event) => {
+	event.preventDefault();
+	setPrompt(event);
+}); 
+\end{lstlisting}
+
+		Vervolgens kan, als de gebruiker dit wenst, de melding toch getoond worden.
+		
+\begin{lstlisting}
+const addToHome = () => {
+	prompt.prompt();
+};
+\end{lstlisting}
+
 		
 	\subsection{Caching}
 	https://gist.github.com/addyosmani/0e1cfeeccad94edc2f0985a15adefe54
@@ -139,7 +177,7 @@ workbox.routing.registerRoute(
 );
 \end{lstlisting}
 		
-			Opniew wordt er gebruik gemaakt van een regular expression om workbox duidelijk te maken welke request er offline beschikbaar moet zijn.
+		Opniew wordt er gebruik gemaakt van een regular expression om workbox duidelijk te maken welke request er offline beschikbaar moet zijn.
 
 	\subsection{Authentication}
 	
@@ -429,9 +467,10 @@ peer.on("stream", (stream) => {
 });
 \end{lstlisting}
 
+
 	\subsection{Socket.io}
 	
-	%	https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
+	%todo:	https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
 	
 		Zoals eerder vermeld is er een server nodig om een peer-to-peer connectie tot stand te brengen.
 		
@@ -445,4 +484,67 @@ peer.on("stream", (stream) => {
 		
 		De backend zal de frontend informeren als er een gebruiker in een room komt, vervolgens kan er een peer-to-peer connectie opgezet worden.
 		
-		Zowel de frontend als de backend kunnen een event sturen en naar events luisteren. Op deze manier wordt er gecomuniceerd. 		
+		Zowel de frontend als de backend kunnen een event sturen en naar events luisteren. Op deze manier wordt er gecomuniceerd. 	
+		
+			
+	\subsection{Masked icons}
+	
+		Het startscherm van android toestellen kan in veel verschillende vormen komen. De producent van een android toestel kan zelf een thema ontwikkelen voor het startscherm.
+		
+		In verschillende thema's zullen de icoontjes er anders uitzien, in sommige thema's zullen ze rond zijn, in andere vierkant met afgeronde hoeken. 
+		
+		Als het icoontje niet geoptimaliseerd wordt, zal Android er steed voor zorgen dat het icoontje volledig zichtbaar is. Indien nodig zal er een achtergrond toegevoegd worden.
+		
+	
+		%todo: image van niet gemaskte iconen
+		
+		Door ervoor te zorgen dat alle belangrijke elementen va het icoon binnne een 'safe zone' vallen, en een extra property toe te voegen in het app manifest kan dit opgelost worden.
+		
+\begin{lstlisting}
+"purpose": "any maskable" 
+\end{lstlisting}
+		% todo: image van wel gemaskte iconen
+		%todo: imag van vid call icoon	
+		
+		
+
+\section{De Applicatie}
+	%todo: screenshots toevoegen
+	\subsection{Authenticatie}
+		De gebruiker kan zich registreren aan de hand van een email en wachtwoord combinatie. Er is ook een optie om zicht aan te melden aan de hand van google en facebook.
+		
+		
+	\subsection{Home}
+		Dit is het scherm waar de gebruiker zal terechtkomen als hij is aangemeld. 
+		Op dit scherm kan de gebruiker zijn rooms beheren, hij kan nieuwe rooms aanmaken, rooms verwijderen en rooms delen.
+		
+		Onderaan de pagina is er een horizontale scroll, in deze lijst kan de gebruiker volgende opties:
+		\begin{itemize}
+			\item De applictie installeren en toevoegen aan het startscherm
+			\item Notificaties aan zetten 
+			\item Afmelden
+		\end{itemize}
+		
+	\subsection{Wachtschermen}
+		Als er slechts 1 persoon is in de room zal de gebruiker op dit scherm terechtkomen. 
+		
+		De eigenaar van de room heeft een optie om de room te delen. 
+		
+		Als een bezoeker in de room komt, zal de eigenaar een melding krijgen dat er iemand in zijn room is. Door op de notificatie te klikken gaat de eigenaar direct naar de room.
+						
+		Als beide gebruikers aanwezig zijn, zal de bezoeker de optie krijgen om het gesprek te starten.
+		
+	\subsection{Room}
+		In dit scherm kunnen de gebruikers een conversatie hebben. 
+		
+		Er is een optie om het gesprek te beëindigen, het geluid uit te schakelen en de video stream uit te schakelen.
+		
+	\subsection{Notificaties}
+		Op dit scherm kan de administrator van de applicatie een zelf gekozen notificatie versturen naar alle gebruikers die hun goedkeuring hebben gegeven om notificaties te ontvangen.
+		
+
+\section{Conclusie}
+	
+	
+			
+		
