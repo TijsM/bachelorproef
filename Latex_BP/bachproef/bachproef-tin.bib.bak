@@ -1095,4 +1095,53 @@
   urldate = {2020-03-19},
 }
 
+@Online{Mozilla2020c,
+  author = {Mozilla},
+  date   = {2020-02-21},
+  title  = {Add to Home screen},
+  url    = {https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen},
+}
+
+@Online{Pati2019,
+  author = {Pati, Chinmaya},
+  date   = {2019-10-22},
+  title  = {Custom Service Worker in CRA(Create React App)},
+  url    = {https://medium.com/@chinmaya.cp/custom-service-worker-in-cra-create-react-app-3b401d24b875},
+}
+
+@Online{Mester2019,
+  author = {Mester, Anni},
+  date   = {2019-08-09},
+  title  = {A Guide to Service Workers in React.js},
+  url    = {https://levelup.gitconnected.com/a-guide-to-service-workers-in-react-js-82aec1d6a22d},
+}
+
+@Online{Mclachlan2020,
+  author = {Mclachlan, PJ},
+  date   = {2020-02-24},
+  title  = {Patterns for promoting PWA installation},
+  url    = {https://web.dev/promote-install/},
+}
+
+@Online{LePage2020b,
+  author = {LePage, Pete},
+  date   = {2020-04-30},
+  title  = {Provide a custom install experience},
+  url    = {https://web.dev/customize-install/},
+}
+
+@Online{Workbox2020a,
+  author = {Workbox},
+  date   = {2020-05-04},
+  title  = {Workbox Precaching},
+  url    = {https://developers.google.com/web/tools/workbox/modules/workbox-precaching},
+}
+
+@Online{Workbox2020b,
+  author = {Workbox},
+  date   = {2020-05-04},
+  title  = {Workbox Strategies},
+  url    = {https://developers.google.com/web/tools/workbox/modules/workbox-strategies},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

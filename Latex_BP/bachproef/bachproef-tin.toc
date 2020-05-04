@@ -341,15 +341,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Implementatie}{97}{section.5.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Registreren service worker}{97}{subsection.5.3.1}% 
+\contentsline {subsection}{\numberline {5.3.1}Registreren service worker}{98}{subsection.5.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}A2HS}{97}{subsection.5.3.2}% 
+\contentsline {subsection}{\numberline {5.3.2}A2HS}{98}{subsection.5.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Caching}{98}{subsection.5.3.3}% 
+\contentsline {subsection}{\numberline {5.3.3}Caching}{99}{subsection.5.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Statish cachen}{98}{section*.110}% 
+\contentsline {paragraph}{Statish cachen}{99}{section*.110}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{dynamisch cachen}{99}{section*.111}% 
+\contentsline {paragraph}{dynamisch cachen}{100}{section*.111}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3.4}Authentication}{100}{subsection.5.3.4}% 
 \defcounter {refsection}{0}\relax 
@@ -361,61 +361,61 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Backend}{104}{section*.113}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Service worker}{104}{section*.114}% 
+\contentsline {paragraph}{Service worker}{105}{section*.114}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3.7}Local storage}{105}{subsection.5.3.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.8}Web RTC}{105}{subsection.5.3.8}% 
+\contentsline {subsection}{\numberline {5.3.8}Web RTC}{106}{subsection.5.3.8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{video-stream}{106}{section*.115}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{peer-to-peer verbinding met streaming}{106}{section*.116}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.9}Socket.io}{106}{subsection.5.3.9}% 
+\contentsline {subsection}{\numberline {5.3.9}Socket.io}{107}{subsection.5.3.9}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3.10}Masked icons}{107}{subsection.5.3.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}De Applicatie}{107}{section.5.4}% 
+\contentsline {section}{\numberline {5.4}De Applicatie}{108}{section.5.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Authenticatie}{107}{subsection.5.4.1}% 
+\contentsline {subsection}{\numberline {5.4.1}Authenticatie}{108}{subsection.5.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Home}{107}{subsection.5.4.2}% 
+\contentsline {subsection}{\numberline {5.4.2}Home}{108}{subsection.5.4.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.3}Wachtschermen}{108}{subsection.5.4.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.4}Room}{108}{subsection.5.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.5}Notificaties}{108}{subsection.5.4.5}% 
+\contentsline {subsection}{\numberline {5.4.5}Notificaties}{109}{subsection.5.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Conclusie}{108}{section.5.5}% 
+\contentsline {section}{\numberline {5.5}Conclusie}{109}{section.5.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Conclusie}{109}{chapter.6}% 
+\contentsline {chapter}{\numberline {6}Conclusie}{111}{chapter.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{111}{appendix.A}% 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{113}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{111}{section.A.1}% 
+\contentsline {section}{\numberline {A.1}Introductie}{113}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{112}{section.A.2}% 
+\contentsline {section}{\numberline {A.2}State-of-the-art}{114}{section.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{112}{subsection.A.2.1}% 
+\contentsline {subsection}{\numberline {A.2.1}Wat is een PWA}{114}{subsection.A.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{112}{subsection.A.2.2}% 
+\contentsline {subsection}{\numberline {A.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{114}{subsection.A.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{113}{subsection.A.2.3}% 
+\contentsline {subsection}{\numberline {A.2.3}Waarom PWA's}{115}{subsection.A.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{113}{subsection.A.2.4}% 
+\contentsline {subsection}{\numberline {A.2.4}Beveiliging}{115}{subsection.A.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.5}Native containers}{114}{subsection.A.2.5}% 
+\contentsline {subsection}{\numberline {A.2.5}Native containers}{116}{subsection.A.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{114}{subsection.A.2.6}% 
+\contentsline {subsection}{\numberline {A.2.6}Apllication shell architecture}{116}{subsection.A.2.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{114}{section.A.3}% 
+\contentsline {section}{\numberline {A.3}Methodologie}{116}{section.A.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.1}Technologieën}{114}{subsection.A.3.1}% 
+\contentsline {subsection}{\numberline {A.3.1}Technologieën}{116}{subsection.A.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{115}{section.A.4}% 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{117}{section.A.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{115}{section.A.5}% 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{117}{section.A.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{117}{appendix*.117}% 
+\contentsline {chapter}{Bibliografie}{119}{appendix*.117}% 
 \contentsfinish 

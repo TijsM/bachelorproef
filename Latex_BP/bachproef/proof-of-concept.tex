@@ -55,48 +55,51 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een  an
 			
 			Voor er een design gemaakt werd, werden er Mockups opgesteld.
 			Aan de hand van deze mockups met weinig detail, kon er snel gestart worden met het ontwikkelen van de functionaliteiten. 
-		
-			%todo: screenshot van de mockups in figma
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=140mm]{./img/mockup-poc.png}{}
+				\caption{mockups in figma}
+			\end{figure}
 		
 		
 		\subsection{Prototype}
 		
 			Vervolgens werd er een klikbaar prototype gemaakt. In de dit prototype werd de stijl van de applicatie bepaald.
 			
-			Er werd gekozen om een eenvoudig design te implementeren met illustraties die van \href{https://undraw.co/}{unDraw}.
+			Er werd gekozen om een eenvoudig design te implementeren met illustraties die van \href{https://undraw.co/}{unDraw} verkregen werden.
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=140mm]{./img/prototype-poc.png}{}
+				\caption{mockups in figma}
+			\end{figure}
 			
 	
 \section{Implementatie}
 	Voor het ontwikkelen van de proof-of-concept werd er opnieuw gebruik van react.js voor de frontend. De backend werd ontwikkeld in node.js en als database werd firebase gebruikt.
 	
 	\subsection{Registreren service worker}
-		https://medium.com/@chinmaya.cp/custom-service-worker-in-cra-create-react-app-3b401d24b875
 		
-		https://levelup.gitconnected.com/a-guide-to-service-workers-in-react-js-82aec1d6a22d
-		
-		https://github.com/goldhand/sw-precache-webpack-plugin
-		
-		In Hoofdstuk~\ref{ch:TransformerenNaarEenPWA} werd vermeld dat een standaard react applicatie al een service worker heeft die voor caching van statische bestanden zorgt. Deze service worker wordt gegenereerd tijdens het build proces door de library sw-precache-webpack-plugin. 
+		In Hoofdstuk~\ref{ch:TransformerenNaarEenPWA} werd vermeld dat een standaard react applicatie al een service worker heeft die voor caching van statische bestanden zorgt. Deze service worker wordt gegenereerd tijdens het build proces door de library \href{https://github.com/goldhand/sw-precache-webpack-plugin}{sw-precache-webpack-plugin. }  
+		\autocite{Mester2019}
 		
 		Door een service worker te genereren zorgt react ervoor dat een website heel eenvoudig is om statische bestanden te cachen en een website offline beschikbaar te maken.
 		
 		Deze strategie heeft echter een groot nadeel, de service worker die react genereerd kan kan niet worden aangepast door de ontwikkelaar. Als de applicatie een meer geavanceerde service worker nodig heeft, zal deze automatisch gegenereerde service worker moeten overschreven worden.
 		
-		Het artikel van Chinmaya Pati dat gepubliceerd werd op Medium beschrijft dit proces.
+		Het artikel van Chinmaya Pati dat gepubliceerd werd op Medium beschrijft dit proces. \autocite{Pati2019}
 		
 	\subsection{A2HS}
-	
-	https://web.dev/promote-install/
-	
-	https://web.dev/customize-install/
 	
 		De applicatie voldoet aan alle criteria om geïnstalleerd te kunnen worden op toestellen. Echter zal de gebruiker geen standaard melding te zien krijgen om de applicatie te installeren.		
 		
 		Als de applicatie de gebruiker vraagt om de de applicatie toe te voegen aan het startscherm en de gebruiker staat dit niet toe, zal het beforeInstallPrompt nooit meer opnieuw opgeroepen worden. Deze melding kan dus maar 1 maal getoond worden.
 		
 		Om de kans te verhogen dat de gebruiker de applicatie toevoegt aan het startscherm zal deze melding enkel getoond worden als de gebruiker daar expliciet naar vraagt.
+		\autocite{Mclachlan2020}
 		
 		Als de applicatie opstart zal het beforeInstallPrompt opgevangen worden en opgeslagen worden in de state. Door het standaard gedrag te overschrijven zal de melding nog niet getoond worden aan de gebruiker.
+		\autocite{LePage2020b}
 		
 \begin{lstlisting}
 window.addEventListener("beforeinstallprompt", (event) => {
@@ -112,15 +115,7 @@ const addToHome = () => {
 	prompt.prompt();
 };
 \end{lstlisting}
-
-		
 	\subsection{Caching}
-	https://gist.github.com/addyosmani/0e1cfeeccad94edc2f0985a15adefe54
-	
-	https://developers.google.com/web/tools/workbox/modules/workbox-precaching
-	
-	https://developers.google.com/web/tools/workbox/modules/workbox-strategies
-	
 		\paragraph{Statish cachen}
 			Statisch cachen is het cachen van bestanden die nodig zijn voor het opbouwen van de webapplicatie. Voorbeelden hiervan zijn foto's, style sheets, javascript bestanden, html bestanden, ...
 			
@@ -138,6 +133,7 @@ workbox.precaching.precacheAndRoute([
 \end{lstlisting}
 		
 			Workbox zal de functie 'precacheAndRoute' uitvoeren als de service worker geïnstalleerd wordt. De bestanden die worden meegeveven in de array zullen vanaf dat moment offline beschikbaar zijn.
+			\autocite{Workbox2020a}
 			
 			Bestanden die hier toegoevoegd worden zullen geleverd worden aan de hand van de 'cache first' strategie. Dit wil zeggen dat dit bestand enkel aan de server gevraagd zal worden als het niet beschikbaar is in het cache geheugen.
 			
@@ -161,6 +157,8 @@ workbox.routing.registerRoute(
 			Aan de hand van een regular expression kunnen er bestanden gechached worden. In dit voorbeeld worden alle javascript en css bestanden offline beschikbaar gemaakt.
 			
 			In de voorbeeld wordt een andere strategie toegepast. de staleWhileRevalidate strategie houdt in dat eerst het gecachete bestand gebruikt wordt, vervolgens wordt het er een netwerkverzoek verstuurd om dit bestand op te halen van de server. Als deze bestanden niet volledig gelijk zijn, zal het gecachte bestand overschreven worden.
+			\autocite{Workbox2020b}
+			
 			
 					
 		\paragraph{dynamisch cachen}
@@ -177,7 +175,7 @@ workbox.routing.registerRoute(
 );
 \end{lstlisting}
 		
-		Opniew wordt er gebruik gemaakt van een regular expression om workbox duidelijk te maken welke request er offline beschikbaar moet zijn.
+		Opnieuw wordt er gebruik gemaakt van een regular expression om workbox duidelijk te maken welke request er offline beschikbaar moet zijn.
 
 	\subsection{Authentication}
 	
@@ -246,7 +244,8 @@ return auth.signInWithPopup(provider)
 			\centering
 			\includegraphics[width=35mm]{./img/share-ios}{}
 			\caption{native share-menu op IOS}
-		\end{figure}	\begin{figure}[H]
+		\end{figure}	
+		\begin{figure}[H]
 			\centering
 			\includegraphics[width=35mm]{./img/share-android.jpg}{}
 			\caption{native share menu op Android}
@@ -544,6 +543,25 @@ peer.on("stream", (stream) => {
 		
 
 \section{Conclusie}
+	
+	Al de vooropgestelde requirements kunnen bereikt worden door een PWA te implementeren. 
+	
+	Native features zoals camera, microfoon, delen, notificatie zijn relatief eenvoudig te implementeren in een webapplicatie.
+	
+	Echter, iets wat minder meetbaar is, de applicatie voelt niet aan als een native applicatie.
+	
+	Het is niet eenvoudig om consistent een goeie ervaring te bieden met één codebase voor alle platformen die ondersteund worden. 
+	
+	Er werd beslist om de maximale hoogte van de applicatie vast te zetten op 100vh,  op deze manier is het in princiep onmogelijk om een scroll van de volledige pagina te hebben. 
+	
+	dit werkte goed op een desktop browser maar gaf problemen op mobiele toestellen.
+	
+	Op Android bijvoorbeeld maakt de adresbalk geen deel uit van de viewport. Hierdoor was er dus wel een scroll van enkele centimeters aanwezig als de applicatie bezocht werd in de browser. Dit probleem wordt opgelost als de applicatie geïnstalleerd wordt, dan is er geen adresbalk aanwezig.
+	
+	%todo: screenshot van inconsitentie
+	
+	
+	
 	
 	
 			

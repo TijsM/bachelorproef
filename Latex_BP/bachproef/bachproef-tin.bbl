@@ -3015,8 +3015,10 @@
       \strng{authorbibnamehash}{496bca72317153bb4dd6936afe2c40cb}
       \strng{authornamehash}{496bca72317153bb4dd6936afe2c40cb}
       \strng{authorfullhash}{496bca72317153bb4dd6936afe2c40cb}
+      \field{extraname}{1}
       \field{sortinit}{L}
       \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -3035,6 +3037,41 @@
       \endverb
       \verb{url}
       \verb https://web.dev/badging-api/
+      \endverb
+    \endentry
+    \entry{LePage2020b}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=496bca72317153bb4dd6936afe2c40cb}{%
+           family={LePage},
+           familyi={L\bibinitperiod},
+           given={Pete},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{496bca72317153bb4dd6936afe2c40cb}
+      \strng{fullhash}{496bca72317153bb4dd6936afe2c40cb}
+      \strng{bibnamehash}{496bca72317153bb4dd6936afe2c40cb}
+      \strng{authorbibnamehash}{496bca72317153bb4dd6936afe2c40cb}
+      \strng{authornamehash}{496bca72317153bb4dd6936afe2c40cb}
+      \strng{authorfullhash}{496bca72317153bb4dd6936afe2c40cb}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{month}{4}
+      \field{title}{Provide a custom install experience}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://web.dev/customize-install/
+      \endverb
+      \verb{url}
+      \verb https://web.dev/customize-install/
       \endverb
     \endentry
     \entry{LePage2020}{online}{}
@@ -3222,6 +3259,74 @@
       \endverb
       \verb{url}
       \verb https://www.w3.org/TR/image-capture/
+      \endverb
+    \endentry
+    \entry{Mclachlan2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=632221c4b3e612f60ebabcde762a24f6}{%
+           family={Mclachlan},
+           familyi={M\bibinitperiod},
+           given={PJ},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{632221c4b3e612f60ebabcde762a24f6}
+      \strng{fullhash}{632221c4b3e612f60ebabcde762a24f6}
+      \strng{bibnamehash}{632221c4b3e612f60ebabcde762a24f6}
+      \strng{authorbibnamehash}{632221c4b3e612f60ebabcde762a24f6}
+      \strng{authornamehash}{632221c4b3e612f60ebabcde762a24f6}
+      \strng{authorfullhash}{632221c4b3e612f60ebabcde762a24f6}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{24}
+      \field{month}{2}
+      \field{title}{Patterns for promoting PWA installation}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://web.dev/promote-install/
+      \endverb
+      \verb{url}
+      \verb https://web.dev/promote-install/
+      \endverb
+    \endentry
+    \entry{Mester2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4c34db9af2831e274464c416e3221296}{%
+           family={Mester},
+           familyi={M\bibinitperiod},
+           given={Anni},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4c34db9af2831e274464c416e3221296}
+      \strng{fullhash}{4c34db9af2831e274464c416e3221296}
+      \strng{bibnamehash}{4c34db9af2831e274464c416e3221296}
+      \strng{authorbibnamehash}{4c34db9af2831e274464c416e3221296}
+      \strng{authornamehash}{4c34db9af2831e274464c416e3221296}
+      \strng{authorfullhash}{4c34db9af2831e274464c416e3221296}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{month}{8}
+      \field{title}{A Guide to Service Workers in React.js}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://levelup.gitconnected.com/a-guide-to-service-workers-in-react-js-82aec1d6a22d
+      \endverb
+      \verb{url}
+      \verb https://levelup.gitconnected.com/a-guide-to-service-workers-in-react-js-82aec1d6a22d
       \endverb
     \endentry
     \entry{Microsoft2019}{online}{}
@@ -4089,6 +4194,40 @@
       \endverb
       \verb{url}
       \verb https://www.w3.org/TR/device-memory/
+      \endverb
+    \endentry
+    \entry{Pati2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1ace4ea03e337d666103e2a5101f6391}{%
+           family={Pati},
+           familyi={P\bibinitperiod},
+           given={Chinmaya},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1ace4ea03e337d666103e2a5101f6391}
+      \strng{fullhash}{1ace4ea03e337d666103e2a5101f6391}
+      \strng{bibnamehash}{1ace4ea03e337d666103e2a5101f6391}
+      \strng{authorbibnamehash}{1ace4ea03e337d666103e2a5101f6391}
+      \strng{authornamehash}{1ace4ea03e337d666103e2a5101f6391}
+      \strng{authorfullhash}{1ace4ea03e337d666103e2a5101f6391}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{month}{10}
+      \field{title}{Custom Service Worker in CRA(Create React App)}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/@chinmaya.cp/custom-service-worker-in-cra-create-react-app-3b401d24b875
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@chinmaya.cp/custom-service-worker-in-cra-create-react-app-3b401d24b875
       \endverb
     \endentry
     \entry{Paus2007}{thesis}{}
@@ -5600,11 +5739,12 @@
       \strng{authorbibnamehash}{0348397d16df78b1daabfbca567a7d6a}
       \strng{authornamehash}{0348397d16df78b1daabfbca567a7d6a}
       \strng{authorfullhash}{0348397d16df78b1daabfbca567a7d6a}
+      \field{extraname}{1}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{28}
@@ -5617,6 +5757,70 @@
       \endverb
       \verb{url}
       \verb https://developers.google.com/web/tools/workbox
+      \endverb
+    \endentry
+    \entry{Workbox2020a}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0348397d16df78b1daabfbca567a7d6a}{%
+           family={Workbox},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{0348397d16df78b1daabfbca567a7d6a}
+      \strng{fullhash}{0348397d16df78b1daabfbca567a7d6a}
+      \strng{bibnamehash}{0348397d16df78b1daabfbca567a7d6a}
+      \strng{authorbibnamehash}{0348397d16df78b1daabfbca567a7d6a}
+      \strng{authornamehash}{0348397d16df78b1daabfbca567a7d6a}
+      \strng{authorfullhash}{0348397d16df78b1daabfbca567a7d6a}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{month}{5}
+      \field{title}{Workbox Precaching}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/tools/workbox/modules/workbox-precaching
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/tools/workbox/modules/workbox-precaching
+      \endverb
+    \endentry
+    \entry{Workbox2020b}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0348397d16df78b1daabfbca567a7d6a}{%
+           family={Workbox},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{0348397d16df78b1daabfbca567a7d6a}
+      \strng{fullhash}{0348397d16df78b1daabfbca567a7d6a}
+      \strng{bibnamehash}{0348397d16df78b1daabfbca567a7d6a}
+      \strng{authorbibnamehash}{0348397d16df78b1daabfbca567a7d6a}
+      \strng{authornamehash}{0348397d16df78b1daabfbca567a7d6a}
+      \strng{authorfullhash}{0348397d16df78b1daabfbca567a7d6a}
+      \field{extraname}{3}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{month}{5}
+      \field{title}{Workbox Strategies}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/tools/workbox/modules/workbox-strategies
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/tools/workbox/modules/workbox-strategies
       \endverb
     \endentry
     \entry{Durumeric2013}{article}{}
@@ -5675,6 +5879,7 @@
   \enddatalist
   \missing{Kacmarcik2010}
   \missing{Kruisselbrink2017}
+  \missing{Osmani2020}
   \missing{Sayali2018}
 \endrefsection
 \endinput
