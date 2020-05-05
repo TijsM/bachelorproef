@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  5 MAY 2020 07:54
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  5 MAY 2020 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1707,9 +1707,11 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <24.88> not available
 )
 (./samenvatting.tex [3] [4
 
-]) [5] [6
+])
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] (./bachproef-tin.toc
+ [5]
+[6] (./bachproef-tin.toc
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/pag/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <14.4> not available
@@ -1725,7 +1727,9 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
+ [7
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
@@ -2463,7 +2467,7 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 Here is how much of TeX's memory you used:
  43660 strings out of 492916
  806994 string characters out of 6133345
- 1467821 words of memory out of 5000000
+ 1467822 words of memory out of 5000000
  47041 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
