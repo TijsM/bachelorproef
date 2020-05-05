@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  5 MAY 2020 07:02
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  5 MAY 2020 07:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2337,8 +2337,12 @@ File: ./img/share-android.jpg Graphic file (type bmp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [101]
-[102] [103] [104] [105] [106]
-Underfull \vbox (badness 7468) has occurred while \output is active []
+[102]
+
+LaTeX Warning: Citation 'Gaunt2019b' on page 103 undefined on input line 297.
+
+[103] [104] [105] [106]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [107]
 [108]) (./conclusie.tex [109] [110
@@ -2445,18 +2449,22 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 212.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 212.
 
 
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                bachproef-tin
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43653 strings out of 492916
- 806889 string characters out of 6133345
- 1467703 words of memory out of 5000000
- 47034 multiletter control sequences out of 15000+600000
+ 43660 strings out of 492916
+ 806994 string characters out of 6133345
+ 1467821 words of memory out of 5000000
+ 47041 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,80p,827b,7227s stack positions out of 5000i,500n,10000p,200000b,80000s
