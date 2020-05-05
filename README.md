@@ -10,49 +10,19 @@ Instelling: Bothrs
 Academiejaar: 2019 - 20202
 
 
-## Inleiding
+## Abstract
 
-In deze thesis zal er onderzoek gedaan woorden naar Progressive Web applications (PWA).
-Een PWA is een webapplicatie die gebruik maken van moderne webtechnologieën om op deze manier een ervaring aan te bieden die dicht die van een native applicatie ligt.
+PWA's zijn webapplicaties die gebruik maken van moderne web-technologieën om een native-applicatie waardige ervaring te bieden. PWA's worden  vaker en vaker gebruikt om applicaties te ontwikkelen.
 
+De technologie beloofd veel problemen waar ontwikkelaars en digitale agentschappen al jaren met kampen op te lossen.  Een PWA is echter nog steeds gelimiteerd op bepaalde vlakken. 
+Het is dus belangrijk dat er in kaart gebracht werd wat wel en niet bereikt kan worden met de technologie.
 
+Deze scriptie zal in een eerste instantie onderzoeken wat technisch wel en niet mogelijk is met een PWA. De voor -en nadelen van de technologie zullen hier ook opgelijst en besproken worden.
+In deze sectie zal er ook op zoek gegaan worden naar andere technologieën die wel aan de tekortkoming van PWA's kan voldoen.
+Vervolgens zal er op een praktische wijze onderzocht worden wat er nodig is om een bestaande traditionele webapplicatie om te vormen tot een PWA die installeerbaar is en offline gebruikt kan worden.
+Ten slotte zal een een proof-of-concept uitgewerkt worden waarbij verschillende web-technologieën gebruikt zullen worden om een volwaardige video conference applicatie te ontwikkelen. 
 
-### Probleemstelling
+Een webapplicatie kan eenvoudig omgevormd worden tot een installeerbare, offline ervaring. Voor verrassend veel toepassing is geen native applicatie nodig en biedt een PWA de oplossing.
+Echter is de ondersteuning van PWA's nog niet goed op bepaalde flatvormen en is het dus zeker nog geen vervanger voor native applicaties.
 
-Het uitbrengen van een digitaal product is vaak duur en tijdrovend. Dit komt omdat er voor meerdere platformen vaak verschillende codebases nodig zijn en er dus duplicate code geschreven moet worden. 
-    
-PWA's kunnen een oplossing bieden voor bedrijven die zo snel mogelijk een applicatie willen uitbrengen op zoveel mogelijke platformen.
-    
-Voor digitale agentschappen en start-ups is het vaak essentieel om een product naar buiten te kunnen brengen in een zo kort mogelijke tijd om een competitief voordeel de creëren. 
-    
-Het web kan een oplossing bieden voor beide problemen, veel developers zijn vaardig met webtechnologieën en een webapplicatie kan op alle mogelijke moderne toestellen gebruikt worden. 
-    
-Echter heeft het heb al altijd een aantal beperkingen gehad, een van de doelen van PWA's is deze gebreken overkomen.
-
-
-### Onderzoeksvraag
-
-Deze thesis zal een antwoord bieden op de vraag: "Zijn progressive web applications een waardige vervanger voor native applications".
-Om tot on antwoord te kunnen formulieren op deze onderzoeksvraag zal er eerst antwoord moeten geboden worden op volgende onderzoeksvragen:
-
-- Welke stappen zijn nodig om een traditionele website om te vormen tot een PWA?
-- Wat zijn de beperkingen van een PWA?
-- Kan een PWA alle functionaliteiten gebruiken die beschikbaar zijn voor native applications?
-- Hoe staan de verschillende besturingssystemen ten opzichte van PWA’s?
--  Welke andere technologieën kunnen er gebruikt worden om applicaties te ontwikkelen voor meerdere platformen waarbij er maar één codebase is?
-
-### Onderzoeksdoelstelling
-
-Om deze onderzoeksvraag goed te kunnen beantwoorden zullen er verschillende onderdelen in deze bachelorproef uitgewerkt worden.
-
-Er zal een literatuurstudie uitgevoerd worden, deze zal een beeld schetsen van wet er functioneel wel en niet mogelijk is met PWA's. 
-Deze literatuurstudie moet een antwoord bieden op de vraag 'Wanneer kan er een PWA gebruikt worden'.
-
-Vervolgens zal er een proof-of-concept opgesteld worden, deze zal een aantal functionaliteiten die beschikbaar zijn voor PWA's testen. Er zal een nadruk liggen op de gebruikerservaring die aangeboden kannen worden met PWA's.
-
-### Opzet van deze bachelorproef
-
-In Hoofdstuk 2 wordt een overzicht gegeven van de stand van zaken binnen het onderzoeksdomein, op basis van een literatuurstudie.
-In Hoofdstuk 3 wordt de methodologie toegelicht en worden de gebruikte onderzoekstech- nieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
-In het Hoofdstuk 4 zal er beschreven worden hoe de proof-of-concept ontwikkeld werd en wat de beperkingen waren bij de
-In Hoofdstuk 5, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.
+PWA's zijn een relatief nieuwe technologie, er zijn verschillende web-API's die nog verder onderzocht zouden kunnen worden. Zo zou de impact van push-notificatie op vlak van user engagement van een webapplicatie nog verder onderzocht kunnen worden. Ook zou er verder onderzoek kunnen gedaan worden naar de prestaties van bepaalde web-technologieën zoals webRTC.
