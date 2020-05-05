@@ -1,27 +1,26 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'bachproef-tin.blg'
-[35] biber-darwin:315> INFO - === Mon May  4, 2020, 08:21:33
-[58] Biber.pm:371> INFO - Reading 'bachproef-tin.bcf'
-[170] Biber.pm:889> INFO - Found 161 citekeys in bib section 0
-[183] Biber.pm:4093> INFO - Processing section 0
-[193] Biber.pm:4254> INFO - Looking for bibtex format file 'bachproef-tin.bib' for section 0
-[197] bibtex.pm:1523> INFO - LaTeX decoding ...
-[301] bibtex.pm:1340> INFO - Found BibTeX data source 'bachproef-tin.bib'
-[803] Biber.pm:4254> INFO - Looking for bibtex format file '../voorstel/voorstel.bib' for section 0
-[804] bibtex.pm:1523> INFO - LaTeX decoding ...
-[818] bibtex.pm:1340> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
-[818] Utils.pm:193> WARN - Duplicate entry key: 'Malavolta2016' in file '../voorstel/voorstel.bib', skipping ...
-[819] Utils.pm:193> WARN - Duplicate entry key: 'Google2017' in file '../voorstel/voorstel.bib', skipping ...
-[819] Utils.pm:193> WARN - Duplicate entry key: 'Hiltunen2018' in file '../voorstel/voorstel.bib', skipping ...
-[819] Utils.pm:193> WARN - Duplicate entry key: 'Gaunt2019' in file '../voorstel/voorstel.bib', skipping ...
-[854] Utils.pm:193> WARN - I didn't find a database entry for 'Kacmarcik2010' (section 0)
-[854] Utils.pm:193> WARN - I didn't find a database entry for 'Kruisselbrink2017' (section 0)
-[855] Utils.pm:193> WARN - I didn't find a database entry for 'Osmani2020' (section 0)
-[855] Utils.pm:193> WARN - I didn't find a database entry for 'Sayali2018' (section 0)
-[1058] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1058] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1058] Biber.pm:3921> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[1058] Biber.pm:3927> INFO - No sort tailoring available for locale 'nl-NL'
-[1185] bbl.pm:636> INFO - Writing 'bachproef-tin.bbl' with encoding 'UTF-8'
-[1265] bbl.pm:739> INFO - Output to bachproef-tin.bbl
-[1265] Biber.pm:110> INFO - WARNINGS: 8
+[32] biber-darwin:315> INFO - === Tue May  5, 2020, 07:02:28
+[53] Biber.pm:371> INFO - Reading 'bachproef-tin.bcf'
+[167] Biber.pm:889> INFO - Found 166 citekeys in bib section 0
+[179] Biber.pm:4093> INFO - Processing section 0
+[189] Biber.pm:4254> INFO - Looking for bibtex format file 'bachproef-tin.bib' for section 0
+[193] bibtex.pm:1523> INFO - LaTeX decoding ...
+[300] bibtex.pm:1340> INFO - Found BibTeX data source 'bachproef-tin.bib'
+[825] Biber.pm:4254> INFO - Looking for bibtex format file '../voorstel/voorstel.bib' for section 0
+[827] bibtex.pm:1523> INFO - LaTeX decoding ...
+[840] bibtex.pm:1340> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
+[840] Utils.pm:193> WARN - Duplicate entry key: 'Malavolta2016' in file '../voorstel/voorstel.bib', skipping ...
+[841] Utils.pm:193> WARN - Duplicate entry key: 'Google2017' in file '../voorstel/voorstel.bib', skipping ...
+[841] Utils.pm:193> WARN - Duplicate entry key: 'Hiltunen2018' in file '../voorstel/voorstel.bib', skipping ...
+[841] Utils.pm:193> WARN - Duplicate entry key: 'Gaunt2019' in file '../voorstel/voorstel.bib', skipping ...
+[877] Utils.pm:193> WARN - I didn't find a database entry for 'Kacmarcik2010' (section 0)
+[877] Utils.pm:193> WARN - I didn't find a database entry for 'Kruisselbrink2017' (section 0)
+[877] Utils.pm:193> WARN - I didn't find a database entry for 'Sayali2018' (section 0)
+[1088] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1088] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1088] Biber.pm:3921> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[1088] Biber.pm:3927> INFO - No sort tailoring available for locale 'nl-NL'
+[1227] bbl.pm:636> INFO - Writing 'bachproef-tin.bbl' with encoding 'UTF-8'
+[1309] bbl.pm:739> INFO - Output to bachproef-tin.bbl
+[1310] Biber.pm:110> INFO - WARNINGS: 7

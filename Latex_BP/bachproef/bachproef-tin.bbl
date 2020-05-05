@@ -395,6 +395,44 @@
       \verb https://liu.diva-portal.org/smash/get/diva2:1201487/FULLTEXT01.pdf
       \endverb
     \endentry
+    \entry{Babich2018}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=9cac386feba4a607877226b8f91b3338}{%
+           family={Babich},
+           familyi={B\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9cac386feba4a607877226b8f91b3338}
+      \strng{fullhash}{9cac386feba4a607877226b8f91b3338}
+      \strng{bibnamehash}{9cac386feba4a607877226b8f91b3338}
+      \strng{authorbibnamehash}{9cac386feba4a607877226b8f91b3338}
+      \strng{authornamehash}{9cac386feba4a607877226b8f91b3338}
+      \strng{authorfullhash}{9cac386feba4a607877226b8f91b3338}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{5}
+      \field{title}{Best Practices For Mobile Form Design}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.smashingmagazine.com/2018/08/best-practices-for-mobile-form-design/
+      \endverb
+      \verb{url}
+      \verb https://www.smashingmagazine.com/2018/08/best-practices-for-mobile-form-design/
+      \endverb
+    \endentry
     \entry{Bartosz2019}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=c9006f26a2b48d3dd09eba5569244f6f}{%
@@ -1573,6 +1611,7 @@
       \field{extraname}{1}
       \field{sortinit}{G}
       \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -1593,7 +1632,7 @@
       \verb https://developers.google.com/web/fundamentals/primers/service-workers
       \endverb
     \endentry
-    \entry{Gaunt2020}{book}{}
+    \entry{Gaunt2019a}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=76a3590dd04dae71a9be2c3d1c84b29f}{%
            family={Gaunt},
@@ -1609,6 +1648,45 @@
       \strng{authornamehash}{76a3590dd04dae71a9be2c3d1c84b29f}
       \strng{authorfullhash}{76a3590dd04dae71a9be2c3d1c84b29f}
       \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{month}{6}
+      \field{title}{Subscribing a user}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/fundamentals/push-notifications/subscribing-a-user
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/fundamentals/push-notifications/subscribing-a-user
+      \endverb
+    \endentry
+    \entry{Gaunt2020}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=76a3590dd04dae71a9be2c3d1c84b29f}{%
+           family={Gaunt},
+           familyi={G\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{fullhash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{bibnamehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{authorbibnamehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{authornamehash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \strng{authorfullhash}{76a3590dd04dae71a9be2c3d1c84b29f}
+      \field{extraname}{3}
       \field{sortinit}{G}
       \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
       \field{extradatescope}{labelyear}
@@ -3629,7 +3707,7 @@
       \verb https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen
       \endverb
     \endentry
-    \entry{Mozilla2020a}{online}{}
+    \entry{Mozilla2020e}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=502f1bd97b0e7d80b88e1f45ae1bfdb8}{%
            family={Mozilla},
@@ -3645,6 +3723,38 @@
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{The WebSocket API (WebSockets)}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
+      \endverb
+    \endentry
+    \entry{Mozilla2020a}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=502f1bd97b0e7d80b88e1f45ae1bfdb8}{%
+           family={Mozilla},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{fullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{bibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorbibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authornamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorfullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \field{extraname}{7}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradate}{3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -3677,10 +3787,10 @@
       \strng{authorbibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
       \strng{authornamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
       \strng{authorfullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
-      \field{extraname}{7}
+      \field{extraname}{8}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{extradate}{3}
+      \field{extradate}{4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -3695,6 +3805,38 @@
       \endverb
       \verb{url}
       \verb https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
+      \endverb
+    \endentry
+    \entry{Mozilla2020d}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=502f1bd97b0e7d80b88e1f45ae1bfdb8}{%
+           family={Mozilla},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{fullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{bibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorbibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authornamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorfullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \field{extraname}{9}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradate}{5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{month}{5}
+      \field{title}{Window localStorage}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
       \endverb
     \endentry
     \entry{Mozilla2020}{online}{}
@@ -5069,6 +5211,44 @@
       \verb https://www.researchgate.net/publication/330834334_Impact_of_Progressive_Web_Apps_on_Web_App_Development
       \endverb
     \endentry
+    \entry{Tate2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=9d26d2f027e46872b260bca19b7ef750}{%
+           family={Tate},
+           familyi={T\bibinitperiod},
+           given={Darlene},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9d26d2f027e46872b260bca19b7ef750}
+      \strng{fullhash}{9d26d2f027e46872b260bca19b7ef750}
+      \strng{bibnamehash}{9d26d2f027e46872b260bca19b7ef750}
+      \strng{authorbibnamehash}{9d26d2f027e46872b260bca19b7ef750}
+      \strng{authornamehash}{9d26d2f027e46872b260bca19b7ef750}
+      \strng{authorfullhash}{9d26d2f027e46872b260bca19b7ef750}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{month}{3}
+      \field{title}{The What, Why, and How of Mockups}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/@BuildMySite1/the-what-why-and-how-of-mockups-4799eb115140
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@BuildMySite1/the-what-why-and-how-of-mockups-4799eb115140
+      \endverb
+    \endentry
     \entry{Tibbett2019}{online}{}
       \name{author}{1}{}{%
         {{uniquename=2,uniquepart=given,hash=ae709c0c58686212b7a77618992bca49}{%
@@ -5536,6 +5716,37 @@
       \verb https://web.dev/installable-manifest/?utm_source=lighthouse&utm_medium=devtools
       \endverb
     \endentry
+    \entry{webRTC2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=750316561474e1bb286e00e0dc7d3716}{%
+           family={webRTC},
+           familyi={w\bibinitperiod}}}%
+      }
+      \strng{namehash}{750316561474e1bb286e00e0dc7d3716}
+      \strng{fullhash}{750316561474e1bb286e00e0dc7d3716}
+      \strng{bibnamehash}{750316561474e1bb286e00e0dc7d3716}
+      \strng{authorbibnamehash}{750316561474e1bb286e00e0dc7d3716}
+      \strng{authornamehash}{750316561474e1bb286e00e0dc7d3716}
+      \strng{authorfullhash}{750316561474e1bb286e00e0dc7d3716}
+      \field{sortinit}{w}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{month}{5}
+      \field{title}{Real-time communication for the web}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://webrtc.org/
+      \endverb
+      \verb{url}
+      \verb https://webrtc.org/
+      \endverb
+    \endentry
     \entry{Wenhao2018}{thesis}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=56aec070e0a7430ef2d60e124cd9b90f}{%
@@ -5879,7 +6090,6 @@
   \enddatalist
   \missing{Kacmarcik2010}
   \missing{Kruisselbrink2017}
-  \missing{Osmani2020}
   \missing{Sayali2018}
 \endrefsection
 \endinput

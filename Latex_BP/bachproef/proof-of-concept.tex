@@ -51,10 +51,9 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een  an
 
 \section{Design}
 		\subsection{Mockup}
-			https://medium.com/@BuildMySite1/the-what-why-and-how-of-mockups-4799eb115140
-			
-			Voor er een design gemaakt werd, werden er Mockups opgesteld.
-			Aan de hand van deze mockups met weinig detail, kon er snel gestart worden met het ontwikkelen van de functionaliteiten. 
+					
+			Voor er een design gemaakt werd, werden er mockups opgesteld.
+			Aan de hand van deze mockups met weinig detail, kon er snel gestart worden met het ontwikkelen van de functionaliteiten. \autocite{Tate2019}
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=140mm]{./img/mockup-poc.png}{}
@@ -71,7 +70,7 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een  an
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=140mm]{./img/prototype-poc.png}{}
-				\caption{mockups in figma}
+				\caption{prototype in figma}
 			\end{figure}
 			
 	
@@ -178,12 +177,11 @@ workbox.routing.registerRoute(
 		Opnieuw wordt er gebruik gemaakt van een regular expression om workbox duidelijk te maken welke request er offline beschikbaar moet zijn.
 
 	\subsection{Authentication}
-	
-		https://www.smashingmagazine.com/2018/08/best-practices-for-mobile-form-design/
 		
 		Het invullen van van een form om een mobiel toestel is voor veel gebruikers een relatief grote inspanning.
 		
 		In het artikel van Nick Babich wordt de term "Interaction cost" gebruikt. De interaction cost is de som van alle cognitieve en fysieke inspanningen die een gebruiker moet doen om tot zijn doel te komen. Hoe lager de interaction cost hoe beter.
+		\autocite{Babich2018}
 		
 		Het invullen van formulieren met data heeft een hoge interaction cost. Er moet veel getypt worden (fysieke inspanning) en alles wat getypt moet worden moet correct zijn (cognitieve inspanning). het is dus belangrijk om de gebruiker hiervan te besparen.
 		
@@ -293,15 +291,10 @@ else{
 
 	\subsection{Push notificaties}
 	
-	https://web-push-book.gauntface.com/chapter-04/01-sending-messages-with-web-push-libraries/
-	
-	https://developers.google.com/web/fundamentals/push-notifications/subscribing-a-user
-	
 		Een van de grote voordelen van een PWA ten opzichte van een traditionele website is dat het push notificaties kan sturen naar de gebruiker.
 		
 		Er wordt aangeraden om de "web-push" library te gebruiken om push notificaties te implementeren
-		
-		https://developers.google.com/web/fundamentals/push-notifications/how-push-works
+		\autocite{Gaunt2019b}
 		
 		\paragraph{Abbonneren op push notificaties}
 			 De gebruiker moet expliciet toegang geven aan de webapplicatie om push notificaties te mogen gebruiken.
@@ -315,6 +308,7 @@ else{
 \end{lstlisting}
 
 			Dit stukje code zal een "subscription" teruggeven dat opgeslagen moet worden in de databank bij de gebruiker. deze "subscription" is uniek voor de gebruiker, de browser en het toestel.
+			\autocite{Gaunt2019a}
 			
 			voorbeeld van een subscription:
 	
@@ -338,8 +332,8 @@ else{
 			Deze vapid keys zorgen ervoor dat de push services van de verschillende browsers weet van welke applicatie de notificaties afkomstig zijn. Hierdoor kan het ook de applicatie beveiligen en enkel deze server toestaan notificaties te sturen naar de applicatie.
 			
 			Elke browser heeft zijn eigen push service waar een applicatie server aan kan vragen om een notificiatie te sturen naar een bepaald toestel.
+			e\autocite{Gaunt2020}
 			
-		
 			Deze vapid keys kunnen in de applicatie server gegenereerd worden aan de hand van volgende code:
 			
 \begin{lstlisting}
@@ -399,17 +393,17 @@ options = {
 			
 	\subsection{Local storage}
 	
-		https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+
 		
 		Om een ervaring aan te bieden zoals op native applicaties is het belangrijk om de gebruiker aangemeld te houden tussen sessies.
 		
 		Dit gebeurt aan de hand van local storage. Zolang de gebruiker het local storage niet manueel verwijdert zal dit blijven bestaan. 
+		\autocite{Mozilla2020d}
 		
 		Als een gebruiker zich aanmeldt, wordt deze opgeslagen in het local storage.
 		
 
 	\subsection{Web RTC}
-		https://webrtc.org/
 		
 		Web RTC is een verzameling van Web API's die real time commicatie op het web mogelijk maken. 
 		
@@ -419,6 +413,7 @@ options = {
 			\item een peer-to-peer connectie op te zetten tussen twee gebruikers
 			\item video tussen beide gebuikers te streamen
 		\end{itemize} 
+		\autocite{webRTC2020}
 		
 		Web RTC maakt gebruik van een peer-to-peer connectie tussen de twee gebruikers, tijdens het bellen is er dus geen server nodig. Echter, er is wel een server nodig om de connectie tussen beide tot stand te brengen.
 		
@@ -442,7 +437,7 @@ navigator.mediaDevices.getUserMedia({
 
 
 		\paragraph{peer-to-peer verbinding met streaming}
-			Bij deze applicatie werd simple-peer gebruikt, dit is een abstractie van webRTC die het opzetten van peer-to-peer verbindingen eenvoudiger maakt.
+			Bij deze applicatie werd \href{https://github.com/feross/simple-peer}{simple-peer} gebruikt, dit is een abstractie van webRTC die het opzetten van peer-to-peer verbindingen eenvoudiger maakt.
 			
 			Voor beide gebruiker zal er een Peer object aangemaakt worden
 
@@ -469,8 +464,6 @@ peer.on("stream", (stream) => {
 
 	\subsection{Socket.io}
 	
-	%todo:	https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
-	
 		Zoals eerder vermeld is er een server nodig om een peer-to-peer connectie tot stand te brengen.
 		
 		Deze backend werd geschreven in node.js en werd gehost op \href{https://glitch.com/}{glitch}.
@@ -478,6 +471,7 @@ peer.on("stream", (stream) => {
 		De library \href{https://socket.io/}{socket.io} werd gebruikt websocktets te implementeren. Websockets zorgen ervoor dat een server met de frontend kan cummuniceren zonder dat deze er expliciet om vragen. 
 		
 		In traditionele applicaties krijgt de frontend enkel data als hij hier een request voor stuurt naar de backend, bij websockets kan de backend de frontend met data voorzien in real time.
+		\autocite{Mozilla2020e}
 		
 		Deze real-time communicatie is nodig voor het opzetten van een peer-to-peer connectie.
 		
@@ -504,7 +498,7 @@ peer.on("stream", (stream) => {
 \end{lstlisting}
 		% todo: image van wel gemaskte iconen
 		%todo: imag van vid call icoon	
-		
+
 		
 
 \section{De Applicatie}

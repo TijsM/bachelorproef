@@ -365,7 +365,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3.7}Local storage}{105}{subsection.5.3.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.8}Web RTC}{106}{subsection.5.3.8}% 
+\contentsline {subsection}{\numberline {5.3.8}Web RTC}{105}{subsection.5.3.8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{video-stream}{106}{section*.115}% 
 \defcounter {refsection}{0}\relax 
@@ -385,7 +385,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.4}Room}{108}{subsection.5.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.5}Notificaties}{109}{subsection.5.4.5}% 
+\contentsline {subsection}{\numberline {5.4.5}Notificaties}{108}{subsection.5.4.5}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.5}Conclusie}{109}{section.5.5}% 
 \defcounter {refsection}{0}\relax 
