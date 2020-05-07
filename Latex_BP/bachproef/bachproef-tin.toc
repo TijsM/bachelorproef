@@ -391,6 +391,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Conclusie}{113}{chapter.6}% 
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Resultaten}{114}{section.6.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.1}Beperkingen van een PWA}{114}{subsection.6.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.2}Functionaliteit van PWA's en besturingssystemen}{114}{subsection.6.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.3}PWA alternatieven}{114}{subsection.6.1.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.4}Welke stappen zijn er nodig om een traditionele website om te vormen tot een PWA}{114}{subsection.6.1.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.5}POC}{114}{subsection.6.1.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Vergelijking met verwacht resultaten}{114}{section.6.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Niet-kwantificeerbare resultaten}{114}{section.6.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}Tekortkomingen van dit onderzoek}{114}{section.6.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.5}Verder onderzoek}{114}{section.6.5}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Interviews}{115}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.1}Intro}{115}{section.A.1}% 

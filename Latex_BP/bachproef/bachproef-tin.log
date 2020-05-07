@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  7 MAY 2020 08:26
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  7 MAY 2020 20:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1740,7 +1740,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
-Underfull \vbox (badness 1127) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12])
 \tf@toc=\write6
@@ -2364,12 +2364,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Hoofdstuk 6.
-) (./interview.tex [113] [114
+) (./interview.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
+ [113]
+[114]
 B"ylage A.
 Missing character: There is no ’ in font ptmr8t!
-[115] [116]
+[115
+
+] [116]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
  [117] [118]
@@ -2509,10 +2513,10 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43703 strings out of 492916
- 807382 string characters out of 6133345
+ 43713 strings out of 492916
+ 807452 string characters out of 6133345
  1467964 words of memory out of 5000000
- 47081 multiletter control sequences out of 15000+600000
+ 47091 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,80p,1496b,7227s stack positions out of 5000i,500n,10000p,200000b,80000s
