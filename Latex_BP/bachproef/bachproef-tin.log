@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  6 MAY 2020 07:17
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  7 MAY 2020 08:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2279,14 +2279,18 @@ Missing character: There is no ” in font ptmri8t!
 
 ]
 Hoofdstuk 3.
-) (./TransformerenNaarEenPWA.tex [87] [88
 
-]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [87])
+(./TransformerenNaarEenPWA.tex [88]
 Hoofdstuk 4.
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-[89]
+[89
+
+]
 File: ./img/dart1.png Graphic file (type bmp)
 <./img/dart1.png>
 Missing character: There is no – in font ptmr8t!
@@ -2507,7 +2511,7 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 Here is how much of TeX's memory you used:
  43703 strings out of 492916
  807382 string characters out of 6133345
- 1467963 words of memory out of 5000000
+ 1467964 words of memory out of 5000000
  47081 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
