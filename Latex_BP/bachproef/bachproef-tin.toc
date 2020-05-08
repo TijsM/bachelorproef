@@ -391,127 +391,123 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Conclusie}{113}{chapter.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Resultaten}{114}{section.6.1}% 
+\contentsline {section}{\numberline {6.1}Resultaten}{113}{section.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Beperkingen van een PWA}{114}{subsection.6.1.1}% 
+\contentsline {subsection}{\numberline {6.1.1}Functionaliteit van PWA's en besturingssystemen}{113}{subsection.6.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}Functionaliteit van PWA's en besturingssystemen}{114}{subsection.6.1.2}% 
+\contentsline {subsection}{\numberline {6.1.2}Beperkingen van een PWA}{113}{subsection.6.1.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.3}PWA alternatieven}{114}{subsection.6.1.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.4}Welke stappen zijn er nodig om een traditionele website om te vormen tot een PWA}{114}{subsection.6.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.5}POC}{114}{subsection.6.1.5}% 
+\contentsline {section}{\numberline {6.2}Niet-kwantificeerbare resultaten}{114}{section.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Vergelijking met verwacht resultaten}{114}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Vergelijking met verwacht resultaten}{115}{section.6.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Niet-kwantificeerbare resultaten}{114}{section.6.3}% 
+\contentsline {section}{\numberline {6.4}Verder onderzoek}{115}{section.6.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Tekortkomingen van dit onderzoek}{114}{section.6.4}% 
+\contentsline {chapter}{\numberline {A}Interviews}{117}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Verder onderzoek}{114}{section.6.5}% 
+\contentsline {section}{\numberline {A.1}Intro}{117}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Interviews}{115}{appendix.A}% 
+\contentsline {subsection}{\numberline {A.1.1}Thomas Steiner}{117}{subsection.A.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Intro}{115}{section.A.1}% 
+\contentsline {subsection}{\numberline {A.1.2}Wassim Chegham}{117}{subsection.A.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}Thomas Steiner}{115}{subsection.A.1.1}% 
+\contentsline {section}{\numberline {A.2}Selling points}{118}{section.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.2}Wassim Chegham}{115}{subsection.A.1.2}% 
+\contentsline {subsection}{\numberline {A.2.1}Thomas Steiner}{118}{subsection.A.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Selling points}{116}{section.A.2}% 
+\contentsline {subsection}{\numberline {A.2.2}Wassim Chegham}{118}{subsection.A.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Thomas Steiner}{116}{subsection.A.2.1}% 
+\contentsline {section}{\numberline {A.3}Disadvantages}{119}{section.A.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Wassim Chegham}{116}{subsection.A.2.2}% 
+\contentsline {subsection}{\numberline {A.3.1}Thomas Steiner}{119}{subsection.A.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Disadvantages}{117}{section.A.3}% 
+\contentsline {subsection}{\numberline {A.3.2}Wassim Chegham}{119}{subsection.A.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.1}Thomas Steiner}{117}{subsection.A.3.1}% 
+\contentsline {section}{\numberline {A.4}Is not being in the app-store an advantage or a disadvantage?}{119}{section.A.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.2}Wassim Chegham}{117}{subsection.A.3.2}% 
+\contentsline {subsection}{\numberline {A.4.1}Thomas Steiner}{119}{subsection.A.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Is not being in the app-store an advantage or a disadvantage?}{117}{section.A.4}% 
+\contentsline {subsection}{\numberline {A.4.2}Wassim Chegham}{119}{subsection.A.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.4.1}Thomas Steiner}{117}{subsection.A.4.1}% 
+\contentsline {section}{\numberline {A.5}In what types of applications do you see PWA's excelling}{120}{section.A.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.4.2}Wassim Chegham}{117}{subsection.A.4.2}% 
+\contentsline {subsection}{\numberline {A.5.1}Thomas Steiner}{120}{subsection.A.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}In what types of applications do you see PWA's excelling}{118}{section.A.5}% 
+\contentsline {subsection}{\numberline {A.5.2}Wassim Chegham}{120}{subsection.A.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.5.1}Thomas Steiner}{118}{subsection.A.5.1}% 
+\contentsline {section}{\numberline {A.6}Adoption}{121}{section.A.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.5.2}Wassim Chegham}{118}{subsection.A.5.2}% 
+\contentsline {subsection}{\numberline {A.6.1}Thomas Steiner}{121}{subsection.A.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.6}Adoption}{119}{section.A.6}% 
+\contentsline {subsection}{\numberline {A.6.2}Wassim Chegham}{121}{subsection.A.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.6.1}Thomas Steiner}{119}{subsection.A.6.1}% 
+\contentsline {section}{\numberline {A.7}Future of PWA's }{122}{section.A.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.6.2}Wassim Chegham}{119}{subsection.A.6.2}% 
+\contentsline {subsection}{\numberline {A.7.1}Thomas Steiner}{122}{subsection.A.7.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.7}Future of PWA's }{120}{section.A.7}% 
+\contentsline {subsection}{\numberline {A.7.2}Wassim Chegham}{122}{subsection.A.7.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.7.1}Thomas Steiner}{120}{subsection.A.7.1}% 
+\contentsline {section}{\numberline {A.8}Installation of PWA's}{123}{section.A.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.7.2}Wassim Chegham}{120}{subsection.A.7.2}% 
+\contentsline {subsection}{\numberline {A.8.1}Thomas Steiner}{123}{subsection.A.8.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.8}Installation of PWA's}{121}{section.A.8}% 
+\contentsline {subsection}{\numberline {A.8.2}Wassim Chegham}{123}{subsection.A.8.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.8.1}Thomas Steiner}{121}{subsection.A.8.1}% 
+\contentsline {section}{\numberline {A.9}Apple}{124}{section.A.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.8.2}Wassim Chegham}{121}{subsection.A.8.2}% 
+\contentsline {subsection}{\numberline {A.9.1}Thomas Steiner}{124}{subsection.A.9.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.9}Apple}{122}{section.A.9}% 
+\contentsline {subsection}{\numberline {A.9.2}Wassim Chegham}{124}{subsection.A.9.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.9.1}Thomas Steiner}{122}{subsection.A.9.1}% 
+\contentsline {section}{\numberline {A.10}Beginning of pwa's}{125}{section.A.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.9.2}Wassim Chegham}{122}{subsection.A.9.2}% 
+\contentsline {subsection}{\numberline {A.10.1}Thomas Steiner}{125}{subsection.A.10.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.10}Beginning of pwa's}{123}{section.A.10}% 
+\contentsline {subsection}{\numberline {A.10.2}Wassim Chegham}{125}{subsection.A.10.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.10.1}Thomas Steiner}{123}{subsection.A.10.1}% 
+\contentsline {section}{\numberline {A.11}Extra}{126}{section.A.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.10.2}Wassim Chegham}{123}{subsection.A.10.2}% 
+\contentsline {subsection}{\numberline {A.11.1}Thomas Steiner}{126}{subsection.A.11.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.11}Extra}{124}{section.A.11}% 
+\contentsline {subsubsection}{Do you believe that one day, all applications (mobile/ desktop) will be written with web technologies? }{126}{section*.117}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.11.1}Thomas Steiner}{124}{subsection.A.11.1}% 
+\contentsline {subsubsection}{favorite PWA}{126}{section*.118}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Do you believe that one day, all applications (mobile/ desktop) will be written with web technologies? }{124}{section*.117}% 
+\contentsline {subsubsection}{favorite WEB API}{126}{section*.119}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{favorite PWA}{124}{section*.118}% 
+\contentsline {subsubsection}{How do you see the monetization options for PWA's}{126}{section*.120}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{favorite WEB API}{124}{section*.119}% 
+\contentsline {subsection}{\numberline {A.11.2}Wassim Chegham}{126}{subsection.A.11.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{How do you see the monetization options for PWA's}{124}{section*.120}% 
+\contentsline {chapter}{\numberline {B}Onderzoeksvoorstel}{127}{appendix.B}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.11.2}Wassim Chegham}{124}{subsection.A.11.2}% 
+\contentsline {section}{\numberline {B.1}Introductie}{127}{section.B.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Onderzoeksvoorstel}{125}{appendix.B}% 
+\contentsline {section}{\numberline {B.2}State-of-the-art}{128}{section.B.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Introductie}{125}{section.B.1}% 
+\contentsline {subsection}{\numberline {B.2.1}Wat is een PWA}{128}{subsection.B.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}State-of-the-art}{126}{section.B.2}% 
+\contentsline {subsection}{\numberline {B.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{128}{subsection.B.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.1}Wat is een PWA}{126}{subsection.B.2.1}% 
+\contentsline {subsection}{\numberline {B.2.3}Waarom PWA's}{129}{subsection.B.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{126}{subsection.B.2.2}% 
+\contentsline {subsection}{\numberline {B.2.4}Beveiliging}{129}{subsection.B.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.3}Waarom PWA's}{127}{subsection.B.2.3}% 
+\contentsline {subsection}{\numberline {B.2.5}Native containers}{130}{subsection.B.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.4}Beveiliging}{127}{subsection.B.2.4}% 
+\contentsline {subsection}{\numberline {B.2.6}Apllication shell architecture}{130}{subsection.B.2.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.5}Native containers}{128}{subsection.B.2.5}% 
+\contentsline {section}{\numberline {B.3}Methodologie}{130}{section.B.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.6}Apllication shell architecture}{128}{subsection.B.2.6}% 
+\contentsline {subsection}{\numberline {B.3.1}Technologieën}{130}{subsection.B.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}Methodologie}{128}{section.B.3}% 
+\contentsline {section}{\numberline {B.4}Verwachte resultaten}{131}{section.B.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.3.1}Technologieën}{128}{subsection.B.3.1}% 
+\contentsline {section}{\numberline {B.5}Verwachte conclusies}{131}{section.B.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.4}Verwachte resultaten}{129}{section.B.4}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.5}Verwachte conclusies}{129}{section.B.5}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{131}{appendix*.121}% 
+\contentsline {chapter}{Bibliografie}{133}{appendix*.121}% 
 \contentsfinish 
