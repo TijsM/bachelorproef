@@ -291,25 +291,29 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Methodologie}{87}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Welke stappen zijn er nodig om een traditionele website om te vormen tot een PWA}{89}{chapter.4}% 
+\contentsline {chapter}{\numberline {4}Ombouwen van een web app tot een PWA}{89}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}De applicatie}{89}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Analyse}{89}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}functionele requirements}{90}{subsection.4.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}niet-functionele requirements}{90}{subsection.4.2.2}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Implementatie}{90}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}A2HS}{91}{section.4.4}% 
+\contentsline {section}{\numberline {4.4}A2HS}{92}{section.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}HTTPS}{92}{subsection.4.4.1}% 
+\contentsline {subsection}{\numberline {4.4.1}HTTPS}{93}{subsection.4.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}App manifest}{92}{subsection.4.4.2}% 
+\contentsline {subsection}{\numberline {4.4.2}App manifest}{93}{subsection.4.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}Service worker}{93}{subsection.4.4.3}% 
+\contentsline {subsection}{\numberline {4.4.3}Service worker}{94}{subsection.4.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Controle}{94}{section.4.5}% 
+\contentsline {section}{\numberline {4.5}Controle}{95}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Conclusie}{94}{section.4.6}% 
+\contentsline {section}{\numberline {4.6}Conclusie}{95}{section.4.6}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Proof-of-concept}{97}{chapter.5}% 
 \defcounter {refsection}{0}\relax 

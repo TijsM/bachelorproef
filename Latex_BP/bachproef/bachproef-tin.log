@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  8 MAY 2020 11:26
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  8 MAY 2020 20:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1736,7 +1736,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
@@ -1763,10 +1765,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15
 
-]
-Missing character: There is no – in font ptmr8t!
-Missing character: There is no – in font pagk8t!
-)
+])
 \tf@lof=\write7
 \openout7 = `bachproef-tin.lof'.
 
@@ -2285,49 +2284,45 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [87])
 (./TransformerenNaarEenPWA.tex [88]
 Hoofdstuk 4.
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 [89
 
 ]
-File: ./img/dart1.png Graphic file (type bmp)
-<./img/dart1.png>
-Missing character: There is no – in font ptmr8t!
-File: ./img/dart2.png Graphic file (type bmp)
-<./img/dart2.png>
+File: ./img/dart1.jpg Graphic file (type bmp)
+<./img/dart1.jpg>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [90]
+File: ./img/dart2.jpg Graphic file (type bmp)
+<./img/dart2.jpg>
+File: ./img/dart3.jpg Graphic file (type bmp)
+<./img/dart3.jpg>
 
-
-Package Fancyhdr Warning: \headheight is too small (14.5pt): 
-Make it at least 28.06596pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[90]
-File: ./img/dart3.png Graphic file (type bmp)
-<./img/dart3.png>
-
-Underfull \vbox (badness 2205) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [91]
-[92]
+File: ./img/dart4.jpg Graphic file (type bmp)
+<./img/dart4.jpg>
+
+Underfull \vbox (badness 6477) has occurred while \output is active []
+
+ [92]
+[93]
 File: ./img/lighthouse_dart.png Graphic file (type bmp)
 <./img/lighthouse_dart.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [93]
+ [94]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 
-[94]) (./proof-of-concept.tex [95] [96
+[95]) (./proof-of-concept.tex [96]
+Hoofdstuk 5.
+[97
 
 ]
-Hoofdstuk 5.
-[97]
 File: ./img/mockup-poc.png Graphic file (type bmp)
 <./img/mockup-poc.png>
 
@@ -2513,10 +2508,10 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43711 strings out of 492916
- 807438 string characters out of 6133345
- 1467964 words of memory out of 5000000
- 47089 multiletter control sequences out of 15000+600000
+ 43717 strings out of 492916
+ 807519 string characters out of 6133345
+ 1467920 words of memory out of 5000000
+ 47094 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,80p,1496b,7227s stack positions out of 5000i,500n,10000p,200000b,80000s
