@@ -6,15 +6,6 @@ In deze proof-of-concept zal er onderzocht worden als een PWA kan voldoen aan he
 Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een  andere persoon zal kunnen uitnodigen om een video gesprek te hebben. 
 
  \section{Analyse}
-
-	 \subsection{Rollen}
-	 
-		 \subsubsection{Gebruiker}
-			Een persoon die de toepassing gebruikt, deze persoon hoeft niet aangemeld te zijn.
-		 
-		 \subsubsection{Aangemelde gebruiker}
-		 	Dit is een gebruiker die reeds een account heeft op de toepassen en die aangemeld is.
-	 
 	 \subsection{Functionele requirements}
 	 	\subsubsection{Authenticatie}
 		 	\begin{itemize}
@@ -75,7 +66,7 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een  an
 			
 	
 \section{Implementatie}
-	Voor het ontwikkelen van de proof-of-concept werd er opnieuw gebruik van react.js voor de frontend. De backend werd ontwikkeld in node.js en als database werd firebase gebruikt.
+	Voor het ontwikkelen van de proof-of-concept werd er opnieuw gebruik van react.js voor de frontend. De backend werd ontwikkeld in node.js en als database werd de firestore van firebase gebruikt gebruikt.
 	
 	\subsection{Registreren service worker}
 		
@@ -155,7 +146,7 @@ workbox.routing.registerRoute(
 			
 			Aan de hand van een regular expression kunnen er bestanden gechached worden. In dit voorbeeld worden alle javascript en css bestanden offline beschikbaar gemaakt.
 			
-			In de voorbeeld wordt een andere strategie toegepast. de staleWhileRevalidate strategie houdt in dat eerst het gecachete bestand gebruikt wordt, vervolgens wordt het er een netwerkverzoek verstuurd om dit bestand op te halen van de server. Als deze bestanden niet volledig gelijk zijn, zal het gecachte bestand overschreven worden.
+			In dit voorbeeld wordt een andere strategie toegepast. de staleWhileRevalidate strategie houdt in dat eerst het gecachete bestand gebruikt wordt, vervolgens wordt het er een netwerkverzoek verstuurd om dit bestand op te halen van de server. Als deze bestanden niet volledig gelijk zijn, zal het gecachte bestand overschreven worden. En zal de content op in de applicatie aangepast worden.
 			\autocite{Workbox2020b}
 			
 			
@@ -176,6 +167,12 @@ workbox.routing.registerRoute(
 		
 		Opnieuw wordt er gebruik gemaakt van een regular expression om workbox duidelijk te maken welke request er offline beschikbaar moet zijn.
 
+
+	\subsection{Achtergrond synchronisatie}
+	
+	%todo: nog te implementeren!!!!!!
+	nog te implementeren!!!!!!
+	
 	\subsection{Authentication}
 		
 		Het invullen van van een form om een mobiel toestel is voor veel gebruikers een relatief grote inspanning.
@@ -269,9 +266,11 @@ navigator.clipboard
 };
 \end{lstlisting}
 
-		Bij deze feature werd er progressive enhancement toegepast. 
-		In het beste geval wordt het native deel menu getoond, als dit niet beschikbaar is zal de link gekopiëerd worden in het klembord.
-		Als ook dit niet beschikbaar is, of de gebruiker heeft geen toestemming gegeven zal er een boodschap getoond worden waar de gebruiker de link zelf kan kopiëren en delen.
+		\subsubsection{Progressive enhancement}
+
+			Bij deze feature werd er progressive enhancement toegepast. 
+			In het beste geval wordt het native deel menu getoond, als dit niet beschikbaar is zal de link gekopiëerd worden in het klembord.
+			Als ook dit niet beschikbaar is, of de gebruiker heeft geen toestemming gegeven zal er een boodschap getoond worden waar de gebruiker de link zelf kan kopiëren en delen.
 		
 \begin{lstlisting}
 if('share' in navigator){
@@ -499,7 +498,7 @@ peer.on("stream", (stream) => {
 		% todo: image van wel gemaskte iconen
 		%todo: imag van vid call icoon	
 
-		
+
 
 \section{De Applicatie}
 	%todo: screenshots toevoegen

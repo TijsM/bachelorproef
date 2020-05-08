@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  8 MAY 2020 20:59
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  8 MAY 2020 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2349,7 +2349,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [103]
 [104]
 
-LaTeX Warning: Citation 'Gaunt2019b' on page 105 undefined on input line 297.
+LaTeX Warning: Citation 'Gaunt2019b' on page 105 undefined on input line 296.
 
 [105] [106] [107] [108]
 Underfull \vbox (badness 10000) has occurred while \output is active []
