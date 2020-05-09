@@ -293,20 +293,25 @@ else{
 		Een van de grote voordelen van een PWA ten opzichte van een traditionele website is dat het push notificaties kan sturen naar de gebruiker.
 		
 		Er wordt aangeraden om de "web-push" library te gebruiken om push notificaties te implementeren
-		\autocite{Gaunt2019b}
+		
+		In deze applicatie worden push notificaties gebruik in twee use-cases. 
+		\begin{itemize}
+			\item 	Als een bezoeker in een room komt, zal de eigenaar van die room een meding krijgen
+			\item 	De administrator van de applicatie kan een notificatie naar alle gebruikers versturen aan de hand vanuit een admin scherm
+		\end{itemize}	
 		
 		\paragraph{Abbonneren op push notificaties}
 			 De gebruiker moet expliciet toegang geven aan de webapplicatie om push notificaties te mogen gebruiken.
 			 
 \begin{lstlisting}
-    const sw = await navigator.serviceWorker.ready;
-    let pushSub = await sw.pushManager.subscribe({
-          userVisibleOnly: true,
-          applicationServerKey: 'public VAPID key
-        })
+const sw = await navigator.serviceWorker.ready;
+let pushSub = await sw.pushManager.subscribe({
+      userVisibleOnly: true,
+      applicationServerKey: 'public VAPID key'
+})
 \end{lstlisting}
 
-			Dit stukje code zal een "subscription" teruggeven dat opgeslagen moet worden in de databank bij de gebruiker. deze "subscription" is uniek voor de gebruiker, de browser en het toestel.
+			Dit stukje code zal een "subscription" teruggeven dat opgeslagen moet worden in de databank bij de gebruiker. deze"subscription" is uniek voor de gebruiker, de browser en het toestel.
 			\autocite{Gaunt2019a}
 			
 			voorbeeld van een subscription:
@@ -326,12 +331,12 @@ else{
 		\paragraph{Backend}
 			De backend moet in een eerste fase gebruikt worden om de VAPID keys te genereren.
 			
-			Vapid keys of application server keys zijn uniek voor de server
+			Vapid keys of application server keys zijn uniek voor de server.
 			
 			Deze vapid keys zorgen ervoor dat de push services van de verschillende browsers weet van welke applicatie de notificaties afkomstig zijn. Hierdoor kan het ook de applicatie beveiligen en enkel deze server toestaan notificaties te sturen naar de applicatie.
 			
 			Elke browser heeft zijn eigen push service waar een applicatie server aan kan vragen om een notificiatie te sturen naar een bepaald toestel.
-			e\autocite{Gaunt2020}
+			\autocite{Gaunt2020}
 			
 			Deze vapid keys kunnen in de applicatie server gegenereerd worden aan de hand van volgende code:
 			
@@ -374,7 +379,7 @@ self.addEventListener("push", function (e) {
   const payload = JSON.parse(e.data.text())
 \end{lstlisting}
 			
-			Vervolgens kan er een notificatie gevormd worden zoals eerder toegelicht
+			Vervolgens kan er een notificatie gevormd worden zoals eerder toegelicht in hoofdstuk 2 van deze scriptie.
 			
 \begin{lstlisting}
 options = {
@@ -391,17 +396,14 @@ options = {
 \end{lstlisting}
 			
 	\subsection{Local storage}
-	
-
 		
 		Om een ervaring aan te bieden zoals op native applicaties is het belangrijk om de gebruiker aangemeld te houden tussen sessies.
 		
-		Dit gebeurt aan de hand van local storage. Zolang de gebruiker het local storage niet manueel verwijdert zal dit blijven bestaan. 
-		\autocite{Mozilla2020d}
-		
 		Als een gebruiker zich aanmeldt, wordt deze opgeslagen in het local storage.
 		
-
+		Zolang de gebruiker het local storage niet manueel verwijdert zal dit blijven bestaan. 
+		\autocite{Mozilla2020d}
+		
 	\subsection{Web RTC}
 		
 		Web RTC is een verzameling van Web API's die real time commicatie op het web mogelijk maken. 
@@ -417,10 +419,10 @@ options = {
 		Web RTC maakt gebruik van een peer-to-peer connectie tussen de twee gebruikers, tijdens het bellen is er dus geen server nodig. Echter, er is wel een server nodig om de connectie tussen beide tot stand te brengen.
 		
 		\paragraph{video-stream}
-			De video-stream zal verkregen worden via het navigator object. Bij het opvragen van een video-stream zal de browser automatisch toestemming vragen aan de gebruiker als de camera en de microfoon gebruikt mag worden.
+			De video-stream zal verkregen worden via het navigator object. Bij het opvragen van een video-stream zal de browser automatisch toestemming vragen aan de gebruiker als de camera en de microfoon gebruikt mogen worden.
 			
 			Als de applicatie toestemming gekregen heeft wordt er een video-stream verkregen.
-			Deze stream zal opgeslagen worden in de state van de applicatie en zal in een html-5 video element geplaatst worden.
+			Deze stream zal opgeslagen worden in de state van de applicatie en zal in een HTML-5 video element geplaatst worden.
 		
 \begin{lstlisting}
 navigator.mediaDevices.getUserMedia({ 
@@ -438,7 +440,7 @@ navigator.mediaDevices.getUserMedia({
 		\paragraph{peer-to-peer verbinding met streaming}
 			Bij deze applicatie werd \href{https://github.com/feross/simple-peer}{simple-peer} gebruikt, dit is een abstractie van webRTC die het opzetten van peer-to-peer verbindingen eenvoudiger maakt.
 			
-			Voor beide gebruiker zal er een Peer object aangemaakt worden
+			Voor beide gebruikers zal er een peer object aangemaakt worden.
 
 \begin{lstlisting}
 const peer = new Peer({
@@ -485,7 +487,7 @@ peer.on("stream", (stream) => {
 		
 		In verschillende thema's zullen de icoontjes er anders uitzien, in sommige thema's zullen ze rond zijn, in andere vierkant met afgeronde hoeken. 
 		
-		Als het icoontje niet geoptimaliseerd wordt, zal Android er steed voor zorgen dat het icoontje volledig zichtbaar is. Indien nodig zal er een achtergrond toegevoegd worden.
+		Als het icoontje niet geoptimaliseerd wordt, zal Android er steeds voor zorgen dat het icoontje volledig zichtbaar is. Indien nodig zal er een achtergrond toegevoegd worden.
 		
 	
 		%todo: image van niet gemaskte iconen
@@ -495,16 +497,34 @@ peer.on("stream", (stream) => {
 \begin{lstlisting}
 "purpose": "any maskable" 
 \end{lstlisting}
-		% todo: image van wel gemaskte iconen
-		%todo: imag van vid call icoon	
 
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=60mm]{./img/traditionalIcons}{}
+			\caption{niet geoptimaliseerde iconen}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=60mm]{./img/maskedicons}{}
+			\caption{masked iconen}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=100mm]{./img/iconPWA.png}{}
+			\caption{Geoptimaliseerde iconen van proof- of-concept}
+		\end{figure}
 
 
 \section{De Applicatie}
-	%todo: screenshots toevoegen
 	\subsection{Authenticatie}
-		De gebruiker kan zich registreren aan de hand van een email en wachtwoord combinatie. Er is ook een optie om zicht aan te melden aan de hand van google en facebook.
+		De gebruiker kan zich registreren aan de hand van een email en wachtwoord combinatie. Er is ook een optie om zicht aan te melden aan de hand van Google en Facebook.
 		
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=35mm]{./img/POC/login.jpg}{}		\includegraphics[width=35mm]{./img/POC/register.jpg}{}
+			\caption{autenticatie-schermen}
+		\end{figure}
 		
 	\subsection{Home}
 		Dit is het scherm waar de gebruiker zal terechtkomen als hij is aangemeld. 
@@ -517,6 +537,14 @@ peer.on("stream", (stream) => {
 			\item Afmelden
 		\end{itemize}
 		
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=35mm]{./img/POC/home}{}		
+				\caption{homescherm}
+			\end{figure}
+		
+		
+		
 	\subsection{Wachtschermen}
 		Als er slechts 1 persoon is in de room zal de gebruiker op dit scherm terechtkomen. 
 		
@@ -526,13 +554,33 @@ peer.on("stream", (stream) => {
 						
 		Als beide gebruikers aanwezig zijn, zal de bezoeker de optie krijgen om het gesprek te starten.
 		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=35mm]{./img/POC/waitAsOwner.jpg}{}		\includegraphics[width=35mm]{./img/POC/waitAsVisitor1.jpg}{}
+			\includegraphics[width=35mm]{./img/POC/waitAsVisitor2.jpg}{}
+			\caption{wachtschermen}
+		\end{figure}
+		
+		
+		
 	\subsection{Room}
 		In dit scherm kunnen de gebruikers een conversatie hebben. 
 		
 		Er is een optie om het gesprek te beëindigen, het geluid uit te schakelen en de video stream uit te schakelen.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=35mm]{./img/POC/call.jpg}{}		
+			\caption{belscherm}
+		\end{figure}
 		
 	\subsection{Notificaties}
 		Op dit scherm kan de administrator van de applicatie een zelf gekozen notificatie versturen naar alle gebruikers die hun goedkeuring hebben gegeven om notificaties te ontvangen.
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=100mm]{./img/POC/sendNoti}{}		
+			\caption{scherm om manueel een notificatie te versturen}
+		\end{figure}
 		
 
 \section{Conclusie}
@@ -551,8 +599,12 @@ peer.on("stream", (stream) => {
 	
 	Op Android bijvoorbeeld maakt de adresbalk geen deel uit van de viewport. Hierdoor was er dus wel een scroll van enkele centimeters aanwezig als de applicatie bezocht werd in de browser. Dit probleem wordt opgelost als de applicatie geïnstalleerd wordt, dan is er geen adresbalk aanwezig.
 	
-	%todo: screenshot van inconsitentie
-	
+	\subsection{verwachting gebruiker}
+		Een gebruiker die een applicatie installeert op een IOS toestel zal een andere user interface verwachten dan een gebruiker die een applicatie installeert op een Android toestel.
+		
+		Met een PWA kan er slechts 1 user interface geïmplementeerd worden, het is dus niet mogelijk om volledig aan de verwachting van elke gebruiker te voldoen.
+		
+		Een gebruiker met een toestel dat op IOS werkt is gewoon om naar de vorige pagina te navigeren door naar rechts te swipen op het toestel. Dit is een manier van navigeren die een Android gebruiker niet gewoon is. In deze proof of concept kan er niet met touch-gebaren genavigeerd worden. Dit kan niet 'native' aanvoelen voor de IOS gebruiker. 
 	
 	
 	

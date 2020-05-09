@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  8 MAY 2020 21:28
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  9 MAY 2020 11:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2348,65 +2348,94 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [103]
 [104]
+Underfull \vbox (badness 3612) has occurred while \output is active []
 
-LaTeX Warning: Citation 'Gaunt2019b' on page 105 undefined on input line 296.
+ [105]
+[106] [107] [108] [109]
+File: ./img/traditionalIcons.png Graphic file (type bmp)
+<./img/traditionalIcons.png>
+File: ./img/maskedicons.png Graphic file (type bmp)
+<./img/maskedicons.png>
+File: ./img/iconPWA.png Graphic file (type bmp)
+<./img/iconPWA.png>
+File: ./img/POC/login.jpg Graphic file (type bmp)
+<./img/POC/login.jpg>
+File: ./img/POC/register.jpg Graphic file (type bmp)
+<./img/POC/register.jpg>
 
-[105] [106] [107] [108]
+Underfull \vbox (badness 7685) has occurred while \output is active []
+
+ [110]
+File: ./img/POC/home.jpg Graphic file (type bmp)
+<./img/POC/home.jpg>
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [109]
-[110]) (./conclusie.tex [111] [112
+ [111]
+File: ./img/POC/waitAsOwner.jpg Graphic file (type bmp)
+<./img/POC/waitAsOwner.jpg>
+File: ./img/POC/waitAsVisitor1.jpg Graphic file (type bmp)
+<./img/POC/waitAsVisitor1.jpg>
+File: ./img/POC/waitAsVisitor2.jpg Graphic file (type bmp)
+<./img/POC/waitAsVisitor2.jpg>
 
-]
+[112]
+File: ./img/POC/call.jpg Graphic file (type bmp)
+<./img/POC/call.jpg>
+File: ./img/POC/sendNoti.png Graphic file (type bmp)
+<./img/POC/sendNoti.png>
+ [113]) (./conclusie.tex [114]
 Hoofdstuk 6.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [113]
-[114]) (./interview.tex [115] [116
+ [115
+
+]
+[116]) (./interview.tex [117] [118
 
 ]
 B"ylage A.
 Missing character: There is no ’ in font ptmr8t!
-[117] [118]
+[119] [120]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
- [119] [120]
+ [121] [122]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 
 Underfull \vbox (badness 5302) has occurred while \output is active []
 
- [121]
-[122]
-Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
  [123]
+[124]
 Missing character: There is no ’ in font ptmr8t!
- [124]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+ [125]
+Missing character: There is no ’ in font ptmr8t!
+ [126]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
- [125]
+ [127]
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-) [126]
+) [128]
 B"ylage B.
 (../voorstel/voorstel-inhoud.tex
 Missing character: There is no … in font ptmr8t!
- [127
+ [129
 
 ]
 Missing character: There is no – in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
- [128]
+ [130]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
@@ -2416,18 +2445,18 @@ Missing character: There is no ’ in font ptmr8t!
 
 Underfull \vbox (badness 1655) has occurred while \output is active []
 
- [129]
+ [131]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
 
-[130]) [131] [132
+[132]) [133] [134
 
-] [133]
+] [135]
 Missing character: There is no ﬁ in font ptmr8t!
 Missing character: There is no ř in font ptmr8t!
 Missing character: There is no š in font ptmr8t!
- [134]
+ [136]
 Overfull \hbox (9.12292pt too wide) in paragraph at lines 211--211
 [][]\T1/ptm/m/n/12 Developers, G. (2019c, mei 1). Tools for PWA De-vel-o-pers. 
 Ver-kre-gen van []$https : / / developers .
@@ -2445,28 +2474,28 @@ Overfull \hbox (33.2552pt too wide) in paragraph at lines 211--211
 ves-ti-ga-ting Device-FeatureExposure
  []
 
-[135]
+[137]
 Overfull \hbox (0.45145pt too wide) in paragraph at lines 211--211
 \T1/ptm/m/n/12 Eco-sy-s-tem. Ver-kre-gen van []$https : / / www . slideshare . 
 net / AaronGustafson / progressive -[]
  []
 
-[136]
+[138]
 Missing character: There is no ’ in font ptmr8t!
- [137]
+ [139]
 Overfull \hbox (1.22452pt too wide) in paragraph at lines 211--211
 [][]\T1/ptm/m/n/12 Mozilla. (2019b, de-cem-ber 31). In-tro-duc-tion to web APIs
 . Ver-kre-gen van []$https : / / developer .
  []
 
-[138]
+[140]
 Overfull \hbox (15.04414pt too wide) in paragraph at lines 211--211
 \T1/ptm/m/n/12 %7B % 22share % 22 :-[] 1 % 7D ,[] %22id % 22 : %22platformsDesk
 top % 22 ,[] %22dateInterval %
  []
 
 Missing character: There is no — in font ptmr8t!
-[139] [140]
+[141] [142]
 Overfull \hbox (0.46956pt too wide) in paragraph at lines 211--211
 [][]\T1/ptm/m/n/12 Verdú, J. & Pa-juelo, A. (2015, ok-to-ber 26). Per-for-mance
  Sca-la-bi-lity Ana-ly-sis of Ja-vaScript
@@ -2486,34 +2515,25 @@ Overfull \hbox (38.1784pt too wide) in paragraph at lines 211--211
 der / status / 1139278479436865536 &
  []
 
-[141]
+[143]
 Missing character: There is no ﬁ in font ptmr8t!
- [142]
+ [144]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
  (./bachproef-tin.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 213.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 213.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                bachproef-tin
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43717 strings out of 492916
- 807519 string characters out of 6133345
- 1467920 words of memory out of 5000000
- 47094 multiletter control sequences out of 15000+600000
+ 43765 strings out of 492916
+ 808575 string characters out of 6133345
+ 1467898 words of memory out of 5000000
+ 47128 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,80p,1496b,7227s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bachproef-tin.pdf (144 pages).
+Output written on bachproef-tin.pdf (146 pages).
