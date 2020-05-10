@@ -397,7 +397,7 @@ options = {
 
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=80mm]{./img/notificationMacOs}{}		
+				\includegraphics[width=80mm]{./img/notificationMacOs}{}		
 		\caption{notificatie op macOS}
 	\end{figure}
 			
@@ -468,6 +468,21 @@ peer.on("stream", (stream) => {
 });
 \end{lstlisting}
 
+		\paragraph{Performantie}
+		
+			De performantie van de applicatie werd gemeten aan door het de statistieken van de video elementen op te halen waarint de stream getoond wordt. Bij beide tests was een macbook Pro de administrator van de meeting en werd een Oneplus6 toegevoegd aan het gesprek als gast. De statistieken werden gemeten op het toestel van de administrator.
+			
+			\begin{table}[H]
+			\centering
+			\begin{tabular}{lll}													& Zoom 			& PWA \\
+				gemiddelded aantal frames per seconde van ontvangende video 	 & 14				&  34 \\
+				gemiddelded aantal frames per seconde van verzonden video		   & 26				   & 30	 \\
+				resolutie ontvangen video  						  & 480x640 	&  480x640  \\
+				resolutiie verzonden video						   & 640x360	& 	640x480\\
+			\end{tabular}	
+			\caption{performantie vergelijking met Zoom}
+			\end{table}
+	
 
 	\subsection{Socket.io}
 	
@@ -494,9 +509,6 @@ peer.on("stream", (stream) => {
 		In verschillende thema's zullen de icoontjes er anders uitzien, in sommige thema's zullen ze rond zijn, in andere vierkant met afgeronde hoeken. 
 		
 		Als het icoontje niet geoptimaliseerd wordt, zal Android er steeds voor zorgen dat het icoontje volledig zichtbaar is. Indien nodig zal er een achtergrond toegevoegd worden.
-		
-	
-		%todo: image van niet gemaskte iconen
 		
 		Door ervoor te zorgen dat alle belangrijke elementen va het icoon binnne een 'safe zone' vallen, en een extra property toe te voegen in het app manifest kan dit opgelost worden.
 		

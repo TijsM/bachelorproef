@@ -130,12 +130,8 @@ function displayNotification() {
   }
 }
 \end{lstlisting}
-		
-
-		
 			Om een notificatie weer te geven, wordt er een object verwacht waar de inhoud van de melding wordt vastgelegd. Volgende keys kunnen meegegeven worden:
 			
-				
 			\begin{table}[H]
 				\centering
 				\begin{tabular}{cp{12cm}}
@@ -149,7 +145,6 @@ function displayNotification() {
 			\end{table}
 			\autocite{Developers2019}
 			\autocite{Mozilla2019a}
-		
 		
 		
 		\subparagraph{Push API}
@@ -181,14 +176,11 @@ function displayNotification() {
 			\includegraphics[width=35mm]{./img/backSync2.png}
 			\caption{demonstratie van achtergrond synchrondisatie bij Google Chrome op Android - melding als gebruiker terug online is}
 		\end{figure}
-		 
-	
-	
 		\subsubsection{Service worker lifecycle }
-		De levenscyclus van de service worker is onafhankelijk van de levenscyclus van de webapplicatie. Als de webapplicatie gesloten wordt, blijft de service worker gewoon werken.
-		
-		Om een service worker te installeren moet deze geregistreerd worden in de javascript van de webapplicatie. Dit gebeurt normaal bij het eerst bezoek aan de website van de gebruiker.
-		
+			De levenscyclus van de service worker is onafhankelijk van de levenscyclus van de webapplicatie. Als de webapplicatie gesloten wordt, blijft de service worker gewoon werken.
+			
+			Om een service worker te installeren moet deze geregistreerd worden in de javascript van de webapplicatie. Dit gebeurt normaal bij het eerst bezoek aan de website van de gebruiker.
+			
 \begin{lstlisting}
 function displayNotification() {
 if ('serviceWorker' in navigator) {
