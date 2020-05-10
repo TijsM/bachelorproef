@@ -1975,6 +1975,37 @@
       \verb https://play.google.com/apps/publish/signup/
       \endverb
     \endentry
+    \entry{googleTrends2020}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=862d95e6e4fe8116c5eab91437b77245}{%
+           family={googleTrends},
+           familyi={g\bibinitperiod}}}%
+      }
+      \strng{namehash}{862d95e6e4fe8116c5eab91437b77245}
+      \strng{fullhash}{862d95e6e4fe8116c5eab91437b77245}
+      \strng{bibnamehash}{862d95e6e4fe8116c5eab91437b77245}
+      \strng{authorbibnamehash}{862d95e6e4fe8116c5eab91437b77245}
+      \strng{authornamehash}{862d95e6e4fe8116c5eab91437b77245}
+      \strng{authorfullhash}{862d95e6e4fe8116c5eab91437b77245}
+      \field{sortinit}{g}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{month}{5}
+      \field{title}{Google trends - progressive web app}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://trends.google.nl/trends/explore?date=today 5-y&q=progressive web app
+      \endverb
+      \verb{url}
+      \verb https://trends.google.nl/trends/explore?date=today%205-y&q=progressive%20web%20app
+      \endverb
+    \endentry
     \entry{Grant2020}{online}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=a55b1c7774cfcffe5add2d7324a63e30}{%

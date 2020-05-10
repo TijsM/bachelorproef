@@ -1196,4 +1196,11 @@
   url    = {https://developers.google.com/web/fundamentals/push-notifications/how-push-works},
 }
 
+@Online{googleTrends2020,
+  author = {googleTrends},
+  date   = {2020-05-09},
+  title  = {Google trends - progressive web app},
+  url    = {https://trends.google.nl/trends/explore?date=today 5-y&q=progressive web app},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
