@@ -77,7 +77,7 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een  an
 		
 		Door een service worker te genereren zorgt react ervoor dat het heel eenvoudig is om statische bestanden te cachen en een website offline beschikbaar te maken.
 		
-		Deze strategie heeft echter een groot nadeel, de service worker die react genereerd kan kan niet worden aangepast door de ontwikkelaar. Als de applicatie een meer geavanceerde service worker nodig heeft, zal deze automatisch gegenereerde service worker moeten overschreven worden.
+		Deze strategie heeft echter één groot nadeel, de service worker die react genereert kan niet worden aangepast door de ontwikkelaar. Als de applicatie een meer geavanceerde service worker nodig heeft, zal deze automatisch gegenereerde service worker moeten overschreven worden.
 		
 		Het artikel van Chinmaya Pati dat gepubliceerd werd op Medium beschrijft dit proces. \autocite{Pati2019}
 		
@@ -108,14 +108,36 @@ const addToHome = () => {
 };
 \end{lstlisting}
 	\subsection{Caching}
-		\paragraph{Statish cachen}
+	
+		\subsubsection{Cache strategieën}
+		
+			\subparagraph{Cache first}
+				Er zal eerst naar het cache geheugen gekeken worden, als het gevraagde bestand hier niet aanwezig is zal er een netwerk verzoek versturud worden.
+				
+				Dit is ee populaire strategie als de data weinig veranderd. 
+			\subparagraph{Network first}
+				Er zal eerst een netwerk verzoek verstuurd worden, als deze niet succesvol was zal er gekeken worden als het bestand in het cache geheugen aanwezig is. 
+				
+				Dit is een populaire strategie als de data vaak veranderd.
+			\subparagraph{Network only}
+				Deze strategie wordt toegepast als er geen caching opgezet wordt. 
+			\subparagraph{Cache only}
+				Deze strategie zal nooit een netwerkverzoek versturen. Er kan enkel data opgehaald worden via het cache geheugen.
+				
+				Dit cache geheugen moet door de applicatie gevuld worden.
+			\subparagraph{Stale-While-Revalidate}
+				De staleWhileRevalidate strategie houdt in dat eerst het gecachete bestand gebruikt wordt, vervolgens wordt er een netwerkverzoek verstuurd. Als het lokale bestand en het bestand van de server niet volledig gelijk zijn, zal het gecachte bestand overschreven worden. En zal de content op in de applicatie aangepast worden.
+				
+				Dit is de meest populaire strategie omdat de pagina snel geladen wordt, en de inhoudt is up to date.
+
+		\subsubsection{Statisch cachen}
 			Statisch cachen is het cachen van bestanden die nodig zijn voor het opbouwen van de webapplicatie. Voorbeelden hiervan zijn foto's, style sheets, javascript bestanden, html bestanden, ...
 			
 			Op deze manier zal ook de application shell offline beschikbaar zijn.
 			
 			Door deze bestanden te cachen wordt de applicatie offline beschikbaar.
 			
-			In deze applicatie werd dit bereikt door workbox te gebruiken.
+			In deze applicatie werd dit bereikt door \href{https://developers.google.com/web/tools/workbox}{workbox} te gebruiken.
 			
 			In een eerste fase wordt het index.html bestand gecached.
 \begin{lstlisting}
@@ -124,12 +146,12 @@ workbox.precaching.precacheAndRoute([
 ]);
 \end{lstlisting}
 		
-			Workbox zal de functie 'precacheAndRoute' uitvoeren als de service worker geïnstalleerd wordt. De bestanden die worden meegeveven in de array zullen vanaf dat moment offline beschikbaar zijn.
+			Workbox zal de functie 'precacheAndRoute' uitvoeren als de service worker geïnstalleerd wordt. De bestanden die worden meegegeven in de array zullen vanaf dat moment offline beschikbaar zijn.
 			\autocite{Workbox2020a}
 			
 			Bestanden die hier toegoevoegd worden zullen geleverd worden aan de hand van de 'cache first' strategie. Dit wil zeggen dat dit bestand enkel aan de server gevraagd zal worden als het niet beschikbaar is in het cache geheugen.
 			
-			Een andere manier waarop statische caching kan gedaan worden is aan de van de 'registerRoute' die Workbow aanbiedt. 
+			Een andere manier waarop statische caching kan gedaan worden is aan de van de 'registerRoute' die Workbox aanbiedt. 
 			
 \begin{lstlisting}
 workbox.routing.registerRoute(
@@ -146,14 +168,12 @@ workbox.routing.registerRoute(
 );
 \end{lstlisting}
 			
-			Aan de hand van een regular expression kunnen er bestanden gechached worden. In dit voorbeeld worden alle javascript en css bestanden offline beschikbaar gemaakt.
+			Aan de hand van een regular expression kunnen er bestanden gechachet worden. In dit voorbeeld worden alle javascript en css bestanden offline beschikbaar gemaakt.
 			
-			In dit voorbeeld wordt een andere strategie toegepast. de staleWhileRevalidate strategie houdt in dat eerst het gecachete bestand gebruikt wordt, vervolgens wordt het er een netwerkverzoek verstuurd om dit bestand op te halen van de server. Als deze bestanden niet volledig gelijk zijn, zal het gecachte bestand overschreven worden. En zal de content op in de applicatie aangepast worden.
+			In dit voorbeeld wordt de Stale-While-Revalidate strategie toegepast.
 			\autocite{Workbox2020b}
 			
-			
-					
-		\paragraph{dynamisch cachen}
+		\subsubsection{dynamisch cachen}
 			Dynamisch cachen houdt in dat data die de gebruiker vraagt ook offline opgeslagen wordt. Dit zullen vaak requests van REST-API's zijn.
 			
 			In deze applicatie werd dynamisch cachen toegepast om de laatste versie van de rooms nog steeds te tonen aan de gebruiker, ookal als deze offline.
@@ -169,13 +189,7 @@ workbox.routing.registerRoute(
 		
 		Opnieuw wordt er gebruik gemaakt van een regular expression om workbox duidelijk te maken welke request er offline beschikbaar moet zijn.
 
-
-	\subsection{Achtergrond synchronisatie}
-	
-	%todo: nog te implementeren!!!!!!
-	nog te implementeren!!!!!!
-	
-	\subsection{Authentication}
+	\subsection{Authenticatie}
 		
 		Het invullen van van een form om een mobiel toestel is voor veel gebruikers een relatief grote inspanning.
 		

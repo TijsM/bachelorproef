@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  13 MAY 2020 20:14
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  13 MAY 2020 21:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2343,6 +2343,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [100]
 [101] [102]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [103]
 File: ./img/share-ios.png Graphic file (type bmp)
 <./img/share-ios.png>
 File: ./img/share-android.jpg Graphic file (type bmp)
@@ -2350,37 +2353,31 @@ File: ./img/share-android.jpg Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [103]
-[104]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [105]
-[106]
+ [104]
+[105] [106] [107]
 File: ./img/notificationMacOs.png Graphic file (type bmp)
 <./img/notificationMacOs.png>
- [107]
-Underfull \vbox (badness 4886) has occurred while \output is active []
-
- [108]
-[109]
+ [108] [109] [110]
 File: ./img/traditionalIcons.png Graphic file (type bmp)
 <./img/traditionalIcons.png>
 File: ./img/maskedicons.png Graphic file (type bmp)
 <./img/maskedicons.png>
 File: ./img/iconPWA.png Graphic file (type bmp)
 <./img/iconPWA.png>
-
-Underfull \vbox (badness 7451) has occurred while \output is active []
-
- [110]
 File: ./img/POC/login.jpg Graphic file (type bmp)
 <./img/POC/login.jpg>
 File: ./img/POC/register.jpg Graphic file (type bmp)
 <./img/POC/register.jpg>
+
+Underfull \vbox (badness 2573) has occurred while \output is active []
+
+ [111]
 File: ./img/POC/home.jpg Graphic file (type bmp)
 <./img/POC/home.jpg>
 
-[111]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [112]
 File: ./img/POC/waitAsOwner.jpg Graphic file (type bmp)
 <./img/POC/waitAsOwner.jpg>
 File: ./img/POC/waitAsVisitor1.jpg Graphic file (type bmp)
@@ -2388,18 +2385,12 @@ File: ./img/POC/waitAsVisitor1.jpg Graphic file (type bmp)
 File: ./img/POC/waitAsVisitor2.jpg Graphic file (type bmp)
 <./img/POC/waitAsVisitor2.jpg>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [112]
+[113]
 File: ./img/POC/call.jpg Graphic file (type bmp)
 <./img/POC/call.jpg>
 File: ./img/POC/sendNoti.png Graphic file (type bmp)
 <./img/POC/sendNoti.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [113]
-[114]) (./conclusie.tex [115] [116
+ [114]) (./conclusie.tex [115] [116
 
 ]
 Hoofdstuk 6.
@@ -2560,10 +2551,10 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43812 strings out of 492916
- 809444 string characters out of 6133345
+ 43811 strings out of 492916
+ 809437 string characters out of 6133345
  1453115 words of memory out of 5000000
- 47172 multiletter control sequences out of 15000+600000
+ 47171 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,80p,1496b,7227s stack positions out of 5000i,500n,10000p,200000b,80000s

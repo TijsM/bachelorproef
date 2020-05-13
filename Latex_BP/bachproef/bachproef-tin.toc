@@ -345,55 +345,65 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3.3}Caching}{101}{subsection.5.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Statish cachen}{101}{section*.108}% 
+\contentsline {subsubsection}{Cache strategieën}{101}{section*.108}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{dynamisch cachen}{102}{section*.109}% 
+\contentsline {subparagraph}{Cache first}{101}{section*.109}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.4}Achtergrond synchronisatie}{102}{subsection.5.3.4}% 
+\contentsline {subparagraph}{Network first}{101}{section*.110}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.5}Authentication}{102}{subsection.5.3.5}% 
+\contentsline {subparagraph}{Network only}{101}{section*.111}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.6}Share API en Clipboard API}{103}{subsection.5.3.6}% 
+\contentsline {subparagraph}{Cache only}{101}{section*.112}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Progressive enhancement}{105}{section*.110}% 
+\contentsline {subparagraph}{Stale-While-Revalidate}{101}{section*.113}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.7}Push notificaties}{105}{subsection.5.3.7}% 
+\contentsline {subsubsection}{Statisch cachen}{101}{section*.114}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Abbonneren op push notificaties}{106}{section*.111}% 
+\contentsline {subsubsection}{dynamisch cachen}{102}{section*.115}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Backend}{106}{section*.112}% 
+\contentsline {subsection}{\numberline {5.3.4}Authenticatie}{103}{subsection.5.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Service worker}{107}{section*.113}% 
+\contentsline {subsection}{\numberline {5.3.5}Share API en Clipboard API}{104}{subsection.5.3.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.8}Local storage}{108}{subsection.5.3.8}% 
+\contentsline {subsubsection}{Progressive enhancement}{105}{section*.116}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.9}Web RTC}{108}{subsection.5.3.9}% 
+\contentsline {subsection}{\numberline {5.3.6}Push notificaties}{106}{subsection.5.3.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{video-stream}{108}{section*.114}% 
+\contentsline {paragraph}{Abbonneren op push notificaties}{106}{section*.117}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{peer-to-peer verbinding met streaming}{109}{section*.115}% 
+\contentsline {paragraph}{Backend}{107}{section*.118}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Performantie}{109}{section*.116}% 
+\contentsline {paragraph}{Service worker}{107}{section*.119}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.10}Socket.io}{109}{subsection.5.3.10}% 
+\contentsline {subsection}{\numberline {5.3.7}Local storage}{108}{subsection.5.3.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.11}Masked icons}{110}{subsection.5.3.11}% 
+\contentsline {subsection}{\numberline {5.3.8}Web RTC}{108}{subsection.5.3.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{video-stream}{109}{section*.120}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{peer-to-peer verbinding met streaming}{109}{section*.121}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Performantie}{110}{section*.122}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.9}Socket.io}{110}{subsection.5.3.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.10}Masked icons}{110}{subsection.5.3.10}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.4}De Applicatie}{111}{section.5.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.1}Authenticatie}{111}{subsection.5.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Home}{111}{subsection.5.4.2}% 
+\contentsline {subsection}{\numberline {5.4.2}Home}{112}{subsection.5.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Wachtschermen}{112}{subsection.5.4.3}% 
+\contentsline {subsection}{\numberline {5.4.3}Wachtschermen}{113}{subsection.5.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.4}Room}{113}{subsection.5.4.4}% 
+\contentsline {subsection}{\numberline {5.4.4}Room}{114}{subsection.5.4.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.5}Notificaties}{114}{subsection.5.4.5}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.5}Conclusie}{114}{section.5.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.1}verwachting gebruiker}{114}{subsection.5.5.1}% 
+\contentsline {subsection}{\numberline {5.5.1}verwachting gebruiker}{115}{subsection.5.5.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Conclusie}{117}{chapter.6}% 
 \defcounter {refsection}{0}\relax 
@@ -481,13 +491,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {A.11.1}Thomas Steiner}{130}{subsection.A.11.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Do you believe that one day, all applications (mobile/ desktop) will be written with web technologies? }{130}{section*.117}% 
+\contentsline {subsubsection}{Do you believe that one day, all applications (mobile/ desktop) will be written with web technologies? }{130}{section*.123}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{favorite PWA}{130}{section*.118}% 
+\contentsline {subsubsection}{favorite PWA}{130}{section*.124}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{favorite WEB API}{130}{section*.119}% 
+\contentsline {subsubsection}{favorite WEB API}{130}{section*.125}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{How do you see the monetization options for PWA's}{130}{section*.120}% 
+\contentsline {subsubsection}{How do you see the monetization options for PWA's}{130}{section*.126}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {A.11.2}Wassim Chegham}{130}{subsection.A.11.2}% 
 \defcounter {refsection}{0}\relax 
@@ -523,5 +533,5 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {C.5}Verwachte conclusies}{137}{section.C.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{139}{appendix*.121}% 
+\contentsline {chapter}{Bibliografie}{139}{appendix*.127}% 
 \contentsfinish 
