@@ -196,13 +196,13 @@ workbox.routing.registerRoute(
 		In het artikel van Nick Babich wordt de term "interaction cost" gebruikt. De interaction cost is de som van alle cognitieve en fysieke inspanningen die een gebruiker moet leveren om tot zijn doel te komen. Hoe lager de interaction cost hoe beter.
 		\autocite{Babich2018}
 		
-		Het invullen van formulieren met data heeft een hoge interaction cost. Er moet veel getypt worden (fysieke inspanning) en alles wat getypt moet worden moet correct zijn (cognitieve inspanning). het is dus belangrijk om de gebruiker hiervan te besparen.
+		Het invullen van formulieren met data heeft een hoge interaction cost. Er moet veel getypt worden (fysieke inspanning). De gebruiker moet hierbij aandachtig zijn om zeker te zijn dat hij geen fouten maakt (cognitieve inspanning). het is dus belangrijk om de gebruiker hiervan te besparen.
 		
 		Dit kan gedaan worden door de gebruiker te laten registreren via een ander platform, hierbij moet er vaak helemaal niet, of veel minder getypt worden.
 		
 		Op deze applicatie kan de gebruiker zich aanmelden met Google en Facebook.
 		
-		Dit werd bereikt door gebruikt te maken van "Firebase authentication". Dit is een service die aangeboden wordt door Google.
+		Dit werd bereikt door gebruikt te maken van "Firebase authentication".
 		
 		
 \begin{lstlisting}
@@ -262,7 +262,7 @@ export const authWithGoogle = () => {
 			\caption{native share menu op Android}
 		\end{figure}
 
-		Als de gebruiker een browser gebruikt die deze functie niet ondersteund, zal de clipboard API gebruikt worden.
+		Als de gebruiker een browser gebruikt die deze functie niet ondersteunt, zal de clipboard API gebruikt worden.
 	
 		De clipboard API kan gebruikt worden om items in het klembord van de gebruiker te plaatsen of om het klembord uit te lezen.
 		
@@ -326,7 +326,7 @@ let pushSub = await sw.pushManager.subscribe({
 })
 \end{lstlisting}
 
-			Dit stukje code zal een "subscription" teruggeven dat opgeslagen moet worden in de databank bij de gebruiker. deze"subscription" is uniek voor de gebruiker, de browser en het toestel.
+			Dit stukje code zal een subscription teruggeven dat opgeslagen moet worden in de databank bij de gebruiker. deze subscription is uniek voor de gebruiker, de browser en het toestel.
 			\autocite{Gaunt2019a}
 			
 			voorbeeld van een subscription:
@@ -379,9 +379,10 @@ push.setVapidDetails(
 			
 		\paragraph{Service worker}
 		
-			Op basis van de subscription die in de backend werd verzonden zal de service worker van de juiste gebruiker geactiveerd worden
+			Op basis van de subscription die in de backend werd verzonden zal de service worker van de juiste gebruiker geactiveerd worden.
 			
-			De service worker met een listener toevoegen waar eventuele push notificaties kunnen binnenkomen.
+			De service worker zal aan de hand van een 'eventListener' geactiveerd worden en een notificatie tonen op het toestel.
+			
 			
 \begin{lstlisting}
 self.addEventListener("push", function (e) {
@@ -525,7 +526,7 @@ peer.on("stream", (stream) => {
 		
 		Als het icoontje niet geoptimaliseerd wordt, zal Android er steeds voor zorgen dat het icoontje volledig zichtbaar is. Indien nodig zal er een achtergrond toegevoegd worden.
 		
-		Door ervoor te zorgen dat alle belangrijke elementen va het icoon binnne een 'safe zone' vallen, en een extra property toe te voegen in het app manifest kan dit opgelost worden.
+		Door ervoor te zorgen dat alle belangrijke elementen va het icoon binnen een 'safe zone' vallen, en een extra property toe te voegen in het app manifest kan dit opgelost worden.
 		
 \begin{lstlisting}
 "purpose": "any maskable" 
