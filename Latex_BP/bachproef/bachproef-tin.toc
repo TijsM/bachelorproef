@@ -297,13 +297,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Analyse}{89}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}functionele requirements}{90}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.1}Functionele requirements}{90}{subsection.4.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}niet-functionele requirements}{90}{subsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.2.2}Niet-functionele requirements}{90}{subsection.4.2.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Implementatie}{90}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}A2HS}{92}{section.4.4}% 
+\contentsline {section}{\numberline {4.4}A2HS}{93}{section.4.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.1}HTTPS}{93}{subsection.4.4.1}% 
 \defcounter {refsection}{0}\relax 
@@ -399,15 +399,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.1}Resultaten}{117}{section.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Functionaliteit van PWA's en besturingssystemen}{117}{subsection.6.1.1}% 
+\contentsline {subsection}{\numberline {6.1.1}Welke applicaties kunnen er ontwikkeld worden als PWA}{117}{subsection.6.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}Beperkingen van een PWA}{117}{subsection.6.1.2}% 
+\contentsline {subsection}{\numberline {6.1.2}Functionaliteit van PWA's en besturingssystemen}{117}{subsection.6.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.3}PWA alternatieven}{118}{subsection.6.1.3}% 
+\contentsline {subsection}{\numberline {6.1.3}Beperkingen van een PWA}{118}{subsection.6.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.4}Welke stappen zijn er nodig om een traditionele website om te vormen tot een PWA}{118}{subsection.6.1.4}% 
+\contentsline {subsection}{\numberline {6.1.4}PWA alternatieven}{118}{subsection.6.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Niet-kwantificeerbare resultaten}{118}{section.6.2}% 
+\contentsline {subsection}{\numberline {6.1.5}Welke stappen zijn er nodig om een traditionele website om te vormen tot een PWA}{118}{subsection.6.1.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Niet-kwantificeerbare resultaten}{119}{section.6.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.3}Vergelijking met verwacht resultaten}{119}{section.6.3}% 
 \defcounter {refsection}{0}\relax 

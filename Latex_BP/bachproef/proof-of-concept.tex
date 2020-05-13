@@ -66,14 +66,16 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een  an
 			
 	
 \section{Implementatie}
-	Voor het ontwikkelen van de proof-of-concept werd er opnieuw gebruik van react.js voor de frontend. De backend werd ontwikkeld in node.js en als database werd de firestore van firebase gebruikt gebruikt.
+	Voor het ontwikkelen van de proof-of-concept werd er opnieuw react.js gebruikt voor de frontend. De backend werd ontwikkeld in node.js en als database werd de firestore van firebase gebruikt.
+	
+	De code van dit project kan op github gevonden worden: https://github.com/TijsM/videocall-pwa
 	
 	\subsection{Registreren service worker}
 		
 		In Hoofdstuk~\ref{ch:TransformerenNaarEenPWA} werd vermeld dat een standaard react applicatie al een service worker heeft die voor caching van statische bestanden zorgt. Deze service worker wordt gegenereerd tijdens het build proces door de library \href{https://github.com/goldhand/sw-precache-webpack-plugin}{sw-precache-webpack-plugin. }  
 		\autocite{Mester2019}
 		
-		Door een service worker te genereren zorgt react ervoor dat een website heel eenvoudig is om statische bestanden te cachen en een website offline beschikbaar te maken.
+		Door een service worker te genereren zorgt react ervoor dat het heel eenvoudig is om statische bestanden te cachen en een website offline beschikbaar te maken.
 		
 		Deze strategie heeft echter een groot nadeel, de service worker die react genereerd kan kan niet worden aangepast door de ontwikkelaar. Als de applicatie een meer geavanceerde service worker nodig heeft, zal deze automatisch gegenereerde service worker moeten overschreven worden.
 		
@@ -109,9 +111,9 @@ const addToHome = () => {
 		\paragraph{Statish cachen}
 			Statisch cachen is het cachen van bestanden die nodig zijn voor het opbouwen van de webapplicatie. Voorbeelden hiervan zijn foto's, style sheets, javascript bestanden, html bestanden, ...
 			
-			Op deze manier zal dus ook de application shell offline beschikbaar zijn.
+			Op deze manier zal ook de application shell offline beschikbaar zijn.
 			
-			Door deze te cachen wordt de applicatie offline beschikbaar.
+			Door deze bestanden te cachen wordt de applicatie offline beschikbaar.
 			
 			In deze applicatie werd dit bereikt door workbox te gebruiken.
 			
@@ -177,7 +179,7 @@ workbox.routing.registerRoute(
 		
 		Het invullen van van een form om een mobiel toestel is voor veel gebruikers een relatief grote inspanning.
 		
-		In het artikel van Nick Babich wordt de term "Interaction cost" gebruikt. De interaction cost is de som van alle cognitieve en fysieke inspanningen die een gebruiker moet doen om tot zijn doel te komen. Hoe lager de interaction cost hoe beter.
+		In het artikel van Nick Babich wordt de term "interaction cost" gebruikt. De interaction cost is de som van alle cognitieve en fysieke inspanningen die een gebruiker moet leveren om tot zijn doel te komen. Hoe lager de interaction cost hoe beter.
 		\autocite{Babich2018}
 		
 		Het invullen van formulieren met data heeft een hoge interaction cost. Er moet veel getypt worden (fysieke inspanning) en alles wat getypt moet worden moet correct zijn (cognitieve inspanning). het is dus belangrijk om de gebruiker hiervan te besparen.
@@ -194,7 +196,7 @@ export const auth = firebase.auth();
 const provider = new firebase.auth.GoogleAuthProvider();
 
 export const authWithGoogle = () => {
-return auth.signInWithPopup(provider)
+	return auth.signInWithPopup(provider)
 };
 \end{lstlisting}
 	
@@ -222,7 +224,7 @@ return auth.signInWithPopup(provider)
 	
 		In de applicatie is het belangrijk om op een intuïtieve manier een link te kunnen delen naar een room. 
 		Dit werd bekomen door de Share API te gebruiken.
-		Op mobiele toestellen zal deze een native menu openen waar de gebruiker de link kan delen op via verschillende platformen.
+		Op mobiele toestellen zal deze een native menu openen waar de gebruiker de link kan delen via verschillende platformen.
 		
 		Echter bieden enkel chrome voor android en safari dit aan. Er kan er dus niet vanuit gegaan worden dat de gebruiker dit kan implementeren.
 
@@ -260,7 +262,6 @@ return auth.signInWithPopup(provider)
 navigator.clipboard
   .writeText(`http://localhost:3000/visitroom/${roomownername}/${roomname}`)
   .then(() => {
-    console.log("Text copied to clipboard");
     alert("coppied!! share the coppied link with somebody");
   });
 };
@@ -269,11 +270,11 @@ navigator.clipboard
 		\subsubsection{Progressive enhancement}
 
 			Bij deze feature werd er progressive enhancement toegepast. 
-			In het beste geval wordt het native deel menu getoond, als dit niet beschikbaar is zal de link gekopiëerd worden in het klembord.
+			In het beste geval wordt het native deel-menu getoond, als dit niet beschikbaar is zal de link gekopiëerd worden in het klembord.
 			Als ook dit niet beschikbaar is, of de gebruiker heeft geen toestemming gegeven zal er een boodschap getoond worden waar de gebruiker de link zelf kan kopiëren en delen.
 		
 \begin{lstlisting}
-if('share' in navigator){
+if('share' in navigator){jesu
 	// ... code voor het delen via een native menu ...
 }
 else{
