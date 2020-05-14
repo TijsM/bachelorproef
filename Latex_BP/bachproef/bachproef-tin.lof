@@ -5,17 +5,17 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces voorstelling van wat is een PWA \autocite {Richard2020}}}{28}{figure.2.1}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces voorstelling wat een PWA is \autocite {Richard2020}}}{28}{figure.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces demonstratie van achtergrond synchrondisatie bij Google Chrome op Android - pagina offline}}{32}{figure.2.2}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces demonstratie van achtergrond synchronisatie bij Google Chrome op Android - pagina offline}}{32}{figure.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces demonstratie van achtergrond synchrondisatie bij Google Chrome op Android - melding als gebruiker terug online is}}{32}{figure.2.3}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces demonstratie van achtergrond synchronisatie bij Google Chrome op Android - melding als gebruiker terug online is}}{32}{figure.2.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.4}{\ignorespaces schema levenscyclus van een service worker \autocite {Gaunt2019}}}{33}{figure.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces gedrag van Google Chrome op Windows 10 op het beforeinstallprompt}}{34}{figure.2.5}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces beforeinstallprompt in Google Chrome op windows 10}}{34}{figure.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces gedrag van Google Chrome op Android op het beforeinstallprompt}}{34}{figure.2.6}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces beforeinstallprompt in Google Chrome op android}}{34}{figure.2.6}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.7}{\ignorespaces voorbeeld van een application shell architectuur \autocite {Osmani2015}}}{35}{figure.2.7}% 
 \defcounter {refsection}{0}\relax 
@@ -61,7 +61,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.3}{\ignorespaces native share-menu op IOS}}{104}{figure.5.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces native share menu op Android}}{105}{figure.5.4}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces native share-menu op Android}}{105}{figure.5.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.5}{\ignorespaces notificatie op macOS}}{108}{figure.5.5}% 
 \defcounter {refsection}{0}\relax 
@@ -69,7 +69,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.7}{\ignorespaces masked iconen}}{111}{figure.5.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Geoptimaliseerde iconen van proof- of-concept}}{111}{figure.5.8}% 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Geoptimaliseerde iconen van proof-of-concept}}{111}{figure.5.8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.9}{\ignorespaces autenticatie-schermen}}{112}{figure.5.9}% 
 \defcounter {refsection}{0}\relax 
@@ -87,9 +87,9 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.1}{\ignorespaces statistieken proof of concept}}{130}{figure.B.1}% 
+\contentsline {figure}{\numberline {B.1}{\ignorespaces statistieken proof-of-concept}}{132}{figure.B.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.2}{\ignorespaces statistieken zoom}}{130}{figure.B.2}% 
+\contentsline {figure}{\numberline {B.2}{\ignorespaces statistieken zoom}}{132}{figure.B.2}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \contentsfinish 

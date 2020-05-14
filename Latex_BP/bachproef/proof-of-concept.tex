@@ -32,7 +32,7 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een  an
 	 			\item Als een aangemelde gebruiker wil ik de applicatie kunnen openen zonder internetverbinding zodat ik mijn overal en altijd mijn rooms kan bekijken.
 			\end{itemize}
 	 
-	\subsection{niet-functionele requirements}
+	\subsection{Niet-functionele requirements}
 		\begin{itemize}
 			\item Als een gebruiker wil ik een video-gesprek kunnen hebben met een zo laag mogelijke vertraging zodat ik geen problemen heb met communiceren.
 			\item Als een gebruiker wil ik video-gesprekken voeren op een veilige manier zodat niemand informatie kan achterhalen die ik niet publiek wou maken.
@@ -112,7 +112,7 @@ const addToHome = () => {
 		\subsubsection{Cache strategieën}
 		
 			\subparagraph{Cache first}
-				Er zal eerst naar het cache geheugen gekeken worden, als het gevraagde bestand hier niet aanwezig is zal er een netwerk verzoek versturud worden.
+				Er zal eerst naar het cache geheugen gekeken worden, als het gevraagde bestand hier niet aanwezig is zal er een netwerk verzoek verstuurd worden.
 				
 				Dit is ee populaire strategie als de data weinig veranderd. 
 			\subparagraph{Network first}
@@ -259,7 +259,7 @@ export const authWithGoogle = () => {
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=35mm]{./img/share-android.jpg}{}
-			\caption{native share menu op Android}
+			\caption{native share-menu op Android}
 		\end{figure}
 
 		Als de gebruiker een browser gebruikt die deze functie niet ondersteunt, zal de clipboard API gebruikt worden.
@@ -467,7 +467,7 @@ navigator.mediaDevices.getUserMedia({
 \begin{lstlisting}
 const peer = new Peer({
 	initiator: true,
-	trickle: false,
+
 	stream: yourVideoStream,
 });
 \end{lstlisting}
@@ -545,7 +545,7 @@ peer.on("stream", (stream) => {
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=100mm]{./img/iconPWA.png}{}
-			\caption{Geoptimaliseerde iconen van proof- of-concept}
+			\caption{Geoptimaliseerde iconen van proof-of-concept}
 		\end{figure}
 
 
@@ -617,14 +617,14 @@ peer.on("stream", (stream) => {
 		\end{figure}
 		
 
-\section{Conclusie
+\section{Conclusie}
 
 %todo: Toch vergelijken tussen PWA en native obv de functionaliteiten. bvb look en feel, maar natuurlijk ook de functionaliteiten die je hebt ingebouwd zoals 1malig aanmelden, notificaties,...
 %todo: Bieden de web api's een gelijkwaardig alternatief voor  de native variant?
-%todo: Kan voor de look en feel dan gebruik gemaakt worden van Ionic,...?  
-
+%todo: Kan voor de look en feel dan gebruik gemaakt worden van Ionic
 	
-	Al de vooropgestelde requirements kunnen bereikt worden door een PWA te implementeren. 
+
+Al de vooropgestelde requirements kunnen bereikt worden door een PWA te implementeren. 
 	
 	Native features zoals camera, microfoon, delen, notificatie zijn relatief eenvoudig te implementeren in een webapplicatie.
 	
@@ -639,7 +639,7 @@ peer.on("stream", (stream) => {
 	
 	Op Android bijvoorbeeld maakt de adresbalk geen deel uit van de viewport. Hierdoor was er dus wel een scroll van enkele centimeters aanwezig als de applicatie bezocht werd in de browser. Dit probleem wordt opgelost als de applicatie geïnstalleerd wordt, dan is er geen adresbalk aanwezig.
 	
-	\subsection{verwachting gebruiker}
+	\subsection{Verwachting gebruiker}
 		Een gebruiker die een applicatie installeert op een IOS toestel zal een andere user interface verwachten dan een gebruiker die een applicatie installeert op een Android toestel.
 		
 		Met een PWA kan er slechts 1 user interface geïmplementeerd worden, het is dus niet mogelijk om volledig aan de verwachting van elke gebruiker te voldoen.
