@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  14 MAY 2020 20:39
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  15 MAY 2020 09:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2327,7 +2327,10 @@ Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
  [95]) (./proof-of-concept.tex [96]
 Hoofdstuk 5.
-[97
+
+Underfull \vbox (badness 4168) has occurred while \output is active []
+
+ [97
 
 ]
 File: ./img/mockup-poc.png Graphic file (type bmp)
@@ -2339,7 +2342,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: ./img/prototype-poc.png Graphic file (type bmp)
 <./img/prototype-poc.png>
 
-Overfull \hbox (10.86874pt too wide) in paragraph at lines 71--72
+Overfull \hbox (10.86874pt too wide) in paragraph at lines 79--80
 []\T1/ptm/m/n/12 De code van dit pro-ject kan op git-hub ge-von-den wor-den: ht
 tps://github.com/TijsM/videocall-
  []
