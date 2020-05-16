@@ -2679,6 +2679,53 @@
       \verb https://www.w3.org/TR/webxr/
       \endverb
     \endentry
+    \entry{Kacmarcik2019}{online}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8e404f5b352b0193b0eeacfe80fa1b7b}{%
+           family={Kacmarcik},
+           familyi={K\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3f26c7e9af387ecc7b7b13616ef437ac}{%
+           family={Lyukshin},
+           familyi={L\bibinitperiod},
+           given={Grisha},
+           giveni={G\bibinitperiod},
+           givenun=0,
+           suffix={Grisha},
+           suffixi={G\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{6dc94d550ce8f21d7933cb26cf322e6d}
+      \strng{fullhash}{6dc94d550ce8f21d7933cb26cf322e6d}
+      \strng{bibnamehash}{6dc94d550ce8f21d7933cb26cf322e6d}
+      \strng{authorbibnamehash}{6dc94d550ce8f21d7933cb26cf322e6d}
+      \strng{authornamehash}{6dc94d550ce8f21d7933cb26cf322e6d}
+      \strng{authorfullhash}{6dc94d550ce8f21d7933cb26cf322e6d}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{month}{6}
+      \field{title}{Clipboard API and events}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.w3.org/TR/clipboard-apis/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/TR/clipboard-apis/
+      \endverb
+    \endentry
     \entry{Kawatka2020}{booklet}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=88a38b821214a0ad0517373b9cadd777}{%
@@ -6119,7 +6166,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Kacmarcik2010}
   \missing{Kruisselbrink2017}
   \missing{Sayali2018}
 \endrefsection

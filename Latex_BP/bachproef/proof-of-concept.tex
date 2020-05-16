@@ -1,17 +1,10 @@
 \chapter{Proof-of-concept}
 \label{ch:Proof-of-concept}
 
-%todo DELETE THIS !!!!!!!!!!
-	\begin{itemize}
-		  \item Wat zijn de beperkingen van een PWA?
-		  \item Kan een PWA alle functionaliteiten gebruiken die beschikbaar zijn voor native applications?
-		  \item Hoe staan de verschillende besturingssystemen ten opzichte van PWA's?
-		  \item Welke andere technologieën kunnen er gebruikt worden om applicaties te ontwikkelen voor meerdere platformen waarbij er maar één codebase is?
-	  \end{itemize}	
 
 In deze proof-of-concept zal er onderzocht worden als een PWA kan voldoen aan het verwachtingspatroon van een gebruiker op een native applicatie.
 
-Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een  andere persoon zal kunnen uitnodigen om een video gesprek te hebben. 
+Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een andere persoon zal kunnen uitnodigen om een video gesprek te hebben. 
 
  \section{Analyse}
 	 \subsection{Functionele requirements}
@@ -627,33 +620,69 @@ peer.on("stream", (stream) => {
 
 \section{Conclusie}
 
+
+%todo DELETE THIS !!!!!!!!!!
+
+welke applicaties kunnen er ontwikkeld worden als PWA
+	\begin{itemize}
+		  \item Wat zijn de beperkingen van een PWA?
+		  \item Kan een PWA alle functionaliteiten gebruiken die beschikbaar zijn voor native applications?
+		  \item Hoe staan de verschillende besturingssystemen ten opzichte van PWA's?
+		  \item Welke andere technologieën kunnen er gebruikt worden om applicaties te ontwikkelen voor meerdere platformen waarbij er maar één codebase is?
+	  \end{itemize}	
+
 %todo: Toch vergelijken tussen PWA en native obv de functionaliteiten. bvb look en feel, maar natuurlijk ook de functionaliteiten die je hebt ingebouwd zoals 1malig aanmelden, notificaties,...
 %todo: Bieden de web api's een gelijkwaardig alternatief voor  de native variant?
 %todo: Kan voor de look en feel dan gebruik gemaakt worden van Ionic
 %todo: OV's overlopen in de conclusie
 	
-
-Al de vooropgestelde requirements kunnen bereikt worden door een PWA te implementeren. 
-	
+	Al de vooropgestelde requirements kunnen bereikt worden door een PWA te implementeren. 
 	Native features zoals camera, microfoon, delen, notificatie zijn relatief eenvoudig te implementeren in een webapplicatie.
 	
-	%todo: user testing
-	Echter, iets wat minder meetbaar is, de applicatie voelt niet aan als een native applicatie.
-	
-	Het is niet eenvoudig om consistent een goeie ervaring te bieden met één codebase voor alle platformen die ondersteund worden. 
-	
-	Er werd beslist om de maximale hoogte van de applicatie vast te zetten op 100vh,  op deze manier is het in principe onmogelijk om een scroll van de volledige pagina te hebben. 
-	
-	dit werkte goed op een desktop browser maar gaf problemen op mobiele toestellen.
-	
-	Op Android bijvoorbeeld maakt de adresbalk geen deel uit van de viewport. Hierdoor was er dus wel een scroll van enkele centimeters aanwezig als de applicatie bezocht werd in de browser. Dit probleem wordt opgelost als de applicatie geïnstalleerd wordt, dan is er geen adresbalk aanwezig.
-	
+	\subsection{Compatibiliteit en besturingssystemen}
+		Zoals eerder aangehaald is een van de nadelen van PWA's de sterk variërende ondersteuning. Voor deze reden is het belangrijk dat de applicatie ontwikkeld wordt aan de hand van progressive enhancement. 
+		
+		De hoofdfunctionaliteit van de applicatie moet beschikbaar zijn voor alle gebruikers. Vervolgens kan de applicatie uitgebreid worden met functionaliteiten die de ervaring verbeteren maar die niet noodzakelijk zijn.
+		
+		In deze applicatie is de hoofdfunctionaliteit het videobellen. Zoals aangetoond in sectie ~\ref{ch: BesturingssystemenEnPWAs} wordt webRTC ondersteund op alle veelgebruikte browsers en toestellen.  Er werden vervolgens extra functionaliteiten toegevoegd zoals het delen van de link via het native deel-menu, de clipboard API, push notificaties en het automatisch toevoegen aan het startscherm.
+		\begin{itemize}
+	  		\item Het deel-menu is enkel beschikbaar op mobiele toestellen en safari op macOS.
+	  		\item De clipboard API is beschikbaar op alle browsers en toestellen maar heeft wel de toestemming van de gebruiker nodig.
+	  		\item Push notificaties zijn beschikbaar op alle browsers en toestellen met uitzondering van:
+	  				\begin{itemize}
+	  			  		\item alle browsers op IOS
+	  			  		\item safari op macOS
+	  		 		\end{itemize}	
+  			\item automatisch toevoegen aan het startscherm is beschikbaar op alle browsers en toestellen met uitzondering van:
+	  				\begin{itemize}
+	  			  		\item alle browsers op IOS
+	  			  		\item safari op macOS
+	  		 		\end{itemize}	
+ 		\end{itemize}
+ 		
+ 	
+ 	\subsection{Beperkingen van een PWA}
+ 			
+			Het is niet eenvoudig om consistent een goeie ervaring te bieden met één codebase voor alle platformen die ondersteund worden. 
+			
+			Er werd beslist om de maximale hoogte van de applicatie vast te zetten op 100vh,  op deze manier is het in principe onmogelijk om een scroll van de volledige pagina te hebben. 
+			
+			dit werkte goed op een desktop browser maar gaf problemen op mobiele toestellen.
+			
+			Op Android bijvoorbeeld maakt de adresbalk geen deel uit van de viewport. Hierdoor was er dus wel een scroll van enkele centimeters aanwezig als de applicatie bezocht werd in de browser. Dit probleem wordt opgelost als de applicatie geïnstalleerd wordt, dan is er geen adresbalk aanwezig.
+		
 	\subsection{Verwachting gebruiker}
 		Een gebruiker die een applicatie installeert op een IOS toestel zal een andere user interface verwachten dan een gebruiker die een applicatie installeert op een Android toestel.
 		
 		Met een PWA kan er slechts 1 user interface geïmplementeerd worden, het is dus niet mogelijk om volledig aan de verwachting van elke gebruiker te voldoen.
 		
 		Een gebruiker met een toestel dat op IOS werkt is gewoon om naar de vorige pagina te navigeren door naar rechts te swipen op het toestel. Dit is een manier van navigeren die een Android gebruiker niet gewoon is. In deze proof of concept kan er niet met touch-gebaren genavigeerd worden. Dit kan niet 'native' aanvoelen voor de IOS gebruiker. 
+		
+		
+		
+		%todo: resultaten van user testing
+		
+	\subsection{adoptie}
 	
 	
 	
