@@ -1,4 +1,10 @@
 # User testing
+## Inleiding
+- zeg zeker wat je denkt, en niet wet je denkt dat ik wil horen. 
+
+- dit zijn POC's er zitten zekere enkele bugs in door tijdgebrek, als een van deze bugs naar boven komt zal ik helpen om deze te overkomen.
+
+-  code mag becritiseerd worden
 ## Opzet 
 ### POC videocall
 1. gebruiker bellen via google meet, de testpersoon moet opnemen op zijn gsm
@@ -84,10 +90,25 @@ admin: https://docs.google.com/forms/d/1bYIghpNFi1AQcRHZzgRvlngCXMY7Eu9VR4wwwtGQ
 * Zijn er nog dingen die je wil delen over je ervaring?
 
 
+## Outcome
+
+-  adoptie (op basis van interview geen antwoord) 
+    - Hoeveel procent van de mensen zou een pwa toevoegen aan het startscherm
+    - hoeveel procent van de mensen zou notificaties toestaan
+    - hoeveel procent van de mensen zou camera toestaan
+    - ...
+
+- Huidige kennis van de gemiddelde gebruiker
+    -  dit is belangrijk, als de gebruiker niet weet dat een webapp dit kan. Zal hij ook niet op zoek gaan naar een applicatie op het web.
+
+- Onderzoeken als de appgrootte een grote factor is voor de gebruikers. Zouden ze een mindere ervaring nemen voor een app die veel kleiner is.
+
+- Onderzoeken als de app gelijkaardig reageert aan wat een een gebruiker verwacht van een native app
+
+- Vergaren van andere insights van de gebruiker
+
 
 ## bugs 
-
-
 - fix cache
 
 *  wifi en 3G uit = geen call meer
@@ -95,3 +116,5 @@ admin: https://docs.google.com/forms/d/1bYIghpNFi1AQcRHZzgRvlngCXMY7Eu9VR4wwwtGQ
 
 - voorlaatste vraag multiple choice
    * fixed 
+
+
