@@ -409,7 +409,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.5.3}Verwachting gebruiker}{118}{subsection.5.5.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.4}adoptie}{118}{subsection.5.5.4}% 
+\contentsline {subsection}{\numberline {5.5.4}Gebruik van PWA's}{118}{subsection.5.5.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.5}Native vs PWA}{118}{subsection.5.5.5}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Conclusie}{119}{chapter.6}% 
 \defcounter {refsection}{0}\relax 

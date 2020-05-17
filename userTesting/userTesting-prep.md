@@ -5,7 +5,7 @@
 - dit zijn POC's er zitten zekere enkele bugs in door tijdgebrek, als een van deze bugs naar boven komt zal ik helpen om deze te overkomen.
 
 -  code mag becritiseerd worden
-## Opzet 
+## Opzet
 ### POC videocall
 1. gebruiker bellen via google meet, de testpersoon moet opnemen op zijn gsm
 
@@ -31,7 +31,7 @@
 
 12. ga in de room
 
-12. raat voor paar seconden
+12. praat voor paar seconden
 
 13. sluit gesprek
 
@@ -53,16 +53,11 @@
 
 ### general
 
-18. describe experience
-  - snappy
-  - responsive - fits on good on your device
-  - intuitive - respons as expected
-  - other
-
 
 19. feedback time (typeform)
+duidelijk vermelden wat een PWA is.
 
-https://forms.gle/C7XKkJUsiyE3qrdC7
+ https://docs.google.com/forms/d/e/1FAIpQLSfUM7MnzI7zg8vHNNA99BVBufDv0Gky0qgK26tHyOYnPf_wsw/viewform?usp=sf_link
 
 admin: https://docs.google.com/forms/d/1bYIghpNFi1AQcRHZzgRvlngCXMY7Eu9VR4wwwtGQV0c/edit
 
