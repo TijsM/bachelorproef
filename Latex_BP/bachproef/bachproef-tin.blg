@@ -1,25 +1,13 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'bachproef-tin.blg'
-[34] biber-darwin:315> INFO - === Sat May 16, 2020, 10:26:13
-[56] Biber.pm:371> INFO - Reading 'bachproef-tin.bcf'
-[170] Biber.pm:889> INFO - Found 167 citekeys in bib section 0
-[183] Biber.pm:4093> INFO - Processing section 0
-[193] Biber.pm:4254> INFO - Looking for bibtex format file 'bachproef-tin.bib' for section 0
-[197] bibtex.pm:1523> INFO - LaTeX decoding ...
-[308] bibtex.pm:1340> INFO - Found BibTeX data source 'bachproef-tin.bib'
-[852] Biber.pm:4254> INFO - Looking for bibtex format file '../voorstel/voorstel.bib' for section 0
-[853] bibtex.pm:1523> INFO - LaTeX decoding ...
-[867] bibtex.pm:1340> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
-[867] Utils.pm:193> WARN - Duplicate entry key: 'Malavolta2016' in file '../voorstel/voorstel.bib', skipping ...
-[868] Utils.pm:193> WARN - Duplicate entry key: 'Google2017' in file '../voorstel/voorstel.bib', skipping ...
-[868] Utils.pm:193> WARN - Duplicate entry key: 'Hiltunen2018' in file '../voorstel/voorstel.bib', skipping ...
-[868] Utils.pm:193> WARN - Duplicate entry key: 'Gaunt2019' in file '../voorstel/voorstel.bib', skipping ...
-[915] Utils.pm:193> WARN - I didn't find a database entry for 'Kruisselbrink2017' (section 0)
-[916] Utils.pm:193> WARN - I didn't find a database entry for 'Sayali2018' (section 0)
-[1129] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1129] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1129] Biber.pm:3921> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[1129] Biber.pm:3927> INFO - No sort tailoring available for locale 'nl-NL'
-[1259] bbl.pm:636> INFO - Writing 'bachproef-tin.bbl' with encoding 'UTF-8'
-[1367] bbl.pm:739> INFO - Output to bachproef-tin.bbl
-[1368] Biber.pm:110> INFO - WARNINGS: 6
+[41] biber-darwin:315> INFO - === Mon May 18, 2020, 22:19:42
+[70] Biber.pm:371> INFO - Reading 'bachproef-tin.bcf'
+[189] Biber.pm:889> INFO - Found 168 citekeys in bib section 0
+[203] Biber.pm:4093> INFO - Processing section 0
+[215] Biber.pm:4254> INFO - Looking for bibtex format file 'bachproef-tin.bib' for section 0
+[221] bibtex.pm:1523> INFO - LaTeX decoding ...
+[335] bibtex.pm:1340> INFO - Found BibTeX data source 'bachproef-tin.bib'
+[347] Utils.pm:193> WARN - Invalid or undefined BibTeX entry key in file '/var/folders/d3/mnc66cfs5dq7gb_j9mcfplg00000gq/T/lKuVm_PBGc/bachproef-tin.bib_78498.utf8', skipping ...
+[872] Utils.pm:209> ERROR - BibTeX subsystem: /var/folders/d3/mnc66cfs5dq7gb_j9mcfplg00000gq/T/lKuVm_PBGc/bachproef-tin.bib_78498.utf8, line 1206, syntax error: found ",", expected one of: number, name (entry type, key, field, or macro name), end of entry ("}" or ")") or quoted string ({...} or "...")
+[872] Biber.pm:110> INFO - WARNINGS: 1
+[872] Biber.pm:114> INFO - ERRORS: 1

@@ -1196,7 +1196,7 @@
   url    = {https://developers.google.com/web/fundamentals/push-notifications/how-push-works},
 }
 
-@Online{,
+@Online{googleTrends2020,
   author = {googleTrends},
   date   = {2020-05-09},
   title  = {Google trends - progressive web app},

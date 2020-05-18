@@ -19,9 +19,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.6}{\ignorespaces ondersteuning van WebRTC op 7 maart 2020}}{44}{table.2.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.7}{\ignorespaces ondersteuning Apple AirPlay op 7 maart 2020}}{45}{table.2.7}% 
+\contentsline {table}{\numberline {2.7}{\ignorespaces ondersteuning Apple AirPlay op 7 maart 2020}}{44}{table.2.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.8}{\ignorespaces ondersteuning van Chrome Sender API op 7 maart 2020}}{45}{table.2.8}% 
+\contentsline {table}{\numberline {2.8}{\ignorespaces ondersteuning van Chrome Sender API op 7 maart 2020}}{44}{table.2.8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.9}{\ignorespaces ondersteuning van Media Session API op 7 maart 2020}}{45}{table.2.9}% 
 \defcounter {refsection}{0}\relax 
@@ -59,49 +59,49 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.26}{\ignorespaces ondersteuning Cache API op 7 maart 2020}}{51}{table.2.26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.27}{\ignorespaces ondersteuning Storage API op 7 maart 2020}}{52}{table.2.27}% 
+\contentsline {table}{\numberline {2.27}{\ignorespaces ondersteuning Storage API op 7 maart 2020}}{51}{table.2.27}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.28}{\ignorespaces ondersteuning File API op 7 maart 2020}}{52}{table.2.28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.29}{\ignorespaces ondersteuning Contacts API op 7 maart 2020}}{53}{table.2.29}% 
+\contentsline {table}{\numberline {2.29}{\ignorespaces ondersteuning Contacts API op 7 maart 2020}}{52}{table.2.29}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.30}{\ignorespaces ondersteuning Messaging API op 7 maart 2020}}{53}{table.2.30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.31}{\ignorespaces ondersteuning Task Sheduler API op 7 maart 2020}}{54}{table.2.31}% 
+\contentsline {table}{\numberline {2.31}{\ignorespaces ondersteuning Task Sheduler API op 7 maart 2020}}{53}{table.2.31}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.32}{\ignorespaces ondersteuning touch gebaren op 7 maart 2020}}{54}{table.2.32}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.33}{\ignorespaces ondersteuning Clipboard API op 7 maart 2020}}{54}{table.2.33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.34}{\ignorespaces ondersteuning offline gebruik op 7 maart 2020}}{55}{table.2.34}% 
+\contentsline {table}{\numberline {2.34}{\ignorespaces ondersteuning offline gebruik op 7 maart 2020}}{54}{table.2.34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.35}{\ignorespaces ondersteuning achtergrondsynchronisatie op 7 maart 2020}}{55}{table.2.35}% 
+\contentsline {table}{\numberline {2.35}{\ignorespaces ondersteuning achtergrondsynchronisatie op 7 maart 2020}}{54}{table.2.35}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.36}{\ignorespaces ondersteuning Web Share API en Web Share Target API op 7 maart 2020}}{55}{table.2.36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.37}{\ignorespaces ondersteuning Payment Request API op 7 maart 2020}}{56}{table.2.37}% 
+\contentsline {table}{\numberline {2.37}{\ignorespaces ondersteuning Payment Request API op 7 maart 2020}}{55}{table.2.37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.38}{\ignorespaces ondersteuning Credential Management API op 7 maart 2020}}{56}{table.2.38}% 
+\contentsline {table}{\numberline {2.38}{\ignorespaces ondersteuning Credential Management API op 7 maart 2020}}{55}{table.2.38}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.39}{\ignorespaces ondersteuning Geolocation API op 7 maart 2020}}{56}{table.2.39}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.40}{\ignorespaces ondersteuning Geofencing API op 7 maart 2020}}{57}{table.2.40}% 
+\contentsline {table}{\numberline {2.40}{\ignorespaces ondersteuning Geofencing API op 7 maart 2020}}{56}{table.2.40}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.41}{\ignorespaces ondersteuning Device Orientation API op 7 maart 2020}}{57}{table.2.41}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.42}{\ignorespaces ondersteuning DeviceMotionEvent }}{57}{table.2.42}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.43}{\ignorespaces ondersteuning Accelerometer }}{58}{table.2.43}% 
+\contentsline {table}{\numberline {2.43}{\ignorespaces ondersteuning Accelerometer }}{57}{table.2.43}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.44}{\ignorespaces ondersteuning Gyroscope op 7 maart 2020 }}{58}{table.2.44}% 
+\contentsline {table}{\numberline {2.44}{\ignorespaces ondersteuning Gyroscope op 7 maart 2020 }}{57}{table.2.44}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.45}{\ignorespaces ondersteuning Magnetometer op 7 maart 2020 }}{58}{table.2.45}% 
+\contentsline {table}{\numberline {2.45}{\ignorespaces ondersteuning Magnetometer op 7 maart 2020 }}{57}{table.2.45}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.46}{\ignorespaces ondersteuning Lineaire accelerometer op 7 maart 2020 }}{58}{table.2.46}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.47}{\ignorespaces ondersteuning Proximity API op 7 maart 2020 }}{58}{table.2.47}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.48}{\ignorespaces ondersteuning WebVR en WebXR op 7 maart 2020 }}{59}{table.2.48}% 
+\contentsline {table}{\numberline {2.48}{\ignorespaces ondersteuning WebVR en WebXR op 7 maart 2020 }}{58}{table.2.48}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.49}{\ignorespaces ondersteuning Fullscreen API op 7 maart 2020 }}{59}{table.2.49}% 
 \defcounter {refsection}{0}\relax 

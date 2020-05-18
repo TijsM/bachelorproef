@@ -69,7 +69,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{The coronavirus app}{40}{section*.26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Besturingssystemen en PWA's}{41}{section.2.2}% 
+\contentsline {section}{\numberline {2.2}Besturingssystemen en PWA's}{40}{section.2.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Onderzoek}{42}{subsection.2.2.1}% 
 \defcounter {refsection}{0}\relax 
@@ -77,7 +77,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Video met audio }{42}{section*.28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Foto's }{43}{section*.29}% 
+\contentsline {paragraph}{Foto's }{42}{section*.29}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Geluidopname }{43}{section*.30}% 
 \defcounter {refsection}{0}\relax 
@@ -95,9 +95,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{NFC}{46}{section*.37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Toestelkenmerken}{47}{section*.38}% 
+\contentsline {subsubsection}{Toestelkenmerken}{46}{section*.38}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Netwerkinformatie}{47}{section*.39}% 
+\contentsline {paragraph}{Netwerkinformatie}{46}{section*.39}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Online status}{47}{section*.40}% 
 \defcounter {refsection}{0}\relax 
@@ -111,19 +111,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Lokale notificaties}{48}{section*.45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Push notificaties}{49}{section*.46}% 
+\contentsline {paragraph}{Push notificaties}{48}{section*.46}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{A2HS}{49}{section*.47}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Badges}{49}{section*.48}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Voorgrond-detectie }{50}{section*.49}% 
+\contentsline {paragraph}{Voorgrond-detectie }{49}{section*.49}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Toestemmingen}{50}{section*.50}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Besturingssysteem}{51}{section*.51}% 
+\contentsline {subsubsection}{Besturingssysteem}{50}{section*.51}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{offline opslage}{51}{section*.52}% 
+\contentsline {paragraph}{offline opslage}{50}{section*.52}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{Web storage}{51}{section*.53}% 
 \defcounter {refsection}{0}\relax 
@@ -133,17 +133,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{Storage API}{51}{section*.56}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Bestandentoegang}{52}{section*.57}% 
+\contentsline {paragraph}{Bestandentoegang}{51}{section*.57}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Contacten}{52}{section*.58}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Sms}{53}{section*.59}% 
+\contentsline {paragraph}{Sms}{52}{section*.59}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Taakplanning}{53}{section*.60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Input}{54}{section*.61}% 
+\contentsline {subsubsection}{Input}{53}{section*.61}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Touch gebaren}{54}{section*.62}% 
+\contentsline {paragraph}{Touch gebaren}{53}{section*.62}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Klembord toegang}{54}{section*.63}% 
 \defcounter {refsection}{0}\relax 
@@ -151,41 +151,41 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Offline gebruik}{54}{section*.65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Achtergrondsynchronisatie }{55}{section*.66}% 
+\contentsline {paragraph}{Achtergrondsynchronisatie }{54}{section*.66}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Inter-app communicatie}{55}{section*.67}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Betalingen}{55}{section*.68}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Credentials}{56}{section*.69}% 
+\contentsline {paragraph}{Credentials}{55}{section*.69}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Locatie en positionering}{56}{section*.70}% 
+\contentsline {subsubsection}{Locatie en positionering}{55}{section*.70}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Geolocatie}{56}{section*.71}% 
+\contentsline {paragraph}{Geolocatie}{55}{section*.71}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Geofencing}{56}{section*.72}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Toesteloriëntatie }{57}{section*.73}% 
+\contentsline {paragraph}{Toesteloriëntatie }{56}{section*.73}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Toestelbeweging}{57}{section*.74}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{DeviceMotionEvent }{57}{section*.75}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Accelerometer }{58}{section*.76}% 
+\contentsline {subparagraph}{Accelerometer }{57}{section*.76}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Gyroscope }{58}{section*.77}% 
+\contentsline {subparagraph}{Gyroscope }{57}{section*.77}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Magnetometer }{58}{section*.78}% 
+\contentsline {subparagraph}{Magnetometer }{57}{section*.78}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{Lineaire accelerometer}{58}{section*.79}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Nabijheid-sensoren }{58}{section*.80}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Scherm en output}{59}{section*.81}% 
+\contentsline {subsubsection}{Scherm en output}{58}{section*.81}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Virtual en augmented reality }{59}{section*.82}% 
+\contentsline {paragraph}{Virtual en augmented reality }{58}{section*.82}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Fullscreen }{59}{section*.83}% 
+\contentsline {paragraph}{Fullscreen }{58}{section*.83}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Wake lock }{59}{section*.84}% 
 \defcounter {refsection}{0}\relax 
@@ -211,7 +211,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.3}Omzet}{67}{subsection.2.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Bundle size}{68}{subsection.2.3.4}% 
+\contentsline {subsection}{\numberline {2.3.4}Bundle size}{67}{subsection.2.3.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.5}Offline gebruik}{69}{subsection.2.3.5}% 
 \defcounter {refsection}{0}\relax 
@@ -227,7 +227,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Beperkingen van een PWA}{72}{section.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Cameragebruik}{73}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.1}Cameragebruik}{72}{subsection.2.4.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}Controle over platformen}{73}{subsection.2.4.2}% 
 \defcounter {refsection}{0}\relax 
@@ -411,135 +411,135 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.5.4}Gebruik van PWA's}{118}{subsection.5.5.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.5}Native vs PWA}{118}{subsection.5.5.5}% 
+\contentsline {subsection}{\numberline {5.5.5}A2HS}{119}{subsection.5.5.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Conclusie}{119}{chapter.6}% 
+\contentsline {subsection}{\numberline {5.5.6}Native feeling}{119}{subsection.5.5.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Resultaten}{119}{section.6.1}% 
+\contentsline {chapter}{\numberline {6}Conclusie}{121}{chapter.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Welke applicaties kunnen er ontwikkeld worden als PWA}{119}{subsection.6.1.1}% 
+\contentsline {section}{\numberline {6.1}Resultaten}{121}{section.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}Functionaliteit van PWA's en besturingssystemen}{119}{subsection.6.1.2}% 
+\contentsline {subsection}{\numberline {6.1.1}Welke applicaties kunnen er ontwikkeld worden als PWA}{121}{subsection.6.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.3}Beperkingen van een PWA}{120}{subsection.6.1.3}% 
+\contentsline {subsection}{\numberline {6.1.2}Functionaliteit van PWA's en besturingssystemen}{121}{subsection.6.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.4}PWA alternatieven}{120}{subsection.6.1.4}% 
+\contentsline {subsection}{\numberline {6.1.3}Beperkingen van een PWA}{122}{subsection.6.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.5}Welke stappen zijn er nodig om een traditionele website om te vormen tot een PWA}{120}{subsection.6.1.5}% 
+\contentsline {subsection}{\numberline {6.1.4}PWA alternatieven}{122}{subsection.6.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Niet-kwantificeerbare resultaten}{121}{section.6.2}% 
+\contentsline {subsection}{\numberline {6.1.5}Welke stappen zijn er nodig om een traditionele website om te vormen tot een PWA}{122}{subsection.6.1.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Vergelijking met verwacht resultaten}{121}{section.6.3}% 
+\contentsline {section}{\numberline {6.2}Niet-kwantificeerbare resultaten}{123}{section.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Verder onderzoek}{121}{section.6.4}% 
+\contentsline {section}{\numberline {6.3}Vergelijking met verwacht resultaten}{123}{section.6.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Interviews}{123}{appendix.A}% 
+\contentsline {section}{\numberline {6.4}Verder onderzoek}{123}{section.6.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Intro}{123}{section.A.1}% 
+\contentsline {chapter}{\numberline {A}Interviews}{125}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}Thomas Steiner}{123}{subsection.A.1.1}% 
+\contentsline {section}{\numberline {A.1}Intro}{125}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.2}Wassim Chegham}{123}{subsection.A.1.2}% 
+\contentsline {subsection}{\numberline {A.1.1}Thomas Steiner}{125}{subsection.A.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Selling points}{124}{section.A.2}% 
+\contentsline {subsection}{\numberline {A.1.2}Wassim Chegham}{125}{subsection.A.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Thomas Steiner}{124}{subsection.A.2.1}% 
+\contentsline {section}{\numberline {A.2}Selling points}{126}{section.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Wassim Chegham}{124}{subsection.A.2.2}% 
+\contentsline {subsection}{\numberline {A.2.1}Thomas Steiner}{126}{subsection.A.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Disadvantages}{125}{section.A.3}% 
+\contentsline {subsection}{\numberline {A.2.2}Wassim Chegham}{126}{subsection.A.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.1}Thomas Steiner}{125}{subsection.A.3.1}% 
+\contentsline {section}{\numberline {A.3}Disadvantages}{127}{section.A.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.2}Wassim Chegham}{125}{subsection.A.3.2}% 
+\contentsline {subsection}{\numberline {A.3.1}Thomas Steiner}{127}{subsection.A.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Is not being in the app-store an advantage or a disadvantage?}{125}{section.A.4}% 
+\contentsline {subsection}{\numberline {A.3.2}Wassim Chegham}{127}{subsection.A.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.4.1}Thomas Steiner}{125}{subsection.A.4.1}% 
+\contentsline {section}{\numberline {A.4}Is not being in the app-store an advantage or a disadvantage?}{127}{section.A.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.4.2}Wassim Chegham}{125}{subsection.A.4.2}% 
+\contentsline {subsection}{\numberline {A.4.1}Thomas Steiner}{127}{subsection.A.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}In what types of applications do you see PWA's excelling}{126}{section.A.5}% 
+\contentsline {subsection}{\numberline {A.4.2}Wassim Chegham}{127}{subsection.A.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.5.1}Thomas Steiner}{126}{subsection.A.5.1}% 
+\contentsline {section}{\numberline {A.5}In what types of applications do you see PWA's excelling}{128}{section.A.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.5.2}Wassim Chegham}{126}{subsection.A.5.2}% 
+\contentsline {subsection}{\numberline {A.5.1}Thomas Steiner}{128}{subsection.A.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.6}Adoption}{127}{section.A.6}% 
+\contentsline {subsection}{\numberline {A.5.2}Wassim Chegham}{128}{subsection.A.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.6.1}Thomas Steiner}{127}{subsection.A.6.1}% 
+\contentsline {section}{\numberline {A.6}Adoption}{129}{section.A.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.6.2}Wassim Chegham}{127}{subsection.A.6.2}% 
+\contentsline {subsection}{\numberline {A.6.1}Thomas Steiner}{129}{subsection.A.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.7}Future of PWA's }{128}{section.A.7}% 
+\contentsline {subsection}{\numberline {A.6.2}Wassim Chegham}{129}{subsection.A.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.7.1}Thomas Steiner}{128}{subsection.A.7.1}% 
+\contentsline {section}{\numberline {A.7}Future of PWA's }{130}{section.A.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.7.2}Wassim Chegham}{128}{subsection.A.7.2}% 
+\contentsline {subsection}{\numberline {A.7.1}Thomas Steiner}{130}{subsection.A.7.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.8}Installation of PWA's}{129}{section.A.8}% 
+\contentsline {subsection}{\numberline {A.7.2}Wassim Chegham}{130}{subsection.A.7.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.8.1}Thomas Steiner}{129}{subsection.A.8.1}% 
+\contentsline {section}{\numberline {A.8}Installation of PWA's}{131}{section.A.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.8.2}Wassim Chegham}{129}{subsection.A.8.2}% 
+\contentsline {subsection}{\numberline {A.8.1}Thomas Steiner}{131}{subsection.A.8.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.9}Apple}{130}{section.A.9}% 
+\contentsline {subsection}{\numberline {A.8.2}Wassim Chegham}{131}{subsection.A.8.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.9.1}Thomas Steiner}{130}{subsection.A.9.1}% 
+\contentsline {section}{\numberline {A.9}Apple}{132}{section.A.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.9.2}Wassim Chegham}{130}{subsection.A.9.2}% 
+\contentsline {subsection}{\numberline {A.9.1}Thomas Steiner}{132}{subsection.A.9.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.10}Beginning of pwa's}{131}{section.A.10}% 
+\contentsline {subsection}{\numberline {A.9.2}Wassim Chegham}{132}{subsection.A.9.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.10.1}Thomas Steiner}{131}{subsection.A.10.1}% 
+\contentsline {section}{\numberline {A.10}Beginning of pwa's}{133}{section.A.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.10.2}Wassim Chegham}{131}{subsection.A.10.2}% 
+\contentsline {subsection}{\numberline {A.10.1}Thomas Steiner}{133}{subsection.A.10.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.11}Extra}{132}{section.A.11}% 
+\contentsline {subsection}{\numberline {A.10.2}Wassim Chegham}{133}{subsection.A.10.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.11.1}Thomas Steiner}{132}{subsection.A.11.1}% 
+\contentsline {section}{\numberline {A.11}Extra}{134}{section.A.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Do you believe that one day, all applications (mobile/ desktop) will be written with web technologies? }{132}{section*.123}% 
+\contentsline {subsection}{\numberline {A.11.1}Thomas Steiner}{134}{subsection.A.11.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{favorite PWA}{132}{section*.124}% 
+\contentsline {subsubsection}{Do you believe that one day, all applications (mobile/ desktop) will be written with web technologies? }{134}{section*.123}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{favorite WEB API}{132}{section*.125}% 
+\contentsline {subsubsection}{favorite PWA}{134}{section*.124}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{How do you see the monetization options for PWA's}{132}{section*.126}% 
+\contentsline {subsubsection}{favorite WEB API}{134}{section*.125}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.11.2}Wassim Chegham}{132}{subsection.A.11.2}% 
+\contentsline {subsubsection}{How do you see the monetization options for PWA's}{134}{section*.126}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Performantietesten video stream}{133}{appendix.B}% 
+\contentsline {subsection}{\numberline {A.11.2}Wassim Chegham}{134}{subsection.A.11.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Code voor het testen}{133}{section.B.1}% 
+\contentsline {chapter}{\numberline {B}Performantietesten video stream}{135}{appendix.B}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Screenshots van de resultaten}{134}{section.B.2}% 
+\contentsline {section}{\numberline {B.1}Code voor het testen}{135}{section.B.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Onderzoeksvoorstel}{135}{appendix.C}% 
+\contentsline {section}{\numberline {B.2}Screenshots van de resultaten}{136}{section.B.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}Introductie}{135}{section.C.1}% 
+\contentsline {chapter}{\numberline {C}Onderzoeksvoorstel}{137}{appendix.C}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.2}State-of-the-art}{136}{section.C.2}% 
+\contentsline {section}{\numberline {C.1}Introductie}{137}{section.C.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.2.1}Wat is een PWA}{136}{subsection.C.2.1}% 
+\contentsline {section}{\numberline {C.2}State-of-the-art}{138}{section.C.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{136}{subsection.C.2.2}% 
+\contentsline {subsection}{\numberline {C.2.1}Wat is een PWA}{138}{subsection.C.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.2.3}Waarom PWA's}{137}{subsection.C.2.3}% 
+\contentsline {subsection}{\numberline {C.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{138}{subsection.C.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.2.4}Beveiliging}{137}{subsection.C.2.4}% 
+\contentsline {subsection}{\numberline {C.2.3}Waarom PWA's}{139}{subsection.C.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.2.5}Native containers}{138}{subsection.C.2.5}% 
+\contentsline {subsection}{\numberline {C.2.4}Beveiliging}{139}{subsection.C.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.2.6}Apllication shell architecture}{138}{subsection.C.2.6}% 
+\contentsline {subsection}{\numberline {C.2.5}Native containers}{140}{subsection.C.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.3}Methodologie}{138}{section.C.3}% 
+\contentsline {subsection}{\numberline {C.2.6}Apllication shell architecture}{140}{subsection.C.2.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.3.1}Technologieën}{138}{subsection.C.3.1}% 
+\contentsline {section}{\numberline {C.3}Methodologie}{140}{section.C.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.4}Verwachte resultaten}{139}{section.C.4}% 
+\contentsline {subsection}{\numberline {C.3.1}Technologieën}{140}{subsection.C.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.5}Verwachte conclusies}{139}{section.C.5}% 
+\contentsline {section}{\numberline {C.4}Verwachte resultaten}{141}{section.C.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{141}{appendix*.127}% 
+\contentsline {section}{\numberline {C.5}Verwachte conclusies}{141}{section.C.5}% 
 \contentsfinish 
