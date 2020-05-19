@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  18 MAY 2020 22:19
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  19 MAY 2020 07:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1582,7 +1582,22 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'bachproef-tin.bbl' found.
 
-(./bachproef-tin.bbl)
+(./bachproef-tin.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Kruisselbrink2017
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Sayali2018
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 104.
 Package biblatex Info: Reference segment=0 on input line 104.
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1619,8 +1634,7 @@ Package biblatex Info: Reference segment=0 on input line 104.
 
 File: img/HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img/HOGENT_Logo_Pos_rgb.png>
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+ (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
@@ -1686,14 +1700,7 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <24.88> not available
 )
 (./samenvatting.tex [3] [4
 
-]
-
-LaTeX Warning: Citation 'googleTrends2020' on page 5 undefined on input line 22
-.
-
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 22.
-)
+])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
@@ -1735,9 +1742,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout6 = `bachproef-tin.toc'.
 
 
-[13] [14
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] (./bachproef-tin.lof
+ [13]
+[14] (./bachproef-tin.lof
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font pagk8t!
@@ -1750,6 +1758,7 @@ Missing character: There is no ” in font pagk8t!
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15
+
 
 ])
 \tf@lof=\write7
@@ -1860,65 +1869,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Hoofdstuk 2.
 (./Literatuurstudie/WatIsEenPwa.tex [27]
 Missing character: There is no ’ in font ptmr8t!
-
-
-LaTeX Warning: Citation 'Richard2020' on page 28 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'Google2020' on page 28 undefined on input line 15.
-
 File: ./img/WatIsEenPwa.png Graphic file (type bmp)
 <./img/WatIsEenPwa.png>
-
-LaTeX Warning: Citation 'Richard2020' on page 28 undefined on input line 31.
-
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pag/b/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 41.
-
-LaTeX Warning: Citation 'Mozilla2020' on page 28 undefined on input line 45.
-
-
-Underfull \vbox (badness 2035) has occurred while \output is active []
-
  [28]
-
-LaTeX Warning: Citation 'Verdu2015' on page 29 undefined on input line 48.
-
-
-LaTeX Warning: Citation 'Hiltunen2018' on page 29 undefined on input line 49.
-
-
-LaTeX Warning: Citation 'Malavolta2016' on page 29 undefined on input line 54.
-
 Missing character: There is no ’ in font ptmr8t!
-
-LaTeX Warning: Citation 'Google2017' on page 29 undefined on input line 70.
-
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-
-LaTeX Warning: Citation 'Osmani2019' on page 29 undefined on input line 73.
-
-
-LaTeX Warning: Citation 'Mozilla2020a' on page 29 undefined on input line 74.
-
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 81.
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-
-LaTeX Warning: Citation 'Scales2019' on page 29 undefined on input line 82.
-
-
-LaTeX Warning: Citation 'Mozilla2019' on page 29 undefined on input line 87.
-
-
-Underfull \vbox (badness 1735) has occurred while \output is active []
-
  [29]
 Missing character: There is no ’ in font ptmr8t!
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 110.
@@ -1938,25 +1906,11 @@ Missing character: There is no ” in font ec-lmtt10!
  [30]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-
-
-LaTeX Warning: Citation 'Developers2019' on page 31 undefined on input line 146
-.
-
-
-LaTeX Warning: Citation 'Mozilla2019a' on page 31 undefined on input line 147.
-
-
-LaTeX Warning: Citation 'Mozilla2019b' on page 31 undefined on input line 153.
-
-
-LaTeX Warning: Citation 'Gaunt2020' on page 31 undefined on input line 154.
-
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 File: ./img/backSync1.png Graphic file (type bmp)
 <./img/backSync1.png>
-[31]
+ [31]
 File: ./img/backSync2.png Graphic file (type bmp)
 <./img/backSync2.png>
  [32]
@@ -1968,37 +1922,17 @@ Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-
-
-LaTeX Warning: Citation 'Gaunt2019' on page 33 undefined on input line 200.
-
 File: ./img/ServiceWorkerLifeCycle.png Graphic file (type bmp)
 <./img/ServiceWorkerLifeCycle.png>
-
-LaTeX Warning: Citation 'Gaunt2019' on page 33 undefined on input line 206.
 
 [33]
 File: ./img/beforeinstallprompt_windows.png Graphic file (type bmp)
 <./img/beforeinstallprompt_windows.png>
 File: ./img/beforeinstallprompt_android.png Graphic file (type bmp)
 <./img/beforeinstallprompt_android.png>
-
-
-LaTeX Warning: Citation 'PWAbuilder2020' on page 34 undefined on input line 241
-.
-
-[34]
-
-LaTeX Warning: Citation 'Osmani2019a' on page 35 undefined on input line 256.
-
+ [34]
 File: ./img/ApplicationShell.png Graphic file (type bmp)
 <./img/ApplicationShell.png>
-
-LaTeX Warning: Citation 'Osmani2015' on page 35 undefined on input line 261.
-
-
-LaTeX Warning: Citation 'Vanhala2017' on page 35 undefined on input line 269.
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2019,11 +1953,9 @@ Overfull \hbox (25.95328pt too wide) in paragraph at lines 305--327
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36]
-
-LaTeX Warning: Citation 'LePage2020' on page 37 undefined on input line 333.
-
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
+
 [37]
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ’ in font ptmri8t!
@@ -2035,16 +1967,6 @@ Missing character: There is no ” in font ptmri8t!
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
 
-
-LaTeX Warning: Citation 'Jobs2007' on page 38 undefined on input line 350.
-
-
-LaTeX Warning: Citation 'Strieb2016' on page 38 undefined on input line 353.
-
-
-LaTeX Warning: Citation 'Silver2018' on page 38 undefined on input line 355.
-
-
 Overfull \hbox (0.54924pt too wide) in paragraph at lines 359--360
 \T1/ptm/m/n/12 Chrome dev sum-mit is een con-fe-ren-tie voor we-bont-wik-ke-laa
 rs ge-or-ga-ni-seerd door Google. 
@@ -2052,300 +1974,90 @@ rs ge-or-ga-ni-seerd door Google.
 
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-
-LaTeX Warning: Citation 'Russel2015' on page 38 undefined on input line 364.
-
-
-LaTeX Warning: Citation 'Apple2020' on page 38 undefined on input line 369.
-
-
-LaTeX Warning: Citation 'Microsoft2020' on page 38 undefined on input line 377.
-
-
-
-Overfull \hbox (31.17249pt too wide) in paragraph at lines 376--378
-\T1/ptm/m/n/12 Google is niet de enige grote spe-ler die PWA's wil pro-mo-ten e
-n im-ple-men-te-ren. ([]) 
- []
-
 File: ./img/Outlook_native.png Graphic file (type bmp)
 <./img/Outlook_native.png>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2635) has occurred while \output is active []
 
  [38]
 File: ./img/Outlook_pwa.png Graphic file (type bmp)
 <./img/Outlook_pwa.png>
-
-
-LaTeX Warning: Citation 'Developers2020' on page 39 undefined on input line 400
-.
-
 Missing character: There is no ’ in font ptmr8t!
 
-LaTeX Warning: Citation 'Developers2020a' on page 39 undefined on input line 40
-9.
-
-
-LaTeX Warning: Citation 'Love2018' on page 39 undefined on input line 410.
-
-
-Underfull \vbox (badness 6542) has occurred while \output is active []
+Underfull \vbox (badness 2818) has occurred while \output is active []
 
  [39]
-
-LaTeX Warning: Citation 'Formidable2020' on page 40 undefined on input line 419
-.
-
-
-LaTeX Warning: Citation 'Kawatka2020' on page 40 undefined on input line 420.
-
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
+)
+(./Literatuurstudie/BesturingssystemenEnPwaS.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Citation 'Croll2017' on page 40 undefined on input line 429.
-
-
-LaTeX Warning: Citation 'Osmani2019b' on page 40 undefined on input line 435.
-
-) (./Literatuurstudie/BesturingssystemenEnPwaS.tex [40]
-
-LaTeX Warning: Citation 'Mozilla2019c' on page 41 undefined on input line 17.
-
-
+ [40]
 Overfull \hbox (10.4255pt too wide) in paragraph at lines 29--30
 []\T1/ptm/m/n/12 Safari (desktop) ver-sie 13.0.5 op een Mac-book Pro met ma-cOS
  Mo-jave (10.14.6) 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2057) has occurred while \output is active []
 
  [41]
 Missing character: There is no … in font ptmr8t!
-
-
-LaTeX Warning: Citation 'DzungDTran2012' on page 42 undefined on input line 75.
-
-
-
-LaTeX Warning: Citation 'Fransson2017' on page 42 undefined on input line 76.
-
 Missing character: There is no ’ in font ptmr8t!
 
-LaTeX Warning: Citation 'Scales2020a' on page 42 undefined on input line 79.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-LaTeX Warning: Citation 'Oberhofer2017' on page 42 undefined on input line 82.
-
-
-LaTeX Warning: Citation 'Ogundipe2018' on page 42 undefined on input line 82.
-
-[42]
-
-LaTeX Warning: Citation 'Mandyam2017' on page 43 undefined on input line 114.
-
+ [42]
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-
-LaTeX Warning: Citation 'Bhaumik2019' on page 43 undefined on input line 117.
-
-
-LaTeX Warning: Citation 'CasasSanchez2017' on page 43 undefined on input line 1
-34.
-
-
-LaTeX Warning: Citation 'Kinlan2019' on page 43 undefined on input line 156.
 
 [43]
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-
-
-LaTeX Warning: Citation 'Jennings2019' on page 44 undefined on input line 167.
-
 Missing character: There is no ’ in font ptmr8t!
 
-LaTeX Warning: Citation 'Apple2020a' on page 44 undefined on input line 190.
+Underfull \vbox (badness 5217) has occurred while \output is active []
 
-
-LaTeX Warning: Citation 'Developers2020b' on page 44 undefined on input line 19
-3.
-
-[44]
+ [44]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-
-
-LaTeX Warning: Citation 'Beaufort2019' on page 45 undefined on input line 228.
-
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 
-LaTeX Warning: Citation 'Grant2020' on page 45 undefined on input line 253.
+[45] [46]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+ [47] [48] [49]
+Underfull \vbox (badness 7081) has occurred while \output is active []
 
-
-LaTeX Warning: Citation 'Beaufort2019a' on page 45 undefined on input line 256.
-
-
+ [50]
+[51]
+Missing character: There is no ’ in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
-
-LaTeX Warning: Citation 'Rockot2020' on page 46 undefined on input line 271.
-
-
-LaTeX Warning: Citation 'Beaufort2019b' on page 46 undefined on input line 276.
-
-
-
-LaTeX Warning: Citation 'Paus2007' on page 46 undefined on input line 291.
-
-
-LaTeX Warning: Citation 'RohdeChristiansen2020' on page 46 undefined on input l
-ine 303.
-
-
-Overfull \hbox (53.67104pt too wide) in paragraph at lines 302--304
-\T1/ptm/m/n/12 ties. Er be-staat ech-ter wel een API om ge-bruik te kun-nen ma-
-ken van NFC ([]),
- []
-
-
-LaTeX Warning: Citation 'Lamouri2014' on page 46 undefined on input line 312.
-
-[46]
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
-
-
-LaTeX Warning: Citation 'Kostionen2018' on page 47 undefined on input line 339.
-
-
-
-LaTeX Warning: Citation 'Kostiainen2016' on page 47 undefined on input line 352
-.
-
-[47]
-
-LaTeX Warning: Citation 'Panicker2018' on page 48 undefined on input line 374.
-
-
-LaTeX Warning: Citation 'Gregg2015' on page 48 undefined on input line 392.
-
-
-LaTeX Warning: Citation 'Sullivan2020' on page 48 undefined on input line 411.
-
-[48]
-
-LaTeX Warning: Citation 'LePage2020a' on page 49 undefined on input line 447.
-
-
-LaTeX Warning: Citation 'Grigorik2017' on page 49 undefined on input line 463.
-
-[49]
-
-LaTeX Warning: Citation 'Caceres2017' on page 50 undefined on input line 479.
-
-
-LaTeX Warning: Citation 'Hickson2016' on page 50 undefined on input line 523.
-
-[50]
-
-LaTeX Warning: Citation 'Alabbas2018' on page 51 undefined on input line 538.
-
-
-LaTeX Warning: Citation 'vanKesteren2008' on page 51 undefined on input line 55
-2.
-
-
-LaTeX Warning: Citation 'Mozilla2020b' on page 51 undefined on input line 566.
-
-Missing character: There is no ’ in font ptmr8t!
-
-LaTeX Warning: Citation 'Kruisselbrink2019' on page 51 undefined on input line 
-585.
-
-[51]
-
-LaTeX Warning: Citation 'Tibbett2014' on page 52 undefined on input line 604.
-
-Missing character: There is no ’ in font ptmr8t!
-
-LaTeX Warning: Citation 'Fullea2015' on page 52 undefined on input line 624.
-
+ [52]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-[52]
+Missing character: There is no ’ in font ptmr8t!
 
-LaTeX Warning: Citation 'Kulkarni2015' on page 53 undefined on input line 641.
+Underfull \vbox (badness 4582) has occurred while \output is active []
 
-[53]
-
-LaTeX Warning: Citation 'Kacmarcik2019' on page 54 undefined on input line 681.
-
-
+ [53]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no “ in font ptmr8t!
-Missing character: There is no ” in font ptmr8t!
+
 [54]
-
-LaTeX Warning: Citation 'Giuca2019' on page 55 undefined on input line 730.
-
-
-LaTeX Warning: Citation 'Williger2019' on page 55 undefined on input line 730.
-
-
-LaTeX Warning: Citation 'Denicola2019' on page 55 undefined on input line 748.
-
-
-LaTeX Warning: Citation 'West2019' on page 55 undefined on input line 761.
-
-
-LaTeX Warning: Citation 'Popescu2018' on page 55 undefined on input line 774.
-
-[55]
-
-LaTeX Warning: Citation 'Kruisselbrink2017' on page 56 undefined on input line 
-796.
-
-
-LaTeX Warning: Citation 'Tibbett2019' on page 56 undefined on input line 811.
-
-[56]
-
-LaTeX Warning: Citation 'Waldroon2019' on page 57 undefined on input line 837.
-
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+ [55] [56]
 Missing character: There is no ’ in font ptmr8t!
-[57]
-
-LaTeX Warning: Citation 'Kostiainen2019' on page 58 undefined on input line 905
-.
-
-
-LaTeX Warning: Citation 'Jones2019' on page 58 undefined on input line 920.
-
-
+ [57] [58]
 Overfull \hbox (58.05267pt too wide) in paragraph at lines 926--930
  [][] 
- []
-
-
-LaTeX Warning: Citation 'Kesteren2014' on page 58 undefined on input line 934.
-
-[58]
-
-LaTeX Warning: Citation 'Bogdanovich2017' on page 59 undefined on input line 94
-8.
-
-
-Overfull \hbox (13.40047pt too wide) in paragraph at lines 948--949
-\T1/ptm/m/n/12 dig zijn voor be-paalde ap-pli-ca-ties zo-als een gps. Met de Wa
-ke Lock API ([])
  []
 
 
@@ -2405,12 +2117,7 @@ Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 [59] [60] [61]
 Missing character: There is no ’ in font ptmr8t!
-
-
-LaTeX Warning: Citation 'Anastasia2017' on page 62 undefined on input line 1114
-.
-
-[62
+ [62
 
 ]
 Missing character: There is no ’ in font ptmr8t!
@@ -2418,33 +2125,7 @@ File: ./img/installation_ios.png Graphic file (type bmp)
 <./img/installation_ios.png>
 File: ./img/installation_android.png Graphic file (type bmp)
 <./img/installation_android.png>
-
-
-LaTeX Warning: Citation 'Lathiya2020' on page 63 undefined on input line 1136.
-
-
-Overfull \hbox (7.1247pt too wide) in paragraph at lines 1135--1137
-\T1/ptm/m/n/12 nen aan de hand van een stem-com-mando. Siri heeft deze func-ti-
-o-na-li-teit niet. ([]) 
- []
-
-[63]
-
-LaTeX Warning: Citation 'netMarketShare2020' on page 64 undefined on input line
- 1147.
-
-
-LaTeX Warning: Citation 'Microsoft2020a' on page 64 undefined on input line 115
-0.
-
-
-LaTeX Warning: Citation 'Gustafson2017' on page 64 undefined on input line 1161
-.
-
-
-LaTeX Warning: Citation 'Gustafson2017a' on page 64 undefined on input line 116
-1.
-
+ [63]
 File: ./img/Outlook_search_windows.png Graphic file (type bmp)
 <./img/Outlook_search_windows.png>
 Missing character: There is no “ in font ptmr8t!
@@ -2453,14 +2134,6 @@ Missing character: There is no ” in font ptmr8t!
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [64]
-
-LaTeX Warning: Citation 'PWAbuilder2020' on page 65 undefined on input line 117
-3.
-
-
-LaTeX Warning: Citation 'Microsoft2020b' on page 65 undefined on input line 117
-6.
-
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 File: ./img/Outlook_search_mac.png Graphic file (type bmp)
@@ -2468,58 +2141,15 @@ File: ./img/Outlook_search_mac.png Graphic file (type bmp)
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 
-LaTeX Warning: Citation 'Wilander2019' on page 65 undefined on input line 1188.
-
-
-
-Overfull \hbox (18.88501pt too wide) in paragraph at lines 1187--1189
-\T1/ptm/m/n/12 een tech-no-lo-gie die van Google is en dat dit niet in de plan-
-ning zit van Ap-ple. ([]) 
- []
-
-[65]) (./Literatuurstudie/WaaromEenPWA.tex
-
-LaTeX Warning: Citation 'TandelSunil2018' on page 66 undefined on input line 4.
-
-
-
-LaTeX Warning: Citation 'Nath2017' on page 66 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'GoogleChromeDevelopers2017' on page 66 undefined on in
-put line 16.
-
-[66]
+[65]) (./Literatuurstudie/WaaromEenPWA.tex [66]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-
-
-LaTeX Warning: Citation 'GoogleSupport2020' on page 67 undefined on input line 
-30.
-
 Missing character: There is no – in font ptmr8t!
 
-LaTeX Warning: Citation 'Developers2018' on page 67 undefined on input line 35.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-LaTeX Warning: Citation 'Anastasia2019' on page 67 undefined on input line 40.
-
-
-LaTeX Warning: Citation 'Scott2019' on page 67 undefined on input line 46.
-
-[67]
+ [67]
 Missing character: There is no ’ in font ptmr8t!
-
-
-LaTeX Warning: Citation 'Osmani2017' on page 68 undefined on input line 49.
-
-
-LaTeX Warning: Citation 'netAdmin2017' on page 68 undefined on input line 56.
-
-
-LaTeX Warning: Citation 'gsmArena2020' on page 68 undefined on input line 59.
-
 File: ./img/tinder_native.png Graphic file (type bmp)
 <./img/tinder_native.png>
 File: ./img/tinder_pwa.png Graphic file (type bmp)
@@ -2531,250 +2161,86 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 
-
-LaTeX Warning: Citation 'Developers2019a' on page 69 undefined on input line 80
-.
-
-
-LaTeX Warning: Citation 'Vanhala2017' on page 69 undefined on input line 83.
-
-
-LaTeX Warning: Citation 'Google2019' on page 69 undefined on input line 88.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [69]
-
-LaTeX Warning: Citation 'Gaunt2020' on page 70 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'Hiltunen2018' on page 70 undefined on input line 98.
-
-
-LaTeX Warning: Citation 'Spotify2020' on page 70 undefined on input line 111.
-
-
-LaTeX Warning: Citation 'Vu2019' on page 70 undefined on input line 112.
-
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-
-LaTeX Warning: Citation 'Apple2020b' on page 70 undefined on input line 119.
 
 [70]
 Missing character: There is no … in font ptmr8t!
 
-
-LaTeX Warning: Citation 'GooglePlay2020' on page 71 undefined on input line 123
-.
-
-
-LaTeX Warning: Citation 'Versio2020' on page 71 undefined on input line 129.
-
-
-LaTeX Warning: Citation 'Firebase2020' on page 71 undefined on input line 131.
-
-
-LaTeX Warning: Citation 'Netflify2020' on page 71 undefined on input line 131.
-
-
-LaTeX Warning: Citation 'Apple2020c' on page 71 undefined on input line 137.
-
-
-LaTeX Warning: Citation 'GooglePlay2020a' on page 71 undefined on input line 13
-8.
-
-
-LaTeX Warning: Citation 'Siddiqui2019' on page 71 undefined on input line 142.
-
-
-LaTeX Warning: Citation 'Hume2018' on page 71 undefined on input line 151.
-
-
 Underfull \vbox (badness 1424) has occurred while \output is active []
 
- [71]
-
-LaTeX Warning: Citation 'Sanderson2020' on page 72 undefined on input line 154.
-
-
-
-LaTeX Warning: Citation 'Wicki2017' on page 72 undefined on input line 157.
-
-
-LaTeX Warning: Citation 'Apple2020d' on page 72 undefined on input line 162.
-
-
-LaTeX Warning: Citation 'AndroidDevelopers2020' on page 72 undefined on input l
-ine 163.
-
-) (./Literatuurstudie/BeperkingenVanEenPWA.tex
+ [71])
+(./Literatuurstudie/BeperkingenVanEenPWA.tex
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-
-
-LaTeX Warning: Citation 'Malavolta2016' on page 72 undefined on input line 4.
-
-Missing character: There is no ’ in font ptmr8t!
-[72]
 Missing character: There is no ’ in font ptmr8t!
 
+Underfull \vbox (badness 2351) has occurred while \output is active []
 
-LaTeX Warning: Citation 'Fransson2017' on page 73 undefined on input line 11.
-
+ [72]
+Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
+
 
 LaTeX Warning: Reference `ch: Besturingssystemen en PWA's' on page 73 undefined
  on input line 31.
 
 Missing character: There is no … in font ptmr8t!
-
-LaTeX Warning: Citation 'Brousek2017' on page 73 undefined on input line 33.
-
-
-Underfull \vbox (badness 4492) has occurred while \output is active []
-
- [73])
-(./Literatuurstudie/ToolsPWA.tex
-
-LaTeX Warning: Citation 'Lighthouse2020' on page 74 undefined on input line 16.
-
-
+Missing character: There is no ř in font ptmr8t!
+Missing character: There is no š in font ptmr8t!
+[73]) (./Literatuurstudie/ToolsPWA.tex [74]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-[74]
 Missing character: There is no – in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
-
-
-LaTeX Warning: Citation 'web.dev2020' on page 75 undefined on input line 25.
-
-
-LaTeX Warning: Citation 'web.dev2020a' on page 75 undefined on input line 38.
-
 File: ./img/lighthouse.png Graphic file (type bmp)
 <./img/lighthouse.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [75]
-
-LaTeX Warning: Citation 'Workbox2020' on page 76 undefined on input line 64.
-
-[76]
-
-LaTeX Warning: Citation 'PWAbuilder2020' on page 77 undefined on input line 83.
-
-
-
-LaTeX Warning: Citation 'Developers2019b' on page 77 undefined on input line 95
-.
-
-) (./Literatuurstudie/PWAAlternatieven.tex [77]
-
-LaTeX Warning: Citation 'Huynh2017' on page 78 undefined on input line 20.
-
+[76]) (./Literatuurstudie/PWAAlternatieven.tex [77]
 Missing character: There is no ’ in font ptmr8t!
-
-LaTeX Warning: Citation 'Ionic2020' on page 78 undefined on input line 29.
-
-
-LaTeX Warning: Citation 'Asp2017' on page 78 undefined on input line 35.
-
-[78]
+ [78]
 Missing character: There is no ’ in font ptmr8t!
-
-
-LaTeX Warning: Citation 'Ionic2020a' on page 79 undefined on input line 50.
-
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-
-LaTeX Warning: Citation 'Lucas2020' on page 79 undefined on input line 53.
-
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-
-LaTeX Warning: Citation 'Asp2017' on page 79 undefined on input line 60.
-
 Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ‘ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [79]
-
-LaTeX Warning: Citation 'Ghinea2018' on page 80 undefined on input line 87.
-
-
-LaTeX Warning: Citation 'DeConinck2019' on page 80 undefined on input line 88.
-
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-
-LaTeX Warning: Citation 'Asp2017' on page 80 undefined on input line 94.
-
-
-LaTeX Warning: Citation 'Asp2017' on page 80 undefined on input line 98.
-
-
-LaTeX Warning: Citation 'Altexsoft2019' on page 80 undefined on input line 103.
-
-
-
-LaTeX Warning: Citation 'Warcholinski2020' on page 80 undefined on input line 1
-03.
-
+Missing character: There is no ‘ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [80]
-
-LaTeX Warning: Citation 'VisualStudio2020' on page 81 undefined on input line 1
-06.
-
-
-LaTeX Warning: Citation 'Microsoft2019' on page 81 undefined on input line 110.
-
-
-Missing character: There is no ‘ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
-
-LaTeX Warning: Citation 'StackOverflow2020' on page 81 undefined on input line 
-115.
-
-
-LaTeX Warning: Citation 'Reactnative2020' on page 81 undefined on input line 11
-8.
-
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-
-LaTeX Warning: Citation 'Bartosz2019' on page 81 undefined on input line 123.
-
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-
-LaTeX Warning: Citation 'StackOverflow2020' on page 81 undefined on input line 
-126.
-
+Missing character: There is no ‘ in font ptmr8t!
+Missing character: There is no ’ in font ptmr8t!
 
 Underfull \vbox (badness 2865) has occurred while \output is active []
 
@@ -2782,33 +2248,14 @@ Underfull \vbox (badness 2865) has occurred while \output is active []
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-
-
-LaTeX Warning: Citation 'Expo2020' on page 82 undefined on input line 140.
-
-
-LaTeX Warning: Citation 'Flutter2020' on page 82 undefined on input line 144.
-
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 
-LaTeX Warning: Citation 'StackOverflow2020' on page 82 undefined on input line 
-151.
-
+[82]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-[82]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-
-
-LaTeX Warning: Citation 'Leler2017' on page 83 undefined on input line 171.
-
-
-LaTeX Warning: Citation 'Wenhao2018' on page 83 undefined on input line 172.
-
-
-LaTeX Warning: Citation 'Fagietto2019' on page 83 undefined on input line 176.
 
 
 LaTeX Warning: No positions in optional float specifier.
@@ -2828,17 +2275,10 @@ Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
 Missing character: There is no ’ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
-
-
-LaTeX Warning: Citation 'Apple2020c' on page 85 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'GooglePlay2020a' on page 85 undefined on input line 15
-.
-
 )) (./methodologie.tex [85
 
-] [86
+]
+[86
 
 ]
 Hoofdstuk 3.
@@ -2846,10 +2286,6 @@ Hoofdstuk 3.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [87]
-
-LaTeX Warning: Citation 'LePage2020b' on page 88 undefined on input line 39.
-
-
 Underfull \vbox (badness 2111) has occurred while \output is active []
 
  [88])
@@ -2857,9 +2293,6 @@ Underfull \vbox (badness 2111) has occurred while \output is active []
 
 ]
 Hoofdstuk 4.
-
-LaTeX Warning: Citation 'Mozilla2020c' on page 91 undefined on input line 6.
-
 Missing character: There is no ’ in font ptmr8t!
 [91]
 File: ./img/dart1.jpg Graphic file (type bmp)
@@ -2895,9 +2328,6 @@ Hoofdstuk 5.
 [99
 
 ]
-
-LaTeX Warning: Citation 'Tate2019' on page 100 undefined on input line 48.
-
 File: ./img/mockup-poc.png Graphic file (type bmp)
 <./img/mockup-poc.png>
 
@@ -2912,44 +2342,11 @@ Overfull \hbox (10.86874pt too wide) in paragraph at lines 72--73
 tps://github.com/TijsM/videocall-
  []
 
-
-LaTeX Warning: Citation 'Mester2019' on page 101 undefined on input line 77.
-
 [101]
-
-LaTeX Warning: Citation 'Pati2019' on page 102 undefined on input line 83.
-
-
-LaTeX Warning: Citation 'Mclachlan2020' on page 102 undefined on input line 92.
-
-
-
-Overfull \hbox (34.64096pt too wide) in paragraph at lines 91--93
-\T1/ptm/m/n/12 deze mel-ding en-kel ge-toond wor-den als de ge-brui-ker daar ex
--pli-ciet naar vraagt. ([]) 
- []
-
-
-LaTeX Warning: Citation 'LePage2020b' on page 102 undefined on input line 95.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [102]
-[103]
-
-LaTeX Warning: Citation 'Workbox2020a' on page 104 undefined on input line 151.
-
-
-
-LaTeX Warning: Citation 'Workbox2020b' on page 104 undefined on input line 175.
-
-
-[104]
-
-LaTeX Warning: Citation 'Babich2018' on page 105 undefined on input line 198.
-
-
+[103] [104]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [105]
@@ -2961,32 +2358,10 @@ File: ./img/share-android.jpg Graphic file (type bmp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [106]
-[107]
-
-LaTeX Warning: Citation 'Gaunt2019a' on page 108 undefined on input line 331.
-
-[108]
-
-LaTeX Warning: Citation 'Gaunt2020' on page 109 undefined on input line 355.
-
-[109]
+[107] [108] [109]
 File: ./img/notificationMacOs.png Graphic file (type bmp)
 <./img/notificationMacOs.png>
-
-
-LaTeX Warning: Citation 'Mozilla2020d' on page 110 undefined on input line 428.
-
-
-[110]
-
-LaTeX Warning: Citation 'webRTC2020' on page 111 undefined on input line 440.
-
-[111]
-
-LaTeX Warning: Citation 'Mozilla2020e' on page 112 undefined on input line 513.
-
-
-[112]
+ [110] [111] [112]
 File: ./img/traditionalIcons.png Graphic file (type bmp)
 <./img/traditionalIcons.png>
 File: ./img/maskedicons.png Graphic file (type bmp)
@@ -3023,17 +2398,7 @@ File: ./img/POC/sendNoti.png Graphic file (type bmp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [117]
-
-LaTeX Warning: Citation 'Gaunt2020' on page 118 undefined on input line 703.
-
-[118]
-
-LaTeX Warning: Citation 'Gaunt2019c' on page 119 undefined on input line 705.
-
-
-LaTeX Warning: Citation 'LePage2020b' on page 119 undefined on input line 726.
-
-[119]) (./conclusie.tex [120]
+[118] [119]) (./conclusie.tex [120]
 Hoofdstuk 6.
 [121
 
@@ -3090,89 +2455,96 @@ File: ./img/statsZoom.png Graphic file (type bmp)
 [136]
 B"ylage C.
 (../voorstel/voorstel-inhoud.tex
-
-LaTeX Warning: Citation 'Hiltunen2018' on page 137 undefined on input line 8.
-
 Missing character: There is no … in font ptmr8t!
-[137
+ [137
 
 ]
-
-LaTeX Warning: Citation 'Sayali2018' on page 138 undefined on input line 35.
-
 Missing character: There is no – in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
-
-LaTeX Warning: Citation 'Harris2017' on page 138 undefined on input line 42.
-
-[138]
+ [138]
 Missing character: There is no ’ in font ptmr8t!
-
-
-LaTeX Warning: Citation 'Malavolta2016' on page 139 undefined on input line 70.
-
-
-
-LaTeX Warning: Citation 'Destrebecq2018' on page 139 undefined on input line 71
-.
-
-
-LaTeX Warning: Citation 'Google2017' on page 139 undefined on input line 76.
-
-
-LaTeX Warning: Citation 'Google2019' on page 139 undefined on input line 79.
-
 Missing character: There is no – in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
-
-LaTeX Warning: Citation 'GooglePwa2019' on page 139 undefined on input line 87.
-
-
-
-LaTeX Warning: Citation 'Durumeric2013' on page 139 undefined on input line 91.
-
-
-
-LaTeX Warning: Citation 'Lee2018' on page 139 undefined on input line 93.
-
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 
-LaTeX Warning: Citation 'Richard2019' on page 139 undefined on input line 101.
-
-
-LaTeX Warning: Citation 'Malavolta2016' on page 139 undefined on input line 101
-.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1655) has occurred while \output is active []
 
  [139]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no … in font ptmr8t!
 
+[140]) [141] [142
 
-LaTeX Warning: Citation 'Hiltunen2018' on page 140 undefined on input line 107.
+] [143]
+Missing character: There is no ﬁ in font ptmr8t!
+Missing character: There is no ř in font ptmr8t!
+Missing character: There is no š in font ptmr8t!
+ [144]
+Overfull \hbox (9.12292pt too wide) in paragraph at lines 250--250
+[][]\T1/ptm/m/n/12 Developers, G. (2019c, mei 1). Tools for PWA De-vel-o-pers. 
+Ver-kre-gen van []$https : / / developers .
+ []
 
 
-[140]
-
-LaTeX Warning: Citation 'Gaunt2019' on page 141 undefined on input line 155.
-
-
-LaTeX Warning: Citation 'Osmani2016' on page 141 undefined on input line 155.
+Overfull \hbox (5.417pt too wide) in paragraph at lines 250--250
+[][]\T1/ptm/m/n/12 Gaunt, M. (2019c, juni 4). Sub-scri-bing a user. Ver-kre-gen
+ 5 mei 2020, van []$https : / / developers .
+ []
 
 
-LaTeX Warning: Citation 'Hansen2017' on page 141 undefined on input line 161.
+Overfull \hbox (33.2552pt too wide) in paragraph at lines 250--250
+[][]\T1/ptm/m/n/12 Ghinea, G. & Biørn-Hansen, A. (2018). Brid-ging the Gap: In-
+ves-ti-ga-ting Device-FeatureExposure
+ []
 
-)
+[145]
+Overfull \hbox (0.45145pt too wide) in paragraph at lines 250--250
+\T1/ptm/m/n/12 Eco-sy-s-tem. Ver-kre-gen van []$https : / / www . slideshare . 
+net / AaronGustafson / progressive -[]
+ []
 
-LaTeX Warning: Empty bibliography on input line 250.
+[146]
+Missing character: There is no ’ in font ptmr8t!
+ [147]
+Overfull \hbox (1.22452pt too wide) in paragraph at lines 250--250
+[][]\T1/ptm/m/n/12 Mozilla. (2019b, de-cem-ber 31). In-tro-duc-tion to web APIs
+. Ver-kre-gen van []$https : / / developer .
+ []
 
-[141]
+[148]
+Overfull \hbox (15.04414pt too wide) in paragraph at lines 250--250
+\T1/ptm/m/n/12 %7B % 22share % 22 :-[] 1 % 7D ,[] %22id % 22 : %22platformsDesk
+top % 22 ,[] %22dateInterval %
+ []
+
+Missing character: There is no — in font ptmr8t!
+[149] [150]
+Overfull \hbox (0.46956pt too wide) in paragraph at lines 250--250
+[][]\T1/ptm/m/n/12 Verdú, J. & Pa-juelo, A. (2015, ok-to-ber 26). Per-for-mance
+ Sca-la-bi-lity Ana-ly-sis of Ja-vaScript
+ []
+
+[151]
+Missing character: There is no “ in font ptmr8t!
+Missing character: There is no ” in font ptmr8t!
+
+Overfull \hbox (44.33562pt too wide) in paragraph at lines 250--250
+\T1/ptm/m/n/12 com / widgets / media . html ? type = text % 2Fhtml & key = a19f
+cc184b9711e1b4764040d3dc5c07 &
+ []
+
+
+Overfull \hbox (38.1784pt too wide) in paragraph at lines 250--250
+\T1/ptm/m/n/12 schema = twitter & url = https % 3A / /twitter . com / johnwilan
+der / status / 1139278479436865536 &
+ []
+
+Missing character: There is no ﬁ in font ptmr8t!
+[152]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 252.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
  (./bachproef-tin.aux)
@@ -3183,21 +2555,20 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 252.
 LaTeX Warning: There were undefined references.
 
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                bachproef-tin
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 \openout1 = `bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42933 strings out of 492916
- 786162 string characters out of 6133345
- 1445287 words of memory out of 5000000
- 46293 multiletter control sequences out of 15000+600000
+ 43830 strings out of 492916
+ 809794 string characters out of 6133345
+ 1453297 words of memory out of 5000000
+ 47190 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,12n,55p,1496b,7000s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,12n,80p,1496b,7227s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bachproef-tin.pdf (143 pages).
+Output written on bachproef-tin.pdf (154 pages).

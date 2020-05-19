@@ -631,7 +631,7 @@ peer.on("stream", (stream) => {
 	Native features zoals camera, microfoon, delen, notificatie zijn relatief eenvoudig te implementeren in een webapplicatie.
 	
 	\subsection{Compatibiliteit en besturingssystemen}
-		Zoals eerder aangehaald is een van de nadelen van PWA's de sterk variërende ondersteuning. Voor deze reden is het belangrijk dat de applicatie ontwikkeld wordt aan de hand van progressive enhancement. 
+		Zoals eerder aangehaald is een van de nadelen van PWA's de sterk variërende ondersteuning van browsers. Voor deze reden is het belangrijk dat de applicatie ontwikkeld wordt aan de hand van progressive enhancement. 
 		
 		De hoofdfunctionaliteit van de applicatie moet beschikbaar zijn voor alle gebruikers. Vervolgens kan de applicatie uitgebreid worden met functionaliteiten die de ervaring verbeteren maar die niet noodzakelijk zijn.
 		
@@ -681,12 +681,6 @@ peer.on("stream", (stream) => {
 		In de user testen werd er gevraagd als een gebruiker een PWA zou verkiezen boven een native applicatie. 
 		De meeste mensen zouden een native applicatie nog steeds verkiezen boven een PWA. De reden hiervoor is dat veel mensen enkel op zoek zijn naar een app enkel in de app stores zoeken. 
 		
-		%todo:✅ resultaat van user testing - zou de gebruiker PWA verkiezen boven native MET CONTEXT WAT PWA IS
-		%todo: --------getallen invullen ipv X
-		In het onderzoek werd vervolgens dezelfde vraag opnieuw gesteld, maar nu werd er meer info gegeven aan de testpersoon over wat PWA's zijn. De tester werd verteld dat een PWA ook het startscherm kan staan, notificaties kan versturen, en dat de app-grootte veel kleiner is dan die van een native app. 
-		%todo:📈
-		Er was slechts X\% van de gebruikers die een PWA zou verkiezen boven de native versie.
-		
 		De testers hadden uiteenlopende redenen waarom ze een native applicatie verkozen:
 		\begin{itemize}
 	  		\item 'Heb geen reden om geen native gebruiken'
@@ -695,14 +689,18 @@ peer.on("stream", (stream) => {
 	  		\item 'Heb geen reden om geen native gebruiken'
 	  		\item 'Ik prefereer snelheid en integratie van native'
 	  	\end{itemize}	
-	  	
-		Als de tester beter weet wat de voordelen zijn van een PWA, waren er opvallend meer mensen die de PWA versie zouden verkiezen over de native versie. Hun grootste motivatie was de grootte van de applicatie. 
-		Er waren X\% van de gebruikter die wel een PWA zouden verkiezen als ze weten wat de voordelen zijn voor hen.
+			  	
+		
+		%todo:✅ resultaat van user testing - zou de gebruiker PWA verkiezen boven native MET CONTEXT WAT PWA IS
+		In het onderzoek werd vervolgens dezelfde vraag opnieuw gesteld, maar nu werd er meer info gegeven aan de testpersoon over wat PWA's zijn. De tester werd verteld dat een PWA ook het startscherm kan staan, notificaties kan versturen, en dat de app-grootte veel kleiner is dan die van een native app. 
+		%todo:📈
+		Als deze info geweten was, was er  X\% die wel een PWA zou verkiezen boven een native applicatie.
+
 		
 		%todo: ✅resultaat van user testing - zou de gebruiker notificaties toestaan
 		Pus notificaties zijn een sterk middel om user engagement te verhogen. \autocite{Gaunt2020} Als een PWA hier gebruik wil van maken moet de gebruiker hier expliciet toestemming voor geven. 
 		
-		In de tweede proof-of-concept werd deze functie geïmplementeerd. De gebruiker kan deze zelf aanzetten, hij zal dus niet lastig gevallen worden met popup's die om toestemming vragen. Voor dat de gebruiker de notificaties aanzet, weet hij voor welke doelen dit gebruikt zal worden .Dit is volgens Matt Gaunt de beste user experience en zal dan ook resulteren in een hoog aantal mensen die notificaties toestaan. \autocite{Gaunt2019c}
+		In de tweede proof-of-concept werd deze functie geïmplementeerd. De gebruiker kan deze zelf aanzetten, hij zal dus niet lastig gevallen worden met popup's die om toestemming vragen. Voor dat de gebruiker de notificaties aanzet, weet hij voor welke doelen dit gebruikt zal worden. Dit is volgens Matt Gaunt de beste user experience en zal dan ook resulteren in een hoog aantal mensen die notificaties toestaan. \autocite{Gaunt2019c}
 		
 		%todo:📈
 		Er werd aan de gebruikers gevraagd als ze voor deze applicatie de notificaties zouden aan zetten. Een opvallen hoog percentage (X\%) zou toestemming geven aan een PWA om push notificaties te versturen.
@@ -712,13 +710,14 @@ peer.on("stream", (stream) => {
 	\subsection{A2HS}
 		%todo: ✅ wanneer zou een user een applicatie installeren
 		%todo:📈
-		Bij het user testen werden de twee proof-of-concepts getoond aan de gebruiker. Bij de eerste proof-of-concept wordt er een standaard A2HS ervaring aangeboden. Op sommige browsers (Chrome, Edge, Firefox) zal de gebruiker een boodschap krijgen als hij de website voor het eerst bezoekt dat deze geïnstalleerd kan worden. Op andere browsers (Safari) zal dit helemaal niet aangeven worden.
+		Bij het user testen werden de twee proof-of-concepts getoond aan de gebruiker. Bij de eerste proof-of-concept wordt er een standaard A2HS ervaring aangeboden. Op sommige browsers (Chrome, Edge, Firefox) zal de gebruiker een boodschap krijgen als hij de website voor het eerst bezoekt dat deze geïnstalleerd kan worden. Op andere browsers (Safari) zal dit helemaal niet aangegeven worden.
 		
 		Bij de tweede proof-of-concept stond er een knop op de website waar de gebruiker altijd op kon klikken om de applicatie toe te voegen aan het startscherm. 
 		
+		%todo:📈
 		Het was opvallend dat de gebruikers de tweede applicatie sneller zouden installeren dan de eerste. De testers gaven volgende feedback
 		\begin{itemize}
-	  		\item -'Voelt niet veilig'
+	  		\item 'Voelt niet veilig'
 			\item 'ik weet nog niet wat deze app zal doen'
 			\item 'ik klik alle popups direct weg zonder te lezen wat er staat'
 	  	\end{itemize}	
@@ -726,10 +725,10 @@ peer.on("stream", (stream) => {
 		Onderzoek \autocite{LePage2020b} toont aan dat de gebruiker meer en langere sessies heeft als de PWA te vinden is op het startscherm. Het is dus belangrijk om een goede A2HS experience te ontwikkelen.
 		
 		
-		De A2HS ervaring op een IOS toestel is minder eenvoudig dan die op andere toestellen. De gebruiker moet manueel in de instelling van de website gaan om de app toe te voegen aan het startscherm. Dit is een omslachtig proces dat niet veel gebruikers kennen.
+		De A2HS ervaring op een IOS toestel is minder eenvoudig dan die op andere toestellen. De gebruiker moet manueel in de instelling van de website gaan om de app toe te voegen aan het startscherm. Dit is een omslachtig proces dat niet veel gebruikers kennen. 
 		
 		%todo:📈
-		Dit was ook terug te zien in de user testen. Tester op IOS voegen bijna nooit een PWA toe aan hun startscherm, terwijl mensen op Android dit wel zouden overwegen.
+		Dit was ook terug te zien in de user testen. Testrers die IOS gebruikten zouden bijna nooit een PWA toe aan hun startscherm, terwijl mensen die Android gebruikten dit wel zouden overwegen.
 		
 		
 	

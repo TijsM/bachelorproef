@@ -69,7 +69,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{The coronavirus app}{40}{section*.26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Besturingssystemen en PWA's}{40}{section.2.2}% 
+\contentsline {section}{\numberline {2.2}Besturingssystemen en PWA's}{41}{section.2.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Onderzoek}{42}{subsection.2.2.1}% 
 \defcounter {refsection}{0}\relax 
@@ -77,7 +77,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Video met audio }{42}{section*.28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Foto's }{42}{section*.29}% 
+\contentsline {paragraph}{Foto's }{43}{section*.29}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Geluidopname }{43}{section*.30}% 
 \defcounter {refsection}{0}\relax 
@@ -95,9 +95,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{NFC}{46}{section*.37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Toestelkenmerken}{46}{section*.38}% 
+\contentsline {subsubsection}{Toestelkenmerken}{47}{section*.38}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Netwerkinformatie}{46}{section*.39}% 
+\contentsline {paragraph}{Netwerkinformatie}{47}{section*.39}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Online status}{47}{section*.40}% 
 \defcounter {refsection}{0}\relax 
@@ -111,19 +111,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Lokale notificaties}{48}{section*.45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Push notificaties}{48}{section*.46}% 
+\contentsline {paragraph}{Push notificaties}{49}{section*.46}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{A2HS}{49}{section*.47}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Badges}{49}{section*.48}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Voorgrond-detectie }{49}{section*.49}% 
+\contentsline {paragraph}{Voorgrond-detectie }{50}{section*.49}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Toestemmingen}{50}{section*.50}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Besturingssysteem}{50}{section*.51}% 
+\contentsline {subsubsection}{Besturingssysteem}{51}{section*.51}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{offline opslage}{50}{section*.52}% 
+\contentsline {paragraph}{offline opslage}{51}{section*.52}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{Web storage}{51}{section*.53}% 
 \defcounter {refsection}{0}\relax 
@@ -133,17 +133,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{Storage API}{51}{section*.56}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Bestandentoegang}{51}{section*.57}% 
+\contentsline {paragraph}{Bestandentoegang}{52}{section*.57}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Contacten}{52}{section*.58}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Sms}{52}{section*.59}% 
+\contentsline {paragraph}{Sms}{53}{section*.59}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Taakplanning}{53}{section*.60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Input}{53}{section*.61}% 
+\contentsline {subsubsection}{Input}{54}{section*.61}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Touch gebaren}{53}{section*.62}% 
+\contentsline {paragraph}{Touch gebaren}{54}{section*.62}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Klembord toegang}{54}{section*.63}% 
 \defcounter {refsection}{0}\relax 
@@ -151,41 +151,41 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Offline gebruik}{54}{section*.65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Achtergrondsynchronisatie }{54}{section*.66}% 
+\contentsline {paragraph}{Achtergrondsynchronisatie }{55}{section*.66}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Inter-app communicatie}{55}{section*.67}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Betalingen}{55}{section*.68}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Credentials}{55}{section*.69}% 
+\contentsline {paragraph}{Credentials}{56}{section*.69}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Locatie en positionering}{55}{section*.70}% 
+\contentsline {subsubsection}{Locatie en positionering}{56}{section*.70}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Geolocatie}{55}{section*.71}% 
+\contentsline {paragraph}{Geolocatie}{56}{section*.71}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Geofencing}{56}{section*.72}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Toesteloriëntatie }{56}{section*.73}% 
+\contentsline {paragraph}{Toesteloriëntatie }{57}{section*.73}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Toestelbeweging}{57}{section*.74}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{DeviceMotionEvent }{57}{section*.75}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Accelerometer }{57}{section*.76}% 
+\contentsline {subparagraph}{Accelerometer }{58}{section*.76}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Gyroscope }{57}{section*.77}% 
+\contentsline {subparagraph}{Gyroscope }{58}{section*.77}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Magnetometer }{57}{section*.78}% 
+\contentsline {subparagraph}{Magnetometer }{58}{section*.78}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{Lineaire accelerometer}{58}{section*.79}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Nabijheid-sensoren }{58}{section*.80}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Scherm en output}{58}{section*.81}% 
+\contentsline {subsubsection}{Scherm en output}{59}{section*.81}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Virtual en augmented reality }{58}{section*.82}% 
+\contentsline {paragraph}{Virtual en augmented reality }{59}{section*.82}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Fullscreen }{58}{section*.83}% 
+\contentsline {paragraph}{Fullscreen }{59}{section*.83}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Wake lock }{59}{section*.84}% 
 \defcounter {refsection}{0}\relax 
@@ -211,7 +211,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.3}Omzet}{67}{subsection.2.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Bundle size}{67}{subsection.2.3.4}% 
+\contentsline {subsection}{\numberline {2.3.4}Bundle size}{68}{subsection.2.3.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.5}Offline gebruik}{69}{subsection.2.3.5}% 
 \defcounter {refsection}{0}\relax 
@@ -227,7 +227,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Beperkingen van een PWA}{72}{section.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Cameragebruik}{72}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.1}Cameragebruik}{73}{subsection.2.4.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}Controle over platformen}{73}{subsection.2.4.2}% 
 \defcounter {refsection}{0}\relax 
@@ -542,4 +542,6 @@
 \contentsline {section}{\numberline {C.4}Verwachte resultaten}{141}{section.C.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {C.5}Verwachte conclusies}{141}{section.C.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{143}{appendix*.127}% 
 \contentsfinish 

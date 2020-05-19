@@ -1203,4 +1203,10 @@
   url    = {https://trends.google.nl/trends/explore?date=today 5-y&q=progressive web app},
 }
 
+@Online{Gaunt2019c,
+  author = {Gaunt, Matt},
+  date   = {2019-06-07},
+  title  = {Permissions UX},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
