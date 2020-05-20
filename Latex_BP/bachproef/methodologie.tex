@@ -11,17 +11,17 @@
 %% mogelijke manier toegepast hebt om een antwoord te vinden op de
 %% onderzoeksvraag.
 Hoofdstuk 2 was niet enkel onderbouwd aan de hand van de traditionele bronnen van een literatuurstudie. 
-Er werd ook waardevolle informatie verzameld door een interview af te nemen met Thomas Steiner en Wassim Chegham. In deze interviews werd nogmaals duidelijk dat PWA's een heel sterk concept zijn dat relevant zal blijven de komende jaren binnen de developer community.
-
+Er werd ook waardevolle informatie verzameld door een interview af te nemen met Thomas Steiner en Wassim Chegham. In deze interviews werd nogmaals duidelijk dat PWA's een heel sterk concept zijn dat nog jaren relevant zal zijn bij web development.
 %todo ✅ refereren naar de appendix 
 %todo ✅ en de voornaamste conclusie van de interviews samenvatten
-%todo ❌ zijn er zaken van het interview dat ik wil aantonen in mijn POC's  - nee
-Thomas Steiner is een developer advocate bij Google. Hij schrijft regelmatig artikels die gepubliceerd worden op het \href{https://web.dev/authors/thomassteiner/}{web.dev} platform. Deze artikels gaan vaak over moderne web-API's en PWA's. Ook publiceerde hij reeds verschillende artikels op \href{https://medium.com/@tomayac}{Medium}.
+%todo ✅ zijn er zaken van het interview dat ik wil aantonen in mijn POC's  - nee
+Thomas Steiner is een senio web developer advocate bij Google. Dit houdt in dat hij een expert is op het vlak van web development en hij Google vertegenwoordig in artikels en talks. Hij schrijft regelmatig artikels die gepubliceerd worden op het \href{https://web.dev/authors/thomassteiner/}{web.dev} platform. Deze artikels gaan vaak over moderne web-API's en PWA's. Ook publiceerde hij reeds verschillende artikels op \href{https://medium.com/@tomayac}{Medium}.
 
-Wassim Chegham is een google developer expert en is lid van het Angular team. Momenteel is hij werkzaam bij Microsoft als senior cloud advocate. Hij ontwikkeldt ook mee aan verschillende open source projecten. Hij was een google developer expert op het moment dat Google voor het eerst de term PWA gebruikte. Hij gebruikt en onderzoekt PWA's sinds dan.
+Wassim Chegham is een Google developer expert en is lid van het Angular team. Momenteel is hij werkzaam bij Microsoft als senior cloud advocate. Hij ontwikkeldt ook mee aan verschillende open source projecten. Hij was een Google developer expert op het moment dat Google voor het eerst de term PWA gebruikte. Hij gebruikt en onderzoekt PWA's sinds dan.
 
-In beide interviews werden verschillende voordelen aangehaald.  Zowel de ontwikkelkost als het de onafhankelijkheid van app-stores kwamen in beide interviews naar boven. Er werd ook gevraagd naar de nadelen van PWA's. het grootste probleem met PWA's is de verschillende en  inconsistente ondersteuning van de browsers.
-Wassim Chegham maakte ook duidelijk dat PWA's niet enkel een technologie zijn die voor snellere en goedkopere productie kan zorgen. PWA's zijn een unieke technologie die ook andere strategische voordelen heeft voor een organisatie. Het is een grote troef dat een applicatie kan gebruikt worden zonder geïnstalleerd te moeten worden zoals bij een native applicatie. Volgens hem is het op die manier makkelijker om gebruikers te winnen.
+In beide interviews werden verschillende voordelen aangehaald.  Zowel de ontwikkelkost als het de onafhankelijkheid van app-stores kwamen in beide interviews naar boven. Er werd ook gevraagd naar de nadelen van PWA's. het grootste probleem met PWA's is de verschillende en  inconsistente ondersteuning van browsers.
+Wassim Chegham maakte ook duidelijk dat PWA's niet enkel een technologie zijn die voor snellere en goedkopere productie kan zorgen. PWA's zijn een unieke technologie die ook andere strategische voordelen kan hebben voor een organisatie. Het is een grote troef dat een applicatie kan gebruikt worden zonder geïnstalleerd te moeten worden zoals bij een native applicatie. 
+Aanwezigheid in zoekmachines maakt het volgens Wassim Chegham makkelijker om gebruikers te winnen ten opzicht van native applicaties.
 De conclusie van beide ontwikkelaars was dat PWA's een technologie zijn die voor elk project overwogen moet worden. Beide zijn ook overtuigd dat PWA's steeds relevanter zullen worden en niet snel zullen verdwijnen.
 
 De volledige interviews kunnen in de appendix A gevonden worden.
@@ -37,7 +37,7 @@ Na het voeren van de brede literatuurstudie in hoofdstuk 2 zullen er 2 cases uit
 Eerst zal er een bestaande webapplicatie omgevormd worden tot een PWA die installeerbaar is en die offline gebruikt kan worden.
 Dit is een belangrijk onderzoek omdat het aanwezig zijn op het startscherm tot een betere engagement kan leiden. Een gebruiker die een applicatie heeft toegevoegd aan zijn startscherm zal gemiddeld meer en langere sessies hebben dan bij een traditionele webapplicatie.
 \autocite{LePage2020b}
-Door concreet te documenteren welke stappen er nodig zijn zijn om een traditionele web applicatie om te vormen tot een PWA kunnen ontwikkelaars en organisaties beter inschatten hoelang dit zal duren.
+Door concreet te documenteren welke stappen er nodig zijn zijn om een traditionele web applicatie om te vormen tot een PWA, kunnen ontwikkelaars en organisaties beter inschatten hoelang dit zal duren.
 Op basis van deze inschatting kunnen ze een betere beslissing maken als ze dit willen implementeren of niet.
 Om een website te kunnen installeren op een toestel moet er voldaan worden aan drie voorwaarden:
 \begin{itemize}
@@ -54,20 +54,18 @@ Dit zal gecontroleerd worden aan de hand van een lighthouse audit.
 
 Vervolgens zal er ook een proof-of-concept uitgewerkt worden waarin moderne web-technologieën gebruikt worden om een PWA te ontwikkelen met een video-bel functionaliteit. In deze proof of concept zal onderzocht worden als een PWA een native waardige ervaring kan bieden en als er gevallen zijn waar een gebruiker een PWA verkiest boven een native applicatie. De concepten besproken in hoofdstuk 2 zullen in deze proof-of-concept ook toegepast worden, voorbeelden hiervan zijn de application shell en  progressive enhancement.
 
-Beide applicaties zullen getest worden door de tester, vervolgens zullen er enkele vragen gesteld worden over de ervaring van de gebruiker.
+Beide applicaties zullen getest worden aan de hand van user testen, vervolgens zullen deze test-personen bevraagd worden over de ervaring die ze hadden in de PWA's.
 Door deze vragen te stellen wordt er verwacht dat volgende inzichten zullen verworven worden.
 \begin{itemize}
 	\item Wat weet de gebruiker over wat een webapplicatie kan. Als een gebruiker niet weet dat het web een bepaalde functionaliteit ondersteund, zal hij hier ook geen webapplicatie voor zoeken maar een native applicatie.
 	\item Welke rechten krijgt een PWA gemiddeld krijgt van een gebruiker.
 	\item Hoe vaak wordt een PWA toegevoegd aan het startscherm. Deze vraag werd ook gesteld in de interviews, maar zowel Thomas Steiner als Wassim Chegham kon hier geen antwoord op geven.
-	\item Een PWA verkozen wordt boven een native app. als de gebruiker niet weet wat een PWA is.
-	\item EEn PWA verkozen wordt boven een native app, als de gebruiker alle voordelen van een PWA kent.	
-	\item Een PWA kan voldoen aan de verwachtingen van een gebruiker van een native app.
+	\item Een PWA verkozen wordt boven een native applicatie. als de gebruiker niet weet wat een PWA is.
+	\item EEn PWA verkozen wordt boven een native applicatie, als de gebruiker alle voordelen van een PWA kent.	
+	\item Een PWA kan voldoen aan de verwachtingen van een gebruiker heeft van een native applicatie.
 \end{itemize}
 
 %todo appendix toevoegen
 De gestelde vragen en de verkregen antwoorden kunnen in appendix C gevonden worden.
-
-
 Aan de hand van de literatuurstudie, de interviews en de praktische onderzoeken zullen de onderzoeksvragen beantwoord worden
 
