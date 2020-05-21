@@ -1,139 +1,33 @@
-%===============================================================================
-% LaTeX sjabloon voor de bachelorproef toegepaste informatica aan HOGENT
-% Meer info op https://github.com/HoGentTIN/bachproef-latex-sjabloon
-%===============================================================================
-
 \documentclass{bachproef-tin}
 
-\usepackage{hogent-thesis-titlepage} % Titelpagina conform aan HOGENT huisstijl
-
-%package for image floating/ placement
+\usepackage{hogent-thesis-titlepage} 
 \usepackage{float}
-
-
-%package voor kleuren
 \usepackage{xcolor}
-
-%package voor een kleur van een tabel in te stellen
 \usepackage{colortbl}
-
-%package om tabel op meerdere pagina's te krijge
 \usepackage{longtable}
+\input{codeSnippetsSetup}
 
 
-
-
-%%---------- Documenteigenschappen ---------------------------------------------
-
-
-% De titel van het rapport/bachelorproef
 \title{De interactie van een progressive web application met het besturingssysteem en een proof-of-concept}
-
-% Je eigen naam
 \author{Tijs Martens}
-
-% De naam van je promotor (lector van de opleiding)
 \promotor{Karine Samyn}
-
-% De naam van je co-promotor. Als je promotor ook je opdrachtgever is en je
-% dus ook inhoudelijk begeleidt (en enkel dan!), mag je dit leeg laten.
 \copromotor{Simon Floré}
-
-% Indien je bachelorproef in opdracht van/in samenwerking met een bedrijf of
-% externe organisatie geschreven is, geef je hier de naam. Zoniet laat je dit
-% zoals het is.
 \instelling{Bothrs}
-
-% Academiejaar
 \academiejaar{2019 - 2020}
-
-% Examenperiode
-%  - 1e semester = 1e examenperiode => 1
-%  - 2e semester = 2e examenperiode => 2
-%  - tweede zit  = 3e examenperiode => 3
 \examenperiode{2}
 
-%===============================================================================
-% Inhoud document
-%===============================================================================
-
-
-\usepackage{listings}
-\usepackage{color}
-
-\definecolor{dkgreen}{rgb}{0,0.6,0}
-\definecolor{gray}{rgb}{0.5,0.5,0.5}
-\definecolor{mauve}{rgb}{0.58,0,0.82}
-
-
-
-% bepalen hoe javascript code er moet uitzien
-\lstdefinelanguage{JavaScript}{
-	keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break, let, const},
-	keywordstyle=\color{blue}\bfseries,
-	ndkeywords={class, export, boolean, throw, implements, import, this},
-	ndkeywordstyle=\color{darkgray}\bfseries,
-	identifierstyle=\color{black},
-	sensitive=false,
-	comment=[l]{//},
-	morecomment=[s]{/*}{*/},
-	commentstyle=\color{purple}\ttfamily,
-	stringstyle=\color{red}\ttfamily,
-	morestring=[b]',
-	morestring=[b]"
-}
-
-% bepalen hoe een code block er moet uitzien
-\lstset{
-	language=JavaScript,
-	extendedchars=true,
-	basicstyle=\footnotesize\ttfamily,
-	showstringspaces=false,
-	showspaces=false,
-	numbers=left,
-	numberstyle=\footnotesize,
-	numbersep=9pt,
-	tabsize=2,
-	breaklines=true,
-	showtabs=false,
-	captionpos=b
-}
-
-
-
 \begin{document}
-
-%---------- Taalselectie -------------------------------------------------------
-% Als je je bachelorproef in het Engels schrijft, haal dan onderstaande regel
-% uit commentaar. Let op: de tekst op de voorkaft blijft in het Nederlands, en
-% dat is ook de bedoeling!
-
-%\selectlanguage{english}
-
-%---------- Titelblad ----------------------------------------------------------
-
  \inserttitlepage
 
-%---------- Samenvatting, voorwoord --------------------------------------------
 \usechapterimagefalse
 \input{voorwoord}
 \input{samenvatting}
 
-%---------- Inhoudstafel -------------------------------------------------------
-\pagestyle{empty} % Geen hoofding
-\tableofcontents  % Voeg de inhoudstafel toe
-\cleardoublepage  % Zorg dat volgende hoofstuk op een oneven pagina begint
-\pagestyle{fancy} % Zet hoofding opnieuw aan
 
-%---------- Lijst figuren, afkortingen, ... ------------------------------------
-
-% Indien gewenst kan je hier een lijst van figuren/tabellen opgeven. Geef in
-% dat geval je figuren/tabellen altijd een korte beschrijving:
-%
-%  \caption[korte beschrijving]{uitgebreide beschrijving}
-%
-% De korte beschrijving wordt gebruikt voor deze lijst, de uitgebreide staat bij
-% de figuur of tabel zelf.
+\pagestyle{empty}
+\tableofcontents
+\cleardoublepage 
+\pagestyle{fancy}
 
 \listoffigures
 \listoftables
@@ -141,115 +35,33 @@
 % Als je een lijst van afkortingen of termen wil toevoegen, dan hoort die
 % hier thuis. Gebruik bijvoorbeeld de ``glossaries'' package.
 % https://www.overleaf.com/learn/latex/Glossaries
-\chapter*{Definities}
-\begin{table}[H]
-	\begin{tabular}{p{3cm}p{10cm}}
-		A2HS & 'Add to homescreen' is een functionaliteit waarbij een PWA kan toegevoegd worden aan het startscherm van een toestel.\\
-		Third party package & Een herbruikbare functionaliteit die gemaakt is door een onafhankelijke partij.\\
-		Native applicatie & Een applicatie die ontwikkeld is met de technologieën specifiek voor een bepaald besturingssysteem. Deze applicaties kunnen gedownload worden van een app-store.\\
-		HTTPS & Een HTTPS-verbinding is een verbinding tussen de client en de server waarbij de data die verstuurd wordt versleuteld is. \\
-		JSON &  JSON of Javascript Object Notation is een bestandsformaat dat vaak gebruikt wordt om data tussen een server en een client te delen. \\
-		API &  API of Application Programming Interface. Een API zorgt ervoor dat twee programma’s met elkaar kunnen communiceren.\\
-		DOM & DOM of Document Object Model is de structuur waaruit een Html-bestand opgebouwd is. \\
-		Native applicatie &  Een native applicatie is een applicatie die ontwikkeld is voor een specifiek platform.\\
-		Low end & Low end toestellen zijn toestellen die minder goede prestaties zullen leveren dan een gemiddeld toestel. \\
-		HDR & HDR of High Dynamic Range is een techniek waarbij meerdere foto’s genomen worden op een heel korte tijd, deze worden dan samengevoegd tot één foto. Dit wordt gedaan om de kwaliteit van de foto te verhogen. \\
-		IDE & IDE of Integrated Development Environment is een verzameling van tools die het ontwikkelen van software makkelijker maakt.
-	\end{tabular}	
-	\caption{definities }
-\end{table}
-\newpage
 
-%---------- Kern ---------------------------------------------------------------
-
-% De eerste hoofdstukken van een bachelorproef zijn meestal een inleiding op
-% het onderwerp, literatuurstudie en verantwoording methodologie.
-% Aarzel niet om een meer beschrijvende titel aan deze hoofstukken te geven of
-% om bijvoorbeeld de inleiding en/of stand van zaken over meerdere hoofdstukken
-% te verspreiden!
+\input{definities}
 
 \input{inleiding}
+
 \input{standvanzaken}
+
 \input{methodologie}
+
 \input{TransformerenNaarEenPWA}
+
 \input{proof-of-concept}
 
-% Voeg hier je eigen hoofdstukken toe die de ``corpus'' van je bachelorproef
-% vormen. De structuur en titels hangen af van je eigen onderzoek. Je kan bv.
-% elke fase in je onderzoek in een apart hoofdstuk bespreken.
-
-%\input{...}
-%\input{...}
-%...
-
 \input{conclusie}
-
-%%=============================================================================
-%% Bijlagen
-%%=============================================================================
 
 \appendix
 \renewcommand{\chaptername}{Appendix}
 \input{interview}
-
-
-\chapter{Performantietesten video stream}
-
-\section{Code voor het testen van de video streams}
-
-\begin{lstlisting}
-const measureFrames = (vid, vidname) => {
-  let timer = 0;
-  setInterval(() => {
-    timer++;
-    let fps;
-    if (vid) {
-      fps = vid.webkitDecodedFrameCount / timer;
-      const _stats = { ...stats };
-      if (vidname === "yourVid") {
-        _stats.yourVid.fps = fps;
-        _stats.yourVid.dropped = vid.webkitDroppedFrameCount;
-        _stats.yourVid.resolution = `${vid.videoWidth}x${vid.videoHeight}`;
-      } else {
-        _stats.receivingVid.fps = fps;
-        _stats.receivingVid.dropped = vid.webkitDroppedFrameCount;
-        _stats.receivingVid.resolution = `${vid.videoWidth}x${vid.videoHeight}`;
-      }
-      _stats.timePassed = timer;
-      setStats(_stats);
-    }
-  }, 1000);
-};
-\end{lstlisting}
-
-\section{Screenshots van de resultaten}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=120mm]{./img/statsPWA}		
-	\caption{statistieken proof-of-concept}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=120mm]{./img/statsZoom}		
-	\caption{statistieken zoom}
-\end{figure}
-
+\input{performanceStreaming}
 \input{userTesten}
 
-%%---------- Onderzoeksvoorstel -----------------------------------------------
 
-\chapter{Onderzoeksvoorstel}
 
-Het onderwerp van deze bachelorproef is gebaseerd op een onderzoeksvoorstel dat vooraf werd beoordeeld door de promotor. Dat voorstel is opgenomen in deze bijlage.
 
-% Verwijzing naar het bestand met de inhoud van het onderzoeksvoorstel
+
 \input{../voorstel/voorstel-inhoud}
 
-%%---------- Andere bijlagen --------------------------------------------------
-
-
-%%---------- Referentielijst --------------------------------------------------
 \printbibliography[heading=bibintoc]
 
 \end{document}
