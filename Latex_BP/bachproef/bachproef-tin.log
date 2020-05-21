@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  21 MAY 2020 17:45
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  21 MAY 2020 18:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2398,7 +2398,7 @@ Underfull \vbox (badness 3514) has occurred while \output is active []
 
  [116]
 [117] [118]
-Underfull \vbox (badness 3746) has occurred while \output is active []
+Underfull \vbox (badness 4403) has occurred while \output is active []
 
  [119])
 (./conclusie.tex [120]
