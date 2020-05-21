@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  21 MAY 2020 07:25
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  21 MAY 2020 14:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1889,7 +1889,7 @@ Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
  [29]
 Missing character: There is no ’ in font ptmr8t!
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 110.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 108.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
@@ -1900,7 +1900,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 111.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 109.
 Missing character: There is no “ in font ec-lmtt10!
 Missing character: There is no ” in font ec-lmtt10!
  [30]
@@ -1945,7 +1945,7 @@ Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no – in font ptmr8t!
 
-Overfull \hbox (25.95328pt too wide) in paragraph at lines 305--327
+Overfull \hbox (25.95328pt too wide) in paragraph at lines 304--326
  [][] 
  []
 
@@ -1967,7 +1967,7 @@ Missing character: There is no ” in font ptmri8t!
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
 
-Overfull \hbox (0.54924pt too wide) in paragraph at lines 359--360
+Overfull \hbox (0.54924pt too wide) in paragraph at lines 358--359
 \T1/ptm/m/n/12 Chrome dev sum-mit is een con-fe-ren-tie voor we-bont-wik-ke-laa
 rs ge-or-ga-ni-seerd door Google. 
  []
@@ -2297,33 +2297,33 @@ Missing character: There is no ’ in font ptmr8t!
 [91]
 File: ./img/dart1.jpg Graphic file (type bmp)
 <./img/dart1.jpg>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [92]
 File: ./img/dart2.jpg Graphic file (type bmp)
 <./img/dart2.jpg>
+ [92]
 File: ./img/dart3.jpg Graphic file (type bmp)
 <./img/dart3.jpg>
+File: ./img/dart4.jpg Graphic file (type bmp)
+<./img/dart4.jpg>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [93]
-File: ./img/dart4.jpg Graphic file (type bmp)
-<./img/dart4.jpg>
-
-[94]
-Overfull \hbox (28.60458pt too wide) in paragraph at lines 70--71
+Overfull \hbox (28.60458pt too wide) in paragraph at lines 66--67
 []\T1/ptm/m/n/12 De code van deze ap-pli-ca-tie kan ge-von-den wor-den via git-
 hub: https://github.com/TijsM/Dart501 
  []
 
-[95] [96]
+[94] [95]
 File: ./img/lighthouse_dart.png Graphic file (type bmp)
 <./img/lighthouse_dart.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
- [97]) (./proof-of-concept.tex [98]
+
+[97]) (./proof-of-concept.tex [98]
 Hoofdstuk 5.
 [99
 
@@ -2400,18 +2400,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [117]
 [118] [119]) (./conclusie.tex [120]
 Hoofdstuk 6.
-[121
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [121
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [122])
-(./interview.tex [123] [124
-
-]
+[123] (./interview.tex [124]
 B"ylage A.
 Missing character: There is no ’ in font ptmr8t!
-[125] [126]
+[125
+
+] [126]
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
  [127] [128]
@@ -2566,10 +2569,10 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43854 strings out of 492916
- 810167 string characters out of 6133345
- 1453486 words of memory out of 5000000
- 47202 multiletter control sequences out of 15000+600000
+ 43852 strings out of 492916
+ 810145 string characters out of 6133345
+ 1479543 words of memory out of 5000000
+ 47200 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,80p,1496b,7227s stack positions out of 5000i,500n,10000p,200000b,80000s

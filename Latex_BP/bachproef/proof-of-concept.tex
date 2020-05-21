@@ -2,41 +2,41 @@
 \label{ch:Proof-of-concept}
 
 
-In deze proof-of-concept zal er onderzocht worden als een PWA kan voldoen aan het verwachtingspatroon van een gebruiker op een native applicatie.
+In deze proof-of-concept zal er onderzocht worden of een PWA kan voldoen aan het verwachtingspatroon van een gebruiker van een native applicatie.
 
-Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een andere persoon zal kunnen uitnodigen om een video gesprek te hebben. 
+Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een andere persoon kan uitnodigen om een videogesprek te hebben. 
 
  \section{Analyse}
 	 \subsection{Functionele requirements}
 	 	\subsubsection{Authenticatie}
 		 	\begin{itemize}
-			 	\item Als een gebruiker wil ik me kunnen registreren met externe platformen (facebook, google, ...) zodat ik minder wachtwoorden hoef te onthouden.
-			 	\item Als een aangemelde gebruiker wil ik aangemeld blijven als ik de applicatie sluit zodat ik tijd bespaar door niet niet bij elk gebruik te moeten aanmelden.
+			 	\item Als een gebruiker wil ik me kunnen registreren met externe platformen (Facebook, Google, ...) zodat ik minder wachtwoorden hoef te onthouden.
+			 	\item Als een aangemelde gebruiker wil ik aangemeld blijven als ik de applicatie sluit zodat ik tijd bespaar door  niet bij elk gebruik te moeten aanmelden.
 		 	\end{itemize}
 		 	
 		 \subsubsection{Bellen}
 			  \begin{itemize}
-			   	\item Als een aangemelde gebruiker wil ik een 'room' aanmaken waar ik een video-gesprek kan starten zodat ik in contact kan blijven met iemand waar ik niet fysiek bij kan zijn.
-			   	\item Als een aangemelde gebruiker wil ik eenvoudig een link kunnen kopiëren naar mijn room zodat ik deze kan delen met iemand.
+			   	\item Als een aangemelde gebruiker wil ik een 'room' aanmaken waar ik een videogesprek kan starten zodat ik in contact kan blijven met iemand waar ik niet fysiek bij kan zijn.
+			   	\item Als een aangemelde gebruiker wil ik eenvoudig een link kunnen kopiëren naar mijn 'room' zodat ik deze kan delen met iemand.
 			   	\item Als een aangemelde gebruiker wil ik mijn 'rooms' kunnen beheren.
 			   	\item Als een aangemelde gebruiker wil ik een notificatie ontvangen als iemand in mijn 'room' komt.
 			  \end{itemize}
 	 	
 	 	\subsubsection{Gebeld worden}
 	 	 \begin{itemize}
-				\item Als een gebruiker wil ik, als ik een link van een room ontvang, eenvoudig deelnemen aan een videogesprek.
+				\item Als een gebruiker wil ik, als ik een link van een 'room' ontvang, eenvoudig deelnemen aan een videogesprek.
 	 	 \end{itemize}
 	
 		\subsubsection{Algemeen}
 	 		\begin{itemize}
-	 			\item Als een gebruiker wil een de toepassing toevoegen aan het startscherm van mijn toestel zodat ik deze snel kan openen.
-	 			\item Als een aangemelde gebruiker wil ik de applicatie kunnen openen zonder internetverbinding zodat ik mijn overal en altijd mijn rooms kan bekijken.
+	 			\item Als een gebruiker wil ik de toepassing toevoegen aan het startscherm van mijn toestel zodat ik deze snel kan openen.
+	 			\item Als een aangemelde gebruiker wil ik de applicatie kunnen openen zonder internetverbinding zodat ik overal en altijd mijn rooms kan bekijken.
 			\end{itemize}
 	 
 	\subsection{Niet-functionele requirements}
 		\begin{itemize}
 			\item Als een gebruiker wil ik een video-gesprek kunnen hebben met een zo laag mogelijke vertraging zodat ik geen problemen heb met communiceren.
-			\item Als een gebruiker wil ik video-gesprekken voeren op een veilige manier zodat niemand informatie kan achterhalen die ik niet publiek wou maken.
+			\item Als een gebruiker wil ik videogesprekken voeren op een veilige manier zodat niemand informatie kan achterhalen die ik niet publiek wou maken.
 		\end{itemize} 
 		
 
@@ -86,7 +86,7 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een and
 	
 		De applicatie voldoet aan alle criteria om geïnstalleerd te kunnen worden op toestellen. Echter zal de gebruiker geen standaard melding te zien krijgen om de applicatie te installeren.		
 		
-		Als de applicatie de gebruiker vraagt om de de applicatie toe te voegen aan het startscherm en de gebruiker staat dit niet toe, zal het beforeInstallPrompt nooit meer opnieuw opgeroepen worden. Deze melding kan dus maar 1 maal getoond worden.
+		Als de applicatie de gebruiker vraagt om de applicatie toe te voegen aan het startscherm en de gebruiker staat dit niet toe, zal het beforeInstallPrompt nooit meer opnieuw opgeroepen worden. Deze melding kan dus maar 1 maal getoond worden.
 		
 		Om de kans te verhogen dat de gebruiker de applicatie toevoegt aan het startscherm zal deze melding enkel getoond worden als de gebruiker daar expliciet naar vraagt.
 		\autocite{Mclachlan2020}
@@ -113,30 +113,30 @@ const addToHome = () => {
 		\subsubsection{Cache strategieën}
 		
 			\subparagraph{Cache first}
-				Er zal eerst naar het cache geheugen gekeken worden, als het gevraagde bestand hier niet aanwezig is zal er een netwerk verzoek verstuurd worden.
+				Er zal eerst naar het cache-geheugen gekeken worden. Als het gevraagde bestand hier niet aanwezig is, zal er een netwerkverzoek verstuurd worden.
 				
-				Dit is ee populaire strategie als de data weinig veranderd. 
+				Dit is een populaire strategie als de data weinig verandert. 
 			\subparagraph{Network first}
-				Er zal eerst een netwerk verzoek verstuurd worden, als deze niet succesvol was zal er gekeken worden als het bestand in het cache geheugen aanwezig is. 
+				Er zal eerst een netwerkverzoek verstuurd worden. Als deze niet succesvol was, zal er gekeken worden of het bestand in het cache-geheugen aanwezig is. 
 				
-				Dit is een populaire strategie als de data vaak veranderd.
+				Dit is een populaire strategie als de data vaak verandert.
 			\subparagraph{Network only}
 				Deze strategie wordt toegepast als er geen caching opgezet wordt. 
 			\subparagraph{Cache only}
-				Deze strategie zal nooit een netwerkverzoek versturen. Er kan enkel data opgehaald worden via het cache geheugen.
+				Deze strategie zal nooit een netwerkverzoek versturen. Er kan enkel data opgehaald worden via het cache-geheugen.
 				
-				Dit cache geheugen moet door de applicatie gevuld worden.
+				Dit cache-geheugen moet door de applicatie gevuld worden.
 			\subparagraph{Stale-While-Revalidate}
-				De staleWhileRevalidate strategie houdt in dat eerst het gecachete bestand gebruikt wordt, vervolgens wordt er een netwerkverzoek verstuurd. Als het lokale bestand en het bestand van de server niet volledig gelijk zijn, zal het gecachte bestand overschreven worden. En zal de content op in de applicatie aangepast worden.
+				De staleWhileRevalidate strategie houdt in dat eerst het gecachete bestand gebruikt wordt. Vervolgens wordt er een netwerkverzoek verstuurd. Als het lokale bestand en het bestand van de server niet volledig gelijk zijn, zal het gecachete bestand overschreven worden en zal de content  in de applicatie aangepast worden.
 				
-				Dit is de meest populaire strategie omdat de pagina snel geladen wordt, en de inhoudt is up to date.
+				Dit is de meest populaire strategie omdat de pagina snel geladen wordt en de inhoud is up-to-date.
 
 		\subsubsection{Statisch cachen}
 			Statisch cachen is het cachen van bestanden die nodig zijn voor het opbouwen van de webapplicatie. Voorbeelden hiervan zijn foto's, style sheets, javascript bestanden, html bestanden, ...
 			
 			Op deze manier zal ook de application shell offline beschikbaar zijn.
 			
-			Door deze bestanden te cachen wordt de applicatie offline beschikbaar.
+			Door deze bestanden te cachen, wordt de applicatie offline beschikbaar.
 			
 			In deze applicatie werd dit bereikt door \href{https://developers.google.com/web/tools/workbox}{workbox} te gebruiken.
 			
@@ -152,7 +152,7 @@ workbox.precaching.precacheAndRoute([
 			
 			Bestanden die hier toegoevoegd worden zullen geleverd worden aan de hand van de 'cache first' strategie. Dit wil zeggen dat dit bestand enkel aan de server gevraagd zal worden als het niet beschikbaar is in het cache geheugen.
 			
-			Een andere manier waarop statische caching kan gedaan worden is aan de van de 'registerRoute' die Workbox aanbiedt. 
+			Een andere manier waarop statische caching kan gedaan worden, is aan de hand van de 'registerRoute' die Workbox aanbiedt. 
 			
 \begin{lstlisting}
 workbox.routing.registerRoute(
@@ -174,10 +174,10 @@ workbox.routing.registerRoute(
 			In dit voorbeeld wordt de Stale-While-Revalidate strategie toegepast.
 			\autocite{Workbox2020b}
 			
-		\subsubsection{dynamisch cachen}
+		\subsubsection{Dynamisch cachen}
 			Dynamisch cachen houdt in dat data die de gebruiker vraagt ook offline opgeslagen wordt. Dit zullen vaak requests van REST-API's zijn.
 			
-			In deze applicatie werd dynamisch cachen toegepast om de laatste versie van de rooms nog steeds te tonen aan de gebruiker, ookal als deze offline.
+			In deze applicatie werd dynamisch cachen toegepast om de laatste versie van de rooms nog steeds te tonen aan de gebruiker, ook al is deze offline.
 			
 \begin{lstlisting}
 workbox.routing.registerRoute(
@@ -188,22 +188,22 @@ workbox.routing.registerRoute(
 );
 \end{lstlisting}
 		
-		Opnieuw wordt er gebruik gemaakt van een regular expression om workbox duidelijk te maken welke request er offline beschikbaar moet zijn.
+		Opnieuw wordt er gebruik gemaakt van een regular expression om Workbox duidelijk te maken welke request er offline beschikbaar moet zijn.
 
 	\subsection{Authenticatie}
 		
-		Het invullen van van een form om een mobiel toestel is voor veel gebruikers een relatief grote inspanning.
+		Het invullen van een formulier op een mobiel toestel is voor veel gebruikers een relatief grote inspanning.
 		
-		In het artikel van Nick Babich wordt de term "interaction cost" gebruikt. De interaction cost is de som van alle cognitieve en fysieke inspanningen die een gebruiker moet leveren om tot zijn doel te komen. Hoe lager de interaction cost hoe beter.
+		In het artikel van Nick Babich wordt de term 'interaction cost' gebruikt. De interaction cost is de som van alle cognitieve en fysieke inspanningen die een gebruiker moet leveren om tot zijn doel te komen. Hoe lager de interaction cost hoe beter.
 		\autocite{Babich2018}
 		
-		Het invullen van formulieren met data heeft een hoge interaction cost. Er moet veel getypt worden (fysieke inspanning). De gebruiker moet hierbij aandachtig zijn om zeker te zijn dat hij geen fouten maakt (cognitieve inspanning). het is dus belangrijk om de gebruiker hiervan te besparen.
+		Het invullen van formulieren met data heeft een hoge interaction cost. Er moet veel getypt worden (fysieke inspanning). De gebruiker moet hierbij aandachtig zijn om zeker te zijn dat hij geen fouten maakt (cognitieve inspanning). Het is dus belangrijk om de gebruiker hiervan te besparen.
 		
-		Dit kan gedaan worden door de gebruiker te laten registreren via een ander platform, hierbij moet er vaak helemaal niet, of veel minder getypt worden.
+		Dit kan gedaan worden door de gebruiker te laten registreren via een ander platform. hierbij moet er vaak helemaal niet, of toch veel minder getypt worden.
 		
 		Op deze applicatie kan de gebruiker zich aanmelden met Google en Facebook.
 		
-		Dit werd bereikt door gebruikt te maken van "Firebase authentication".
+		Dit werd bereikt door gebruik te maken van "Firebase authentication".
 		
 		
 \begin{lstlisting}
@@ -215,7 +215,7 @@ export const authWithGoogle = () => {
 };
 \end{lstlisting}
 	
-		Deze code geeft alle relevante informatie terug die google over de gebruiker heeft. Dit bevat volgende eigenschappen:
+		Deze code geeft alle relevante informatie terug die Google over de gebruiker heeft en bevat volgende eigenschappen:
 		\begin{itemize}
 			\item Voornaam
 			\item Familienaam
@@ -241,7 +241,7 @@ export const authWithGoogle = () => {
 		Dit werd bekomen door de Share API te gebruiken.
 		Op mobiele toestellen zal deze een native menu openen waar de gebruiker de link kan delen via verschillende platformen.
 		
-		Echter bieden enkel chrome voor android en safari dit aan. Er kan er dus niet vanuit gegaan worden dat de gebruiker dit kan implementeren.
+		Echter, enkel Chrome voor Android en Safari bieden dit aan. Er kan dus niet vanuit gegaan worden dat de gebruiker dit kan gebruiken.
 
 \begin{lstlisting}
  const shareData = {
@@ -269,7 +269,7 @@ export const authWithGoogle = () => {
 		
 		Deze web-API werd gebruikt om eenvoudig de link van de room te kunnen delen met een persoon die gecontacteerd zal worden.
 		
-		Volgende code zal de link genereren die de uitgenodigde persoon kan gebruiken en zal deze in het klembord van de gebruiker plaatsen.
+		Volgende code zal de link genereren die de uitgenodigde persoon kan gebruiken. Deze link zal in het klembord van de gebruiker geplaatst worden.
 		
 		De eerste keer dat dit proces uitgevoerd wordt zal de gebruiker expliciet toestemming moeten geven om het klembord te mogen gebruiken.
 
@@ -285,8 +285,8 @@ navigator.clipboard
 		\subsubsection{Progressive enhancement}
 
 			Bij deze feature werd er progressive enhancement toegepast. 
-			In het beste geval wordt het native deel-menu getoond, als dit niet beschikbaar is zal de link gekopiëerd worden in het klembord.
-			Als ook dit niet beschikbaar is, of de gebruiker heeft geen toestemming gegeven zal er een boodschap getoond worden waar de gebruiker de link zelf kan kopiëren en delen.
+			In het beste geval wordt het native deelmenu getoond. Als dit niet beschikbaar, is zal de link gekopieerd worden in het klembord.
+			Als ook dit niet beschikbaar is, of de gebruiker heeft geen toestemming gegeven, zal er een boodschap getoond worden waar de gebruiker de link zelf kan kopiëren en delen.
 		
 \begin{lstlisting}
 if('share' in navigator){jesu
@@ -308,12 +308,12 @@ else{
 	
 		Een van de grote voordelen van een PWA ten opzichte van een traditionele website is dat het push notificaties kan sturen naar de gebruiker.
 		
-		Er wordt aangeraden om de "web-push" library te gebruiken om push notificaties te implementeren
+		Er wordt aangeraden om de 'web-push' library te gebruiken om push notificaties te implementeren
 		
-		In deze applicatie worden push notificaties gebruik in twee use-cases. 
+		In deze applicatie worden push notificaties gebruikt in twee use-cases. 
 		\begin{itemize}
-			\item 	Als een bezoeker in een room komt, zal de eigenaar van die room een meding krijgen
-			\item 	De administrator van de applicatie kan een notificatie naar alle gebruikers versturen aan de hand vanuit een admin scherm
+			\item 	Als een bezoeker in een room komt, zal de eigenaar van die room een melding krijgen.
+			\item 	De administrator van de applicatie kan een notificatie naar alle gebruikers versturen vanuit een admin scherm.
 		\end{itemize}	
 		
 		\paragraph{Abbonneren op push notificaties}
@@ -327,7 +327,7 @@ let pushSub = await sw.pushManager.subscribe({
 })
 \end{lstlisting}
 
-			Dit stukje code zal een subscription teruggeven dat opgeslagen moet worden in de databank bij de gebruiker. deze subscription is uniek voor de gebruiker, de browser en het toestel.
+			Dit stukje code zal een subscription teruggeven dat opgeslagen moet worden in de databank bij de gebruiker. Deze subscription is uniek voor de gebruiker, de browser en het toestel.
 			\autocite{Gaunt2019a}
 			
 			voorbeeld van een subscription:
@@ -349,9 +349,9 @@ let pushSub = await sw.pushManager.subscribe({
 			
 			Vapid keys of application server keys zijn uniek voor de server.
 			
-			Deze vapid keys zorgen ervoor dat de push services van de verschillende browsers weet van welke applicatie de notificaties afkomstig zijn. Hierdoor kan het ook de applicatie beveiligen en enkel deze server toestaan notificaties te sturen naar de applicatie.
+			Deze vapid keys zorgen ervoor dat de push services van de verschillende browsers weten van welke applicatie de notificaties afkomstig zijn. Hierdoor kan het ook de applicatie beveiligen en enkel deze server toestaan notificaties te sturen naar de applicatie.
 			
-			Elke browser heeft zijn eigen push service waar een applicatie server aan kan vragen om een notificiatie te sturen naar een bepaald toestel.
+			Elke browser heeft zijn eigen push service waar een applicatie server aan kan vragen om een notificatie te sturen naar een bepaald toestel.
 			\autocite{Gaunt2020}
 			
 			Deze vapid keys kunnen in de applicatie server gegenereerd worden aan de hand van volgende code:
@@ -362,7 +362,7 @@ console.log(push.generateVAPIDKeys)
 
 			Dit zal een publieke en een private sleutel weergeven in de console. Deze moeten dan op een veilige plaats opgeslagen worden.
 			
-			Eens de server de Vapid keys heeft kan deze een notificatie verzenden.
+			Eens de server de Vapid keys heeft, kan deze een notificatie verzenden.
 			
 \begin{lstlisting}
 push.setVapidDetails(
@@ -374,13 +374,13 @@ push.setVapidDetails(
  push.sendNotification( sub,  JSON.stringify({payload})
 \end{lstlisting}
 
-			Er moet ook een geldig email adres opgegeven worden. Dit email adres zal gebruikt worden door de push service als er problemen zijn met jouw applicatie.
+			Er moet ook een geldig e-mailadres opgegeven worden. Dit e-mailadres zal gebruikt worden door de push service als er problemen zijn met jouw applicatie.
 			
 			De push notificatie kan dan verzonden worden met eventueel extra informatie in de payload.
 			
 		\paragraph{Service worker}
 		
-			Op basis van de subscription die in de backend werd verzonden zal de service worker van de juiste gebruiker geactiveerd worden.
+			Op basis van de subscription die in de backend werd verzonden, zal de service worker van de juiste gebruiker geactiveerd worden.
 			
 			De service worker zal aan de hand van een 'eventListener' geactiveerd worden en een notificatie tonen op het toestel.
 			
@@ -391,7 +391,7 @@ self.addEventListener("push", function (e) {
 }
 \end{lstlisting}
 			
-			Als de backend extra informatie heeft meegegeven kan deze uitgelezen worden.
+			Als de backend extra informatie heeft meegegeven, dan kan deze uitgelezen worden.
 \begin{lstlisting}
   const payload = JSON.parse(e.data.text())
 \end{lstlisting}
@@ -422,14 +422,14 @@ options = {
 		
 		Om een ervaring aan te bieden zoals op native applicaties is het belangrijk om de gebruiker aangemeld te houden tussen sessies.
 		
-		Als een gebruiker zich aanmeldt, wordt deze opgeslagen in het local storage.
+		Als een gebruiker zich aanmeldt, wordt deze opgeslagen in de local storage.
 		
-		Zolang de gebruiker het local storage niet manueel verwijdert zal dit blijven bestaan. 
+		Zolang de gebruiker de local storage niet manueel verwijdert, zal dit blijven bestaan. 
 		\autocite{Mozilla2020d}
 		
 	\subsection{Web RTC}
 		
-		Web RTC is een verzameling van Web API's die real time commicatie op het web mogelijk maken. 
+		Web RTC is een verzameling van Web API's die real time communicatie  op het web mogelijk maken. 
 		
 		In deze applicatie werd Web RTC gebruikt om:
 		\begin{itemize}
@@ -439,10 +439,10 @@ options = {
 		\end{itemize} 
 		\autocite{webRTC2020}
 		
-		Web RTC maakt gebruik van een peer-to-peer connectie tussen de twee gebruikers, tijdens het bellen is er dus geen server nodig. Echter, er is wel een server nodig om de connectie tussen beide tot stand te brengen.
+		Web RTC maakt gebruik van een peer-to-peer connectie tussen de twee gebruikers. Tijdens het bellen is er dus geen server nodig. Echter, er is wel een server nodig om de connectie tussen beide tot stand te brengen.
 		
-		\paragraph{video-stream}
-			De video-stream zal verkregen worden via het navigator object. Bij het opvragen van een video-stream zal de browser automatisch toestemming vragen aan de gebruiker als de camera en de microfoon gebruikt mogen worden.
+		\paragraph{Video-stream}
+			De video-stream zal verkregen worden via het navigator object. Bij het opvragen van een video-stream zal de browser automatisch toestemming vragen aan de gebruiker of de camera en de microfoon gebruikt mogen worden.
 			
 			Als de applicatie toestemming gekregen heeft wordt er een video-stream verkregen.
 			Deze stream zal opgeslagen worden in de state van de applicatie en zal in een HTML-5 video element geplaatst worden.
@@ -460,8 +460,8 @@ navigator.mediaDevices.getUserMedia({
 \end{lstlisting}
 
 
-		\paragraph{peer-to-peer verbinding met streaming}
-			Bij deze applicatie werd \href{https://github.com/feross/simple-peer}{simple-peer} gebruikt, dit is een abstractie van webRTC die het opzetten van peer-to-peer verbindingen eenvoudiger maakt.
+		\paragraph{Peer-to-peer verbinding met streaming}
+			Bij deze applicatie werd \href{https://github.com/feross/simple-peer}{simple-peer} gebruikt. Dit is een abstractie van webRTC die het opzetten van peer-to-peer verbindingen eenvoudiger maakt.
 			
 			Voor beide gebruikers zal er een peer object aangemaakt worden.
 
@@ -473,7 +473,7 @@ const peer = new Peer({
 });
 \end{lstlisting}
 			
-			vervolgens zullen er listeners toegevoegd worden aan deze objecten die geactiveerd zullen worden op basis van het andere peer object
+			Vervolgens zullen er listeners toegevoegd worden aan deze objecten die geactiveerd worden op basis van het andere peer-object
 			
 \begin{lstlisting}
 peer.on("signal", (data) => {
@@ -487,15 +487,15 @@ peer.on("stream", (stream) => {
 
 		\paragraph{Performantie}
 		
-			De performantie van de applicatie werd gemeten aan door het de statistieken van de video elementen op te halen waarint de stream getoond wordt. Bij beide tests was een macbook Pro de administrator van de meeting en werd een Oneplus6 toegevoegd aan het gesprek als gast. De statistieken werden gemeten op het toestel van de administrator.
+			De performantie van de applicatie werd gemeten aan de hand van de statistieken van de video elementen waarin de stream getoond wordt. Bij beide tests was een MacBook Pro de administrator van de meeting en werd een Oneplus6 toegevoegd aan het gesprek als gast. De statistieken werden gemeten op het toestel van de administrator.
 			
 			\begin{table}[H]
 			\centering
 			\begin{tabular}{lll}													& Zoom 			& PWA \\
-				gemiddelded aantal frames per seconde van ontvangende video 	 & 14				&  34 \\
-				gemiddelded aantal frames per seconde van verzonden video		   & 26				   & 30	 \\
+				gemiddled aantal frames per seconde van ontvangende video 	 & 14				&  34 \\
+				gemiddled aantal frames per seconde van verzonden video		   & 26				   & 30	 \\
 				resolutie ontvangen video  						  & 480x640 	&  480x640  \\
-				resolutiie verzonden video						   & 640x360	& 	640x480\\
+				resolutie verzonden video						   & 640x360	& 	640x480\\
 			\end{tabular}	
 			\caption{performantie vergelijking met Zoom}
 			\end{table}
@@ -505,29 +505,29 @@ peer.on("stream", (stream) => {
 	
 		Zoals eerder vermeld is er een server nodig om een peer-to-peer connectie tot stand te brengen.
 		
-		Deze backend werd geschreven in node.js en werd gehost op \href{https://glitch.com/}{glitch}.
+		Deze backend werd geschreven in node.js en werd gehost op \href{https://glitch.com/}{Glitch}.
 		
-		De library \href{https://socket.io/}{socket.io} werd gebruikt websocktets te implementeren. Websockets zorgen ervoor dat een server met de frontend kan cummuniceren zonder dat deze er expliciet om vragen. 
+		De library \href{https://socket.io/}{socket.io} werd gebruikt websockets te implementeren. Websockets zorgen ervoor dat een server met de frontend kan cummuniceren zonder dat deze er expliciet om vraagt. 
 		
-		In traditionele applicaties krijgt de frontend enkel data als hij hier een request voor stuurt naar de backend, bij websockets kan de backend de frontend met data voorzien in real time.
+		In traditionele applicaties krijgt de frontend enkel data als hij hier een request voor stuurt naar de backend. Bij websockets kan de backend de frontend met data voorzien in real time.
 		\autocite{Mozilla2020e}
 		
 		Deze real-time communicatie is nodig voor het opzetten van een peer-to-peer connectie.
 		
 		De backend zal de frontend informeren als er een gebruiker in een room komt, vervolgens kan er een peer-to-peer connectie opgezet worden.
 		
-		Zowel de frontend als de backend kunnen een event sturen en naar events luisteren. Op deze manier wordt er gecomuniceerd. 	
+		Zowel de frontend als de backend kunnen een event sturen en naar events luisteren. Op deze manier wordt er gecommuniceerd. 	
 		
 			
 	\subsection{Masked icons}
 	
-		Het startscherm van android toestellen kan in veel verschillende vormen komen. De producent van een android toestel kan zelf een thema ontwikkelen voor het startscherm.
+		Het startscherm van Android toestellen kan in veel verschillende vormen komen. De producent van een Android toestel kan zelf een thema ontwikkelen voor het startscherm.
 		
 		In verschillende thema's zullen de icoontjes er anders uitzien, in sommige thema's zullen ze rond zijn, in andere vierkant met afgeronde hoeken. 
 		
 		Als het icoontje niet geoptimaliseerd wordt, zal Android er steeds voor zorgen dat het icoontje volledig zichtbaar is. Indien nodig zal er een achtergrond toegevoegd worden.
 		
-		Door ervoor te zorgen dat alle belangrijke elementen va het icoon binnen een 'safe zone' vallen, en een extra property toe te voegen in het app manifest kan dit opgelost worden.
+		Door ervoor te zorgen dat alle belangrijke elementen van het icoon binnen een 'safe zone' vallen, en door een extra property toe te voegen in het app manifest kan dit opgelost worden.
 		
 \begin{lstlisting}
 "purpose": "any maskable" 
@@ -546,13 +546,13 @@ peer.on("stream", (stream) => {
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=100mm]{./img/iconPWA.png}{}
-			\caption{Geoptimaliseerde iconen van proof-of-concept}
+			\caption{geoptimaliseerde iconen van proof-of-concept}
 		\end{figure}
 
 
 \section{De Applicatie}
 	\subsection{Authenticatie}
-		De gebruiker kan zich registreren aan de hand van een email en wachtwoord combinatie. Er is ook een optie om zicht aan te melden aan de hand van Google en Facebook.
+		De gebruiker kan zich registreren aan de hand van een combinatie van e-mail en wachtwoord combinatie. Er is ook een optie om zich aan te melden aan de hand van Google en Facebook.
 		
 		
 		\begin{figure}[H]
@@ -563,13 +563,13 @@ peer.on("stream", (stream) => {
 		
 	\subsection{Home}
 		Dit is het scherm waar de gebruiker zal terechtkomen als hij is aangemeld. 
-		Op dit scherm kan de gebruiker zijn rooms beheren, hij kan nieuwe rooms aanmaken, rooms verwijderen en rooms delen.
+		Op dit scherm kan de gebruiker zijn rooms beheren: hij kan nieuwe rooms aanmaken, rooms verwijderen en rooms delen.
 		
-		Onderaan de pagina is er een horizontale scroll, in deze lijst kan de gebruiker volgende opties:
+		Onderaan de pagina is er een horizontale scroll. In deze lijst heeft de gebruiker volgende opties:
 		\begin{itemize}
-			\item De applictie installeren en toevoegen aan het startscherm
-			\item Notificaties aan zetten 
-			\item Afmelden
+			\item de applicatie installeren en toevoegen aan het startscherm
+			\item notificaties aanzetten 
+			\item afmelden
 		\end{itemize}
 		
 			\begin{figure}[H]
@@ -578,14 +578,12 @@ peer.on("stream", (stream) => {
 				\caption{homescherm}
 			\end{figure}
 		
-		
-		
 	\subsection{Wachtschermen}
-		Als er slechts 1 persoon is in de room zal de gebruiker op dit scherm terechtkomen. 
+		Als er slechts 1 persoon aanwezig is in de room, zal de gebruiker op dit scherm terechtkomen. 
 		
 		De eigenaar van de room heeft een optie om de room te delen. 
 		
-		Als een bezoeker in de room komt, zal de eigenaar een melding krijgen dat er iemand in zijn room is. Door op de notificatie te klikken gaat de eigenaar direct naar de room.
+		Als een bezoeker in de room komt, zal de eigenaar een melding krijgen dat er iemand in zijn room is. Door op de notificatie te klikken, gaat de eigenaar direct naar de room.
 						
 		Als beide gebruikers aanwezig zijn, zal de bezoeker de optie krijgen om het gesprek te starten.
 		
@@ -601,7 +599,7 @@ peer.on("stream", (stream) => {
 	\subsection{Room}
 		In dit scherm kunnen de gebruikers een conversatie hebben. 
 		
-		Er is een optie om het gesprek te beëindigen, het geluid uit te schakelen en de video stream uit te schakelen.
+	
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=35mm]{./img/POC/call.jpg}{}		
@@ -628,10 +626,10 @@ peer.on("stream", (stream) => {
 %todo: OV's overlopen in de conclusie
 	
 	Al de vooropgestelde requirements kunnen bereikt worden door een PWA te implementeren. 
-	Native features zoals camera, microfoon, delen, notificatie zijn relatief eenvoudig te implementeren in een webapplicatie.
+	Native features zoals camera, microfoon, delen en notificatie zijn relatief eenvoudig te implementeren in een webapplicatie.
 	
 	\subsection{Compatibiliteit en besturingssystemen}
-		Zoals eerder aangehaald is een van de nadelen van PWA's de sterk variërende ondersteuning van browsers. Voor deze reden is het belangrijk dat de applicatie ontwikkeld wordt aan de hand van progressive enhancement. 
+		Zoals eerder aangehaald is één van de nadelen van PWA's de sterk variërende ondersteuning van browsers. Daarom is het belangrijk dat de applicatie ontwikkeld wordt aan de hand van progressive enhancement. 
 		
 		De hoofdfunctionaliteit van de applicatie moet beschikbaar zijn voor alle gebruikers. Vervolgens kan de applicatie uitgebreid worden met functionaliteiten die de ervaring verbeteren maar die niet noodzakelijk zijn.
 		
@@ -642,12 +640,12 @@ peer.on("stream", (stream) => {
 	  		\item Push notificaties zijn beschikbaar op alle browsers en toestellen met uitzondering van:
 	  				\begin{itemize}
 	  			  		\item alle browsers op IOS
-	  			  		\item safari op macOS
+	  			  		\item Safari op macOS
 	  		 		\end{itemize}	
-  			\item automatisch toevoegen aan het startscherm is beschikbaar op alle browsers en toestellen met uitzondering van:
+  			\item Automatisch toevoegen aan het startscherm is beschikbaar op alle browsers en toestellen met uitzondering van:
 	  				\begin{itemize}
 	  			  		\item alle browsers op IOS
-	  			  		\item safari op macOS
+	  			  		\item Safari op macOS
 	  		 		\end{itemize}	
  		\end{itemize}
  		
@@ -658,28 +656,28 @@ peer.on("stream", (stream) => {
 			
 			Er werd beslist om de maximale hoogte van de applicatie vast te zetten op 100vh,  op deze manier is het in principe onmogelijk om een scroll van de volledige pagina te hebben. 
 			
-			dit werkte goed op een desktop browser maar gaf problemen op mobiele toestellen.
+			Dit werkte goed op een desktop browser maar gaf problemen op mobiele toestellen.
 			
-			Op Android bijvoorbeeld maakt de adresbalk geen deel uit van de viewport. Hierdoor was er dus wel een scroll van enkele centimeters aanwezig als de applicatie bezocht werd in de browser. Dit probleem wordt opgelost als de applicatie geïnstalleerd wordt, dan is er geen adresbalk aanwezig.
+			Op Android bijvoorbeeld maakt de adresbalk geen deel uit van de viewport. Hierdoor was er dus wel een scroll van enkele centimeters aanwezig als de applicatie bezocht werd in de browser. Dit probleem stelt zich niet als de applicatie geïnstalleerd wordt want dan is er geen adresbalk aanwezig.
 			
 	\subsection{Verwachting gebruiker}
 		Een gebruiker die een applicatie installeert op een IOS toestel zal een andere user interface verwachten dan een gebruiker die een applicatie installeert op een Android toestel.
 		
-		Met een PWA kan er slechts 1 user interface geïmplementeerd worden, het is dus niet mogelijk om volledig aan de verwachting van elke gebruiker te voldoen.
+		Met een PWA kan er slechts 1 user interface geïmplementeerd worden. Het is dus niet mogelijk om volledig aan de verwachting van elke gebruiker te voldoen.
 		
-		Een gebruiker met een toestel dat op IOS werkt is gewoon om naar de vorige pagina te navigeren door naar rechts te swipen op het toestel. Dit is een manier van navigeren die een Android gebruiker niet gewoon is. In deze proof of concept kan er niet met touch-gebaren genavigeerd worden. Dit kan niet 'native' aanvoelen voor de IOS gebruiker. 
+		Een gebruiker met een toestel dat op IOS werkt, is gewoon om naar de vorige pagina te navigeren door naar rechts te swipen op het toestel. Dit is een manier van navigeren die een Android gebruiker niet gewoon is. In deze proof-of-concept kan er niet met touch-gebaren genavigeerd worden. Dit kan niet 'native' aanvoelen voor de IOS gebruiker. 
 		
 		%todo:📈
 
 		Uit de resultaten van de user testen bleek dat veel mensen niet weten welke functionaliteit beschikbaar is voor het web. Zo wist X\% niet dat een webapplicatie gebruik kan maken van de camera en X\% wist niet dat een website ook offline kan werken.
 		
-		Dit is relevant omdat als een gebruiker niet weet dat een PWA dit kan doen, dit waarschijnlijk ook niet zal testen. 
+		Dit is relevant want als een gebruiker niet weet dat een PWA dit kan doen, dan zal hij dit waarschijnlijk ook niet testen. 
 		%todo: ✅resultaten van user testing - wat weet een gebruiker van het web
 		
 	\subsection{Gebruik van PWA's}
 		%todo:✅ resultaat van user testing - zou de gebruiker PWA verkiezen boven native
-		In de user testen werd er gevraagd als een gebruiker een PWA zou verkiezen boven een native applicatie. 
-		De meeste mensen zouden een native applicatie nog steeds verkiezen boven een PWA. De reden hiervoor is dat veel mensen enkel op zoek zijn naar een app enkel in de app stores zoeken. 
+		In de user testen werd er gevraagd of een gebruiker een PWA zou verkiezen boven een native applicatie. 
+		De meeste mensen zouden een native applicatie nog steeds verkiezen boven een PWA. De reden hiervoor is dat veel mensen enkel apps zoeken in de app stores. 
 		
 		De testers hadden uiteenlopende redenen waarom ze een native applicatie verkozen:
 		\begin{itemize}
@@ -692,40 +690,43 @@ peer.on("stream", (stream) => {
 			  	
 		
 		%todo:✅ resultaat van user testing - zou de gebruiker PWA verkiezen boven native MET CONTEXT WAT PWA IS
-		In het onderzoek werd vervolgens dezelfde vraag opnieuw gesteld, maar nu werd er meer info gegeven aan de testpersoon over wat PWA's zijn. De tester werd verteld dat een PWA ook het startscherm kan staan, notificaties kan versturen, en dat de app-grootte veel kleiner is dan die van een native app. 
+		In het onderzoek werd vervolgens dezelfde vraag opnieuw gesteld, maar nu werd er meer info gegeven aan de testpersoon over wat PWA's zijn. De tester werd verteld dat een PWA ook op het startscherm kan staan, notificaties kan versturen, en dat de app-grootte veel kleiner is dan die van een native app. 
 		%todo:📈
 		Als deze info geweten was, was er  X\% die wel een PWA zou verkiezen boven een native applicatie.
 
 		
 		%todo: ✅resultaat van user testing - zou de gebruiker notificaties toestaan
-		Pus notificaties zijn een sterk middel om user engagement te verhogen. \autocite{Gaunt2020} Als een PWA hier gebruik wil van maken moet de gebruiker hier expliciet toestemming voor geven. 
+		Push notificaties zijn een sterk middel om user engagement te verhogen. \autocite{Gaunt2020} Als een PWA hier gebruik wil van maken, moet de gebruiker hier expliciet toestemming voor geven. 
 		
-		In de tweede proof-of-concept werd deze functie geïmplementeerd. De gebruiker kan deze zelf aanzetten, hij zal dus niet lastig gevallen worden met popup's die om toestemming vragen. Voor dat de gebruiker de notificaties aanzet, weet hij voor welke doelen dit gebruikt zal worden. Dit is volgens Matt Gaunt de beste user experience en zal dan ook resulteren in een hoog aantal mensen die notificaties toestaan. \autocite{Gaunt2019c}
+		In de tweede proof-of-concept werd deze functie geïmplementeerd. De gebruiker kan deze zelf aanzetten. Hij zal dus niet lastig gevallen worden met pop-up's die om toestemming vragen. Vooraleer de gebruiker de notificaties aanzet, weet hij voor welke doelen dit gebruikt zal worden. Dit is volgens Matt Gaunt de beste user experience. Dit zal dan ook resulteren in een hoog aantal mensen die notificaties toestaan. \autocite{Gaunt2019c}
 		
 		%todo:📈
-		Er werd aan de gebruikers gevraagd als ze voor deze applicatie de notificaties zouden aan zetten. Een opvallen hoog percentage (X\%) zou toestemming geven aan een PWA om push notificaties te versturen.
+		Er werd aan de gebruikers gevraagd of ze voor deze applicatie de notificaties zouden aan zetten. Een opvallend hoog percentage (X\%) zou toestemming geven aan een PWA om push notificaties te versturen.
 				
 		
 		
 	\subsection{A2HS}
 		%todo: ✅ wanneer zou een user een applicatie installeren
 		%todo:📈
-		Bij het user testen werden de twee proof-of-concepts getoond aan de gebruiker. Bij de eerste proof-of-concept wordt er een standaard A2HS ervaring aangeboden. Op sommige browsers (Chrome, Edge, Firefox) zal de gebruiker een boodschap krijgen als hij de website voor het eerst bezoekt dat deze geïnstalleerd kan worden. Op andere browsers (Safari) zal dit helemaal niet aangegeven worden.
+		Bij de user testen werden de twee proof-of-concepts getoond aan de gebruiker. Bij de eerste proof-of-concept wordt er een standaard A2HS ervaring aangeboden. .
+		
+		Als hij de website voor het eerst bezoekt, zal de gebruiker op sommige browsers (Chrome, Edge, Firefox) een boodschap krijgen dat deze geïnstalleerd kan worden.  Op andere browsers (Safari) zal dit helemaal niet vermeld worden.
+				
 		
 		Bij de tweede proof-of-concept stond er een knop op de website waar de gebruiker altijd op kon klikken om de applicatie toe te voegen aan het startscherm. 
 		
-		%todo:📈
-		Het was opvallend dat de gebruikers de tweede applicatie sneller zouden installeren dan de eerste. De testers gaven volgende feedback
+		%todo:📈 opsomming aanvulle 
+		Het was opvallend dat de gebruikers de tweede applicatie sneller zouden installeren dan de eerste. De testers gaven volgende feedback:
 		\begin{itemize}
-	  		\item 'Voelt niet veilig'
+	  		\item 'voelt niet veilig'
 			\item 'ik weet nog niet wat deze app zal doen'
-			\item 'ik klik alle popups direct weg zonder te lezen wat er staat'
+			\item 'ik klik alle pop-ups direct weg zonder te lezen wat er staat'
 	  	\end{itemize}	
 
 		Onderzoek \autocite{LePage2020b} toont aan dat de gebruiker meer en langere sessies heeft als de PWA te vinden is op het startscherm. Het is dus belangrijk om een goede A2HS experience te ontwikkelen.
 		
 		
-		De A2HS ervaring op een IOS toestel is minder eenvoudig dan die op andere toestellen. De gebruiker moet manueel in de instelling van de website gaan om de app toe te voegen aan het startscherm. Dit is een omslachtig proces dat niet veel gebruikers kennen. 
+		De A2HS ervaring op een IOS toestel is minder goed dan die op andere toestellen. De gebruiker moet manueel in de instelling van de website gaan om de app toe te voegen aan het startscherm. Dit is een omslachtig proces dat niet veel gebruikers kennen. 
 		
 		%todo:📈
 		Dit was ook terug te zien in de user testen. Testrers die IOS gebruikten zouden bijna nooit een PWA toe aan hun startscherm, terwijl mensen die Android gebruikten dit wel zouden overwegen.
@@ -739,9 +740,9 @@ peer.on("stream", (stream) => {
 		
 		
 		%todo:📈
-		De testers kregen de vraag "Vond je de ervaring in de demo's gelijkaardig als die in een mobiele applicatie?" Hier antwoordde X\% dat ze de ervaring van de PWA's gelijkaardig vonden aan die van een native applicatie.
+		De testers kregen de vraag 'Vond je de ervaring in de demo's gelijkaardig als die in een mobiele applicatie?' Hier antwoordde X\% dat ze de ervaring van de PWA's gelijkaardig vonden aan die van een native applicatie.
 		
-		Ook hier valt op dat de tester die vonden dat de ervaring niet gelijkaardig was aan die van een native applicatie allemaal gebruikt maakten van een toestel met IOS als besturingssysteem.
+		Ook hier valt op dat de testers die vonden dat de ervaring niet gelijkaardig was aan die van een native applicatie allemaal gebruik maakten van een toestel met IOS als besturingssysteem.
 		
 
 		

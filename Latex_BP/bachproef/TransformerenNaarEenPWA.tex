@@ -1,14 +1,12 @@
 \chapter{Ombouwen van een web app tot een PWA}
 \label{ch:TransformerenNaarEenPWA}
 
-
-
 Voor sommige webapplicaties is het een grote meerwaarde om geïnstalleerd te kunnen worden  en offline bruikbaar te zijn op het toestel van de gebruiker.\autocite{Mozilla2020c} Eenvoudige applicaties die geen gebruik maken van backend verzoeken kunnen op deze manier volledig functioneel zijn zonder internetconnectie. 
-Aan de hand van dit voorbeeld zal de onderzoeksvraag "Welke stappen zijn nodig om een traditionele website om te vormen tot een PWA?" beantwoord worden.
+Aan de hand van dit voorbeeld zal de onderzoeksvraag 'Welke stappen zijn nodig om een traditionele website om te vormen tot een PWA?' beantwoord worden.
 
 \section{De applicatie}
 
-	Darts is een spel dat gespeeld wordt met drie pijltjes per persoon en een dartbord. De plaats waar het pijltje landt op het bord bepaalt de score van de worp, dit kan variëren van 0 tot 60. De speler die het eerst een score van 501 bij elkaar gooit is de winnaar. Deze score’s optellen en bijhouden wordt al snel ingewikkeld. Darts is een spel dat vaak gespeeld wordt in een bar, spelers willen dus niet geconcentreerd moeten rekenen. Spelers zullen dus vaak op zoek gaan naar hulpmiddelen. Dit kan een combinatie zijn van pen, papier en een rekenmachine zijn. Een alternatief is een applicatie die dit doet voor hen. Bij deze applicatie zal deze service aangeboden worden als een PWA. De applicatie kan dus gebruikt worden in de browser, maar de applicatie kan ook gedownload worden.
+	Darts is een spel dat gespeeld wordt met drie pijltjes per persoon en een dartbord. De plaats waar het pijltje landt op het bord bepaalt de score van de worp. Dit kan variëren van 0 tot 60. De speler die het eerst een score van 301 of  501 bij elkaar gooit is de winnaar. Deze score’s optellen en bijhouden wordt al snel ingewikkeld. Darts is een spel dat vaak gespeeld wordt in een bar. Spelers willen dus niet geconcentreerd moeten rekenen en zullen dus vaak op zoek gaan naar hulpmiddelen. Dit kan een combinatie zijn van pen en papier of een rekenmachine zijn. Een alternatief is een applicatie die dit doet voor hen. Bij deze applicatie zal deze service aangeboden worden als een PWA. De applicatie kan gebruikt worden in de browser, maar de applicatie kan ook gedownload worden.
 
 \section{Analyse}
 
@@ -18,13 +16,12 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag "Welke stappen zijn nodig o
 		\begin{itemize}
 			 \item 	Als een speler wil ik de score van een dartspel op mijn smartphone kunnen bijhouden zodat ik altijd en overal kan spelen.
 			 \item 	Als een speler wil ik de score van een spel kunnen bijhouden zonder een applicatie te downloaden zodat mijn smartphone niet vol komt met applicaties die ik niet regelmatig gebruik.
-			 \item 	Als een speler wil ik de score van een dartspel bijhouden zonder een internetverbinding te hebben zodat ik niet afhankelijk ben van een eventuele wifi of een netwerkverbinding.
-			 \item 	Als eent groep vrienden willen we een dartspel kunnen starten en de score kunnen bijhouden voor een variabel aantal personen zodat we snel kunnen spelen.
+			 \item 	Als een speler wil ik de score van een dartspel bijhouden zonder een internetverbinding te hebben zodat ik niet afhankelijk ben van een eventuele wifi-  of netwerkverbinding.
+			 \item 	Als een groep vrienden willen we een dartspel kunnen starten en de score kunnen bijhouden voor een variabel aantal personen zodat we snel kunnen spelen.
 		\end{itemize}	
 	
 	\subsection{Niet-functionele requirements}
 		\begin{itemize}
-			 \item Als een ontwikkelaar wil ik aan alle voorwaarden van de ligthouse audit op vlak van PWA's voldoen zodat de applicatie volledig geoptimaliseerd is.
 			 \item Als een ontwikkelaar wil ik aan alle voorwaarden van de ligthouse audit op vlak van PWA's voldoen zodat de applicatie volledig geoptimaliseerd is.
 			 \item Als een gebruiker wil ik dat alle pagina's onmiddellijk geladen worden zodat ik niet hoef te wachten.
 		\end{itemize}	
@@ -32,8 +29,7 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag "Welke stappen zijn nodig o
 
 \section{Implementatie}
 
-	De applicatie werd eerst ontworpen aan de hand van figma, dit is een tool die gebruikt wordt om designs en prototypes te maken. De applicatie zal drie schermen hebben: een die het aantal speler vraagt, een die de spelersnamen vraagt en een scherm waar het spel kan bijgehouden worden. 
-	Voor de ontwikkeling van de applicatie werd de javascript library React.js gekozen.
+	De applicatie werd eerst ontworpen aan de hand van Figma, een tool die gebruikt wordt om designs en prototypes te maken. De applicatie zal drie schermen hebben: één die het aantal spelers vraagt, één die de spelersnamen vraagt en een scherm waar het spel kan bijgehouden worden. Voor de ontwikkeling van de applicatie werd de Javascript library React.js gekozen.
 
 	\begin{figure}[H]
 		\centering
@@ -59,13 +55,13 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag "Welke stappen zijn nodig o
 		\caption{het scherm waar de score geteld zal worden}
 	\end{figure}
 	
-	Het doel van deze proof-of-concept is het onderzoeken van de onderzoeksvraag "Welke stappen zijn nodig om een traditionele website om te vormen tot een PWA". 
+	De onderzoeksvraag 'Welke stappen zijn nodig om een traditionele website om te vormen tot een PWA' zal in deze proof-of-concept beantwoord worden.
 	
-	In het begin van deze thesis werd een PWA gedefinieerd als een webapplicatie die gebruik maakt van moderne webtechnologieën om op deze manier een ervaring aan te bieden die dicht die van een native applicatie ligt.
+	In het begin van deze thesis werd een PWA gedefinieerd als een webapplicatie die gebruik maakt van moderne webtechnologieën om op deze manier een ervaring aan te bieden die dicht bij die van een native applicatie ligt.
 	
-	Deze definitie stelt geen duidelijke criteria op waaraan om website moet voldoen om een PWA te zijn.
+	Deze definitie stelt geen duidelijke criteria op waaraan een website moet voldoen om een PWA te zijn.
 	
-	Voor deze proof-of-concept zal een webapplicatie geoptimaliseerd worden tot deze geïnstalleerd kan worden en deze offline gebruikt kan worden.
+	Voor deze proof-of-concept zal een webapplicatie geoptimaliseerd worden tot deze geïnstalleerd en offline gebruikt kan worden.
 	
 	De code van deze applicatie kan gevonden worden via github: https://github.com/TijsM/Dart501
 	
@@ -75,7 +71,7 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag "Welke stappen zijn nodig o
 
 	\subsection{HTTPS}
 
-		Een van de drie vereisten om een applicatie te kunnen toevoegen aan het startscherm is dat er een https-connectie moet zijn. Dit werd bekomen door de website te hosten op \href{https://www.netlify.com/}{ Netlify}. Dit is een online service die gratis hosting voor statische websites aanbiedt. Hier kan een SSL-certificaat toegevoegd worden zodat er een HTTPS connectie tot stand komt.
+		Een van de drie vereisten om een applicatie te kunnen toevoegen aan het startscherm is dat er een https-connectie is. Dit werd bekomen door de website te hosten op \href{https://www.netlify.com/}{ Netlify}. Dit is een online service die gratis hosting voor statische websites aanbiedt. Hier kan een SSL-certificaat toegevoegd worden zodat er een HTTPS connectie tot stand komt.
 
 
 	\subsection{App manifest}
@@ -135,14 +131,14 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag "Welke stappen zijn nodig o
 	
 \end{lstlisting}
 		
-		De naam en de verkorte naam (naam die op splashscreen getoond zal worden) worden als eerste vastgelegd. Deze zijn gelijk omdat de volledige naam al kort genoeg is. Het maximumaantal karakters voor 'short\_name' is 12.
+		De naam en de verkorte naam (naam die op het splashscreen getoond zal worden) worden als eerste vastgelegd. Deze zijn gelijk omdat de volledige naam al kort genoeg is. Het maximumaantal karakters voor 'short\_name' is 12.
  
 		
 		Vervolgens worden alle iconen voor de verschillende platformen bepaald. Dit deel van het manifest en de bestanden waarnaar het refereert kunnen gegenereerd worden met de tool \href{https://appicon.co}{appicon.co}.
 		
 		Vervolgens wordt het gedrag en het uitzicht van de applicatie gedefinieerd. Er wordt ingesteld dat de applicatie start op het scherm waar het aantal spelers geselecteerd kan worden, er wordt ook bepaald dat de applicatie het volledige scherm in beslag moet nemen.
 		
-		Ook het kleurenschema wordt bepaald, deze kleuren worden gebruikt bij het splashscreen en bepalen ook de kleur die de statusbalk van het toestel zal innemen. 
+		Ook het kleurenschema wordt bepaald. Deze kleuren worden gebruikt bij het splashscreen en bepalen ook de kleur die de statusbalk van het toestel zal innemen. 
 		
 		Er moet een link gemaakt worden van de html-bestanden naar dit manifest bestand. Dit gebeurt binnen de head tag van de index.html file
 		
@@ -153,7 +149,7 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag "Welke stappen zijn nodig o
 		
 	\subsection{Service worker}
 		
-		Als een react applicatie gecreëerd wordt met het 'create-react-app' commando wordt er  een basis service worker aangemaakt. Standaard wordt deze niet gebruikt, om dit te veranderen moet de regsiter methode van de service worker aangeroepen worden in het index.js bestand.
+		Als een react applicatie gecreëerd wordt met het 'create-react-app' commando wordt er  een basis service worker aangemaakt. Standaard wordt deze niet gebruikt, om dit te veranderen moet de register methode van de service worker aangeroepen worden in het index.js bestand.
 		
 \begin{lstlisting}
 		serviceWorker.register();
@@ -166,7 +162,7 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag "Welke stappen zijn nodig o
 
 \section{Controle}
 
-	Aan de hand van een lighthouse audit kan er gecontroleerd worden als alles werkt zoals verwacht.
+	Aan de hand van een lighthouse audit kan er gecontroleerd worden als of werkt zoals verwacht.
 	
 	\begin{figure}[H]
 		\centering
@@ -176,13 +172,13 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag "Welke stappen zijn nodig o
 
 	Onder de sectie ‘installable’ kunnen we zien dat de applicatie inderdaad een https-connectie heeft, dat er een service worker is en dat er een manifest aanwezig is.
 	
-	De pagina's worden ook onmiddelijk geladen, dit komt omdat alle bestand lokaal gecached zijn en er dus niet op een antwoord van de server gewacht moet worden.
+	De pagina's worden ook onmiddellijk geladen. Dit komt omdat alle bestanden lokaal gecached zijn en er dus niet op een antwoord van de server gewacht moet worden.
 	
 \section{Conclusie}
 
-	We kunnen concluderen dat een traditionele website snel kan omgevormd worden tot een PWA die geïnstalleerd kan worden op het startscherm van de gebruiker. 
+	Er kan geconcludeerd worden dat een traditionele website snel kan omgevormd worden tot een PWA die geïnstalleerd kan worden op het startscherm van de gebruiker. 
 	
-	Zoals eerder aangehaald moet een website aan volgende 3 zaken voldoen om geïnstalleerd te kunnen worden:
+	Zoals eerder aangehaald, moet een website aan volgende drie zaken voldoen om geïnstalleerd te kunnen worden:
 	\begin{itemize}
 		\item Een HTTPS-connectie hebben
 		\item Een app manifest hebben
@@ -191,7 +187,7 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag "Welke stappen zijn nodig o
 	
 	Een HTTPS-connectie opzetten gebeurt bij verschillende hosting services automatisch en gratis. Dit is dus eenvoudig op te zetten.
 	
-	Het app manifest is een JSON-bestand die de eigenschappen van de applicatie beschrijft. Door gebruikt te maken van bepaalde tools kan dit ook snel gecreëerd worden.
+	Het app manifest is een JSON-bestand die de eigenschappen van de applicatie beschrijft. Door gebruik te maken van bepaalde tools kan dit ook snel gecreëerd worden.
 	
 	Als een webapplicatie ontwikkeld wordt met React.js kan ook een serviceworker eenvoudig geregistreerd worden. Er moet slecht één methode aangeroepen worden.
 	
@@ -199,7 +195,7 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag "Welke stappen zijn nodig o
 	
 	Dit is ook interessant voor applicaties die wel gebruik maken van een backend. Het cachen van bestanden heeft volgende positieve gevolgen:
 	\begin{itemize}
-		\item De pagina's worden onmiddelijk geladen
-		\item De applicatie toont geen error als de gebruiker eventjes geen connectie meer heeft met een netwerk. Dit kan gebeuren als de gebruiker in zich in een tunnel of in de metro begeeft.
+		\item De pagina's worden onmiddellijk geladen
+		\item De applicatie toont geen error als de gebruiker eventjes geen connectie meer heeft met een netwerk. Dit kan gebeuren als de gebruiker zich in een tunnel of in de metro begeeft.
 	\end{itemize}	
 	
