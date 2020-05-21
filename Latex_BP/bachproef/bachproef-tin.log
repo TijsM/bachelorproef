@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  21 MAY 2020 14:31
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  21 MAY 2020 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1733,7 +1733,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2181) has occurred while \output is active []
 
  [11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2189,7 +2189,7 @@ Missing character: There is no ’ in font ptmr8t!
 
 
 LaTeX Warning: Reference `ch: Besturingssystemen en PWA's' on page 73 undefined
- on input line 31.
+ on input line 32.
 
 Missing character: There is no … in font ptmr8t!
 Missing character: There is no ř in font ptmr8t!
@@ -2372,9 +2372,6 @@ File: ./img/POC/login.jpg Graphic file (type bmp)
 <./img/POC/login.jpg>
 File: ./img/POC/register.jpg Graphic file (type bmp)
 <./img/POC/register.jpg>
-
-Underfull \vbox (badness 2573) has occurred while \output is active []
-
  [113]
 File: ./img/POC/home.jpg Graphic file (type bmp)
 <./img/POC/home.jpg>
@@ -2389,27 +2386,43 @@ File: ./img/POC/waitAsVisitor1.jpg Graphic file (type bmp)
 File: ./img/POC/waitAsVisitor2.jpg Graphic file (type bmp)
 <./img/POC/waitAsVisitor2.jpg>
 
-[115]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [115]
 File: ./img/POC/call.jpg Graphic file (type bmp)
 <./img/POC/call.jpg>
 File: ./img/POC/sendNoti.png Graphic file (type bmp)
 <./img/POC/sendNoti.png>
- [116]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [117]
-[118] [119]) (./conclusie.tex [120]
+Underfull \vbox (badness 3514) has occurred while \output is active []
+
+ [116]
+[117] [118]
+Underfull \vbox (badness 3746) has occurred while \output is active []
+
+ [119])
+(./conclusie.tex [120]
 Hoofdstuk 6.
+
+Overfull \hbox (2.10902pt too wide) in paragraph at lines 26--27
+[]\T1/ptm/m/n/12 Volgende toe-pas-sin-gen kun-nen op-ti-maal ge-bruik ma-ken va
+n de func-ti-o-na-li-tei-ten die PWA's
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [121
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5388) has occurred while \output is active []
 
- [122])
-[123] (./interview.tex [124]
+ [122]
+
+LaTeX Warning: Reference `ch: pwaAlternatieven' on page 123 undefined on input 
+line 67.
+
+) (./interview.tex [123] [124]
 B"ylage A.
 Missing character: There is no ’ in font ptmr8t!
 [125
@@ -2569,10 +2582,10 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43852 strings out of 492916
- 810145 string characters out of 6133345
- 1479543 words of memory out of 5000000
- 47200 multiletter control sequences out of 15000+600000
+ 43851 strings out of 492916
+ 810154 string characters out of 6133345
+ 1479594 words of memory out of 5000000
+ 47199 multiletter control sequences out of 15000+600000
  575369 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,80p,1496b,7227s stack positions out of 5000i,500n,10000p,200000b,80000s

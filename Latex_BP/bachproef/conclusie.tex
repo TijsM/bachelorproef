@@ -1,7 +1,3 @@
-%%=============================================================================
-%% Conclusie
-%%=============================================================================
-
 \chapter{Conclusie}
 \label{ch:conclusie}
 
@@ -27,6 +23,8 @@
 		
 		Door deze twee onderzoeken samen te leggen kan er geconcludeerd worden welke use-cases optimaal zijn voor PWA's.
 		
+		Volgende toepassingen kunnen optimaal gebruik maken van de functionaliteiten die PWA's bieden.
+		
 		Een van de grote voordelen van een PWA is dat hij gevonden kan worden aan de hand van een zoekmachine. Dit is een groot voordeel voor E-commerce platformen en social media.
 		Applicaties die hier minder voordeel bij hebben zijn bijvoorbeeld 
 		
@@ -36,27 +34,37 @@
 	
 		In sectie ~\ref{ch: BesturingssystemenEnPWAs} werd er aangetoond dat PWA's kunnen genieten van veel verschillende web-API's om native functionaliteiten te implementeren. Applicaties die afhankelijk zijn van de camera of van locatievoorzieningen kunnen perfect geïmplementeerd worden als PWA. Ook meer geavanceerde functionaliteiten zoals in app betalingen en virtual reality kunnen geïmplementeerd worden.
 		
-		De ondersteuning van deze krachtige web-API's is helemaal niet consistent, wat het moeilijk maakt om een PWA te ontwikkelen die afhankelijk is van verschillende web-API's. 
+		De ondersteuning van deze krachtige web-API's is echter niet consistent Dit maakt het moeilijk om een PWA te ontwikkelen die afhankelijk is van verschillende web-API's. 
 		
-		In het algemeen kan er gesteld worden dat Google en Microsoft een goede ondersteuning bieden voor PWA's. Ze ondersteunen niet enkel PWA's maar beide bedrijven werken actief aan het uitbreiden van de functionaliteiten die beschikbaar zijn voor het web. 
+		In het algemeen kan er gesteld worden dat Google en Microsoft een goede ondersteuning bieden voor PWA's. Ze ondersteunen niet enkel veel functionaliteiten voor PWA's maar beide bedrijven werken actief aan het uitbreiden van de functionaliteiten die beschikbaar zijn voor het web. 
 		
 		Apple daarentegen is conservatiever op vlak van het ondersteunen van PWA's. Het bedrijf is trager in het ondersteunen van nieuwe web-API's. 
 		Het duurde lang voor IOS service workers ondersteunde, dit gebeurde pas in 2020. Ook worden bepaalde belangrijke web-API's niet ondersteund, het grootste voorbeeld hiervan is de push API.
 					
 	\subsection{Beperkingen van een PWA}
-		content
+		In sectie ~\ref{ch: beperkingenPWA} werden de beperkingen van PWA's uitgebreid toegelicht. 
+	
+		De grootste beperking die PWA's vandaag kent is de zwakke ondersteuning op IOS toestellen.
+		
+		In deze scriptie werd aangetoond dat Android gebruikers geen of amper verschil merken tussen een PWA en een native applicatie. Android  
+		
+		Als IOS gebruikers dezelfde PWA te zien kregen vonden ze dat dit niet vergelijkbaar was aan een native applicatie. Dit komt omdat IOS veel webAPI's niet ondersteund.
+		
+	 
 	
 	\subsection{PWA alternatieven}
 		
 		Er zijn verschillende technologieën en frameworks waarbij er met één codebase een applicatie ontwikkeld kan worden voor verschillende platformen. 
 		
-		Er zijn verschillende parameters die bepalen welke benadering te juiste is voor een bepaald project. 
+		Er zijn verschillende parameters die bepalen welke benadering de juiste is voor een bepaald project. 
 	
 		Een PWA is een goede oplossing voor applicaties waarbij de go to market time zo laag mogelijk moet zijn en er snel en eenvoudig updates moeten uitgevoerd worden. Een groot voordeel van PWA's is ook dat het gevonden kan worden in zoekmachines.
 		
 		Een hybride oplossing is interessant als er zowel een webapplicatie als een native applicatie nodig is. Hier worden zowel prestaties en user experience opgeofferd, maar de applicatie is wel op alle platformen beschikbaar. 
 		
-		Als er een native applicatie verwacht wordt zijn er verschillende benaderingen om dit te implementeren. Hier zal de achtergrond en voorkennis van de ontwikkelaar een grote impact hebben op wat het juiste framework is.
+		Als het belangrijk is om applicatie in de app stores te hebben zijn er verschillende oplossingen om een applicatie te maken die toch op verschillende platformen kan werken. Hier zal de achtergrond en voorkennis van de ontwikkelaar een grote impact hebben op wat het juiste framework is.
+		
+		Een uitgebreid overzicht van de welke benadering de juiste is voor een project kan gevonden worden in sectie ~\ref{ch: pwaAlternatieven}.
 	
 	\subsection{Welke stappen zijn er nodig om een traditionele website om te vormen tot een PWA}
 		
@@ -66,21 +74,15 @@
 		
 		De drie criteria om een PWA te installeren kunnen dus eenvoudig bereikt worden.
 	
-\section{Niet-kwantificeerbare resultaten}
-	In de proof-of-concept werd aangetoond dat geavanceerde concepten zoals peer-to-peer verbindingen en real-time communicatie mogelijk zijn voor PWA's. Een PWA kan dus veel functionaliteiten implementeren die voordien enkel beschikbaar waren voor native applicaties.
-	
-	Uit de proof-of-concept bleek ook dat een PWA geen 'native-gevoeld' kan bieden. 
-	Dit heeft verschillende oorzaken, zo heeft de gebruiker op een bepaald platform een verwachtingspatroon van hoe een applicatie zich zal gedragen op dat platform. Dit is voor elk platform anders. Bij PWA's wordt er 1 user interface gemaakt voor alle platformen.
-	
-	Een andere oorzaak is dat het niet eenvoudig is om een consistente user interface te ontwikkelen die native aanvoelt voor alle mogelijke schermgroottes.
-	
 \section{Vergelijking met verwacht resultaten}
 	Er werd verwacht dat het ontwikkelen van een PWA met service worker functionaliteit een complexe opdracht zou zijn.
 	Deze verwachting klopte niet, de meest voorkomend functionaliteiten is er een duidelijk documentatie. Ook maakt workbox het heel eenvoudig om caching toe te passen in een applicatie.
+	
+	Er werd verwacht dat IOS minder ver zou staan op vlak van PWA's. Zowel de literatuurstudie als de user testen bevestigen deze verwacting.
 	
 
 \section{Verder onderzoek}
 	Veel technologieën die gebruikt kunnen worden door PWA's zijn relatief nieuw en zijn nog niet grondig onderzocht.
 	In deze thesis werd de nadruk gelegd op welke functies er wel en niet kunnen gebruikt worden door PWA's. Om hier een goed beeld van de schetsen kan er nog onderzoek gedaan worden naar de performantie van deze web-API's.
 	
-	In de proof of concept in deze scriptie werd webRTC gebruikt om een peer-to-peer connectie op te zetten. Dit is een technologie met heel veel mogelijkheden, er kan onderzoek gedaan worden naar wat er bereikt kant worden met webRTC en hoe performant dit is.
+	In de proof-of-concept werd webRTC gebruikt om een peer-to-peer connectie op te zetten. Dit is een technologie met heel veel mogelijkheden, er kan onderzoek gedaan worden naar wat er bereikt kant worden met webRTC en hoe performant dit is.
