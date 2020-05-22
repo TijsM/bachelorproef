@@ -177,7 +177,7 @@ function displayNotification() {
 		\subsubsection{Service worker lifecycle }
 			De levenscyclus van de service worker is onafhankelijk van de levenscyclus van de webapplicatie. Als de webapplicatie gesloten wordt, blijft de service worker gewoon werken.
 			
-			Om een service worker te installeren moet deze geregistreerd worden in de javascript van de webapplicatie. Dit gebeurt normaal bij het eerst bezoek aan de website van de gebruiker.
+			Om een service worker te installeren moet deze geregistreerd worden in de JavaScript van de webapplicatie. Dit gebeurt normaal bij het eerst bezoek aan de website van de gebruiker.
 			
 \begin{lstlisting}
 function displayNotification() {
@@ -186,7 +186,7 @@ if ('serviceWorker' in navigator) {
 }
 \end{lstlisting}
 	
-		Als een service worker wordt geïnstalleerd, worden de opgegeven statische bestanden (foto’s, css-bestanden, javascript-bestanden) gedownload. Als dit slaagt, wordt er naar de activatiefase gegaan, als dit niet slaagt zal dit proces zich herhalen tot het slaagt. 
+		Als een service worker wordt geïnstalleerd, worden de opgegeven statische bestanden (foto’s, css-bestanden, JavaScript-bestanden) gedownload. Als dit slaagt, wordt er naar de activatiefase gegaan, als dit niet slaagt zal dit proces zich herhalen tot het slaagt. 
 		
 		Tijdens de activatiefase wordt er bekeken welke gecachete gegevens geüpdatet moeten worden en welke niet. De service worker zal de bestanden die het ontvangen heeft van het eerste netwerkverzoek vergelijken met zijn huidig cachegeheugen. Als er verschillen zijn zal dit cachegeheugen aangepast worden.
 		

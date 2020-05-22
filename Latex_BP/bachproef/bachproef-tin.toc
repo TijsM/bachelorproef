@@ -515,7 +515,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {B.2}Screenshots van de resultaten}{136}{section.B.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}User testen }{137}{appendix.C}% 
+\contentsline {chapter}{\numberline {C}User-testen }{137}{appendix.C}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {C.1}Gestelde vragen}{137}{section.C.1}% 
 \defcounter {refsection}{0}\relax 

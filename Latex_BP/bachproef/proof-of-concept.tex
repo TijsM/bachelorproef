@@ -30,7 +30,7 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een and
 		\subsubsection{Algemeen}
 	 		\begin{itemize}
 	 			\item Als een gebruiker wil ik de toepassing toevoegen aan het startscherm van mijn toestel zodat ik deze snel kan openen.
-	 			\item Als een aangemelde gebruiker wil ik de applicatie kunnen openen zonder internetverbinding zodat ik overal en altijd mijn rooms kan bekijken.
+	 			\item Als een aangemelde gebruiker wil ik de applicatie kunnen openen zonder internetverbinding zodat ik overal en altijd mijn 'rooms' kan bekijken.
 			\end{itemize}
 	 
 	\subsection{Niet-functionele requirements}
@@ -132,7 +132,7 @@ const addToHome = () => {
 				Dit is de meest populaire strategie omdat de pagina snel geladen wordt en de inhoud is up-to-date.
 
 		\subsubsection{Statisch cachen}
-			Statisch cachen is het cachen van bestanden die nodig zijn voor het opbouwen van de webapplicatie. Voorbeelden hiervan zijn foto's, style sheets, javascript bestanden, html bestanden, ...
+			Statisch cachen is het cachen van bestanden die nodig zijn voor het opbouwen van de webapplicatie. Voorbeelden hiervan zijn foto's, style sheets, JavaScript bestanden, html bestanden, ...
 			
 			Op deze manier zal ook de application shell offline beschikbaar zijn.
 			
@@ -169,7 +169,7 @@ workbox.routing.registerRoute(
 );
 \end{lstlisting}
 			
-			Aan de hand van een regular expression kunnen er bestanden gechachet worden. In dit voorbeeld worden alle javascript en css bestanden offline beschikbaar gemaakt.
+			Aan de hand van een regular expression kunnen er bestanden gechachet worden. In dit voorbeeld worden alle JavaScript en css bestanden offline beschikbaar gemaakt.
 			
 			In dit voorbeeld wordt de Stale-While-Revalidate strategie toegepast.
 			\autocite{Workbox2020b}
@@ -177,7 +177,7 @@ workbox.routing.registerRoute(
 		\subsubsection{Dynamisch cachen}
 			Dynamisch cachen houdt in dat data die de gebruiker vraagt ook offline opgeslagen wordt. Dit zullen vaak requests van REST-API's zijn.
 			
-			In deze applicatie werd dynamisch cachen toegepast om de laatste versie van de rooms nog steeds te tonen aan de gebruiker, ook al is deze offline.
+			In deze applicatie werd dynamisch cachen toegepast om de laatste versie van de 'rooms' nog steeds te tonen aan de gebruiker, ook al is deze offline.
 			
 \begin{lstlisting}
 workbox.routing.registerRoute(
@@ -237,7 +237,7 @@ export const authWithGoogle = () => {
 		
 	\subsection{Share API en Clipboard API}
 	
-		In de applicatie is het belangrijk om op een intuïtieve manier een link te kunnen delen naar een room. 
+		In de applicatie is het belangrijk om op een intuïtieve manier een link te kunnen delen naar een 'room'. 
 		Dit werd bekomen door de Share API te gebruiken.
 		Op mobiele toestellen zal deze een native menu openen waar de gebruiker de link kan delen via verschillende platformen.
 		
@@ -267,7 +267,7 @@ export const authWithGoogle = () => {
 	
 		De clipboard API kan gebruikt worden om items in het klembord van de gebruiker te plaatsen of om het klembord uit te lezen.
 		
-		Deze web-API werd gebruikt om eenvoudig de link van de room te kunnen delen met een persoon die gecontacteerd zal worden.
+		Deze web-API werd gebruikt om eenvoudig de link van de 'room' te kunnen delen met een persoon die gecontacteerd zal worden.
 		
 		Volgende code zal de link genereren die de uitgenodigde persoon kan gebruiken. Deze link zal in het klembord van de gebruiker geplaatst worden.
 		
@@ -312,7 +312,7 @@ else{
 		
 		In deze applicatie worden push notificaties gebruikt in twee use-cases. 
 		\begin{itemize}
-			\item 	Als een bezoeker in een room komt, zal de eigenaar van die room een melding krijgen.
+			\item 	Als een bezoeker in een 'room' komt, zal de eigenaar van die 'room' een melding krijgen.
 			\item 	De administrator van de applicatie kan een notificatie naar alle gebruikers versturen vanuit een admin scherm.
 		\end{itemize}	
 		
@@ -514,7 +514,7 @@ peer.on("stream", (stream) => {
 		
 		Deze real-time communicatie is nodig voor het opzetten van een peer-to-peer connectie.
 		
-		De backend zal de frontend informeren als er een gebruiker in een room komt, vervolgens kan er een peer-to-peer connectie opgezet worden.
+		De backend zal de frontend informeren als er een gebruiker in een 'room' komt, vervolgens kan er een peer-to-peer connectie opgezet worden.
 		
 		Zowel de frontend als de backend kunnen een event sturen en naar events luisteren. Op deze manier wordt er gecommuniceerd. 	
 		
@@ -563,7 +563,7 @@ peer.on("stream", (stream) => {
 		
 	\subsection{Home}
 		Dit is het scherm waar de gebruiker zal terechtkomen als hij is aangemeld. 
-		Op dit scherm kan de gebruiker zijn rooms beheren: hij kan nieuwe rooms aanmaken, rooms verwijderen en rooms delen.
+		Op dit scherm kan de gebruiker zijn 'rooms' beheren: hij kan nieuwe 'rooms' aanmaken, 'rooms' verwijderen en 'rooms' delen.
 		
 		Onderaan de pagina is er een horizontale scroll. In deze lijst heeft de gebruiker volgende opties:
 		\begin{itemize}
@@ -579,11 +579,11 @@ peer.on("stream", (stream) => {
 			\end{figure}
 		
 	\subsection{Wachtschermen}
-		Als er slechts 1 persoon aanwezig is in de room, zal de gebruiker op dit scherm terechtkomen. 
+		Als er slechts 1 persoon aanwezig is in de 'room', zal de gebruiker op dit scherm terechtkomen. 
 		
-		De eigenaar van de room heeft een optie om de room te delen. 
+		De eigenaar van de 'room' heeft een optie om de 'room' te delen. 
 		
-		Als een bezoeker in de room komt, zal de eigenaar een melding krijgen dat er iemand in zijn room is. Door op de notificatie te klikken, gaat de eigenaar direct naar de room.
+		Als een bezoeker in de 'room' komt, zal de eigenaar een melding krijgen dat er iemand in zijn 'room' is. Door op de notificatie te klikken, gaat de eigenaar direct naar de 'room'.
 						
 		Als beide gebruikers aanwezig zijn, zal de bezoeker de optie krijgen om het gesprek te starten.
 		
@@ -661,14 +661,14 @@ peer.on("stream", (stream) => {
 		Een gebruiker met een toestel dat op IOS werkt, is gewoon om naar de vorige pagina te navigeren door naar rechts te swipen op het toestel. Dit is een manier van navigeren die een Android gebruiker niet gewoon is. In deze proof-of-concept kan er niet met touch-gebaren genavigeerd worden. Dit kan niet 'native' aanvoelen voor de IOS gebruiker. 
 		
 		%todo:📈✅
-		Uit de resultaten van de user testen bleek dat veel mensen niet weten welke functionaliteit beschikbaar is voor het web. Zo wist 23,1\% niet dat een webapplicatie gebruik kan maken van de camera en 61,5\% wist niet dat een website ook offline kan werken.
+		Uit de resultaten van de user-testen bleek dat veel mensen niet weten welke functionaliteit beschikbaar is voor het web. Zo wist 23,1\% niet dat een webapplicatie gebruik kan maken van de camera en 61,5\% wist niet dat een website ook offline kan werken.
 		
 		Dit is relevant want als een gebruiker niet weet dat een PWA dit kan doen, dan zal hij dit waarschijnlijk ook niet testen. 
 		%todo: ✅resultaten van user testing - wat weet een gebruiker van het web
 		
 	\subsection{Gebruik van PWA's}
 		%todo:✅ resultaat van user testing - zou de gebruiker PWA verkiezen boven native
-		In de user testen werd er gevraagd of een gebruiker een PWA zou verkiezen boven een native applicatie. 
+		In de user-testen werd er gevraagd of een gebruiker een PWA zou verkiezen boven een native applicatie. 
 		100\% van de gebruikers zou de native applicatie nog verkiezen boven een PWA. Het argument dat er niet geweten is dat een service ook werkt in de browser kwam meerdere keren naar boven.
 		
 		De testers hadden ook nog andere uiteenlopende redenen waarom ze een native applicatie verkozen:
@@ -698,7 +698,7 @@ peer.on("stream", (stream) => {
 	\subsection{A2HS}
 		%todo: ✅ wanneer zou een user een applicatie installeren
 		%todo:📈✅
-		Bij de user testen werden de twee proof-of-concepts getoond aan de gebruiker. Bij de eerste proof-of-concept wordt er een standaard A2HS ervaring aangeboden. .
+		Bij de user-testen werden de twee proof-of-concepts getoond aan de gebruiker. Bij de eerste proof-of-concept wordt er een standaard A2HS ervaring aangeboden. .
 		
 		Als hij de website voor het eerst bezoekt, zal de gebruiker op sommige browsers (Chrome, Edge, Firefox) een boodschap krijgen dat deze geïnstalleerd kan worden.  Op andere browsers (Safari) zal dit helemaal niet vermeld worden.
 				
@@ -721,7 +721,7 @@ peer.on("stream", (stream) => {
 		De A2HS ervaring op een IOS toestel is minder goed dan die op andere toestellen. De gebruiker moet manueel in de instelling van de website gaan om de app toe te voegen aan het startscherm. Dit is een omslachtig proces dat niet veel gebruikers kennen. 
 		
 		%todo:📈✅
-		Dit was ook terug te zien in de user testen. Testers die IOS gebruikten zouden minder snel een applicatie toevoegen aan het startscherm. 
+		Dit was ook terug te zien in de user-testen. Testers die IOS gebruikten zouden minder snel een applicatie toevoegen aan het startscherm. 
 		
 		Bij de eerste applicatie krijgt de IOS gebruiker geen pop-up met de info dat deze applicatie toegevoegd kan worden aan het startscherm. Dit zorgde ervoor dat geen enkele IOS gebruiker deze PWA zou toevoegen aan het startscherm. Op Android kwam de standaard melding getoond, 35,5\% van de gebruikers gingen hier op in.
 		
