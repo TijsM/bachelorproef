@@ -31,65 +31,67 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.13}{\ignorespaces screenshot van de zoekresultaten van “Outlook” op Mac Os}}{65}{figure.2.13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Tinder voor Android - versie 11.8.1}}{68}{figure.2.14}% 
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Tinder voor Android - versie 11.8.1}}{69}{figure.2.14}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.15}{\ignorespaces PWA-versie 118}}{69}{figure.2.15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.16}{\ignorespaces screenshot van het onderdeel 'PWA' in een lighthouse audit op de site \href { https://dart501.netlify.com}{dart501.netlify.com} }}{76}{figure.2.16}% 
+\contentsline {figure}{\numberline {2.16}{\ignorespaces screenshot van het onderdeel 'PWA' in een lighthouse audit op de site \href { https://dart501.netlify.com}{dart501.netlify.com} }}{77}{figure.2.16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.17}{\ignorespaces flowchart: technologieën met één codebase die op meerdere platformen gebruikt kunnen worden}}{84}{figure.2.17}% 
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces splashscreen}}{92}{figure.4.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces startscherm - vragen naar het aantal spelers}}{93}{figure.4.2}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces vragen naar de namen van de spelers}}{93}{figure.4.3}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces het scherm waar de score geteld zal worden}}{94}{figure.4.4}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces lighthouse audit van de website}}{97}{figure.4.5}% 
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces mockups in Figma}}{101}{figure.5.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces prototype in Figma}}{101}{figure.5.2}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces native share-menu op IOS}}{106}{figure.5.3}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces native share-menu op Android}}{107}{figure.5.4}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces notificatie op macOS}}{110}{figure.5.5}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces niet geoptimaliseerde iconen}}{113}{figure.5.6}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces masked iconen}}{113}{figure.5.7}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces geoptimaliseerde iconen van proof-of-concept}}{113}{figure.5.8}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces autenticatie-schermen}}{114}{figure.5.9}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces homescherm}}{115}{figure.5.10}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.11}{\ignorespaces wachtschermen}}{116}{figure.5.11}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.12}{\ignorespaces belscherm}}{116}{figure.5.12}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.13}{\ignorespaces scherm om manueel een notificatie te versturen}}{117}{figure.5.13}% 
+\contentsline {figure}{\numberline {2.17}{\ignorespaces flowchart: technologieën met één codebase die op meerdere platformen gebruikt kunnen worden}}{86}{figure.2.17}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces splashscreen}}{94}{figure.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces startscherm - vragen naar het aantal spelers}}{95}{figure.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces vragen naar de namen van de spelers}}{95}{figure.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces het scherm waar de score geteld zal worden}}{96}{figure.4.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces lighthouse audit van de website}}{99}{figure.4.5}% 
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.1}{\ignorespaces statistieken proof-of-concept}}{136}{figure.B.1}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces mockups in Figma}}{103}{figure.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.2}{\ignorespaces statistieken zoom}}{136}{figure.B.2}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces prototype in Figma}}{103}{figure.5.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces native share-menu op IOS}}{108}{figure.5.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces native share-menu op Android}}{109}{figure.5.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces notificatie op macOS}}{112}{figure.5.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces niet geoptimaliseerde iconen}}{115}{figure.5.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces masked iconen}}{115}{figure.5.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces geoptimaliseerde iconen van proof-of-concept}}{115}{figure.5.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces autenticatie-schermen}}{116}{figure.5.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces homescherm}}{117}{figure.5.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces wachtschermen}}{118}{figure.5.11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces belscherm}}{118}{figure.5.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.13}{\ignorespaces scherm om manueel een notificatie te versturen}}{119}{figure.5.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.14}{\ignorespaces A2HS ervaringen}}{122}{figure.5.14}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.1}{\ignorespaces statistieken proof-of-concept}}{140}{figure.B.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.2}{\ignorespaces statistieken zoom}}{140}{figure.B.2}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

@@ -1,3 +1,4 @@
+\clearpage
 \section{Waarom een PWA}
 
 In dit onderdeel van de literatuurstudie zal er onderzocht worden wat de redenen zijn om wel een PWA te ontwikkelen voor een project. De voordelen zullen bekeken worden in vergelijking met traditionele webapplicaties en native applicaties.
@@ -10,7 +11,7 @@ In dit onderdeel van de literatuurstudie zal er onderzocht worden wat de redenen
 	
 	Data toont aan dat gebruikers nog steeds 87\% van hun tijd op hun smartphone spenderen in native applicaties, van deze 87\% wordt 80\% van de tijd in slechts 3 verschillende applicaties gespendeerd. Terwijl er veel tijd besteed wordt in native applicaties, is het toch heel moeilijk om tijd te krijgen van de gebruiker om jouw applicatie te gebruiken.
 	
-	De acquisitie is bij het web ook groter dan bij native applicaties. De gemiddelde gebruiker download 0 nieuwe applicaties per maand. 
+	De acquisitie is bij het web groter dan bij native applicaties. De gemiddelde gebruiker download 0 nieuwe applicaties per maand. 
 	
 	Op het web, waar slechts 13\% van de tijd van de mobiele gebruikers besteed wordt, worden er echter maandelijks ongeveer 100 websites bezocht. Hier is er voor bedrijven dus een kans om een gebruiker jouw platform te laten ontdekken en nieuwe gebruikers te winnen.
 	\autocite{GoogleChromeDevelopers2017}
@@ -19,7 +20,7 @@ In dit onderdeel van de literatuurstudie zal er onderzocht worden wat de redenen
 \subsection{Platformonafhankelijkheid }
 	Een van de grootste voordelen van het web is dat het platformonafhankelijk is. Een webapplicatie hoeft maar eenmaal ontwikkeld te worden en kan dan op meerdere platformen gebruikt worden. Het web is ook niet gebonden aan deze conventionele platformen. De dag van vandaag zijn meer en meer toestellen zoals televisies, game-consoles en e-readers verbonden met het internet. 
 	
-	Er kunnen meer geavanceerde functionaliteiten implementeren dan een traditionele webapplicatie. Bepaalde functionaliteiten zijn wel platformafhankelijk. Een functionaliteit die kan toegevoegd worden is push-notifications. Zoals aangetoond in vorig hoofdstuk zal dit niet werken op IOS-toestellen. De PWA zal wel nog werken op IOS maar zal niet genieten van deze functionaliteit. Pwa's zijn dus gedeeltelijk platformonafhankelijk.
+	PWA's kunnen meer complexe functionaliteiten implementeren dan een traditionele webapplicatie. Bepaalde functionaliteiten zijn wel platformafhankelijk. Een functionaliteit die kan toegevoegd worden is push-notifications. Zoals aangetoond in vorig hoofdstuk zal dit niet werken op IOS-toestellen. De PWA zal wel nog werken op IOS maar zal niet genieten van deze functionaliteit. Pwa's zijn dus gedeeltelijk platformonafhankelijk.
 	
 	Bij native ontwikkeling zijn er vaak verschillende codebases voor elk platform die het ondersteunt. Er zijn technologieën die dit proberen op te lossen zoals React Native. Maar ook hier moet er voor bepaalde delen nog native code geschreven worden per platform. Native applicaties zijn dus niet platformonafhankelijk. 
 	
@@ -29,28 +30,27 @@ In dit onderdeel van de literatuurstudie zal er onderzocht worden wat de redenen
 	Conversion rate is een meeteenheid die gebruikt wordt om de omzet van een website te peilen. Hoe hoger de conversion rate hoe beter. De conversion rate wordt bepaald door het aantal ‘conversions’ die een website heeft ten opzichte van het aantal bezoekers. Een conversion kan voor elke website anders gedefinieerd worden. Voor een e-commerce website zal dit vaak een aankoop zijn. Voor andere websites kan dit het aanmelden van de gebruiker op de nieuwsbrief zijn.
 	\autocite{GoogleSupport2020}
 	
-	Nikkei is een nieuws-website die in 2018 zijn website ombouwde tot een PWA.  Door het gebruikmaken van serviceworkers konden ze de laadtijd van hun website drastisch verlagen (14 seconden sneller – van +- 20 seconden naar +-6 seconden). Dit had als gevolg dat gebruikers steeds vaker naar Nikkei gingen als nieuwsbron. 
+	Nikkei is een nieuws-website die in 2018 zijn website ombouwde tot een PWA.  Door het gebruik van serviceworkers konden ze de laadtijd van hun website drastisch verlagen (14 seconden sneller:  van +- 20 seconden naar +-6 seconden). Dit had als gevolg dat gebruikers steeds vaker naar Nikkei gingen als nieuwsbron. 
 	
 	De conversion rate steeg met 58\% (premium abonnement) en er was een stijging van 49\% in het aantal dagelijkse gebruikers. Deze gebruikers lazen gemiddeld het dubbel aantal artikelen dan voordien. 
 	\autocite{Developers2018}
 	
 	Dit voorbeeld toont aan dat de omzet met een PWA hoger kan zijn dan bij traditionele webapplicaties.
 	
-	Met native applicaties kan er nog steeds een meer gepersonaliseerde ervaring geboden worden en zal er gemiddeld gezien ook een hogere conversion rate zijn. Maar ' scoren beter dan traditionele websites.
+	Met native applicaties kan er nog steeds een meer gepersonaliseerde ervaring geboden worden en zal er gemiddeld gezien ook een hogere conversion rate zijn. Maar PWA's scoren beter dan traditionele websites.
 	\autocite{Anastasia2019}
 	
 
 \subsection{Bundle size}
 
-	bundle size is de grootte van de applicatie als deze geïnstalleerd wordt. Het is positief om een zo klein mogelijke zoals televisies, game consoles en e-readers.  bundle size te hebben.
-	\autocite{Scott2019}
+	bundle size is de grootte van de applicatie als deze geïnstalleerd wordt. Het is positief om een zo klein mogelijke bundle size te hebben. \autocite{Scott2019}
 	
-	Tinder besliste om zijn service ook aan te bieden als een PWA. Tinder slaagde erin om alle functionaliteiten die hun native applicaties hebben over te nemen in de PWA. Ze slaagden hierin door gebruik te maken van verschillende web API’s. 
+	Tinder besliste om zijn service ook aan te bieden als een PWA. Tinder slaagde erin om alle functionaliteiten die hun native applicaties hebben over te nemen in de PWA. Ze slaagden hierin door gebruik te maken van verschillende web API's. 
 	\autocite{Osmani2017}
 	
-	Een van de grootste voordelen is dat de PWA (versie 118) op het moment van schrijven slechts een grootte heeft van 397kb. De native Androidapplicatie (versie 11.8.1) daarentegen neemt 130mb in beslag op een toestel.
+	Een van de grootste voordelen is dat de PWA (versie 118) op het moment van schrijven slechts een grootte heeft van 397kb. De native Android applicatie (versie 11.8.1) daarentegen neemt 130mb in beslag op een toestel.
 	
-	In Westerse landen is dit handig, maar zal het zelden bepalen of een gebruiker een applicatie effectief gebruikt. In andere markten zoals Afrika is dit heel belangrijk. De toestellen die er gebruikt worden zijn vaak verouderd en hebben mindere specificaties dan dat de toestellen gebruikt in het Westen. 
+	In Westerse landen is dit handig, maar zal het niet snel bepalen of een gebruiker een applicatie effectief gebruikt. In andere markten zoals Afrika is dit heel belangrijk. De toestellen die er gebruikt worden zijn vaak verouderd en hebben mindere specificaties dan dat de toestellen gebruikt in het Westen. 
 	
 	De gemiddelde prijs van de top 5 meest verkochte smartphones in Afrika was 135,6 USD. Deze toestellen beschikken vaak over slechts 8 of 16GB opslagruimte. 
 	\autocite{netAdmin2017}

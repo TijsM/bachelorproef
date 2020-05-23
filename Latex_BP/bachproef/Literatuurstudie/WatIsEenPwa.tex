@@ -2,15 +2,14 @@
 \section{Wat is een PWA}
 \label{ch: Wat is een PWA}
 
-
 Het web is een platform waar applicaties kunnen gepubliceerd worden zonder afhankelijk te zijn van een overkoepelend bedrijf of organisatie. Voor een website is er slechts één codebase en de laatste versie is steeds beschikbaar voor de gebruiker. 
 Dit allemaal zorgt ervoor dat een webapplicatie iedereen overal kan bereiken en dit op elk mogelijk toestel.
 
 Native applicaties zijn betrouwbaar en bieden een heel goede gebruikerservaring. Ze starten op als een alleenstaande toepassing en ze kunnen uitgebreid gebruik maken van het besturingssysteem: ze kunnen bestanden lezen en schrijven, gebruik maken van usb-connecties en bluetooth, ze hebben toegang tot de contacten en de kalender en nog veel meer. Native applicaties voelen aan alsof ze deel uitmaken van het toestel waarop ze werken.
 
-We kunnen dus stellen dat webapplicaties de bovenhand hebben in bereik maar dat native applicaties de bovenhand hebben als het op functies aankomt.
+We kunnen dus stellen dat webapplicaties de bovenhand hebben in bereik maar dat native applicaties de bovenhand hebben als het op functionaliteit aankomt.
 
-Een Progressive web application (PWA) is een webapplicatie die gebruik maakt van moderne web API’s om functies aan te bieden die voordien enkel beschikbaar waren voor native applicaties. De bedoeling van ' is om de sterktes van webapplicaties (het bereik) en native applicaties (de functionaliteit) te combineren. 
+Een PWA is een webapplicatie die gebruik maakt van moderne web API’s om functies aan te bieden die voordien enkel beschikbaar waren voor native applicaties. PWA's combineren de sterktes van het web(het bereik) en de sterktes van native applicaties(de functionaliteit).
 \autocite{Richard2020}
 \autocite{Google2020}
 
@@ -19,11 +18,8 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 \begin{itemize}
 	\item Een PWA kan toegevoegd worden aan het startscherm van een toestel.
 	\item Een PWA kan push notificaties ontvangen.
-	\item Een PWA kan offline ook gebruik worden.
+	\item Een PWA kan offline ook gebruikt worden.
 \end{itemize}
-
-
-
 
 \begin{figure}[!htb]
 	\centering
@@ -50,7 +46,7 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 		
 		
 		Services workers werken dus constant op de achtergrond, maar de manier waarop service workers opgebouwd zijn (
-	zie hoofdstuk \ref{ch: Wat is een servcie worker}) heeft geen significante invloed op de batterijduur van een mobiel toestel.
+		zie hoofdstuk \ref{ch: Wat is een servcie worker}) heeft geen significante invloed op de batterijduur van een mobiel toestel.
 		\autocite{Malavolta2016}
 	
 	
@@ -61,7 +57,7 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 	
 		
 		
-		\paragraph{Offline gebruik}
+		\subparagraph{Offline gebruik}
 		
 			Als een PWA voor een eerste keer geladen wordt op een toestel zullen de bezochte pagina's offline beschikbaar blijven. Dit gebeurt door de  HTML, CSS en JavaScript bestanden die nodig zijn om de pagina's te creëren lokaal op te slaan. Applicaties die geen gebruik maken van netwerkverzoeken om data te laden, zullen dus offline volledig werken.
 			
@@ -73,21 +69,18 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 			\autocite{Osmani2019}
 			\autocite{Mozilla2020a}
 			
-			
-			
-
-			\subparagraph{Cache API}
+			Cache API: \\
 
 				De cache API wordt gebruikt om data die verkregen werd van netwerkverzoeken op te slaan. Zowel de ‘request’ als de ‘response’ van een netwerkverzoek kunnen in de cache API opgeslagen worden.
 				\autocite{Scales2019}
 
-			\subparagraph{IndexedDB}
+			IndexedDB: \\
 
 				IndexedDB is een mechanisme dat gebruikt wordt om lokaal gestructureerde data op te slaan. Het kan vergeleken worden met object georienteerde databasemanagementsystemen die gebruik maken van JavaScript objecten om data op te slaan. Een IndexedDb maakt gebruik van indexen. Dit heeft als voordeel dat het uitlezen van data snel kan gebeuren
 				\autocite{Mozilla2019}
 	
 	
-	\paragraph{Notificaties}
+	\subparagraph{Notificaties}
 	
 		Er zijn twee soorten notificaties: lokale notificaties en push notificaties. 
 		Lokale notificaties worden geactiveerd vanop de applicatie van de gebruiker, er zijn geen externe invloeden die deze notificatie activeren.
@@ -95,11 +88,11 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 		Binnen lokale notificaties kunnen we nog het onderscheid maken tussen persistente en niet-persistente notificaties.
 		Niet-persistente notificaties zijn notificaties die enkel getoond kunnen worden als de applicatie geopend is. Dit type notificaties heeft geen service worker nodig. 
 		Persistente notificaties zijn notificaties die nog steeds geactiveerd worden vanuit de code op het toestel, maar de applicatie moet niet meer actief zijn. Hier is wel een service worker nodig.
-		{\tiny }
 		Push notificaties worden niet geactiveerd binnen de applicatie, maar worden geactiveerd door een server.
 		Om push notificaties te gebruiken, moet er gebruik gemaakt worden van twee webAPI’s: de notifications API en de Push API.
 		
-		\subparagraph{Notifications API}
+		Notifications API: \\
+		
 			Dit is een API die het uiterlijk en het gedrag van een notificatie zal bepalen. Deze API wordt zowel gebruikt voor lokale als voor push notifications.
 			Om gebruik te maken van deze API moet de gebruiker expliciet toegang geven aan de applicatie.
 			
@@ -144,21 +137,20 @@ function displayNotification() {
 			\autocite{Developers2019}
 			\autocite{Mozilla2019a}
 		
-		
-		\subparagraph{Push API}
+		Push API: \\
 		
 			De push API wordt gebruikt door de service worker. Als de server een notificatie verstuurt, wordt deze opgevangen door de push API. Deze API zal dan gebruik maken van de notifications API om een melding op het toestel van de eindgebruiker te tonen.
 			\autocite{Mozilla2019b}
 			\autocite{Gaunt2020}
 	
-	\paragraph{Achtergrondsynchronisatie }
+		\subparagraph{Achtergrondsynchronisatie }
 		Een PWA kan gebruik maken van de background sync API om achtergrondsynchronisatie toe te passen.
 		
 		Achtergrondsynchronisatie kan toegepast worden als er een trage of geen netwerkverbinding is. 
 		
 		Achtergrondsynchronisatie is het proces waarbij een netwerkverzoek, dat uitgevoerd werd als er geen of een te zwakke internetverbinding was, wordt opgeslagen in de service worker en wordt uitgevoerd als er wel een stabiele internetconnectie is.
-		
-		Een voorbeeld hiervan is het verzenden van een bericht via een sociaal media platform. Als het bericht verzonden wordt terwijl de gebruiker offline is, zal er geen fout getoond worden maar zal dit bericht verzonden worden vanaf er internet is.
+	
+		Een toepassing die hier gebruik kan van maken zijn sociale media platformen. Als het bericht verzonden wordt terwijl de gebruiker offline is, zal er geen fout getoond worden maar zal dit bericht verzonden worden vanaf er internet is.
 		
 		Google Chrome op Android maakt hier gebruik van. Als er een website bezocht wordt als er geen internetverbinding is, krijgt de gebruiker de melding: “Chrome laat je weten wanneer de pagina klaar is”. Vanaf het toestel terug een internetverbinding heeft, en het de pagina heeft kunnen downloaden,  zal de gebruiker een melding krijgen die met de boodschap dat de pagina bekeken kan worden.
 	
@@ -190,7 +182,7 @@ if ('serviceWorker' in navigator) {
 		
 		Tijdens de activatiefase wordt er bekeken welke gecachete gegevens geüpdatet moeten worden en welke niet. De service worker zal de bestanden die het ontvangen heeft van het eerste netwerkverzoek vergelijken met zijn huidig cachegeheugen. Als er verschillen zijn zal dit cachegeheugen aangepast worden.
 		
-		ls de activatiefase geslaagd is, heeft de service worker controle over de pagina’s die binnen zijn scope vallen. Deze scope moet gedefinieerd worden binnen de service worker.
+		Als de activatiefase geslaagd is, heeft de service worker controle over de pagina’s die binnen zijn scope vallen. Deze scope moet gedefinieerd worden binnen de service worker.
 		
 		Nu het oude cachegeheugen up-to-date is, zal de service worker overgaan naar een “rust”-toestand, hierbij wacht de service worker op netwerkverzoeken van bestanden die binnen zijn scope vallen.
 		
@@ -233,9 +225,7 @@ if ('serviceWorker' in navigator) {
 		\caption{beforeinstallprompt in Google Chrome op android}
 	\end{figure}
 	
-	Op Apple toestellen (IPhone, Mac) heeft het beforeinstallprompt geen effect. De gebruiker moet zelf op zoek gaan in het menu om de applicatie te installeren, maar dit is wel mogelijk.
-	
-	Het beforeinstallprompt kan wel in de code opgevangen worden. De  gebruiker kan dan geïnformeerd worden dat deze webapplicatie geïnstalleerd kan worden. 
+	Op Apple toestellen (Iphone, Mac) heeft het beforeinstallprompt geen effect. De gebruiker moet zelf op zoek gaan in het menu om de applicatie te installeren.
 	Niet alle gebruikers zullen weten hoe ze dit moeten doen, het is dus aangeraden om de gebruiker hierin te begeleiden door hem duidelijke instructies te geven.
 	\autocite{PWAbuilder2020}
 
@@ -276,25 +266,25 @@ if ('serviceWorker' in navigator) {
 	
 \begin{lstlisting}
 {
-"short_name": "Maps",
-"name": "Google Maps",
-"icons": [
- {
-   "src": "/images/icons-192.png",
-   "type": "image/png",
-   "sizes": "192x192"
- },
- {
-   "src": "/images/icons-512.png",
-   "type": "image/png",
-   "sizes": "512x512"
- }
-],
-"start_url": "/maps/?source=pwa",
-"background_color": "#3367D6",
-"display": "standalone",
-"scope": "/maps/",
-"theme_color": "#3367D6"
+	"short_name": "Maps",
+	"name": "Google Maps",
+	"icons": [
+		{
+			"src": "/images/icons-192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/images/icons-512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": "/maps/?source=pwa",
+	"background_color": "#3367D6",
+	"display": "standalone",
+	"scope": "/maps/",
+	"theme_color": "#3367D6"
 }
 \end{lstlisting}
 	
@@ -315,10 +305,10 @@ Verschillende platformen vragen verschillende type's iconen Dit object heeft vol
 	     		background\_color & Hier wordt een kleur gedefinieerd. Dit kleur zal gebruikt worden voor het opstartscherm. \\
 	     		display & Dit bepaalt in wat voor webview de PWA getoond zal worden. Mogelijkheden zijn:
 		     		\begin{itemize}
-			     		  \item fullscreen – opent de browser zonder UI-elementen (adresbalk, terug knop, ….)
-			     		  \item standalone – opent de applicatie als een native applicatie los van de browser. Er worden geen UI-elementen van de browser getoond.
-			     		  \item nimal-ui – opent de applicatie in de browser maar toont slechts beperkte UI elementen van de browser. De adresbalk is weg maar de ‘vorige’ knop is er nog.
-			     		  \item browser – opent de PWA in een normaal browser tabblad.
+			     		  \item fullscreen - opent de applicatie zonder UI-elementen (adresbalk, terug knop, ...)
+			     		  \item standalone - opent de applicatie als een native applicatie los van de browser. Er worden geen UI-elementen van de browser getoond.
+			     		  \item minimal-ui - opent de applicatie in de browser maar toont slechts beperkte UI elementen van de browser. De adresbalk is weg maar de ‘vorige’ knop is er nog.
+			     		  \item browser - opent de PWA in een normaal browser tabblad.
 		     		\end{itemize} \\
 	     		scope & De scope bepaalt alle links die binnen de PWA vallen. \\
 	     		theme\_color & De kleur die de adresbalk zal innemen.
@@ -337,21 +327,21 @@ Verschillende platformen vragen verschillende type's iconen Dit object heeft vol
 
 		 “One last thing” is de zin waarmee Steve jobs, co-founder van Apple, zijn jaarlijkse toespraak steeds afsloot. Er volgde meestal een revolutionair idee of product dat Apple zal uitbrengen.
 		
-		In juni 2007 sloot Steve Jobs, nadat hij net de eerst IPhone had voorgesteld, zijn toespraak af met de visie die Apple toen had over hoe het web er moet uitzien. De term progressive web apps bestond nog niet, maar de concepten die hij uitlegde zijn wel de basis van '. Steve Jobs citeerde volgende stellingen
+		In juni 2007 sloot Steve Jobs, nadat hij net de eerst iPhone had voorgesteld, zijn toespraak af met de visie die Apple toen had over hoe het web er moet uitzien. De term progressive web apps bestond nog niet, maar de concepten die hij uitlegde zijn wel de basis van PWA's. Steve Jobs citeerde volgende stellingen:
 	
 		
 		\begin{itemize}
-			\item \textit{ “We have got an inovative way to create applications for mobile devices, and it’s all based on the fact that IPhone has the full Safari engine on board”}
-			\item \textit{ “You can write apps that look like IPhone apps and that integrate with IPhone services”}
-			\item \textit{ “Instant distribution, just put them on the internet”}
-			\item \textit{ “They are really easy to update, just put the update on your server”}
+			\item \textit{ “We have got an inovative way to create applications for mobile devices, and it’s all based on the fact that iPhone has the full Safari engine on board”}
+			\item \textit{“You can write apps that look like iPhone apps and that integrate with iPhone services”}
+			\item \textit{“Instant distribution, just put them on the internet”}
+			\item \textit{“They are really easy to update, just put the update on your server”}
 		\end{itemize}
 		\autocite{Jobs2007}
 		
-		Apple had verwacht dat dit een succes zou zijn. Maar de ontwikkelaars waren teleurgesteld en ze hadden verwacht dat ze meer toegang zouden krijgen tot de IPhone. In de eerste versie van de IPhone kon enkel gebruik gemaakt worden van de apps die geïnstalleerd waren door Apple, er konden geen nieuwe apps gedownload worden.
+		Apple had verwacht dat dit een succes zou zijn. Maar de ontwikkelaars waren teleurgesteld, ze hadden verwacht dat ze meer toegang zouden krijgen tot de iPhone. In de eerste versie van de iPhone kon enkel gebruik gemaakt worden van de apps die geïnstalleerd waren door Apple, er konden geen nieuwe apps gedownload worden.
 		\autocite{Strieb2016}
 		
-		 De visie van Apple veranderde echter toen ze het volgend jaar de app-store lanceerden. \autocite{Silver2018}
+		 De visie van Apple veranderde echter toen ze het volgende jaar de app-store lanceerden. \autocite{Silver2018}
 	 
 	 \subsubsection{Crome dev summit 2015}
 	 
@@ -410,7 +400,7 @@ Verschillende platformen vragen verschillende type's iconen Dit object heeft vol
 	
 		Starbucks heeft een native applicatie waarmee er koffie of andere dranken besteld kunnen worden als ze in een Starbucks zaak zijn. Deze applicatie is populair bij klanten die vaak terugkomen naar Starbucks. Klanten die slechts eenmalig komen, willen vaak geen applicatie downloaden om deze maar éénmaal te gebruiken.
 		
-		Dit werd opgelost door de functionaliteit die de native applicatie biedt ook te implementeren als een PWA zodat deze kan gebruikt worden via het web zonder geïnstalleerd te worden.
+		Dit werd opgelost door de functionaliteit die de native applicatie biedt ook te implementeren als een PWA zodat deze gebruikt kanworden via het web zonder geïnstalleerd te worden.
 		
 		De klanten kunnen nu vanuit de website een bestelling personaliseren en bestellen. Hierdoor wordt er tijd gewonnen bij het bestellingproces.
 		\autocite{Formidable2020}

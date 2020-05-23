@@ -1,5 +1,4 @@
-
-
+\clearpage
 \section{Besturingssystemen en PWA's}
 \label{ch: BesturingssystemenEnPWAs}
 
@@ -19,7 +18,7 @@ Een web-API is een API die wordt aangeboden door de browser. Het verschil met we
 
 Als er meer informatie nodig was over de web API's werd deze gevonden op \href{https://developers.google.com/}{developers.google.com } of op \href{https://developer.mozilla.org/nl/}{MDN web docs}
 
-Er werd gekeken op welke platformen bepaalde functies wel en niet werkten. De volgende platformen werden onderzocht:
+Er werd gekeken op welke platformen bepaalde functies wel en niet werkten. Volgende platformen werden onderzocht:
 \begin{itemize}
    \item Desktop:
    \begin{itemize}
@@ -61,7 +60,7 @@ De website \href{https://whatwebcando.today/}{whatwebcando.today} geeft een over
 
 \paragraph{Video met audio }
 
-Sommige van de meest populaire mobiele applicaties zijn sterk afhankelijk van camera-functionaliteit. Voorbeelden hiervan zijn Snapchat, Instagram, Messenger, WhatsApp, … 
+Sommige van de meest populaire mobiele applicaties zijn sterk afhankelijk van camera-functionaliteit. Voorbeelden hiervan zijn Snapchat, Instagram, Messenger, WhatsApp, ...
 
 Bij deze applicaties is het belangrijk dat de camera aan volgende vereisten voldoet:
 
@@ -143,7 +142,7 @@ Helaas is er voor Apple-toestellen geen ondersteuning. In de toekomst zal deze f
 		Edge & Firefox & Chrome & Safari & Android (Chrome) & IOS (Safari) \\
 		Ja   & Ja      & Ja     & Nee     & Ja               & Nee          
 	\end{tabular}	
-	\caption{ondersteuning van de Media Capture API op 7 maart 2020}
+	\caption{ondersteuning van de mediarecorder API op 7 maart 2020}
 \end{table}
 
 Gelukkig is er een alternatief voorzien met HTML5-tags. Dit is een methode die voor alle platformen zal werken maar niet op dezelfde manier.
@@ -160,7 +159,6 @@ Dit is een goed voorbeeld van progressive enhancement.
 
 
 \paragraph{Real-time communicatie }
-
 
 Bij de meeste populaire communicatieapplicaties zoals WhatsApp, Messenger, Skype, … is videobellen mogelijk. Om dit mogelijk te maken moet er live video en audio gestreamd kunnen worden tussen twee of meer personen.
 
@@ -182,15 +180,12 @@ Bij de meeste populaire communicatieapplicaties zoals WhatsApp, Messenger, Skype
 
 Applicaties die media tonen aan de gebruiker kunnen deze casten naar tv-toestel. Dit gebeurt bij Apple toestellen aan de hand van Airplay en bij Android toestellen aan de hand van Google cast.
 
-
 YouTube is een applicatie die hier gebruik van maakt. Als er een video bekeken wordt, zal de gebruiker een optie krijgen om deze te tonen op een tv.
-
 
 Op Apple toestellen kan een PWA nu ook AirPlay implementeren. 
 \autocite{Apple2020a}
 
-
-De Chrome Sender API \autocite{Developers2020b} zorgt ervoor dat alle modern toestellen media kunnen delen op een tv of ander scherm die dit ondersteunt.
+De Chrome Sender API \autocite{Developers2020b} zorgt ervoor dat toestellen media kunnen delen op een tv of ander scherm die dit ondersteunt.
 
 \begin{table}[H]
 	\centering
@@ -229,7 +224,7 @@ De Media Session API \autocite{Beaufort2019} zorgt ervoor dat als er media afges
 
 Deze API zorgt er ook voor dat er een notificatie komt waar de gebruiker controle heeft over de afgespeelde media. 
 
-Het voorbeeld van Spotify kan dus volledig geïmplementeerd worden als PWA.
+%Het voorbeeld van Spotify kan dus geïmplementeerd worden als PWA.
 
 \begin{table}[H]
 	\centering
@@ -446,7 +441,6 @@ Door deze functionaliteiten kan het voorbeeld van een sportapplicatie ook geïmp
 
 Als een native applicatie een melding heeft ontvangen zal er een indicatie staan naast het icoontje op het startscherm. Dit kan nu ook geïmplementeerd worden voor geïnstalleerde PWA's aan de hand van de Badging API. \autocite{LePage2020a}
 
-Op sommige applicatie zal hier een indicatie staan van het aantal meldingen.
 \begin{table}[H]
 	\centering
 	\begin{tabular}{llllll}
@@ -506,7 +500,7 @@ Functies waarvoor toestemming gevraagd kan worden:
 	
 
 \subsubsection{Besturingssysteem}
-\paragraph{offline opslage}
+\paragraph{Offline opslage}
 Native applicaties kunnen nog steeds gebruikt worden als er geen internetverbinding is. Toepassingen die geen netwerkverzoeken doen zijn dus nog volledig operationeel zonder internetverbinding. 
 
 Er zijn verschillende technologieën om data offline op te slaan. 
@@ -617,7 +611,7 @@ In theorie zouden PWA's hier dus gebruik kunnen van maken maar de ondersteuning 
 
 
 \paragraph{Sms}
-Native Applicaties kunnen binnenkomende sms-berichten lezen. Dit wordt vaak gebruikt om de authenticatie van een gebruiker sneller te laten verlopen. Een voorbeeld van deze use-case kan bij de applicatie van het betalingsplatform PayPal gevonden worden. Als een gebruiker zich registreert, zal zijn telefoonnummer gecontroleerd worden door er een sms naar dit nummer te sturen met een code. PayPal zal zien dat er een sms binnenkomt en zal automatisch de code uit dit bericht halen. Op deze manier hoeft de gebruiker de app niet te verlaten.
+Native Applicaties kunnen binnenkomende sms-berichten lezen. Dit wordt gebruikt om de authenticatie van een gebruiker sneller te laten verlopen. Een voorbeeld van deze use-case kan bij de applicatie van het betalingsplatform PayPal gevonden worden. Als een gebruiker zich registreert, zal zijn telefoonnummer gecontroleerd worden door er een sms naar dit nummer te sturen met een code. PayPal zal zien dat er een sms binnenkomt en zal automatisch de code uit dit bericht halen. Op deze manier hoeft de gebruiker de app niet te verlaten.
 
 Native applicaties kunnen niet enkel sms’en lezen, ze kunnen er ook schrijven. Dit betekent dus dat elke ontwikkelaar een sms-client applicatie kan maken.
 
@@ -695,7 +689,7 @@ Er worden ook methodes voorzien voor het reageren op de actie waarbij een gebrui
 \subsubsection{User experience}
 
 \paragraph{Offline gebruik}
-Door het gebruik van serviceworkers kan een website offline gebruikt worden. Deze website moet eerst bezocht worden als de gebruiker online is. De geladen pagina’s en andere items zoals foto’s kunnen opgeslagen worden voor offline gebruik.
+Door het gebruik van serviceworkers kan een website offline gebruikt worden. Deze website moet eerst bezocht worden als de gebruiker online is. De geladen pagina's en andere items zoals foto’s kunnen opgeslagen worden voor offline gebruik.
 
 \begin{table}[H]
 	\begin{tabular}{llllll}
@@ -745,7 +739,7 @@ De web Share Target API moet gebruikt worden in de applicatie waarnaar gereferee
 
 
 \paragraph{Betalingen}
-Aan de hand van de Payment Request API \autocite{Denicola2019} kan heel snel, zonder de website te verlaten, een betaling uitgevoerd worden. Bij Apple-toestellen zal dit gebeuren via Apple-pay. 
+Aan de hand van de Payment Request API \autocite{Denicola2019} kan heel snel, zonder de website te verlaten, een betaling uitgevoerd worden. Bij Apple-toestellen zal dit gebeuren via Apple-pay. Bij andere toestellen zal dit via Google pay gebeuren.
 
 \begin{table}[H]
 	\centering
@@ -1087,7 +1081,7 @@ eel toestellen gaan het scherm dimmen na een bepaalde tijd van inactiviteit. Dit
 \clearpage
 \subsection{Conclusie}
 
-	Het is opvallend hoeveel functies beschikbaar zijn voor het web. Slechts een beperkt aantal native applicaties zouden niet met web-technologieën gemaakt kunnen worden.
+	Het is opvallend hoeveel functies beschikbaar zijn voor het web. Slechts een beperkt aantal functionaliteiten die beschikbaar zijn voor native applicaties heeft geen variant voor webapplicaties.
 	
 	Het probleem is echter consistentie. Het voordeel van het web is dat je één codebase hebt en dat deze applicatie op verschillende soorten toestellen werkt. Dit is voor een basisapplicatie het geval, maar als er specifieke functies gebruikt moeten worden, wordt het moeilijker. Verschillende browsers verwachten verschillende web-API’s. Veel van de API's bestaan en kunnen gebruikt worden, maar zullen niet op alle browsers werken.
 	
@@ -1112,8 +1106,6 @@ eel toestellen gaan het scherm dimmen na een bepaalde tijd van inactiviteit. Dit
 	Toestellen die Android gebruiken als besturingssysteem kunnen meer genieten van de functionaliteiten die het web te bieden heeft.
 	De grootste limitatie die IOS heeft in vergelijking met Android is het niet ondersteunen van push-notificaties. Dit is een functie die belangrijk is om gebruikers betrokken te houden op een platform. Push notificaties zijn voor e-commerce platformen vaak een heel belangrijke tool binnen hun marketingplan.
 	\autocite{Anastasia2017}
-	
-	Achtergrondsynchronisatie is een functie die de gebruikerservaring kan verbeteren. Deze functie die mogelijk gemaakt wordt door service workers is ook niet beschikbaar op een IOS-toestel.
 	
 	Apple laat PWA's toe om slechts 50MB aan data offline op te slaan. Als deze applicatie voor een bepaalde tijd niet gebruikt wordt, zal al deze data verwijderd worden om ruimte op het toestel te besparen. Bij Android is dit 6\% van de beschikbare opslagruimte en zullen de opgeslagen gegevens niet automatisch verwijderd worden.
 	
@@ -1153,7 +1145,7 @@ eel toestellen gaan het scherm dimmen na een bepaalde tijd van inactiviteit. Dit
 	\begin{itemize}
 		\item	Windows 10 toestellen
 		\item	Windows S toestellen
-		\item	XBox
+		\item	Xbox
 		\item	Microsoft Hololens 
 	\end{itemize}
 	
@@ -1195,5 +1187,5 @@ eel toestellen gaan het scherm dimmen na een bepaalde tijd van inactiviteit. Dit
 	PWA's zijn binnen windows ook eenvoudig om te installeren.
 	Micorosoft probeert ontwikkelaars ook te ondersteunen in het ontwikkelen van PWA's, dit doen ze door een uitgebreide documentatie en tools aan te bieden.
 	
-	Apple daarintegen is meer gesloten ten opzichte van PWA's. Vanuit de standaard browser kunnen er helemaal geen PWA's geïnstalleerd worden. Via Google Chrome is dit wel mogelijk.
+	Apple daarintegen is meer gesloten voor PWA's. Vanuit de standaard browser kunnen er helemaal geen PWA's geïnstalleerd worden. Via Google Chrome is dit wel mogelijk.
 	
