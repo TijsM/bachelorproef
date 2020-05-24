@@ -2,12 +2,12 @@
 \section{Beperkingen van een PWA}
 \label{ch: beperkingenPWA}
 
-Zoals aangetoond in de sectie ‘besturingssystemen en '’ kan het web gebruik maken van verschillenden hardware-functies van een toestel. Onderzoek toont echter dat voor sommige toepassingen een PWA niet de oplossing is.
+Zoals aangetoond in de sectie ~\ref{ch: BesturingssystemenEnPWAs} kan het web gebruik maken van verschillenden hardware-functies van een toestel. Onderzoek toont echter dat voor sommige toepassingen een PWA niet de oplossing is.
 \autocite{Malavolta2016}
 
 
 \subsection{Cameragebruik}
-	Onderzoek van Rebecca Fransson toont aan dat de video’s die opgenomen worden met de mediaCapture API van een veel lagere kwaliteit zijn. Ook duurde het proces van het opnemen van een video statistisch significant langer. De methode waarbij er gebruik gemaakt wordt van de mediaCapture API is wel ondersteund door alle populaire browsers.
+	Onderzoek van Rebecca Fransson toont aan dat de video’s die opgenomen worden met de mediaCapture API van een veel lagere kwaliteit zijn dan bij een native applicatie. Ook duurde het proces van het opnemen van een video statistisch significant langer. De methode waarbij er gebruik gemaakt wordt van de mediaCapture API is wel ondersteund door alle populaire browsers.\autocite{Fransson2017}
 	
 	De resultaten waarbij video’s opgenomen worden met de nieuwere ImageCaptureAPI waren een stuk beter en benaderden de kwaliteit van een native applicatie. Het probleem bij deze techniek is dat deze API enkel ondersteund wordt door Google Chrome.
 	\autocite{Fransson2017}
@@ -15,7 +15,7 @@ Zoals aangetoond in de sectie ‘besturingssystemen en '’ kan het web gebruik 
 
 \subsection{Controle over platformen}
 	
-	Met native applicaties kan de ontwikkelaar kiezen voor welke platformen hij de applicatie zal publiceren. Het web, en dus ook ', kunnen van op verschillende toestellen bezocht worden. Dit is een van de voordelen van het web. Dit zorgt er echter voor dat de ontwikkelaar rekening moet houden met de verschillende mogelijkheden van de toestellen. Er kan een applicatie geschreven worden die afhankelijk is van een cameratoepassing. Toestellen die geen camera hebben (oudere telefoons, smart-tv, desktops, …) kunnen perfect op deze site terecht komen. Helaas zullen zij niet kunnen genieten van de functionaliteit van de applicatie.
+	Met native applicaties kan de ontwikkelaar kiezen voor welke platformen hij de applicatie zal publiceren. Het web, en dus ook PWA's, kunnen van op verschillende toestellen bezocht worden. Dit is een van de voordelen van het web. Dit zorgt er echter voor dat de ontwikkelaar rekening moet houden met de verschillende mogelijkheden van de toestellen. Er kan een applicatie geschreven worden die afhankelijk is van een cameratoepassing. Toestellen die geen camera hebben (oudere telefoons, smart-tv, desktops, …) kunnen perfect op deze site terecht komen. Helaas zullen zij niet kunnen genieten van de functionaliteit van de applicatie.
 	
 	Een webapplicatie kan geopend worden op een scherm van enkele centimeters groot. Deze zelfde applicatie kan ook geopend worden op een groot televisiescherm. De ontwikkelaar moet ervoor zorgen dat de applicatie op al deze groottes bruikbaar is.
 	
@@ -26,17 +26,21 @@ Zoals aangetoond in de sectie ‘besturingssystemen en '’ kan het web gebruik 
 	
 	Een PWA kan bijvoorbeeld geen widgets plaatsen op het startscherm van een Android toestel. 
 	
-	De instellingen van een toestel kunnen ook niet gemanipuleerd worden vanuit een PWA. Native applicaties kunnen bepaalde acties uitvoeren door de ingebouwde smart assistant (Google Assistant voor Android, Siri voor IOS), Deze assistenten kunnen nog niet interageren met geïnstalleerde '.
+	De instellingen van een toestel kunnen ook niet gemanipuleerd worden vanuit een PWA.
 	
-	Zoals aangetoond in de sectie ‘besturingssystemen en '’ kan een PWA ook geen toegang krijgen tot de alarmen van een toestel.
+	Native applicaties kunnen bepaalde acties uitvoeren door de ingebouwde smart assistant (Google Assistant voor Android, Siri voor IOS), Deze assistenten kunnen nog niet interageren met geïnstalleerde '.
 	
-	Toegang tot de hardware van toestellen is nog steeds beperkt. Er bestaan reeds heel wat web-API’s voor het aanspreken van deze sensoren. De ondersteuning van deze technologieën is nog niet goed (zie hoofdstuk \ref{ch: Besturingssystemen en PWA's}).
+	Zoals aangetoond in de sectie ~\ref{ch: BesturingssystemenEnPWAs}kan een PWA ook geen toegang krijgen tot de alarmen van een toestel.
+	
+	Toegang tot de hardware van toestellen is nog steeds beperkt. Er bestaan reeds heel wat web-API’s voor het aanspreken van deze sensoren. De ondersteuning van deze technologieën is nog niet goed (sectie ~\ref{ch: BesturingssystemenEnPWAs}).
 	De toegang tot persoonlijke informatie is ook beperkt. Er is voor webapplicaties geen toegang tot belgeschiedenis, berichten, kalender, … Dit is data waar native applicaties wel gebruik kunnen van maken.
 	\autocite{Brousek2017}
 	
 \subsection{Browserondersteuning}
 
 	De ondersteuning van de functionaliteiten die een PWA aanbiedt, is niet op elke browser gelijk. Alle moderne browsers ondersteunen service workers, maar meer specifieke functionaliteiten zoals push-notificaties zijn nog niet overal beschikbaar.
+	
+	%todo: uitbreiden
 	
 	
 \subsection{Aanwezigheid in app-stores}
