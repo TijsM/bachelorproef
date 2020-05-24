@@ -231,7 +231,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.6}Conclusie}{75}{subsection.2.4.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Tools voor het ontwikkelen van en een PWA}{76}{section.2.5}% 
+\contentsline {section}{\numberline {2.5}Tools voor het ontwikkelen van een PWA}{76}{section.2.5}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.1}Lighthouse}{76}{subsection.2.5.1}% 
 \defcounter {refsection}{0}\relax 
@@ -381,7 +381,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3.10}Masked icons}{114}{subsection.5.3.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}De Applicatie}{115}{section.5.4}% 
+\contentsline {section}{\numberline {5.4}De applicatie}{115}{section.5.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.1}Authenticatie}{115}{subsection.5.4.1}% 
 \defcounter {refsection}{0}\relax 
@@ -421,7 +421,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.5}Welke stappen zijn er nodig om een traditionele website om te vormen tot een PWA}{127}{subsection.6.1.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Vergelijking met verwacht resultaten}{127}{section.6.2}% 
+\contentsline {section}{\numberline {6.2}Vergelijking met verwachte resultaten}{127}{section.6.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.3}Verder onderzoek}{127}{section.6.3}% 
 \defcounter {refsection}{0}\relax 
@@ -445,7 +445,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {A.3.2}Wassim Chegham}{131}{subsection.A.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Is not being in the app-store an advantage or a disadvantage?}{131}{section.A.4}% 
+\contentsline {section}{\numberline {A.4}Is not being in the app-store an advantage or a disadvantage}{131}{section.A.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {A.4.1}Thomas Steiner}{131}{subsection.A.4.1}% 
 \defcounter {refsection}{0}\relax 
@@ -481,7 +481,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {A.9.2}Wassim Chegham}{136}{subsection.A.9.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.10}Beginning of Pwa's}{137}{section.A.10}% 
+\contentsline {section}{\numberline {A.10}Beginning of PWA's}{137}{section.A.10}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {A.10.1}Thomas Steiner}{137}{subsection.A.10.1}% 
 \defcounter {refsection}{0}\relax 
