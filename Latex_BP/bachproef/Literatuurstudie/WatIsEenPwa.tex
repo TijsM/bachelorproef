@@ -9,7 +9,7 @@ Native applicaties zijn betrouwbaar en bieden een heel goede gebruikerservaring.
 
 We kunnen dus stellen dat webapplicaties de bovenhand hebben in bereik maar dat native applicaties de bovenhand hebben als het op functionaliteit aankomt.
 
-Een PWA is een webapplicatie die gebruik maakt van moderne web API’s om functies aan te bieden die voordien enkel beschikbaar waren voor native applicaties. PWA's combineren de sterktes van het web(het bereik) en de sterktes van native applicaties(de functionaliteit).
+Een PWA is een webapplicatie die gebruik maakt van moderne web API's om functies aan te bieden die voordien enkel beschikbaar waren voor native applicaties. PWA's combineren de sterktes van het web (het bereik) en de sterktes van native applicaties (de functionaliteit).
 \autocite{Richard2020}
 \autocite{Google2020}
 
@@ -50,7 +50,7 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 		\autocite{Malavolta2016}
 	
 	
-	\subsubsection{Functionaliteiten die een serivce worker mogelijk maakt}
+	\subsubsection{Functionaliteiten die een service worker mogelijk maakt}
 	\label{ch: Functionaliteiten die een serivce worker mogelijk maakt}
 	
 		De service worker werkt onafhankelijk van de applicatie. Dit houdt in dat een service worker wel nog kan werken terwijl de applicatie afgesloten is. Hierdoor zijn volgende functies mogelijk binnen een webapplicatie:
@@ -61,7 +61,7 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 		
 			Als een PWA voor een eerste keer geladen wordt op een toestel zullen de bezochte pagina's offline beschikbaar blijven. Dit gebeurt door de  HTML, CSS en JavaScript bestanden die nodig zijn om de pagina's te creëren lokaal op te slaan. Applicaties die geen gebruik maken van netwerkverzoeken om data te laden, zullen dus offline volledig werken.
 			
-			Met service workers kunnen netwerkverzoeken en pagina’s ook gecached worden. Als een pagina geladen wordt, kunnen alle elementen opgeslagen worden op het toestel. Als deze pagina later opnieuw bezocht wordt, hoeft deze niet meer aan de server gevraagd te worden. Hierdoor wordt de applicatie sneller en minder afhankelijk van de netwerkverbinding.
+			Met service workers kunnen netwerkverzoeken en pagina's ook gecached worden. Als een pagina geladen wordt, kunnen alle elementen opgeslagen worden op het toestel. Als deze pagina later opnieuw bezocht wordt, hoeft deze niet meer aan de server gevraagd te worden. Hierdoor wordt de applicatie sneller en minder afhankelijk van de netwerkverbinding.
 			Volgens onderzoek, dat uitgevoerd werd door Google, verlaten 53\% procent van de gebruikers een website als deze niet geladen is binnen 3 seconden. Service workers kunnen dus helpen om het aantal gebruikers op jouw website te verhogen.
 			\autocite{Google2017}
 			
@@ -76,27 +76,29 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 
 			IndexedDB: \\
 
-				IndexedDB is een mechanisme dat gebruikt wordt om lokaal gestructureerde data op te slaan. Het kan vergeleken worden met object georienteerde databasemanagementsystemen die gebruik maken van JavaScript objecten om data op te slaan. Een IndexedDb maakt gebruik van indexen. Dit heeft als voordeel dat het uitlezen van data snel kan gebeuren
+				IndexedDB is een mechanisme dat gebruikt wordt om lokaal gestructureerde data op te slaan. Het kan vergeleken worden met object georiënteerde databasemanagementsystemen die gebruik maken van JavaScript objecten om data op te slaan. Een IndexedDB maakt gebruik van indexen. Dit heeft als voordeel dat het uitlezen van data snel kan gebeuren.
 				\autocite{Mozilla2019}
 	
 	
 	\subparagraph{Notificaties}
 	
 		Er zijn twee soorten notificaties: lokale notificaties en push notificaties. 
+		
 		Lokale notificaties worden geactiveerd vanop de applicatie van de gebruiker, er zijn geen externe invloeden die deze notificatie activeren.
 		
 		Binnen lokale notificaties kunnen we nog het onderscheid maken tussen persistente en niet-persistente notificaties.
 		Niet-persistente notificaties zijn notificaties die enkel getoond kunnen worden als de applicatie geopend is. Dit type notificaties heeft geen service worker nodig. 
 		Persistente notificaties zijn notificaties die nog steeds geactiveerd worden vanuit de code op het toestel, maar de applicatie moet niet meer actief zijn. Hier is wel een service worker nodig.
+	
 		Push notificaties worden niet geactiveerd binnen de applicatie, maar worden geactiveerd door een server.
-		Om push notificaties te gebruiken, moet er gebruik gemaakt worden van twee webAPI’s: de notifications API en de Push API.
+		Om push notificaties te gebruiken, moet er gebruik gemaakt worden van twee web-API's: de notifications API en de push API.
 		
 		Notifications API: \\
 		
-			Dit is een API die het uiterlijk en het gedrag van een notificatie zal bepalen. Deze API wordt zowel gebruikt voor lokale als voor push notifications.
+			Dit is een API die het uiterlijk en het gedrag van een notificatie zal bepalen. Deze API wordt zowel gebruikt voor lokale als voor push notificaties.
 			Om gebruik te maken van deze API moet de gebruiker expliciet toegang geven aan de applicatie.
 			
-			Een voorbeeld van de code van een notificatie kan er als volgend uitzien
+			Een voorbeeld van de code van een notificatie kan er als volgt uitzien:
 		
 \begin{lstlisting}
 function displayNotification() {
@@ -126,7 +128,7 @@ function displayNotification() {
 			\begin{table}[H]
 				\centering
 				\begin{tabular}{cp{12cm}}
-			       body & De boodschap die in de melding staat  \\
+			       body & De boodschap die in de melding staat.  \\
 			       icon & Het icoontje dat in de notificatie wordt getoond. \\
 			       vibrate & Het vibratiepatroon dat de melding zal maken in milliseconden. \\
 			       data & Data is een object dat gebruikt kan worden als de gebruiker op de notificatie  klikt. Dit object zal dan ontvangen worden in de applicatie. Hier zal vaak het id van de gebruiker teruggevonden worden. \\
@@ -152,7 +154,7 @@ function displayNotification() {
 	
 		Een toepassing die hier gebruik kan van maken zijn sociale media platformen. Als het bericht verzonden wordt terwijl de gebruiker offline is, zal er geen fout getoond worden maar zal dit bericht verzonden worden vanaf er internet is.
 		
-		Google Chrome op Android maakt hier gebruik van. Als er een website bezocht wordt als er geen internetverbinding is, krijgt de gebruiker de melding: “Chrome laat je weten wanneer de pagina klaar is”. Vanaf het toestel terug een internetverbinding heeft, en het de pagina heeft kunnen downloaden,  zal de gebruiker een melding krijgen die met de boodschap dat de pagina bekeken kan worden.
+		Google Chrome op Android maakt hier gebruik van. Als er een website bezocht wordt als er geen internetverbinding is, krijgt de gebruiker de melding: “Chrome laat je weten wanneer de pagina klaar is”. Vanaf dat het toestel terug een internetverbinding heeft, en het de pagina heeft kunnen downloaden,  zal de gebruiker een melding krijgen met de boodschap dat de pagina bekeken kan worden.
 	
 	
 		\begin{figure}[H]
@@ -169,7 +171,7 @@ function displayNotification() {
 		\subsubsection{Service worker lifecycle }
 			De levenscyclus van de service worker is onafhankelijk van de levenscyclus van de webapplicatie. Als de webapplicatie gesloten wordt, blijft de service worker gewoon werken.
 			
-			Om een service worker te installeren moet deze geregistreerd worden in de JavaScript van de webapplicatie. Dit gebeurt normaal bij het eerst bezoek aan de website van de gebruiker.
+			Om een service worker te installeren, moet deze geregistreerd worden in de JavaScript van de webapplicatie. Dit gebeurt normaal bij het eerste bezoek aan de website van de gebruiker.
 			
 \begin{lstlisting}
 function displayNotification() {
@@ -180,9 +182,9 @@ if ('serviceWorker' in navigator) {
 	
 		Als een service worker wordt geïnstalleerd, worden de opgegeven statische bestanden (foto’s, css-bestanden, JavaScript-bestanden) gedownload. Als dit slaagt, wordt er naar de activatiefase gegaan, als dit niet slaagt zal dit proces zich herhalen tot het slaagt. 
 		
-		Tijdens de activatiefase wordt er bekeken welke gecachete gegevens geüpdatet moeten worden en welke niet. De service worker zal de bestanden die het ontvangen heeft van het eerste netwerkverzoek vergelijken met zijn huidig cachegeheugen. Als er verschillen zijn zal dit cachegeheugen aangepast worden.
+		Tijdens de activatiefase wordt er bekeken welke gecachete gegevens geüpdatet moeten worden en welke niet. De service worker zal de bestanden die het ontvangen heeft van het eerste netwerkverzoek vergelijken met zijn huidig cachegeheugen. Als er verschillen zijn, zal dit cachegeheugen aangepast worden.
 		
-		Als de activatiefase geslaagd is, heeft de service worker controle over de pagina’s die binnen zijn scope vallen. Deze scope moet gedefinieerd worden binnen de service worker.
+		Als de activatiefase geslaagd is, heeft de service worker controle over de pagina's die binnen zijn scope vallen. Deze scope moet gedefinieerd worden binnen de service worker.
 		
 		Nu het oude cachegeheugen up-to-date is, zal de service worker overgaan naar een “rust”-toestand, hierbij wacht de service worker op netwerkverzoeken van bestanden die binnen zijn scope vallen.
 		
@@ -225,7 +227,7 @@ if ('serviceWorker' in navigator) {
 		\caption{beforeinstallprompt in Google Chrome op Android}
 	\end{figure}
 	
-	Op Apple toestellen (Iphone, Mac) heeft het beforeinstallprompt geen effect. De gebruiker moet zelf op zoek gaan in het menu om de applicatie te installeren.
+	Op Apple toestellen (iPhone, Mac) heeft het beforeinstallprompt geen effect. De gebruiker moet zelf op zoek gaan in het menu om de applicatie te installeren.
 	Niet alle gebruikers zullen weten hoe ze dit moeten doen, het is dus aangeraden om de gebruiker hierin te begeleiden door hem duidelijke instructies te geven.
 	\autocite{PWAbuilder2020}
 
@@ -293,9 +295,8 @@ if ('serviceWorker' in navigator) {
 			\centering
 			\begin{tabular}{cp{12cm}}
 	     		short\_name & Naam van de applicatie die op het startscherm gebruikt zal worden. Deze mag maximaal 12 karakters lang zijn. \\
-	     		name & Naam die op alle andere plekken gebruikt zal worden: vb bij de vraag als de app geïnstalleerd mag worden. Deze mag maximaal 45 karakters lang zijn. \\
-	     		icons & Een lijst vna objecten die het icoon bepaalt dat de applicatie zal gebruiken.
-Verschillende platformen vragen verschillende type's iconen Dit object heeft volgende eigenschappen:
+	     		name & Naam die op alle andere plekken gebruikt zal worden: vb. bij de vraag of de app geïnstalleerd mag worden. Deze mag maximaal 45 karakters lang zijn. \\
+	     		icons & Een lijst vna objecten die het icoon bepaalt dat de applicatie zal gebruiken. Verschillende platformen vragen verschillende types iconen Dit object heeft volgende eigenschappen:
 		     		\begin{itemize}
 			    		  \item src - bron van het icoon
 			    		  \item type - het bestandstype van het icoon
@@ -347,14 +348,14 @@ Verschillende platformen vragen verschillende type's iconen Dit object heeft vol
 	 
 		 Chrome dev summit is een conferentie voor webontwikkelaars georganiseerd door Google. 
 		 
-		 Alex Russel en Andreas Bovens gebruikten voor het eerst de term “progressive web apps”. Op dit moment ondersteunde enkel Android service workers en A2HS.
+		 Alex Russel en Andreas Bovens gebruikten voor het eerst de term “Progressive Web Apps”. Op dit moment ondersteunde enkel Android service workers en A2HS.
 		 
 		 Ook werd het concept van de application shell voorgesteld.
 		 \autocite{Russel2015}
 	 
 	 
 	 \subsubsection{IOS 13}
-		 Op 19 september 2019 stelde Apple IOS 13 voor. Deze software-update zorgde ervoor dat de IPhone gebruik kon maken van een service worker. De applicaties kunnen nu ook geïnstalleerd worden op het toestel, de gebruiker moet dit wel nog zelf doen aan de hand van het menu.
+		 Op 19 september 2019 stelde Apple IOS 13 voor. Deze software-update zorgde ervoor dat de iPhone gebruik kon maken van een service worker. De applicaties kunnen nu ook geïnstalleerd worden op het toestel, de gebruiker moet dit wel nog zelf doen aan de hand van het menu.
 		 \autocite{Apple2020}
 	 
 
@@ -389,7 +390,7 @@ Verschillende platformen vragen verschillende type's iconen Dit object heeft vol
 	
 	\subsubsection{Twitter}
 	
-		Twitter, één van de grootste sociale media platformen, implementeerde hun website ook als PWA. De resultaten waren ook hier positief. Het datagebruik van de gebruiker werd met 70\% verminderd. De gemiddelde gebruiker bekeek ook 65\% meer pagina’s dan op de vorige website van Twitter.
+		Twitter, één van de grootste sociale media platformen, implementeerde hun website ook als PWA. De resultaten waren ook hier positief. Het datagebruik van de gebruiker werd met 70\% verminderd. De gemiddelde gebruiker bekeek ook 65\% meer pagina's dan op de vorige website van Twitter.
 		Het afdelingshoofd van ontwikkeling van Twitter deed volgende uitspraak over de PWA:
 		
 		\textit{Twitter Lite is now the fastest, least expensive, and most reliable way to use Twitter. The web app rivals the performance of our native apps but requires less than 3\% of the device storage space compared to Twitter for Android.}
@@ -400,7 +401,7 @@ Verschillende platformen vragen verschillende type's iconen Dit object heeft vol
 	
 		Starbucks heeft een native applicatie waarmee er koffie of andere dranken besteld kunnen worden als ze in een Starbucks zaak zijn. Deze applicatie is populair bij klanten die vaak terugkomen naar Starbucks. Klanten die slechts eenmalig komen, willen vaak geen applicatie downloaden om deze maar éénmaal te gebruiken.
 		
-		Dit werd opgelost door de functionaliteit die de native applicatie biedt ook te implementeren als een PWA zodat deze gebruikt kanworden via het web zonder geïnstalleerd te worden.
+		Dit werd opgelost door de functionaliteit die de native applicatie biedt ook te implementeren als een PWA zodat deze gebruikt kan worden via het web zonder geïnstalleerd te worden.
 		
 		De klanten kunnen nu vanuit de website een bestelling personaliseren en bestellen. Hierdoor wordt er tijd gewonnen bij het bestellingproces.
 		\autocite{Formidable2020}

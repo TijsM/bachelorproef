@@ -19,7 +19,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Wat is een service worker}{29}{section*.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Functionaliteiten die een serivce worker mogelijk maakt}{29}{section*.8}% 
+\contentsline {subsubsection}{Functionaliteiten die een service worker mogelijk maakt}{29}{section*.8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{Offline gebruik}{29}{section*.9}% 
 \defcounter {refsection}{0}\relax 
