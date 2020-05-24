@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  24 MAY 2020 11:13
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  24 MAY 2020 16:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2234,7 +2234,6 @@ Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-Missing character: There is no ’ in font ptmr8t!
 
 Underfull \vbox (badness 2486) has occurred while \output is active []
 
@@ -2251,12 +2250,12 @@ Underfull \vbox (badness 1210) has occurred while \output is active []
  [84]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 180.
+               Default added (so using `tbp') on input line 179.
 
 File: ./img/flowchart.png Graphic file (type bmp)
 <./img/flowchart.png>
 
-Overfull \hbox (60.05124pt too wide) in paragraph at lines 182--183
+Overfull \hbox (60.05124pt too wide) in paragraph at lines 181--182
  [][] 
  []
 

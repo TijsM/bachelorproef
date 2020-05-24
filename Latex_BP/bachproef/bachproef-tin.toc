@@ -481,7 +481,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {A.9.2}Wassim Chegham}{136}{subsection.A.9.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.10}Beginning of pwa's}{137}{section.A.10}% 
+\contentsline {section}{\numberline {A.10}Beginning of Pwa's}{137}{section.A.10}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {A.10.1}Thomas Steiner}{137}{subsection.A.10.1}% 
 \defcounter {refsection}{0}\relax 
