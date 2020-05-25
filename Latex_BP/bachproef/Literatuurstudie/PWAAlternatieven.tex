@@ -2,7 +2,7 @@
 \section{PWA-alternatieven}
 \label{ch:pwaAlternatieven}
 
-In deze sectie zal er onderzoek gedaan worden naar technologieën waarbij er een applicatie ontwikkeld kan worden die op meerdere platformen kan werken waarbij er ook maar 1 codebase is. Er zal gekeken worden wat de voor- en nadelen zijn van deze technologieën. 
+In dit hoofdstuk zal er onderzoek gedaan worden naar technologieën waarbij er een applicatie ontwikkeld kan worden die op meerdere platformen kan werken waarbij er ook maar 1 codebase is. Er zal gekeken worden wat de voor- en nadelen zijn van deze technologieën. 
 
 Het doel van cross platform ontwikkeling is dat het gemakkelijker en sneller moet zijn om een applicatie te creëren en te onderhouden voor meerdere platformen.
 
@@ -30,7 +30,7 @@ Een ander voordeel van deze technologie is dat het gemakkelijker is om consisten
 		\autocite{Ionic2020}
 	
 	\subsubsection{Nadelen}
-		De userinterface die gemaakt wordt aan de hand van een hybride applicatie is op elk toestel dezelfde. Dit zorgt ervoor dat de app niet intuïtief aanvoelt. Een native Androidapplicatie heeft bijvoorbeeld een ander navigatiesysteem dan een IOS-applicatie. Bij het maken van een hybride oplossing zal deze navigatie op beide platformen dezelfde zijn.
+		De userinterface die gemaakt wordt aan de hand van een hybride applicatie is op elk toestel dezelfde. Dit zorgt ervoor dat de app niet intuïtief aanvoelt. Een native Androidapplicatie heeft bijvoorbeeld een ander navigatiesysteem dan een iOS-applicatie. Bij het maken van een hybride oplossing zal deze navigatie op beide platformen dezelfde zijn.
 		
 		De prestaties van een website die in een webview werkt zijn minder goed dan bij een native applicatie.
 		\autocite{Asp2017}	
@@ -53,7 +53,7 @@ Een ander voordeel van deze technologie is dat het gemakkelijker is om consisten
 		De ontwikkelervaring van een Ionic applicatie is ook aangenaam omdat Ionic ‘live reloading’ ondersteunt. Dit wil zeggen dat de applicatie niet opnieuw “gebuild” moet worden om de aanpassingen te zien. 
 		\autocite{Lucas2020}
 		
-		Het Ionic framework zal er ook voor zorgen dat de applicatie meer native aanvoelt door de UI-elementen die het aanbiedt. Als een applicatie “gebuild” wordt zal Ionic ervoor zorgen dat de juiste UI-componenten voor elk toestel gebruikt worden. Zo zal een Androidapplicatie het material design volgen en een IOS-applicatie het human design. 
+		Het Ionic framework zal er ook voor zorgen dat de applicatie meer native aanvoelt door de UI-elementen die het aanbiedt. Als een applicatie “gebuild” wordt zal Ionic ervoor zorgen dat de juiste UI-componenten voor elk toestel gebruikt worden. Zo zal een Androidapplicatie het material design volgen en een iOS-applicatie het human design. 
 		
 		Een Ionic applicatie zal meer middelen vragen van een toestel. Als prestaties een belangrijke factor zijn bij de applicatie die gebouwd moet worden, is deze hybride benadering dus niet ideaal.
 		
@@ -90,7 +90,7 @@ Het grote verschil met hybrid applications is dat bij cross platform native deve
 	\subsubsection{Voordelen}
 		De meeste cross platform development frameworks hebben een functie ‘hot reload’. Dit wil zeggen dat de app tijdens het ontwikkelen op een emulator kan uitgevoerd worden. Elke keer een verandering aangebracht wordt, zal deze app direct updaten. Dit vereenvoudigt het ontwikkelproces. 
 		
-		Bij cross platform development wordt de code omgevormd tot native componenten. Dit zorgt ervoor dat een applicatie een meer ‘native feeling’ zal hebben dan bij hybrid applications. Een knop die gecompileerd wordt naar Android zal er anders uitzien dan een knop die gecompileerd wordt naar IOS.
+		Bij cross platform development wordt de code omgevormd tot native componenten. Dit zorgt ervoor dat een applicatie een meer ‘native feeling’ zal hebben dan bij hybrid applications. Een knop die gecompileerd wordt naar Android zal er anders uitzien dan een knop die gecompileerd wordt naar iOS.
 		\autocite{Asp2017}
 	
 	\subsubsection{Nadelen}
@@ -99,7 +99,7 @@ Het grote verschil met hybrid applications is dat bij cross platform native deve
 		
 		
 	\subsubsection{Xamarin}
-		Xamarin is een platform die gebruikt kan worden om applicaties voor Android, IOS, Windows en macOS te maken.  Xamarin is ontwikkeld en wordt onderhouden door Microsoft. De taal en technologie die bij dit platform gebruikt wordt is C\#. Naar schatting kan 90\% van de code in C\# geschreven worden. De resterende 10\% van de code moet nog steeds geschreven worden in de taal van het platform zoals Java voor Android, Swift voor IOS. De code die niet met C\# geschreven is, is de code die de userinterface maakt.
+		Xamarin is een platform die gebruikt kan worden om applicaties voor Android, iOS, Windows en macOS te maken.  Xamarin is ontwikkeld en wordt onderhouden door Microsoft. De taal en technologie die bij dit platform gebruikt wordt is C\#. Naar schatting kan 90\% van de code in C\# geschreven worden. De resterende 10\% van de code moet nog steeds geschreven worden in de taal van het platform zoals Java voor Android, Swift voor iOS. De code die niet met C\# geschreven is, is de code die de userinterface maakt.
 		\autocite{Altexsoft2019} \autocite{Warcholinski2020}
 		
 		De IDE Visual studio voorziet veel tools die het ontwikkelen van Xamarin applicaties makkelijker maakt.
@@ -129,12 +129,12 @@ Het grote verschil met hybrid applications is dat bij cross platform native deve
 		\paragraph{Expo}
 			Expo is een verzameling van tools die aan React native toegevoegd worden. Expo zorgt ervoor dat een volledige applicatie geschreven kan worden met enkel gebruik te maken van JavaScript. Hierdoor is de combinatie van React native en Expo populair bij webdevelopers.
 			
-			Expo heeft het doel om de ontwikkeltijd van een applicatie zo laag mogelijk te houden. Een voorbeeld hiervan is dat de ontwikkelaar een applicatie kan downloaden op zijn toestel waarin de applicatie die ontwikkeld wordt, getest kan worden. Ook zijn functionaliteiten zoals push-notifications voorzien door Expo.
+			Expo heeft het doel om de ontwikkeltijd van een applicatie zo laag mogelijk te houden. Een voorbeeld hiervan is dat de ontwikkelaar een applicatie kan downloaden op zijn toestel waarin de applicatie die ontwikkeld wordt, getest kan worden. Ook zijn functionaliteiten zoals push notificaties voorzien door Expo.
 			
 			Expo heeft verschillende API’s om toegang te krijgen tot de verschillende functies van een toestel. De meeste applicaties kunnen gebouwd worden door gebruik te maken van deze API's. 
 			
 			Het gebruik van Expo kan echter ook limiterend zijn voor een applicatie. Als ontwikkelaar ben je volledig afhankelijk van deze API’s. Er kan enkel JavaScript geschreven worden en dus geen native code zoals dit bij een traditioneel React native project wel mogelijk is.
-			Een React native project dat gebruik maakt van Expo heeft nu ook webondersteuning. Dit houdt in dat een applicatie geschreven wordt in JavaScript en kan geëxporteerd worden naar een IOS app, Android app en een PWA. 
+			Een React native project dat gebruik maakt van Expo heeft nu ook webondersteuning. Dit houdt in dat een applicatie geschreven wordt in JavaScript en kan geëxporteerd worden naar een iOS app, Android app en een PWA. 
 			Deze web-functionaliteit is nog in de Beta fase en er wordt aangeraden dit nog niet te gebruiken in productie.
 			\autocite{Expo2020}
 

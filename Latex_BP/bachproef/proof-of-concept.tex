@@ -254,8 +254,8 @@ export const authWithGoogle = () => {
 
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=35mm]{./img/share-ios}{}
-			\caption{native share-menu op IOS}
+			\includegraphics[width=35mm]{./img/share-iOS}{}
+			\caption{native share-menu op iOS}
 		\end{figure}	
 		\begin{figure}[H]
 			\centering
@@ -619,25 +619,25 @@ peer.on("stream", (stream) => {
 \section{Conclusie}
 	
 	Al de vooropgestelde requirements kunnen bereikt worden door een PWA te implementeren. 
-	Native features zoals camera, microfoon, delen en notificatie zijn relatief eenvoudig te implementeren in een webapplicatie.
+	Native features zoals het gebruik van de camera, de microfoon, delen en notificaties konden succesvol geïmplementeerd worden in deze proof-of-concept.
 	
 	\subsection{Compatibiliteit en besturingssystemen}
 		Zoals eerder aangehaald is één van de nadelen van PWA's de sterk variërende ondersteuning van browsers. Daarom is het belangrijk dat de applicatie ontwikkeld wordt aan de hand van progressive enhancement. 
 		
 		De hoofdfunctionaliteit van de applicatie moet beschikbaar zijn voor alle gebruikers. Vervolgens kan de applicatie uitgebreid worden met functionaliteiten die de ervaring verbeteren maar die niet noodzakelijk zijn.
 		
-		In deze applicatie is de hoofdfunctionaliteit het videobellen. Zoals aangetoond in sectie ~\ref{ch: BesturingssystemenEnPWAs} wordt webRTC ondersteund op alle veelgebruikte browsers en toestellen.  Er werden vervolgens extra functionaliteiten toegevoegd zoals het delen van de link via het native deel-menu, de clipboard API, push notificaties en het automatisch toevoegen aan het startscherm.
+		In deze applicatie is de hoofdfunctionaliteit het videobellen. Zoals aangetoond in hoofdstuk~\ref{ch: BesturingssystemenEnPWAs} wordt webRTC ondersteund op alle veelgebruikte browsers en toestellen.  Er werden vervolgens extra functionaliteiten toegevoegd zoals het delen van de link via het native deel-menu, de clipboard API, push notificaties en het automatisch toevoegen aan het startscherm.
 		\begin{itemize}
 	  		\item Het deel-menu is enkel beschikbaar op mobiele toestellen en Safari op macOS.
 	  		\item De clipboard API is beschikbaar op alle browsers en toestellen maar heeft wel de toestemming van de gebruiker nodig.
 	  		\item Push notificaties zijn beschikbaar op alle browsers en toestellen met uitzondering van:
 	  				\begin{itemize}
-	  			  		\item alle browsers op IOS
+	  			  		\item alle browsers op iOS
 	  			  		\item Safari op macOS
 	  		 		\end{itemize}	
   			\item Automatisch toevoegen aan het startscherm is beschikbaar op alle browsers en toestellen met uitzondering van:
 	  				\begin{itemize}
-	  			  		\item alle browsers op IOS
+	  			  		\item alle browsers op iOS
 	  			  		\item Safari op macOS
 	  		 		\end{itemize}	
  		\end{itemize}
@@ -654,11 +654,11 @@ peer.on("stream", (stream) => {
 			Op Android bijvoorbeeld maakt de adresbalk geen deel uit van de viewport. Hierdoor was er dus wel een scroll van enkele centimeters aanwezig als de applicatie bezocht werd in de browser. Dit probleem stelt zich niet als de applicatie geïnstalleerd wordt want dan is er geen adresbalk aanwezig.
 			
 	\subsection{Verwachting gebruiker}
-		Een gebruiker die een applicatie installeert op een IOS toestel zal een andere user interface verwachten dan een gebruiker die een applicatie installeert op een Android toestel.
+		Een gebruiker die een applicatie installeert op een iOS toestel zal een andere user interface verwachten dan een gebruiker die een applicatie installeert op een Android toestel.
 		
 		Met een PWA kan er slechts 1 user interface geïmplementeerd worden. Het is dus niet mogelijk om volledig aan de verwachting van elke gebruiker te voldoen.
 		
-		Een gebruiker met een toestel dat op IOS werkt, is gewoon om naar de vorige pagina te navigeren door naar rechts te swipen op het toestel. Dit is een manier van navigeren die een Android gebruiker niet gewoon is. In deze proof-of-concept kan er niet met touch-gebaren genavigeerd worden. Dit kan niet 'native' aanvoelen voor de IOS gebruiker. 
+		Een gebruiker met een toestel dat op iOS werkt, is gewoon om naar de vorige pagina te navigeren door naar rechts te swipen op het toestel. Dit is een manier van navigeren die een Android gebruiker niet gewoon is. In deze proof-of-concept kan er niet met touch-gebaren genavigeerd worden. Dit kan niet 'native' aanvoelen voor de iOS gebruiker. 
 		
 		%todo:📈✅
 		Uit de resultaten van de user-testen bleek dat veel mensen niet weten welke functionaliteit beschikbaar is voor het web. Zo wist 23,1\% niet dat een webapplicatie gebruik kan maken van de camera en 61,5\% wist niet dat een website ook offline kan werken.
@@ -676,13 +676,21 @@ peer.on("stream", (stream) => {
 	  		\item 'Heb geen reden om geen native gebruiken'
 	  		\item 'Native heeft een beter gevoel'
 	  		\item 'Ik vertrouw een webapplicatie minder dan een native applicatie'
-	  		\item 'Ik prefereer snelheid en integratie van native'
+	  		\item 'Ik prefereer iOS en integratie van native'
 	  	\end{itemize}	
 			  	
 		%todo:✅ resultaat van user testing - zou de gebruiker PWA verkiezen boven native MET CONTEXT WAT PWA IS
 		In het onderzoek werd vervolgens dezelfde vraag opnieuw gesteld, maar nu werd er meer info gegeven aan de testpersoon over wat PWA's zijn. De tester werd verteld dat een PWA ook op het startscherm kan staan, notificaties kan versturen, en dat de app-grootte veel kleiner is dan die van een native app. 
 		%todo:📈✅
 		Als deze info geweten was, zou 75\% van de gebruikers wel overwegen om een PWA te gebruiken in plaats van de native applicatie.
+		
+		Hier valt opnieuw op dat Android gebruikers meer geneigd zijn om een PWA te gebruiken ten opzichte van iOS gebruikers.
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=120mm]{./img/PWA_over_Native.png}
+			\caption{gebruik van PWA's}
+		\end{figure}
 
 		
 		%todo: ✅resultaat van user testing - zou de gebruiker notificaties toestaan
@@ -710,7 +718,7 @@ peer.on("stream", (stream) => {
 		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=100mm]{./img/A2HS_data.png}
+			\includegraphics[width=120mm]{./img/A2HS_data.png}
 			\caption{A2HS ervaringen}
 		\end{figure}
 
@@ -724,16 +732,16 @@ peer.on("stream", (stream) => {
 
 		Onderzoek \autocite{LePage2020b} toont aan dat de gebruiker meer en langere sessies heeft als de PWA te vinden is op het startscherm. Het is dus belangrijk om een goede A2HS experience te ontwikkelen.
 		
-		De A2HS ervaring op een IOS toestel is minder goed dan die op andere toestellen. De gebruiker moet manueel in de instelling van de website gaan om de app toe te voegen aan het startscherm. Dit is een omslachtig proces dat niet veel gebruikers kennen. 
+		De A2HS ervaring op een iOS toestel is minder goed dan die op andere toestellen. De gebruiker moet manueel in de instelling van de website gaan om de app toe te voegen aan het startscherm. Dit is een omslachtig proces dat niet veel gebruikers kennen. 
 		
 		%todo:📈✅
-		Dit was ook terug te zien in de user-testen. Testers die IOS gebruikten zouden minder snel een applicatie toevoegen aan het startscherm. 
+		Dit was ook terug te zien in de user-testen. Testers die iOS gebruikten zouden minder snel een applicatie toevoegen aan het startscherm. 
 		
-		Bij de eerste applicatie krijgt de IOS gebruiker geen pop-up met de info dat deze applicatie toegevoegd kan worden aan het startscherm. Dit zorgde ervoor dat geen enkele IOS gebruiker deze PWA zou toevoegen aan het startscherm. Op Android kwam de standaard melding getoond, 35,5\% van de gebruikers gingen hier op in.
+		Bij de eerste applicatie krijgt de iOS gebruiker geen pop-up met de info dat deze applicatie toegevoegd kan worden aan het startscherm. Dit zorgde ervoor dat geen enkele iOS gebruiker deze PWA zou toevoegen aan het startscherm. Op Android kwam de standaard melding getoond, 35,5\% van de gebruikers gingen hier op in.
 		
-		Ook in de tweede applicatie was er een verschil te zien tussen IOS en Android gebruikers.	
+		Ook in de tweede applicatie was er een verschil te zien tussen iOS en Android gebruikers.	
 		Hier kan de applicatie ook nog toegevoegd worden aan het startscherm als de PWA al enkele keren gebruikt werd in de browser.
-		25\% van de IOS gebruikers zou de applicatie toevoegen aan het startscherm. Op Android zouden alle gebruikers de applicatie toevoegen aan het startscherm, als ze deze regelmatig gebruiken. 
+		25\% van de iOS gebruikers zou de applicatie toevoegen aan het startscherm. Op Android zouden alle gebruikers de applicatie toevoegen aan het startscherm, als ze deze regelmatig gebruiken. 
 		
 		
 		%todo: 📈📈📈📈📈📈grafiek toevoegen
@@ -749,7 +757,7 @@ peer.on("stream", (stream) => {
 		%todo:📈✅
 		De testers kregen de vraag 'Vond je de ervaring in de demo's gelijkaardig als die in een mobiele applicatie?' Hier antwoordde 76,92\% dat ze de ervaring van de PWA's gelijkaardig vonden aan die van een native applicatie.
 		
-		Ook hier valt op dat de testers die vonden dat de ervaring niet gelijkaardig was aan die van een native applicatie allemaal gebruik maakten van een toestel met IOS als besturingssysteem.
+		Ook hier valt op dat de testers die vonden dat de ervaring niet gelijkaardig was aan die van een native applicatie allemaal gebruik maakten van een toestel met iOS als besturingssysteem.
 		
 
 		
