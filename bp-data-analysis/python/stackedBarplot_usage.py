@@ -8,7 +8,7 @@ rc('font', weight='bold')
  
 # Values of each group
 bars1 = [0.007, 0.25] #IOS data
-bars2 = [0.007, 0.875] #Android data
+bars2 = [0.007, 0.4375] #Android data
  
 # Heights of bars1 + bars2
 bars = np.add(bars1, bars2).tolist()
