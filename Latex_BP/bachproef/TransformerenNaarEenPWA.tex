@@ -1,4 +1,4 @@
-\chapter{Ombouwen van een web app tot een PWA}
+\chapter{Ombouwen web applicatie tot een PWA}
 \label{ch:TransformerenNaarEenPWA}
 
 Voor sommige webapplicaties is het een grote meerwaarde om geïnstalleerd te kunnen worden  en offline bruikbaar te zijn op het toestel van de gebruiker.\autocite{Mozilla2020c} Eenvoudige applicaties die geen gebruik maken van backend verzoeken kunnen op deze manier volledig functioneel zijn zonder internetconnectie. 
@@ -73,7 +73,7 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag 'Welke stappen zijn nodig o
 
 		Een van de drie vereisten om een applicatie te kunnen toevoegen aan het startscherm is dat er een HTTPS-connectie is. Dit werd bekomen door de website te hosten op \href{https://www.netlify.com/}{ Netlify}. Dit is een online service die gratis hosting voor statische websites aanbiedt. Hier kan een SSL-certificaat toegevoegd worden zodat er een HTTPS connectie tot stand komt.
 
-
+	\newpage
 	\subsection{App manifest}
 \begin{lstlisting}
 {
@@ -131,6 +131,7 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag 'Welke stappen zijn nodig o
 	
 \end{lstlisting}
 		
+		\newpage
 		De naam en de verkorte naam (naam die op het splashscreen getoond zal worden) worden als eerste vastgelegd. Deze zijn gelijk omdat de volledige naam al kort genoeg is. Het maximumaantal karakters voor 'short\_name' is 12.
  
 		
@@ -159,7 +160,7 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag 'Welke stappen zijn nodig o
 		
 		Voor deze applicatie biedt deze service worker genoeg functionaliteit.
 		
-
+\newpage
 \section{Controle}
 
 	Aan de hand van een lighthouse audit kan er gecontroleerd worden als of werkt zoals verwacht.
