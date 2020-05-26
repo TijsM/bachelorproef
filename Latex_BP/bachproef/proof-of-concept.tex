@@ -127,7 +127,7 @@ const addToHome = () => {
 				
 				Dit cache-geheugen moet door de applicatie gevuld worden.
 			\subparagraph{Stale-While-Revalidate}
-				De staleWhileRevalidate strategie houdt in dat eerst het gecachete bestand gebruikt wordt. Vervolgens wordt er een netwerkverzoek verstuurd. Als het lokale bestand en het bestand van de server niet volledig gelijk zijn, zal het gecachete bestand overschreven worden en zal de content  in de applicatie aangepast worden.
+				De staleWhileRevalidate strategie houdt in dat eerst het \mbox{gecachete} bestand gebruikt wordt. Vervolgens wordt er een netwerkverzoek verstuurd. Als het \mbox{lokale} bestand en het bestand van de server niet volledig gelijk zijn, zal het gecachete bestand overschreven worden en zal de content  in de applicatie aangepast worden.
 				
 				Dit is de meest populaire strategie omdat de pagina snel geladen wordt en de inhoud is up-to-date.
 
@@ -316,7 +316,7 @@ else{
 			\item 	De administrator van de applicatie kan een notificatie naar alle gebruikers versturen vanuit een admin scherm.
 		\end{itemize}	
 		
-		\paragraph{Abbonneren op push notificaties}
+		\paragraph{Abonneren op push notificaties}
 			 De gebruiker moet expliciet toegang geven aan de webapplicatie om push notificaties te mogen gebruiken.
 			 
 \begin{lstlisting}
@@ -561,6 +561,8 @@ peer.on("stream", (stream) => {
 			\caption{autenticatie-schermen}
 		\end{figure}
 		
+		
+		\newpage
 	\subsection{Home}
 		Dit is het scherm waar de gebruiker zal terechtkomen als hij is aangemeld. 
 		Op dit scherm kan de gebruiker zijn 'rooms' beheren: hij kan nieuwe 'rooms' aanmaken, 'rooms' verwijderen en 'rooms' delen.
@@ -577,6 +579,8 @@ peer.on("stream", (stream) => {
 				\includegraphics[width=35mm]{./img/POC/home}{}		
 				\caption{homescherm}
 			\end{figure}
+	
+	\newpage
 	\subsection{Wachtschermen}
 		Als er slechts 1 persoon aanwezig is in de 'room', zal de gebruiker op dit scherm terechtkomen. 
 		
@@ -585,7 +589,7 @@ peer.on("stream", (stream) => {
 		Als een bezoeker in de 'room' komt, zal de eigenaar een melding krijgen dat er iemand in zijn 'room' is. Door op de notificatie te klikken, gaat de eigenaar direct naar de 'room'.
 						
 		Als beide gebruikers aanwezig zijn, zal de bezoeker de optie krijgen om het gesprek te starten.
-		\newpage
+
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=35mm]{./img/POC/waitAsOwner.jpg}{}		\includegraphics[width=35mm]{./img/POC/waitAsVisitor1.jpg}{}
@@ -594,7 +598,7 @@ peer.on("stream", (stream) => {
 		\end{figure}
 		
 		
-		
+	\newpage
 	\subsection{Room}
 		In dit scherm kunnen de gebruikers een conversatie hebben. 
 		
@@ -614,7 +618,7 @@ peer.on("stream", (stream) => {
 			\caption{scherm om manueel een notificatie te versturen}
 		\end{figure}
 		
-
+\newpage
 \section{Conclusie}
 	
 	Al de vooropgestelde requirements kunnen bereikt worden door een PWA te implementeren. 
@@ -685,7 +689,7 @@ peer.on("stream", (stream) => {
 		%todo: ✅resultaat van user testing - zou de gebruiker notificaties toestaan
 		Push notificaties zijn een sterk middel om user engagement te verhogen. \autocite{Gaunt2020} Als een PWA hier gebruik wil van maken, moet de gebruiker hier expliciet toestemming voor geven. 
 		
-		In de tweede proof-of-concept werd deze functie geïmplementeerd. De gebruiker kan deze zelf aanzetten. Hij zal dus niet lastig gevallen worden met pop-up's die om toestemming vragen. Vooraleer de gebruiker de notificaties activeert, weet hij voor welke doelen dit gebruikt zal worden. Dit is volgens Matt Gaunt de beste user experience. Dit zal dan ook resulteren in een hoog aantal mensen die notificaties toestaan. \autocite{Gaunt2019c}
+		In de tweede proof-of-concept werd deze functie geïmplementeerd. De gebruiker kan deze zelf activeren. Hij zal dus niet lastig gevallen worden met pop-up's die om toestemming vragen. Vooraleer de gebruiker de notificaties activeert, weet hij voor welke doelen dit gebruikt zal worden. Dit is volgens Matt Gaunt de beste user experience. Dit zal dan ook resulteren in een hoog aantal mensen die notificaties toestaan. \autocite{Gaunt2019c}
 		
 		%todo:📈✅
 		Er werd aan de gebruikers gevraagd of ze voor deze applicatie de notificaties zouden aan zetten. Een opvallend hoog percentage (76,9\%) zou toestemming geven aan een PWA om push notificaties te versturen.
@@ -703,7 +707,7 @@ peer.on("stream", (stream) => {
 		
 		Bij de eerste applicatie, waar er geen aangepaste A2HS ervaring werd geïmplementeerd, zouden slechts 23,1\% van de testers de applicatie toevoegen aan het startscherm.  
 		
-		Bij de tweede applicatie, waar er wel een aangepaste A2HS ervaring werd geïmplementeerd, zouden 76,9\% van de testers de applicatie toevoegen aan het startscherm.
+		Bij de tweede applicatie, waar er wel een aangepaste A2HS ervaring werd geïmplementeerd, zou 76,9\% van de testers de applicatie toevoegen aan het startscherm.
 		
 		%todo:📈 ✅
 		Het was opvallend dat de gebruikers de tweede applicatie sneller zouden installeren dan de eerste. De testers gaven volgende feedback in verband met de eerste applicatie:
@@ -720,7 +724,7 @@ peer.on("stream", (stream) => {
 		%todo:📈✅
 		Dit was ook terug te zien in de user-testen. Testers die iOS gebruikten zouden minder snel een applicatie toevoegen aan het startscherm. 
 		
-		Bij de eerste applicatie krijgt de iOS gebruiker geen pop-up met de info dat deze applicatie toegevoegd kan worden aan het startscherm. Dit zorgde ervoor dat geen enkele iOS gebruiker deze PWA zou toevoegen aan het startscherm. Op Android kwam de standaard melding getoond, 35,5\% van de gebruikers gingen hier op in.
+		Bij de eerste applicatie krijgt de iOS gebruiker geen pop-up met de info dat deze applicatie toegevoegd kan worden aan het startscherm. Dit zorgde ervoor dat geen enkele iOS gebruiker deze PWA zou toevoegen aan het startscherm. Op Android werd de standaard A2HS melding getoond, 35,5\% van de gebruikers ging hier op in.
 		
 		Ook in de tweede applicatie was er een verschil te zien tussen iOS en Android gebruikers.	
 		Hier kan de applicatie ook nog toegevoegd worden aan het startscherm als de PWA al enkele keren gebruikt werd in de browser.
@@ -760,7 +764,7 @@ peer.on("stream", (stream) => {
 		Op Android bijvoorbeeld maakt de adresbalk geen deel uit van de viewport. Hierdoor was er dus wel een scroll van enkele centimeters aanwezig als de applicatie bezocht werd in de browser. Dit probleem stelt zich niet als de applicatie geïnstalleerd wordt want dan is er geen adresbalk aanwezig.
 		
 
-		
+		Er zouden optimalisaties gedaan kunnen worden aan de hand van JavaScript. Ook Ionic zou eventueel een oplossing kunnen bieden. Deze oplossing verhogen in ieder geval de complexiteit en vallen buiten de scope van dit onderzoek.
 	
 	
 	
