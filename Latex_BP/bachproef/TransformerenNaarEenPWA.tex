@@ -71,7 +71,7 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag 'Welke stappen zijn nodig o
 
 	\subsection{HTTPS}
 
-		Een van de drie vereisten om een applicatie te kunnen toevoegen aan het startscherm is dat er een https-connectie is. Dit werd bekomen door de website te hosten op \href{https://www.netlify.com/}{ Netlify}. Dit is een online service die gratis hosting voor statische websites aanbiedt. Hier kan een SSL-certificaat toegevoegd worden zodat er een HTTPS connectie tot stand komt.
+		Een van de drie vereisten om een applicatie te kunnen toevoegen aan het startscherm is dat er een HTTPS-connectie is. Dit werd bekomen door de website te hosten op \href{https://www.netlify.com/}{ Netlify}. Dit is een online service die gratis hosting voor statische websites aanbiedt. Hier kan een SSL-certificaat toegevoegd worden zodat er een HTTPS connectie tot stand komt.
 
 
 	\subsection{App manifest}
@@ -170,7 +170,7 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag 'Welke stappen zijn nodig o
 		\caption{lighthouse audit van de website}
 	\end{figure}
 
-	Onder de sectie ‘installable’ kunnen we zien dat de applicatie inderdaad een https-connectie heeft, dat er een service worker is en dat er een manifest aanwezig is.
+	Onder de sectie ‘installable’ kunnen we zien dat de applicatie inderdaad een HTTPS-connectie heeft, dat er een service worker is en dat er een manifest aanwezig is.
 	
 	De pagina's worden ook onmiddellijk geladen. Dit komt omdat alle bestanden lokaal gecached zijn en er dus niet op een antwoord van de server gewacht moet worden.
 	
@@ -189,7 +189,7 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag 'Welke stappen zijn nodig o
 	
 	Het app manifest is een JSON-bestand die de eigenschappen van de applicatie beschrijft. Door gebruik te maken van bepaalde tools kan dit ook snel gecreëerd worden.
 	
-	Als een webapplicatie ontwikkeld wordt met React.js kan ook een serviceworker eenvoudig geregistreerd worden. Er moet slecht één methode aangeroepen worden.
+	Als een webapplicatie ontwikkeld wordt met React.js kan ook een service worker eenvoudig geregistreerd worden. Er moet slecht één methode aangeroepen worden.
 	
 	Een webapplicatie kan dus heel snel en eenvoudig omgezet worden tot een PWA.
 	

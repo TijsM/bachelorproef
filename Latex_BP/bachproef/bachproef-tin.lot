@@ -1,139 +1,71 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {dutch}{}
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {1}{\ignorespaces definities }}{22}{table.0.1}% 
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.1}{\ignorespaces beschrijving Notifications API}}{31}{table.2.1}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.2}{\ignorespaces beschrijving minimum application manifest}}{37}{table.2.2}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.3}{\ignorespaces ondersteuning van de Media Capture API op 7 maart 2020}}{42}{table.2.3}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.4}{\ignorespaces ondersteuning van de Image Capture API op 7 maart 2020}}{43}{table.2.4}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.5}{\ignorespaces ondersteuning van de mediarecorder API op 7 maart 2020}}{43}{table.2.5}% 
-\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.5}{\ignorespaces ondersteuning van de Mediarecorder API op 7 maart 2020}}{43}{table.2.5}% 
 \contentsline {table}{\numberline {2.6}{\ignorespaces ondersteuning van WebRTC op 7 maart 2020}}{44}{table.2.6}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.7}{\ignorespaces ondersteuning Apple AirPlay op 7 maart 2020}}{45}{table.2.7}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.8}{\ignorespaces ondersteuning van Chrome Sender API op 7 maart 2020}}{45}{table.2.8}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.9}{\ignorespaces ondersteuning van Media Session API op 7 maart 2020}}{45}{table.2.9}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.10}{\ignorespaces ondersteuning van Web Bluetooth API op 7 maart 2020}}{46}{table.2.10}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.11}{\ignorespaces ondersteuning van Web USB API op 7 maart 2020}}{46}{table.2.11}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.12}{\ignorespaces ondersteuning van Web NFC API op 7 maart 2020}}{46}{table.2.12}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.13}{\ignorespaces ondersteuning van Network information API op 7 maart 2020}}{47}{table.2.13}% 
-\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.13}{\ignorespaces ondersteuning van Network Information API op 7 maart 2020}}{47}{table.2.13}% 
 \contentsline {table}{\numberline {2.14}{\ignorespaces ondersteuning online status op 7 maart 2020}}{47}{table.2.14}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.15}{\ignorespaces ondersteuning vibratiemotor op 7 maart 2020}}{47}{table.2.15}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.16}{\ignorespaces ondersteuning batterijstatus op 7 maart 2020 }}{48}{table.2.16}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.17}{\ignorespaces ondersteuning toestelgeheugen op 7 maart 2020}}{48}{table.2.17}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.18}{\ignorespaces ondersteuning lokale notificaties op 7 maart 2020}}{48}{table.2.18}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.19}{\ignorespaces ondersteuning push notificaties op 7 maart 2020}}{49}{table.2.19}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.20}{\ignorespaces ondersteuning A2HS op 7 maart 2020 }}{49}{table.2.20}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.21}{\ignorespaces ondersteuning Badging API op 7 maart 2020}}{49}{table.2.21}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.22}{\ignorespaces ondersteuning voorgrond detectie op 7 maart 2020}}{50}{table.2.22}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.23}{\ignorespaces ondersteuning Permissions API op 7 maart 2020}}{50}{table.2.23}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.24}{\ignorespaces ondersteuning web storrage op 7 maart 2020}}{51}{table.2.24}% 
-\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.24}{\ignorespaces ondersteuning web storage op 7 maart 2020}}{51}{table.2.24}% 
 \contentsline {table}{\numberline {2.25}{\ignorespaces ondersteuning IndexedDB op 7 maart 2020}}{51}{table.2.25}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.26}{\ignorespaces ondersteuning Cache API op 7 maart 2020}}{51}{table.2.26}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.27}{\ignorespaces ondersteuning Storage API op 7 maart 2020}}{51}{table.2.27}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.28}{\ignorespaces ondersteuning File API op 7 maart 2020}}{52}{table.2.28}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.29}{\ignorespaces ondersteuning Contacts API op 7 maart 2020}}{52}{table.2.29}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.30}{\ignorespaces ondersteuning Messaging API op 7 maart 2020}}{53}{table.2.30}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.31}{\ignorespaces ondersteuning Task Sheduler API op 7 maart 2020}}{53}{table.2.31}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.32}{\ignorespaces ondersteuning touch gebaren op 7 maart 2020}}{54}{table.2.32}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.33}{\ignorespaces ondersteuning Clipboard API op 7 maart 2020}}{54}{table.2.33}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.34}{\ignorespaces ondersteuning offline gebruik op 7 maart 2020}}{54}{table.2.34}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.35}{\ignorespaces ondersteuning achtergrondsynchronisatie op 7 maart 2020}}{55}{table.2.35}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.36}{\ignorespaces ondersteuning Web Share API en Web Share Target API op 7 maart 2020}}{55}{table.2.36}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.37}{\ignorespaces ondersteuning Payment Request API op 7 maart 2020}}{55}{table.2.37}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.38}{\ignorespaces ondersteuning Credential Management API op 7 maart 2020}}{56}{table.2.38}% 
-\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.38}{\ignorespaces ondersteuning Credential Management API op 7 maart 2020}}{55}{table.2.38}% 
 \contentsline {table}{\numberline {2.39}{\ignorespaces ondersteuning Geolocation API op 7 maart 2020}}{56}{table.2.39}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.40}{\ignorespaces ondersteuning Geofencing API op 7 maart 2020}}{56}{table.2.40}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.41}{\ignorespaces ondersteuning Device Orientation API op 7 maart 2020}}{57}{table.2.41}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.42}{\ignorespaces ondersteuning DeviceMotionEvent }}{57}{table.2.42}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.43}{\ignorespaces ondersteuning Accelerometer }}{57}{table.2.43}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.44}{\ignorespaces ondersteuning Gyroscope op 7 maart 2020 }}{58}{table.2.44}% 
-\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.44}{\ignorespaces ondersteuning Gyroscope op 7 maart 2020 }}{57}{table.2.44}% 
 \contentsline {table}{\numberline {2.45}{\ignorespaces ondersteuning Magnetometer op 7 maart 2020 }}{58}{table.2.45}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.46}{\ignorespaces ondersteuning Lineaire accelerometer op 7 maart 2020 }}{58}{table.2.46}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.47}{\ignorespaces ondersteuning Proximity API op 7 maart 2020 }}{58}{table.2.47}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.48}{\ignorespaces ondersteuning WebVR en WebXR op 7 maart 2020 }}{58}{table.2.48}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.49}{\ignorespaces ondersteuning Fullscreen API op 7 maart 2020 }}{59}{table.2.49}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.50}{\ignorespaces ondersteuning Wake Lock API op 7 maart 2020 }}{59}{table.2.50}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.51}{\ignorespaces conluderende tabel ‘functionaliteiten van een besturingssysteem’}}{61}{table.2.51}% 
-\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.51}{\ignorespaces conluderende tabel ‘functionaliteiten van een besturingssysteem}}{61}{table.2.51}% 
 \contentsline {table}{\numberline {2.52}{\ignorespaces concluderende tabel 'waarom een PWA'}}{73}{table.2.52}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.53}{\ignorespaces concluderende tabel 'beperkingen van een PWA'}}{75}{table.2.53}% 
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {5.1}{\ignorespaces performantie vergelijking met Zoom}}{114}{table.5.1}% 
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {C.1}{\ignorespaces gestelde vragen bij user-testen}}{141}{table.C.1}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {C.2}{\ignorespaces Antwoorden van user-testen}}{142}{table.C.2}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {C.3}{\ignorespaces Antwoorden op de open vragen}}{142}{table.C.3}% 
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \contentsfinish 

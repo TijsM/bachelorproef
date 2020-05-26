@@ -18,19 +18,19 @@
 	
 	Voor elk van deze onderdelen, op 'PWA' na, zal er een score op 100 gegenereerd worden. De audit zal ook voorstellen doen om deze scores te verhogen en de ervaring voor de eindgebruiker dus te verbeteren.
 	
-	Voor het onderdeel PWA zal er een checklist gegenereerd worden met items die moeten voldaan worden zodat de applicatie geïnstalleerd kan worden op een toestel. Dit onderdeel wordt opgedeeld in drie delen: “fast and reliable”, “installable” en “PWA optimized”.
+	Voor het onderdeel PWA zal er een checklist gegenereerd worden met items waaraan de applicatie moet voldoen om geïnstalleerd te kunnen worden op een toestel. Dit onderdeel wordt opgedeeld in drie delen: 'fast and reliable', 'installable' en 'PWA optimized'.
 	
 	
 	\subsubsection{Fast and reliable}
 		De eerste metriek die getest wordt, is de iOS van de website. Er wordt zowel gekeken naar de iOS waarmee de eerste inhoud op de pagina komt (FMP - first meaningful paint) maar ook naar wanneer de gebruiker voor het eerst kan interageren met de website (TTI - time to interactive).
 		\autocite{web.dev2020}
 		
-		Vervolgens worden de offline capaciteiten van de website getest. Er wordt getest als de huidige pagina en startpagina reageren met een antwoord die de statuscode 200 bevat als er geen internetverbinding is. Dit wil zeggen dat er een succesvol antwoord was en dat de website dus offline kan werken.
+		Vervolgens worden de offline capaciteiten van de website getest. Er wordt getest of de huidige pagina en startpagina reageren met een antwoord die de statuscode 200 bevat als er geen internetverbinding is. Dit wil zeggen dat er een succesvol antwoord was en dat de website dus offline kan werken.
 	
 	
 	\subsubsection{Installable}
 	
-		In dit deel van de PWA-audit zal gecontroleerd worden of als de website voldoet aan alle vereisten om geïnstalleerd te kunnen worden. Dit zijn:
+		In dit deel van de PWA-audit zal gecontroleerd worden of de website voldoet aan alle vereisten om geïnstalleerd te kunnen worden. Dit zijn:
 		\begin{itemize}
 			\item	Er moet een HTTPS-verbinding zijn.
 			\item	Er moet een service worker geregistreerd worden.
@@ -42,7 +42,7 @@
 	\subsubsection{PWA optimized}
 	
 		In dit onderdeel wordt er gecontroleerd op kleine optimalisaties die een betere gebruikers-ervaring kunnen bieden. 
-		Een voorbeeld hiervan is dat als een gebruiker naar de HTTP-versie van een website surft, hij herleid wordt naar de https-versie.
+		Een voorbeeld hiervan is dat als een gebruiker naar de HTTP-versie van een website surft, hij herleid wordt naar HTTPS-versie.
 		
 		Een andere controle is dat het themakleur van de applicatie is ingesteld. Dit kan gebeuren in de app-manifest. Ook dit zorgt voor een betere user experience en een meer native feeling. Deze app manifest moet een specifiek icoon bevatten voor de iPhone. Ook deze controle wordt uitgevoerd.
 		
@@ -67,7 +67,7 @@
 
 \subsection{PWAbuilder}
 
-	Pwabuilder.com is een website, die gecreëerd werd door Microsoft, die ervoor zorgt dat een PWA toch in de app-stores kan terechtkomen. Als ontwikkelaar moet je juist een link van een PWA opgeven en de tool maakt van deze PWA vier pakketten die kunnen geüpload worden naar hun bijhorende app-store. 
+	Pwabuilder.com is een website, gecreëerd werd door Microsoft, die ervoor zorgt dat een PWA toch in de app-stores kan terechtkomen. Als ontwikkelaar moet je juist een link van een PWA opgeven en de tool maakt van deze PWA vier pakketten die kunnen geüpload worden naar hun bijhorende app-store. 
 	
 	Volgende platformen zijn ondersteund:
 	
@@ -83,12 +83,12 @@
 \subsection{Chrome developer tools}
 	De Chrome developer tools bieden een grote hulp bij het ontwikkelen van webapplicaties.
 	
-	Chrome zorgt ervoor dat er eenvoudig gecachete items tijdelijk verwijderd kunnen worden. Hierdoor kan de ontwikkelaar testen als een service worker de juiste bestanden offline beschikbaar maakt.
+	Chrome zorgt ervoor dat er eenvoudig gecachete items tijdelijk verwijderd kunnen worden. Hierdoor kan de ontwikkelaar testen of een service worker de juiste bestanden offline beschikbaar maakt.
 	
 	Google Chrome biedt tools om eenvoudig een website offline te testen of om bepaalde service workers uit te schakelen.
-	Ook de volledigheid van het app-manifest bestand kan in de Chrome developer tools bekeken worden
+	Ook de volledigheid van het app-manifest bestand kan in de Chrome developer tools bekeken worden.
 	
-	De Chrome devloper tools hebben ook een sectie waar de status van de service worker kan bekeken en gemanipuleerd worden.
+	De Chrome developer tools hebben ook een sectie waar de status van de service worker kan bekeken en gemanipuleerd worden.
 	\autocite{Developers2019b}
 	
 
