@@ -9,7 +9,7 @@ Native applicaties zijn betrouwbaar en bieden een heel goede gebruikerservaring.
 
 We kunnen dus stellen dat webapplicaties de bovenhand hebben in bereik maar dat native applicaties de bovenhand hebben als het op functionaliteit aankomt.
 
-Een PWA is een webapplicatie die gebruik maakt van moderne web API's om functies aan te bieden die voordien enkel beschikbaar waren voor native applicaties. PWA's combineren de sterktes van het web (het bereik) en de sterktes van native applicaties (de functionaliteit).
+Een PWA is een webapplicatie die gebruik maakt van moderne web API's om functies aan te bieden die voordien enkel beschikbaar waren voor native applicaties. PWA's combineren de sterktes van het web en de sterktes van native applicaties, zoals geïllustreerd in figuur \ref{fig:watIsEenPWA}.
 \autocite{Richard2020}
 \autocite{Google2020}
 
@@ -25,6 +25,7 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 	\centering
 	\includegraphics{./img/WatIsEenPwa.png}
 	\caption{voorstelling wat een PWA is \autocite{Richard2020}}
+	\label{fig:watIsEenPWA}
 \end{figure}
 
 
@@ -156,19 +157,21 @@ function displayNotification() {
 	
 		Een toepassing die hier gebruik kan van maken zijn sociale media platformen. Als het bericht verzonden wordt terwijl de gebruiker offline is, zal er geen fout getoond worden maar zal dit bericht verzonden worden vanaf er internet is.
 		
-		Google Chrome op Android maakt hier gebruik van. Als er een website bezocht wordt als er geen internetverbinding is, krijgt de gebruiker de melding: “Chrome laat je weten wanneer de pagina klaar is”. Vanaf dat het toestel terug een internetverbinding heeft, en het de pagina heeft kunnen downloaden,  zal de gebruiker een melding krijgen met de boodschap dat de pagina bekeken kan worden.
+		Google Chrome op Android maakt hier gebruik van. Als er een website bezocht wordt als er geen internetverbinding is, krijgt de gebruiker de melding: "Chrome laat je weten wanneer de pagina klaar is" (zie figuur \ref{fig:backSync1}). Vanaf dat het toestel terug een internetverbinding heeft, en het de pagina heeft kunnen downloaden, zal de gebruiker een melding krijgen met de boodschap dat de pagina bekeken kan worden (zie figuur \ref{fig:backSync2}).
 	
 	
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=35mm]{./img/backSync1.png}{}
-			\caption{demonstratie van achtergrond synchronisatie bij Google Chrome op Android - pagina offline}
+			\caption{achtergrond synchronisatie bij Google Chrome op Android - pagina offline}
+			\label{fig:backSync1}
 		\end{figure}
 		
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=35mm]{./img/backSync2.png}
-			\caption{demonstratie van achtergrond synchronisatie bij Google Chrome op Android - melding als gebruiker terug online is}
+			\caption{achtergrond synchronisatie bij Google Chrome op Android - melding als gebruiker terug online is}
+			\label{fig:backSync2}
 		\end{figure}
 		\subsubsection{Service worker lifecycle }
 			De levenscyclus van de service worker is onafhankelijk van de levenscyclus van de webapplicatie. Als de webapplicatie gesloten wordt, blijft de service worker gewoon werken.
@@ -193,11 +196,14 @@ if ('serviceWorker' in navigator) {
 		Als er een netwerkverzoek wordt verstuurd, zal de service worker deze verzoeken afhandelen. Na een bepaalde tijd zal de service worker terug naar de ‘rust’-modus gaan tot er een nieuw netwerkverzoek is. De service worker gaat naar deze ‘rust’-toestand om zowel cpu-kracht als geheugen te sparen.
 		\autocite{Gaunt2019}
 		
+		Dit proces wordt geïllustreerd in van figuur \ref{fig:swLifeCycle}
+		
 		
 		\begin{figure}[H]
 			\centering
 			\includegraphics{./img/ServiceWorkerLifeCycle.png}
 			\caption{schema levenscyclus van een service worker \autocite{Gaunt2019}}
+			\label{fig:swLifeCycle}
 		\end{figure}
 	
 
@@ -216,17 +222,20 @@ if ('serviceWorker' in navigator) {
 	\end{itemize}
 	
 	Als een website aan alle criteria voldoet zal er een beforeinstallprompt event gestart worden. Elke browser gaat hier anders mee om. 
+	Zo is in figuur \ref{fig:A2HSWindows} te zien dat er een icoontje komt in de adresbalk in Google Chrome voor computers. Bij Google Chrome op mobiele toestellen zal er onderaan het scherm een banner komen (zie figuur \ref{fig:A2HSAndroid}).
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics{./img/beforeinstallprompt_windows.png}	
 		\caption{beforeinstallprompt in Google Chrome op Windows 10}
+		\label{fig:A2HSWindows}
 	\end{figure}
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics{./img/beforeinstallprompt_android.png}
 		\caption{beforeinstallprompt in Google Chrome op Android}
+		\label{fig:A2HSAndroid}
 	\end{figure}
 	
 	Op Apple toestellen (iPhone, Mac) heeft het beforeinstallprompt geen effect. De gebruiker moet zelf op zoek gaan in het menu om de applicatie te installeren.
@@ -236,6 +245,8 @@ if ('serviceWorker' in navigator) {
 
 \subsection{Application shell}
 	De application shell of app shell is de minimale HTML, CSS en JavaScript die nodig is om een userinterface te tonen op een toestel. Dit is vaak de header, footer en de navigatie.
+	
+	Figuur \ref{fig:AppShell} maakt het verschil duidelijk tussen de application shell en de content.
 	
 	Door de bestanden die steeds terugkomen offline op te slaan, worden deze veelgebruikte elementen onmiddellijk geladen. Dit zorgt ervoor dat een webapplicatie meer zal aanvoelen als een native applicatie.
 	
@@ -251,7 +262,8 @@ if ('serviceWorker' in navigator) {
 	\begin{figure}[!htb]
 		\centering
 		\includegraphics{./img/ApplicationShell.png}
-		\caption{voorbeeld van een application shell architectuur \autocite{Osmani2015}}
+		\caption{application shell architectuur \autocite{Osmani2015}}
+		\label{fig:AppShell}
 	\end{figure}
 	
 \newpage
@@ -371,17 +383,19 @@ if ('serviceWorker' in navigator) {
 		\autocite{Microsoft2020}
 		
 		Microsoft geeft het goede voorbeeld door de veelgebruikte e-mail-client Outlook ook beschikbaar te maken als een PWA.
-		De PWA-versie van de applicatie is slechts 800KB groot terwijl de traditionele versie op een desktop 1,8GB groot is.
+		De PWA-versie van de applicatie is slechts 800KB groot (figuur \ref{outlookPWA}) terwijl de traditionele versie op een desktop 1,8GB groot is (figuur \ref{outlookMac}).
 		\begin{figure}[H]
 			\centering
 			\includegraphics{./img/Outlook_native.png}
 			\caption{Outlook op Mac}
+			\label{outlookMac}
 		\end{figure}
 		
 		\begin{figure}[H]
 			\centering
 			\includegraphics{./img/Outlook_pwa.png}
 			\caption{Outlook op Mac als PWA}
+			\label{outlookPWA}
 		\end{figure}
 		
 	\subsubsection{AliExpress}

@@ -44,18 +44,19 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een and
 \section{Design}
 		\subsection{Mockup}
 					
-			Voor er een design gemaakt werd, werden er mockups opgesteld.
+			Voor er een design gemaakt werd, werden er mockups opgesteld (figuur \ref{fig:mockup}). 
 			Aan de hand van deze mockups met weinig detail, kon er snel gestart worden met het ontwikkelen van de functionaliteiten. \autocite{Tate2019}
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=140mm]{./img/mockup-poc.png}{}
 				\caption{mockups in Figma}
+				\label{fig:mockup}
 			\end{figure}
 		
 		
 		\subsection{Prototype}
 		
-			Vervolgens werd er een klikbaar prototype gemaakt. In de dit prototype werd de stijl van de applicatie bepaald.
+			Vervolgens werd er een klikbaar prototype gemaakt (figuur \ref{fig:design}). In de dit prototype werd de stijl van de applicatie bepaald.
 			
 			Er werd gekozen om een eenvoudig design te implementeren met illustraties die van \href{https://undraw.co/}{unDraw} verkregen werden.
 			
@@ -63,6 +64,7 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een and
 				\centering
 				\includegraphics[width=140mm]{./img/prototype-poc.png}{}
 				\caption{prototype in Figma}
+				\label{fig:design}
 			\end{figure}
 			
 	
@@ -242,7 +244,7 @@ export const authWithGoogle = () => {
 		Dit werd bekomen door de Share API te gebruiken.
 		Op mobiele toestellen zal deze een native menu openen waar de gebruiker de link kan delen via verschillende platformen.
 		
-		Echter, enkel Chrome voor Android en Safari bieden dit aan. Er kan dus niet vanuit gegaan worden dat de gebruiker dit kan gebruiken.
+		Echter, enkel Chrome voor Android (figuur \ref{fig:shareChrome}) en Safari (figuur \ref{fig:shareIOS}) bieden dit aan . Er kan dus niet vanuit gegaan worden dat de gebruiker dit kan gebruiken.
 
 \begin{lstlisting}
  const shareData = {
@@ -257,11 +259,13 @@ export const authWithGoogle = () => {
 			\centering
 			\includegraphics[width=35mm]{./img/share-iOS}{}
 			\caption{native share-menu op iOS}
+			\label{fig:shareIOS}
 		\end{figure}	
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=35mm]{./img/share-android.jpg}{}
 			\caption{native share-menu op Android}
+			\label{fig:shareChrome}
 		\end{figure}
 
 		Als de gebruiker een browser gebruikt die deze functie niet ondersteunt, zal de clipboard API gebruikt worden.
@@ -313,7 +317,7 @@ else{
 		
 		In deze applicatie worden push notificaties gebruikt in twee use-cases:
 		\begin{itemize}
-			\item 	Als een bezoeker in een 'room' komt, zal de eigenaar van die 'room' een melding krijgen.
+			\item 	Als een bezoeker in een 'room' komt, zal de eigenaar van die 'room' een melding krijgen. Een voorbeeld van deze melding is te zien in figuur \ref{fig:notificationMacOS}.
 			\item 	De administrator van de applicatie kan een notificatie naar alle gebruikers versturen vanuit een admin scherm.
 		\end{itemize}	
 		
@@ -416,8 +420,9 @@ options = {
 
 	\begin{figure}[H]
 		\centering
-				\includegraphics[width=80mm]{./img/notificationMacOs}{}		
+		\includegraphics[width=80mm]{./img/notificationMacOs}{}		
 		\caption{notificatie op macOS}
+		\label{fig:notificationMacOS}
 	\end{figure}
 			
 	\subsection{Local storage}
@@ -527,28 +532,34 @@ peer.on("stream", (stream) => {
 		
 		In verschillende thema's zullen de icoontjes er anders uitzien, in sommige thema's zullen ze rond zijn, in andere vierkant met afgeronde hoeken. 
 		
-		Als het icoontje niet geoptimaliseerd wordt, zal Android er steeds voor zorgen dat het icoontje volledig zichtbaar is. Indien nodig zal er een achtergrond toegevoegd worden.
+		Als het icoontje niet geoptimaliseerd wordt, zoals bij figuur \ref{fig:unmasked}, zal Android er steeds voor zorgen dat het icoontje volledig zichtbaar is. Indien nodig zal er een achtergrond toegevoegd worden.
 		
-		Door ervoor te zorgen dat alle belangrijke elementen van het icoon binnen een 'safe zone' vallen, en door een extra property toe te voegen in het app manifest kan dit opgelost worden.
-		
+		Door ervoor te zorgen dat alle belangrijke elementen van het icoon binnen een 'safe zone' vallen, en door een extra property toe te voegen in het app manifest kan dit opgelost worden. In figuur \ref{fig:masked} kunnen de geöptimaliseerde iconen gevonden worden.
+	
+		Toe te voegen aan app manifest:
 \begin{lstlisting}
 "purpose": "any maskable" 
 \end{lstlisting}
 
+		In deze proof of concept werden de iconen ook 'maskable' gemaakt \ref{fig:videocallMasked}
+
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=60mm]{./img/traditionalIcons}{}
-			\caption{niet-geoptimaliseerde iconen}
+			\caption{niet-geoptimaliseerde iconen \autocite{Oakes2019}}
+			\label{fig:unmasked}
 		\end{figure}
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=60mm]{./img/maskedicons}{}
-			\caption{masked iconen}
+			\caption{masked iconen  \autocite{Oakes2019}}
+			\label{fig:masked}
 		\end{figure}
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=100mm]{./img/iconPWA.png}{}
 			\caption{geoptimaliseerde iconen van proof-of-concept}
+			\label{fig:videocallMasked}
 		\end{figure}
 
 \newpage
@@ -679,12 +690,15 @@ peer.on("stream", (stream) => {
 		%todo:📈✅
 		Als deze info geweten was, zou 75\% van de gebruikers wel overwegen om een PWA te gebruiken in plaats van de native applicatie. Voor veel gebruikers was de app-grootte de overtuigende factor.
 		
-		Hier valt opnieuw op dat Android gebruikers meer geneigd zijn om een PWA te gebruiken ten opzichte van iOS gebruikers.
+		Figuur \ref{fig:gebruikPWA}  toont aan dat Android gebruikers meer geneigd zijn om een PWA te gebruiken ten opzichte van iOS gebruikers.
+		
 		
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=120mm]{./img/PWA_over_Native.png}
 			\caption{gebruik van PWA's}
+			\label{fig:gebruikPWA}
+			
 		\end{figure}
 
 		
@@ -732,12 +746,16 @@ peer.on("stream", (stream) => {
 		Hier kan de applicatie ook nog toegevoegd worden aan het startscherm als de PWA al enkele keren gebruikt werd in de browser.
 		25\% van de iOS gebruikers zou de applicatie toevoegen aan het startscherm. Op Android zouden alle gebruikers de applicatie toevoegen aan het startscherm, als ze deze regelmatig gebruiken. 
 		
+		Figuur \ref{fig:A2HSExperience} toont aan dat er meer gebruikers de PWA zouden toevoegen aan het startscherm als er een custom A2HS ervaring aangeboden wordt. De grafiek toont ook aan dat een gebruiker met een Android-toestel een applicatie sneller zal toevoegen aan het startscherm dan een gebruiker met een iOS-toestel.
+		
 		
 		%todo:✅ 📈 grafiek toevoegen
+		\newpage
 		\begin{figure}[H]
 				\centering
 				\includegraphics[width=120mm]{./img/A2HS_data.png}
 				\caption{A2HS ervaringen}
+				\label{fig:A2HSExperience}
 			\end{figure}
 		
 		

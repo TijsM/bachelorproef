@@ -1207,6 +1207,7 @@
   author = {Gaunt, Matt},
   date   = {2019-06-07},
   title  = {Permissions UX},
+  url    = {https://developers.google.com/web/fundamentals/push-notifications/permission-ux},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

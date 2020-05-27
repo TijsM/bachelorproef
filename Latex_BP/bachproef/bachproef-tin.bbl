@@ -1405,37 +1405,6 @@
       \verb http://www.diva-portal.org/smash/get/diva2:1349917/FULLTEXT01.pdf
       \endverb
     \endentry
-    \entry{Firebase2020}{online}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=035489ff8d092741943e4a83241f5af9}{%
-           family={Firebase},
-           familyi={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{035489ff8d092741943e4a83241f5af9}
-      \strng{fullhash}{035489ff8d092741943e4a83241f5af9}
-      \strng{bibnamehash}{035489ff8d092741943e4a83241f5af9}
-      \strng{authorbibnamehash}{035489ff8d092741943e4a83241f5af9}
-      \strng{authornamehash}{035489ff8d092741943e4a83241f5af9}
-      \strng{authorfullhash}{035489ff8d092741943e4a83241f5af9}
-      \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{28}
-      \field{month}{3}
-      \field{title}{Firebase}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://firebase.google.com/
-      \endverb
-      \verb{url}
-      \verb https://firebase.google.com/
-      \endverb
-    \endentry
     \entry{Flutter2020}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=c047b10eee763afb6164e077cf1cc268}{%
@@ -4054,37 +4023,6 @@
       \verb https://www.itnewsafrica.com/2017/10/top-5-cost-conscious-mobile-phones-for-the-african-consumer/
       \endverb
     \endentry
-    \entry{Netflify2020}{online}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=cc6056ae0ada4ea1869937e87097f0a3}{%
-           family={Netflify},
-           familyi={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{cc6056ae0ada4ea1869937e87097f0a3}
-      \strng{fullhash}{cc6056ae0ada4ea1869937e87097f0a3}
-      \strng{bibnamehash}{cc6056ae0ada4ea1869937e87097f0a3}
-      \strng{authorbibnamehash}{cc6056ae0ada4ea1869937e87097f0a3}
-      \strng{authornamehash}{cc6056ae0ada4ea1869937e87097f0a3}
-      \strng{authorfullhash}{cc6056ae0ada4ea1869937e87097f0a3}
-      \field{sortinit}{N}
-      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{28}
-      \field{month}{3}
-      \field{title}{Netlify}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://www.netlify.com/
-      \endverb
-      \verb{url}
-      \verb https://www.netlify.com/
-      \endverb
-    \endentry
     \entry{netMarketShare2020}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=9e73b1cab43361fde3a7430728077177}{%
@@ -4114,6 +4052,40 @@
       \endverb
       \verb{url}
       \verb https://netmarketshare.com/operating-system-market-share.aspx?options=%7B%22filter%22:%7B%22$and%22:[%7B%22deviceType%22:%7B%22$in%22:[%22Desktop/laptop%22]%7D%7D]%7D,%22dateLabel%22:%22Trend%22,%22attributes%22:%22share%22,%22group%22:%22platform%22,%22sort%22:%7B%22share%22:-1%7D,%22id%22:%22platformsDesktop%22,%22dateInterval%22:%22Monthly%22,%22dateStart%22:%222019-03%22,%22dateEnd%22:%222020-02%22,%22segments%22:%22-1000%22,%22plotKeys%22:[%7B%22platform%22:%22Linux%22%7D,%7B%22platform%22:%22Mac%20OS%22%7D]%7D
+      \endverb
+    \endentry
+    \entry{Oakes2019}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=317d42f09ff23cf710a68ae7128e7f24}{%
+           family={Oakes},
+           familyi={O\bibinitperiod},
+           given={Tiger},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{317d42f09ff23cf710a68ae7128e7f24}
+      \strng{fullhash}{317d42f09ff23cf710a68ae7128e7f24}
+      \strng{bibnamehash}{317d42f09ff23cf710a68ae7128e7f24}
+      \strng{authorbibnamehash}{317d42f09ff23cf710a68ae7128e7f24}
+      \strng{authornamehash}{317d42f09ff23cf710a68ae7128e7f24}
+      \strng{authorfullhash}{317d42f09ff23cf710a68ae7128e7f24}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{month}{12}
+      \field{title}{Adaptive icon support in PWAs with maskable icons}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://web.dev/maskable-icon/
+      \endverb
+      \verb{url}
+      \verb https://web.dev/maskable-icon/
       \endverb
     \endentry
     \entry{Oberhofer2017}{online}{}
