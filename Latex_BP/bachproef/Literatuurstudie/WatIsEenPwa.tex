@@ -99,7 +99,7 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 			Dit is een API die het uiterlijk en het gedrag van een notificatie zal bepalen. Deze API wordt zowel gebruikt voor lokale als voor push notificaties.
 			Om gebruik te maken van deze API moet de gebruiker expliciet toegang geven aan de applicatie.
 			
-			Een voorbeeld van de code van een notificatie kan er als volgt uitzien:
+			Een voorbeeld van de code van een notificatie kan er als volgt uitzien: 
 		
 \begin{lstlisting}
 function displayNotification() {
@@ -124,7 +124,7 @@ function displayNotification() {
   }
 }
 \end{lstlisting}
-			Om een notificatie weer te geven, wordt er een object verwacht waar de inhoud van de melding wordt vastgelegd. Volgende keys kunnen meegegeven worden:
+			Om een notificatie weer te geven, wordt er een object verwacht waar de inhoud van de melding wordt vastgelegd. De mogelijke eigenschappen die aan het object kunnen meegeven worden staan beschreven in tabel \ref{tabelNotification}
 			
 			\begin{table}[H]
 				\centering
@@ -136,6 +136,7 @@ function displayNotification() {
 			       actions & Er kunnen ook acties toegevoegd worden aan de melding. Elk object in deze array zal een knop worden op de melding met een andere functie. Het gedrag van de knoppen wordt bepaald in de applicatie aan de hand van de ‘action’. \\
 				\end{tabular}	
 				\caption{beschrijving Notifications API}
+				\label{tabelNotification}
 			\end{table}
 			\autocite{Developers2019}
 			\autocite{Mozilla2019a}
@@ -304,6 +305,8 @@ if ('serviceWorker' in navigator) {
 }
 \end{lstlisting}
 	
+	\newpage
+		Tabel \ref{tabelManifest} beschrijft de attributen van een minimum app manifest.
 	
 		\begin{table}[H]
 			\centering
@@ -329,6 +332,7 @@ if ('serviceWorker' in navigator) {
 	     		theme\_color & De kleur die de adresbalk zal innemen.
 			\end{tabular}	
 			\caption{beschrijving minimum application manifest}
+			\label{tabelManifest}
 		\end{table}
 				
 			

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  27 MAY 2020 20:33
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  27 MAY 2020 21:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1865,9 +1865,6 @@ Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
 Missing character: There is no “ in font pagk8t!
 Missing character: There is no ” in font pagk8t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [15
 
 
@@ -1875,8 +1872,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \tf@lof=\write7
 \openout7 = `bachproef-tin.lof'.
 
-
-[16] (./bachproef-tin.lot
+ [16] (./bachproef-tin.lot
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17
@@ -1974,7 +1970,7 @@ Missing character: There is no ” in font ec-lmtt10!
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
@@ -2005,21 +2001,16 @@ File: ./img/beforeinstallprompt_android.png Graphic file (type bmp)
 [34]
 File: ./img/ApplicationShell.png Graphic file (type bmp)
 <./img/ApplicationShell.png>
- [35]
+ [35] [36]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
 
-Overfull \hbox (25.95328pt too wide) in paragraph at lines 310--331
+Overfull \hbox (25.95328pt too wide) in paragraph at lines 313--334
  [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36]
 Missing character: There is no “ in font ptmr8t!
 Missing character: There is no ” in font ptmr8t!
-
 [37]
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ’ in font ptmri8t!
@@ -2031,7 +2022,7 @@ Missing character: There is no ” in font ptmri8t!
 Missing character: There is no “ in font ptmri8t!
 Missing character: There is no ” in font ptmri8t!
 
-Overfull \hbox (0.54924pt too wide) in paragraph at lines 363--364
+Overfull \hbox (0.54924pt too wide) in paragraph at lines 367--368
 \T1/ptm/m/n/12 Chrome dev sum-mit is een con-fe-ren-tie voor we-bont-wik-ke-laa
 rs ge-or-ga-ni-seerd door Google. 
  []
@@ -2043,21 +2034,17 @@ File: ./img/Outlook_native.png Graphic file (type bmp)
 [38]
 File: ./img/Outlook_pwa.png Graphic file (type bmp)
 <./img/Outlook_pwa.png>
-
-Underfull \vbox (badness 2818) has occurred while \output is active []
-
  [39]
 Missing character: There is no ‘ in font ptmr8t!
 Missing character: There is no ’ in font ptmr8t!
-)
-(./Literatuurstudie/BesturingssystemenEnPwaS.tex [40]
-Overfull \hbox (10.4255pt too wide) in paragraph at lines 28--29
+) (./Literatuurstudie/BesturingssystemenEnPwaS.tex [40]
+Overfull \hbox (10.4255pt too wide) in paragraph at lines 30--31
 []\T1/ptm/m/n/12 Safari (desktop) ver-sie 13.0.5 op een Mac-book Pro met ma-cOS
  Mo-jave (10.14.6) 
  []
 
 
-Underfull \vbox (badness 2057) has occurred while \output is active []
+Underfull \vbox (badness 2401) has occurred while \output is active []
 
  [41
 
@@ -2090,28 +2077,23 @@ Underfull \vbox (badness 1048) has occurred while \output is active []
 [49] [50] [51] [52]
 Missing character: There is no ’ in font ptmr8t!
  [53] [54] [55] [56] [57]
-Overfull \hbox (61.38855pt too wide) in paragraph at lines 917--921
+Overfull \hbox (61.38855pt too wide) in paragraph at lines 919--923
  [][] 
  []
 
 [58] [59]
-Overfull \hbox (1.6751pt too wide) in paragraph at lines 956--956
+Overfull \hbox (1.6751pt too wide) in paragraph at lines 958--958
 []|\T1/ptm/m/n/12 Chrome| 
  []
 
 
-Overfull \hbox (3.00722pt too wide) in paragraph at lines 956--956
+Overfull \hbox (3.00722pt too wide) in paragraph at lines 958--958
 []|\T1/ptm/m/n/12 Android| 
  []
 
 
-Overfull \hbox (6.5207pt too wide) in paragraph at lines 1000--1000
+Overfull \hbox (6.5207pt too wide) in paragraph at lines 1002--1002
 []|\T1/ptm/m/n/12 Onbekend| 
- []
-
-
-Overfull \hbox (1.00302pt too wide) in paragraph at lines 1018--1018
-[]|\T1/ptm/m/n/12 Beperkt| 
  []
 
 
@@ -2120,26 +2102,31 @@ Overfull \hbox (1.00302pt too wide) in paragraph at lines 1020--1020
  []
 
 
-Overfull \hbox (55.54715pt too wide) in paragraph at lines 955--1031
+Overfull \hbox (1.00302pt too wide) in paragraph at lines 1022--1022
+[]|\T1/ptm/m/n/12 Beperkt| 
+ []
+
+
+Overfull \hbox (55.54715pt too wide) in paragraph at lines 957--1034
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1033.
+               Default added (so using `tbp') on input line 1036.
 
 
-Overfull \hbox (1.6751pt too wide) in paragraph at lines 1037--1037
+Overfull \hbox (1.6751pt too wide) in paragraph at lines 1040--1040
 []|\T1/ptm/m/n/12 Chrome| 
  []
 
 
-Overfull \hbox (3.00722pt too wide) in paragraph at lines 1037--1037
+Overfull \hbox (3.00722pt too wide) in paragraph at lines 1040--1040
 []|\T1/ptm/m/n/12 Android| 
  []
 
 
-Overfull \hbox (49.8566pt too wide) in paragraph at lines 1035--1076
+Overfull \hbox (49.8566pt too wide) in paragraph at lines 1038--1079
  [][] 
  []
 
@@ -2542,10 +2529,10 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46143 strings out of 492916
- 875305 string characters out of 6133345
- 1527965 words of memory out of 5000000
- 49461 multiletter control sequences out of 15000+600000
+ 46146 strings out of 492916
+ 875350 string characters out of 6133345
+ 1528172 words of memory out of 5000000
+ 49464 multiletter control sequences out of 15000+600000
  575142 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,80p,1496b,7228s stack positions out of 5000i,500n,10000p,200000b,80000s

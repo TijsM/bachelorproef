@@ -252,7 +252,7 @@
 \contentsline {subsection}{\numberline {A.11.2}Wassim Chegham}{138}{subsection.A.11.2}% 
 \contentsline {chapter}{\numberline {B}Performantietesten video stream}{139}{appendix.B}% 
 \contentsline {section}{\numberline {B.1}Code voor het testen van de video streams}{139}{section.B.1}% 
-\contentsline {section}{\numberline {B.2}Screenshots van de resultaten}{140}{section.B.2}% 
+\contentsline {section}{\numberline {B.2}schermafbeelding van de resultaten}{140}{section.B.2}% 
 \contentsline {chapter}{\numberline {C}User-testen }{141}{appendix.C}% 
 \contentsline {section}{\numberline {C.1}Gestelde vragen}{141}{section.C.1}% 
 \contentsline {section}{\numberline {C.2}Antwoorden}{142}{section.C.2}% 
