@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  27 MAY 2020 08:42
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  27 MAY 2020 09:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2322,34 +2322,27 @@ ca-tie in-der-daad een HTTPS-connectie
 Hoofdstuk 5.
 [101
 
-]
+] [102]
 File: ./img/mockup-poc.png Graphic file (type bmp)
 <./img/mockup-poc.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [102]
 File: ./img/prototype-poc.png Graphic file (type bmp)
 <./img/prototype-poc.png>
 
-Overfull \hbox (10.86874pt too wide) in paragraph at lines 72--73
-[]\T1/ptm/m/n/12 De code van dit pro-ject kan op git-hub ge-von-den wor-den: ht
+Underfull \vbox (badness 3158) has occurred while \output is active []
+
+ [103]
+Overfull \hbox (13.5327pt too wide) in paragraph at lines 72--73
+[]\T1/ptm/m/n/12 De code van dit pro-ject kan op Git-hub ge-von-den wor-den: ht
 tps://github.com/TijsM/videocall-
  []
 
-[103]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [104]
-Overfull \hbox (14.27557pt too wide) in paragraph at lines 130--131
- []\T1/ptm/b/n/12 Stale-While-Revalidate[] \T1/ptm/m/n/12 De sta-le-Whi-leR-eva
+[104]
+Overfull \hbox (16.27962pt too wide) in paragraph at lines 130--131
+ []\T1/ptm/b/n/12 Stale-While-Revalidate[] \T1/ptm/m/n/12 De Sta-le-Whi-leR-eva
 -li-date stra-te-gie houdt in dat eerst het []
  []
 
-[105] [106]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [107]
+[105] [106] [107]
 File: ./img/share-iOS.png Graphic file (type bmp)
 <./img/share-iOS.png>
 File: ./img/share-android.jpg Graphic file (type bmp)

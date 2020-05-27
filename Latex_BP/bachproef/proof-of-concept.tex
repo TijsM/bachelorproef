@@ -40,7 +40,7 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een and
 		\end{itemize} 
 		
 
-
+\newpage
 \section{Design}
 		\subsection{Mockup}
 					
@@ -67,9 +67,9 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een and
 			
 	
 \section{Implementatie}
-	Voor het ontwikkelen van de proof-of-concept werd er opnieuw react.js gebruikt voor de frontend. De backend werd ontwikkeld in node.js en als database werd de firestore van firebase gebruikt.
+	Voor het ontwikkelen van de proof-of-concept werd er opnieuw react.js gebruikt voor de frontend. De backend werd ontwikkeld in node.js en als database werd de Firestore van Firebase gebruikt.
 	
-	De code van dit project kan op github gevonden worden: https://github.com/TijsM/videocall-pwa
+	De code van dit project kan op Github gevonden worden: https://github.com/TijsM/videocall-pwa
 	
 	\subsection{Registreren service worker}
 		
@@ -78,7 +78,7 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een and
 		
 		Door een service worker te genereren zorgt react ervoor dat het heel eenvoudig is om statische bestanden te cachen en een website offline beschikbaar te maken.
 		
-		Deze strategie heeft echter één groot nadeel, de service worker die react genereert kan niet worden aangepast door de ontwikkelaar. Als de applicatie een meer geavanceerde service worker nodig heeft, zal deze automatisch gegenereerde service worker moeten overschreven worden.
+		Deze strategie heeft echter één groot nadeel: de service worker die react genereert, kan niet worden aangepast door de ontwikkelaar. Als de applicatie een meer geavanceerde service worker nodig heeft, zal deze automatisch gegenereerde service worker moeten overschreven worden.
 		
 		Het artikel van Chinmaya Pati dat gepubliceerd werd op Medium beschrijft dit proces. \autocite{Pati2019}
 		
@@ -86,12 +86,12 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een and
 	
 		De applicatie voldoet aan alle criteria om geïnstalleerd te kunnen worden op toestellen. Echter zal de gebruiker geen standaard melding te zien krijgen om de applicatie te installeren.		
 		
-		Als de applicatie de gebruiker vraagt om de applicatie toe te voegen aan het startscherm en de gebruiker staat dit niet toe, zal het beforeInstallPrompt nooit meer opnieuw opgeroepen worden. Deze melding kan dus maar 1 maal getoond worden.
+		Als de applicatie de gebruiker vraagt om de applicatie toe te voegen aan het startscherm en de gebruiker staat dit niet toe, zal het beforeInstallPrompt nooit meer opnieuw opgeroepen worden. Deze melding kan dus maar één keer getoond worden.
 		
-		Om de kans te verhogen dat de gebruiker de applicatie toevoegt aan het startscherm zal deze melding enkel getoond worden als de gebruiker daar expliciet naar vraagt.
+		Om de kans te verhogen dat de gebruiker de applicatie toevoegt aan het startscherm, zal deze melding enkel getoond worden als de gebruiker daar expliciet naar vraagt.
 		\autocite{Mclachlan2020}
 		
-		Als de applicatie opstart zal het beforeInstallPrompt opgevangen worden en opgeslagen worden in de state. Door het standaard gedrag te overschrijven zal de melding nog niet getoond worden aan de gebruiker.
+		Als de applicatie opstart, zal het beforeInstallPrompt opgevangen worden en opgeslagen worden in de state. Door het standaard gedrag te overschrijven zal de melding nog niet getoond worden aan de gebruiker.
 		\autocite{LePage2020b}
 		
 \begin{lstlisting}
@@ -127,12 +127,12 @@ const addToHome = () => {
 				
 				Dit cache-geheugen moet door de applicatie gevuld worden.
 			\subparagraph{Stale-While-Revalidate}
-				De staleWhileRevalidate strategie houdt in dat eerst het \mbox{gecachete} bestand gebruikt wordt. Vervolgens wordt er een netwerkverzoek verstuurd. Als het \mbox{lokale} bestand en het bestand van de server niet volledig gelijk zijn, zal het gecachete bestand overschreven worden en zal de content  in de applicatie aangepast worden.
+				De StaleWhileRevalidate strategie houdt in dat eerst het \mbox{gecachete} bestand gebruikt wordt. Vervolgens wordt er een netwerkverzoek verstuurd. Als het \mbox{lokale} bestand en het bestand van de server niet volledig gelijk zijn, zal het gecachete bestand overschreven worden en zal de content  in de applicatie aangepast worden.
 				
-				Dit is de meest populaire strategie omdat de pagina snel geladen wordt en de inhoud is up-to-date.
+				Dit is de meest populaire strategie omdat de pagina snel geladen wordt en de inhoud up-to-date is.
 
 		\subsubsection{Statisch cachen}
-			Statisch cachen is het cachen van bestanden die nodig zijn voor het opbouwen van de webapplicatie. Voorbeelden hiervan zijn foto's, style sheets, JavaScript bestanden, html bestanden, ...
+			Statisch cachen is het cachen van bestanden die nodig zijn voor het opbouwen van de webapplicatie. Voorbeelden hiervan zijn foto's, style sheets, JavaScript bestanden, HTML bestanden, ...
 			
 			Op deze manier zal ook de application shell offline beschikbaar zijn.
 			
@@ -150,7 +150,7 @@ workbox.precaching.precacheAndRoute([
 			Workbox zal de functie 'precacheAndRoute' uitvoeren als de service worker geïnstalleerd wordt. De bestanden die worden meegegeven in de array zullen vanaf dat moment offline beschikbaar zijn.
 			\autocite{Workbox2020a}
 			
-			Bestanden die hier toegoevoegd worden zullen geleverd worden aan de hand van de 'cache first' strategie. Dit wil zeggen dat dit bestand enkel aan de server gevraagd zal worden als het niet beschikbaar is in het cache geheugen.
+			Bestanden die hier toegoevoegd worden, zullen geleverd worden aan de hand van de 'cache first' strategie. Dit wil zeggen dat dit bestand enkel aan de server gevraagd zal worden als het niet beschikbaar is in het cache geheugen.
 			
 			Een andere manier waarop statische caching kan gedaan worden, is aan de hand van de 'registerRoute' die Workbox aanbiedt. 
 			
@@ -169,7 +169,7 @@ workbox.routing.registerRoute(
 );
 \end{lstlisting}
 			
-			Aan de hand van een regular expression kunnen er bestanden gechachet worden. In dit voorbeeld worden alle JavaScript en css bestanden offline beschikbaar gemaakt.
+			Aan de hand van een regular expression kunnen er bestanden gechachet worden. In dit voorbeeld worden alle JavaScript- en css-bestanden offline beschikbaar gemaakt.
 			
 			In dit voorbeeld wordt de Stale-While-Revalidate strategie toegepast.
 			\autocite{Workbox2020b}
@@ -194,12 +194,12 @@ workbox.routing.registerRoute(
 		
 		Het invullen van een formulier op een mobiel toestel is voor veel gebruikers een relatief grote inspanning.
 		
-		In het artikel van Nick Babich wordt de term 'interaction cost' gebruikt. De interaction cost is de som van alle cognitieve en fysieke inspanningen die een gebruiker moet leveren om tot zijn doel te komen. Hoe lager de interaction cost hoe beter.
+		In het artikel van Nick Babich wordt de term 'interaction cost' gebruikt. De interaction cost is de som van alle cognitieve en fysieke inspanningen die een gebruiker moet leveren om tot zijn doel te komen. Hoe lager de interaction cost, hoe beter.
 		\autocite{Babich2018}
 		
 		Het invullen van formulieren met data heeft een hoge interaction cost. Er moet veel getypt worden (fysieke inspanning). De gebruiker moet hierbij aandachtig zijn om zeker te zijn dat hij geen fouten maakt (cognitieve inspanning). Het is dus belangrijk om de gebruiker hiervan te besparen.
 		
-		Dit kan gedaan worden door de gebruiker te laten registreren via een ander platform. hierbij moet er vaak helemaal niet, of toch veel minder getypt worden.
+		Dit kan gedaan worden door de gebruiker te laten registreren via een ander platform. Hierbij moet er vaak helemaal niet, of toch veel minder getypt worden.
 		
 		Op deze applicatie kan de gebruiker zich aanmelden met Google en Facebook.
 		
@@ -220,7 +220,7 @@ export const authWithGoogle = () => {
 			\item Voornaam
 			\item Familienaam
 			\item Volledige naam
-			\item Email
+			\item E-mail
 			\item Profielfoto
 			\item Voorkeurstaal
 			\item ...
@@ -271,7 +271,7 @@ export const authWithGoogle = () => {
 		
 		Volgende code zal de link genereren die de uitgenodigde persoon kan gebruiken. Deze link zal in het klembord van de gebruiker geplaatst worden.
 		
-		De eerste keer dat dit proces uitgevoerd wordt zal de gebruiker expliciet toestemming moeten geven om het klembord te mogen gebruiken.
+		De eerste keer dat dit proces uitgevoerd wordt, zal de gebruiker expliciet toestemming moeten geven om het klembord te mogen gebruiken.
 
 \begin{lstlisting}
 navigator.clipboard
@@ -285,7 +285,7 @@ navigator.clipboard
 		\subsubsection{Progressive enhancement}
 
 			Bij deze feature werd er progressive enhancement toegepast. 
-			In het beste geval wordt het native deelmenu getoond. Als dit niet beschikbaar, is zal de link gekopieerd worden in het klembord.
+			In het beste geval wordt het native deelmenu getoond. Als dit niet beschikbaar is, zal de link gekopieerd worden in het klembord.
 			Als ook dit niet beschikbaar is, of de gebruiker heeft geen toestemming gegeven, zal er een boodschap getoond worden waar de gebruiker de link zelf kan kopiëren en delen.
 		
 \begin{lstlisting}
@@ -308,9 +308,9 @@ else{
 	
 		Een van de grote voordelen van een PWA ten opzichte van een traditionele website is dat het push notificaties kan sturen naar de gebruiker.
 		
-		Er wordt aangeraden om de 'web-push' library te gebruiken om push notificaties te implementeren
+		Er wordt aangeraden om de 'web-push' library te gebruiken om push notificaties te implementeren.
 		
-		In deze applicatie worden push notificaties gebruikt in twee use-cases. 
+		In deze applicatie worden push notificaties gebruikt in twee use-cases:
 		\begin{itemize}
 			\item 	Als een bezoeker in een 'room' komt, zal de eigenaar van die 'room' een melding krijgen.
 			\item 	De administrator van de applicatie kan een notificatie naar alle gebruikers versturen vanuit een admin scherm.
@@ -330,7 +330,7 @@ let pushSub = await sw.pushManager.subscribe({
 			Dit stukje code zal een subscription teruggeven dat opgeslagen moet worden in de databank bij de gebruiker. Deze subscription is uniek voor de gebruiker, de browser en het toestel.
 			\autocite{Gaunt2019a}
 			
-			voorbeeld van een subscription:
+			Voorbeeld van een subscription:
 	
 \begin{lstlisting}
 {
@@ -433,7 +433,7 @@ options = {
 		
 		In deze applicatie werd Web RTC gebruikt om:
 		\begin{itemize}
-			\item de camera van het toestel te gebruiken en een video-stream op het scherm te tonen.
+			\item de camera van het toestel te gebruiken en een video-stream op het scherm te tonen
 			\item een peer-to-peer connectie op te zetten tussen twee gebruikers
 			\item video tussen beide gebuikers te streamen
 		\end{itemize} 
@@ -444,7 +444,7 @@ options = {
 		\paragraph{Video-stream}
 			De video-stream zal verkregen worden via het navigator object. Bij het opvragen van een video-stream zal de browser automatisch toestemming vragen aan de gebruiker of de camera en de microfoon gebruikt mogen worden.
 			
-			Als de applicatie toestemming gekregen heeft wordt er een video-stream verkregen.
+			Als de applicatie toestemming gekregen heeft, wordt er een video-stream verkregen.
 			Deze stream zal opgeslagen worden in de state van de applicatie en zal in een HTML-5 video element geplaatst worden.
 		
 \begin{lstlisting}
@@ -473,7 +473,7 @@ const peer = new Peer({
 });
 \end{lstlisting}
 			
-			Vervolgens zullen er listeners toegevoegd worden aan deze objecten die geactiveerd worden op basis van het andere peer-object
+			Vervolgens zullen er listeners toegevoegd worden aan deze objecten die geactiveerd worden op basis van het andere peer-object.
 			
 \begin{lstlisting}
 peer.on("signal", (data) => {
@@ -487,27 +487,27 @@ peer.on("stream", (stream) => {
 
 		\paragraph{Performantie}
 		
-			De performantie van de applicatie werd gemeten aan de hand van de statistieken van de video elementen waarin de stream getoond wordt. Bij beide tests was een MacBook Pro de administrator van de meeting en werd een Oneplus6 toegevoegd aan het gesprek als gast. De statistieken werden gemeten op het toestel van de administrator.
+			De performantie van de applicatie werd gemeten aan de hand van de statistieken van de video-elementen waarin de stream getoond wordt. Bij beide tests was een MacBook Pro de administrator van de meeting en werd een Oneplus6 toegevoegd aan het gesprek als gast. De statistieken werden gemeten op het toestel van de administrator.
 			
 			\begin{table}[H]
 			\centering
 			\begin{tabular}{lll}													& Zoom 			& PWA \\
-				gemiddled aantal frames per seconde van ontvangende video 	 & 14				&  34 \\
-				gemiddled aantal frames per seconde van verzonden video		   & 26				   & 30	 \\
+				gemiddeld aantal frames per seconde van ontvangende video 	 & 14				&  34 \\
+				gemiddeld aantal frames per seconde van verzonden video		   & 26				   & 30	 \\
 				resolutie ontvangen video  						  & 480x640 	&  480x640  \\
 				resolutie verzonden video						   & 640x360	& 	640x480\\
 			\end{tabular}	
-			\caption{performantie vergelijking met Zoom}
+			\caption{performantie-vergelijking met Zoom}
 			\end{table}
 	
 
 	\subsection{Socket.io}
 	
-		Zoals eerder vermeld is er een server nodig om een peer-to-peer connectie tot stand te brengen.
+		Zoals eerder vermeld, is er een server nodig om een peer-to-peer connectie tot stand te brengen.
 		
 		Deze backend werd geschreven in node.js en werd gehost op \href{https://glitch.com/}{Glitch}.
 		
-		De library \href{https://socket.io/}{socket.io} werd gebruikt websockets te implementeren. Websockets zorgen ervoor dat een server met de frontend kan cummuniceren zonder dat deze er expliciet om vraagt. 
+		De library \href{https://socket.io/}{socket.io} werd gebruikt om websockets te implementeren. Websockets zorgen ervoor dat een server met de frontend kan cummuniceren zonder dat deze er expliciet om vraagt. 
 		
 		In traditionele applicaties krijgt de frontend enkel data als hij hier een request voor stuurt naar de backend. Bij websockets kan de backend de frontend met data voorzien in real time.
 		\autocite{Mozilla2020e}
@@ -552,7 +552,7 @@ peer.on("stream", (stream) => {
 \newpage
 \section{De applicatie}
 	\subsection{Authenticatie}
-		De gebruiker kan zich registreren aan de hand van een combinatie van e-mail en wachtwoord combinatie. Er is ook een optie om zich aan te melden aan de hand van Google en Facebook.
+		De gebruiker kan zich registreren aan de hand van een combinatie van e-mail en wachtwoord. Er is ook een optie om zich aan te melden aan de hand van Google en Facebook.
 		
 		
 		\begin{figure}[H]
@@ -582,9 +582,9 @@ peer.on("stream", (stream) => {
 	
 	\newpage
 	\subsection{Wachtschermen}
-		Als er slechts 1 persoon aanwezig is in de 'room', zal de gebruiker op dit scherm terechtkomen. 
+		Als er slechts één persoon aanwezig is in de 'room', zal de gebruiker op dit scherm terechtkomen. 
 		
-		De eigenaar van de 'room' heeft een optie om de 'room' te delen. 
+		De eigenaar van de 'room' heeft de optie om de 'room' te delen. 
 		
 		Als een bezoeker in de 'room' komt, zal de eigenaar een melding krijgen dat er iemand in zijn 'room' is. Door op de notificatie te klikken, gaat de eigenaar direct naar de 'room'.
 						
@@ -633,7 +633,7 @@ peer.on("stream", (stream) => {
 		\begin{itemize}
 	  		\item Het deel-menu is enkel beschikbaar op mobiele toestellen en Safari op macOS.
 	  		\item De clipboard API is beschikbaar op alle browsers en toestellen maar heeft wel de toestemming van de gebruiker nodig.
-	  		\item Push notificaties heeft ook de toestemming van de gebruiker nodig en zijn beschikbaar op alle browsers en toestellen met uitzondering van:
+	  		\item Push notificaties hebben ook de toestemming van de gebruiker nodig en zijn beschikbaar op alle browsers en toestellen met uitzondering van:
 	  				\begin{itemize}
 	  			  		\item alle browsers op iOS
 	  			  		\item Safari op macOS
@@ -649,7 +649,7 @@ peer.on("stream", (stream) => {
 	\subsection{Verwachting gebruiker}
 		Een gebruiker die een applicatie installeert op een iOS toestel zal een andere user interface verwachten dan een gebruiker die een applicatie installeert op een Android toestel.
 		
-		Met een PWA kan er slechts 1 user interface geïmplementeerd worden. Het is dus niet mogelijk om volledig aan de verwachting van elke gebruiker te voldoen.
+		Met een PWA kan er slechts één user interface geïmplementeerd worden. Het is dus niet mogelijk om volledig aan de verwachting van elke gebruiker te voldoen.
 		
 		Een gebruiker met een toestel dat op iOS werkt, is gewoon om naar de vorige pagina te navigeren door naar rechts te swipen op het toestel. Dit is een manier van navigeren die een Android gebruiker niet gewoon is. In deze proof-of-concept kan er niet met touch-gebaren genavigeerd worden. Dit kan niet 'native' aanvoelen voor de iOS gebruiker. 
 		
@@ -724,7 +724,7 @@ peer.on("stream", (stream) => {
 		%todo:📈✅
 		Dit was ook terug te zien in de user-testen. Testers die iOS gebruikten zouden minder snel een applicatie toevoegen aan het startscherm. 
 		
-		Bij de eerste applicatie krijgt de iOS gebruiker geen pop-up met de info dat deze applicatie toegevoegd kan worden aan het startscherm. Dit zorgde ervoor dat geen enkele iOS gebruiker deze PWA zou toevoegen aan het startscherm. Op Android werd de standaard A2HS melding getoond, 35,5\% van de gebruikers ging hier op in.
+		Bij de eerste applicatie krijgt de iOS gebruiker geen pop-up met de info dat deze applicatie toegevoegd kan worden aan het startscherm. Dit zorgde ervoor dat geen enkele iOS gebruiker deze PWA zou toevoegen aan het startscherm. Op Android werd de standaard A2HS melding getoond: 35,5\% van de gebruikers ging hier op in.
 		
 		Ook in de tweede applicatie was er een verschil te zien tussen iOS en Android gebruikers.	
 		Hier kan de applicatie ook nog toegevoegd worden aan het startscherm als de PWA al enkele keren gebruikt werd in de browser.
@@ -757,7 +757,7 @@ peer.on("stream", (stream) => {
 			
 		Het is niet eenvoudig om consistent een goeie ervaring te bieden met één codebase voor alle platformen die ondersteund worden. 
 		
-		Zo werd er werd beslist om de maximale hoogte van de applicatie vast te zetten op 100vh,  op deze manier is het in principe onmogelijk om een scroll te hebben.
+		Zo werd er beslist om de maximale hoogte van de applicatie vast te zetten op 100vh,  op deze manier is het in principe onmogelijk om een scroll te hebben.
 		
 		Dit werkte goed op een desktop browser maar gaf problemen op mobiele toestellen.
 		
