@@ -258,7 +258,7 @@
 \contentsline {section}{\numberline {C.2}Antwoorden}{142}{section.C.2}% 
 \contentsline {subsection}{\numberline {C.2.1}Binaire vragen}{142}{subsection.C.2.1}% 
 \contentsline {subsection}{\numberline {C.2.2}Open vragen}{142}{subsection.C.2.2}% 
-\contentsline {subsubsection}{Reden waarom om PWA niet te verkiezen boven Native app}{142}{section*.123}% 
+\contentsline {subsubsection}{Reden waarom PWA niet te verkiezen boven native app}{142}{section*.123}% 
 \contentsline {chapter}{\numberline {D}Onderzoeksvoorstel}{143}{appendix.D}% 
 \contentsline {section}{\numberline {D.1}Introductie}{143}{section.D.1}% 
 \contentsline {section}{\numberline {D.2}State-of-the-art}{144}{section.D.2}% 
