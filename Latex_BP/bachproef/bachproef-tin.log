@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  27 MAY 2020 08:28
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  27 MAY 2020 08:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2302,9 +2302,9 @@ File: ./img/dart4.jpg Graphic file (type bmp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [95]
-Overfull \hbox (28.60458pt too wide) in paragraph at lines 66--67
+Overfull \hbox (30.40457pt too wide) in paragraph at lines 66--67
 []\T1/ptm/m/n/12 De code van deze ap-pli-ca-tie kan ge-von-den wor-den via git-
-hub: https://github.com/TijsM/Dart501 
+hub: https://github.com/TijsM/Dart501. 
  []
 
 [96] [97] [98]

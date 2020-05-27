@@ -1,12 +1,12 @@
 \chapter{Ombouwen webapplicatie tot een PWA}
 \label{ch:TransformerenNaarEenPWA}
 
-Voor sommige webapplicaties is het een grote meerwaarde om geïnstalleerd te kunnen worden  en offline bruikbaar te zijn op het toestel van de gebruiker.\autocite{Mozilla2020c} Eenvoudige applicaties die geen gebruik maken van backend verzoeken kunnen op deze manier volledig functioneel zijn zonder internetconnectie. 
+Voor sommige webapplicaties is het een grote meerwaarde om geïnstalleerd te kunnen worden  en offline bruikbaar te zijn op het toestel van de gebruiker. \autocite{Mozilla2020c} Eenvoudige applicaties die geen gebruik maken van backend verzoeken kunnen op deze manier volledig functioneel zijn zonder internetconnectie. 
 Aan de hand van dit voorbeeld zal de onderzoeksvraag 'Welke stappen zijn nodig om een traditionele website om te vormen tot een PWA?' beantwoord worden.
 
 \section{De applicatie}
 
-	Darts is een spel dat gespeeld wordt met drie pijltjes per persoon en een dartbord. De plaats waar het pijltje landt op het bord bepaalt de score van de worp. Dit kan variëren van 0 tot 60. De speler die het eerst een score van 301 of  501 bij elkaar gooit is de winnaar. Deze score’s optellen en bijhouden wordt al snel ingewikkeld. Darts is een spel dat vaak gespeeld wordt in een bar. Spelers willen dus niet geconcentreerd moeten rekenen en zullen dus vaak op zoek gaan naar hulpmiddelen. Dit kan een combinatie zijn van pen en papier of een rekenmachine zijn. Een alternatief is een applicatie die dit doet voor hen. Bij deze applicatie zal deze service aangeboden worden als een PWA. De applicatie kan gebruikt worden in de browser, maar de applicatie kan ook gedownload worden.
+	Darts is een spel dat gespeeld wordt met drie pijltjes per persoon en een dartbord. De plaats waar het pijltje landt op het bord bepaalt de score van de worp. Dit kan variëren van 0 tot 60. De speler die het eerst een score van 301 of  501 bij elkaar gooit is de winnaar. Deze score’s optellen en bijhouden wordt al snel ingewikkeld. Darts is een spel dat vaak gespeeld wordt in een bar. Spelers willen dus niet geconcentreerd moeten rekenen en zullen dus vaak op zoek gaan naar hulpmiddelen. Dit kan pen en papier of een rekenmachine zijn. Een alternatief is een applicatie die dit doet voor hen. Bij deze applicatie zal deze service aangeboden worden als een PWA. De applicatie kan gebruikt worden in de browser, maar de applicatie kan ook gedownload worden.
 
 \section{Analyse}
 
@@ -14,9 +14,9 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag 'Welke stappen zijn nodig o
 	
 	\subsection{Functionele requirements}
 		\begin{itemize}
-			 \item 	Als een speler wil ik de score van een dartspel op mijn smartphone kunnen bijhouden zodat ik altijd en overal kan spelen.
+			 \item 	Als een speler wil ik de score van een dartsspel op mijn smartphone kunnen bijhouden zodat ik altijd en overal kan spelen.
 			 \item 	Als een speler wil ik de score van een spel kunnen bijhouden zonder een applicatie te downloaden zodat mijn smartphone niet vol komt met applicaties die ik niet regelmatig gebruik.
-			 \item 	Als een speler wil ik de score van een dartspel bijhouden zonder een internetverbinding te hebben zodat ik niet afhankelijk ben van een eventuele wifi-  of netwerkverbinding.
+			 \item 	Als een speler wil ik de score van een dartsspel bijhouden zonder een internetverbinding te hebben zodat ik niet afhankelijk ben van een eventuele wifi-  of netwerkverbinding.
 			 \item 	Als een groep vrienden willen we een dartspel kunnen starten en de score kunnen bijhouden voor een variabel aantal personen zodat we snel kunnen spelen.
 		\end{itemize}	
 	
@@ -29,7 +29,7 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag 'Welke stappen zijn nodig o
 
 \section{Implementatie}
 
-	De applicatie werd eerst ontworpen aan de hand van Figma, een tool die gebruikt wordt om designs en prototypes te maken. De applicatie zal drie schermen hebben: één die het aantal spelers vraagt, één die de spelersnamen vraagt en een scherm waar het spel kan bijgehouden worden. Voor de ontwikkeling van de applicatie werd de Javascript library React.js gekozen.
+	De applicatie werd eerst ontworpen aan de hand van Figma, een tool die gebruikt wordt om designs en prototypes te maken. De applicatie zal drie schermen hebben: één die het aantal spelers vraagt, één die de spelersnamen vraagt en een scherm waar de score kan bijgehouden worden. Voor de ontwikkeling van de applicatie werd de JavaScript library React.js gekozen.
 
 	\begin{figure}[H]
 		\centering
@@ -63,7 +63,7 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag 'Welke stappen zijn nodig o
 	
 	Voor deze proof-of-concept zal een webapplicatie geoptimaliseerd worden tot deze geïnstalleerd en offline gebruikt kan worden.
 	
-	De code van deze applicatie kan gevonden worden via github: https://github.com/TijsM/Dart501
+	De code van deze applicatie kan gevonden worden via github: https://github.com/TijsM/Dart501.
 	
 
 
@@ -71,7 +71,7 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag 'Welke stappen zijn nodig o
 
 	\subsection{HTTPS}
 
-		Een van de drie vereisten om een applicatie te kunnen toevoegen aan het startscherm is dat er een HTTPS-connectie is. Dit werd bekomen door de website te hosten op \href{https://www.netlify.com/}{ Netlify}. Dit is een online service die gratis hosting voor statische websites aanbiedt. Hier kan een SSL-certificaat toegevoegd worden zodat er een HTTPS connectie tot stand komt.
+		Een van de drie vereisten om een applicatie te kunnen toevoegen aan het startscherm is dat er een HTTPS-connectie is. Dit werd bekomen door de website te hosten op \href{https://www.netlify.com/}{ Netlify}. Dit is een online service die gratis hosting voor statische websites aanbiedt. Hier kan een SSL-certificaat toegevoegd worden zodat er een HTTPS-connectie tot stand komt.
 
 	\newpage
 	\subsection{App manifest}
@@ -132,7 +132,7 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag 'Welke stappen zijn nodig o
 \end{lstlisting}
 		
 		\newpage
-		De naam en de verkorte naam (naam die op het splashscreen getoond zal worden) worden als eerste vastgelegd. Deze zijn gelijk omdat de volledige naam al kort genoeg is. Het maximumaantal karakters voor 'short\_name' is 12.
+		De naam en de verkorte naam (naam die op het splashscreen getoond zal worden) worden als eerste vastgelegd. Deze zijn gelijk omdat de volledige naam al kort genoeg is. Het maximum aantal karakters voor 'short\_name' is 12.
  
 		
 		Vervolgens worden alle iconen voor de verschillende platformen bepaald. Dit deel van het manifest en de bestanden waarnaar het refereert kunnen gegenereerd worden met de tool \href{https://appicon.co}{appicon.co}.
@@ -141,7 +141,7 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag 'Welke stappen zijn nodig o
 		
 		Ook het kleurenschema wordt bepaald. Deze kleuren worden gebruikt bij het splashscreen en bepalen ook de kleur die de statusbalk van het toestel zal innemen. 
 		
-		Er moet een link gemaakt worden van de html-bestanden naar dit manifest bestand. Dit gebeurt binnen de head tag van de index.html file
+		Er moet een link gemaakt worden van de hHTMLtml-bestanden naar dit manifest bestand. Dit gebeurt binnen de head tag van de index.html file.
 		
 \begin{lstlisting}
 	<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
@@ -163,7 +163,7 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag 'Welke stappen zijn nodig o
 \newpage
 \section{Controle}
 
-	Aan de hand van een lighthouse audit kan er gecontroleerd worden als of werkt zoals verwacht.
+	Aan de hand van een lighthouse audit kan er gecontroleerd worden of alles werkt zoals verwacht.
 	
 	\begin{figure}[H]
 		\centering
