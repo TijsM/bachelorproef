@@ -93,7 +93,8 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een and
 		
 		Als de applicatie opstart, zal het beforeInstallPrompt opgevangen worden en opgeslagen worden in de state. Door het standaard gedrag te overschrijven zal de melding nog niet getoond worden aan de gebruiker.
 		\autocite{LePage2020b}
-		
+	
+\newpage
 \begin{lstlisting}
 window.addEventListener("beforeinstallprompt", (event) => {
 	event.preventDefault();
@@ -329,7 +330,8 @@ let pushSub = await sw.pushManager.subscribe({
 
 			Dit stukje code zal een subscription teruggeven dat opgeslagen moet worden in de databank bij de gebruiker. Deze subscription is uniek voor de gebruiker, de browser en het toestel.
 			\autocite{Gaunt2019a}
-			
+	
+\newpage
 			Voorbeeld van een subscription:
 	
 \begin{lstlisting}
@@ -445,7 +447,7 @@ options = {
 			De video-stream zal verkregen worden via het navigator object. Bij het opvragen van een video-stream zal de browser automatisch toestemming vragen aan de gebruiker of de camera en de microfoon gebruikt mogen worden.
 			
 			Als de applicatie toestemming gekregen heeft, wordt er een video-stream verkregen.
-			Deze stream zal opgeslagen worden in de state van de applicatie en zal in een HTML-5 video element geplaatst worden.
+			Deze stream zal opgeslagen worden in de state van de applicatie en zal in een HTML5 video element geplaatst worden.
 		
 \begin{lstlisting}
 navigator.mediaDevices.getUserMedia({ 
@@ -645,7 +647,7 @@ peer.on("stream", (stream) => {
 	  		 		\end{itemize}	
  		\end{itemize}
  		
-			
+	\newpage		
 	\subsection{Verwachting gebruiker}
 		Een gebruiker die een applicatie installeert op een iOS toestel zal een andere user interface verwachten dan een gebruiker die een applicatie installeert op een Android toestel.
 		
