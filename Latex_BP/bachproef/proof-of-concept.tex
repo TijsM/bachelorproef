@@ -254,19 +254,19 @@ export const authWithGoogle = () => {
     }
     navigator.share(shareData)
 \end{lstlisting}
-
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=35mm]{./img/share-iOS}{}
-			\caption{native share-menu op iOS}
-			\label{fig:shareIOS}
-		\end{figure}	
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=35mm]{./img/share-android.jpg}{}
 			\caption{native share-menu op Android}
 			\label{fig:shareChrome}
 		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=35mm]{./img/share-iOS}{}
+			\caption{native share-menu op iOS}
+			\label{fig:shareIOS}
+		\end{figure}	
+
 
 		Als de gebruiker een browser gebruikt die deze functie niet ondersteunt, zal de clipboard API gebruikt worden.
 	
@@ -537,11 +537,13 @@ peer.on("stream", (stream) => {
 		Door ervoor te zorgen dat alle belangrijke elementen van het icoon binnen een 'safe zone' vallen, en door een extra property toe te voegen in het app manifest kan dit opgelost worden. In figuur \ref{fig:masked} kunnen de geöptimaliseerde iconen gevonden worden.
 	
 		Toe te voegen aan app manifest:
+		
+
 \begin{lstlisting}
 "purpose": "any maskable" 
 \end{lstlisting}
 
-		In deze proof of concept werden de iconen ook 'maskable' gemaakt \ref{fig:videocallMasked}
+		In deze proof of concept werden de iconen ook 'maskable' gemaakt (figuur \ref{fig:videocallMasked})
 
 		\begin{figure}[H]
 			\centering

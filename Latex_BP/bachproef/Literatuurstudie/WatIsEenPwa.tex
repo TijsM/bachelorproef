@@ -158,7 +158,7 @@ function displayNotification() {
 	
 		Een toepassing die hier gebruik kan van maken zijn sociale media platformen. Als het bericht verzonden wordt terwijl de gebruiker offline is, zal er geen fout getoond worden maar zal dit bericht verzonden worden vanaf er internet is.
 		
-		Google Chrome op Android maakt hier gebruik van. Als er een website bezocht wordt als er geen internetverbinding is, krijgt de gebruiker de melding: "Chrome laat je weten wanneer de pagina klaar is" (zie figuur \ref{fig:backSync1}). Vanaf dat het toestel terug een internetverbinding heeft, en het de pagina heeft kunnen downloaden, zal de gebruiker een melding krijgen met de boodschap dat de pagina bekeken kan worden (zie figuur \ref{fig:backSync2}).
+		Google Chrome op Android maakt hier gebruik van. Als er een website bezocht wordt als er geen internetverbinding is, krijgt de gebruiker de melding: "Chrome laat je weten wanneer de pagina klaar is" (figuur \ref{fig:backSync1}). Vanaf dat het toestel terug een internetverbinding heeft, en het de pagina heeft kunnen downloaden, zal de gebruiker een melding krijgen met de boodschap dat de pagina bekeken kan worden (figuur \ref{fig:backSync2}).
 	
 	
 		\begin{figure}[H]
@@ -197,13 +197,13 @@ if ('serviceWorker' in navigator) {
 		Als er een netwerkverzoek wordt verstuurd, zal de service worker deze verzoeken afhandelen. Na een bepaalde tijd zal de service worker terug naar de ‘rust’-modus gaan tot er een nieuw netwerkverzoek is. De service worker gaat naar deze ‘rust’-toestand om zowel cpu-kracht als geheugen te sparen.
 		\autocite{Gaunt2019}
 		
-		Dit proces wordt geïllustreerd in van figuur \ref{fig:swLifeCycle}
+		Dit proces wordt geïllustreerd in figuur \ref{fig:swLifeCycle}
 		
 		
 		\begin{figure}[H]
 			\centering
 			\includegraphics{./img/ServiceWorkerLifeCycle.png}
-			\caption{schema levenscyclus van een service worker \autocite{Gaunt2019}}
+			\caption{levenscyclus van een service worker \autocite{Gaunt2019}}
 			\label{fig:swLifeCycle}
 		\end{figure}
 	
@@ -223,7 +223,7 @@ if ('serviceWorker' in navigator) {
 	\end{itemize}
 	
 	Als een website aan alle criteria voldoet zal er een beforeinstallprompt event gestart worden. Elke browser gaat hier anders mee om. 
-	Zo is in figuur \ref{fig:A2HSWindows} te zien dat er een icoontje komt in de adresbalk in Google Chrome voor computers. Bij Google Chrome op mobiele toestellen zal er onderaan het scherm een banner komen (zie figuur \ref{fig:A2HSAndroid}).
+	Zo is in figuur \ref{fig:A2HSWindows} te zien dat er een icoontje komt in de adresbalk in Google Chrome voor computers. Bij Google Chrome op mobiele toestellen zal er onderaan het scherm een banner te zien zijn (figuur \ref{fig:A2HSAndroid}).
 	
 	\begin{figure}[H]
 		\centering
@@ -388,6 +388,7 @@ if ('serviceWorker' in navigator) {
 		
 		Microsoft geeft het goede voorbeeld door de veelgebruikte e-mail-client Outlook ook beschikbaar te maken als een PWA.
 		De PWA-versie van de applicatie is slechts 800KB groot (figuur \ref{outlookPWA}) terwijl de traditionele versie op een desktop 1,8GB groot is (figuur \ref{outlookMac}).
+		
 		\begin{figure}[H]
 			\centering
 			\includegraphics{./img/Outlook_native.png}
