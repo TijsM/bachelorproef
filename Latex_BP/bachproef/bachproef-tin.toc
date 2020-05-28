@@ -97,49 +97,49 @@
 \contentsline {subparagraph}{conclusie}{67}{section*.84}% 
 \contentsline {subsubsection}{Desktop besturingssystemen}{67}{section*.85}% 
 \contentsline {subparagraph}{Conclusie}{69}{section*.86}% 
-\contentsline {section}{\numberline {2.3}Waarom een PWA}{69}{section.2.3}% 
-\contentsline {subsection}{\numberline {2.3.1}Bereik}{69}{subsection.2.3.1}% 
-\contentsline {subsection}{\numberline {2.3.2}Platformonafhankelijkheid }{69}{subsection.2.3.2}% 
-\contentsline {subsection}{\numberline {2.3.3}Omzet}{70}{subsection.2.3.3}% 
-\contentsline {subsection}{\numberline {2.3.4}Bundle size}{71}{subsection.2.3.4}% 
-\contentsline {subsection}{\numberline {2.3.5}Offline gebruik}{72}{subsection.2.3.5}% 
-\contentsline {subsection}{\numberline {2.3.6}Betrokkenheid}{72}{subsection.2.3.6}% 
-\contentsline {subsection}{\numberline {2.3.7}Kost}{73}{subsection.2.3.7}% 
-\contentsline {subsection}{\numberline {2.3.8}Deployment}{74}{subsection.2.3.8}% 
-\contentsline {subsection}{\numberline {2.3.9}Updates}{75}{subsection.2.3.9}% 
-\contentsline {subsection}{\numberline {2.3.10}Conclusie}{75}{subsection.2.3.10}% 
-\contentsline {section}{\numberline {2.4}Beperkingen van een PWA}{76}{section.2.4}% 
-\contentsline {subsection}{\numberline {2.4.1}Cameragebruik}{76}{subsection.2.4.1}% 
-\contentsline {subsection}{\numberline {2.4.2}Controle over platformen}{76}{subsection.2.4.2}% 
-\contentsline {subsection}{\numberline {2.4.3}Functies van een besturingssysteem}{76}{subsection.2.4.3}% 
-\contentsline {subsection}{\numberline {2.4.4}Browserondersteuning}{77}{subsection.2.4.4}% 
-\contentsline {subsection}{\numberline {2.4.5}Aanwezigheid in app-stores}{77}{subsection.2.4.5}% 
-\contentsline {subsection}{\numberline {2.4.6}Conclusie}{77}{subsection.2.4.6}% 
-\contentsline {section}{\numberline {2.5}Tools voor het ontwikkelen van een PWA}{78}{section.2.5}% 
-\contentsline {subsection}{\numberline {2.5.1}Lighthouse}{78}{subsection.2.5.1}% 
-\contentsline {subsubsection}{Fast and reliable}{78}{section*.87}% 
-\contentsline {subsubsection}{Installable}{78}{section*.88}% 
-\contentsline {subsubsection}{PWA optimized}{79}{section*.89}% 
-\contentsline {subsection}{\numberline {2.5.2}Workbox}{80}{subsection.2.5.2}% 
-\contentsline {subsection}{\numberline {2.5.3}PWAbuilder}{80}{subsection.2.5.3}% 
-\contentsline {subsection}{\numberline {2.5.4}Chrome developer tools}{80}{subsection.2.5.4}% 
-\contentsline {section}{\numberline {2.6}PWA-alternatieven}{81}{section.2.6}% 
-\contentsline {subsection}{\numberline {2.6.1}Cross platform hybrid development}{81}{subsection.2.6.1}% 
-\contentsline {subsubsection}{Voordelen}{81}{section*.90}% 
-\contentsline {subsubsection}{Nadelen}{82}{section*.91}% 
-\contentsline {subsubsection}{Apache Cordova}{82}{section*.92}% 
-\contentsline {subsubsection}{Ionic}{82}{section*.93}% 
-\contentsline {subsubsection}{Electron}{83}{section*.94}% 
-\contentsline {subsection}{\numberline {2.6.2}Cross platform native development}{84}{subsection.2.6.2}% 
-\contentsline {subsubsection}{Voordelen}{84}{section*.95}% 
-\contentsline {subsubsection}{Nadelen}{84}{section*.96}% 
-\contentsline {subsubsection}{Xamarin}{84}{section*.97}% 
-\contentsline {subsubsection}{React native}{85}{section*.98}% 
-\contentsline {paragraph}{Expo}{85}{section*.99}% 
-\contentsline {subsubsection}{Flutter}{86}{section*.100}% 
-\contentsline {subsection}{\numberline {2.6.3}Conclusie}{86}{subsection.2.6.3}% 
-\contentsline {subsection}{\numberline {2.6.4}Concluderende flowchart}{88}{subsection.2.6.4}% 
-\contentsline {section}{\numberline {2.7}Ontsluiten van een PWA}{89}{section.2.7}% 
+\contentsline {section}{\numberline {2.3}Waarom een PWA}{70}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Bereik}{70}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}Platformonafhankelijkheid }{70}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.3}Omzet}{71}{subsection.2.3.3}% 
+\contentsline {subsection}{\numberline {2.3.4}Bundle size}{72}{subsection.2.3.4}% 
+\contentsline {subsection}{\numberline {2.3.5}Offline gebruik}{73}{subsection.2.3.5}% 
+\contentsline {subsection}{\numberline {2.3.6}Betrokkenheid}{73}{subsection.2.3.6}% 
+\contentsline {subsection}{\numberline {2.3.7}Kost}{74}{subsection.2.3.7}% 
+\contentsline {subsection}{\numberline {2.3.8}Deployment}{75}{subsection.2.3.8}% 
+\contentsline {subsection}{\numberline {2.3.9}Updates}{76}{subsection.2.3.9}% 
+\contentsline {subsection}{\numberline {2.3.10}Conclusie}{76}{subsection.2.3.10}% 
+\contentsline {section}{\numberline {2.4}Beperkingen van een PWA}{77}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Cameragebruik}{77}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.2}Controle over platformen}{77}{subsection.2.4.2}% 
+\contentsline {subsection}{\numberline {2.4.3}Functies van een besturingssysteem}{77}{subsection.2.4.3}% 
+\contentsline {subsection}{\numberline {2.4.4}Browserondersteuning}{78}{subsection.2.4.4}% 
+\contentsline {subsection}{\numberline {2.4.5}Aanwezigheid in app-stores}{78}{subsection.2.4.5}% 
+\contentsline {subsection}{\numberline {2.4.6}Conclusie}{78}{subsection.2.4.6}% 
+\contentsline {section}{\numberline {2.5}Tools voor het ontwikkelen van een PWA}{79}{section.2.5}% 
+\contentsline {subsection}{\numberline {2.5.1}Lighthouse}{79}{subsection.2.5.1}% 
+\contentsline {subsubsection}{Fast and reliable}{79}{section*.87}% 
+\contentsline {subsubsection}{Installable}{79}{section*.88}% 
+\contentsline {subsubsection}{PWA optimized}{80}{section*.89}% 
+\contentsline {subsection}{\numberline {2.5.2}Workbox}{81}{subsection.2.5.2}% 
+\contentsline {subsection}{\numberline {2.5.3}PWAbuilder}{81}{subsection.2.5.3}% 
+\contentsline {subsection}{\numberline {2.5.4}Chrome developer tools}{81}{subsection.2.5.4}% 
+\contentsline {section}{\numberline {2.6}PWA-alternatieven}{82}{section.2.6}% 
+\contentsline {subsection}{\numberline {2.6.1}Cross platform hybrid development}{82}{subsection.2.6.1}% 
+\contentsline {subsubsection}{Voordelen}{82}{section*.90}% 
+\contentsline {subsubsection}{Nadelen}{83}{section*.91}% 
+\contentsline {subsubsection}{Apache Cordova}{83}{section*.92}% 
+\contentsline {subsubsection}{Ionic}{83}{section*.93}% 
+\contentsline {subsubsection}{Electron}{84}{section*.94}% 
+\contentsline {subsection}{\numberline {2.6.2}Cross platform native development}{85}{subsection.2.6.2}% 
+\contentsline {subsubsection}{Voordelen}{85}{section*.95}% 
+\contentsline {subsubsection}{Nadelen}{85}{section*.96}% 
+\contentsline {subsubsection}{Xamarin}{85}{section*.97}% 
+\contentsline {subsubsection}{React native}{86}{section*.98}% 
+\contentsline {paragraph}{Expo}{86}{section*.99}% 
+\contentsline {subsubsection}{Flutter}{87}{section*.100}% 
+\contentsline {subsection}{\numberline {2.6.3}Conclusie}{87}{subsection.2.6.3}% 
+\contentsline {subsection}{\numberline {2.6.4}Concluderende flowchart}{89}{subsection.2.6.4}% 
+\contentsline {section}{\numberline {2.7}Ontsluiten van een PWA}{90}{section.2.7}% 
 \contentsline {chapter}{\numberline {3}Methodologie}{91}{chapter.3}% 
 \contentsline {chapter}{\numberline {4}Ombouwen webapplicatie tot een PWA}{95}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}De applicatie}{95}{section.4.1}% 
