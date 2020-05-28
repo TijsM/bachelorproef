@@ -142,16 +142,18 @@
 		\caption{ondersteuning van de Mediarecorder API op 7 maart 2020}
 	\end{table}
 	
-	Gelukkig is er een alternatief voorzien met HTML5-tags. Dit is een methode die voor alle platformen zal werken maar niet op dezelfde manier.
-	
-	\begin{lstlisting}
-	<input type="file" accept="audio/*" capture>
-	\end{lstlisting}
+	Code voorbeeld \ref{recAudio} toont aan dat er een alternatief voorzien wordt met HTML5-tags. Dit is een methode die op alle toestellen audio zal kunnen opnemen. Dit zal echter niet op elk platform op dezelfde manier gebeuren.
 	
 	Er wordt gebruik gemaakt van een inputveld waar de gebruiker een bestand kan uploaden. Door het accept attribuut wordt duidelijk gemaakt dat enkel audiofragmenten geüpload mogen worden. Het capture attribuut zorgt ervoor dat waar mogelijk de gebruiker een audiofragment kan opnemen in de default geluidsopname app. Dit fragment wordt dan automatisch geïmporteerd in de webapplicatie. Dit is enkel mogelijk op mobiele toestellen en dus niet in desktopbrowsers.
 	\autocite{Kinlan2019}
 	
 	Dit is een goed voorbeeld van progressive enhancement. 
+	
+	\begin{lstlisting}[
+	caption={opnemen audio met HTML5},
+	label=recAudio]
+	<input type="file" accept="audio/*" capture>
+	\end{lstlisting}
 	
 	
 	

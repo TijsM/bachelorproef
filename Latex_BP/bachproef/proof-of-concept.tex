@@ -93,20 +93,27 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een and
 		Om de kans te verhogen dat de gebruiker de applicatie toevoegt aan het startscherm, zal deze melding enkel getoond worden als de gebruiker daar expliciet naar vraagt.
 		\autocite{Mclachlan2020}
 		
-		Als de applicatie opstart, zal het beforeInstallPrompt opgevangen worden en opgeslagen worden in de state. Door het standaard gedrag te overschrijven zal de melding nog niet getoond worden aan de gebruiker.
+		Code voorbeeld \ref{catchBefPrompt} demonstreert dat als de applicatie opstart het beforeInstallPrompt opgevangen zal worden en opgeslagen zal worden in de state. Door het standaard gedrag te overschrijven zal de melding nog niet getoond worden aan de gebruiker.
 		\autocite{LePage2020b}
+		
+		\newpage
+		Vervolgens kan, als de gebruiker dit wenst, de melding toch getoond worden (code voorbeeld \ref{shootPrompt}). 
 	
-\newpage
-\begin{lstlisting}
+
+\begin{lstlisting}[
+	caption={opvangen en opslaan van het beforeInstallPrompt},
+	label=catchBefPrompt]
 window.addEventListener("beforeinstallprompt", (event) => {
 	event.preventDefault();
 	setPrompt(event);
 }); 
 \end{lstlisting}
 
-		Vervolgens kan, als de gebruiker dit wenst, de melding toch getoond worden.
+	
 		
-\begin{lstlisting}
+\begin{lstlisting}[
+	caption={tonen van de installatie-banner},
+	label=shootPrompt]
 const addToHome = () => {
 	prompt.prompt();
 };
@@ -143,8 +150,11 @@ const addToHome = () => {
 			
 			In deze applicatie werd dit bereikt door \href{https://developers.google.com/web/tools/workbox}{workbox} te gebruiken.
 			
-			In een eerste fase wordt het index.html bestand gecached.
-\begin{lstlisting}
+			In een eerste fase wordt het index.html bestand gecached \ref{cacheIndex}).
+
+\begin{lstlisting}[
+	caption={cachen van index.html},
+	label=cacheIndex]
 workbox.precaching.precacheAndRoute([
   {url: '/index.html', revision: '1'},
 ]);
@@ -155,9 +165,11 @@ workbox.precaching.precacheAndRoute([
 			
 			Bestanden die hier toegoevoegd worden, zullen geleverd worden aan de hand van de 'cache first' strategie. Dit wil zeggen dat dit bestand enkel aan de server gevraagd zal worden als het niet beschikbaar is in het cache geheugen.
 			
-			Een andere manier waarop statische caching kan gedaan worden, is aan de hand van de 'registerRoute' die Workbox aanbiedt. 
+			Een andere manier waarop statische caching kan gedaan worden, is aan de hand van de 'registerRoute' die Workbox aanbiedt (code voorbeeld \ref{regRoute}). 
 			
-\begin{lstlisting}
+\begin{lstlisting}[
+	caption={register route voorbeeld},
+	label=regRoute]
 workbox.routing.registerRoute(
   /\.(?:js|css)$/,
   workbox.strategies.staleWhileRevalidate({
@@ -180,9 +192,13 @@ workbox.routing.registerRoute(
 		\subsubsection{Dynamisch cachen}
 			Dynamisch cachen houdt in dat data die de gebruiker vraagt ook offline opgeslagen wordt. Dit zullen vaak requests van REST-API's zijn.
 			
-			In deze applicatie werd dynamisch cachen toegepast om de laatste versie van de 'rooms' nog steeds te tonen aan de gebruiker, ook al is deze offline.
+			Code voorbeeld \ref{dynamicCaching} toont hoe in deze applicatie dynamisch cachen toegepast werd om de laatste versie van de 'rooms' steeds te tonen aan de gebruiker, ook al is deze offline.
 			
-\begin{lstlisting}
+			Opnieuw wordt er gebruik gemaakt van een regular expression om Workbox duidelijk te maken welke request er offline beschikbaar moet zijn.
+
+\begin{lstlisting}[
+	caption={dynamisch cachen},
+	label=dynamicCaching]
 workbox.routing.registerRoute(
   /.*(?:googleapis|)\.com.*$/,
   workbox.strategies.staleWhileRevalidate({
@@ -190,9 +206,6 @@ workbox.routing.registerRoute(
   })
 );
 \end{lstlisting}
-		
-		Opnieuw wordt er gebruik gemaakt van een regular expression om Workbox duidelijk te maken welke request er offline beschikbaar moet zijn.
-
 	\subsection{Authenticatie}
 		
 		Het invullen van een formulier op een mobiel toestel is voor veel gebruikers een relatief grote inspanning.
@@ -208,17 +221,8 @@ workbox.routing.registerRoute(
 		
 		Dit werd bereikt door gebruik te maken van "Firebase authentication".
 		
-		
-\begin{lstlisting}
-export const auth = firebase.auth();
-const provider = new firebase.auth.GoogleAuthProvider();
-
-export const authWithGoogle = () => {
-	return auth.signInWithPopup(provider)
-};
-\end{lstlisting}
-	
-		Deze code geeft alle relevante informatie terug die Google over de gebruiker heeft en bevat volgende eigenschappen:
+		\newpage
+		Code voorbeeld \ref{authGoogle} bevat een functie die all relevante informatie die Google over de gebruiker heeft terug zal geven. Dit bevat volgende eigenschappen:
 		\begin{itemize}
 			\item Voornaam
 			\item Familienaam
@@ -229,6 +233,7 @@ export const authWithGoogle = () => {
 			\item ...
 		\end{itemize} 
 		
+		
 		Gelijkaardige code kan geschreven worden voor het aanmelden met andere platformen zoals:
 		\begin{itemize}
 			\item Twitter
@@ -238,47 +243,60 @@ export const authWithGoogle = () => {
 			\item ...
 		\end{itemize} 
 		
+		\begin{lstlisting}[
+			caption={authenticatie met Google},
+			label=authGoogle]
+		export const auth = firebase.auth();
+		const provider = new firebase.auth.GoogleAuthProvider();
+		
+		export const authWithGoogle = () => {
+			return auth.signInWithPopup(provider)
+		};
+		\end{lstlisting}
+		
 	\subsection{Share API en Clipboard API}
 	
 		In de applicatie is het belangrijk om op een intuïtieve manier een link te kunnen delen naar een 'room'. 
-		Dit werd bekomen door de Share API te gebruiken.
+		Dit werd bekomen door de Share API te gebruiken, een mogelijke implementatie wordt gedemonstreerd in code voorbeeld \ref{shareMenu}.
 		Op mobiele toestellen zal deze een native menu openen waar de gebruiker de link kan delen via verschillende platformen.
 		
 		Echter, enkel Chrome voor Android (figuur \ref{fig:shareChrome}) en Safari (figuur \ref{fig:shareIOS}) bieden dit aan . Er kan dus niet vanuit gegaan worden dat de gebruiker dit kan gebruiken.
 
-\begin{lstlisting}
- const shareData = {
-      title: 'Join my room!',
-      text: 'Click on the link and we can have a video chat ;-)',
-      url: `https://videocall-pwa.netlify.app/visitroom/${owner}/${room}`,
-    }
-    navigator.share(shareData)
-\end{lstlisting}
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=35mm]{./img/share-android.jpg}{}
-			\caption{native share-menu op Android}
-			\label{fig:shareChrome}
-		\end{figure}
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=35mm]{./img/share-iOS}{}
-			\caption{native share-menu op iOS}
-			\label{fig:shareIOS}
-		\end{figure}	
-
-
 		Als de gebruiker een browser gebruikt die deze functie niet ondersteunt, zal de clipboard API gebruikt worden.
 	
-		De clipboard API kan gebruikt worden om items in het klembord van de gebruiker te plaatsen of om het klembord uit te lezen.
+		De Clipboard API kan gebruikt worden om items in het klembord van de gebruiker te plaatsen of om het klembord uit te lezen.
 		
 		Deze web-API werd gebruikt om eenvoudig de link van de 'room' te kunnen delen met een persoon die gecontacteerd zal worden.
 		
-		Volgende code zal de link genereren die de uitgenodigde persoon kan gebruiken. Deze link zal in het klembord van de gebruiker geplaatst worden.
-		
+		De code in code voorbeeld \ref{copyLink} zal de link genereren die de uitgenodigde persoon kan gebruiken. Deze link zal in het klembord van de gebruiker geplaatst worden.
 		De eerste keer dat dit proces uitgevoerd wordt, zal de gebruiker expliciet toestemming moeten geven om het klembord te mogen gebruiken.
+		
+		\begin{lstlisting}[
+			caption={tonen van het native deel-menu},
+			label=shareMenu]
+		 const shareData = {
+		      title: 'Join my room!',
+		      text: 'Click on the link and we can have a video chat ;-)',
+		      url: `https://videocall-pwa.netlify.app/visitroom/${owner}/${room}`,
+		    }
+		navigator.share(shareData)
+		\end{lstlisting}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=35mm]{./img/share-android.jpg}{}
+					\caption{native share-menu op Android}
+					\label{fig:shareChrome}
+				\end{figure}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=35mm]{./img/share-iOS}{}
+					\caption{native share-menu op iOS}
+					\label{fig:shareIOS}
+				\end{figure}	
 
-\begin{lstlisting}
+\begin{lstlisting}[
+	caption={kopiëren van een link aan de hand van de Clipboard API},
+	label=copyLink]
 navigator.clipboard
   .writeText(`http://localhost:3000/visitroom/${roomownername}/${roomname}`)
   .then(() => {
@@ -289,12 +307,14 @@ navigator.clipboard
 
 		\subsubsection{Progressive enhancement}
 
-			Bij deze feature werd er progressive enhancement toegepast. 
+			Bij deze feature werd er progressive enhancement toegepast (code voorbeeld \ref{progEnhShare}). 
 			In het beste geval wordt het native deelmenu getoond. Als dit niet beschikbaar is, zal de link gekopieerd worden in het klembord.
 			Als ook dit niet beschikbaar is, of de gebruiker heeft geen toestemming gegeven, zal er een boodschap getoond worden waar de gebruiker de link zelf kan kopiëren en delen.
 		
-\begin{lstlisting}
-if('share' in navigator){jesu
+\begin{lstlisting}[
+	caption={progressive enhancement bij het delen van een link},
+	label=progEnhShare]
+if('share' in navigator){
 	// ... code voor het delen via een native menu ...
 }
 else{
@@ -322,23 +342,26 @@ else{
 		\end{itemize}	
 		
 		\paragraph{Abonneren op push notificaties}
-			 De gebruiker moet expliciet toegang geven aan de webapplicatie om push notificaties te mogen gebruiken.
-			 
-\begin{lstlisting}
-const sw = await navigator.serviceWorker.ready;
-let pushSub = await sw.pushManager.subscribe({
-      userVisibleOnly: true,
-      applicationServerKey: 'public VAPID key'
-})
-\end{lstlisting}
-
-			Dit stukje code zal een subscription teruggeven dat opgeslagen moet worden in de databank bij de gebruiker. Deze subscription is uniek voor de gebruiker, de browser en het toestel.
+			 De gebruiker moet expliciet toestemming geven aan de webapplicatie om push notificaties te mogen gebruiken.
+			
+			Code voorbeeld \ref{askSub} zal een subscription teruggeven dat opgeslagen moet worden in de databank. Deze subscription is uniek voor de gebruiker, de browser en het toestel.
 			\autocite{Gaunt2019a}
+			
+			Een subscription komt in de vorm van een JSON-object, code voorbeeld \ref{demoSubscription} toont hoe een subscription er kan uitzien.
+			
+			\begin{lstlisting}[
+				caption={toestemming vragen voor push notificaties},
+				label=askSub]
+			const sw = await navigator.serviceWorker.ready;
+			let pushSub = await sw.pushManager.subscribe({
+				userVisibleOnly: true,
+			 	applicationServerKey: 'public VAPID key'
+			})
+			\end{lstlisting}
 	
-\newpage
-			Voorbeeld van een subscription:
-	
-\begin{lstlisting}
+\begin{lstlisting}[
+	caption={push subscription},
+	label=demoSubscription]
 {
    "endpoint":"https://fcm.googleapis.com/fcm/send/fOkirMCCHhM:..."
    "expirationTime":null,
@@ -362,15 +385,26 @@ let pushSub = await sw.pushManager.subscribe({
 			
 			Deze vapid keys kunnen in de applicatie server gegenereerd worden aan de hand van volgende code:
 			
-\begin{lstlisting}
-console.log(push.generateVAPIDKeys)
-\end{lstlisting}
-
-			Dit zal een publieke en een private sleutel weergeven in de console. Deze moeten dan op een veilige plaats opgeslagen worden.
+			Code voorbeeld \ref{pubKeys} zal een publieke en een private sleutel weergeven in de console. Deze moeten dan op een veilige plaats opgeslagen worden.
 			
 			Eens de server de Vapid keys heeft, kan deze een notificatie verzenden.
 			
-\begin{lstlisting}
+			Om een notificatie te versturen moet er ook een geldig e-mailadres opgegeven worden. Dit e-mailadres zal gebruikt worden door de push service als er problemen zijn met jouw applicatie.
+			
+			De push notificatie kan dan verzonden worden met eventueel extra informatie in de payload (code voorbeeld \ref{sendNoti}).
+			
+\begin{lstlisting}[
+	caption={tonen van de Vapid keys},
+	label=pubKeys]
+console.log(push.generateVAPIDKeys)
+\end{lstlisting}
+
+		
+
+			
+\begin{lstlisting}[
+	caption={verzenden van een push notificatie vanop de server},
+	label=sendNoti]
 push.setVapidDetails(
     "mailto:mai",
     secrets.vapIdKeys.publicKey,
@@ -380,31 +414,37 @@ push.setVapidDetails(
  push.sendNotification( sub,  JSON.stringify({payload})
 \end{lstlisting}
 
-			Er moet ook een geldig e-mailadres opgegeven worden. Dit e-mailadres zal gebruikt worden door de push service als er problemen zijn met jouw applicatie.
-			
-			De push notificatie kan dan verzonden worden met eventueel extra informatie in de payload.
+		
 			
 		\paragraph{Service worker}
 		
 			Op basis van de subscription die in de backend werd verzonden, zal de service worker van de juiste gebruiker geactiveerd worden.
 			
-			De service worker zal aan de hand van een 'eventListener' geactiveerd worden en een notificatie tonen op het toestel.
+			In code voorbeeld \ref{eventPush} zal de service worker aan de hand van een 'eventListener' geactiveerd worden en een notificatie tonen op het toestel.
 			
+			Als de backend extra informatie heeft meegegeven, dan kan deze uitgelezen worden (code voorbeeld \ref{payloadPush}).
 			
-\begin{lstlisting}
+			Vervolgens kan er een notificatie gevormd en verzonden worden zoals eerder toegelicht in hoofdstuk~\ref{ch: Wat is een PWA} van deze scriptie (code voorbeeld \ref{sendPush}).
+							
+\begin{lstlisting}[
+	caption={eventListener voor de Push API},
+	label=eventPush]
 self.addEventListener("push", function (e) {
 	//handle notification
 }
 \end{lstlisting}
 			
-			Als de backend extra informatie heeft meegegeven, dan kan deze uitgelezen worden.
-\begin{lstlisting}
+		
+\begin{lstlisting}[
+	caption={payload van de Push API in de service worker},
+	label=payloadPush]
   const payload = JSON.parse(e.data.text())
 \end{lstlisting}
 			
-			Vervolgens kan er een notificatie gevormd worden zoals eerder toegelicht in hoofdstuk~\ref{ch: Wat is een PWA} van deze scriptie.
-			
-\begin{lstlisting}
+\newpage
+\begin{lstlisting}[
+	caption={tonen push notificatie},
+	label=sendPush]
 options = {
       body: "Open the app and say hi!",
       icon: "images/example.png",
@@ -450,11 +490,12 @@ options = {
 		
 		\paragraph{Video-stream}
 			De video-stream zal verkregen worden via het navigator object. Bij het opvragen van een video-stream zal de browser automatisch toestemming vragen aan de gebruiker of de camera en de microfoon gebruikt mogen worden.
-			
 			Als de applicatie toestemming gekregen heeft, wordt er een video-stream verkregen.
-			Deze stream zal opgeslagen worden in de state van de applicatie en zal in een HTML5 video element geplaatst worden.
+			Deze stream zal opgeslagen worden in de state van de applicatie en zal in een HTML5 video element geplaatst worden (code-voorbeeld \ref{recStream}).
 		
-\begin{lstlisting}
+\begin{lstlisting}[
+	caption={video-stream opvragen},
+	label=recStream]
 navigator.mediaDevices.getUserMedia({ 
 		video: true,
 		audio: true 
@@ -470,19 +511,24 @@ navigator.mediaDevices.getUserMedia({
 		\paragraph{Peer-to-peer verbinding met streaming}
 			Bij deze applicatie werd \href{https://github.com/feross/simple-peer}{simple-peer} gebruikt. Dit is een abstractie van webRTC die het opzetten van peer-to-peer verbindingen eenvoudiger maakt.
 			
-			Voor beide gebruikers zal er een peer object aangemaakt worden.
+			In code voorbeeld \ref{newPeer} zal er voor beide gebruikers een peer object aangemaakt worden.
 
-\begin{lstlisting}
+			Vervolgens zullen er listeners toegevoegd worden aan deze objecten (code voorbeeld \ref{peerListeners}) die geactiveerd worden op basis van het andere peer-object.
+			
+\begin{lstlisting}[
+	caption={aanmaken peer object},
+	label=newPeer]
 const peer = new Peer({
 	initiator: true,
 
 	stream: yourVideoStream,
 });
 \end{lstlisting}
+						
 			
-			Vervolgens zullen er listeners toegevoegd worden aan deze objecten die geactiveerd worden op basis van het andere peer-object.
-			
-\begin{lstlisting}
+\begin{lstlisting}[
+	caption={listeners op het peer object},
+	label=peerListeners]
 peer.on("signal", (data) => {
 	// code wordt uitgevoerd als er een andere peer aangemaakt wordt
 });
@@ -537,9 +583,9 @@ peer.on("stream", (stream) => {
 		Door ervoor te zorgen dat alle belangrijke elementen van het icoon binnen een 'safe zone' vallen, en door een extra property toe te voegen in het app manifest kan dit opgelost worden. In figuur \ref{fig:masked} kunnen de geöptimaliseerde iconen gevonden worden.
 	
 		Toe te voegen aan app manifest:
-		
-
-\begin{lstlisting}
+\begin{lstlisting}[
+	caption={toevoeging aan app manifest},
+	label=maskedIcons]
 "purpose": "any maskable" 
 \end{lstlisting}
 

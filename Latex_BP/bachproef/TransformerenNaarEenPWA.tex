@@ -75,7 +75,9 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag 'Welke stappen zijn nodig o
 
 	\newpage
 	\subsection{App manifest}
-\begin{lstlisting}
+\begin{lstlisting}[
+	caption={app manifest vanjes darts PWA},
+	label=manifestDarts]
 {
   "short_name": "Dart 501",
   "name": "Dart 501",
@@ -132,27 +134,31 @@ Aan de hand van dit voorbeeld zal de onderzoeksvraag 'Welke stappen zijn nodig o
 \end{lstlisting}
 		
 		\newpage
-		De naam en de verkorte naam (naam die op het splashscreen getoond zal worden) worden als eerste vastgelegd. Deze zijn gelijk omdat de volledige naam al kort genoeg is. Het maximum aantal karakters voor 'short\_name' is 12.
- 
 		
+		In code voorbeeld \ref{manifestDarts} is het volledige app manifest van deze proof-of-concept te zien. De naam en de verkorte naam (naam die op het splashscreen getoond zal worden) worden als eerste vastgelegd. Deze zijn gelijk omdat de volledige naam al kort genoeg is. Het maximum aantal karakters voor 'short\_name' is 12.
+ 
 		Vervolgens worden alle iconen voor de verschillende platformen bepaald. Dit deel van het manifest en de bestanden waarnaar het refereert kunnen gegenereerd worden met de tool \href{https://appicon.co}{appicon.co}.
 		
 		Vervolgens wordt het gedrag en het uitzicht van de applicatie gedefinieerd. Er wordt ingesteld dat de applicatie start op het scherm waar het aantal spelers geselecteerd kan worden, er wordt ook bepaald dat de applicatie het volledige scherm in beslag moet nemen.
 		
 		Ook het kleurenschema wordt bepaald. Deze kleuren worden gebruikt bij het splashscreen en bepalen ook de kleur die de statusbalk van het toestel zal innemen. 
 		
-		Er moet een link gemaakt worden van de HTML-bestanden naar dit manifest bestand. Dit gebeurt binnen de head tag van de index.html file.
+		Er moet een link gemaakt worden van de HTML-bestanden naar dit manifest bestand. Dit gebeurt binnen de head tag van de index.html file (code voorbeeld \ref{linkManifest}). 
 		
-\begin{lstlisting}
+\begin{lstlisting}[
+	caption={linken webapplicatie met app manifest},
+	label=linkManifest]
 	<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 \end{lstlisting}
 		
 		
 	\subsection{Service worker}
 		
-		Als een react applicatie gecreëerd wordt met het 'create-react-app' commando wordt er  een basis service worker aangemaakt. Standaard wordt deze niet gebruikt, om dit te veranderen moet de register methode van de service worker aangeroepen worden in het index.js bestand.
+		Als een react applicatie gecreëerd wordt met het 'create-react-app' commando wordt er  een basis service worker aangemaakt. Standaard wordt deze niet gebruikt, om dit te veranderen moet de register methode van de service worker aangeroepen worden in het index.js bestand (code voorbeeld \ref{registerSWorker}).
 		
-\begin{lstlisting}
+\begin{lstlisting}[
+	caption={registreren service worker},
+	label=registerSWorker]
 		serviceWorker.register();
 \end{lstlisting}
 		

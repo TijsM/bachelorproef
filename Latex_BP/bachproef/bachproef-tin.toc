@@ -1,276 +1,276 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {dutch}{}
-\contentsline {chapter}{\numberline {1}Inleiding}{23}{chapter.1}% 
-\contentsline {section}{\numberline {1.1}Probleemstelling}{23}{section.1.1}% 
-\contentsline {section}{\numberline {1.2}Onderzoeksvraag}{24}{section.1.2}% 
-\contentsline {section}{\numberline {1.3}Onderzoeksdoelstelling}{24}{section.1.3}% 
-\contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{25}{section.1.4}% 
-\contentsline {chapter}{\numberline {2}Literatuurstudie}{27}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Wat is een PWA}{27}{section.2.1}% 
-\contentsline {subsection}{\numberline {2.1.1}Service workers}{28}{subsection.2.1.1}% 
-\contentsline {subsubsection}{Wat is een service worker}{29}{section*.7}% 
-\contentsline {subsubsection}{Functionaliteiten die een service worker mogelijk maakt}{29}{section*.8}% 
-\contentsline {subparagraph}{Offline gebruik}{29}{section*.9}% 
-\contentsline {subparagraph}{Notificaties}{30}{section*.10}% 
-\contentsline {subparagraph}{Achtergrondsynchronisatie }{31}{section*.11}% 
-\contentsline {subsubsection}{Service worker lifecycle }{32}{section*.12}% 
-\contentsline {subsection}{\numberline {2.1.2}A2HS}{34}{subsection.2.1.2}% 
-\contentsline {subsection}{\numberline {2.1.3}Application shell}{35}{subsection.2.1.3}% 
-\contentsline {subsection}{\numberline {2.1.4}Progressive enhancement}{36}{subsection.2.1.4}% 
-\contentsline {subsection}{\numberline {2.1.5}Application manifest}{36}{subsection.2.1.5}% 
-\contentsline {subsection}{\numberline {2.1.6}Geschiedenis van PWA's}{37}{subsection.2.1.6}% 
-\contentsline {subsubsection}{"One last thing"}{37}{section*.13}% 
-\contentsline {subsubsection}{Crome dev summit 2015}{38}{section*.14}% 
-\contentsline {subsubsection}{iOS 13}{38}{section*.15}% 
-\contentsline {subsection}{\numberline {2.1.7}Voorbeelden van PWA's}{38}{subsection.2.1.7}% 
-\contentsline {subsubsection}{Outlook}{38}{section*.16}% 
-\contentsline {subsubsection}{AliExpress}{39}{section*.17}% 
-\contentsline {subsubsection}{Twitter}{39}{section*.18}% 
-\contentsline {subsubsection}{Starbucks}{40}{section*.19}% 
-\contentsline {subsubsection}{Uber}{40}{section*.20}% 
-\contentsline {subsubsection}{Pinterest}{40}{section*.21}% 
-\contentsline {subsubsection}{The coronavirus app}{40}{section*.22}% 
-\contentsline {section}{\numberline {2.2}Besturingssystemen en PWA's}{41}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}Onderzoek}{42}{subsection.2.2.1}% 
-\contentsline {subsubsection}{Media}{42}{section*.23}% 
-\contentsline {paragraph}{Video met audio }{42}{section*.24}% 
-\contentsline {paragraph}{Foto's }{43}{section*.25}% 
-\contentsline {paragraph}{Geluidopname }{43}{section*.26}% 
-\contentsline {paragraph}{Real-time communicatie }{44}{section*.27}% 
-\contentsline {paragraph}{Casting}{44}{section*.28}% 
-\contentsline {paragraph}{Media-controle in de notificatie }{45}{section*.29}% 
-\contentsline {subsubsection}{Connectie met andere apparaten}{45}{section*.30}% 
-\contentsline {paragraph}{Bluetooth }{45}{section*.31}% 
-\contentsline {paragraph}{USB}{46}{section*.32}% 
-\contentsline {paragraph}{NFC}{46}{section*.33}% 
-\contentsline {subsubsection}{Toestelkenmerken}{47}{section*.34}% 
-\contentsline {paragraph}{Netwerkinformatie}{47}{section*.35}% 
-\contentsline {paragraph}{Online status}{47}{section*.36}% 
-\contentsline {paragraph}{Vibratiemotor }{47}{section*.37}% 
-\contentsline {paragraph}{Batterijstatus}{47}{section*.38}% 
-\contentsline {paragraph}{Toestelgeheugen}{48}{section*.39}% 
-\contentsline {subsubsection}{Native gedrag}{48}{section*.40}% 
-\contentsline {paragraph}{Lokale notificaties}{48}{section*.41}% 
-\contentsline {paragraph}{Push notificaties}{49}{section*.42}% 
-\contentsline {paragraph}{A2HS}{49}{section*.43}% 
-\contentsline {paragraph}{Badges}{49}{section*.44}% 
-\contentsline {paragraph}{Voorgrond-detectie }{49}{section*.45}% 
-\contentsline {paragraph}{Toestemmingen}{50}{section*.46}% 
-\contentsline {subsubsection}{Besturingssysteem}{50}{section*.47}% 
-\contentsline {paragraph}{Offline opslag}{50}{section*.48}% 
-\contentsline {subparagraph}{Web storage}{51}{section*.49}% 
-\contentsline {subparagraph}{IndexedDB}{51}{section*.50}% 
-\contentsline {subparagraph}{Cache API}{51}{section*.51}% 
-\contentsline {subparagraph}{Storage API}{51}{section*.52}% 
-\contentsline {paragraph}{Bestandentoegang}{52}{section*.53}% 
-\contentsline {paragraph}{Contacten}{52}{section*.54}% 
-\contentsline {paragraph}{Sms}{52}{section*.55}% 
-\contentsline {paragraph}{Taakplanning}{53}{section*.56}% 
-\contentsline {subsubsection}{Input}{53}{section*.57}% 
-\contentsline {paragraph}{Touch gebaren}{53}{section*.58}% 
-\contentsline {paragraph}{Klembord toegang}{54}{section*.59}% 
-\contentsline {subsubsection}{User experience}{54}{section*.60}% 
-\contentsline {paragraph}{Offline gebruik}{54}{section*.61}% 
-\contentsline {paragraph}{Achtergrondsynchronisatie }{54}{section*.62}% 
-\contentsline {paragraph}{Inter-app communicatie}{55}{section*.63}% 
-\contentsline {paragraph}{Betalingen}{55}{section*.64}% 
-\contentsline {paragraph}{Credentials}{55}{section*.65}% 
-\contentsline {subsubsection}{Locatie en positionering}{56}{section*.66}% 
-\contentsline {paragraph}{Geolocatie}{56}{section*.67}% 
-\contentsline {paragraph}{Geofencing}{56}{section*.68}% 
-\contentsline {paragraph}{Toesteloriëntatie }{56}{section*.69}% 
-\contentsline {paragraph}{Toestelbeweging}{57}{section*.70}% 
-\contentsline {subparagraph}{DeviceMotionEvent }{57}{section*.71}% 
-\contentsline {subparagraph}{Accelerometer }{57}{section*.72}% 
-\contentsline {subparagraph}{Gyroscope }{57}{section*.73}% 
-\contentsline {subparagraph}{Magnetometer }{58}{section*.74}% 
-\contentsline {subparagraph}{Lineaire accelerometer}{58}{section*.75}% 
-\contentsline {paragraph}{Nabijheid-sensoren }{58}{section*.76}% 
-\contentsline {subsubsection}{Scherm en output}{58}{section*.77}% 
-\contentsline {paragraph}{Virtual en augmented reality }{58}{section*.78}% 
-\contentsline {paragraph}{Fullscreen }{59}{section*.79}% 
-\contentsline {paragraph}{Wake lock }{59}{section*.80}% 
-\contentsline {subsection}{\numberline {2.2.2}Concluderende tabel}{60}{subsection.2.2.2}% 
-\contentsline {subsection}{\numberline {2.2.3}Conclusie}{62}{subsection.2.2.3}% 
-\contentsline {subsubsection}{Browsers}{62}{section*.81}% 
-\contentsline {subsubsection}{Mobiele besturingssystemen }{62}{section*.82}% 
-\contentsline {subparagraph}{conclusie}{64}{section*.83}% 
-\contentsline {subsubsection}{Desktop besturingssystemen}{64}{section*.84}% 
-\contentsline {subparagraph}{Conclusie}{66}{section*.85}% 
-\contentsline {section}{\numberline {2.3}Waarom een PWA}{66}{section.2.3}% 
-\contentsline {subsection}{\numberline {2.3.1}Bereik}{66}{subsection.2.3.1}% 
-\contentsline {subsection}{\numberline {2.3.2}Platformonafhankelijkheid }{66}{subsection.2.3.2}% 
-\contentsline {subsection}{\numberline {2.3.3}Omzet}{67}{subsection.2.3.3}% 
-\contentsline {subsection}{\numberline {2.3.4}Bundle size}{68}{subsection.2.3.4}% 
-\contentsline {subsection}{\numberline {2.3.5}Offline gebruik}{69}{subsection.2.3.5}% 
-\contentsline {subsection}{\numberline {2.3.6}Betrokkenheid}{69}{subsection.2.3.6}% 
-\contentsline {subsection}{\numberline {2.3.7}Kost}{70}{subsection.2.3.7}% 
-\contentsline {subsection}{\numberline {2.3.8}Deployment}{71}{subsection.2.3.8}% 
-\contentsline {subsection}{\numberline {2.3.9}Updates}{72}{subsection.2.3.9}% 
-\contentsline {subsection}{\numberline {2.3.10}Conclusie}{72}{subsection.2.3.10}% 
-\contentsline {section}{\numberline {2.4}Beperkingen van een PWA}{73}{section.2.4}% 
-\contentsline {subsection}{\numberline {2.4.1}Cameragebruik}{73}{subsection.2.4.1}% 
-\contentsline {subsection}{\numberline {2.4.2}Controle over platformen}{73}{subsection.2.4.2}% 
-\contentsline {subsection}{\numberline {2.4.3}Functies van een besturingssysteem}{73}{subsection.2.4.3}% 
-\contentsline {subsection}{\numberline {2.4.4}Browserondersteuning}{74}{subsection.2.4.4}% 
-\contentsline {subsection}{\numberline {2.4.5}Aanwezigheid in app-stores}{74}{subsection.2.4.5}% 
-\contentsline {subsection}{\numberline {2.4.6}Conclusie}{74}{subsection.2.4.6}% 
-\contentsline {section}{\numberline {2.5}Tools voor het ontwikkelen van een PWA}{75}{section.2.5}% 
-\contentsline {subsection}{\numberline {2.5.1}Lighthouse}{75}{subsection.2.5.1}% 
-\contentsline {subsubsection}{Fast and reliable}{75}{section*.86}% 
-\contentsline {subsubsection}{Installable}{75}{section*.87}% 
-\contentsline {subsubsection}{PWA optimized}{76}{section*.88}% 
-\contentsline {subsection}{\numberline {2.5.2}Workbox}{77}{subsection.2.5.2}% 
-\contentsline {subsection}{\numberline {2.5.3}PWAbuilder}{77}{subsection.2.5.3}% 
-\contentsline {subsection}{\numberline {2.5.4}Chrome developer tools}{77}{subsection.2.5.4}% 
-\contentsline {section}{\numberline {2.6}PWA-alternatieven}{78}{section.2.6}% 
-\contentsline {subsection}{\numberline {2.6.1}Cross platform hybrid development}{78}{subsection.2.6.1}% 
-\contentsline {subsubsection}{Voordelen}{78}{section*.89}% 
-\contentsline {subsubsection}{Nadelen}{79}{section*.90}% 
-\contentsline {subsubsection}{Apache Cordova}{79}{section*.91}% 
-\contentsline {subsubsection}{Ionic}{79}{section*.92}% 
-\contentsline {subsubsection}{Electron}{80}{section*.93}% 
-\contentsline {subsection}{\numberline {2.6.2}Cross platform native development}{81}{subsection.2.6.2}% 
-\contentsline {subsubsection}{Voordelen}{81}{section*.94}% 
-\contentsline {subsubsection}{Nadelen}{81}{section*.95}% 
-\contentsline {subsubsection}{Xamarin}{81}{section*.96}% 
-\contentsline {subsubsection}{React native}{82}{section*.97}% 
-\contentsline {paragraph}{Expo}{82}{section*.98}% 
-\contentsline {subsubsection}{Flutter}{83}{section*.99}% 
-\contentsline {subsection}{\numberline {2.6.3}Conclusie}{83}{subsection.2.6.3}% 
-\contentsline {subsection}{\numberline {2.6.4}Concluderende flowchart}{85}{subsection.2.6.4}% 
-\contentsline {section}{\numberline {2.7}Ontsluiten van een PWA}{86}{section.2.7}% 
-\contentsline {chapter}{\numberline {3}Methodologie}{87}{chapter.3}% 
-\contentsline {chapter}{\numberline {4}Ombouwen webapplicatie tot een PWA}{91}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}De applicatie}{91}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Analyse}{91}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Functionele requirements}{92}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}Niet-functionele requirements}{92}{subsection.4.2.2}% 
-\contentsline {section}{\numberline {4.3}Implementatie}{92}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}A2HS}{94}{section.4.4}% 
-\contentsline {subsection}{\numberline {4.4.1}HTTPS}{94}{subsection.4.4.1}% 
-\contentsline {subsection}{\numberline {4.4.2}App manifest}{95}{subsection.4.4.2}% 
-\contentsline {subsection}{\numberline {4.4.3}Service worker}{96}{subsection.4.4.3}% 
-\contentsline {section}{\numberline {4.5}Controle}{97}{section.4.5}% 
-\contentsline {section}{\numberline {4.6}Conclusie}{98}{section.4.6}% 
-\contentsline {chapter}{\numberline {5}Proof-of-concept}{99}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Analyse}{99}{section.5.1}% 
-\contentsline {subsection}{\numberline {5.1.1}Functionele requirements}{99}{subsection.5.1.1}% 
-\contentsline {subsubsection}{Authenticatie}{99}{section*.100}% 
-\contentsline {subsubsection}{Bellen}{99}{section*.101}% 
-\contentsline {subsubsection}{Gebeld worden}{100}{section*.102}% 
-\contentsline {subsubsection}{Algemeen}{100}{section*.103}% 
-\contentsline {subsection}{\numberline {5.1.2}Niet-functionele requirements}{100}{subsection.5.1.2}% 
-\contentsline {section}{\numberline {5.2}Design}{101}{section.5.2}% 
-\contentsline {subsection}{\numberline {5.2.1}Mockup}{101}{subsection.5.2.1}% 
-\contentsline {subsection}{\numberline {5.2.2}Prototype}{101}{subsection.5.2.2}% 
-\contentsline {section}{\numberline {5.3}Implementatie}{102}{section.5.3}% 
-\contentsline {subsection}{\numberline {5.3.1}Registreren service worker}{102}{subsection.5.3.1}% 
-\contentsline {subsection}{\numberline {5.3.2}A2HS}{102}{subsection.5.3.2}% 
-\contentsline {subsection}{\numberline {5.3.3}Caching}{103}{subsection.5.3.3}% 
-\contentsline {subsubsection}{Cache strategieën}{103}{section*.104}% 
-\contentsline {subparagraph}{Cache first}{103}{section*.105}% 
-\contentsline {subparagraph}{Network first}{103}{section*.106}% 
-\contentsline {subparagraph}{Network only}{103}{section*.107}% 
-\contentsline {subparagraph}{Cache only}{103}{section*.108}% 
-\contentsline {subparagraph}{Stale-While-Revalidate}{103}{section*.109}% 
-\contentsline {subsubsection}{Statisch cachen}{104}{section*.110}% 
-\contentsline {subsubsection}{Dynamisch cachen}{104}{section*.111}% 
-\contentsline {subsection}{\numberline {5.3.4}Authenticatie}{105}{subsection.5.3.4}% 
-\contentsline {subsection}{\numberline {5.3.5}Share API en Clipboard API}{106}{subsection.5.3.5}% 
-\contentsline {subsubsection}{Progressive enhancement}{107}{section*.112}% 
-\contentsline {subsection}{\numberline {5.3.6}Push notificaties}{108}{subsection.5.3.6}% 
-\contentsline {paragraph}{Abonneren op push notificaties}{108}{section*.113}% 
-\contentsline {paragraph}{Backend}{109}{section*.114}% 
-\contentsline {paragraph}{Service worker}{110}{section*.115}% 
-\contentsline {subsection}{\numberline {5.3.7}Local storage}{110}{subsection.5.3.7}% 
-\contentsline {subsection}{\numberline {5.3.8}Web RTC}{111}{subsection.5.3.8}% 
-\contentsline {paragraph}{Video-stream}{111}{section*.116}% 
-\contentsline {paragraph}{Peer-to-peer verbinding met streaming}{111}{section*.117}% 
-\contentsline {paragraph}{Performantie}{112}{section*.118}% 
-\contentsline {subsection}{\numberline {5.3.9}Socket.io}{112}{subsection.5.3.9}% 
-\contentsline {subsection}{\numberline {5.3.10}Masked icons}{113}{subsection.5.3.10}% 
-\contentsline {section}{\numberline {5.4}De applicatie}{114}{section.5.4}% 
-\contentsline {subsection}{\numberline {5.4.1}Authenticatie}{114}{subsection.5.4.1}% 
-\contentsline {subsection}{\numberline {5.4.2}Home}{115}{subsection.5.4.2}% 
-\contentsline {subsection}{\numberline {5.4.3}Wachtschermen}{116}{subsection.5.4.3}% 
-\contentsline {subsection}{\numberline {5.4.4}Room}{117}{subsection.5.4.4}% 
-\contentsline {subsection}{\numberline {5.4.5}Notificaties}{117}{subsection.5.4.5}% 
-\contentsline {section}{\numberline {5.5}Conclusie}{118}{section.5.5}% 
-\contentsline {subsection}{\numberline {5.5.1}Compatibiliteit en besturingssystemen}{118}{subsection.5.5.1}% 
-\contentsline {subsection}{\numberline {5.5.2}Verwachting gebruiker}{119}{subsection.5.5.2}% 
-\contentsline {subsection}{\numberline {5.5.3}Gebruik van PWA's}{119}{subsection.5.5.3}% 
-\contentsline {subsection}{\numberline {5.5.4}A2HS}{120}{subsection.5.5.4}% 
-\contentsline {subsection}{\numberline {5.5.5}Native feeling}{122}{subsection.5.5.5}% 
-\contentsline {subsection}{\numberline {5.5.6}Beperkingen van een PWA}{122}{subsection.5.5.6}% 
-\contentsline {chapter}{\numberline {6}Conclusie}{125}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Resultaten}{125}{section.6.1}% 
-\contentsline {subsection}{\numberline {6.1.1}Welke applicaties kunnen er ontwikkeld worden als PWA}{125}{subsection.6.1.1}% 
-\contentsline {subsection}{\numberline {6.1.2}Functionaliteit van PWA's en besturingssystemen}{126}{subsection.6.1.2}% 
-\contentsline {subsection}{\numberline {6.1.3}Beperkingen van een PWA}{126}{subsection.6.1.3}% 
-\contentsline {subsection}{\numberline {6.1.4}PWA alternatieven}{126}{subsection.6.1.4}% 
-\contentsline {subsection}{\numberline {6.1.5}Welke stappen zijn er nodig om een traditionele website om te vormen tot een PWA}{127}{subsection.6.1.5}% 
-\contentsline {section}{\numberline {6.2}Vergelijking met verwachte resultaten}{127}{section.6.2}% 
-\contentsline {section}{\numberline {6.3}Verder onderzoek}{128}{section.6.3}% 
-\contentsline {chapter}{\numberline {A}Interviews}{129}{appendix.A}% 
-\contentsline {section}{\numberline {A.1}Intro}{129}{section.A.1}% 
-\contentsline {subsection}{\numberline {A.1.1}Thomas Steiner}{129}{subsection.A.1.1}% 
-\contentsline {subsection}{\numberline {A.1.2}Wassim Chegham}{129}{subsection.A.1.2}% 
-\contentsline {section}{\numberline {A.2}Selling points}{130}{section.A.2}% 
-\contentsline {subsection}{\numberline {A.2.1}Thomas Steiner}{130}{subsection.A.2.1}% 
-\contentsline {subsection}{\numberline {A.2.2}Wassim Chegham}{130}{subsection.A.2.2}% 
-\contentsline {section}{\numberline {A.3}Disadvantages}{131}{section.A.3}% 
-\contentsline {subsection}{\numberline {A.3.1}Thomas Steiner}{131}{subsection.A.3.1}% 
-\contentsline {subsection}{\numberline {A.3.2}Wassim Chegham}{131}{subsection.A.3.2}% 
-\contentsline {section}{\numberline {A.4}Is not being in the app-store an advantage or a disadvantage}{131}{section.A.4}% 
-\contentsline {subsection}{\numberline {A.4.1}Thomas Steiner}{131}{subsection.A.4.1}% 
-\contentsline {subsection}{\numberline {A.4.2}Wassim Chegham}{131}{subsection.A.4.2}% 
-\contentsline {section}{\numberline {A.5}In what types of applications do you see PWA's excelling}{132}{section.A.5}% 
-\contentsline {subsection}{\numberline {A.5.1}Thomas Steiner}{132}{subsection.A.5.1}% 
-\contentsline {subsection}{\numberline {A.5.2}Wassim Chegham}{132}{subsection.A.5.2}% 
-\contentsline {section}{\numberline {A.6}Adoption}{133}{section.A.6}% 
-\contentsline {subsection}{\numberline {A.6.1}Thomas Steiner}{133}{subsection.A.6.1}% 
-\contentsline {subsection}{\numberline {A.6.2}Wassim Chegham}{133}{subsection.A.6.2}% 
-\contentsline {section}{\numberline {A.7}Future of PWA's }{134}{section.A.7}% 
-\contentsline {subsection}{\numberline {A.7.1}Thomas Steiner}{134}{subsection.A.7.1}% 
-\contentsline {subsection}{\numberline {A.7.2}Wassim Chegham}{134}{subsection.A.7.2}% 
-\contentsline {section}{\numberline {A.8}Installation of PWA's}{135}{section.A.8}% 
-\contentsline {subsection}{\numberline {A.8.1}Thomas Steiner}{135}{subsection.A.8.1}% 
-\contentsline {subsection}{\numberline {A.8.2}Wassim Chegham}{135}{subsection.A.8.2}% 
-\contentsline {section}{\numberline {A.9}Apple}{136}{section.A.9}% 
-\contentsline {subsection}{\numberline {A.9.1}Thomas Steiner}{136}{subsection.A.9.1}% 
-\contentsline {subsection}{\numberline {A.9.2}Wassim Chegham}{136}{subsection.A.9.2}% 
-\contentsline {section}{\numberline {A.10}Beginning of PWA's}{137}{section.A.10}% 
-\contentsline {subsection}{\numberline {A.10.1}Thomas Steiner}{137}{subsection.A.10.1}% 
-\contentsline {subsection}{\numberline {A.10.2}Wassim Chegham}{137}{subsection.A.10.2}% 
-\contentsline {section}{\numberline {A.11}Extra}{138}{section.A.11}% 
-\contentsline {subsection}{\numberline {A.11.1}Thomas Steiner}{138}{subsection.A.11.1}% 
-\contentsline {subsubsection}{Do you believe that one day, all applications (mobile/ desktop) will be written with web technologies? }{138}{section*.119}% 
-\contentsline {subsubsection}{favorite PWA}{138}{section*.120}% 
-\contentsline {subsubsection}{favorite WEB API}{138}{section*.121}% 
-\contentsline {subsubsection}{How do you see the monetization options for PWA's}{138}{section*.122}% 
-\contentsline {subsection}{\numberline {A.11.2}Wassim Chegham}{138}{subsection.A.11.2}% 
-\contentsline {chapter}{\numberline {B}Performantietesten video stream}{139}{appendix.B}% 
-\contentsline {section}{\numberline {B.1}Code voor het testen van de video streams}{139}{section.B.1}% 
-\contentsline {section}{\numberline {B.2}schermafbeelding van de resultaten}{140}{section.B.2}% 
-\contentsline {chapter}{\numberline {C}User-testen }{141}{appendix.C}% 
-\contentsline {section}{\numberline {C.1}Gestelde vragen}{141}{section.C.1}% 
-\contentsline {section}{\numberline {C.2}Antwoorden}{142}{section.C.2}% 
-\contentsline {subsection}{\numberline {C.2.1}Binaire vragen}{142}{subsection.C.2.1}% 
-\contentsline {subsection}{\numberline {C.2.2}Open vragen}{142}{subsection.C.2.2}% 
-\contentsline {subsubsection}{Reden waarom PWA niet te verkiezen boven native app}{142}{section*.123}% 
-\contentsline {chapter}{\numberline {D}Onderzoeksvoorstel}{143}{appendix.D}% 
-\contentsline {section}{\numberline {D.1}Introductie}{143}{section.D.1}% 
-\contentsline {section}{\numberline {D.2}State-of-the-art}{144}{section.D.2}% 
-\contentsline {subsection}{\numberline {D.2.1}Wat is een PWA}{144}{subsection.D.2.1}% 
-\contentsline {subsection}{\numberline {D.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{144}{subsection.D.2.2}% 
-\contentsline {subsection}{\numberline {D.2.3}Waarom PWA's}{145}{subsection.D.2.3}% 
-\contentsline {subsection}{\numberline {D.2.4}Beveiliging}{145}{subsection.D.2.4}% 
-\contentsline {subsection}{\numberline {D.2.5}Native containers}{146}{subsection.D.2.5}% 
-\contentsline {subsection}{\numberline {D.2.6}Apllication shell architecture}{146}{subsection.D.2.6}% 
-\contentsline {section}{\numberline {D.3}Methodologie}{146}{section.D.3}% 
-\contentsline {subsection}{\numberline {D.3.1}Technologieën}{146}{subsection.D.3.1}% 
-\contentsline {section}{\numberline {D.4}Verwachte resultaten}{147}{section.D.4}% 
-\contentsline {section}{\numberline {D.5}Verwachte conclusies}{147}{section.D.5}% 
-\contentsline {chapter}{Bibliografie}{149}{appendix*.124}% 
+\contentsline {chapter}{\numberline {1}Inleiding}{25}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Probleemstelling}{25}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Onderzoeksvraag}{26}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Onderzoeksdoelstelling}{26}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{27}{section.1.4}% 
+\contentsline {chapter}{\numberline {2}Literatuurstudie}{29}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Wat is een PWA}{29}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Service workers}{30}{subsection.2.1.1}% 
+\contentsline {subsubsection}{Wat is een service worker}{31}{section*.8}% 
+\contentsline {subsubsection}{Functionaliteiten die een service worker mogelijk maakt}{31}{section*.9}% 
+\contentsline {subparagraph}{Offline gebruik}{31}{section*.10}% 
+\contentsline {subparagraph}{Notificaties}{32}{section*.11}% 
+\contentsline {subparagraph}{Achtergrondsynchronisatie }{33}{section*.12}% 
+\contentsline {subsubsection}{Service worker lifecycle }{35}{section*.13}% 
+\contentsline {subsection}{\numberline {2.1.2}A2HS}{36}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.3}Application shell}{37}{subsection.2.1.3}% 
+\contentsline {subsection}{\numberline {2.1.4}Progressive enhancement}{38}{subsection.2.1.4}% 
+\contentsline {subsection}{\numberline {2.1.5}Application manifest}{38}{subsection.2.1.5}% 
+\contentsline {subsection}{\numberline {2.1.6}Geschiedenis van PWA's}{40}{subsection.2.1.6}% 
+\contentsline {subsubsection}{"One last thing"}{40}{section*.14}% 
+\contentsline {subsubsection}{Crome dev summit 2015}{40}{section*.15}% 
+\contentsline {subsubsection}{iOS 13}{40}{section*.16}% 
+\contentsline {subsection}{\numberline {2.1.7}Voorbeelden van PWA's}{41}{subsection.2.1.7}% 
+\contentsline {subsubsection}{Outlook}{41}{section*.17}% 
+\contentsline {subsubsection}{AliExpress}{41}{section*.18}% 
+\contentsline {subsubsection}{Twitter}{41}{section*.19}% 
+\contentsline {subsubsection}{Starbucks}{42}{section*.20}% 
+\contentsline {subsubsection}{Uber}{42}{section*.21}% 
+\contentsline {subsubsection}{Pinterest}{42}{section*.22}% 
+\contentsline {subsubsection}{The coronavirus app}{42}{section*.23}% 
+\contentsline {section}{\numberline {2.2}Besturingssystemen en PWA's}{44}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Onderzoek}{45}{subsection.2.2.1}% 
+\contentsline {subsubsection}{Media}{45}{section*.24}% 
+\contentsline {paragraph}{Video met audio }{45}{section*.25}% 
+\contentsline {paragraph}{Foto's }{46}{section*.26}% 
+\contentsline {paragraph}{Geluidopname }{46}{section*.27}% 
+\contentsline {paragraph}{Real-time communicatie }{47}{section*.28}% 
+\contentsline {paragraph}{Casting}{47}{section*.29}% 
+\contentsline {paragraph}{Media-controle in de notificatie }{48}{section*.30}% 
+\contentsline {subsubsection}{Connectie met andere apparaten}{48}{section*.31}% 
+\contentsline {paragraph}{Bluetooth }{48}{section*.32}% 
+\contentsline {paragraph}{USB}{49}{section*.33}% 
+\contentsline {paragraph}{NFC}{49}{section*.34}% 
+\contentsline {subsubsection}{Toestelkenmerken}{50}{section*.35}% 
+\contentsline {paragraph}{Netwerkinformatie}{50}{section*.36}% 
+\contentsline {paragraph}{Online status}{50}{section*.37}% 
+\contentsline {paragraph}{Vibratiemotor }{50}{section*.38}% 
+\contentsline {paragraph}{Batterijstatus}{50}{section*.39}% 
+\contentsline {paragraph}{Toestelgeheugen}{51}{section*.40}% 
+\contentsline {subsubsection}{Native gedrag}{51}{section*.41}% 
+\contentsline {paragraph}{Lokale notificaties}{51}{section*.42}% 
+\contentsline {paragraph}{Push notificaties}{52}{section*.43}% 
+\contentsline {paragraph}{A2HS}{52}{section*.44}% 
+\contentsline {paragraph}{Badges}{52}{section*.45}% 
+\contentsline {paragraph}{Voorgrond-detectie }{52}{section*.46}% 
+\contentsline {paragraph}{Toestemmingen}{53}{section*.47}% 
+\contentsline {subsubsection}{Besturingssysteem}{53}{section*.48}% 
+\contentsline {paragraph}{Offline opslag}{53}{section*.49}% 
+\contentsline {subparagraph}{Web storage}{54}{section*.50}% 
+\contentsline {subparagraph}{IndexedDB}{54}{section*.51}% 
+\contentsline {subparagraph}{Cache API}{54}{section*.52}% 
+\contentsline {subparagraph}{Storage API}{54}{section*.53}% 
+\contentsline {paragraph}{Bestandentoegang}{55}{section*.54}% 
+\contentsline {paragraph}{Contacten}{55}{section*.55}% 
+\contentsline {paragraph}{Sms}{55}{section*.56}% 
+\contentsline {paragraph}{Taakplanning}{56}{section*.57}% 
+\contentsline {subsubsection}{Input}{56}{section*.58}% 
+\contentsline {paragraph}{Touch gebaren}{56}{section*.59}% 
+\contentsline {paragraph}{Klembord toegang}{57}{section*.60}% 
+\contentsline {subsubsection}{User experience}{57}{section*.61}% 
+\contentsline {paragraph}{Offline gebruik}{57}{section*.62}% 
+\contentsline {paragraph}{Achtergrondsynchronisatie }{57}{section*.63}% 
+\contentsline {paragraph}{Inter-app communicatie}{58}{section*.64}% 
+\contentsline {paragraph}{Betalingen}{58}{section*.65}% 
+\contentsline {paragraph}{Credentials}{58}{section*.66}% 
+\contentsline {subsubsection}{Locatie en positionering}{59}{section*.67}% 
+\contentsline {paragraph}{Geolocatie}{59}{section*.68}% 
+\contentsline {paragraph}{Geofencing}{59}{section*.69}% 
+\contentsline {paragraph}{Toesteloriëntatie }{59}{section*.70}% 
+\contentsline {paragraph}{Toestelbeweging}{60}{section*.71}% 
+\contentsline {subparagraph}{DeviceMotionEvent }{60}{section*.72}% 
+\contentsline {subparagraph}{Accelerometer }{60}{section*.73}% 
+\contentsline {subparagraph}{Gyroscope }{60}{section*.74}% 
+\contentsline {subparagraph}{Magnetometer }{61}{section*.75}% 
+\contentsline {subparagraph}{Lineaire accelerometer}{61}{section*.76}% 
+\contentsline {paragraph}{Nabijheid-sensoren }{61}{section*.77}% 
+\contentsline {subsubsection}{Scherm en output}{61}{section*.78}% 
+\contentsline {paragraph}{Virtual en augmented reality }{61}{section*.79}% 
+\contentsline {paragraph}{Fullscreen }{62}{section*.80}% 
+\contentsline {paragraph}{Wake lock }{62}{section*.81}% 
+\contentsline {subsection}{\numberline {2.2.2}Concluderende tabel}{63}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.3}Conclusie}{65}{subsection.2.2.3}% 
+\contentsline {subsubsection}{Browsers}{65}{section*.82}% 
+\contentsline {subsubsection}{Mobiele besturingssystemen }{65}{section*.83}% 
+\contentsline {subparagraph}{conclusie}{67}{section*.84}% 
+\contentsline {subsubsection}{Desktop besturingssystemen}{67}{section*.85}% 
+\contentsline {subparagraph}{Conclusie}{69}{section*.86}% 
+\contentsline {section}{\numberline {2.3}Waarom een PWA}{69}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Bereik}{69}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}Platformonafhankelijkheid }{69}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.3}Omzet}{70}{subsection.2.3.3}% 
+\contentsline {subsection}{\numberline {2.3.4}Bundle size}{71}{subsection.2.3.4}% 
+\contentsline {subsection}{\numberline {2.3.5}Offline gebruik}{72}{subsection.2.3.5}% 
+\contentsline {subsection}{\numberline {2.3.6}Betrokkenheid}{72}{subsection.2.3.6}% 
+\contentsline {subsection}{\numberline {2.3.7}Kost}{73}{subsection.2.3.7}% 
+\contentsline {subsection}{\numberline {2.3.8}Deployment}{74}{subsection.2.3.8}% 
+\contentsline {subsection}{\numberline {2.3.9}Updates}{75}{subsection.2.3.9}% 
+\contentsline {subsection}{\numberline {2.3.10}Conclusie}{75}{subsection.2.3.10}% 
+\contentsline {section}{\numberline {2.4}Beperkingen van een PWA}{76}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Cameragebruik}{76}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.2}Controle over platformen}{76}{subsection.2.4.2}% 
+\contentsline {subsection}{\numberline {2.4.3}Functies van een besturingssysteem}{76}{subsection.2.4.3}% 
+\contentsline {subsection}{\numberline {2.4.4}Browserondersteuning}{77}{subsection.2.4.4}% 
+\contentsline {subsection}{\numberline {2.4.5}Aanwezigheid in app-stores}{77}{subsection.2.4.5}% 
+\contentsline {subsection}{\numberline {2.4.6}Conclusie}{77}{subsection.2.4.6}% 
+\contentsline {section}{\numberline {2.5}Tools voor het ontwikkelen van een PWA}{78}{section.2.5}% 
+\contentsline {subsection}{\numberline {2.5.1}Lighthouse}{78}{subsection.2.5.1}% 
+\contentsline {subsubsection}{Fast and reliable}{78}{section*.87}% 
+\contentsline {subsubsection}{Installable}{78}{section*.88}% 
+\contentsline {subsubsection}{PWA optimized}{79}{section*.89}% 
+\contentsline {subsection}{\numberline {2.5.2}Workbox}{80}{subsection.2.5.2}% 
+\contentsline {subsection}{\numberline {2.5.3}PWAbuilder}{80}{subsection.2.5.3}% 
+\contentsline {subsection}{\numberline {2.5.4}Chrome developer tools}{80}{subsection.2.5.4}% 
+\contentsline {section}{\numberline {2.6}PWA-alternatieven}{81}{section.2.6}% 
+\contentsline {subsection}{\numberline {2.6.1}Cross platform hybrid development}{81}{subsection.2.6.1}% 
+\contentsline {subsubsection}{Voordelen}{81}{section*.90}% 
+\contentsline {subsubsection}{Nadelen}{82}{section*.91}% 
+\contentsline {subsubsection}{Apache Cordova}{82}{section*.92}% 
+\contentsline {subsubsection}{Ionic}{82}{section*.93}% 
+\contentsline {subsubsection}{Electron}{83}{section*.94}% 
+\contentsline {subsection}{\numberline {2.6.2}Cross platform native development}{84}{subsection.2.6.2}% 
+\contentsline {subsubsection}{Voordelen}{84}{section*.95}% 
+\contentsline {subsubsection}{Nadelen}{84}{section*.96}% 
+\contentsline {subsubsection}{Xamarin}{84}{section*.97}% 
+\contentsline {subsubsection}{React native}{85}{section*.98}% 
+\contentsline {paragraph}{Expo}{85}{section*.99}% 
+\contentsline {subsubsection}{Flutter}{86}{section*.100}% 
+\contentsline {subsection}{\numberline {2.6.3}Conclusie}{86}{subsection.2.6.3}% 
+\contentsline {subsection}{\numberline {2.6.4}Concluderende flowchart}{88}{subsection.2.6.4}% 
+\contentsline {section}{\numberline {2.7}Ontsluiten van een PWA}{89}{section.2.7}% 
+\contentsline {chapter}{\numberline {3}Methodologie}{91}{chapter.3}% 
+\contentsline {chapter}{\numberline {4}Ombouwen webapplicatie tot een PWA}{95}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}De applicatie}{95}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Analyse}{95}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Functionele requirements}{96}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Niet-functionele requirements}{96}{subsection.4.2.2}% 
+\contentsline {section}{\numberline {4.3}Implementatie}{96}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}A2HS}{98}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}HTTPS}{98}{subsection.4.4.1}% 
+\contentsline {subsection}{\numberline {4.4.2}App manifest}{99}{subsection.4.4.2}% 
+\contentsline {subsection}{\numberline {4.4.3}Service worker}{100}{subsection.4.4.3}% 
+\contentsline {section}{\numberline {4.5}Controle}{101}{section.4.5}% 
+\contentsline {section}{\numberline {4.6}Conclusie}{102}{section.4.6}% 
+\contentsline {chapter}{\numberline {5}Proof-of-concept}{103}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Analyse}{103}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.1}Functionele requirements}{103}{subsection.5.1.1}% 
+\contentsline {subsubsection}{Authenticatie}{103}{section*.101}% 
+\contentsline {subsubsection}{Bellen}{103}{section*.102}% 
+\contentsline {subsubsection}{Gebeld worden}{104}{section*.103}% 
+\contentsline {subsubsection}{Algemeen}{104}{section*.104}% 
+\contentsline {subsection}{\numberline {5.1.2}Niet-functionele requirements}{104}{subsection.5.1.2}% 
+\contentsline {section}{\numberline {5.2}Design}{105}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Mockup}{105}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}Prototype}{105}{subsection.5.2.2}% 
+\contentsline {section}{\numberline {5.3}Implementatie}{106}{section.5.3}% 
+\contentsline {subsection}{\numberline {5.3.1}Registreren service worker}{106}{subsection.5.3.1}% 
+\contentsline {subsection}{\numberline {5.3.2}A2HS}{106}{subsection.5.3.2}% 
+\contentsline {subsection}{\numberline {5.3.3}Caching}{107}{subsection.5.3.3}% 
+\contentsline {subsubsection}{Cache strategieën}{107}{section*.105}% 
+\contentsline {subparagraph}{Cache first}{107}{section*.106}% 
+\contentsline {subparagraph}{Network first}{107}{section*.107}% 
+\contentsline {subparagraph}{Network only}{107}{section*.108}% 
+\contentsline {subparagraph}{Cache only}{107}{section*.109}% 
+\contentsline {subparagraph}{Stale-While-Revalidate}{107}{section*.110}% 
+\contentsline {subsubsection}{Statisch cachen}{108}{section*.111}% 
+\contentsline {subsubsection}{Dynamisch cachen}{109}{section*.112}% 
+\contentsline {subsection}{\numberline {5.3.4}Authenticatie}{109}{subsection.5.3.4}% 
+\contentsline {subsection}{\numberline {5.3.5}Share API en Clipboard API}{110}{subsection.5.3.5}% 
+\contentsline {subsubsection}{Progressive enhancement}{112}{section*.113}% 
+\contentsline {subsection}{\numberline {5.3.6}Push notificaties}{112}{subsection.5.3.6}% 
+\contentsline {paragraph}{Abonneren op push notificaties}{113}{section*.114}% 
+\contentsline {paragraph}{Backend}{113}{section*.115}% 
+\contentsline {paragraph}{Service worker}{114}{section*.116}% 
+\contentsline {subsection}{\numberline {5.3.7}Local storage}{115}{subsection.5.3.7}% 
+\contentsline {subsection}{\numberline {5.3.8}Web RTC}{115}{subsection.5.3.8}% 
+\contentsline {paragraph}{Video-stream}{116}{section*.117}% 
+\contentsline {paragraph}{Peer-to-peer verbinding met streaming}{116}{section*.118}% 
+\contentsline {paragraph}{Performantie}{117}{section*.119}% 
+\contentsline {subsection}{\numberline {5.3.9}Socket.io}{117}{subsection.5.3.9}% 
+\contentsline {subsection}{\numberline {5.3.10}Masked icons}{117}{subsection.5.3.10}% 
+\contentsline {section}{\numberline {5.4}De applicatie}{119}{section.5.4}% 
+\contentsline {subsection}{\numberline {5.4.1}Authenticatie}{119}{subsection.5.4.1}% 
+\contentsline {subsection}{\numberline {5.4.2}Home}{120}{subsection.5.4.2}% 
+\contentsline {subsection}{\numberline {5.4.3}Wachtschermen}{121}{subsection.5.4.3}% 
+\contentsline {subsection}{\numberline {5.4.4}Room}{122}{subsection.5.4.4}% 
+\contentsline {subsection}{\numberline {5.4.5}Notificaties}{122}{subsection.5.4.5}% 
+\contentsline {section}{\numberline {5.5}Conclusie}{123}{section.5.5}% 
+\contentsline {subsection}{\numberline {5.5.1}Compatibiliteit en besturingssystemen}{123}{subsection.5.5.1}% 
+\contentsline {subsection}{\numberline {5.5.2}Verwachting gebruiker}{124}{subsection.5.5.2}% 
+\contentsline {subsection}{\numberline {5.5.3}Gebruik van PWA's}{124}{subsection.5.5.3}% 
+\contentsline {subsection}{\numberline {5.5.4}A2HS}{125}{subsection.5.5.4}% 
+\contentsline {subsection}{\numberline {5.5.5}Native feeling}{127}{subsection.5.5.5}% 
+\contentsline {subsection}{\numberline {5.5.6}Beperkingen van een PWA}{127}{subsection.5.5.6}% 
+\contentsline {chapter}{\numberline {6}Conclusie}{129}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Resultaten}{129}{section.6.1}% 
+\contentsline {subsection}{\numberline {6.1.1}Welke applicaties kunnen er ontwikkeld worden als PWA}{129}{subsection.6.1.1}% 
+\contentsline {subsection}{\numberline {6.1.2}Functionaliteit van PWA's en besturingssystemen}{130}{subsection.6.1.2}% 
+\contentsline {subsection}{\numberline {6.1.3}Beperkingen van een PWA}{130}{subsection.6.1.3}% 
+\contentsline {subsection}{\numberline {6.1.4}PWA alternatieven}{130}{subsection.6.1.4}% 
+\contentsline {subsection}{\numberline {6.1.5}Welke stappen zijn er nodig om een traditionele website om te vormen tot een PWA}{131}{subsection.6.1.5}% 
+\contentsline {section}{\numberline {6.2}Vergelijking met verwachte resultaten}{131}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Verder onderzoek}{132}{section.6.3}% 
+\contentsline {chapter}{\numberline {A}Interviews}{133}{appendix.A}% 
+\contentsline {section}{\numberline {A.1}Intro}{133}{section.A.1}% 
+\contentsline {subsection}{\numberline {A.1.1}Thomas Steiner}{133}{subsection.A.1.1}% 
+\contentsline {subsection}{\numberline {A.1.2}Wassim Chegham}{133}{subsection.A.1.2}% 
+\contentsline {section}{\numberline {A.2}Selling points}{134}{section.A.2}% 
+\contentsline {subsection}{\numberline {A.2.1}Thomas Steiner}{134}{subsection.A.2.1}% 
+\contentsline {subsection}{\numberline {A.2.2}Wassim Chegham}{134}{subsection.A.2.2}% 
+\contentsline {section}{\numberline {A.3}Disadvantages}{135}{section.A.3}% 
+\contentsline {subsection}{\numberline {A.3.1}Thomas Steiner}{135}{subsection.A.3.1}% 
+\contentsline {subsection}{\numberline {A.3.2}Wassim Chegham}{135}{subsection.A.3.2}% 
+\contentsline {section}{\numberline {A.4}Is not being in the app-store an advantage or a disadvantage}{135}{section.A.4}% 
+\contentsline {subsection}{\numberline {A.4.1}Thomas Steiner}{135}{subsection.A.4.1}% 
+\contentsline {subsection}{\numberline {A.4.2}Wassim Chegham}{135}{subsection.A.4.2}% 
+\contentsline {section}{\numberline {A.5}In what types of applications do you see PWA's excelling}{136}{section.A.5}% 
+\contentsline {subsection}{\numberline {A.5.1}Thomas Steiner}{136}{subsection.A.5.1}% 
+\contentsline {subsection}{\numberline {A.5.2}Wassim Chegham}{136}{subsection.A.5.2}% 
+\contentsline {section}{\numberline {A.6}Adoption}{137}{section.A.6}% 
+\contentsline {subsection}{\numberline {A.6.1}Thomas Steiner}{137}{subsection.A.6.1}% 
+\contentsline {subsection}{\numberline {A.6.2}Wassim Chegham}{137}{subsection.A.6.2}% 
+\contentsline {section}{\numberline {A.7}Future of PWA's }{138}{section.A.7}% 
+\contentsline {subsection}{\numberline {A.7.1}Thomas Steiner}{138}{subsection.A.7.1}% 
+\contentsline {subsection}{\numberline {A.7.2}Wassim Chegham}{138}{subsection.A.7.2}% 
+\contentsline {section}{\numberline {A.8}Installation of PWA's}{139}{section.A.8}% 
+\contentsline {subsection}{\numberline {A.8.1}Thomas Steiner}{139}{subsection.A.8.1}% 
+\contentsline {subsection}{\numberline {A.8.2}Wassim Chegham}{139}{subsection.A.8.2}% 
+\contentsline {section}{\numberline {A.9}Apple}{140}{section.A.9}% 
+\contentsline {subsection}{\numberline {A.9.1}Thomas Steiner}{140}{subsection.A.9.1}% 
+\contentsline {subsection}{\numberline {A.9.2}Wassim Chegham}{140}{subsection.A.9.2}% 
+\contentsline {section}{\numberline {A.10}Beginning of PWA's}{141}{section.A.10}% 
+\contentsline {subsection}{\numberline {A.10.1}Thomas Steiner}{141}{subsection.A.10.1}% 
+\contentsline {subsection}{\numberline {A.10.2}Wassim Chegham}{141}{subsection.A.10.2}% 
+\contentsline {section}{\numberline {A.11}Extra}{142}{section.A.11}% 
+\contentsline {subsection}{\numberline {A.11.1}Thomas Steiner}{142}{subsection.A.11.1}% 
+\contentsline {subsubsection}{Do you believe that one day, all applications (mobile/ desktop) will be written with web technologies? }{142}{section*.120}% 
+\contentsline {subsubsection}{favorite PWA}{142}{section*.121}% 
+\contentsline {subsubsection}{favorite WEB API}{142}{section*.122}% 
+\contentsline {subsubsection}{How do you see the monetization options for PWA's}{142}{section*.123}% 
+\contentsline {subsection}{\numberline {A.11.2}Wassim Chegham}{142}{subsection.A.11.2}% 
+\contentsline {chapter}{\numberline {B}Performantietesten video stream}{143}{appendix.B}% 
+\contentsline {section}{\numberline {B.1}Code voor het testen van de video streams}{143}{section.B.1}% 
+\contentsline {section}{\numberline {B.2}schermafbeelding van de resultaten}{144}{section.B.2}% 
+\contentsline {chapter}{\numberline {C}User-testen }{145}{appendix.C}% 
+\contentsline {section}{\numberline {C.1}Gestelde vragen}{145}{section.C.1}% 
+\contentsline {section}{\numberline {C.2}Antwoorden}{146}{section.C.2}% 
+\contentsline {subsection}{\numberline {C.2.1}Binaire vragen}{146}{subsection.C.2.1}% 
+\contentsline {subsection}{\numberline {C.2.2}Open vragen}{146}{subsection.C.2.2}% 
+\contentsline {subsubsection}{Reden waarom PWA niet te verkiezen boven native app}{146}{section*.124}% 
+\contentsline {chapter}{\numberline {D}Onderzoeksvoorstel}{147}{appendix.D}% 
+\contentsline {section}{\numberline {D.1}Introductie}{147}{section.D.1}% 
+\contentsline {section}{\numberline {D.2}State-of-the-art}{148}{section.D.2}% 
+\contentsline {subsection}{\numberline {D.2.1}Wat is een PWA}{148}{subsection.D.2.1}% 
+\contentsline {subsection}{\numberline {D.2.2}Welke functies van een besturingssysteem kan een PWA gebruiken}{148}{subsection.D.2.2}% 
+\contentsline {subsection}{\numberline {D.2.3}Waarom PWA's}{149}{subsection.D.2.3}% 
+\contentsline {subsection}{\numberline {D.2.4}Beveiliging}{149}{subsection.D.2.4}% 
+\contentsline {subsection}{\numberline {D.2.5}Native containers}{150}{subsection.D.2.5}% 
+\contentsline {subsection}{\numberline {D.2.6}Apllication shell architecture}{150}{subsection.D.2.6}% 
+\contentsline {section}{\numberline {D.3}Methodologie}{150}{section.D.3}% 
+\contentsline {subsection}{\numberline {D.3.1}Technologieën}{150}{subsection.D.3.1}% 
+\contentsline {section}{\numberline {D.4}Verwachte resultaten}{151}{section.D.4}% 
+\contentsline {section}{\numberline {D.5}Verwachte conclusies}{151}{section.D.5}% 
+\contentsline {chapter}{Bibliografie}{153}{appendix*.125}% 
 \contentsfinish 

@@ -99,9 +99,11 @@ Voorbeelden van deze extra functionaliteiten die PWA's kunnen hebben zijn:
 			Dit is een API die het uiterlijk en het gedrag van een notificatie zal bepalen. Deze API wordt zowel gebruikt voor lokale als voor push notificaties.
 			Om gebruik te maken van deze API moet de gebruiker expliciet toegang geven aan de applicatie.
 			
-			Een voorbeeld van de code van een notificatie kan er als volgt uitzien: 
-		
-\begin{lstlisting}
+			Een voorbeeld waarbij de Notifications API gebruikt wordt, kan gevonden worden in code voorbeeld \ref{notificationExample}.	
+\begin{lstlisting}[
+	caption={tonen van een notificatie},
+	label=notificationExample]
+	
 function displayNotification() {
   if (Notification.permission == 'granted') {
    navigator.serviceWorker.getRegistration().then(function(reg) {
@@ -174,12 +176,15 @@ function displayNotification() {
 			\caption{achtergrond synchronisatie bij Google Chrome op Android - melding als gebruiker terug online is}
 			\label{fig:backSync2}
 		\end{figure}
+
 		\subsubsection{Service worker lifecycle }
 			De levenscyclus van de service worker is onafhankelijk van de levenscyclus van de webapplicatie. Als de webapplicatie gesloten wordt, blijft de service worker gewoon werken.
 			
-			Om een service worker te installeren, moet deze geregistreerd worden in de JavaScript van de webapplicatie. Dit gebeurt normaal bij het eerste bezoek aan de website van de gebruiker.
+			Om een service worker te installeren, moet deze geregistreerd worden in de JavaScript van de webapplicatie (code voorbeeld \ref{registerSW}). Dit gebeurt normaal bij het eerste bezoek aan de website van de gebruiker.
 			
-\begin{lstlisting}
+\begin{lstlisting}[
+	caption={registreren van een service worker},
+	label=registerSW]
 function displayNotification() {
 if ('serviceWorker' in navigator) {
 	navigator.serviceWorker.register('/service-worker.js');
@@ -199,7 +204,7 @@ if ('serviceWorker' in navigator) {
 		
 		Dit proces wordt geïllustreerd in figuur \ref{fig:swLifeCycle}
 		
-		
+		\newpage
 		\begin{figure}[H]
 			\centering
 			\includegraphics{./img/ServiceWorkerLifeCycle.png}
@@ -279,9 +284,11 @@ if ('serviceWorker' in navigator) {
 	Het web app manifest is een JSON-bestand dat informatie bevat over de applicatie. Deze informatie is nodig voor het installeren van een PWA op een toestel.
 	Aan de hand van dit bestand weet het besturingssysteem bijvoorbeeld welk icoon er gebruikt moet worden en hoe het startscherm er moet uitzien.
 	
-	Voorbeeld van een minimum app manifest voor de Google Maps PWA.
+	Een voorbeeld van een minimum app manifest voor de Google Maps PWA wordt gedemonstreerd in code voorbeeld \ref{minAppManifest}.
 	
-\begin{lstlisting}
+\begin{lstlisting}[
+	caption={minimum app manifest},
+	label=minAppManifest]
 {
 	"short_name": "Maps",
 	"name": "Google Maps",
@@ -304,8 +311,6 @@ if ('serviceWorker' in navigator) {
 	"theme_color": "#3367D6"
 }
 \end{lstlisting}
-	
-	\newpage
 		Tabel \ref{tabelManifest} beschrijft de attributen van een minimum app manifest.
 	
 		\begin{table}[H]
