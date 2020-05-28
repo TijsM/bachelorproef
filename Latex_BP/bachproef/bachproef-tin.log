@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  28 MAY 2020 15:19
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  28 MAY 2020 16:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1959,7 +1959,7 @@ Overfull \hbox (18.0pt too wide) detected at line 14
 
 
 Overfull \hbox (18.0pt too wide) detected at line 15
- []\T1/ptm/m/n/12 112
+ []\T1/ptm/m/n/12 111
  []
 
 
@@ -2054,13 +2054,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [25
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 32.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 31.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
  [26])
 (./standvanzaken.tex [27] [28
 
@@ -2469,11 +2469,11 @@ File: ./img/share-android.jpg Graphic file (type bmp)
 <./img/share-android.jpg>
 File: ./img/share-iOS.png Graphic file (type bmp)
 <./img/share-iOS.png>
- [111]
-Underfull \vbox (badness 2903) has occurred while \output is active []
 
- [112]
-[113] [114]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [111]
+[112] [113] [114]
 File: ./img/notificationMacOs.png Graphic file (type bmp)
 <./img/notificationMacOs.png>
  [115] [116] [117]

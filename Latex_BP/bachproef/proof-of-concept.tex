@@ -93,7 +93,7 @@ Er zal een applicatie ontwikkeld worden waarbij een aangemelde gebruiker een and
 		Om de kans te verhogen dat de gebruiker de applicatie toevoegt aan het startscherm, zal deze melding enkel getoond worden als de gebruiker daar expliciet naar vraagt.
 		\autocite{Mclachlan2020}
 		
-		Code voorbeeld \ref{catchBefPrompt} demonstreert dat als de applicatie opstart het beforeInstallPrompt opgevangen zal worden en opgeslagen zal worden in de state. Door het standaard gedrag te overschrijven zal de melding nog niet getoond worden aan de gebruiker.
+		Code voorbeeld \ref{catchBefPrompt} demonstreert dat als de applicatie opstart het beforeInstallPrompt opgevangen en opgeslagen zal worden in de state. Door het standaard gedrag te overschrijven zal de melding nog niet getoond worden aan de gebruiker.
 		\autocite{LePage2020b}
 		
 		\newpage
@@ -150,7 +150,7 @@ const addToHome = () => {
 			
 			In deze applicatie werd dit bereikt door \href{https://developers.google.com/web/tools/workbox}{workbox} te gebruiken.
 			
-			In een eerste fase wordt het index.html bestand gecached \ref{cacheIndex}).
+			In een eerste fase wordt het index.html bestand gecached (code voorbeeld \ref{cacheIndex}).
 
 \begin{lstlisting}[
 	caption={cachen van index.html},
@@ -165,7 +165,7 @@ workbox.precaching.precacheAndRoute([
 			
 			Bestanden die hier toegoevoegd worden, zullen geleverd worden aan de hand van de 'cache first' strategie. Dit wil zeggen dat dit bestand enkel aan de server gevraagd zal worden als het niet beschikbaar is in het cache geheugen.
 			
-			Een andere manier waarop statische caching kan gedaan worden, is aan de hand van de 'registerRoute' die Workbox aanbiedt (code voorbeeld \ref{regRoute}). 
+			Een andere manier waarop statische caching kan gedaan worden, is aan de hand van de 'registerRoute', aangeboden door Workbox (code voorbeeld \ref{regRoute}). 
 			
 \begin{lstlisting}[
 	caption={register route voorbeeld},
@@ -268,7 +268,7 @@ workbox.routing.registerRoute(
 		
 		Deze web-API werd gebruikt om eenvoudig de link van de 'room' te kunnen delen met een persoon die gecontacteerd zal worden.
 		
-		De code in code voorbeeld \ref{copyLink} zal de link genereren die de uitgenodigde persoon kan gebruiken. Deze link zal in het klembord van de gebruiker geplaatst worden.
+		De functie in code voorbeeld \ref{copyLink} zal de link genereren die de uitgenodigde persoon kan gebruiken. Deze link zal in het klembord van de gebruiker geplaatst worden.
 		De eerste keer dat dit proces uitgevoerd wordt, zal de gebruiker expliciet toestemming moeten geven om het klembord te mogen gebruiken.
 		
 		\begin{lstlisting}[
@@ -280,6 +280,17 @@ workbox.routing.registerRoute(
 		      url: `https://videocall-pwa.netlify.app/visitroom/${owner}/${room}`,
 		    }
 		navigator.share(shareData)
+		\end{lstlisting}
+		
+		\begin{lstlisting}[
+			caption={kopiëren van een link aan de hand van de Clipboard API},
+			label=copyLink]
+		navigator.clipboard
+		  .writeText(`http://localhost:3000/visitroom/${roomownername}/${roomname}`)
+		  .then(() => {
+		    alert("coppied!! share the coppied link with somebody");
+		  });
+		};
 		\end{lstlisting}
 				\begin{figure}[H]
 					\centering
@@ -294,16 +305,7 @@ workbox.routing.registerRoute(
 					\label{fig:shareIOS}
 				\end{figure}	
 
-\begin{lstlisting}[
-	caption={kopiëren van een link aan de hand van de Clipboard API},
-	label=copyLink]
-navigator.clipboard
-  .writeText(`http://localhost:3000/visitroom/${roomownername}/${roomname}`)
-  .then(() => {
-    alert("coppied!! share the coppied link with somebody");
-  });
-};
-\end{lstlisting}
+
 
 		\subsubsection{Progressive enhancement}
 
@@ -406,7 +408,7 @@ console.log(push.generateVAPIDKeys)
 	caption={verzenden van een push notificatie vanop de server},
 	label=sendNoti]
 push.setVapidDetails(
-    "mailto:mai",
+    "mailto: ....",
     secrets.vapIdKeys.publicKey,
     secrets.vapIdKeys.privateKey
   );
@@ -582,11 +584,19 @@ peer.on("stream", (stream) => {
 		
 		Door ervoor te zorgen dat alle belangrijke elementen van het icoon binnen een 'safe zone' vallen, en door een extra property toe te voegen in het app manifest kan dit opgelost worden. In figuur \ref{fig:masked} kunnen de geöptimaliseerde iconen gevonden worden.
 	
-		Toe te voegen aan app manifest:
+		In het "icons" onderdeel van het app manifest zal een icoon er nu uitzien zoals in code voorbeeld \ref{maskedIcons}. Het "purpose" attribuut werd toegevoegd.
 \begin{lstlisting}[
 	caption={toevoeging aan app manifest},
 	label=maskedIcons]
-"purpose": "any maskable" 
+
+   {
+     "src": "/icons/android-icon-144x144.png",
+     "sizes": "144x144",
+     "type": "image/png",
+     "density": "3.0"
+     "purpose": "any maskable" 
+   },
+
 \end{lstlisting}
 
 		In deze proof of concept werden de iconen ook 'maskable' gemaakt (figuur \ref{fig:videocallMasked})

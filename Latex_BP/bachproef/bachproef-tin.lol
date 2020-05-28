@@ -12,7 +12,7 @@
 \contentsline {lstlisting}{\numberline {5.5}dynamisch cachen}{109}{lstlisting.5.5}% 
 \contentsline {lstlisting}{\numberline {5.6}authenticatie met Google}{110}{lstlisting.5.6}% 
 \contentsline {lstlisting}{\numberline {5.7}tonen van het native deel-menu}{111}{lstlisting.5.7}% 
-\contentsline {lstlisting}{\numberline {5.8}kopiëren van een link aan de hand van de Clipboard API}{112}{lstlisting.5.8}% 
+\contentsline {lstlisting}{\numberline {5.8}kopiëren van een link aan de hand van de Clipboard API}{111}{lstlisting.5.8}% 
 \contentsline {lstlisting}{\numberline {5.9}progressive enhancement bij het delen van een link}{112}{lstlisting.5.9}% 
 \contentsline {lstlisting}{\numberline {5.10}toestemming vragen voor push notificaties}{113}{lstlisting.5.10}% 
 \contentsline {lstlisting}{\numberline {5.11}push subscription}{113}{lstlisting.5.11}% 
