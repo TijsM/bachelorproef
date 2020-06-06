@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  28 MAY 2020 08:40
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  6 JUN 2020 17:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -323,77 +323,111 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@loff=\dimen159
 \@vwid@roff=\dimen160
 ))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen161
+\ar@mcellbox=\box58
+\extrarowheight=\dimen162
+\NC@list=\toks30
+\extratabsurround=\skip51
+\backup@length=\skip52
+\ar@cellbox=\box59
+)
+\everycr=\toks31
+\minrowclearance=\skip53
+)
 (./conference_poster.aux)
 \openout1 = `conference_poster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Try loading font information for TU+ptm on input line 21.
-LaTeX Font Info:    No file TUptm.fd. on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Try loading font information for TU+ptm on input line 24.
+LaTeX Font Info:    No file TUptm.fd. on input line 24.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 21.
+(Font)              using `TU/lmr/m/n' instead on input line 24.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-Package xcolor Warning: Incompatible color definition on input line 24.
+Package xcolor Warning: Incompatible color definition on input line 27.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/bx/n' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 24.
+(Font)              using `TU/ptm/m/n' instead on input line 27.
 
-LaTeX Font Info:    Try loading font information for TU+pcr on input line 28.
-LaTeX Font Info:    No file TUpcr.fd. on input line 28.
+LaTeX Font Info:    Try loading font information for TU+pcr on input line 31.
+LaTeX Font Info:    No file TUpcr.fd. on input line 31.
 
 LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 28.
+(Font)              using `TU/lmr/m/n' instead on input line 31.
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 24--29
+Underfull \hbox (badness 1205) in paragraph at lines 27--32
 []\TU/ptm/m/n/89.16 De interactie van progressive web appli-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--29
+Underfull \hbox (badness 10000) in paragraph at lines 27--32
 
  []
 
 File: figures/HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <figures/HOGENT_Logo_Pos_rgb.png>
 
-Overfull \hbox (20.00917pt too wide) in paragraph at lines 23--35
+Overfull \hbox (20.00917pt too wide) in paragraph at lines 26--38
 [][] [] 
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 45.
+Package xcolor Warning: Incompatible color definition on input line 48.
 
 
-Package xcolor Warning: Incompatible color definition on input line 55.
+Package xcolor Warning: Incompatible color definition on input line 57.
 
 
-Package xcolor Warning: Incompatible color definition on input line 66.
+Package xcolor Warning: Incompatible color definition on input line 68.
 
 
-Package xcolor Warning: Incompatible color definition on input line 71.
+Package xcolor Warning: Incompatible color definition on input line 86.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 90.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 90.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+Package xcolor Warning: Incompatible color definition on input line 116.
 
 
-Package xcolor Warning: Incompatible color definition on input line 75.
+Package xcolor Warning: Incompatible color definition on input line 138.
+
+
+Package xcolor Warning: Incompatible color definition on input line 144.
+
+
+Package xcolor Warning: Incompatible color definition on input line 162.
 
 [1
 
@@ -403,12 +437,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 4618 strings out of 492916
- 70391 string characters out of 6133345
- 154923 words of memory out of 5000000
- 8620 multiletter control sequences out of 15000+600000
- 3688 words of font info for 20 fonts, out of 8000000 for 9000
+ 4754 strings out of 492916
+ 72359 string characters out of 6133345
+ 204431 words of memory out of 5000000
+ 8738 multiletter control sequences out of 15000+600000
+ 8333 words of font info for 39 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 36i,5n,38p,302b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,7n,38p,559b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on conference_poster.pdf (1 page).
